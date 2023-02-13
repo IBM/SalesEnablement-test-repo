@@ -5,8 +5,8 @@ site_author: Andrew R. Jones (andrewj@us.ibm.com)
 copyright: Copyright &copy; 2022 IBM
 
 # Repository
-repo_name: IBM/SalesEnablement-PowerVS-L3
-#repo_url: https://github.com/IBM/SalesEnablement-PowerVS-L3
+repo_name: IBM/SalesEnablement-test-repo
+#repo_url: https://github.com/IBM/SalesEnablement-test-repo
 #edit_uri: edit/master/docs
 docs_dir: docs
 
