@@ -61,8 +61,8 @@ theme:
 
 plugins:
     - mkdocs-video
-        is_video: True
-        video_autoplay: False
+      is_video: True
+      video_autoplay: False
     - macros
     - search
 
