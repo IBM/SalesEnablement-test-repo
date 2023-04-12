@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="tdeutsch@us.ibm.com" displayName="Thomas W. (Thomas) Deutsch" isExternal="false" lastChatTime="1287156199687">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$79BB93E5EF0B2EF4.jpg"/>
+  <attribute name="callupname" value="Thomas W. (Thomas) Deutsch"/>
+  <attribute name="Telephone" value="1-949-243-6257"/>
+  <attribute name="worklocation" value="workLoc=FD3,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Solution Executive (responsible for ISST solutions across SWG/GBS/Research/Cloud)"/>
+  <attribute name="dn" value="uid=4D9964897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Thomas W. (Thomas) Deutsch"/>
+  <attribute name="telephonenumber" value="1-949-243-6257"/>
+  <attribute name="Address" value="3565 Harbor Blvd&#xA;Costa Mesa, CA 92626-1405&#xA;United States"/>
+  <attribute name="mail" value="tdeutsch@us.ibm.com"/>
+  <attribute name="Title" value="Solution Executive (responsible for ISST solutions across SWG/GBS/Research/Cloud)"/>
+  <attribute name="sn" value="Deutsch"/>
+  <attribute name="id" value="tdeutsch@us.ibm.com"/>
+  <attribute name="MailAddress" value="tdeutsch@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1397237153520"/>
+</person>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="jpackett@us.ibm.com" displayName="James B. Packett" isExternal="false" lastChatTime="1418047456220">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$4AA71D980612109B.jpg"/>
+  <attribute name="callupname" value="James B. Packett"/>
+  <attribute name="Telephone" value="1-708-308-0836"/>
+  <attribute name="worklocation" value="workLoc=GD2,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Certified IT Architect"/>
+  <attribute name="dn" value="uid=6A3056897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="James B. Packett"/>
+  <attribute name="telephonenumber" value="1-708-308-0836"/>
+  <attribute name="Address" value="18W140 Butterfield Road&#xA;One Lincoln Centre, 16Th Floor&#xA;Oakbrook Terrace, IL 60181-4835&#xA;United States"/>
+  <attribute name="mail" value="jpackett@us.ibm.com"/>
+  <attribute name="Title" value="Certified IT Architect"/>
+  <attribute name="sn" value="Packett"/>
+  <attribute name="id" value="jpackett@us.ibm.com"/>
+  <attribute name="MailAddress" value="jpackett@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1425657943020"/>
+</person>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="mselinge@us.ibm.com" displayName="Matthew M. Selinger" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$6115E2040162008.jpg"/>
+  <attribute name="callupname" value="Matthew M. (Matt) Selinger"/>
+  <attribute name="Telephone" value="1-617-985-2606"/>
+  <attribute name="worklocation" value="workLoc=CMA,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="FSL - State Street"/>
+  <attribute name="dn" value="uid=7A6987897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Matthew M. (Matt) Selinger"/>
+  <attribute name="telephonenumber" value="1-617-985-2606"/>
+  <attribute name="Address" value="One Rogers St&#xA;Cambridge, MA 02142-1203&#xA;United States"/>
+  <attribute name="mail" value="mselinge@us.ibm.com"/>
+  <attribute name="Title" value="FSL - State Street"/>
+  <attribute name="sn" value="Selinger"/>
+  <attribute name="id" value="mselinge@us.ibm.com"/>
+  <attribute name="MailAddress" value="mselinge@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1408992450263"/>
+</person>

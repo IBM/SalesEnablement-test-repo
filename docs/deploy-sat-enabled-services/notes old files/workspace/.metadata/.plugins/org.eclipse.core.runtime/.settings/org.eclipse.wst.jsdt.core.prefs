@@ -1,0 +1,6 @@
+#Mon Oct 19 07:12:21 CDT 2015
+org.eclipse.wst.jsdt.core.compiler.problem.unresolvedFieldReference=ignore
+org.eclipse.wst.jsdt.core.compiler.problem.unresolvedMethodReference=ignore
+org.eclipse.wst.jsdt.core.compiler.problem.optionalSemicolon=ignore
+eclipse.preferences.version=1
+org.eclipse.wst.jsdt.core.compiler.problem.unresolvedTypeReference=ignore

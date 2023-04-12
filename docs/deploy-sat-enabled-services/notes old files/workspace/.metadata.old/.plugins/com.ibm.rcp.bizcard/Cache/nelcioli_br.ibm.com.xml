@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<name>De Oliveira, Nelci Lopes</name>
+<LastUpdated>1429116284549</LastUpdated>
+<actualtimezoneid>America/Sao_Paulo</actualtimezoneid>
+<timezoneid>-300</timezoneid>
+<postalCode>04007-900</postalCode>
+<uid>087408631</uid>
+<userId>cf12ffc0-8f0a-1028-8ee7-db07163b51b2</userId>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/nelcioli_br.ibm.com</photoUri>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=cf12ffc0-8f0a-1028-8ee7-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=cf12ffc0-8f0a-1028-8ee7-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=cf12ffc0-8f0a-1028-8ee7-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=cf12ffc0-8f0a-1028-8ee7-db07163b51b2&amp;name=De%20Oliveira%2C%20Nelci%20Lopes"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=cf12ffc0-8f0a-1028-8ee7-db07163b51b2&amp;name=De%20Oliveira%2C%20Nelci%20Lopes"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/cf12ffc0-8f0a-1028-8ee7-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=cf12ffc0-8f0a-1028-8ee7-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Dcf12ffc0-8f0a-1028-8ee7-db07163b51b2%2Cname%3DDe%20Oliveira%2C%20Nelci%20Lopes"/>
+</BusinessCardLinks>
+</BusinessCard>

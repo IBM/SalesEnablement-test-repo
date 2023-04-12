@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="TIF@dk.ibm.com" displayName="Torben Fersøe" isExternal="false" lastChatTime="1360705108761">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$69C3D5C5574E308B.jpg"/>
+  <attribute name="callupname" value="Torben Fersøe"/>
+  <attribute name="Telephone" value="45-2880 3308"/>
+  <attribute name="worklocation" value="workLoc=C9Y,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="IBM Cloud Services global enablement and deployment leader"/>
+  <attribute name="dn" value="uid=005170678,c=dk,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Torben Fersøe"/>
+  <attribute name="telephonenumber" value="45-2880 3308"/>
+  <attribute name="Address" value="Prøvensvej 1&#xA;Brøndby 2605&#xA;Denmark"/>
+  <attribute name="mail" value="TIF@dk.ibm.com"/>
+  <attribute name="Title" value="IBM Cloud Services global enablement and deployment leader"/>
+  <attribute name="sn" value="Fersøe"/>
+  <attribute name="id" value="TIF@dk.ibm.com"/>
+  <attribute name="MailAddress" value="TIF@dk.ibm.com"/>
+  <attribute name="lastUpdate" value="1398691564415"/>
+</person>

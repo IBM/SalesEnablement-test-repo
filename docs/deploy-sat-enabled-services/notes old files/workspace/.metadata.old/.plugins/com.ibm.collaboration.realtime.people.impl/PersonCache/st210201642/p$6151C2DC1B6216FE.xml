@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="pfalkner@us.ibm.com" displayName="Patricia D. (Patti) Falkner" isExternal="false" lastChatTime="1426702174139">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$6151C2DC1B6216FE.jpg"/>
+  <attribute name="callupname" value="Patricia D. (Patti) Falkner"/>
+  <attribute name="tieline" value="339-5059"/>
+  <attribute name="Telephone" value="339-5059 / 1-858-587-5059"/>
+  <attribute name="worklocation" value="workLoc=UCL,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Manager - Migration Services for Cloud"/>
+  <attribute name="dn" value="uid=931558897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Patricia D. (Patti) Falkner"/>
+  <attribute name="telephonenumber" value="339-5059 / 1-858-587-5059"/>
+  <attribute name="Address" value="4660 La Jolla Village&#xA;San Diego, CA 92122-4601&#xA;United States"/>
+  <attribute name="mail" value="pfalkner@us.ibm.com"/>
+  <attribute name="Title" value="Manager - Migration Services for Cloud"/>
+  <attribute name="id" value="pfalkner@us.ibm.com"/>
+  <attribute name="sn" value="Falkner"/>
+  <attribute name="MailAddress" value="pfalkner@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1427117306778"/>
+</person>

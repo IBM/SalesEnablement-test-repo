@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>United States</countryName>
+<locality>TULSA</locality>
+<org>IBM Cloud</org>
+<userId>9a0a0140-1f6f-1031-8564-fc8ed460f1bb</userId>
+<name>KELLER, FRED LEE *CONTRACTOR*</name>
+<floor>NA</floor>
+<officeBuilding>509N</officeBuilding>
+<uid>C-D8N1897</uid>
+<region>OK</region>
+<role>non-IBM employee, Contractor</role>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/fredk_us.ibm.com</photoUri>
+<office>HOME</office>
+<email>fredk@us.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=9a0a0140-1f6f-1031-8564-fc8ed460f1bb&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=9a0a0140-1f6f-1031-8564-fc8ed460f1bb"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=9a0a0140-1f6f-1031-8564-fc8ed460f1bb"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=9a0a0140-1f6f-1031-8564-fc8ed460f1bb&amp;name=KELLER%2C%20FRED%20LEE%20*CONTRACTOR*"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=9a0a0140-1f6f-1031-8564-fc8ed460f1bb&amp;name=KELLER%2C%20FRED%20LEE%20*CONTRACTOR*"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/9a0a0140-1f6f-1031-8564-fc8ed460f1bb"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=9a0a0140-1f6f-1031-8564-fc8ed460f1bb"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D9a0a0140-1f6f-1031-8564-fc8ed460f1bb%2Cname%3DKELLER%2C%20FRED%20LEE%20*CONTRACTOR*"/>
+</BusinessCardLinks>
+<LastUpdated>1441916123067</LastUpdated>
+</BusinessCard>

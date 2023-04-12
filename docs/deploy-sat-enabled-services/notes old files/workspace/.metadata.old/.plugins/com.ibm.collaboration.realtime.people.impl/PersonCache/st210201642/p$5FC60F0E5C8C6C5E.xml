@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="virginie_haas@fr.ibm.com" displayName="Virginie Haas" isExternal="false" lastChatTime="1414076431741">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$5FC60F0E5C8C6C5E.jpg"/>
+  <attribute name="callupname" value="Virginie Haas"/>
+  <attribute name="tieline" value="802295"/>
+  <attribute name="Telephone" value="802295 / 33-1-5875-2295"/>
+  <attribute name="worklocation" value="workLoc=E9F,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="VP, WW Cloud Services Sales"/>
+  <attribute name="dn" value="uid=030779706,c=fr,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Virginie Haas"/>
+  <attribute name="telephonenumber" value="802295 / 33-1-5875-2295"/>
+  <attribute name="Address" value="17 Avenue De L&apos;Europe&#xA;Bois Colombes Cedex 92275&#xA;France"/>
+  <attribute name="mail" value="virginie_haas@fr.ibm.com"/>
+  <attribute name="Title" value="VP, WW Cloud Services Sales"/>
+  <attribute name="id" value="virginie_haas@fr.ibm.com"/>
+  <attribute name="sn" value="Haas"/>
+  <attribute name="MailAddress" value="virginie_haas@fr.ibm.com"/>
+  <attribute name="lastUpdate" value="1424092800101"/>
+</person>

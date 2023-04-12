@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="jdwilson@us.ibm.com" displayName="jdwilson@us.ibm.com - John Wilson/Houston/IBM" isExternal="false" lastChatTime="1435587723118">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$20757258B08CFDF7.jpg"/>
+  <attribute name="callupname" value="John D. Wilson"/>
+  <attribute name="tieline" value="695-4644"/>
+  <attribute name="Telephone" value="695-4644 / 1-832-284-3399"/>
+  <attribute name="worklocation" value="workLoc=FR6,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="IBM Corporate Innovation &amp; Licensing, Patent Development Team"/>
+  <attribute name="dn" value="uid=693363897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="John D. Wilson"/>
+  <attribute name="telephonenumber" value="695-4644 / 1-832-284-3399"/>
+  <attribute name="Address" value="12301 Kurland Dr&#xA;Suite 300&#xA;Houston, TX 77034-4812&#xA;United States"/>
+  <attribute name="mail" value="jdwilson@us.ibm.com"/>
+  <attribute name="Title" value="IBM Corporate Innovation &amp; Licensing, Patent Development Team"/>
+  <attribute name="id" value="jdwilson@us.ibm.com"/>
+  <attribute name="sn" value="Wilson"/>
+  <attribute name="MailAddress" value="jdwilson@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1435587723232"/>
+</person>

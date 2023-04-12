@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<streetAddress>Sta. Hortensia 26-28
+Madrid, M 28002
+Spain</streetAddress>
+<title>IBM Cloud Services</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/ejarabo_es.ibm.com</photoUri>
+<tel>34-913 976 073 x66073</tel>
+<name>Jarabo DeleÑa, Enrique</name>
+<email>ejarabo@es.ibm.com</email>
+<LastUpdated>1448976021103</LastUpdated>
+<timezoneid>+100</timezoneid>
+<countryName>Spain</countryName>
+<locality>MADRID</locality>
+<org>IBM Cloud</org>
+<userId>293ef140-bc2c-1028-94d6-b455b866fca2</userId>
+<officeBuilding>1</officeBuilding>
+<uid>082626838</uid>
+<region>M</region>
+<role>IBM employee, Regular</role>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=293ef140-bc2c-1028-94d6-b455b866fca2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=293ef140-bc2c-1028-94d6-b455b866fca2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=293ef140-bc2c-1028-94d6-b455b866fca2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=293ef140-bc2c-1028-94d6-b455b866fca2&amp;name=Jarabo%20Dele%C3%91a%2C%20Enrique"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=293ef140-bc2c-1028-94d6-b455b866fca2&amp;name=Jarabo%20Dele%C3%91a%2C%20Enrique"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/293ef140-bc2c-1028-94d6-b455b866fca2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=293ef140-bc2c-1028-94d6-b455b866fca2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D293ef140-bc2c-1028-94d6-b455b866fca2%2Cname%3DJarabo%20Dele%C3%91a%2C%20Enrique"/>
+</BusinessCardLinks>
+<actualtimezoneid>Europe/Paris</actualtimezoneid>
+</BusinessCard>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="gmastria@us.ibm.com" displayName="Gloria J. Mastriano" isExternal="false" lastChatTime="1426875626509">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$44EF49683BB43173.jpg"/>
+  <attribute name="callupname" value="Gloria J. Mastriano"/>
+  <attribute name="tieline" value="451-4208"/>
+  <attribute name="Telephone" value="451-4208 / 1-585-723-4208"/>
+  <attribute name="worklocation" value="workLoc=KDC,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Assistant to: Jim Brannan, VP / Meenagi Venkat, VP / Jon Hall, Director"/>
+  <attribute name="dn" value="uid=202132897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Gloria J. Mastriano"/>
+  <attribute name="telephonenumber" value="451-4208 / 1-585-723-4208"/>
+  <attribute name="Address" value="1630 Long Pond Rd&#xA;Rochester, NY 14626-1496&#xA;United States"/>
+  <attribute name="mail" value="gmastria@us.ibm.com"/>
+  <attribute name="Title" value="Assistant to: Jim Brannan, VP / Meenagi Venkat, VP / Jon Hall, Director"/>
+  <attribute name="id" value="gmastria@us.ibm.com"/>
+  <attribute name="sn" value="Mastriano"/>
+  <attribute name="MailAddress" value="gmastria@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1429110476760"/>
+</person>

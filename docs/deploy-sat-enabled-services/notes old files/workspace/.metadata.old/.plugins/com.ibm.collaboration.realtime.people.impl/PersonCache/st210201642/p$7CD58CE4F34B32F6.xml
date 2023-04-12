@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="jasdeep@us.ibm.com" displayName="Jasdeep G. Purdhani" isExternal="false" lastChatTime="1430502841662">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$7CD58CE4F34B32F6.jpg"/>
+  <attribute name="callupname" value="Jasdeep G. Purdhani"/>
+  <attribute name="tieline" value="938-9859"/>
+  <attribute name="Telephone" value="938-9859 / 1-720-396-9859"/>
+  <attribute name="worklocation" value="workLoc=SJH,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Program Manager - Global Cloud Service Enablement"/>
+  <attribute name="dn" value="uid=2A5493897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Jasdeep G. Purdhani"/>
+  <attribute name="telephonenumber" value="938-9859 / 1-720-396-9859"/>
+  <attribute name="Address" value="650 Harry Road&#xA;Almaden Research Center&#xA;San Jose, CA 95120-6099&#xA;United States"/>
+  <attribute name="mail" value="jasdeep@us.ibm.com"/>
+  <attribute name="Title" value="Program Manager - Global Cloud Service Enablement"/>
+  <attribute name="id" value="jasdeep@us.ibm.com"/>
+  <attribute name="sn" value="Purdhani"/>
+  <attribute name="MailAddress" value="jasdeep@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1431028200130"/>
+</person>

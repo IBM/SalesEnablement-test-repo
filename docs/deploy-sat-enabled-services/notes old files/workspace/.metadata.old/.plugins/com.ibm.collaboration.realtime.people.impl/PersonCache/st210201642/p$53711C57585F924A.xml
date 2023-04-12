@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="wgsherm@us.ibm.com" displayName="Greg Sherman" isExternal="false" lastChatTime="1361554376746">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$53711C57585F924A.jpg"/>
+  <attribute name="callupname" value="WILLIAM  (GREG) SHERMAN"/>
+  <attribute name="tieline" value="553-7088"/>
+  <attribute name="Telephone" value="553-7088 / 1-507-253-7088"/>
+  <attribute name="worklocation" value="workLoc=PLR,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Global Offering Manager - IBM Cloud marketplace and Application Services"/>
+  <attribute name="dn" value="uid=511964897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="WILLIAM  (GREG) SHERMAN"/>
+  <attribute name="telephonenumber" value="553-7088 / 1-507-253-7088"/>
+  <attribute name="Address" value="3605 Hwy 52 N&#xA;Rochester, MN 55901-1407&#xA;United States"/>
+  <attribute name="mail" value="wgsherm@us.ibm.com"/>
+  <attribute name="Title" value="Global Offering Manager - IBM Cloud marketplace and Application Services"/>
+  <attribute name="id" value="wgsherm@us.ibm.com"/>
+  <attribute name="sn" value="SHERMAN"/>
+  <attribute name="MailAddress" value="wgsherm@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1408992460253"/>
+</person>

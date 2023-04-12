@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="joel.thompson@us.ibm.com" displayName="JOEL W. THOMPSON" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$685F7EEF330A2E23.jpg"/>
+  <attribute name="callupname" value="Joel W. Thompson"/>
+  <attribute name="Telephone" value="1-319-848-3355"/>
+  <attribute name="worklocation" value="workLoc=DMI,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Consulting Technical Solutions Manager"/>
+  <attribute name="dn" value="uid=2G9843897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Joel W. Thompson"/>
+  <attribute name="telephonenumber" value="1-319-848-3355"/>
+  <attribute name="Address" value="400 Locust St&#xA;Des Moines, IA 50309-2331&#xA;United States"/>
+  <attribute name="mail" value="joel.thompson@us.ibm.com"/>
+  <attribute name="Title" value="Consulting Technical Solutions Manager"/>
+  <attribute name="sn" value="THOMPSON"/>
+  <attribute name="id" value="joel.thompson@us.ibm.com"/>
+  <attribute name="MailAddress" value="joel.thompson@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1392154075773"/>
+</person>

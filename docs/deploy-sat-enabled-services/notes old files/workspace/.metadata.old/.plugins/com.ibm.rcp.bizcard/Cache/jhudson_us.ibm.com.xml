@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<uid>C-9DS9897</uid>
+<streetAddress>6300 Diagonal Hwy
+Boulder, CO 80301-6108
+United States</streetAddress>
+<userId>95af6740-42e3-102e-8e12-a4d340b3ab26</userId>
+<title>Program Management</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/jhudson_us.ibm.com</photoUri>
+<tel>1-303-651-9592</tel>
+<name>Hudson, Joe *CONTRACTOR*</name>
+<email>jhudson@us.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=95af6740-42e3-102e-8e12-a4d340b3ab26&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=95af6740-42e3-102e-8e12-a4d340b3ab26"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=95af6740-42e3-102e-8e12-a4d340b3ab26"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=95af6740-42e3-102e-8e12-a4d340b3ab26&amp;name=Hudson%2C%20Joe%20*CONTRACTOR*"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=95af6740-42e3-102e-8e12-a4d340b3ab26&amp;name=Hudson%2C%20Joe%20*CONTRACTOR*"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/95af6740-42e3-102e-8e12-a4d340b3ab26"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=95af6740-42e3-102e-8e12-a4d340b3ab26"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D95af6740-42e3-102e-8e12-a4d340b3ab26%2Cname%3DHudson%2C%20Joe%20*CONTRACTOR*"/>
+</BusinessCardLinks>
+<LastUpdated>1427202025279</LastUpdated>
+<actualtimezoneid>America/Denver</actualtimezoneid>
+<timezoneid>-600</timezoneid>
+</BusinessCard>

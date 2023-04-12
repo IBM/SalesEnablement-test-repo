@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="KirHeyman@us.ibm.com" displayName="Kirstin L. Heyman" isExternal="false" lastChatTime="1279638221109">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$557945A8D9E006E8.jpg"/>
+  <attribute name="callupname" value="Kirstin L. Heyman"/>
+  <attribute name="tieline" value="676-5416"/>
+  <attribute name="Telephone" value="676-5416 / 1-720-395-5416"/>
+  <attribute name="worklocation" value="workLoc=MPW,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Global Market Segment Manager"/>
+  <attribute name="dn" value="uid=891049897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Kirstin L. Heyman"/>
+  <attribute name="telephonenumber" value="676-5416 / 1-720-395-5416"/>
+  <attribute name="Address" value="650 3Rd Ave. South&#xA;Minneapolis, MN 55402-4300&#xA;United States"/>
+  <attribute name="mail" value="KirHeyman@us.ibm.com"/>
+  <attribute name="Title" value="Global Market Segment Manager"/>
+  <attribute name="id" value="KirHeyman@us.ibm.com"/>
+  <attribute name="sn" value="Heyman"/>
+  <attribute name="MailAddress" value="KirHeyman@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1412860317893"/>
+</person>

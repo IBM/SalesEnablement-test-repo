@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imClientConfig buddylist-version="1.0" external-mod="" lastUpdated="1449085025135" product="Sametime" version="7.5">
+  <communities>
+    <community alwaysEditActiveText="true" alwaysEditAwayText="true" alwaysEditDndText="true" authServerUrl="" authType="ST-DOMINO-SSO" autoAwayTimeout="20" availWhenUnlocked="true" cloud="false" editable="" email="" host="messaging.ibm.com" iconIsUserSpecified="false" iconPath="" id="st267182342" internetFilter="" isAutoActiveEnabled="true" isAutoAwayEnabled="true" isAutoAwayTimeoutEnabled="true" keepAliveInterval="60" loginAtStartup="false" loginByToken="false" managed="false" name="messaging.ibm.com" partnerIdType="" port="1533" primry="false" providerId="Sametime" readNotesCanonicalSetting="false" resolveLivenames="false" savePassword="false" sendKeepAlive="true" useCustomTextForAutoAway="false" useGlobalConnSettings="true" useOsPass="false" useServerForLookup="true" userid="andrewj@us.ibm.com" username="andrewj@us.ibm.com">
+      <connection connectionType="direct" proxyHost="" proxyPort="" proxyResolvesLocally="false" proxyUserName="" tokenHostUrl="" transport=""/>
+      <statusTexts>
+        <activeText>I am available</activeText>
+        <awayText>I am away from my computer now</awayText>
+        <awayText>Doctor appointments, back around 2 Central.</awayText>
+        <awayText>Doctor appointments, back around 1 Central.</awayText>
+        <awayText>I am away from my computer now, back around 7:30 p.m. central for evening calls.</awayText>
+        <awayText>I am away from my computer now, back around 6:30p.m. central for evening calls.</awayText>
+        <awayText>I am away from my computer now, back around 8:30 p.m. central for evening calls.</awayText>
+        <inMtgText>I am in a meeting</inMtgText>
+        <inMtgText>In a meeting</inMtgText>
+        <inMtgText>Meetings in Brazil... slow to respond</inMtgText>
+        <inMtgText>Customer meeting will be slow to respond</inMtgText>
+        <inMtgText>Presenting to a client, will be slow to respond (up to an hour)</inMtgText>
+        <inMtgText>I am in a meeting in Japan</inMtgText>
+        <dndText>Please do not disturb me</dndText>
+        <dndText>Presenting</dndText>
+        <dndText>DND - in studio recording a rap about Migration Services</dndText>
+        <dndText>Please do not disturb me - recording presentations</dndText>
+        <dndText>Please do not disturb</dndText>
+        <dndText>Please do not disturb me - recording a presentation</dndText>
+        <idleText>I am away from my computer now</idleText>
+        <lockText>I am away from my computer now</lockText>
+      </statusTexts>
+      <service-mapping impl="com.ibm.collaboration.realtime.directory.bluepages.BluePagesDirectoryFactory" type="com.ibm.collaboration.realtime.contacts.search.DirectoryServiceFactory"/>
+    </community>
+  </communities>
+  <contactList>
+    <group expanded="true" name="SBEDepartment" type="private">
+      <user communityId="st267182342" displayName="Leon Gong" id="leongong@us.ibm.com" lastChat="1175788682109"/>
+      <user communityId="st267182342" displayName="Michael R. Olivas" id="molivas@us.ibm.com" lastChat="1363717288261"/>
+      <user communityId="st267182342" displayName="Christine E. Posluszny" id="cpos@us.ibm.com" lastChat="1201040645921"/>
+    </group>
+    <group expanded="false" name="IMS" type="private">
+      <user communityId="st267182342" displayName="Dave Shuster" id="dashuste@us.ibm.com" lastChat="1164814511065"/>
+      <user communityId="st267182342" displayName="Lawrence H. (Larry) Irvin" id="lirvin@us.ibm.com" lastChat="1202136015390"/>
+      <user communityId="st267182342" displayName="William Streit" id="wstreit@us.ibm.com" lastChat="1353337406358"/>
+      <user communityId="st267182342" displayName="Kevin W. Twardus" id="twardus@us.ibm.com" lastChat="1173974631218"/>
+      <user communityId="st267182342" displayName="Donald G. Workman" id="dworkman@us.ibm.com" lastChat="1200499488968"/>
+      <user communityId="st267182342" displayName="Oliver Birch" id="obirch@us.ibm.com" lastChat="1365688539616"/>
+      <user communityId="st267182342" displayName="Zsolt Szalai" id="SZALAI@fr.ibm.com" lastChat="1183138061390"/>
+      <user communityId="st267182342" displayName="Rebecca Chen" id="rchen@tw.ibm.com" lastChat="1208453751000"/>
+      <user communityId="st267182342" displayName="Ofira Tal" id="OFIRA@il.ibm.com" lastChat="1240402884062"/>
+      <user communityId="st267182342" displayName="Can P. Boyacigiller" id="can@us.ibm.com" lastChat="1191530385765"/>
+      <user communityId="st267182342" displayName="Pamela A. Lee" id="palee@us.ibm.com" lastChat="1303243539718"/>
+      <user communityId="st267182342" displayName="Derek D. (Derek) Baron" id="ddbaron@us.ibm.com" lastChat="1223647648390"/>
+      <user communityId="st267182342" displayName="Michael W. Clanton" id="clantonm@us.ibm.com" lastChat="1219843061218"/>
+      <user communityId="st267182342" displayName="Raj (R.A.) Cherchattil" id="rcherch@ca.ibm.com" lastChat="1360677534645"/>
+      <user communityId="st267182342" displayName="brian_pulito@us.ibm.com - Brian Pulito/Lexington/IBM" id="brian_pulito@us.ibm.com" lastChat="1273761003781"/>
+      <user communityId="st267182342" displayName="gelliott@us.ibm.com - Gary Elliott" id="gelliott@us.ibm.com" lastChat="1327528690010"/>
+      <user communityId="st267182342" displayName="Vijay Bhadriraju" id="vbhadrir@us.ibm.com" lastChat="1284662085125"/>
+      <user communityId="st267182342" displayName="Allen Smith (444-4678)" id="allens@us.ibm.com" lastChat="1383056503265"/>
+      <user communityId="st267182342" displayName="Olivier Oudot" id="olivier.oudot@fr.ibm.com" lastChat="1267794918203"/>
+      <user communityId="st267182342" displayName="Mark E. Nosewicz" id="noz@us.ibm.com" lastChat="1164835960298"/>
+      <user communityId="st267182342" displayName="Timothy J. (Tim) Smith" id="tjsmith@us.ibm.com" lastChat="1170183136059"/>
+      <user communityId="st267182342" displayName="Joseph H. Mcintyre" id="joe@us.ibm.com" lastChat="1373580164777"/>
+      <user communityId="st267182342" displayName="Ivan H." id="ivanh@us.ibm.com" lastChat="1222274250859"/>
+      <user communityId="st267182342" displayName="Cristi Ullmann" id="cristi@us.ibm.com" lastChat="1206016486421"/>
+      <user communityId="st267182342" displayName="Gangadhar Poondota" id="gangadhe@us.ibm.com" lastChat="1193062268421"/>
+      <user communityId="st267182342" displayName="Anthony W. Wrobel Jr" id="aww@us.ibm.com" lastChat="1245931136375"/>
+      <user communityId="st267182342" displayName="Ronald A. Jones" id="rajones@us.ibm.com" lastChat="1207925149421"/>
+      <group expanded="true" name="Cox" type="private">
+        <user communityId="st267182342" displayName="Raymond M. Haseltine" id="rayhasel@us.ibm.com" lastChat="1191873981250"/>
+      </group>
+      <group expanded="true" name="Development" type="private">
+        <user communityId="st267182342" displayName="Cristi Ullmann" id="cristi@us.ibm.com" lastChat="1206016486421"/>
+        <user communityId="st267182342" displayName="Ivan H." id="ivanh@us.ibm.com" lastChat="1222274250859"/>
+        <user communityId="st267182342" displayName="Ronald A. Jones" id="rajones@us.ibm.com" lastChat="1207925149421"/>
+        <user communityId="st267182342" displayName="Gangadhar Poondota" id="gangadhe@us.ibm.com" lastChat="1193062268421"/>
+        <user communityId="st267182342" displayName="Dhandapani Shanmugam" id="dshanmug@in.ibm.com" lastChat="1299590877843"/>
+        <user communityId="st267182342" displayName="Alan G. Boutelle" id="boutelle@us.ibm.com" lastChat="1270742353328"/>
+        <user communityId="st267182342" displayName="Jojo Joseph" id="jjojo@in.ibm.com" lastChat="1273138892265"/>
+        <user communityId="st267182342" displayName="Anthony W. Wrobel Jr" id="aww@us.ibm.com" lastChat="1245931136375"/>
+        <user communityId="st267182342" displayName="Galina Rubinshtein" id="GALINA@il.ibm.com" lastChat="1276178471625"/>
+      </group>
+      <group expanded="true" name="Nortel" type="private">
+        <user communityId="st267182342" displayName="Joseph H. Mcintyre" id="joe@us.ibm.com" lastChat="1373580164777"/>
+        <user communityId="st267182342" displayName="Richard G. Condit" id="condit@us.ibm.com" lastChat="1193411452187"/>
+      </group>
+      <group expanded="false" name="TSL" type="private">
+        <user communityId="st267182342" displayName="Balasubramanian Sivasubramanian" id="bala@us.ibm.com" lastChat="1431961361720"/>
+        <user communityId="st267182342" displayName="Raghunandan K. Harithas" id="rnandan@us.ibm.com" lastChat="1251738919734"/>
+        <user communityId="st267182342" displayName="Thomas B. (Tom) Thacher" id="thacher@us.ibm.com" lastChat="1364590037501"/>
+      </group>
+    </group>
+    <group expanded="true" name="Patents" type="private">
+      <user communityId="st267182342" displayName="Rick A. Hamilton II" id="rh@us.ibm.com" lastChat="1448906489837"/>
+      <user communityId="st267182342" displayName="Alan P. Mitchell" id="amitch@us.ibm.com" lastChat="1204056094718"/>
+      <user communityId="st267182342" displayName="Gregory J. Boss" id="gboss@us.ibm.com" lastChat="1449083744099"/>
+      <user communityId="st267182342" displayName="William E. Schiesser" id="schiesse@us.ibm.com" lastChat="1426187503864"/>
+      <user communityId="st267182342" displayName="Brian M. O&apos;Connell" id="boc@us.ibm.com" lastChat="1444933320389"/>
+      <user communityId="st267182342" displayName="Keith R. Walker" id="krwalker@us.ibm.com" lastChat="1380823411644"/>
+      <user communityId="st267182342" displayName="Kulvir S. Bhogal" id="kbhogal@us.ibm.com" lastChat="1370276855800"/>
+      <user communityId="st267182342" displayName="John H. (Boz) Handy-Bosma" id="bosmaj@us.ibm.com" lastChat="1366738613436"/>
+      <user communityId="st267182342" displayName="John R. Pivnichny" id="pivnichn@us.ibm.com" lastChat="1448907014258"/>
+      <user communityId="st267182342" displayName="John E. Moore" id="John_Moore@us.ibm.com" lastChat="1448919066783"/>
+      <user communityId="st267182342" displayName="Bernadette A. Pierson" id="bpierson@us.ibm.com" lastChat="1439218584699"/>
+      <user communityId="st267182342" displayName="Steven Lingafelt" id="lingafel@us.ibm.com" lastChat="1447079397632"/>
+      <user communityId="st267182342" displayName="Ravi P. Bansal" id="rbansal@us.ibm.com" lastChat="1421775707551"/>
+      <user communityId="st267182342" displayName="Swaminathan Balasubramanian" id="bswami@us.ibm.com" lastChat="1403201752873"/>
+      <user communityId="st267182342" displayName="Anthony Edward  (Tony) Martinez" id="tonymart@us.ibm.com" lastChat="1300736418359"/>
+      <user communityId="st267182342" displayName="aupperle@us.ibm.com - Bryan Aupperle/Raleigh/IBM" id="aupperle@us.ibm.com" lastChat="1296757692078"/>
+      <user communityId="st267182342" displayName="jdwilson@us.ibm.com - John Wilson/Houston/IBM" id="jdwilson@us.ibm.com" lastChat="1439822215183"/>
+      <user communityId="st267182342" displayName="Indran Naick" id="indrann@us.ibm.com" lastChat="1288891725640"/>
+      <user communityId="st267182342" displayName="Paul N. Krystek" id="pkrystek@us.ibm.com" lastChat="1439823669735"/>
+      <user communityId="st267182342" displayName="Bret W. Lehman" id="bwlehman@us.ibm.com" lastChat="1444757425678"/>
+      <user communityId="st267182342" displayName="Clifford A. Pickover" id="cliffp@us.ibm.com" lastChat="1374244743131"/>
+      <user communityId="st267182342" displayName="Dean Brantly" id="brantly@us.ibm.com" lastChat="1443533894940"/>
+      <user communityId="st267182342" displayName="Diana  (Diana Roberts) Roberts Gerhardt" id="dlrobert@us.ibm.com" lastChat="1328803358936"/>
+      <user communityId="st267182342" displayName="James R. Kozloski" id="kozloski@us.ibm.com" lastChat="1414690277937"/>
+      <user communityId="st267182342" displayName="Yvonne M. Young" id="ymyoung@us.ibm.com" lastChat="1365101515272"/>
+      <user communityId="st267182342" displayName="DAVID B. LECTION" id="dlection@us.ibm.com" lastChat="1439823632865"/>
+      <user communityId="st267182342" displayName="rr@us.ibm.com - Randy Rendahl/Raleigh/IBM" id="rr@us.ibm.com" lastChat="1438886594693"/>
+      <user communityId="st267182342" displayName="Arup Acharya" id="arup@us.ibm.com" lastChat="1435240423778"/>
+      <user communityId="st267182342" displayName="jeremyf@us.ibm.com - Jeremy Fox/Boulder/IBM" id="jeremyf@us.ibm.com" lastChat="1448037932278"/>
+      <group expanded="true" name="GSServiceMgmtMethodsAndToolsIDT" type="private">
+        <user communityId="st267182342" displayName="Patti Foley" id="pfoley@us.ibm.com" lastChat="1448976004661"/>
+        <user communityId="st267182342" displayName="Peter (P.) Finn" id="pfinn@ca.ibm.com" lastChat="1438275642382"/>
+        <user communityId="st267182342" displayName="RAVI Kosaraju" id="rkosaraj@us.ibm.com" lastChat="1440698686798"/>
+        <user communityId="st267182342" displayName="Rick A. Hamilton II" id="rh@us.ibm.com" lastChat="1448906489837"/>
+        <user communityId="st267182342" displayName="Robert R. Wentworth" id="wentwort@us.ibm.com" lastChat="1438278780565"/>
+        <user communityId="st267182342" displayName="Tyson R. (TYSON) Midboe" id="tmidboe@us.ibm.com" lastChat="1438275820048"/>
+        <user communityId="st267182342" displayName="Vyacheslav Barsuk" id="barsuk@us.ibm.com" lastChat="1440698215302"/>
+        <user communityId="st267182342" displayName="Wally K. Karrat" id="karrat@us.ibm.com" lastChat="1448906384701"/>
+        <user communityId="st267182342" displayName="Alexandre Polozoff" id="polozoff@us.ibm.com" lastChat="1440694739283"/>
+        <user communityId="st267182342" displayName="Bret W. Lehman" id="bwlehman@us.ibm.com" lastChat="1444757425678"/>
+        <user communityId="st267182342" displayName="Brett W. Singletary" id="bsinglet@us.ibm.com" lastChat="1448909457818"/>
+        <user communityId="st267182342" displayName="Brian M. O&apos;Connell" id="boc@us.ibm.com" lastChat="1444933320389"/>
+        <user communityId="st267182342" displayName="Carl P. Gusler" id="cgusler@us.ibm.com" lastChat="1448907256587"/>
+        <user communityId="st267182342" displayName="chrisdaw@us.ibm.com - Chris Dawson/Somers/IBM" id="chrisdaw@us.ibm.com" lastChat="1444758641643"/>
+        <user communityId="st267182342" displayName="Dean Brantly" id="brantly@us.ibm.com" lastChat="1443533894940"/>
+        <user communityId="st267182342" displayName="Donald E. Schaefer" id="dschaef@us.ibm.com" lastChat="1440694738480"/>
+        <user communityId="st267182342" displayName="Eric M. Anderson" id="ericma@us.ibm.com" lastChat="1448906363229"/>
+        <user communityId="st267182342" displayName="Gregory J. Boss" id="gboss@us.ibm.com" lastChat="1449083744099"/>
+        <user communityId="st267182342" displayName="iraallen@us.ibm.com - Ira Allen/West Palm Beach/IBM" id="iraallen@us.ibm.com" lastChat="1448909456494"/>
+        <user communityId="st267182342" displayName="JAMES W. SEAMAN" id="jseaman@us.ibm.com" lastChat="1448909461994"/>
+        <user communityId="st267182342" displayName="Jenny S. Li" id="jennyli@us.ibm.com" lastChat="1438278568996"/>
+        <user communityId="st267182342" displayName="JOHN E. TRIERWEILER" id="jetrierw@us.ibm.com" lastChat="1438277813722"/>
+        <user communityId="st267182342" displayName="John E. Moore" id="John_Moore@us.ibm.com" lastChat="1448919066783"/>
+        <user communityId="st267182342" displayName="John R. Pivnichny" id="pivnichn@us.ibm.com" lastChat="1448907014258"/>
+        <user communityId="st267182342" displayName="AKM K. (Kamrul) Alam" id="kamrul@us.ibm.com" lastChat="1448909459651"/>
+        <user communityId="st267182342" displayName="Kenneth R. (Ken) Schneebeli" id="schneeb@us.ibm.com" lastChat="1424804578079"/>
+        <user communityId="st267182342" displayName="Kevin" id="kmc@us.ibm.com" lastChat="1448916610130"/>
+        <user communityId="st267182342" displayName="LARISA  (LAURA) SHWARTZ" id="lshwart@us.ibm.com" lastChat="1448906367671"/>
+        <user communityId="st267182342" displayName="Linwood E. (Lenny) Loving" id="leloving@us.ibm.com" lastChat="1448908341924"/>
+        <user communityId="st267182342" displayName="MATTHEW J. (Matthew) BANGEL" id="mjbangel@us.ibm.com" lastChat="1448907102915"/>
+        <user communityId="st267182342" displayName="Michael J. Ellsworth" id="mje@us.ibm.com" lastChat="1438277043744"/>
+        <user communityId="st267182342" displayName="Patrick B. (Paddy) Heywood" id="paddyh@us.ibm.com"/>
+      </group>
+      <group expanded="false" name="GTSHQIDT" type="private">
+        <user communityId="st267182342" displayName="Gregory J. Boss" id="gboss@us.ibm.com" lastChat="1449083744099"/>
+        <user communityId="st267182342" displayName="Kevin" id="kmc@us.ibm.com" lastChat="1448916610130"/>
+        <user communityId="st267182342" displayName="John E. Moore" id="John_Moore@us.ibm.com" lastChat="1448919066783"/>
+        <user communityId="st267182342" displayName="iraallen@us.ibm.com - Ira Allen/West Palm Beach/IBM" id="iraallen@us.ibm.com" lastChat="1448909456494"/>
+        <user communityId="st267182342" displayName="Brian M. O&apos;Connell" id="boc@us.ibm.com" lastChat="1444933320389"/>
+        <user communityId="st267182342" displayName="Vanessa V. Michelini" id="vanessam@us.ibm.com" lastChat="1401990285708"/>
+        <user communityId="st267182342" displayName="Yun Zhai" id="yunzhai@us.ibm.com" lastChat="1347905527619"/>
+        <user communityId="st267182342" displayName="Matthew Chung *Vendor*" id="mchung@us.ibm.com" lastChat="1415631332787"/>
+      </group>
+      <group expanded="true" name="GreenTechnologiesIDT" type="private">
+        <user communityId="st267182342" displayName="Bret W. Lehman" id="bwlehman@us.ibm.com" lastChat="1444757425678"/>
+        <user communityId="st267182342" displayName="Wally K. Karrat" id="karrat@us.ibm.com" lastChat="1448906384701"/>
+        <user communityId="st267182342" displayName="Michael J. Ellsworth" id="mje@us.ibm.com" lastChat="1438277043744"/>
+        <user communityId="st267182342" displayName="Kenneth R. (Ken) Schneebeli" id="schneeb@us.ibm.com" lastChat="1424804578079"/>
+        <user communityId="st267182342" displayName="Dean Brantly" id="brantly@us.ibm.com" lastChat="1443533894940"/>
+        <user communityId="st267182342" displayName="Gregory J. Boss" id="gboss@us.ibm.com" lastChat="1449083744099"/>
+        <user communityId="st267182342" displayName="John E. Moore" id="John_Moore@us.ibm.com" lastChat="1448919066783"/>
+        <user communityId="st267182342" displayName="Ronald A. Kaschak" id="rkaschak@us.ibm.com" lastChat="1426081653500"/>
+        <user communityId="st267182342" displayName="iraallen@us.ibm.com - Ira Allen/West Palm Beach/IBM" id="iraallen@us.ibm.com" lastChat="1448909456494"/>
+        <user communityId="st267182342" displayName="Robert R. Wentworth" id="wentwort@us.ibm.com" lastChat="1438278780565"/>
+      </group>
+    </group>
+    <group expanded="true" name="SMB Folks" type="private">
+      <user communityId="st267182342" displayName="Bob Sizemore" id="sizemore@us.ibm.com" lastChat="1275513680734"/>
+      <user communityId="st267182342" displayName="Greg Sherman" id="wgsherm@us.ibm.com" lastChat="1361554376746"/>
+    </group>
+    <group expanded="true" name="Friends" type="private">
+      <user communityId="st267182342" displayName="Andrew Jones (678-8023)" id="andrewj@us.ibm.com" lastChat="1448976004489"/>
+      <user communityId="st267182342" displayName="Kevin" id="kmc@us.ibm.com" lastChat="1448916610130"/>
+      <user communityId="st267182342" displayName="Ron St. Pierre" id="saint@us.ibm.com" lastChat="1264429128359"/>
+      <user communityId="st267182342" displayName="Audrey Romonosky" id="romonosk@us.ibm.com" lastChat="1204217921421"/>
+      <user communityId="st267182342" displayName="Allen Smith (444-4678)" id="allens@us.ibm.com" lastChat="1383056503265"/>
+      <user communityId="st267182342" displayName="Lisa A. Gable" id="lg@us.ibm.com" lastChat="1237393786843"/>
+      <user communityId="st267182342" displayName="Michael Burkhart" id="mikelb@us.ibm.com" lastChat="1222270285375"/>
+      <user communityId="st267182342" displayName="MikeCarlson@us.ibm.com - Mike Carlson/Austin/IBM" id="MikeCarlson@us.ibm.com" lastChat="1236100381468"/>
+      <user communityId="st267182342" displayName="zhaomh@cn.ibm.com - Mu Hong Zhao/China/IBM" id="zhaomh@cn.ibm.com" lastChat="1264429454203"/>
+      <user communityId="st267182342" displayName="Vijay Bhadriraju" id="vbhadrir@us.ibm.com" lastChat="1284662085125"/>
+      <user communityId="st267182342" displayName="Michael R. Olivas" id="molivas@us.ibm.com" lastChat="1363717288261"/>
+      <user communityId="st267182342" displayName="H  (Dennis) Sample" id="sampled@us.ibm.com" lastChat="1347539910093"/>
+      <user communityId="st267182342" displayName="Vincent C. (Vince) Brunssen" id="brunssen@us.ibm.com" lastChat="1344888874658"/>
+      <user communityId="st267182342" displayName="Neil Brown" id="nbrown@us.ibm.com" lastChat="1435266145611"/>
+      <user communityId="st267182342" displayName="Matthew A. Waldbusser" id="mwaldbus@us.ibm.com" lastChat="1438957691437"/>
+      <user communityId="st267182342" displayName="Karen M. Davis *Contractor*" id="kmdavis@us.ibm.com" lastChat="1390494555663"/>
+      <user communityId="st267182342" displayName="Kathy A. Wilson *Contractor*" id="kawils@us.ibm.com" lastChat="1435772981176"/>
+      <user communityId="st267182342" displayName="Lynne Mitchell" id="lbmitche@us.ibm.com" lastChat="1402934696857"/>
+      <user communityId="st267182342" displayName="Umesh G. Khatwani" id="ukhatwan@us.ibm.com"/>
+      <group expanded="false" name="AOL" type="private"/>
+      <group expanded="false" name="ASC" type="private"/>
+    </group>
+    <group expanded="false" name="Engines" type="private">
+      <user communityId="st267182342" displayName="What Is?" id="whatis@us.ibm.com" lastChat="1314731988859"/>
+    </group>
+    <group expanded="false" name="CrossTeamWorkgroup" type="private">
+      <user communityId="st267182342" displayName="Michael R. Olivas" id="molivas@us.ibm.com" lastChat="1363717288261"/>
+    </group>
+    <group expanded="true" name="Department" type="private"/>
+    <group expanded="false" name="ISSW" type="private">
+      <user communityId="st267182342" displayName="Mark A. Darholt" id="darholt@us.ibm.com" lastChat="1362499523862"/>
+      <user communityId="st267182342" displayName="Edward T. (Ed) Grossman" id="edgross@us.ibm.com" lastChat="1275688820406"/>
+      <user communityId="st267182342" displayName="Thomas B. (Tom) Thacher" id="thacher@us.ibm.com" lastChat="1364590037501"/>
+      <user communityId="st267182342" displayName="Cash Ramnath" id="cramnath@us.ibm.com" lastChat="1275685695515"/>
+      <group expanded="true" name="ComcastProject" type="private">
+        <user communityId="st267182342" displayName="Nicholas J. (Nick) Keller" id="nkeller@us.ibm.com" lastChat="1274296120906"/>
+        <user communityId="st267182342" displayName="Oliver Birch" id="obirch@us.ibm.com" lastChat="1365688539616"/>
+      </group>
+      <group expanded="true" name="CoxProject" type="private"/>
+    </group>
+    <group expanded="true" name="WAS Development" type="private">
+      <user communityId="st267182342" displayName="brian_pulito@us.ibm.com - Brian Pulito/Lexington/IBM" id="brian_pulito@us.ibm.com" lastChat="1273761003781"/>
+      <user communityId="st267182342" displayName="Harley A. Stenzel (Edge Server/DataPower)" id="hstenzel@us.ibm.com" lastChat="1259844416906"/>
+      <user communityId="st267182342" displayName="dmd@us.ibm.com - Dana Duffield/Rochester/IBM" id="dmd@us.ibm.com" lastChat="1270826107328"/>
+      <user communityId="st267182342" displayName="John L. Koehler" id="jkoehler@us.ibm.com" lastChat="1270731390234"/>
+      <user communityId="st267182342" displayName="Gary J. Deval" id="gjdeval@us.ibm.com" lastChat="1270160397431"/>
+      <user communityId="st267182342" displayName="Ran Bar-Lavie" id="RAN@il.ibm.com" lastChat="1273762639718"/>
+    </group>
+    <group expanded="false" name="BPTE" type="private">
+      <user communityId="st267182342" displayName="Allen Smith (444-4678)" id="allens@us.ibm.com" lastChat="1383056503265"/>
+      <user communityId="st267182342" displayName="gelliott@us.ibm.com - Gary Elliott" id="gelliott@us.ibm.com" lastChat="1327528690010"/>
+      <user communityId="st267182342" displayName="Bill Barrus (444-3164)" id="bbarrus@us.ibm.com" lastChat="1190128951125"/>
+      <user communityId="st267182342" displayName="Rajasekhar Durvasula" id="rdurvasu@in.ibm.com" lastChat="1265636145187"/>
+      <user communityId="st267182342" displayName="Olivier Oudot" id="olivier.oudot@fr.ibm.com" lastChat="1267794918203"/>
+      <user communityId="st267182342" displayName="Kent Malave" id="kmalave@us.ibm.com" lastChat="1225131822531"/>
+      <user communityId="st267182342" displayName="William  (Bill) Griffith" id="wgriffith@us.ibm.com" lastChat="1247245283000"/>
+      <user communityId="st267182342" displayName="Glenn Stump" id="stumpga@us.ibm.com" lastChat="1238504465156"/>
+      <user communityId="st267182342" displayName="Jacques Cresp" id="CRESP@fr.ibm.com" lastChat="1243613165546"/>
+      <user communityId="st267182342" displayName="David M. Orthober" id="orthober@us.ibm.com" lastChat="1254311452562"/>
+      <user communityId="st267182342" displayName="Douglas W. Slade" id="dugslade@us.ibm.com" lastChat="1270557546781"/>
+      <user communityId="st267182342" displayName="anilk@us.ibm.com - Anil A Kumar/San Jose/IBM" id="anilk@us.ibm.com" lastChat="1264695900281"/>
+      <group expanded="true" name="[Root]" type="private">
+        <group expanded="false" name="aRedbook" type="private">
+          <user communityId="st267182342" displayName="Rajasekhar Durvasula" id="rdurvasu@in.ibm.com" lastChat="1265636145187"/>
+          <user communityId="st267182342" displayName="Vijay Bhadriraju" id="vbhadrir@us.ibm.com" lastChat="1284662085125"/>
+          <user communityId="st267182342" displayName="Ravikumar R Kanamatareddy" id="rkanamat@in.ibm.com" lastChat="1192108252578"/>
+          <group expanded="false" name="aRedbook" type="private">
+            <user communityId="st267182342" displayName="Rajasekhar Durvasula" id="rdurvasu@in.ibm.com" lastChat="1265636145187"/>
+            <user communityId="st267182342" displayName="Vijay Bhadriraju" id="vbhadrir@us.ibm.com" lastChat="1284662085125"/>
+            <user communityId="st267182342" displayName="Ravikumar R Kanamatareddy" id="rkanamat@in.ibm.com" lastChat="1192108252578"/>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group expanded="true" name="Cloud" type="private">
+      <user communityId="st267182342" displayName="Jonathan G. (Jon) Hall" id="jonhall@us.ibm.com" lastChat="1429114440791"/>
+      <user communityId="st267182342" displayName="Brian J. Snitzer" id="snitzer@us.ibm.com" lastChat="1438886596460"/>
+      <user communityId="st267182342" displayName="Diana G. Harris" id="dharris@us.ibm.com" lastChat="1364226880159"/>
+      <user communityId="st267182342" displayName="Benjamin H. Briggs" id="briggsb@us.ibm.com" lastChat="1300806993338"/>
+      <user communityId="st267182342" displayName="Anthony Dasari" id="adasari@us.ibm.com" lastChat="1316015456640"/>
+      <user communityId="st267182342" displayName="Kavita Chavda" id="chavdak@us.ibm.com" lastChat="1438884243622"/>
+      <user communityId="st267182342" displayName="rr@us.ibm.com - Randy Rendahl/Raleigh/IBM" id="rr@us.ibm.com" lastChat="1438886594693"/>
+      <user communityId="st267182342" displayName="Daniel M. (Dan) Anders" id="dmanders@us.ibm.com" lastChat="1397762090469"/>
+      <user communityId="st267182342" displayName="William  (Bill) Whelpley" id="whelpley@us.ibm.com" lastChat="1375467946646"/>
+      <user communityId="st267182342" displayName="Kimberly Gist" id="kgist@us.ibm.com" lastChat="1303931805546"/>
+      <user communityId="st267182342" displayName="Kirstin L. Heyman" id="KirHeyman@us.ibm.com" lastChat="1279638221109"/>
+      <user communityId="st267182342" displayName="Thomas W. (Thomas) Deutsch" id="tdeutsch@us.ibm.com" lastChat="1287156199687"/>
+      <user communityId="st267182342" displayName="Mary E. (Mary Beth) Kelley" id="mbkelley@us.ibm.com" lastChat="1297696047250"/>
+      <user communityId="st267182342" displayName="Gregory D. (Greg) Schrubbe" id="gdschru@us.ibm.com" lastChat="1364930728443"/>
+      <user communityId="st267182342" displayName="Jennifer Pessetto" id="pessetto@us.ibm.com" lastChat="1311194974875"/>
+      <user communityId="st267182342" displayName="Edward Bottini" id="ebottini@us.ibm.com" lastChat="1317392888359"/>
+      <user communityId="st267182342" displayName="John M. Glover" id="glover1@us.ibm.com" lastChat="1286468744140"/>
+      <user communityId="st267182342" displayName="Jon W. Bridle" id="jbridle@us.ibm.com" lastChat="1383688671773"/>
+      <user communityId="st267182342" displayName="Keith E. Braswell" id="braswell@us.ibm.com" lastChat="1288961308218"/>
+      <user communityId="st267182342" displayName="Timothy E. Kounadis" id="timothy_kounadis@us.ibm.com" lastChat="1398264737948"/>
+      <user communityId="st267182342" displayName="Holger Macho" id="MACHO@de.ibm.com" lastChat="1421689108026"/>
+      <user communityId="st267182342" displayName="Jennifer H. Turner" id="jht@us.ibm.com" lastChat="1348494283812"/>
+      <user communityId="st267182342" displayName="Doris J. Richardson" id="stewar2@us.ibm.com" lastChat="1296249129975"/>
+      <user communityId="st267182342" displayName="John C. Whitted" id="jcwhitt@us.ibm.com" lastChat="1374510215424"/>
+      <user communityId="st267182342" displayName="Lisa J. Osofsky" id="losofsky@us.ibm.com" lastChat="1300907079515"/>
+      <user communityId="st267182342" displayName="Allison Baller/New York/IBM marksa@us.ibm.com -" id="marksa@us.ibm.com" lastChat="1302553151765"/>
+      <user communityId="st267182342" displayName="Martin B. Meyer" id="mbmeyer@us.ibm.com" lastChat="1302805132828"/>
+      <user communityId="st267182342" displayName="jklink@ca.ibm.com - Jeff Klink/Toronto/IBM" id="jklink@ca.ibm.com" lastChat="1398786881271"/>
+      <user communityId="st267182342" displayName="Christopher Roach" id="roachman@us.ibm.com" lastChat="1363817441815"/>
+      <user communityId="st267182342" displayName="Sam D. Piazza" id="spiazza@us.ibm.com" lastChat="1311881833812"/>
+      <user communityId="st267182342" displayName="sjang@us.ibm.com - Soobaek Jang/Southbury/IBM" id="sjang@us.ibm.com" lastChat="1438884075471"/>
+      <user communityId="st267182342" displayName="William H. (William) Lee" id="wlee1@us.ibm.com" lastChat="1369948584695"/>
+      <user communityId="st267182342" displayName="Kathy A. Wilson *Contractor*" id="kawils@us.ibm.com" lastChat="1435772981176"/>
+      <user communityId="st267182342" displayName="Kaiser Saeed" id="saeedk@us.ibm.com" lastChat="1431363219616"/>
+      <user communityId="st267182342" displayName="Selma Turki" id="Selma.turki@be.ibm.com" lastChat="1317390769187"/>
+      <user communityId="st267182342" displayName="Pandian Athirajan" id="pathiraj@us.ibm.com" lastChat="1397507920506"/>
+      <user communityId="st267182342" displayName="Linda L. Santos" id="santosmc@us.ibm.com" lastChat="1328038385322"/>
+      <user communityId="st267182342" displayName="John R. Reysa" id="reysa@us.ibm.com" lastChat="1321632916095"/>
+      <user communityId="st267182342" displayName="Matthew M. Lobbes" id="lobbes@us.ibm.com" lastChat="1440701557624"/>
+      <user communityId="st267182342" displayName="Marco (M.M.) Perez" id="perezm@ca.ibm.com" lastChat="1329429673369"/>
+      <user communityId="st267182342" displayName="Akilesh V. (Aki) Duvvur" id="aduvvur@us.ibm.com" lastChat="1326727195459"/>
+      <user communityId="st267182342" displayName="Maria Teresa  (Maite) Mandakovic" id="mmandako@us.ibm.com" lastChat="1401195523822"/>
+      <user communityId="st267182342" displayName="Svetlana Manceva *Contractor*" id="MANCEVA@de.ibm.com" lastChat="1421680531083"/>
+      <user communityId="st267182342" displayName="Glenn J. Sommers" id="gsommers@us.ibm.com" lastChat="1398091454513"/>
+      <user communityId="st267182342" displayName="Sara Weber" id="sara_weber@us.ibm.com" lastChat="1340286565853"/>
+      <user communityId="st267182342" displayName="David P. (Dave) Rhinehart" id="rhineh@us.ibm.com" lastChat="1440184338813"/>
+      <user communityId="st267182342" displayName="Horace Hanson - - AHT" id="hbhanson@us.ibm.com" lastChat="1429284219955"/>
+      <user communityId="st267182342" displayName="Birgit Schmidt-Wesche" id="schmidtb@us.ibm.com" lastChat="1365019739185"/>
+      <user communityId="st267182342" displayName="David D. (David D) Weck" id="weck@us.ibm.com" lastChat="1444920652519"/>
+      <user communityId="st267182342" displayName="Boas Betzler" id="BOAS@de.ibm.com" lastChat="1443793771811"/>
+      <user communityId="st267182342" displayName="Kimberly Raszinski *Contractor*" id="kimr@us.ibm.com" lastChat="1391619556659"/>
+      <user communityId="st267182342" displayName="Todd Jarman (ISC reports)" id="jarman@us.ibm.com" lastChat="1354562073600"/>
+      <user communityId="st267182342" displayName="Tom A. Lancaster" id="tomalan@us.ibm.com" lastChat="1361397088040"/>
+      <user communityId="st267182342" displayName="John M. Currie" id="jcurrie1@us.ibm.com" lastChat="1354737245330"/>
+      <user communityId="st267182342" displayName="Robert K. (Rob) Floyd" id="robf@us.ibm.com" lastChat="1444750670744"/>
+      <user communityId="st267182342" displayName="Hector Hernandez" id="hector@us.ibm.com" lastChat="1442944019278"/>
+      <user communityId="st267182342" displayName="Bairbre Stewart" id="stewartb@ie.ibm.com" lastChat="1410279017273"/>
+      <user communityId="st267182342" displayName="Nancy J. Prince" id="nprince@us.ibm.com" lastChat="1364910934097"/>
+      <user communityId="st267182342" displayName="James B. Packett" id="jpackett@us.ibm.com" lastChat="1425672785423"/>
+      <user communityId="st267182342" displayName="Joe Hudson *Contractor*" id="jhudson@us.ibm.com" lastChat="1442343363103"/>
+      <user communityId="st267182342" displayName="Jeffrey A. (Jeff) Sanden" id="jasanden@us.ibm.com" lastChat="1426094711096"/>
+      <user communityId="st267182342" displayName="merenda@us.ibm.com - Edward Merenda/Poughkeepsie/IBM" id="merenda@us.ibm.com" lastChat="1426259176573"/>
+      <user communityId="st267182342" displayName="Antoine E. (Tony) Touma" id="atouma@us.ibm.com" lastChat="1428071235326"/>
+      <user communityId="st267182342" displayName="Jeffrey A. (Jeff) Gaber" id="jagaber@us.ibm.com" lastChat="1430766581371"/>
+      <user communityId="st267182342" displayName="Douglas P. Vardakas" id="vardakas@us.ibm.com" lastChat="1384289379406"/>
+      <user communityId="st267182342" displayName="Tony Rego *Contractor*" id="tonyrego@us.ibm.com" lastChat="1430916055820"/>
+      <user communityId="st267182342" displayName="Simon Danie Moser" id="SMOSER@de.ibm.com" lastChat="1425582183887"/>
+      <user communityId="st267182342" displayName="Sharon A. Reynolds" id="reynolds@us.ibm.com" lastChat="1439397124325"/>
+      <user communityId="st267182342" displayName="george.contino@us.ibm.com - George Contino/Philadelphia/IBM" id="george.contino@us.ibm.com" lastChat="1392212911485"/>
+      <user communityId="st267182342" displayName="Eric R. Goodall" id="goodalle@us.ibm.com" lastChat="1426255760417"/>
+      <user communityId="st267182342" displayName="Roger S. Southwell" id="southwel@us.ibm.com" lastChat="1358533159115"/>
+      <user communityId="st267182342" displayName="Barbara Terry (Terry) Caroul *Contractor*" id="tcaroul@us.ibm.com" lastChat="1435087749447"/>
+      <user communityId="st267182342" displayName="Clea Zolotow" id="zolo@us.ibm.com" lastChat="1397756852760"/>
+      <user communityId="st267182342" displayName="James W. Ling" id="James.Ling@us.ibm.com" lastChat="1420729132772"/>
+      <user communityId="st267182342" displayName="John Luistro" id="luistro@us.ibm.com" lastChat="1405517795182"/>
+      <user communityId="st267182342" displayName="Joseph Sande" id="joesande@us.ibm.com" lastChat="1425303653461"/>
+      <user communityId="st267182342" displayName="Matthew K. (Matt) Keller" id="mkkeller@us.ibm.com" lastChat="1427114146623"/>
+      <user communityId="st267182342" displayName="tbishop@us.ibm.com - Tim Bishop/Alpharetta/IBM" id="tbishop@us.ibm.com" lastChat="1439487463908"/>
+      <user communityId="st267182342" displayName="Mihai Mlesnita *Contractor*" id="mihai.mlesnita@ro.ibm.com" lastChat="1412886893674"/>
+      <user communityId="st267182342" displayName="Chakresh S Bhadauriya" id="cbhadaur@in.ibm.com" lastChat="1412863003351"/>
+      <user communityId="st267182342" displayName="Robert C. McGinley" id="mcginle@us.ibm.com" lastChat="1413989701521"/>
+      <user communityId="st267182342" displayName="Patricia D. (Patti) Falkner" id="pfalkner@us.ibm.com" lastChat="1436984751761"/>
+      <user communityId="st267182342" displayName="Brian W. Osterholt" id="osterholt@us.ibm.com" lastChat="1429044297506"/>
+      <user communityId="st267182342" displayName="N (Neil) Glover" id="NGLOVER@uk.ibm.com" lastChat="1426178881374"/>
+      <user communityId="st267182342" displayName="Richard E. (Rick) Harper" id="reharper@us.ibm.com"/>
+      <user communityId="st267182342" displayName="Natalie J. (Natalie J. Banks) Banks" id="njbanks@us.ibm.com" lastChat="1432833609578"/>
+      <user communityId="st267182342" displayName="Abraham J. (ABRAHAM) Svoboda" id="svobodaa@us.ibm.com" lastChat="1433354722451"/>
+      <user communityId="st267182342" displayName="Greg A. Neislar" id="neislar@us.ibm.com" lastChat="1445014402159"/>
+      <user communityId="st267182342" displayName="Fern M. McGuire" id="fernmcguire@us.ibm.com"/>
+      <user communityId="st267182342" displayName="Michael P. (Mike) Daniels" id="mikednls@us.ibm.com" lastChat="1444749759620"/>
+      <user communityId="st267182342" displayName="MICHAEL S. (SCOTT) SMITH" id="mssmit@us.ibm.com" lastChat="1445014458870"/>
+      <group expanded="true" name="Sales" type="private">
+        <user communityId="st267182342" displayName="Joseph M. Jevnik" id="jevnik@us.ibm.com" lastChat="1360074974154"/>
+        <user communityId="st267182342" displayName="Wendy K. Peirce" id="wpeirce@us.ibm.com" lastChat="1435679992985"/>
+        <user communityId="st267182342" displayName="rjadams@us.ibm.com - Raymond Adams/Dallas/IBM" id="rjadams@us.ibm.com" lastChat="1435616026432"/>
+        <user communityId="st267182342" displayName="bgagnon@us.ibm.com - Brian Gagnon/Pittsburgh/IBM" id="bgagnon@us.ibm.com" lastChat="1390320833527"/>
+        <user communityId="st267182342" displayName="bpreine@us.ibm.com - Brennan Preine/Philadelphia/IBM" id="bpreine@us.ibm.com" lastChat="1374167907250"/>
+        <user communityId="st267182342" displayName="Benjamin P. (Ben) Poston" id="postonb@us.ibm.com" lastChat="1429721623583"/>
+        <user communityId="st267182342" displayName="canavar@us.ibm.com - Carlos Navarro/Dallas/IBM" id="canavar@us.ibm.com" lastChat="1369173843721"/>
+        <user communityId="st267182342" displayName="Peter  (Pete) Notaro" id="pnotaro@us.ibm.com" lastChat="1329485660061"/>
+        <user communityId="st267182342" displayName="Rodney (R.W.) Joyce" id="rjoyce@ca.ibm.com" lastChat="1423235809410"/>
+        <user communityId="st267182342" displayName="Doug (D.) Kinnaird" id="kinnaird@ca.ibm.com" lastChat="1434554031844"/>
+        <user communityId="st267182342" displayName="Russell R. (Russ) Lindburg" id="lindburg@us.ibm.com" lastChat="1443196675983"/>
+        <user communityId="st267182342" displayName="Gabriel Pizano Roiria" id="gpizano@uy.ibm.com" lastChat="1435693469679"/>
+        <user communityId="st267182342" displayName="Jose Ocasio" id="ocasioj@us.ibm.com" lastChat="1432135092953"/>
+        <user communityId="st267182342" displayName="JEFFREY C. (JEFF) ALLIS" id="jcallis@us.ibm.com" lastChat="1428423231328"/>
+        <user communityId="st267182342" displayName="Robert  (Bob) Borsellino" id="bobb@us.ibm.com" lastChat="1443535537363"/>
+      </group>
+      <group expanded="true" name="Support" type="private">
+        <user communityId="st267182342" displayName="Pamela Mcguinness-Stanfield" id="pmcguinn@us.ibm.com" lastChat="1370018261055"/>
+      </group>
+      <group expanded="false" name="Rational" type="private">
+        <user communityId="st267182342" displayName="ian.barnard@uk.ibm.com - Ian Barnard/UK/IBM" id="ian.barnard@uk.ibm.com" lastChat="1338556321450"/>
+        <user communityId="st267182342" displayName="Kim Querner" id="kquerner@us.ibm.com" lastChat="1283961707453"/>
+        <user communityId="st267182342" displayName="Mary P. Yost" id="maryyost@us.ibm.com" lastChat="1347540049830"/>
+      </group>
+      <group expanded="false" name="ibm.com" type="private">
+        <user communityId="st267182342" displayName="Edward B. (Bart) Jacob" id="bjacob@us.ibm.com" lastChat="1296241695725"/>
+        <user communityId="st267182342" displayName="dbowie@us.ibm.com - Donna Bowie-Conway/Somers/IBM" id="dbowie@us.ibm.com" lastChat="1288622380171"/>
+        <user communityId="st267182342" displayName="Julie S. Tourre" id="jgsimpso@us.ibm.com" lastChat="1317931857734"/>
+        <user communityId="st267182342" displayName="ericac@us.ibm.com - Erica Callaway/Dallas/IBM" id="ericac@us.ibm.com" lastChat="1369248817676"/>
+        <user communityId="st267182342" displayName="Jason R. Rathbun" id="jrathbun@us.ibm.com" lastChat="1296858043859"/>
+        <user communityId="st267182342" displayName="Lesia A. Turner" id="turnerle@us.ibm.com" lastChat="1449084904362"/>
+      </group>
+      <group expanded="false" name="WebSphere" type="private">
+        <user communityId="st267182342" displayName="Mary K. O&apos;Donnell" id="maryod@us.ibm.com" lastChat="1291134405875"/>
+      </group>
+      <group expanded="false" name="SWG" type="private">
+        <user communityId="st267182342" displayName="belak@us.ibm.com - Carlos Belak/Somers/IBM" id="belak@us.ibm.com" lastChat="1288378920703"/>
+      </group>
+      <group expanded="false" name="IM" type="private">
+        <user communityId="st267182342" displayName="Thomas W. (Thomas) Deutsch" id="tdeutsch@us.ibm.com" lastChat="1287156199687"/>
+        <user communityId="st267182342" displayName="Patrick K. Dolan" id="pdolan@us.ibm.com" lastChat="1435679213547"/>
+      </group>
+      <group expanded="false" name="Lotus" type="private">
+        <user communityId="st267182342" displayName="Chris Collins" id="dchrisc@us.ibm.com" lastChat="1321454764063"/>
+      </group>
+      <group expanded="false" name="CBO" type="private">
+        <user communityId="st267182342" displayName="uta@us.ibm.com - Uta DiZenzo/West Palm Beach/IBM" id="uta@us.ibm.com" lastChat="1327350082486"/>
+        <user communityId="st267182342" displayName="Gregory Mcnamee" id="gregory.mcnamee@us.ibm.com" lastChat="1363192484146"/>
+      </group>
+      <group expanded="false" name="PaaS" type="private">
+        <user communityId="st267182342" displayName="Prasad R. Vishnubhotla" id="vishnu@us.ibm.com" lastChat="1315326310125"/>
+        <user communityId="st267182342" displayName="Greg Sherman" id="wgsherm@us.ibm.com" lastChat="1361554376746"/>
+        <user communityId="st267182342" displayName="Mark J. Osteraas" id="mjo@us.ibm.com" lastChat="1320264649546"/>
+        <user communityId="st267182342" displayName="syao@us.ibm.com - Sherwood X Yao/Raleigh/IBM" id="syao@us.ibm.com" lastChat="1314643064515"/>
+      </group>
+      <group expanded="false" name="Delivery" type="private">
+        <user communityId="st267182342" displayName="Kevin B. Kelley" id="kbkelley@us.ibm.com" lastChat="1323960796782"/>
+        <user communityId="st267182342" displayName="Prahlada Chinthalapuri" id="prahlada@us.ibm.com" lastChat="1409170232847"/>
+        <user communityId="st267182342" displayName="James W. Ling" id="James.Ling@us.ibm.com" lastChat="1420729132772"/>
+        <user communityId="st267182342" displayName="Joseph B. (Bruce) Iuppa" id="biuppa@us.ibm.com" lastChat="1405515203179"/>
+        <user communityId="st267182342" displayName="Joseph Sande" id="joesande@us.ibm.com" lastChat="1425303653461"/>
+        <user communityId="st267182342" displayName="Horace Hanson - - AHT" id="hbhanson@us.ibm.com" lastChat="1429284219955"/>
+        <user communityId="st267182342" displayName="Richard M. Williams - AHT" id="rmwill@us.ibm.com" lastChat="1408550718180"/>
+        <user communityId="st267182342" displayName="Chakresh S Bhadauriya" id="cbhadaur@in.ibm.com" lastChat="1412863003351"/>
+        <user communityId="st267182342" displayName="Andrew D. Pappas" id="pappasa@us.ibm.com" lastChat="1444856234494"/>
+      </group>
+      <group expanded="true" name="Networking" type="private">
+        <user communityId="st267182342" displayName="James W. Ling" id="James.Ling@us.ibm.com" lastChat="1420729132772"/>
+        <user communityId="st267182342" displayName="Jeffrey A. (Jeff) Sanden" id="jasanden@us.ibm.com" lastChat="1426094711096"/>
+        <user communityId="st267182342" displayName="Joseph B. (Bruce) Iuppa" id="biuppa@us.ibm.com" lastChat="1405515203179"/>
+        <user communityId="st267182342" displayName="Robert K. (Rob) Floyd" id="robf@us.ibm.com" lastChat="1444750670744"/>
+        <user communityId="st267182342" displayName="Douglas P. Vardakas" id="vardakas@us.ibm.com" lastChat="1384289379406"/>
+        <user communityId="st267182342" displayName="Fernando Matos - LBaaS expert" id="matos@us.ibm.com" lastChat="1412714386842"/>
+      </group>
+      <group expanded="true" name="DPEs" type="private">
+        <user communityId="st267182342" displayName="John-Paul Patelli" id="patelli@us.ibm.com" lastChat="1432239038046"/>
+        <user communityId="st267182342" displayName="juned@us.ibm.com - June Donaruma/Raleigh/Contr/IBM" id="juned@us.ibm.com" lastChat="1431029267417"/>
+        <user communityId="st267182342" displayName="Darryl R. Maine" id="dmaine@us.ibm.com" lastChat="1443541721251"/>
+      </group>
+      <group expanded="true" name="ATT" type="private">
+        <user communityId="st267182342" displayName="Robert R. Krick" id="rkrick@us.ibm.com" lastChat="1438954822744"/>
+        <user communityId="st267182342" displayName="James A. (Jim) Joerger" id="joerger@us.ibm.com" lastChat="1391112779415"/>
+        <user communityId="st267182342" displayName="Roger J. Freeman" id="rogerf@us.ibm.com" lastChat="1449085005133"/>
+      </group>
+    </group>
+    <group expanded="true" name="[Root]" type="private">
+      <user communityId="st267182342" displayName="Andrew Jones (678-8023)" id="andrewj@us.ibm.com" lastChat="1448976004489"/>
+      <group expanded="false" name="AAA_STSM" type="private">
+        <user communityId="st267182342" displayName="Andrew Jones (678-8023)" id="andrewj@us.ibm.com" lastChat="1448976004489"/>
+        <user communityId="st267182342" displayName="jklink@ca.ibm.com - Jeff Klink/Toronto/IBM" id="jklink@ca.ibm.com" lastChat="1398786881271"/>
+        <user communityId="st267182342" displayName="Vanessa V. Michelini" id="vanessam@us.ibm.com" lastChat="1401990285708"/>
+        <user communityId="st267182342" displayName="Julie A. Schuneman" id="jaschune@us.ibm.com" lastChat="1382465516963"/>
+      </group>
+    </group>
+    <group expanded="true" name="AA_CloudOfferingManagers" type="private">
+      <user communityId="st267182342" displayName="Patrick K. Dolan" id="pdolan@us.ibm.com" lastChat="1435679213547"/>
+      <user communityId="st267182342" displayName="Richard Morgan" id="rmorgan1@us.ibm.com" lastChat="1442261615373"/>
+      <user communityId="st267182342" displayName="Robb Baer" id="rbaer@us.ibm.com" lastChat="1445452121747"/>
+      <user communityId="st267182342" displayName="Myla S. Miller" id="mylam@us.ibm.com" lastChat="1302537835656"/>
+      <user communityId="st267182342" displayName="Robert R. (Robbie) Mitchell" id="robbiem@us.ibm.com" lastChat="1390327562610"/>
+      <user communityId="st267182342" displayName="Susan E. Wallace" id="sewallac@us.ibm.com" lastChat="1434116092898"/>
+      <user communityId="st267182342" displayName="Carolyn Olsen" id="carolynk@us.ibm.com" lastChat="1392650130278"/>
+      <user communityId="st267182342" displayName="Kraig C. Weir" id="kweir@us.ibm.com" lastChat="1395863811953"/>
+      <user communityId="st267182342" displayName="Gilbert H. (Chip) Sandleben" id="sandlebe@us.ibm.com" lastChat="1448979842389"/>
+      <user communityId="st267182342" displayName="Kaiser Saeed" id="saeedk@us.ibm.com" lastChat="1431363219616"/>
+      <user communityId="st267182342" displayName="Timothy L. (Tim) Goble" id="tgoble@us.ibm.com" lastChat="1449074279331"/>
+      <user communityId="st267182342" displayName="Michael Montinarelli" id="mmonti@us.ibm.com" lastChat="1447108693284"/>
+      <user communityId="st267182342" displayName="Peter W. Gayek" id="pwgayek@us.ibm.com" lastChat="1415649920397"/>
+      <user communityId="st267182342" displayName="heely@us.ibm.com - James A Heely/Warren/IBM" id="heely@us.ibm.com" lastChat="1415195486505"/>
+      <user communityId="st267182342" displayName="Paul L. Bradshaw" id="paulbrad@us.ibm.com" lastChat="1429281853460"/>
+      <user communityId="st267182342" displayName="James (Gil) Starkey *Contractor*" id="starkey@us.ibm.com" lastChat="1439317429318"/>
+      <user communityId="st267182342" displayName="Robert  (Bob) Borsellino" id="bobb@us.ibm.com" lastChat="1443535537363"/>
+      <user communityId="st267182342" displayName="Kenneth Welsh" id="welshk@us.ibm.com" lastChat="1429283852163"/>
+      <user communityId="st267182342" displayName="Craig Hensley" id="hensley@us.ibm.com"/>
+      <user communityId="st267182342" displayName="Ricardo Lamas" id="ricardol@au1.ibm.com" lastChat="1439842523161"/>
+      <user communityId="st267182342" displayName="Michael Nonnenmacher" id="MNONNENM@de.ibm.com" lastChat="1441111928052"/>
+    </group>
+    <group expanded="false" name="AOL" type="private"/>
+    <group expanded="true" name="Basketball" type="private">
+      <user communityId="st267182342" displayName="Arnold Flores" id="arnoldf@us.ibm.com" lastChat="1371669919363"/>
+      <user communityId="st267182342" displayName="Pete Rubio/Austin/IBM" id="prubio@us.ibm.com" lastChat="1241532245296"/>
+      <user communityId="st267182342" displayName="Douglas E. (Doug) Sanchez" id="desanch@us.ibm.com" lastChat="1438194791449"/>
+    </group>
+    <group expanded="false" name="aWireless" type="private">
+      <user communityId="st267182342" displayName="Kevin" id="kmc@us.ibm.com" lastChat="1448916610130"/>
+      <user communityId="st267182342" displayName="Gregory J. Boss" id="gboss@us.ibm.com" lastChat="1449083744099"/>
+      <user communityId="st267182342" displayName="Douglas E. (Doug) Sanchez" id="desanch@us.ibm.com" lastChat="1438194791449"/>
+    </group>
+    <group expanded="false" name="aWireless" type="private">
+      <user communityId="st267182342" displayName="Gregory J. Boss" id="gboss@us.ibm.com" lastChat="1449083744099"/>
+      <user communityId="st267182342" displayName="Kevin" id="kmc@us.ibm.com" lastChat="1448916610130"/>
+      <user communityId="st267182342" displayName="Douglas E. (Doug) Sanchez" id="desanch@us.ibm.com" lastChat="1438194791449"/>
+    </group>
+    <group expanded="true" name="AA_CloudDepartment" type="private">
+      <user communityId="st267182342" displayName="Matthew T. (Matt) Perkinson" id="mperkinson@us.ibm.com" lastChat="1447441304352"/>
+      <user communityId="st267182342" displayName="Mitchell J. Dekeyrel" id="mdekeyre@us.ibm.com" lastChat="1433354942631"/>
+      <user communityId="st267182342" displayName="Ryan C. Sumner" id="rsumner@us.ibm.com" lastChat="1429200223340"/>
+      <user communityId="st267182342" displayName="Torben Fersøe" id="TIF@dk.ibm.com" lastChat="1360705108761"/>
+      <user communityId="st267182342" displayName="Prabhakar  (Prabs) Attaluri" id="prabs@us.ibm.com" lastChat="1448048629755"/>
+      <user communityId="st267182342" displayName="Karla K. Hester" id="khester@us.ibm.com" lastChat="1439830900730"/>
+      <user communityId="st267182342" displayName="Jonathan G. (Jon) Hall" id="jonhall@us.ibm.com" lastChat="1429114440791"/>
+      <user communityId="st267182342" displayName="Meenagi - Meenakshisundaram  (Meena Venkatasubramaniam" id="meenaji@us.ibm.com" lastChat="1441038325551"/>
+      <user communityId="st267182342" displayName="Joseph  (Joe) Gallego" id="joe.gallego@us.ibm.com" lastChat="1447078543162"/>
+      <user communityId="st267182342" displayName="Joel B. Cornette" id="cornette@us.ibm.com" lastChat="1443212203400"/>
+      <user communityId="st267182342" displayName="stegersh@us.ibm.com - Steven Gershenfeld/White Plains/IBM" id="stegersh@us.ibm.com" lastChat="1447707422404"/>
+      <user communityId="st267182342" displayName="Virginie Haas" id="virginie_haas@fr.ibm.com" lastChat="1414076431741"/>
+      <user communityId="st267182342" displayName="Tony Rego *Contractor*" id="tonyrego@us.ibm.com" lastChat="1430916055820"/>
+      <user communityId="st267182342" displayName="ELLEN F. RASMUSSEN" id="efrasmus@us.ibm.com" lastChat="1401976613133"/>
+      <user communityId="st267182342" displayName="Madhuri (M.) Chawla" id="chawla@ca.ibm.com" lastChat="1404326077103"/>
+      <user communityId="st267182342" displayName="Patricia M. (Pat) Clermont" id="pclermont@us.ibm.com" lastChat="1414697171784"/>
+      <user communityId="st267182342" displayName="Pamela Mcguinness-Stanfield" id="pmcguinn@us.ibm.com" lastChat="1370018261055"/>
+      <user communityId="st267182342" displayName="Gloria J. Mastriano" id="gmastria@us.ibm.com" lastChat="1429199055379"/>
+      <user communityId="st267182342" displayName="Holger Macho" id="MACHO@de.ibm.com" lastChat="1421689108026"/>
+      <user communityId="st267182342" displayName="Jan Jackman" id="jackmanj@us.ibm.com" lastChat="1365787965289"/>
+      <user communityId="st267182342" displayName="Jasdeep G. Purdhani" id="jasdeep@us.ibm.com" lastChat="1430502841662"/>
+      <user communityId="st267182342" displayName="fausto@us.ibm.com - Fausto Bernardini/Watson/IBM" id="fausto@us.ibm.com" lastChat="1430856730358"/>
+      <user communityId="st267182342" displayName="Robert  (Bob) Borsellino" id="bobb@us.ibm.com" lastChat="1443535537363"/>
+      <user communityId="st267182342" displayName="Kathy A. Wilson *Contractor*" id="kawils@us.ibm.com" lastChat="1435772981176"/>
+      <user communityId="st267182342" displayName="merenda@us.ibm.com - Edward Merenda/Poughkeepsie/IBM" id="merenda@us.ibm.com" lastChat="1426259176573"/>
+      <user communityId="st267182342" displayName="detkrause@de.ibm.com - Detlef S Krause/Germany/IBM" id="detkrause@de.ibm.com" lastChat="1441803786062"/>
+      <user communityId="st267182342" displayName="SALIM A. WALJI" id="sawalji@us.ibm.com"/>
+      <user communityId="st267182342" displayName="THILLAI KUMARAN" id="tkumaran@us.ibm.com"/>
+      <user communityId="st267182342" displayName="Sriram S. Mandyam" id="mandyam@us.ibm.com" lastChat="1431027541870"/>
+      <user communityId="st267182342" displayName="Ken McTigue" id="kmctigue@us.ibm.com" lastChat="1443711332521"/>
+      <user communityId="st267182342" displayName="Christina M. Navarrete" id="cnavarre@us.ibm.com" lastChat="1432128035460"/>
+      <user communityId="st267182342" displayName="javier.becares@es.ibm.com - Javier Becares Garcia/Spain/IBM" id="javier.becares@es.ibm.com" lastChat="1432738513065"/>
+      <user communityId="st267182342" displayName="THOMAS W. LOUPE" id="thomas.loupe@us.ibm.com"/>
+      <user communityId="st267182342" displayName="SON X. HUYNH" id="huynhson@us.ibm.com" lastChat="1444659659534"/>
+      <user communityId="st267182342" displayName="Casey L. Gentry" id="clgentry@us.ibm.com"/>
+      <user communityId="st267182342" displayName="Mary J. (MARY) Hunter" id="mary.hunter@us.ibm.com"/>
+      <user communityId="st267182342" displayName="Kaushik C. Joglekar" id="kcjoglek@us.ibm.com" lastChat="1443794792490"/>
+      <user communityId="st267182342" displayName="Vinod Chavan" id="chavan@us.ibm.com" lastChat="1445529581503"/>
+      <user communityId="st267182342" displayName="DAVID S. SLOVENSKY" id="slovensk@us.ibm.com" lastChat="1444664376276"/>
+    </group>
+    <group expanded="true" name="Work" type="private">
+      <user communityId="st267182342" displayName="Andrew Jones (678-8023)" id="andrewj@us.ibm.com" lastChat="1448976004489"/>
+    </group>
+    <group expanded="false" name="borsellino" type="private"/>
+    <group expanded="true" name="SCE+" type="private">
+      <group expanded="true" name="BCRS" type="private"/>
+    </group>
+  </contactList>
+</imClientConfig>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="jklink@ca.ibm.com" displayName="jklink@ca.ibm.com - Jeff Klink/Toronto/IBM" isExternal="false" lastChatTime="1398786881271">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$23F92B4362826C61.jpg"/>
+  <attribute name="callupname" value="Jeff (J.) Klink"/>
+  <attribute name="Telephone" value="1-647-200-2416"/>
+  <attribute name="worklocation" value="workLoc=4EM,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="STSM - SoftLayer Channels Technical Leader"/>
+  <attribute name="dn" value="uid=089312649,c=ca,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Jeff (J.) Klink"/>
+  <attribute name="telephonenumber" value="1-647-200-2416"/>
+  <attribute name="Address" value="8200 Warden Ave&#xA;Toronto Lab&#xA;Markham, ON L6G 1C7&#xA;Canada"/>
+  <attribute name="mail" value="jklink@ca.ibm.com"/>
+  <attribute name="Title" value="STSM - SoftLayer Channels Technical Leader"/>
+  <attribute name="sn" value="Klink"/>
+  <attribute name="id" value="jklink@ca.ibm.com"/>
+  <attribute name="MailAddress" value="jklink@ca.ibm.com"/>
+  <attribute name="lastUpdate" value="1412370338941"/>
+</person>

@@ -1,0 +1,44 @@
+P:07504 T:1884 2014/05/14 14:43:41:633 [ Error] [MFW] T-1696  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:07228 T:5960 2014/05/21 06:55:02:067 [ Error] [MFW] T-4788  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:08712 T:9696 2014/06/10 08:15:10:102 [ Error] [MFW] T-9084  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:08240 T:9736 2014/06/16 08:48:41:237 [ Error] [MFW] T-9748  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:07724 T:9100 2014/06/17 12:13:39:326 [ Error] [MFW] T-9724  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:02556 T:7628 2014/06/30 05:32:53:577 [ Error] [MFW] T-8284  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:07432 T:9920 2014/07/01 11:08:26:895 [ Error] [MFW] T-9932  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:07364 T:9748 2014/07/01 11:55:42:179 [ Error] [MFW] T-9760  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:09192 T:800 2014/07/03 08:38:24:914 [ Error] [MFW] T-7032  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:01520 T:5928 2014/07/07 07:37:03:250 [ Error] [MFW] T-8164  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:08724 T:6292 2014/07/28 07:51:37:953 [ Error] [MFW] T-8368  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:00628 T:4680 2014/08/04 20:43:13:506 [ Error] [MFW] T-13124  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:03016 T:5352 2014/08/05 13:41:10:051 [ Error] [MFW] T-9936  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:05952 T:9108 2014/08/06 08:41:35:908 [ Error] [MFW] T-8428  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:12748 T:13820 2014/08/11 10:42:03:718 [ Error] [MFW] T-8048  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:05204 T:9124 2014/08/11 14:21:56:890 [ Error] [MFW] T-9120  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:07544 T:7516 2014/08/18 09:25:54:904 [ Error] [MFW] T-7500  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:05224 T:8844 2014/08/19 06:04:05:824 [ Error] [MFW] T-5512  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:05112 T:1200 2014/08/19 06:43:27:748 [ Error] [MFW] T-9068  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:13588 T:7252 2014/08/29 08:21:30:723 [ Error] [MFW] T-10440  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:14032 T:9088 2014/09/02 06:48:47:163 [ Error] [MFW] T-4568  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+
+P:12912 T:12036 2014/09/02 13:22:02:886 [ Error] [MFW] T-9688  CallControl  [SIP STACK]: aresInitConfig(p=9.0.128.50,s=9.0.130.50,d=) rt=2
+

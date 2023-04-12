@@ -1,0 +1,7 @@
+#Tue Oct 20 16:18:49 CDT 2015
+com.ibm.designer.domino.WelcomePageShouldBeMaximized=false
+Designer853RunOnce=true
+eclipse.preferences.version=1
+dde.active.perspective.id=com.ibm.designer.domino.perspective
+com.ibm.designer.domino.Xsp_View_State_Preferences={org.eclipse.ui.views.PropertySheet\=2, org.eclipse.ui.views.ContentOutline\=2, org.eclipse.ui.views.ProblemView\=2, org.eclipse.gef.ui.palette_view\=2, com.ibm.designer.domino.xsp.editor.EventsView\=2, com.ibm.designer.domino.dataview.views.designerdataview\=2}
+com.ibm.designer.domino.Legacy_View_State_Preferences={org.eclipse.ui.views.PropertySheet\=0, org.eclipse.ui.views.ProblemView\=0, com.ibm.designer.domino.xsp.editor.EventsView\=0, org.eclipse.gef.ui.palette_view\=0, com.ibm.designer.domino.dataview.views.designerdataview\=0}

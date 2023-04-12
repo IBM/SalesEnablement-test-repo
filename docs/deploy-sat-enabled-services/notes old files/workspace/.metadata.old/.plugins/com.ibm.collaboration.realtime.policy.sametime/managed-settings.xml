@@ -1,0 +1,68 @@
+<ManagedSettings>
+	<!-- Disable Advanced in 9.0 -->
+	<settingGroup name="com.ibm.collaboration.realtime.community.sametime">
+		<setting name="networkMonitorInterval" value="0"/>
+	</settingGroup>
+	<!-- Neo: change bluepage plugin enablement from false to true per CIO request. -->
+	<settingGroup name="com.ibm.collaboration.realtime.directory.bluepages">
+		<setting name="useldapforusers" value="true"/>
+		<setting name="useldapfordirinfo" value="true" />
+	</settingGroup>
+	<settingGroup name="com.ibm.collaboration.realtime.imhub" lastModDate="20121119T000000">
+		<setting name="autoSyncDefaultCommunityBuddyList" value="false"/>
+		<setting name="showCommunityIconBackground" value="true" isLocked="false"/>
+		<setting name="statusImgBackgroundTransparency" value="50"/>
+		<!-- disabling limitPublicGroupSubscriptions, by default this is enabled from 8.5.2 and we have an issue on subscription of public group with this enabled -->
+		<setting name="limitPublicGroupSubscriptions" value="false"/>
+	</settingGroup>
+	<settingGroup name="com.ibm.collaboration.realtime.instantshare">
+		<setting name="alternateMeetingServer" value="inmeeting.ibm.com" isLocked="true" />
+		<setting name="useAlternateServer" value="true" isLocked="true" />
+		<setting name="appsharePreference" value="3" isLocked="true" />
+	</settingGroup>
+	<settingGroup name="com.ibm.collaboration.realtime.policy.sametime">
+		<setting name="policyTimeInterval" value="86400000"/>
+		<setting name="enableLogLevelConfigPolicyMgr" value="false"/>
+	</settingGroup>
+	<settingGroup name="com.ibm.rtc.meetings.shelf" lastModDate="20110407T000000">
+		<!-- JJS: Adding meetings.ibm.com attached to messaging.ibm.com to 2nd pass of 8.5.2 Gold around 9/19/2011 -->
+		<!--
+		<setting name="preconfiguredServerIds" value="stms4202377038331" isLocked="true"/>
+		<setting name="stms4202377038331;meetings.serverName" value="meetings.ibm.com" isLocked="true"/>
+		<setting name="stms4202377038331;serverId" value="stms4202377038331" isLocked="true"/>
+		#The default of 0 uses a direct connection. Specify 1 to use a reverse proxy server.
+		
+		<setting name="stms4202377038331;serverConnectionType" value="0" isLocked="true"/>
+		<setting name="stms4202377038331;meetings.serverPort" value="443" isLocked="true"/>
+		#set this one to be locked also, otherwise the user can select it and can't reselect HTTPS
+		<setting name="stms4202377038331;meetings.http" value="false" isLocked="true"/>
+		<setting name="stms4202377038331;meetings.useSSLforLogin" value="true" isLocked="true"/>
+		<setting name="stms4202377038331;useCommunityServer" value="true" isLocked="true"/>
+		<setting name="stms4202377038331;communityServerName" value="messaging.ibm.com" isLocked="true"/>
+		-->
+		<setting name="meetings.launchURLRichClient" value="true" isLocked="false"/> 
+	</settingGroup>
+	<settingGroup name="com.ibm.collaboration.realtime.telephony.softphone">
+		<!-- JJS: 9/16/2011: Update from Brett - Set community.policies.enabled=true and remove media.session.video.codecs and media.session.audio.port as they are obsolete by the policy change -->
+		<!-- <setting name="media.session.audio.port" value="5004" /> -->
+		<!-- <setting name="media.session.video.codecs" value="H264 H263"/> -->
+		<setting name="community.policies.enabled" value="true" />
+		<setting name="media.session.audio.codecs.sut" value="ISAC iLBC G729 G7221-32 G7221-24 G7221-16 PCMU PCMA telephone-event"/>
+		<setting name="suppress.failed.sip.registration" value="true" overwriteUnlocked="true"/>
+	</settingGroup>
+
+	<settingGroup name="com.ibm.collaboration.realtime.update">
+	    <!-- Prevent the client from hitting the admin updatesite files.  We don't need to push plugins or check for uninstall.xml, pc.ini, etc -->
+	    <setting name="runme" value="false"/>
+	    <!-- change the admin interval (manifest-updates, uninstall.xml, pc.ini, site.xml) to 12 hours until clients restart with the runme setting above -->
+	    <setting name="updateCheckIntervalSeconds" value="43200"/>
+	</settingGroup>
+
+	<!-- The following additional preferences are configured in plugin_customization.ini but are not candidates to be managed:
+		com.ibm.collaboration.realtime.community/SametimeServer=messaging.ibm.com
+		com.ibm.rcp.provisioning/clientIdentifier=IBM_STS_8.5.2.%BUILDLEVEL%
+		com.ibm.collaboration.realtime.community/processCommunityConfigTemplate=true
+		com.ibm.collaboration.realtime.update/adminUpdatePolicyURL=http://pokgsa.ibm.com/projects/s/stuimtap/updates
+		com.ibm.rcp.security.update/*  (we disable the signing requirement on standalone)
+	-->
+</ManagedSettings>

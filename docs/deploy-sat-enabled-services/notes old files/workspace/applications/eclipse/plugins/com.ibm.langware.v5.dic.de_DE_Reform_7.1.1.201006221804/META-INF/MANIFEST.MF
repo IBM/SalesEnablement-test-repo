@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-Name: German(Germany Reform) Dictionary
+Created-By: 2.3 (IBM Corporation)
+Ant-Version: Apache Ant 1.7.0
+Bundle-Vendor: IBM
+Bundle-ManifestVersion: 2
+Fragment-Host: com.ibm.langware.v5;bundle-version="7.0.0"
+Bundle-SymbolicName: com.ibm.langware.v5.dic.de_DE_Reform;singleton:=t
+ rue
+Bundle-Version: 7.1.1.201006221804
+
+Name: dictionaries/de-DE-Reform-LSpell-7001.dic
+SHA1-Digest: eSpr6fb+U5Yi86mGpNmH/R5mUv8=
+
+Name: copyright.txt
+SHA1-Digest: Zmyi+Kh+EXIivJ6Gex4MGwlwurg=
+
+Name: about.html
+SHA1-Digest: dQHlcrUJtjI1RzS9Vwqihw23FE0=
+
+Name: fragment.xml
+SHA1-Digest: pVap8pERBVOst+QxvUwvNZ+7C60=
+

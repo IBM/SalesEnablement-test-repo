@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="ebottini@us.ibm.com" displayName="Edward Bottini" isExternal="false" lastChatTime="1317392888359">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$4F11E1375F4A2FE0.jpg"/>
+  <attribute name="callupname" value="Edward H. Bottini"/>
+  <attribute name="tieline" value="339-5297"/>
+  <attribute name="Telephone" value="339-5297 / 1-858-587-5297"/>
+  <attribute name="worklocation" value="workLoc=UCL,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Global Cloud Computing Ecosystem Manager"/>
+  <attribute name="dn" value="uid=6A1249897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Edward H. Bottini"/>
+  <attribute name="telephonenumber" value="339-5297 / 1-858-587-5297"/>
+  <attribute name="Address" value="4660 La Jolla Village&#xA;San Diego, CA 92122-4601&#xA;United States"/>
+  <attribute name="mail" value="ebottini@us.ibm.com"/>
+  <attribute name="Title" value="Global Cloud Computing Ecosystem Manager"/>
+  <attribute name="id" value="ebottini@us.ibm.com"/>
+  <attribute name="sn" value="Bottini"/>
+  <attribute name="MailAddress" value="ebottini@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1382637963561"/>
+</person>

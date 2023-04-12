@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="luistro@us.ibm.com" displayName="John Luistro" isExternal="false" lastChatTime="1405517795182">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$70DBEA277D3A7777.jpg"/>
+  <attribute name="callupname" value="John Luistro"/>
+  <attribute name="tieline" value="938-7506"/>
+  <attribute name="Telephone" value="938-7506 / 1-720-396-7506"/>
+  <attribute name="worklocation" value="workLoc=RPL,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="STSM -  Cloud Delivery Enablement"/>
+  <attribute name="dn" value="uid=195370897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="John Luistro"/>
+  <attribute name="telephonenumber" value="938-7506 / 1-720-396-7506"/>
+  <attribute name="Address" value="3039 E Cornwallis Rd&#xA;P.O. Box 12195&#xA;Research Triangle Park, NC 27709-2195&#xA;United States"/>
+  <attribute name="mail" value="luistro@us.ibm.com"/>
+  <attribute name="Title" value="STSM -  Cloud Delivery Enablement"/>
+  <attribute name="id" value="luistro@us.ibm.com"/>
+  <attribute name="sn" value="Luistro"/>
+  <attribute name="MailAddress" value="luistro@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1407203005778"/>
+</person>

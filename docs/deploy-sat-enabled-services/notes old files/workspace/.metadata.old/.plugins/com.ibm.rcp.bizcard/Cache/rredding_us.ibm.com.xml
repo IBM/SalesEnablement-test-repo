@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<streetAddress>6303 Barfield Rd Ne
+Sandy Springs, GA 30328-4233
+United States</streetAddress>
+<title>Biz Dev Exec - Cloud Service Providers</title>
+<tel>1-770-878-0291</tel>
+<name>Redding, J R. (Randy)</name>
+<email>rredding@us.ibm.com</email>
+<LastUpdated>1435170492501</LastUpdated>
+<timezoneid>-400</timezoneid>
+<uid>726312897</uid>
+<userId>cde1d2c0-8f0a-1028-8932-db07163b51b2</userId>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/rredding_us.ibm.com</photoUri>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=cde1d2c0-8f0a-1028-8932-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=cde1d2c0-8f0a-1028-8932-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=cde1d2c0-8f0a-1028-8932-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=cde1d2c0-8f0a-1028-8932-db07163b51b2&amp;name=Redding%2C%20J%20R.%20%28Randy%29"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=cde1d2c0-8f0a-1028-8932-db07163b51b2&amp;name=Redding%2C%20J%20R.%20%28Randy%29"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/cde1d2c0-8f0a-1028-8932-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=cde1d2c0-8f0a-1028-8932-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Dcde1d2c0-8f0a-1028-8932-db07163b51b2%2Cname%3DRedding%2C%20J%20R.%20%28Randy%29"/>
+</BusinessCardLinks>
+</BusinessCard>

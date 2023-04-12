@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="amkaa@us.ibm.com" displayName="amkaa@us.ibm.com - Amka M Hodzic/Minneapolis/IBM" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$770680DE45BDFBF.jpg"/>
+  <attribute name="callupname" value="Amka M. Hodzic"/>
+  <attribute name="tieline" value="000-0000"/>
+  <attribute name="Telephone" value="000-0000 / 1-612-870-3693"/>
+  <attribute name="worklocation" value="workLoc=MPW,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Senior Delivery Project Executive - Cloud Managed Services Americas Lead"/>
+  <attribute name="dn" value="uid=4A3816897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Amka M. Hodzic"/>
+  <attribute name="telephonenumber" value="000-0000 / 1-612-870-3693"/>
+  <attribute name="Address" value="650 3Rd Ave. South&#xA;Minneapolis, MN 55402-4300&#xA;United States"/>
+  <attribute name="mail" value="amkaa@us.ibm.com"/>
+  <attribute name="Title" value="Senior Delivery Project Executive - Cloud Managed Services Americas Lead"/>
+  <attribute name="id" value="amkaa@us.ibm.com"/>
+  <attribute name="sn" value="Hodzic"/>
+  <attribute name="MailAddress" value="amkaa@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1435147571733"/>
+</person>

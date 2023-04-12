@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="palee@us.ibm.com" displayName="Pamela A. Lee" isExternal="false" lastChatTime="1303243539718">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$5C53EF6E067D7918.jpg"/>
+  <attribute name="callupname" value="Pamela A. Lee"/>
+  <attribute name="Telephone" value="1-415-606-8764"/>
+  <attribute name="worklocation" value="workLoc=SFC,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Client Executive- AT&amp;T"/>
+  <attribute name="dn" value="uid=799974897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Pamela A. Lee"/>
+  <attribute name="telephonenumber" value="1-415-606-8764"/>
+  <attribute name="Address" value="425 Market St&#xA;San Francisco, CA 94105-2406&#xA;United States"/>
+  <attribute name="mail" value="palee@us.ibm.com"/>
+  <attribute name="Title" value="Client Executive- AT&amp;T"/>
+  <attribute name="sn" value="Lee"/>
+  <attribute name="id" value="palee@us.ibm.com"/>
+  <attribute name="MailAddress" value="palee@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1400505414488"/>
+</person>

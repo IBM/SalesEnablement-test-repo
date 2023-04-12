@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="marksa@us.ibm.com" displayName="Allison Baller/New York/IBM marksa@us.ibm.com -" isExternal="false" lastChatTime="1302553151765">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$7AD105848B6A0963.jpg"/>
+  <attribute name="callupname" value="Allison M. Baller"/>
+  <attribute name="tieline" value="243-6310"/>
+  <attribute name="Telephone" value="243-6310 / 1-212-745-6310"/>
+  <attribute name="worklocation" value="workLoc=RSA,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Global Leader, Mobile Payments"/>
+  <attribute name="dn" value="uid=978854897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Allison M. Baller"/>
+  <attribute name="telephonenumber" value="243-6310 / 1-212-745-6310"/>
+  <attribute name="Address" value="590 Madison Ave&#xA;New York, NY 10022-2524&#xA;United States"/>
+  <attribute name="mail" value="marksa@us.ibm.com"/>
+  <attribute name="Title" value="Global Leader, Mobile Payments"/>
+  <attribute name="id" value="marksa@us.ibm.com"/>
+  <attribute name="sn" value="Baller"/>
+  <attribute name="MailAddress" value="marksa@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1397216968717"/>
+</person>

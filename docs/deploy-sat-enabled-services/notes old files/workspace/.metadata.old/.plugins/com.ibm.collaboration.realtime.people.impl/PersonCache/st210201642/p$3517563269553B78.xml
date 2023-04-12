@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="raviadapa@in.ibm.com" displayName="raviadapa@in.ibm.com - Ravikanth Adapa/India/IBM" isExternal="false" lastChatTime="1429283852247">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$3517563269553B78.jpg"/>
+  <attribute name="callupname" value="Ravikanth Adapa"/>
+  <attribute name="Telephone" value="91-80-430-30309"/>
+  <attribute name="worklocation" value="workLoc=D4T,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="SME - CMS Linux Support"/>
+  <attribute name="dn" value="uid=01094P744,c=in,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Ravikanth Adapa"/>
+  <attribute name="telephonenumber" value="91-80-430-30309"/>
+  <attribute name="Address" value="Outer Ring Road, Embassy Manyatha B&#xA;Rachenahalli &amp; Nagawara Villages&#xA;Bangalore, KA 560045&#xA;India"/>
+  <attribute name="mail" value="raviadapa@in.ibm.com"/>
+  <attribute name="Title" value="SME - CMS Linux Support"/>
+  <attribute name="sn" value="Adapa"/>
+  <attribute name="id" value="raviadapa@in.ibm.com"/>
+  <attribute name="MailAddress" value="raviadapa@in.ibm.com"/>
+  <attribute name="lastUpdate" value="1429283852366"/>
+</person>

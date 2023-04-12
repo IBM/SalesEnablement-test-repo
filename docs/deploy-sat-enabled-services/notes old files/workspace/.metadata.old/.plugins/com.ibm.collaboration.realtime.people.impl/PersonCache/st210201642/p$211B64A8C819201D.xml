@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="wlee1@us.ibm.com" displayName="William H. (William) Lee" isExternal="false" lastChatTime="1369948584695">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$211B64A8C819201D.jpg"/>
+  <attribute name="callupname" value="William H. (William) Lee"/>
+  <attribute name="tieline" value="473-6727"/>
+  <attribute name="Telephone" value="473-6727 / 1-415-545-6727"/>
+  <attribute name="worklocation" value="workLoc=SFC,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Sr. Program Manager, GTS Global Cloud Compliance"/>
+  <attribute name="dn" value="uid=2D7175897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="William H. (William) Lee"/>
+  <attribute name="telephonenumber" value="473-6727 / 1-415-545-6727"/>
+  <attribute name="Address" value="425 Market St&#xA;San Francisco, CA 94105-2406&#xA;United States"/>
+  <attribute name="mail" value="wlee1@us.ibm.com"/>
+  <attribute name="Title" value="Sr. Program Manager, GTS Global Cloud Compliance"/>
+  <attribute name="id" value="wlee1@us.ibm.com"/>
+  <attribute name="sn" value="Lee"/>
+  <attribute name="MailAddress" value="wlee1@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1392154076385"/>
+</person>

@@ -1,0 +1,8 @@
+#Map of context data for a perspective
+#Thu Nov 21 12:30:49 CST 2013
+com.ibm.portal.app.input.name=NotesMailApps.xml
+com.ibm.portal.app.input.file=mail8\\cloudadm.nsf
+applicationGUID=26F3B669D734D4BD976BE66351C948B9_1F_3KE527R200VQ502MGJOIMC2096
+requestUrl=nrpc\://D03MC120%2F03%2FM%2FIBM/__872577AF00028F25/composite.xml?file\=mail8%5Ccloudadm.nsf&name\=NotesMailApps.xml&caxmlts\=1368138301000&launchUrl\=Notes%3A%2F%2F%2F872577AF00028F25%2FMailFS%3FOpenFrameset%26view%3D38D46BF5E8F08834852564B500129B2C%26or1flg%3D32%26hashId%3D26F3B669D734D4BD976BE66351C948B9
+com.ibm.portal.app.input.launchUrl=Notes\:///872577AF00028F25/MailFS?OpenFrameset&view\=38D46BF5E8F08834852564B500129B2C&or1flg\=32&hashId\=26F3B669D734D4BD976BE66351C948B9
+com.ibm.portal.app.input.caxmlts=1368138301000

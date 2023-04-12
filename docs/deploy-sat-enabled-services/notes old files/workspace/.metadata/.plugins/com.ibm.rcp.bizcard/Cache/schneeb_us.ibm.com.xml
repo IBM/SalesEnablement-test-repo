@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>United States</countryName>
+<locality>SAN JOSE</locality>
+<org>GTS, Technology Innovation and Automation</org>
+<userId>79d6ee40-8f0a-1028-946f-db07163b51b2</userId>
+<name>Schneebeli, Kenneth R. (Ken)</name>
+<floor>1</floor>
+<uid>942920897</uid>
+<officeBuilding>080</officeBuilding>
+<streetAddress>650 Harry Road
+Almaden Research Center
+San Jose, CA 95120-6099
+United States</streetAddress>
+<region>CA</region>
+<role>IBM employee, Regular</role>
+<title>Deployment Manager - IPCenter Dynamic Automation</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/schneeb_us.ibm.com</photoUri>
+<tel>1-408-888-7174</tel>
+<email>schneeb@us.ibm.com</email>
+<office>C1-416</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=79d6ee40-8f0a-1028-946f-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=79d6ee40-8f0a-1028-946f-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=79d6ee40-8f0a-1028-946f-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=79d6ee40-8f0a-1028-946f-db07163b51b2&amp;name=Schneebeli%2C%20Kenneth%20R.%20%28Ken%29"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=79d6ee40-8f0a-1028-946f-db07163b51b2&amp;name=Schneebeli%2C%20Kenneth%20R.%20%28Ken%29"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/79d6ee40-8f0a-1028-946f-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=79d6ee40-8f0a-1028-946f-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D79d6ee40-8f0a-1028-946f-db07163b51b2%2Cname%3DSchneebeli%2C%20Kenneth%20R.%20%28Ken%29"/>
+</BusinessCardLinks>
+<LastUpdated>1443533205264</LastUpdated>
+</BusinessCard>

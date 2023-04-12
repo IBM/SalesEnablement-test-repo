@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="rjadams@us.ibm.com" displayName="rjadams@us.ibm.com - Raymond Adams/Dallas/IBM" isExternal="false" lastChatTime="1435616026432">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$9ED3DE918506B2.jpg"/>
+  <attribute name="callupname" value="RAYMOND J. ADAMS"/>
+  <attribute name="tieline" value="603-8701"/>
+  <attribute name="Telephone" value="603-8701 / 1-469-322-8701"/>
+  <attribute name="worklocation" value="workLoc=DFW,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Cloud Sales - Complex Solutions - Cloud Services - CSE"/>
+  <attribute name="dn" value="uid=793315897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="RAYMOND J. ADAMS"/>
+  <attribute name="telephonenumber" value="603-8701 / 1-469-322-8701"/>
+  <attribute name="Address" value="1177 S Belt Line Rd&#xA;Coppell, TX 75019-4642&#xA;United States"/>
+  <attribute name="mail" value="rjadams@us.ibm.com"/>
+  <attribute name="Title" value="Cloud Sales - Complex Solutions - Cloud Services - CSE"/>
+  <attribute name="id" value="rjadams@us.ibm.com"/>
+  <attribute name="sn" value="ADAMS"/>
+  <attribute name="MailAddress" value="rjadams@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1441914689185"/>
+</person>

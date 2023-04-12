@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="vanessam@us.ibm.com" displayName="Vanessa V. Michelini" isExternal="false" lastChatTime="1395761446109">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$650E12DD21AAE559.jpg"/>
+  <attribute name="callupname" value="Vanessa V. Michelini"/>
+  <attribute name="tieline" value="975-2159"/>
+  <attribute name="Telephone" value="975-2159 / 1-561-862-2159"/>
+  <attribute name="worklocation" value="workLoc=BRF,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Distinguished Engineer, Master Inventor, CTO"/>
+  <attribute name="dn" value="uid=1A7549897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Vanessa V. Michelini"/>
+  <attribute name="telephonenumber" value="975-2159 / 1-561-862-2159"/>
+  <attribute name="Address" value="8051 Congress Ave&#xA;Boca Raton, FL 33487-1307&#xA;United States"/>
+  <attribute name="mail" value="vanessam@us.ibm.com"/>
+  <attribute name="Title" value="Distinguished Engineer, Master Inventor, CTO"/>
+  <attribute name="id" value="vanessam@us.ibm.com"/>
+  <attribute name="sn" value="Michelini"/>
+  <attribute name="MailAddress" value="vanessam@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1401989670720"/>
+</person>

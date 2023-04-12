@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<!-- Copyright IBM Corp. 2014  All Rights Reserved.                    -->
+<!-- Active Content Filter (ACF) configuration file -->
+
+<config>
+
+    <filter-chain>
+    	<filter name='comment' class='com.ibm.collaboration.realtime.ui.util.CommentFilter' verbose-output='false' use-annotation='true' />
+        <filter name='base' class='com.ibm.trl.acf.impl.html.basefilter.BaseFilter' verbose-output='false' use-annotation='true' />
+        <filter name='flash' class='com.ibm.trl.acf.impl.html.flashfilter.FlashFilter' use-annotation='true' />
+    </filter-chain>
+
+    <filter-rule id='base'>
+        <target scope=''>
+            <!-- C14N rules -->
+            <rule c14n='true' all='true' />
+
+            <!-- Base rules -->
+            <rule tag='script' action='remove-tag' />
+            <rule tag='style' action='remove-tag' />
+            <rule tag='applet' action='remove-tag' />
+            <rule tag='meta' attribute='content' action='remove-tag-as-html' />
+            <rule tag='meta' attribute='content' value='javascript:' value-criterion='contains' action='remove-tag' />
+            <rule tag='meta' attribute='content' value='vbscript:' value-criterion='contains' action='remove-tag' />
+            <rule tag='meta' attribute='content' value='stylesheet' value-criterion='contains' action='remove-tag' />
+            <rule tag='link' attribute='rel' value='stylesheet' value-criterion='contains' action='remove-tag' />
+            <rule tag='xml' action='remove-tag' />
+            <rule tag='ilayer' action='remove-tag' /> <!-- for NS4 -->
+            <rule tag='layer' action='remove-tag' /> <!-- for NS4 -->
+            <rule tag='br' attribute='size' value='&amp;{' value-criterion='contains' action='remove-tag' /> <!-- for NS4 -->
+
+            <rule attribute='on' attribute-criterion='starts-with' action='remove-attribute-value' />
+            <rule attribute='${' attribute-criterion='starts-with' action='remove-attribute-value' />
+            <rule attribute='style' value='expression' value-criterion='contains' action='remove-attribute-value-as-css' />
+            <rule attribute='style' value='javascript:' value-criterion='contains' action='remove-attribute-value-as-css' />
+            <rule attribute='style' value='position' value-criterion='contains' action='remove-attribute-value-as-css' />
+            <rule attribute='style' value='margin' value-criterion='contains' action='remove-attribute-value-as-css' />
+            <rule attribute='style' value='-moz-' value-criterion='contains' action='remove-attribute-value-as-css' />
+            <rule attribute='style' value='-webkit-' value-criterion='contains' action='remove-attribute-value-as-css' />
+            <rule attribute='style' value='-o-' value-criterion='contains' action='remove-attribute-value-as-css' />
+            <rule tag='a' attribute='href' value='javascript:' value-criterion='starts-with' action='remove-attribute-value' />
+            <rule tag='embed' attribute='src' value='javascript:' value-criterion='starts-with' action='remove-attribute-value' />
+            <rule tag='embed' attribute='src' value='vbscript:' value-criterion='starts-with' action='remove-attribute-value' />
+            <rule tag='embed' attribute='src' value='livescript:' value-criterion='starts-with' action='remove-attribute-value' /> <!-- for NS4 -->
+            <rule tag='embed' attribute='src' value='mocha:' value-criterion='starts-with' action='remove-attribute-value' /> <!-- for NS4 -->
+            <rule tag='iframe' attribute='src' value='javascript:' value-criterion='starts-with' action='remove-attribute-value' />
+            <rule tag='iframe' attribute='src' value='vbscript:' value-criterion='starts-with' action='remove-attribute-value' />
+            <rule tag='iframe' attribute='src' value='livescript:' value-criterion='starts-with' action='remove-attribute-value' /> <!-- for NS4 -->
+            <rule tag='iframe' attribute='src' value='mocha:' value-criterion='starts-with' action='remove-attribute-value' /> <!-- for NS4 -->
+            <rule tag='frame' attribute='src' value='javascript:' value-criterion='starts-with' action='remove-attribute-value' />
+            <rule tag='frame' attribute='src' value='vbscript:' value-criterion='starts-with' action='remove-attribute-value' />
+            <rule tag='frame' attribute='src' value='livescript:' value-criterion='starts-with' action='remove-attribute-value' /> <!-- for NS4 -->
+            <rule tag='frame' attribute='src' value='mocha:' value-criterion='starts-with' action='remove-attribute-value' /> <!-- for NS4 -->
+            <rule tag='img' attribute='src' value='javascript:' value-criterion='starts-with' action='remove-attribute-value' />
+            <rule tag='img' attribute='src' value='vbscript:' value-criterion='starts-with' action='remove-attribute-value' />
+            <rule tag='img' attribute='src' value='livescript:' value-criterion='starts-with' action='remove-attribute-value' /> <!-- for NS4 -->
+            <rule tag='img' attribute='src' value='mocha:' value-criterion='starts-with' action='remove-attribute-value' /> <!-- for NS4 -->
+            <rule tag='input' attribute='src' value='javascript:' value-criterion='contains' action='remove-attribute-value' />
+            <rule tag='input' attribute='src' value='vbscript:' value-criterion='contains' action='remove-attribute-value' />
+            <rule tag='input' attribute='src' value='livescript:' value-criterion='contains' action='remove-attribute-value' /> <!-- for NS4 -->
+            <rule tag='input' attribute='src' value='mocha:' value-criterion='contains' action='remove-attribute-value' /> <!-- for NS4 -->
+            <rule tag='bgsound' attribute='src' value='javascript:' value-criterion='starts-with' action='remove-attribute-value' />
+            <rule tag='bgsound' attribute='src' value='vbscript:' value-criterion='starts-with' action='remove-attribute-value' />
+            <rule tag='area' attribute='href' value='javascript:' value-criterion='contains' action='remove-attribute-value' />
+            <rule tag='area' attribute='href' value='vbscript:' value-criterion='contains' action='remove-attribute-value' />
+            <rule tag='link' attribute='href' value='javascript:' value-criterion='contains' action='remove-attribute-value' />
+            <rule tag='link' attribute='href' value='vbscript:' value-criterion='contains' action='remove-attribute-value' />
+            <rule tag='base' attribute='href' value='javascript:' value-criterion='contains' action='remove-attribute-value' />
+            <rule tag='base' attribute='href' value='vbscript:' value-criterion='contains' action='remove-attribute-value' />
+            <rule attribute='background' value='javascript:' value-criterion='contains' action='remove-attribute-value' />
+            <rule attribute='background' value='vbscript:' value-criterion='contains' action='remove-attribute-value' />
+            <rule attribute='dynsrc' value='javascript:' value-criterion='contains' action='remove-attribute-value' />
+            <rule attribute='dynsrc' value='vbscript:' value-criterion='contains' action='remove-attribute-value' />
+            <rule attribute='lowsrc' value='javascript:' value-criterion='contains' action='remove-attribute-value' />
+            <rule attribute='lowsrc' value='vbscript:' value-criterion='contains' action='remove-attribute-value' />
+            <rule attribute='fscommand' action='remove-attribute-value' />
+            <rule attribute='seekSegmentTime' action='remove-attribute-value' />
+        </target>
+    </filter-rule>
+
+    <filter-rule id='flash'>
+        <target scope=''>
+            <!-- C14N rules -->
+            <rule c14n='true' all='true' />
+
+            <!-- filter rules -->
+            <rule tag='param' attribute='value' value='javascript:' value-criterion='contains' action='remove-value' />
+            <rule tag='embed' attribute='src' value='javascript:' value-criterion='contains' action='remove-value' />
+            <rule tag='embed' attribute='FlashVars' value='javascript:' value-criterion='contains' action='remove-value' />
+            <rule tag='embed' attribute='pluginspage' value='javascript:' value-criterion='contains' action='remove-value' />
+            <rule tag='iframe' attribute='src' value='javascript:' value-criterion='contains' action='remove-value' />
+            <rule tag='iframe' attribute='FlashVars' value='javascript:' value-criterion='contains' action='remove-value' />
+            <rule tag='frame' attribute='src' value='javascript:' value-criterion='contains' action='remove-value' />
+            <rule tag='frame' attribute='FlashVars' value='javascript:' value-criterion='contains' action='remove-value' />
+            <rule tag='a' attribute='href' value='javascript:' value-criterion='contains' action='remove-value' />
+            <rule tag='a' attribute='FlashVars' value='javascript:' value-criterion='contains' action='remove-value' />
+            <rule tag='img' attribute='src' value='javascript:' value-criterion='contains' action='remove-value' />
+            <rule tag='img' attribute='FlashVars' value='javascript:' value-criterion='contains' action='remove-value' />
+            <rule tag='object' attribute='data' value='javascript:' value-criterion='contains' action='remove-value' />
+            <rule tag='object' attribute='FlashVars' value='javascript:' value-criterion='contains' action='remove-value' />
+
+            <rule tag='param' attribute='value' value='vbscript:' value-criterion='contains' action='remove-value' />
+            <rule tag='embed' attribute='src' value='vbscript:' value-criterion='contains' action='remove-value' />
+            <rule tag='embed' attribute='FlashVars' value='vbscript:' value-criterion='contains' action='remove-value' />
+            <rule tag='embed' attribute='pluginspage' value='vbscript:' value-criterion='contains' action='remove-value' />
+            <rule tag='iframe' attribute='src' value='vbscript:' value-criterion='contains' action='remove-value' />
+            <rule tag='iframe' attribute='FlashVars' value='vbscript:' value-criterion='contains' action='remove-value' />
+            <rule tag='frame' attribute='src' value='vbscript:' value-criterion='contains' action='remove-value' />
+            <rule tag='frame' attribute='FlashVars' value='vbscript:' value-criterion='contains' action='remove-value' />
+            <rule tag='a' attribute='href' value='vbscript:' value-criterion='contains' action='remove-value' />
+            <rule tag='a' attribute='FlashVars' value='vbscript:' value-criterion='contains' action='remove-value' />
+            <rule tag='img' attribute='src' value='vbscript:' value-criterion='contains' action='remove-value' />
+            <rule tag='img' attribute='FlashVars' value='vbscript:' value-criterion='contains' action='remove-value' />
+            <rule tag='object' attribute='data' value='vbscript:' value-criterion='contains' action='remove-value' />
+            <rule tag='object' attribute='FlashVars' value='vbscript:' value-criterion='contains' action='remove-value' />
+
+            <!-- rewrite rules -->
+            <rule rewrite='true' all='true' />
+        </target>
+    </filter-rule>
+    
+    <filter-rule id='comment'>
+    	<target scope=''>
+    	
+    	</target>
+    </filter-rule>
+
+</config>

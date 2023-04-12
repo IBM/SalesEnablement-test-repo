@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="polozoff@us.ibm.com" displayName="Alexandre Polozoff" isExternal="false" lastChatTime="1440694739283">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$BD5B76EF7F34028.jpg"/>
+  <attribute name="callupname" value="Alexandre Polozoff"/>
+  <attribute name="tieline" value="676-5915"/>
+  <attribute name="Telephone" value="676-5915 / 1-720-395-5915"/>
+  <attribute name="worklocation" value="workLoc=A43,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="WebSphere Dev Performance; WAS SWAT; IBM Master Inventor; Sr. Cert IT Specialist"/>
+  <attribute name="dn" value="uid=7A8238897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Alexandre Polozoff"/>
+  <attribute name="telephonenumber" value="676-5915 / 1-720-395-5915"/>
+  <attribute name="Address" value="8888 Keystone Crossing&#xA;Suite 925&#xA;Indianapolis, IN 46240&#xA;United States"/>
+  <attribute name="mail" value="polozoff@us.ibm.com"/>
+  <attribute name="Title" value="WebSphere Dev Performance; WAS SWAT; IBM Master Inventor; Sr. Cert IT Specialist"/>
+  <attribute name="id" value="polozoff@us.ibm.com"/>
+  <attribute name="sn" value="Polozoff"/>
+  <attribute name="MailAddress" value="polozoff@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1448906358347"/>
+</person>

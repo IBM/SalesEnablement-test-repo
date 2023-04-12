@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="rogerf@us.ibm.com" displayName="Roger J. Freeman" isExternal="false" lastChatTime="1417634868948">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$40375267C1016A36.jpg"/>
+  <attribute name="callupname" value="Roger J. Freeman"/>
+  <attribute name="Telephone" value="1-407-942-8269"/>
+  <attribute name="worklocation" value="workLoc=LKM,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Client Manager, AT&amp;T Account"/>
+  <attribute name="dn" value="uid=2A8458897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Roger J. Freeman"/>
+  <attribute name="telephonenumber" value="1-407-942-8269"/>
+  <attribute name="mail" value="rogerf@us.ibm.com"/>
+  <attribute name="Title" value="Client Manager, AT&amp;T Account"/>
+  <attribute name="sn" value="Freeman"/>
+  <attribute name="id" value="rogerf@us.ibm.com"/>
+  <attribute name="MailAddress" value="rogerf@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1434638406157"/>
+</person>

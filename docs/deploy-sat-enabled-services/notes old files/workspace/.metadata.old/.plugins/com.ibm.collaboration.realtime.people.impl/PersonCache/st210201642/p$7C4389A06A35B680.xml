@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="ohjenny@hk1.ibm.com" displayName="Jenny LI" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$7C4389A06A35B680.jpg"/>
+  <attribute name="callupname" value="Jenny LI"/>
+  <attribute name="tieline" value="855-6917"/>
+  <attribute name="Telephone" value="855-6917 / 852-282-56917"/>
+  <attribute name="worklocation" value="workLoc=HKE,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="GCG IT Lead"/>
+  <attribute name="dn" value="uid=052420738,c=hk,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Jenny LI"/>
+  <attribute name="telephonenumber" value="855-6917 / 852-282-56917"/>
+  <attribute name="Address" value="979 King&apos;S Road, Pccw Tower&#xA;Taikoo Place, Quarry Bay, 7-8/F &amp; 10-13/F&#xA;Hong Kong&#xA;Hong Kong SAR China"/>
+  <attribute name="mail" value="ohjenny@hk1.ibm.com"/>
+  <attribute name="Title" value="GCG IT Lead"/>
+  <attribute name="id" value="ohjenny@hk1.ibm.com"/>
+  <attribute name="sn" value="LI"/>
+  <attribute name="MailAddress" value="ohjenny@hk1.ibm.com"/>
+  <attribute name="lastUpdate" value="1435167886065"/>
+</person>

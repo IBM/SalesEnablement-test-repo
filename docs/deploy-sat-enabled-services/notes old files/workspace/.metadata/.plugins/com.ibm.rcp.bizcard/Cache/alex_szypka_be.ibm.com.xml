@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>Belgium</countryName>
+<locality>LIEGE</locality>
+<org>IBM Cloud</org>
+<userId>edc4c6c0-8f09-1028-82b5-db07163b51b2</userId>
+<name>Szypka, Alexander (Alex)</name>
+<officeBuilding>BELI</officeBuilding>
+<uid>076026624</uid>
+<streetAddress>Square Des Conduites D'Eau 7-8
+Parc D'Affaires Zenobe
+Liege 4020
+Belgium</streetAddress>
+<role>IBM employee, Regular</role>
+<title>EMEA IBM Cloud Managed Services Delivery Focal for ITS</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/alex_szypka_be.ibm.com</photoUri>
+<tel>32-2 339 8204</tel>
+<email>alex_szypka@be.ibm.com</email>
+<office>208</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=edc4c6c0-8f09-1028-82b5-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=edc4c6c0-8f09-1028-82b5-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=edc4c6c0-8f09-1028-82b5-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=edc4c6c0-8f09-1028-82b5-db07163b51b2&amp;name=Szypka%2C%20Alexander%20%28Alex%29"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=edc4c6c0-8f09-1028-82b5-db07163b51b2&amp;name=Szypka%2C%20Alexander%20%28Alex%29"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/edc4c6c0-8f09-1028-82b5-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=edc4c6c0-8f09-1028-82b5-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Dedc4c6c0-8f09-1028-82b5-db07163b51b2%2Cname%3DSzypka%2C%20Alexander%20%28Alex%29"/>
+</BusinessCardLinks>
+<LastUpdated>1441890037734</LastUpdated>
+</BusinessCard>

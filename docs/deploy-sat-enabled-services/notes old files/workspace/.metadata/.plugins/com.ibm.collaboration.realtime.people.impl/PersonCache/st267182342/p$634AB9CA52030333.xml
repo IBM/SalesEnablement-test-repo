@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="sandlebe@us.ibm.com" displayName="Gilbert H. (Chip) Sandleben" isExternal="false" lastChatTime="1448034345143">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$634AB9CA52030333.jpg"/>
+  <attribute name="callupname" value="Gilbert H. (Chip) Sandleben"/>
+  <attribute name="tieline" value="938-5002"/>
+  <attribute name="Telephone" value="938-5002 / 1-720-396-5002"/>
+  <attribute name="worklocation" value="workLoc=A43,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Product Owner, Cloud Managed Services"/>
+  <attribute name="dn" value="uid=4A8081897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Gilbert H. (Chip) Sandleben"/>
+  <attribute name="telephonenumber" value="938-5002 / 1-720-396-5002"/>
+  <attribute name="Address" value="8888 Keystone Crossing&#xA;Suite 925&#xA;Indianapolis, IN 46240&#xA;United States"/>
+  <attribute name="mail" value="sandlebe@us.ibm.com"/>
+  <attribute name="Title" value="Product Owner, Cloud Managed Services"/>
+  <attribute name="id" value="sandlebe@us.ibm.com"/>
+  <attribute name="sn" value="Sandleben"/>
+  <attribute name="MailAddress" value="sandlebe@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1448887536632"/>
+</person>

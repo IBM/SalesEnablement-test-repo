@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="saint@us.ibm.com" displayName="Ron St. Pierre" isExternal="false" lastChatTime="1264429128359">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$258E4AF657921CB0.jpg"/>
+  <attribute name="callupname" value="Ronald M. (Ron) St. Pierre"/>
+  <attribute name="tieline" value="363-8699"/>
+  <attribute name="Telephone" value="363-8699 / 1-512-286-8699"/>
+  <attribute name="worklocation" value="workLoc=PLA,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Manager, AIX Development"/>
+  <attribute name="dn" value="uid=038320897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Ronald M. (Ron) St. Pierre"/>
+  <attribute name="telephonenumber" value="363-8699 / 1-512-286-8699"/>
+  <attribute name="Address" value="11400 Burnet Rd&#xA;Austin, TX 78758-3493&#xA;United States"/>
+  <attribute name="mail" value="saint@us.ibm.com"/>
+  <attribute name="Title" value="Manager, AIX Development"/>
+  <attribute name="id" value="saint@us.ibm.com"/>
+  <attribute name="sn" value="St Pierre"/>
+  <attribute name="MailAddress" value="saint@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1429181309043"/>
+</person>

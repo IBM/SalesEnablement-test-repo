@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="karrat@us.ibm.com" displayName="Wally K. Karrat" isExternal="false" lastChatTime="1448906384701">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$32B0F8E7310A2E6F.jpg"/>
+  <attribute name="callupname" value="Wally K. Karrat"/>
+  <attribute name="tieline" value="963-5131"/>
+  <attribute name="Telephone" value="963-5131 / 1-720-342-5131"/>
+  <attribute name="worklocation" value="workLoc=SBR,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Global Executive Consultant, Site &amp; Facilities Services"/>
+  <attribute name="dn" value="uid=518299897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Wally K. Karrat"/>
+  <attribute name="telephonenumber" value="963-5131 / 1-720-342-5131"/>
+  <attribute name="Address" value="150 Kettletown Rd&#xA;Southbury, CT 06488-2600&#xA;United States"/>
+  <attribute name="mail" value="karrat@us.ibm.com"/>
+  <attribute name="Title" value="Global Executive Consultant, Site &amp; Facilities Services"/>
+  <attribute name="id" value="karrat@us.ibm.com"/>
+  <attribute name="sn" value="Karrat"/>
+  <attribute name="MailAddress" value="karrat@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1448906358523"/>
+</person>

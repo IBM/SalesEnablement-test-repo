@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="jhudson@us.ibm.com" displayName="Joe Hudson *Contractor*" isExternal="false" lastChatTime="1439817592240">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$3250D943A4FC4FB6.jpg"/>
+  <attribute name="callupname" value="Joe Hudson *Contractor*"/>
+  <attribute name="Telephone" value="1-303-651-9592"/>
+  <attribute name="worklocation" value="workLoc=BOL,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Program Management"/>
+  <attribute name="dn" value="uid=C-9DS9897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Joe Hudson *Contractor*"/>
+  <attribute name="telephonenumber" value="1-303-651-9592"/>
+  <attribute name="Address" value="6300 Diagonal Hwy&#xA;Boulder, CO 80301-6108&#xA;United States"/>
+  <attribute name="mail" value="jhudson@us.ibm.com"/>
+  <attribute name="Title" value="Program Management"/>
+  <attribute name="sn" value="Hudson"/>
+  <attribute name="id" value="jhudson@us.ibm.com"/>
+  <attribute name="MailAddress" value="jhudson@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1442342472533"/>
+</person>

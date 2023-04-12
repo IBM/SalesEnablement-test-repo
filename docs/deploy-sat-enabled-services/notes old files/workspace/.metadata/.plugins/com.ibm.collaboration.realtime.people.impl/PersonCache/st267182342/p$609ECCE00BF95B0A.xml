@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="juned@us.ibm.com" displayName="juned@us.ibm.com - June Donaruma/Raleigh/Contr/IBM" isExternal="false" lastChatTime="1431029267417">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$609ECCE00BF95B0A.jpg"/>
+  <attribute name="callupname" value="June Donaruma *Contractor*"/>
+  <attribute name="Telephone" value="1-919-740-3548"/>
+  <attribute name="worklocation" value="workLoc=SMB,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="IBM CMS pDPE"/>
+  <attribute name="dn" value="uid=C-DBMX897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="June Donaruma *Contractor*"/>
+  <attribute name="telephonenumber" value="1-919-740-3548"/>
+  <attribute name="Address" value="4205 S Miami Blvd&#xA;Durham, NC 27703-9141&#xA;United States"/>
+  <attribute name="mail" value="juned@us.ibm.com"/>
+  <attribute name="Title" value="IBM CMS pDPE"/>
+  <attribute name="sn" value="Donaruma"/>
+  <attribute name="id" value="juned@us.ibm.com"/>
+  <attribute name="MailAddress" value="juned@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1444743347692"/>
+</person>

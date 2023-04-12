@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="pnotaro@us.ibm.com" displayName="Peter  (Pete) Notaro" isExternal="false" lastChatTime="1329485660061">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$7BA12F7BAD698903.jpg"/>
+  <attribute name="callupname" value="Peter J. (Pete) Notaro"/>
+  <attribute name="tieline" value="233-2120"/>
+  <attribute name="Telephone" value="233-2120 / 1-410-332-2120"/>
+  <attribute name="worklocation" value="workLoc=EOP,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Director, NA Cloud Services"/>
+  <attribute name="dn" value="uid=032108897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Peter J. (Pete) Notaro"/>
+  <attribute name="telephonenumber" value="233-2120 / 1-410-332-2120"/>
+  <attribute name="Address" value="100 E Pratt St&#xA;Baltimore, MD 21202-1009&#xA;United States"/>
+  <attribute name="mail" value="pnotaro@us.ibm.com"/>
+  <attribute name="Title" value="Director, NA Cloud Services"/>
+  <attribute name="id" value="pnotaro@us.ibm.com"/>
+  <attribute name="sn" value="Notaro"/>
+  <attribute name="MailAddress" value="pnotaro@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1441915639612"/>
+</person>

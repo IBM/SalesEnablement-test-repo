@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="lcarlton@us.ibm.com" displayName="Luanne Carlton" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$727734CBDB2D4B11.jpg"/>
+  <attribute name="callupname" value="Luanne Carlton"/>
+  <attribute name="tieline" value="623-9900"/>
+  <attribute name="Telephone" value="623-9900 / 1-610-578-2089"/>
+  <attribute name="worklocation" value="workLoc=WCH,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="IT Specialist - Global Techline - ISV Solution Sizing - SAP"/>
+  <attribute name="dn" value="uid=853544897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Luanne Carlton"/>
+  <attribute name="telephonenumber" value="623-9900 / 1-610-578-2089"/>
+  <attribute name="Address" value="1475 Phoenixville Pike&#xA;West Chester, PA 19380-1437&#xA;United States"/>
+  <attribute name="mail" value="lcarlton@us.ibm.com"/>
+  <attribute name="Title" value="IT Specialist - Global Techline - ISV Solution Sizing - SAP"/>
+  <attribute name="id" value="lcarlton@us.ibm.com"/>
+  <attribute name="sn" value="Carlton"/>
+  <attribute name="MailAddress" value="lcarlton@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1392154076490"/>
+</person>

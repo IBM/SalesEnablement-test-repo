@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="bpierson@us.ibm.com" displayName="Bernadette A. Pierson" isExternal="false" lastChatTime="1434376593147">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$5FB1C557D7E1AF74.jpg"/>
+  <attribute name="callupname" value="Bernadette A. Pierson"/>
+  <attribute name="Telephone" value="1-802-370-9835"/>
+  <attribute name="worklocation" value="workLoc=PLB,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Council for Innovation Leadership - Program and Operations Manager"/>
+  <attribute name="dn" value="uid=294039897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Bernadette A. Pierson"/>
+  <attribute name="telephonenumber" value="1-802-370-9835"/>
+  <attribute name="Address" value="1000 River St&#xA;Essex Junction, VT 05452-4299&#xA;United States"/>
+  <attribute name="mail" value="bpierson@us.ibm.com"/>
+  <attribute name="Title" value="Council for Innovation Leadership - Program and Operations Manager"/>
+  <attribute name="sn" value="Pierson"/>
+  <attribute name="id" value="bpierson@us.ibm.com"/>
+  <attribute name="MailAddress" value="bpierson@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1434376593204"/>
+</person>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="rjoyce@ca.ibm.com" displayName="Rodney (R.W.) Joyce" isExternal="false" lastChatTime="1423235809410">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$2C30D8EDD177F4DE.jpg"/>
+  <attribute name="callupname" value="Rodney (R.W.) Joyce"/>
+  <attribute name="tieline" value="318-9968"/>
+  <attribute name="Telephone" value="318-9968 / 1-416-478-9968"/>
+  <attribute name="worklocation" value="workLoc=4AN,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Solution Architect - Cloud Computing"/>
+  <attribute name="dn" value="uid=038082649,c=ca,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Rodney (R.W.) Joyce"/>
+  <attribute name="telephonenumber" value="318-9968 / 1-416-478-9968"/>
+  <attribute name="Address" value="3600 Steeles Ave East&#xA;Markham, ON L3R 9Z7&#xA;Canada"/>
+  <attribute name="mail" value="rjoyce@ca.ibm.com"/>
+  <attribute name="Title" value="Solution Architect - Cloud Computing"/>
+  <attribute name="id" value="rjoyce@ca.ibm.com"/>
+  <attribute name="sn" value="Joyce"/>
+  <attribute name="MailAddress" value="rjoyce@ca.ibm.com"/>
+  <attribute name="lastUpdate" value="1448032453784"/>
+</person>

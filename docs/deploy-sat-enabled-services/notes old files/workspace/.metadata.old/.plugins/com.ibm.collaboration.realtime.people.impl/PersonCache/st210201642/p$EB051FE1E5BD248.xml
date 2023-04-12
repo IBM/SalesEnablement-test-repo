@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="stegersh@us.ibm.com" displayName="stegersh@us.ibm.com - Steven Gershenfeld/White Plains/IBM" isExternal="false" lastChatTime="1435760679150">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$EB051FE1E5BD248.jpg"/>
+  <attribute name="callupname" value="Steven Gershenfeld"/>
+  <attribute name="tieline" value="404-2020"/>
+  <attribute name="Telephone" value="404-2020 / 1-732-926-2020"/>
+  <attribute name="worklocation" value="workLoc=PIC,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Cloud Managed Services Global Enablement"/>
+  <attribute name="dn" value="uid=680789897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Steven Gershenfeld"/>
+  <attribute name="telephonenumber" value="404-2020 / 1-732-926-2020"/>
+  <attribute name="Address" value="1551 S Washington Ave&#xA;Piscataway, NJ 08854-6700&#xA;United States"/>
+  <attribute name="mail" value="stegersh@us.ibm.com"/>
+  <attribute name="Title" value="Cloud Managed Services Global Enablement"/>
+  <attribute name="id" value="stegersh@us.ibm.com"/>
+  <attribute name="sn" value="Gershenfeld"/>
+  <attribute name="MailAddress" value="stegersh@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1435840635307"/>
+</person>

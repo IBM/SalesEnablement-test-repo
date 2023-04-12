@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="mikednls@us.ibm.com" displayName="Michael P. (Mike) Daniels" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$1ADFF4C94C9E07F5.jpg"/>
+  <attribute name="callupname" value="Michael P. (Mike) Daniels"/>
+  <attribute name="Telephone" value="1-360-210-7352"/>
+  <attribute name="worklocation" value="workLoc=SEA,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Security Delivery Architect"/>
+  <attribute name="dn" value="uid=4A6046897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Michael P. (Mike) Daniels"/>
+  <attribute name="telephonenumber" value="1-360-210-7352"/>
+  <attribute name="Address" value="1200 5Th Ave&#xA;Seattle, WA 98101-3132&#xA;United States"/>
+  <attribute name="mail" value="mikednls@us.ibm.com"/>
+  <attribute name="Title" value="Security Delivery Architect"/>
+  <attribute name="sn" value="Daniels"/>
+  <attribute name="id" value="mikednls@us.ibm.com"/>
+  <attribute name="MailAddress" value="mikednls@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1444746952914"/>
+</person>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSIVIEWPART>
+<CSIVIEWPARTcom.ibm.workplace.ui.sidecalendar.views.SideCalendarViewPart:null ACTIVE_FOLDER_KEY="6854" AUTOSORT_TOOLTIP="false" BOTTOM_WEIGHT="530" FIND_DIALOG_EXPAND="true" HINT_PARTIAL_LIST="true" MERGE_ENTRIES="true" ORIENTATION="512" TOP_WEIGHT="470">
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1.1" FOLDER_KEY="6854" IS_SNIPPETS="false" PREVIEW_COLLAPSE="false" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="256" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer"/>
+<EXTERNALcom.ibm.workplace.ui.sidecalendar.views.SideCalendarViewPart:null com.ibm.rcp.csiviews.viewers.DateFooterContrib.footerChoice="com.ibm.rcp.csiviews.viewers.DayFormat" com.ibm.rcp.csiviews.viewers.DateFooterContrib.showFooter="1"/>
+</CSIVIEWPARTcom.ibm.workplace.ui.sidecalendar.views.SideCalendarViewPart:null>
+</CSIVIEWPART>

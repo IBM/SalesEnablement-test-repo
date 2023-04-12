@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="Daniel_Maurer@de.ibm.com" displayName="Daniel Maurer" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$6591EB32096E9A6B.jpg"/>
+  <attribute name="callupname" value="Daniel Maurer"/>
+  <attribute name="Telephone" value="49-7031-16-1546"/>
+  <attribute name="worklocation" value="workLoc=BOA,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Senior IT Architect - Cloud Infrastructure Architect"/>
+  <attribute name="dn" value="uid=007195724,c=de,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Daniel Maurer"/>
+  <attribute name="telephonenumber" value="49-7031-16-1546"/>
+  <attribute name="Address" value="Schoenaicher Str. 220&#xA;Boeblingen 71032&#xA;Germany"/>
+  <attribute name="mail" value="Daniel_Maurer@de.ibm.com"/>
+  <attribute name="Title" value="Senior IT Architect - Cloud Infrastructure Architect"/>
+  <attribute name="sn" value="Maurer"/>
+  <attribute name="id" value="Daniel_Maurer@de.ibm.com"/>
+  <attribute name="MailAddress" value="Daniel_Maurer@de.ibm.com"/>
+  <attribute name="lastUpdate" value="1449064349602"/>
+</person>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="ora@ch.ibm.com" displayName="Olivier Rahm" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$6BC4E9416BFBD88D.jpg"/>
+  <attribute name="callupname" value="Olivier Rahm"/>
+  <attribute name="tieline" value="3-4450"/>
+  <attribute name="Telephone" value="3-4450 / 41-58 333 44 50"/>
+  <attribute name="worklocation" value="workLoc=D3H,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Services Solutions Executive"/>
+  <attribute name="dn" value="uid=066648848,c=ch,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Olivier Rahm"/>
+  <attribute name="telephonenumber" value="3-4450 / 41-58 333 44 50"/>
+  <attribute name="Address" value="Chemin De Blandonnet 8&#xA;Vernier 1214&#xA;Switzerland"/>
+  <attribute name="mail" value="ora@ch.ibm.com"/>
+  <attribute name="Title" value="Services Solutions Executive"/>
+  <attribute name="id" value="ora@ch.ibm.com"/>
+  <attribute name="sn" value="Rahm"/>
+  <attribute name="MailAddress" value="ora@ch.ibm.com"/>
+  <attribute name="lastUpdate" value="1426009950800"/>
+</person>

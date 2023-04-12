@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="rkosaraj@us.ibm.com" displayName="RAVI Kosaraju" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$1B4BBDB41D491A78.jpg"/>
+  <attribute name="callupname" value="RAVI Kosaraju"/>
+  <attribute name="Telephone" value="1-401-429-6014"/>
+  <attribute name="worklocation" value="workLoc=KDC,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Technology Research"/>
+  <attribute name="dn" value="uid=4D9252897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="RAVI Kosaraju"/>
+  <attribute name="telephonenumber" value="1-401-429-6014"/>
+  <attribute name="Address" value="1630 Long Pond Rd&#xA;Rochester, NY 14626-1496&#xA;United States"/>
+  <attribute name="mail" value="rkosaraj@us.ibm.com"/>
+  <attribute name="Title" value="Technology Research"/>
+  <attribute name="sn" value="Kosaraju"/>
+  <attribute name="id" value="rkosaraj@us.ibm.com"/>
+  <attribute name="MailAddress" value="rkosaraj@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1435167598494"/>
+</person>

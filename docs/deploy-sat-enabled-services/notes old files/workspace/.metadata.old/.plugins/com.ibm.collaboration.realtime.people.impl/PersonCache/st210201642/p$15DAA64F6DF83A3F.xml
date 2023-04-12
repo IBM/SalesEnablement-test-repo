@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="postonb@us.ibm.com" displayName="Benjamin P. (Ben) Poston" isExternal="false" lastChatTime="1358798239561">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$15DAA64F6DF83A3F.jpg"/>
+  <attribute name="callupname" value="Benjamin P. (Ben) Poston"/>
+  <attribute name="tieline" value="391-0963"/>
+  <attribute name="Telephone" value="391-0963 / 1-713-797-4456"/>
+  <attribute name="worklocation" value="workLoc=FR6,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Client Services Exec - ITS Cloud Services"/>
+  <attribute name="dn" value="uid=0A0284897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Benjamin P. (Ben) Poston"/>
+  <attribute name="telephonenumber" value="391-0963 / 1-713-797-4456"/>
+  <attribute name="Address" value="12301 Kurland Dr&#xA;Suite 300&#xA;Houston, TX 77034-4812&#xA;United States"/>
+  <attribute name="mail" value="postonb@us.ibm.com"/>
+  <attribute name="Title" value="Client Services Exec - ITS Cloud Services"/>
+  <attribute name="id" value="postonb@us.ibm.com"/>
+  <attribute name="sn" value="Poston"/>
+  <attribute name="MailAddress" value="postonb@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1429720928552"/>
+</person>

@@ -1,0 +1,5 @@
+<install version="1410810722979">
+<requirements>
+<feature id="com.ibm.unyte.lotuslive.feature" action="install" match="greaterOrEqual" shared="false" url="http://www.conferenceservers.com/brands/SBS/LLMEETING_EN-US"  version="1.0.0.20100105-1228" />
+</requirements>
+</install>

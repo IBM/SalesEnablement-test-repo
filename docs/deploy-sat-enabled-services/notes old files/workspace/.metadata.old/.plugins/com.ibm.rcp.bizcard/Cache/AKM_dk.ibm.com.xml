@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<streetAddress>Olof Palmes Alle 44
+Aarhus N 8200
+Denmark</streetAddress>
+<title>SAP Cloud Architect - IBM Cloud (Global)</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/AKM_dk.ibm.com</photoUri>
+<tel>45-2560 5432</tel>
+<name>Meier, Arne Korsgaard</name>
+<email>AKM@dk.ibm.com</email>
+<LastUpdated>1425311212564</LastUpdated>
+<actualtimezoneid>Europe/Paris</actualtimezoneid>
+<timezoneid>+100</timezoneid>
+<postalCode>8240</postalCode>
+<uid>018254678</uid>
+<userId>bc4866c0-d27e-1028-9001-bc5b5428fed7</userId>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=bc4866c0-d27e-1028-9001-bc5b5428fed7&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=bc4866c0-d27e-1028-9001-bc5b5428fed7"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=bc4866c0-d27e-1028-9001-bc5b5428fed7"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=bc4866c0-d27e-1028-9001-bc5b5428fed7&amp;name=Meier%2C%20Arne%20Korsgaard"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=bc4866c0-d27e-1028-9001-bc5b5428fed7&amp;name=Meier%2C%20Arne%20Korsgaard"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/bc4866c0-d27e-1028-9001-bc5b5428fed7"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=bc4866c0-d27e-1028-9001-bc5b5428fed7"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Dbc4866c0-d27e-1028-9001-bc5b5428fed7%2Cname%3DMeier%2C%20Arne%20Korsgaard"/>
+</BusinessCardLinks>
+</BusinessCard>

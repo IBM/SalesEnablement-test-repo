@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="kclance@us.ibm.com" displayName="KANDICE  (KANDI) CLANCEY" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$77A9FDE568B410B8.jpg"/>
+  <attribute name="callupname" value="KANDICE  (KANDI) CLANCEY"/>
+  <attribute name="Telephone" value="1-214-770-8779"/>
+  <attribute name="worklocation" value="workLoc=DFW,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Business Development Executive - Cloud Lead"/>
+  <attribute name="dn" value="uid=4G8515897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="KANDICE  (KANDI) CLANCEY"/>
+  <attribute name="telephonenumber" value="1-214-770-8779"/>
+  <attribute name="Address" value="1177 S Belt Line Rd&#xA;Coppell, TX 75019-4642&#xA;United States"/>
+  <attribute name="mail" value="kclance@us.ibm.com"/>
+  <attribute name="Title" value="Business Development Executive - Cloud Lead"/>
+  <attribute name="sn" value="CLANCEY"/>
+  <attribute name="id" value="kclance@us.ibm.com"/>
+  <attribute name="MailAddress" value="kclance@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1447099094394"/>
+</person>

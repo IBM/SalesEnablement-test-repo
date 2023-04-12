@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="neislar@us.ibm.com" displayName="Greg A. Neislar" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$6F31499A82C0398.jpg"/>
+  <attribute name="callupname" value="Greg A. Neislar"/>
+  <attribute name="Telephone" value="1-248-884-4268"/>
+  <attribute name="worklocation" value="workLoc=WNM,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Client Solutions Executive"/>
+  <attribute name="dn" value="uid=1A3466897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Greg A. Neislar"/>
+  <attribute name="telephonenumber" value="1-248-884-4268"/>
+  <attribute name="Address" value="18000 W 9 Mile Rd&#xA;Southfield, MI 48075-4009&#xA;United States"/>
+  <attribute name="mail" value="neislar@us.ibm.com"/>
+  <attribute name="Title" value="Client Solutions Executive"/>
+  <attribute name="sn" value="Neislar"/>
+  <attribute name="id" value="neislar@us.ibm.com"/>
+  <attribute name="MailAddress" value="neislar@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1444740176116"/>
+</person>

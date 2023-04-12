@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="briggsb@us.ibm.com" displayName="Benjamin H. Briggs" isExternal="false" lastChatTime="1300806993338">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$7F167F76DC86CA.jpg"/>
+  <attribute name="callupname" value="Benjamin H. Briggs"/>
+  <attribute name="tieline" value="966-3728"/>
+  <attribute name="Telephone" value="966-3728 / 1-512-465-2407"/>
+  <attribute name="worklocation" value="workLoc=ATT,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Event Management &amp; Facilitation,  IBM Academic Initiative"/>
+  <attribute name="dn" value="uid=0A8532897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Benjamin H. Briggs"/>
+  <attribute name="telephonenumber" value="966-3728 / 1-512-465-2407"/>
+  <attribute name="Address" value="11301 Burnet Rd&#xA;Austin, TX 78758-3404&#xA;United States"/>
+  <attribute name="mail" value="briggsb@us.ibm.com"/>
+  <attribute name="Title" value="Event Management &amp; Facilitation,  IBM Academic Initiative"/>
+  <attribute name="id" value="briggsb@us.ibm.com"/>
+  <attribute name="sn" value="Briggs"/>
+  <attribute name="MailAddress" value="briggsb@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1382469729648"/>
+</person>

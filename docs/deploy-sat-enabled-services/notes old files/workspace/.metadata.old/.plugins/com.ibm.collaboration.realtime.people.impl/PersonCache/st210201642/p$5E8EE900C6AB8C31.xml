@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="lbmitche@us.ibm.com" displayName="Lynne Mitchell" isExternal="false" lastChatTime="1381855846545">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$5E8EE900C6AB8C31.jpg"/>
+  <attribute name="callupname" value="Lynne Mitchell"/>
+  <attribute name="tieline" value="676-9207"/>
+  <attribute name="Telephone" value="676-9207 / 1-720-395-9207"/>
+  <attribute name="worklocation" value="workLoc=WCH,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Program Manager, ITS Specialty Skills"/>
+  <attribute name="dn" value="uid=460617897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Lynne Mitchell"/>
+  <attribute name="telephonenumber" value="676-9207 / 1-720-395-9207"/>
+  <attribute name="Address" value="1475 Phoenixville Pike&#xA;West Chester, PA 19380-1437&#xA;United States"/>
+  <attribute name="mail" value="lbmitche@us.ibm.com"/>
+  <attribute name="Title" value="Program Manager, ITS Specialty Skills"/>
+  <attribute name="id" value="lbmitche@us.ibm.com"/>
+  <attribute name="sn" value="Mitchell"/>
+  <attribute name="MailAddress" value="lbmitche@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1402934614216"/>
+</person>

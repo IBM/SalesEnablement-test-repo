@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="thomas.loupe@us.ibm.com" displayName="THOMAS W. LOUPE" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$5E0116EE1BA72AA2.jpg"/>
+  <attribute name="callupname" value="THOMAS W. LOUPE"/>
+  <attribute name="Telephone" value="1-512-577-9000"/>
+  <attribute name="worklocation" value="workLoc=BNT,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Cloud Solutions Executive - IBM Cloud Services"/>
+  <attribute name="dn" value="uid=4G1140897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="THOMAS W. LOUPE"/>
+  <attribute name="telephonenumber" value="1-512-577-9000"/>
+  <attribute name="Address" value="11501 Burnet Rd&#xA;Austin, TX 78758-3400&#xA;United States"/>
+  <attribute name="mail" value="thomas.loupe@us.ibm.com"/>
+  <attribute name="Title" value="Cloud Solutions Executive - IBM Cloud Services"/>
+  <attribute name="sn" value="LOUPE"/>
+  <attribute name="id" value="thomas.loupe@us.ibm.com"/>
+  <attribute name="MailAddress" value="thomas.loupe@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1434039142916"/>
+</person>

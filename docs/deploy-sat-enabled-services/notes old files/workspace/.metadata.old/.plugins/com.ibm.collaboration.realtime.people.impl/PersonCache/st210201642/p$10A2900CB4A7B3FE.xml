@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="george.contino@us.ibm.com" displayName="george.contino@us.ibm.com - George Contino/Philadelphia/IBM" isExternal="false" lastChatTime="1392212911485">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$10A2900CB4A7B3FE.jpg"/>
+  <attribute name="callupname" value="GEORGE CONTINO"/>
+  <attribute name="Telephone" value="1-484-483-8946"/>
+  <attribute name="worklocation" value="workLoc=A49,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Product Manager, Cloud Infrastructure Services"/>
+  <attribute name="dn" value="uid=7D9804897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="GEORGE CONTINO"/>
+  <attribute name="telephonenumber" value="1-484-483-8946"/>
+  <attribute name="Address" value="30 S 17Th St&#xA;Philadelphia, PA 19103-4001&#xA;United States"/>
+  <attribute name="mail" value="george.contino@us.ibm.com"/>
+  <attribute name="Title" value="Product Manager, Cloud Infrastructure Services"/>
+  <attribute name="sn" value="CONTINO"/>
+  <attribute name="id" value="george.contino@us.ibm.com"/>
+  <attribute name="MailAddress" value="george.contino@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1408992449896"/>
+</person>

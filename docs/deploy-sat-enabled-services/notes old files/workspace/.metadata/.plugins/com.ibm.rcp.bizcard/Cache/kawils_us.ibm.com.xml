@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>United States</countryName>
+<locality>ENGLEWOOD CLIFFS</locality>
+<org>IBM Sales &amp; Distribution, Digital Sales</org>
+<userId>31b8dec0-31f2-1034-90f7-ea2d8929c917</userId>
+<name>Wilson, Kathy A. *CONTRACTOR*</name>
+<floor>NA</floor>
+<uid>C-HEFK897</uid>
+<officeBuilding>0532</officeBuilding>
+<streetAddress>930 Sylvan Ave
+1St Fl
+Englewood Cliffs, NJ 07632-3301
+United States</streetAddress>
+<region>NJ</region>
+<role>non-IBM employee, Contractor</role>
+<title>Marketing Communications Consultant</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/kawils_us.ibm.com</photoUri>
+<tel>1-201-739-0717</tel>
+<email>kawils@us.ibm.com</email>
+<office>HOME</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=31b8dec0-31f2-1034-90f7-ea2d8929c917&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=31b8dec0-31f2-1034-90f7-ea2d8929c917"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=31b8dec0-31f2-1034-90f7-ea2d8929c917"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=31b8dec0-31f2-1034-90f7-ea2d8929c917&amp;name=Wilson%2C%20Kathy%20A.%20*CONTRACTOR*"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=31b8dec0-31f2-1034-90f7-ea2d8929c917&amp;name=Wilson%2C%20Kathy%20A.%20*CONTRACTOR*"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/31b8dec0-31f2-1034-90f7-ea2d8929c917"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=31b8dec0-31f2-1034-90f7-ea2d8929c917"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D31b8dec0-31f2-1034-90f7-ea2d8929c917%2Cname%3DWilson%2C%20Kathy%20A.%20*CONTRACTOR*"/>
+</BusinessCardLinks>
+<LastUpdated>1446214250347</LastUpdated>
+<actualtimezoneid>America/New_York</actualtimezoneid>
+<timezoneid>-400</timezoneid>
+<postalCode>07481</postalCode>
+</BusinessCard>

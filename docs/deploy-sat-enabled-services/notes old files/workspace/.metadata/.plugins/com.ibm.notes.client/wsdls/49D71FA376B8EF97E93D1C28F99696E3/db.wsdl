@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ***************************************************************** -->
+<!--                                                                   -->
+<!-- IBM Confidential                                                  -->
+<!--                                                                   -->
+<!-- OCO Source Materials                                              -->
+<!--                                                                   -->
+<!-- (C) Copyright IBM Corp. 2007                                      -->
+<!--                                                                   -->
+<!-- The source code for this program is not published or otherwise    -->
+<!-- divested of its trade secrets, irrespective of what has been      -->
+<!-- deposited with the U.S. Copyright Office.                         -->
+<!--                                                                   -->
+<!-- ***************************************************************** -->
+<definitions name="Property Broker WSDL"
+  targetNamespace="http://www.ibm.com/xmlns/prod/datatype"
+  xmlns="http://schemas.xmlsoap.org/wsdl/"
+  xmlns:portlet="http://www.ibm.com/wps/c2a"
+  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"  
+  xmlns:idt="http://www.ibm.com/xmlns/prod/datatype">
+  <types>
+    <xsd:schema targetNamespace="http://www.ibm.com/xmlns/prod/datatype">
+      <xsd:simpleType name="emailAddress822">
+        <xsd:restriction base="xsd:string"/>
+      </xsd:simpleType>
+      <xsd:simpleType name="distinguishedName">
+        <xsd:restriction base="xsd:string"/>
+      </xsd:simpleType>
+      <xsd:simpleType name="mailTo">
+        <xsd:restriction base="xsd:string"/>
+      </xsd:simpleType>
+      <xsd:simpleType name="url">
+        <xsd:restriction base="xsd:anyURI"/>
+      </xsd:simpleType>
+    </xsd:schema>
+  </types>
+ 
+  <message name="SetCollaboratorName_Message">
+    <part name="SetCollaboratorName_Part" type="xsd:string"/>
+  </message>
+
+  <portType name="Operations">
+    <operation name="SetCollaboratorName_Operation">
+      <input message="idt:SetCollaboratorName_Message"/>
+    </operation>
+  </portType>
+  
+  <binding name="Binding" type="idt:Operations">
+    <portlet:binding/>    
+    <operation name="SetCollaboratorName_Operation">
+      <portlet:action activeOnStartup="true"
+        caption="setcollaboratornameaction.caption"
+        description="setcollaboratornameaction.description"
+        name="SetCollaboratorName"
+        selectOnMultipleMatch="false" type="standard"/>
+      <input>
+        <portlet:param boundTo="request-attribute"
+          caption="setcollaboratornameproperty.caption"
+          description="setcollaboratornameproperty.description"
+          name="CollaboratorName" partname="SetCollaboratorName_Part"/>
+      </input>
+    </operation>    
+  </binding>
+</definitions>

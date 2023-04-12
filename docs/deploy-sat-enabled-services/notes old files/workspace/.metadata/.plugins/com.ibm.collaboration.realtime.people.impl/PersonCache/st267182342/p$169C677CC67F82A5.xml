@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="kcjoglek@us.ibm.com" displayName="Kaushik C. Joglekar" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$169C677CC67F82A5.jpg"/>
+  <attribute name="callupname" value="Kaushik C. Joglekar"/>
+  <attribute name="tieline" value="475-1806"/>
+  <attribute name="Telephone" value="475-1806 / 1-408-927-1806"/>
+  <attribute name="worklocation" value="workLoc=SJH,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="IBM Cloud Client Services | IBM CMS Large Deals"/>
+  <attribute name="dn" value="uid=1A3991897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Kaushik C. Joglekar"/>
+  <attribute name="telephonenumber" value="475-1806 / 1-408-927-1806"/>
+  <attribute name="Address" value="650 Harry Road&#xA;Almaden Research Center&#xA;San Jose, CA 95120-6099&#xA;United States"/>
+  <attribute name="mail" value="kcjoglek@us.ibm.com"/>
+  <attribute name="Title" value="IBM Cloud Client Services | IBM CMS Large Deals"/>
+  <attribute name="id" value="kcjoglek@us.ibm.com"/>
+  <attribute name="sn" value="Joglekar"/>
+  <attribute name="MailAddress" value="kcjoglek@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1443794636018"/>
+</person>

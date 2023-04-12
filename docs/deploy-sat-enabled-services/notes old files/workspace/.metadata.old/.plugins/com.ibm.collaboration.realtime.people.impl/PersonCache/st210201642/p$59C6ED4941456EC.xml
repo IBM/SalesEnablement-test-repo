@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="reysa@us.ibm.com" displayName="John R. Reysa" isExternal="false" lastChatTime="1321632916095">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$59C6ED4941456EC.jpg"/>
+  <attribute name="callupname" value="John R. Reysa"/>
+  <attribute name="tieline" value="363-8219"/>
+  <attribute name="Telephone" value="363-8219 / 1-512-286-8219"/>
+  <attribute name="worklocation" value="workLoc=PLA,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Processor Simulation and Infrastructure"/>
+  <attribute name="dn" value="uid=384597897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="John R. Reysa"/>
+  <attribute name="telephonenumber" value="363-8219 / 1-512-286-8219"/>
+  <attribute name="Address" value="11400 Burnet Rd&#xA;Austin, TX 78758-3493&#xA;United States"/>
+  <attribute name="mail" value="reysa@us.ibm.com"/>
+  <attribute name="Title" value="Processor Simulation and Infrastructure"/>
+  <attribute name="id" value="reysa@us.ibm.com"/>
+  <attribute name="sn" value="Reysa"/>
+  <attribute name="MailAddress" value="reysa@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1427999875332"/>
+</person>

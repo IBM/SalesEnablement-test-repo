@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="clgentry@us.ibm.com" displayName="Casey L. Gentry" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$220BEBE93A467500.jpg"/>
+  <attribute name="callupname" value="Casey L. Gentry"/>
+  <attribute name="tieline" value="938-2302"/>
+  <attribute name="Telephone" value="938-2302 / 1-720-396-2302"/>
+  <attribute name="worklocation" value="workLoc=JFC,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Campaign Manager, Enterprise Transformation, IBM North America"/>
+  <attribute name="dn" value="uid=912065897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Casey L. Gentry"/>
+  <attribute name="telephonenumber" value="938-2302 / 1-720-396-2302"/>
+  <attribute name="Address" value="3220 West Edgewood Drive&#xA;Suite G&#xA;Jefferson City, MO 65109-6883&#xA;United States"/>
+  <attribute name="mail" value="clgentry@us.ibm.com"/>
+  <attribute name="Title" value="Campaign Manager, Enterprise Transformation, IBM North America"/>
+  <attribute name="id" value="clgentry@us.ibm.com"/>
+  <attribute name="sn" value="Gentry"/>
+  <attribute name="MailAddress" value="clgentry@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1445610707660"/>
+</person>

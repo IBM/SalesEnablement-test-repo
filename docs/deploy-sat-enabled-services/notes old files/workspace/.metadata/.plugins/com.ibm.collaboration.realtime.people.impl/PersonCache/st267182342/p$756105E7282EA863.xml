@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="jonhall@us.ibm.com" displayName="Jonathan G. (Jon) Hall" isExternal="false" lastChatTime="1429114440791">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$756105E7282EA863.jpg"/>
+  <attribute name="callupname" value="Jonathan  (Jon) Hall"/>
+  <attribute name="tieline" value="963-5671"/>
+  <attribute name="Telephone" value="963-5671 / 1-720-342-5671"/>
+  <attribute name="worklocation" value="workLoc=FO2,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Director, Cloud Services Technical Sales - North America IOT"/>
+  <attribute name="dn" value="uid=776557897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Jonathan  (Jon) Hall"/>
+  <attribute name="telephonenumber" value="963-5671 / 1-720-342-5671"/>
+  <attribute name="Address" value="1111 N 102Nd Court, Suite 231&#xA;Westroads Office Park&#xA;Omaha, NE 68114-2248&#xA;United States"/>
+  <attribute name="mail" value="jonhall@us.ibm.com"/>
+  <attribute name="Title" value="Director, Cloud Services Technical Sales - North America IOT"/>
+  <attribute name="id" value="jonhall@us.ibm.com"/>
+  <attribute name="sn" value="Hall"/>
+  <attribute name="MailAddress" value="jonhall@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1445603275279"/>
+</person>

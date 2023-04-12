@@ -1,0 +1,111 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: example-food
+  namespace: {{ tz_environment.uuid_label }}
+spec:
+  host: example-food-{{ tz_environment.uuid_label }}.{{ ibm.ingress }}
+  port:
+    targetPort: 8090
+  to:
+    kind: Service
+    name: example-food
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: apiservice-path-creatorder
+  namespace: {{ tz_environment.uuid_label }}
+spec:
+  host: example-food-{{ tz_environment.uuid_label }}.{{ ibm.ingress }}
+  path: "/createOrder"
+  port:
+    targetPort: 8080
+  to:
+    kind: Service
+    name: apiservice
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: apiservice-path-status
+  namespace: {{ tz_environment.uuid_label }}
+spec:
+  host: example-food-{{ tz_environment.uuid_label }}.{{ ibm.ingress }}
+  path: "/status"
+  port:
+    targetPort: 8080
+  to:
+    kind: Service
+    name: apiservice
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: apiservice-path-restaurants
+  namespace: {{ tz_environment.uuid_label }}
+spec:
+  host: example-food-{{ tz_environment.uuid_label }}.{{ ibm.ingress }}
+  path: "/restaurants"
+  port:
+    targetPort: 8080
+  to:
+    kind: Service
+    name: apiservice
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: apiservice-path-user
+  namespace: {{ tz_environment.uuid_label }}
+spec:
+  host: example-food-{{ tz_environment.uuid_label }}.{{ ibm.ingress }}
+  path: "/user"
+  port:
+    targetPort: 8080
+  to:
+    kind: Service
+    name: apiservice
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: realtimedata-path-events
+  namespace: {{ tz_environment.uuid_label }}
+spec:
+  host: example-food-{{ tz_environment.uuid_label }}.{{ ibm.ingress }}
+  path: "/events"
+  port:
+    targetPort: 8080
+  to:
+    kind: Service
+    name: realtimedata
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: podconsumerdata-path-consumers
+  namespace: {{ tz_environment.uuid_label }}
+spec:
+  host: example-food-{{ tz_environment.uuid_label }}.{{ ibm.ingress }}
+  path: "/consumers"
+  port:
+    targetPort: 8080
+  to:
+    kind: Service
+    name: podconsumerdata
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: favorites-path
+  namespace: {{ tz_environment.uuid_label }}
+spec:
+  host: example-food-{{ tz_environment.uuid_label }}.{{ ibm.ingress }}
+  path: "/favorites"
+  port:
+    targetPort: 8080
+  to:
+    kind: Service
+    name: ksql-controller
+---

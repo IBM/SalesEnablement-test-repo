@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="prahlada@us.ibm.com" displayName="Prahlada Chinthalapuri" isExternal="false" lastChatTime="1409149872076">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$16E9B8BF59192B42.jpg"/>
+  <attribute name="callupname" value="Prahlada Chinthalapuri"/>
+  <attribute name="tieline" value="676-1625"/>
+  <attribute name="Telephone" value="676-1625 / 1-720-395-1625"/>
+  <attribute name="worklocation" value="workLoc=WNM,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="IBM Certified Sr Project Manager, SO Delivery"/>
+  <attribute name="dn" value="uid=7A0422897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Prahlada Chinthalapuri"/>
+  <attribute name="telephonenumber" value="676-1625 / 1-720-395-1625"/>
+  <attribute name="Address" value="18000 W 9 Mile Rd&#xA;Southfield, MI 48075-4009&#xA;United States"/>
+  <attribute name="mail" value="prahlada@us.ibm.com"/>
+  <attribute name="Title" value="IBM Certified Sr Project Manager, SO Delivery"/>
+  <attribute name="id" value="prahlada@us.ibm.com"/>
+  <attribute name="sn" value="Chinthalapuri"/>
+  <attribute name="MailAddress" value="prahlada@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1409149872149"/>
+</person>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<uid>C-9LS1897</uid>
+<streetAddress>294 Route 100
+Somers, NY 10589-3216
+United States</streetAddress>
+<userId>f72bb7c0-7485-102e-856b-ecf0dbc33f48</userId>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/w3conns_us.ibm.com</photoUri>
+<name>Connections,  w3 *APPLICATION-ID*</name>
+<email>w3conns@us.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=f72bb7c0-7485-102e-856b-ecf0dbc33f48&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=f72bb7c0-7485-102e-856b-ecf0dbc33f48"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=f72bb7c0-7485-102e-856b-ecf0dbc33f48"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=f72bb7c0-7485-102e-856b-ecf0dbc33f48&amp;name=Connections%2C%20%20w3%20*APPLICATION-ID*"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=f72bb7c0-7485-102e-856b-ecf0dbc33f48&amp;name=Connections%2C%20%20w3%20*APPLICATION-ID*"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/f72bb7c0-7485-102e-856b-ecf0dbc33f48"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=f72bb7c0-7485-102e-856b-ecf0dbc33f48"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Df72bb7c0-7485-102e-856b-ecf0dbc33f48%2Cname%3DConnections%2C%20%20w3%20*APPLICATION-ID*"/>
+</BusinessCardLinks>
+<LastUpdated>1428944099027</LastUpdated>
+</BusinessCard>

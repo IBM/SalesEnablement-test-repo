@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="pathiraj@us.ibm.com" displayName="Pandian Athirajan" isExternal="false" lastChatTime="1358964763132">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$7268AF35820843CD.jpg"/>
+  <attribute name="callupname" value="Pandian Athirajan"/>
+  <attribute name="tieline" value="363-9389"/>
+  <attribute name="Telephone" value="363-9389 / 1-512-286-9389"/>
+  <attribute name="worklocation" value="workLoc=BNT,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Manager - Cloud Infrastructure Services Offerings"/>
+  <attribute name="dn" value="uid=3A5927897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Pandian Athirajan"/>
+  <attribute name="telephonenumber" value="363-9389 / 1-512-286-9389"/>
+  <attribute name="Address" value="11501 Burnet Rd&#xA;Austin, TX 78758-3400&#xA;United States"/>
+  <attribute name="mail" value="pathiraj@us.ibm.com"/>
+  <attribute name="Title" value="Manager - Cloud Infrastructure Services Offerings"/>
+  <attribute name="id" value="pathiraj@us.ibm.com"/>
+  <attribute name="sn" value="Athirajan"/>
+  <attribute name="MailAddress" value="pathiraj@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1397216913813"/>
+</person>

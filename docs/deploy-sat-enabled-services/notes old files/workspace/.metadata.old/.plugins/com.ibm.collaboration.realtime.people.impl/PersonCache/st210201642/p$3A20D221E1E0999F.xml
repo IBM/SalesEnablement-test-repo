@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="liskj@us.ibm.com" displayName="Jennifer D. (Jenny) Lisk" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$3A20D221E1E0999F.jpg"/>
+  <attribute name="callupname" value="Jennifer D. (Jenny) Lisk"/>
+  <attribute name="Telephone" value="1-425-577-4649"/>
+  <attribute name="worklocation" value="workLoc=SEA,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Project Manager, Global Contract Systems Development"/>
+  <attribute name="dn" value="uid=1A9539897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Jennifer D. (Jenny) Lisk"/>
+  <attribute name="telephonenumber" value="1-425-577-4649"/>
+  <attribute name="Address" value="1200 5Th Ave&#xA;Seattle, WA 98101-3132&#xA;United States"/>
+  <attribute name="mail" value="liskj@us.ibm.com"/>
+  <attribute name="Title" value="Project Manager, Global Contract Systems Development"/>
+  <attribute name="sn" value="Lisk"/>
+  <attribute name="id" value="liskj@us.ibm.com"/>
+  <attribute name="MailAddress" value="liskj@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1435167891558"/>
+</person>

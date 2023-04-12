@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<uid>080825897</uid>
+<streetAddress>7029 Albert Pick Rd
+Greensboro, NC 27409-9538
+United States</streetAddress>
+<userId>f0bfb740-8f09-1028-8f7d-db07163b51b2</userId>
+<title>Channel Business Support</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/smsaund_us.ibm.com</photoUri>
+<tel>216-8276 / 1-336-668-9405</tel>
+<name>Saunders, Sharon M.</name>
+<email>smsaund@us.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=f0bfb740-8f09-1028-8f7d-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=f0bfb740-8f09-1028-8f7d-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=f0bfb740-8f09-1028-8f7d-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=f0bfb740-8f09-1028-8f7d-db07163b51b2&amp;name=Saunders%2C%20Sharon%20M."/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=f0bfb740-8f09-1028-8f7d-db07163b51b2&amp;name=Saunders%2C%20Sharon%20M."/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/f0bfb740-8f09-1028-8f7d-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=f0bfb740-8f09-1028-8f7d-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Df0bfb740-8f09-1028-8f7d-db07163b51b2%2Cname%3DSaunders%2C%20Sharon%20M."/>
+</BusinessCardLinks>
+<LastUpdated>1408992469466</LastUpdated>
+</BusinessCard>

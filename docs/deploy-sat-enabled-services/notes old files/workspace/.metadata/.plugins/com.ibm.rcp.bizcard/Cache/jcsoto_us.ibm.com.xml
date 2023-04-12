@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>United States</countryName>
+<locality>FOSTER CITY</locality>
+<org>IBM Systems, Middleware</org>
+<userId>a75c9640-fa73-1034-806a-badfe61c59a0</userId>
+<name>Soto, Juan Carlos</name>
+<uid>3G7986897</uid>
+<officeBuilding>0472</officeBuilding>
+<streetAddress>1001 E Hillsdale Blvd Suite 400
+Bay Area Lab
+Foster City, CA 94404-1603
+United States</streetAddress>
+<region>CA</region>
+<role>IBM employee, Regular</role>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/jcsoto_us.ibm.com</photoUri>
+<email>jcsoto@us.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=a75c9640-fa73-1034-806a-badfe61c59a0&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=a75c9640-fa73-1034-806a-badfe61c59a0"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=a75c9640-fa73-1034-806a-badfe61c59a0"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=a75c9640-fa73-1034-806a-badfe61c59a0&amp;name=Soto%2C%20Juan%20Carlos"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=a75c9640-fa73-1034-806a-badfe61c59a0&amp;name=Soto%2C%20Juan%20Carlos"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/a75c9640-fa73-1034-806a-badfe61c59a0"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=a75c9640-fa73-1034-806a-badfe61c59a0"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Da75c9640-fa73-1034-806a-badfe61c59a0%2Cname%3DSoto%2C%20Juan%20Carlos"/>
+</BusinessCardLinks>
+<LastUpdated>1449064874343</LastUpdated>
+</BusinessCard>

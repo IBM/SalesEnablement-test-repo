@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<uid>003988760</uid>
+<streetAddress>19-21 Nihonbashi-Hakozakicho
+Chuo-Ku
+Tokyo 103-8510
+Japan</streetAddress>
+<userId>adfddf40-8f09-1028-8f43-db07163b51b2</userId>
+<title>SS</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/E00398_jp.ibm.com</photoUri>
+<tel>1205-3749 / 81-3-5651-9876</tel>
+<name>Tsuda, Johji</name>
+<email>E00398@jp.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=adfddf40-8f09-1028-8f43-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=adfddf40-8f09-1028-8f43-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=adfddf40-8f09-1028-8f43-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=adfddf40-8f09-1028-8f43-db07163b51b2&amp;name=Tsuda%2C%20Johji"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=adfddf40-8f09-1028-8f43-db07163b51b2&amp;name=Tsuda%2C%20Johji"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/adfddf40-8f09-1028-8f43-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=adfddf40-8f09-1028-8f43-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Dadfddf40-8f09-1028-8f43-db07163b51b2%2Cname%3DTsuda%2C%20Johji"/>
+</BusinessCardLinks>
+<LastUpdated>1410201126617</LastUpdated>
+<timezoneid>900</timezoneid>
+</BusinessCard>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="tonymart@us.ibm.com" displayName="Anthony Edward  (Tony) Martinez" isExternal="false" lastChatTime="1300736418359">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$C46479CFD31BB80.jpg"/>
+  <attribute name="callupname" value="Anthony Edward  (Tony) Martinez"/>
+  <attribute name="tieline" value="938-8297"/>
+  <attribute name="Telephone" value="938-8297 / 1-720-396-8297"/>
+  <attribute name="worklocation" value="workLoc=EY1,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Distinguished Engineer, Master Inventor - Capability Advancement Services"/>
+  <attribute name="dn" value="uid=342634897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Anthony Edward  (Tony) Martinez"/>
+  <attribute name="telephonenumber" value="938-8297 / 1-720-396-8297"/>
+  <attribute name="Address" value="4601 Touchton Rd E&#xA;Ste 4120&#xA;Jacksonville, FL 32246-4484&#xA;United States"/>
+  <attribute name="mail" value="tonymart@us.ibm.com"/>
+  <attribute name="Title" value="Distinguished Engineer, Master Inventor - Capability Advancement Services"/>
+  <attribute name="id" value="tonymart@us.ibm.com"/>
+  <attribute name="sn" value="Martinez"/>
+  <attribute name="MailAddress" value="tonymart@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1429190267599"/>
+</person>

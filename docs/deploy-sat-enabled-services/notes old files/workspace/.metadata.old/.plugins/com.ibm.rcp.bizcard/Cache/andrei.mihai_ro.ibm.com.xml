@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<actualtimezoneid>Europe/Bucharest</actualtimezoneid>
+<timezoneid>+300</timezoneid>
+<uid>Y9A9ET826</uid>
+<streetAddress>4A Vasile Milea Blvd, 6Th District
+Bucharest 061344
+Romania</streetAddress>
+<userId>cf55b940-67fd-1030-97a1-cb922bd54099</userId>
+<title>Cloud Engineer</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/andrei.mihai_ro.ibm.com</photoUri>
+<tel>405105 / 40-21 771 9105</tel>
+<name>Andrei, Mihai Catalin *CONTRACTOR*</name>
+<email>andrei.mihai@ro.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=cf55b940-67fd-1030-97a1-cb922bd54099&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=cf55b940-67fd-1030-97a1-cb922bd54099"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=cf55b940-67fd-1030-97a1-cb922bd54099"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=cf55b940-67fd-1030-97a1-cb922bd54099&amp;name=Andrei%2C%20Mihai%20Catalin%20*CONTRACTOR*"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=cf55b940-67fd-1030-97a1-cb922bd54099&amp;name=Andrei%2C%20Mihai%20Catalin%20*CONTRACTOR*"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/cf55b940-67fd-1030-97a1-cb922bd54099"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=cf55b940-67fd-1030-97a1-cb922bd54099"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Dcf55b940-67fd-1030-97a1-cb922bd54099%2Cname%3DAndrei%2C%20Mihai%20Catalin%20*CONTRACTOR*"/>
+</BusinessCardLinks>
+<LastUpdated>1412779670636</LastUpdated>
+</BusinessCard>

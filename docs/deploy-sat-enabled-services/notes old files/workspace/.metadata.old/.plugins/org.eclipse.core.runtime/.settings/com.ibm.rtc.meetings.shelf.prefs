@@ -1,0 +1,10 @@
+#Tue Oct 28 11:26:40 CDT 2014
+instantMeetingDefaultRoom=9de93bb0-376f-4e3e-94a0-fa8b2971342b
+schedCalSoundFile=C\:/notes/framework/shared/eclipse/plugins/com.ibm.collaboration.realtime.alertmanager_8.5.1.20120328-0200/audio/alert.wav
+serverId=stms1380760528932
+meetings.launchURLRichClient=true
+meetings.showMeetingAlert=true
+meetings.ibm.com;PolicyAllowAutoConnectWhenConnecting=false
+meetings.initshelfview=2
+eclipse.preferences.version=1
+LastActiveServer=stms1380760528932

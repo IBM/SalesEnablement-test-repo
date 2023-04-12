@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>United States</countryName>
+<locality>SOUTHFIELD</locality>
+<org>GTS, System Services</org>
+<userId>12b939c0-8f0a-1028-9daf-db07163b51b2</userId>
+<name>Neislar, Greg A.</name>
+<floor>NA</floor>
+<uid>1A3466897</uid>
+<officeBuilding>6971</officeBuilding>
+<streetAddress>18000 W 9 Mile Rd
+Southfield, MI 48075-4009
+United States</streetAddress>
+<region>MI</region>
+<role>IBM employee, Regular</role>
+<title>Client Solutions Executive</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/neislar_us.ibm.com</photoUri>
+<tel>1-248-884-4268</tel>
+<email>neislar@us.ibm.com</email>
+<office>MOBILE</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=12b939c0-8f0a-1028-9daf-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=12b939c0-8f0a-1028-9daf-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=12b939c0-8f0a-1028-9daf-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=12b939c0-8f0a-1028-9daf-db07163b51b2&amp;name=Neislar%2C%20Greg%20A."/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=12b939c0-8f0a-1028-9daf-db07163b51b2&amp;name=Neislar%2C%20Greg%20A."/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/12b939c0-8f0a-1028-9daf-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=12b939c0-8f0a-1028-9daf-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D12b939c0-8f0a-1028-9daf-db07163b51b2%2Cname%3DNeislar%2C%20Greg%20A."/>
+</BusinessCardLinks>
+<LastUpdated>1444740177070</LastUpdated>
+<timezoneid>-400</timezoneid>
+</BusinessCard>

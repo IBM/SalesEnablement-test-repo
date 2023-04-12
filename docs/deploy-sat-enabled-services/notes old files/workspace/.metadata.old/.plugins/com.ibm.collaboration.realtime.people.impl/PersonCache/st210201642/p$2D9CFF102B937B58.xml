@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="dmohanty@us.ibm.com" displayName="Divyendu Mohanty" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$2D9CFF102B937B58.jpg"/>
+  <attribute name="callupname" value="Divyendu Mohanty"/>
+  <attribute name="tieline" value="676-8188"/>
+  <attribute name="Telephone" value="676-8188 / 1-720-395-8188"/>
+  <attribute name="worklocation" value="workLoc=TAA,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Manager, SAP, ECM and Library Services"/>
+  <attribute name="dn" value="uid=5A9754897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Divyendu Mohanty"/>
+  <attribute name="telephonenumber" value="676-8188 / 1-720-395-8188"/>
+  <attribute name="Address" value="3031 N Rocky Point Dr West&#xA;Suite 500&#xA;Tampa, FL 33607-5878&#xA;United States"/>
+  <attribute name="mail" value="dmohanty@us.ibm.com"/>
+  <attribute name="Title" value="Manager, SAP, ECM and Library Services"/>
+  <attribute name="id" value="dmohanty@us.ibm.com"/>
+  <attribute name="sn" value="Mohanty"/>
+  <attribute name="MailAddress" value="dmohanty@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1392154074853"/>
+</person>

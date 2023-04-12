@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="pivnichn@us.ibm.com" displayName="John R. Pivnichny" isExternal="false" lastChatTime="1443534991398">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$7742FF98184EA6B9.jpg"/>
+  <attribute name="callupname" value="John R. Pivnichny"/>
+  <attribute name="tieline" value="620-4358"/>
+  <attribute name="Telephone" value="620-4358 / 1-607-429-4358"/>
+  <attribute name="worklocation" value="workLoc=PLE,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Consulting Patent Agent"/>
+  <attribute name="dn" value="uid=074324897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="John R. Pivnichny"/>
+  <attribute name="telephonenumber" value="620-4358 / 1-607-429-4358"/>
+  <attribute name="Address" value="Ibm 1701 North St&#xA;Endicott, NY 13760-5553&#xA;United States"/>
+  <attribute name="mail" value="pivnichn@us.ibm.com"/>
+  <attribute name="Title" value="Consulting Patent Agent"/>
+  <attribute name="id" value="pivnichn@us.ibm.com"/>
+  <attribute name="sn" value="Pivnichny"/>
+  <attribute name="MailAddress" value="pivnichn@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1448906358366"/>
+</person>

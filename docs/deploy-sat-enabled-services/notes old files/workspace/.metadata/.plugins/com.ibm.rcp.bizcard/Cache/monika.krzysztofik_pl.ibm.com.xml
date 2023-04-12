@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>Poland</countryName>
+<locality>WROCLAW</locality>
+<org>GTS, IOT Delivery</org>
+<userId>8fe6b540-e083-102f-8b60-86a3c2278315</userId>
+<name>Krzysztofik, Monika</name>
+<uid>P79978820</uid>
+<officeBuilding>02</officeBuilding>
+<role>IBM employee, Regular</role>
+<title>Junior Project Manager</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/monika.krzysztofik_pl.ibm.com</photoUri>
+<tel>48-71-760-1316</tel>
+<email>monika.krzysztofik@pl.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=8fe6b540-e083-102f-8b60-86a3c2278315&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=8fe6b540-e083-102f-8b60-86a3c2278315"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=8fe6b540-e083-102f-8b60-86a3c2278315"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=8fe6b540-e083-102f-8b60-86a3c2278315&amp;name=Krzysztofik%2C%20Monika"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=8fe6b540-e083-102f-8b60-86a3c2278315&amp;name=Krzysztofik%2C%20Monika"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/8fe6b540-e083-102f-8b60-86a3c2278315"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=8fe6b540-e083-102f-8b60-86a3c2278315"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D8fe6b540-e083-102f-8b60-86a3c2278315%2Cname%3DKrzysztofik%2C%20Monika"/>
+</BusinessCardLinks>
+<LastUpdated>1448976059616</LastUpdated>
+</BusinessCard>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="bosmaj@us.ibm.com" displayName="John H. (Boz) Handy-Bosma" isExternal="false" lastChatTime="1366738613436">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$1AB2BE02AECF7DA5.jpg"/>
+  <attribute name="callupname" value="John H. (Boz) Handy-Bosma"/>
+  <attribute name="Telephone" value="1-512-260-2912"/>
+  <attribute name="worklocation" value="workLoc=BNT,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Technical Strategy Lead, STSM, CHQ IT Architect Profession Lead, Master Inventor"/>
+  <attribute name="dn" value="uid=7A6411897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="John H. (Boz) Handy-Bosma"/>
+  <attribute name="telephonenumber" value="1-512-260-2912"/>
+  <attribute name="Address" value="11501 Burnet Rd&#xA;Austin, TX 78758-3400&#xA;United States"/>
+  <attribute name="mail" value="bosmaj@us.ibm.com"/>
+  <attribute name="Title" value="Technical Strategy Lead, STSM, CHQ IT Architect Profession Lead, Master Inventor"/>
+  <attribute name="sn" value="Handy-Bosma"/>
+  <attribute name="id" value="bosmaj@us.ibm.com"/>
+  <attribute name="MailAddress" value="bosmaj@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1395759715094"/>
+</person>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="gaylord@us.ibm.com" displayName="Stephen M. Gaylord" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$63BD17CDCB8485E3.jpg"/>
+  <attribute name="callupname" value="Stephen M. (Steve) Gaylord"/>
+  <attribute name="Telephone" value="1-940-726-6114"/>
+  <attribute name="worklocation" value="workLoc=DFW,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Consulting Technical Solutions Manager"/>
+  <attribute name="dn" value="uid=134416897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Stephen M. (Steve) Gaylord"/>
+  <attribute name="telephonenumber" value="1-940-726-6114"/>
+  <attribute name="Address" value="1177 S Belt Line Rd&#xA;Coppell, TX 75019-4642&#xA;United States"/>
+  <attribute name="mail" value="gaylord@us.ibm.com"/>
+  <attribute name="Title" value="Consulting Technical Solutions Manager"/>
+  <attribute name="sn" value="Gaylord"/>
+  <attribute name="id" value="gaylord@us.ibm.com"/>
+  <attribute name="MailAddress" value="gaylord@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1392154074236"/>
+</person>

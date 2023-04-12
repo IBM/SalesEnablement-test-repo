@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="efrasmus@us.ibm.com" displayName="ELLEN F. RASMUSSEN" isExternal="false" lastChatTime="1401976613133">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$16DAC817A48FA46D.jpg"/>
+  <attribute name="callupname" value="ELLEN F. RASMUSSEN"/>
+  <attribute name="Telephone" value="1-813-949-6693"/>
+  <attribute name="worklocation" value="workLoc=TAA,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Project Manager, Cloud Sales Enablement"/>
+  <attribute name="dn" value="uid=2G2830897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="ELLEN F. RASMUSSEN"/>
+  <attribute name="telephonenumber" value="1-813-949-6693"/>
+  <attribute name="Address" value="3031 N Rocky Point Dr West&#xA;Suite 500&#xA;Tampa, FL 33607-5878&#xA;United States"/>
+  <attribute name="mail" value="efrasmus@us.ibm.com"/>
+  <attribute name="Title" value="Project Manager, Cloud Sales Enablement"/>
+  <attribute name="sn" value="RASMUSSEN"/>
+  <attribute name="id" value="efrasmus@us.ibm.com"/>
+  <attribute name="MailAddress" value="efrasmus@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1441997902524"/>
+</person>

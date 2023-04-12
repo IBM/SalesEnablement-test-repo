@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<uid>514961897</uid>
+<streetAddress>294 Route 100
+Somers, NY 10589-3216
+United States</streetAddress>
+<userId>3f6d5140-8f0a-1028-8d06-db07163b51b2</userId>
+<title>SmartCloud Platform and Workload Services</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/mabasil_us.ibm.com</photoUri>
+<tel>938-3158 / 1-720-396-3158</tel>
+<name>Basil, Mack A.</name>
+<email>mabasil@us.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=3f6d5140-8f0a-1028-8d06-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=3f6d5140-8f0a-1028-8d06-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=3f6d5140-8f0a-1028-8d06-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=3f6d5140-8f0a-1028-8d06-db07163b51b2&amp;name=Basil%2C%20Mack%20A."/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=3f6d5140-8f0a-1028-8d06-db07163b51b2&amp;name=Basil%2C%20Mack%20A."/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/3f6d5140-8f0a-1028-8d06-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=3f6d5140-8f0a-1028-8d06-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D3f6d5140-8f0a-1028-8d06-db07163b51b2%2Cname%3DBasil%2C%20Mack%20A."/>
+</BusinessCardLinks>
+<LastUpdated>1428939191040</LastUpdated>
+<actualtimezoneid>America/New_York</actualtimezoneid>
+<timezoneid>-400</timezoneid>
+<postalCode>10605</postalCode>
+</BusinessCard>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="roachman@us.ibm.com" displayName="Christopher Roach" isExternal="false" lastChatTime="1363817441815">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$59B5896962D8E2F7.jpg"/>
+  <attribute name="callupname" value="Christopher W. Roach"/>
+  <attribute name="Telephone" value="1-408-463-5405"/>
+  <attribute name="worklocation" value="workLoc=SJS,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Program Manager, Cloud Technology"/>
+  <attribute name="dn" value="uid=259592897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Christopher W. Roach"/>
+  <attribute name="telephonenumber" value="1-408-463-5405"/>
+  <attribute name="Address" value="555 Bailey Ave&#xA;Santa Teresa Lab&#xA;San Jose, CA 95141-1003&#xA;United States"/>
+  <attribute name="mail" value="roachman@us.ibm.com"/>
+  <attribute name="Title" value="Program Manager, Cloud Technology"/>
+  <attribute name="sn" value="Roach"/>
+  <attribute name="id" value="roachman@us.ibm.com"/>
+  <attribute name="MailAddress" value="roachman@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1394649728695"/>
+</person>

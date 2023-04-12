@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="mmonti@us.ibm.com" displayName="Michael Montinarelli" isExternal="false" lastChatTime="1433259440691">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$14224A62741E1E28.jpg"/>
+  <attribute name="callupname" value="Michael Montinarelli"/>
+  <attribute name="tieline" value="938-7938"/>
+  <attribute name="Telephone" value="938-7938 / 1-720-396-7938"/>
+  <attribute name="worklocation" value="workLoc=KDC,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Global Offering Manager - Cloud Managed Services"/>
+  <attribute name="dn" value="uid=646623897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Michael Montinarelli"/>
+  <attribute name="telephonenumber" value="938-7938 / 1-720-396-7938"/>
+  <attribute name="Address" value="1630 Long Pond Rd&#xA;Rochester, NY 14626-1496&#xA;United States"/>
+  <attribute name="mail" value="mmonti@us.ibm.com"/>
+  <attribute name="Title" value="Global Offering Manager - Cloud Managed Services"/>
+  <attribute name="id" value="mmonti@us.ibm.com"/>
+  <attribute name="sn" value="Montinarelli"/>
+  <attribute name="MailAddress" value="mmonti@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1434118888681"/>
+</person>

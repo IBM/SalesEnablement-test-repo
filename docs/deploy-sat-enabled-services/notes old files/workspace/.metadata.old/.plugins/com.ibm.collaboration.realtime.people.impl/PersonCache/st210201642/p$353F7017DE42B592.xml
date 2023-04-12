@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="iraallen@us.ibm.com" displayName="iraallen@us.ibm.com - Ira Allen/West Palm Beach/IBM" isExternal="false" lastChatTime="1427821502595">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$353F7017DE42B592.jpg"/>
+  <attribute name="callupname" value="Ira L. Allen"/>
+  <attribute name="tieline" value="861-6077"/>
+  <attribute name="Telephone" value="861-6077 / 1-972-561-6077"/>
+  <attribute name="worklocation" value="workLoc=DFW,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Worldwide Continuous Improvement Project Office"/>
+  <attribute name="dn" value="uid=975527897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Ira L. Allen"/>
+  <attribute name="telephonenumber" value="861-6077 / 1-972-561-6077"/>
+  <attribute name="Address" value="1177 S Belt Line Rd&#xA;Coppell, TX 75019-4642&#xA;United States"/>
+  <attribute name="mail" value="iraallen@us.ibm.com"/>
+  <attribute name="Title" value="Worldwide Continuous Improvement Project Office"/>
+  <attribute name="id" value="iraallen@us.ibm.com"/>
+  <attribute name="sn" value="Allen"/>
+  <attribute name="MailAddress" value="iraallen@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1435167862976"/>
+</person>

@@ -1,0 +1,6 @@
+#Wed May 21 06:26:18 CDT 2014
+pref.font.size=11
+eclipse.preferences.version=1
+pref.read.mail.color=99,101,99
+pref.unread.mail.color=0,0,0
+MAIL_USER_STYLES=mailtable>row>read{color\: rgb(99,101,99);font-style\: normal;font-size\: 11pt;}\#\#mailtable>row>read{font-family\: Arial,Arial,Sans Serif;}\#\#mailtable>row>unread{color\: rgb(0,0,0);font-weight\: bold;font-size\: 11pt;}\#\#mailtable>row>unread{font-family\: Arial,Arial,Sans Serif;}

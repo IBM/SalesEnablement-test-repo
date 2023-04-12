@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providerConfig lastModified="Thu Jul 09 09:09:56 CDT 2015">
+  <communities>
+    <community alwaysEditActiveText="true" alwaysEditAwayText="true" alwaysEditDndText="true" authServerUrl="" authType="ST-DOMINO-SSO" autoAwayTimeout="20" availWhenUnlocked="true" cloud="false" editable="" email="" host="messaging.ibm.com" iconIsUserSpecified="false" iconPath="" id="st210201642" internetFilter="" isAutoActiveEnabled="true" isAutoAwayEnabled="true" isAutoAwayTimeoutEnabled="true" keepAliveInterval="60" loginAtStartup="false" loginByToken="false" managed="false" name="messaging.ibm.com" partnerIdType="" port="1533" primry="false" providerId="Sametime" readNotesCanonicalSetting="false" resolveLivenames="false" savePassword="true" sendKeepAlive="true" useCustomTextForAutoAway="false" useGlobalConnSettings="true" useOsPass="false" useServerForLookup="true" userid="andrewj@us.ibm.com" username="andrewj@us.ibm.com">
+      <connection connectionType="direct" proxyHost="" proxyPort="" proxyResolvesLocally="false" proxyUserName="" tokenHostUrl="" transport=""/>
+      <statusTexts>
+        <activeText>I am available</activeText>
+        <awayText>I am away from my computer now</awayText>
+        <awayText>I am away from my computer now, back around 7:30 p.m. central for evening calls.</awayText>
+        <awayText>I am away from my computer now, back around 6:30p.m. central for evening calls.</awayText>
+        <awayText>I am away from my computer now, back around 8:30 p.m. central for evening calls.</awayText>
+        <awayText>I am away from my computer now, back around 8:45 p.m. central for evening calls.</awayText>
+        <awayText>In route to meetings at IBM Austin site.  Back to this computer around 3:00p.m. Central time.</awayText>
+        <inMtgText>In a meeting</inMtgText>
+        <inMtgText>Meetings in Brazil... slow to respond</inMtgText>
+        <inMtgText>I am in a meeting</inMtgText>
+        <inMtgText>Customer meeting will be slow to respond</inMtgText>
+        <inMtgText>Presenting to a client, will be slow to respond (up to an hour)</inMtgText>
+        <inMtgText>I am in a meeting in Japan</inMtgText>
+        <dndText>Presenting</dndText>
+        <dndText>DND - in studio recording a rap about Migration Services</dndText>
+        <dndText>Please do not disturb me - recording presentations</dndText>
+        <dndText>Please do not disturb me</dndText>
+        <dndText>Please do not disturb</dndText>
+        <dndText>Please do not disturb me - recording a presentation</dndText>
+        <idleText>I am away from my computer now</idleText>
+        <lockText>I am away from my computer now</lockText>
+      </statusTexts>
+      <service-mapping impl="com.ibm.collaboration.realtime.directory.bluepages.BluePagesDirectoryFactory" type="com.ibm.collaboration.realtime.contacts.search.DirectoryServiceFactory"/>
+    </community>
+  </communities>
+</providerConfig>

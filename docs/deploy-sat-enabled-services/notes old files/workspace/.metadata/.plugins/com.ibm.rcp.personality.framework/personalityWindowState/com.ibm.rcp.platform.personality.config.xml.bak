@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<State>
+<WindowState UserId="CN=Andrew Jones/OU=Austin/O=IBM" height="768" maximized="true" width="1024" x="0" y="0">
+<fastViewData/>
+<perspectiveBar/>
+<coolbarLayout locked="0">
+<coolItem id="BEGIN_GROUP" itemType="typeGroupMarker"/>
+<coolItem id="com.ibm.notes.client.toolbar.contributions.Editing" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.ibm.notes.client.toolbar.contributions.Universal" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.ibm.notes.client.toolbar.contributions.notesContextSensitive" itemType="typeToolBarContribution" x="473" y="30"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.ibm.rcp.toolbox.builder.toolbox.toolbar.actionSet" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="composite.application.showHide" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="oneui.com.ibm.rcp.toolbox.builder.toolbox.toolbar.actionSet" itemType="typeToolBarContribution" x="87" y="0"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.navigation" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="MIDDLE_GROUP" itemType="typeGroupMarker"/>
+<coolItem id="END_GROUP" itemType="typeGroupMarker"/>
+<coolItem id="UserSeparator" itemType="typeSeparator"/>
+<coolItem id="Mobile" itemType="typeGroupMarker"/>
+<coolItem id="com.ibm.notes.client.toolbar.contributions.Mobile" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="Navigation" itemType="typeGroupMarker"/>
+<coolItem id="com.ibm.notes.client.toolbar.contributions.Navigation" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="sebworks_bluebar" itemType="typeGroupMarker"/>
+<coolItem id="com.ibm.notes.client.toolbar.contributions.sebworks_bluebar" itemType="typeToolBarContribution" x="505" y="26"/>
+<coolItem id="Text_Properties" itemType="typeGroupMarker"/>
+<coolItem id="com.ibm.notes.client.toolbar.contributions.Text_Properties" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="Address" itemType="typeGroupMarker"/>
+<coolItem id="com.ibm.notes.client.toolbar.contributions.Address" itemType="typeToolBarContribution" x="468" y="30"/>
+<coolItem id="Table" itemType="typeGroupMarker"/>
+<coolItem id="com.ibm.notes.client.toolbar.contributions.Table" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="Language" itemType="typeGroupMarker"/>
+<coolItem id="com.ibm.notes.client.toolbar.contributions.Language" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="View" itemType="typeGroupMarker"/>
+<coolItem id="com.ibm.notes.client.toolbar.contributions.View" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page focus="true" label="&lt;Unknown Label&gt; - New device REGISTERED for andrewj@us.ibm.com: &apos;mac&apos;">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="com.ibm.rcp.ui.internal.presentations.StyledPresentationFactory"/>
+</folder>
+</info>
+</editorArea>
+</editors>
+<views>
+<view id="com.ibm.workplace.noteswc.views.NotesView:1449254380842" partName="&gt; CMS and AMM Win Room Meeting Minutes 12/4/2015 ">
+<viewState>
+<NotesView>
+<primarylocation IMemento.internal.id="3"/>
+<notesurl IMemento.internal.id="Notes://NALLN138/862565B500605475/FD85E0E088917FC98525640400684FA5/A44000D3F0852F2486257F11005E8913"/>
+<isCompApp IMemento.internal.id="false"/>
+<com.ibm.notes.enableBuiltInPB IMemento.internal.id="false"/>
+<dbtitle IMemento.internal.id="Andrew Jones"/>
+<notesinternal IMemento.internal.id="0"/>
+<replicaid IMemento.internal.id="862565B500605475"/>
+<pageid IMemento.internal.id="885191FB2044BC413C7B5521D7FE7720_6_3KE527R200VQ502MGJOIMC20H7"/>
+<com.ibm.rcp.deferCreate IMemento.internal.id="false"/>
+</NotesView>
+</viewState>
+</view>
+<view id="com.ibm.workplace.noteswc.views.NotesView:1449086031829" partName="Header Page">
+<viewState>
+<NotesView>
+<notesurl IMemento.internal.id="Notes://D27DBC24/852566020047D2EA/MainFrameF?OpenFrameset"/>
+<isCompApp IMemento.internal.id="false"/>
+<com.ibm.notes.enableBuiltInPB IMemento.internal.id="false"/>
+<dbtitle IMemento.internal.id="Worldwide Patent Tracking System"/>
+<notesinternal IMemento.internal.id="0"/>
+<replicaid IMemento.internal.id="852566020047D2EA"/>
+<pageid IMemento.internal.id="null"/>
+<com.ibm.rcp.deferCreate IMemento.internal.id="false"/>
+</NotesView>
+</viewState>
+</view>
+<view id="com.ibm.workplace.noteswc.views.NotesView:1449495826033" partName="Re: Inquiry HIS Japan">
+<viewState>
+<NotesView>
+<primarylocation IMemento.internal.id="3"/>
+<notesurl IMemento.internal.id="Notes://NALLN138/862565B500605475/FD85E0E088917FC98525640400684FA5/444A1A5E330F868286257F140016DAC2"/>
+<isCompApp IMemento.internal.id="false"/>
+<com.ibm.notes.enableBuiltInPB IMemento.internal.id="false"/>
+<dbtitle IMemento.internal.id="Andrew Jones"/>
+<notesinternal IMemento.internal.id="0"/>
+<replicaid IMemento.internal.id="862565B500605475"/>
+<pageid IMemento.internal.id="885191FB2044BC413C7B5521D7FE7720_6_3KE527R200VQ502MGJOIMC20H7"/>
+<com.ibm.rcp.deferCreate IMemento.internal.id="false"/>
+</NotesView>
+</viewState>
+</view>
+<view id="com.ibm.rcp.csiviews.viewpart.CSINavViewPart:885191FB2044BC413C7B5521D7FE7720_5_3KE527R208CCC02M6C5LO53091" partName="Andrew Jones">
+<viewState EXPANDED_NODES="Views,Folders,Folders\aaaaaaSCE+,Folders\aaaaaaSCE+\Engagements,Folders\payroll," ORIENTATION="512" SAVED_BOTTOM_MINIVIEWER_WEIGHT="0" SAVED_BOTTOM_VIEWER_WEIGHT="3" SAVED_HEIGHT_HINT="178" SAVED_TOP_MINIVIEWER_WEIGHT="1000" SAVED_TOP_VIEWER_WEIGHT="2" TOP_WEIGHT="200"/>
+</view>
+<view id="com.ibm.workplace.noteswc.views.NotesView:1449082851375" partName="Replication and Sync">
+<viewState>
+<NotesView>
+<isCompApp IMemento.internal.id="false"/>
+<com.ibm.notes.enableBuiltInPB IMemento.internal.id="false"/>
+<dbtitle IMemento.internal.id="(Untitled)"/>
+<notesinternal IMemento.internal.id="65514"/>
+<replicaid IMemento.internal.id="null"/>
+<pageid IMemento.internal.id="null"/>
+<com.ibm.rcp.deferCreate IMemento.internal.id="false"/>
+</NotesView>
+</viewState>
+</view>
+<view id="com.ibm.workplace.noteswc.views.NotesView:1449144781150" partName="Say hello to your new Mac">
+<viewState>
+<NotesView>
+<primarylocation IMemento.internal.id="3"/>
+<notesurl IMemento.internal.id="Notes://NALLN138/862565B500605475/FD85E0E088917FC98525640400684FA5/1218323CFEBACE3D87257F0A005B12B7"/>
+<isCompApp IMemento.internal.id="false"/>
+<com.ibm.notes.enableBuiltInPB IMemento.internal.id="false"/>
+<dbtitle IMemento.internal.id="Andrew Jones"/>
+<notesinternal IMemento.internal.id="0"/>
+<replicaid IMemento.internal.id="862565B500605475"/>
+<pageid IMemento.internal.id="885191FB2044BC413C7B5521D7FE7720_6_3KE527R200VQ502MGJOIMC20H7"/>
+<com.ibm.rcp.deferCreate IMemento.internal.id="false"/>
+</NotesView>
+</viewState>
+</view>
+<view id="com.ibm.rcp.csiviews.viewpart.CSIViewPart:885191FB2044BC413C7B5521D7FE7720_5_3KE527R208CCC02M6C5LO53093" partName="Mail - Inbox">
+<viewState>
+<CSIVIEWPARTcom.ibm.rcp.csiviews.viewpart.CSIViewPart:885191FB2044BC413C7B5521D7FE7720_5_3KE527R208CCC02M6C5LO53093 ACTIVE_FOLDER_KEY="32898" AUTOSORT_TOOLTIP="true" BOTTOM_WEIGHT="500" FIND_DIALOG_EXPAND="true" HINT_PARTIAL_LIST="true" MERGE_ENTRIES="true" ORIENTATION="512" TOP_WEIGHT="500">
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="143146" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="2226a:8604CBABB890908585257E81005EDA0E"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="39362" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="3b1b2:8FCB44E7E6A0214583257EBC006A7C6D"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="272402" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="4181e:EE5D45B80531FABA85257EDC005AB8C5"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="36294" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="1623e:C7DBC19EE31D58F385257E3C006FA566"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="295514" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="4718a:497D838C84E4575285257EED0059BF2F"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="13273" FOLDER_KEY="33066" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="2b0be:552A1362B1EDB2C70AFAF76A3AD4CFC9"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="43022" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="20bc2:99B917BF0BBD7C0786257E7C004F22E8"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="40470" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="27d86:4626B889F011153100257E9300153156"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1.7" FOLDER_KEY="22850" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="1a2b8e:656864E8B73D250985257EAD0042D4A2"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1.4" FOLDER_KEY="40794" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="15faa:BA9BB7BBBD33657EC1257E360050C9F2"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="32930" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="4c9be:7353687F1D311BF900257F000056722C"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="32898" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="52fc6:E82A7DFF1716468FF0F8C3828BEE003B"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="40434" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="80000004"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="40754" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="1692e:82723B37EF567AD385257E4A004F3258"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="330022" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="4f9f2:0B94BF89CF24DFDB85257F09004134F9"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="272494" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="40bca:7960E2CE68CD8F8387257ED50052EA71"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" FOLDER_KEY="1622" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer"/>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="280754" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="4f1ce:137B73DCB4CC256A39F2A008899618B5"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="43150" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="250ea:B7BBDC0C1F9D51A585257E8B00570991"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="32982" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="4c35a:656263BF45C19D8400257EFF005A66E2"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="40486" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="3be52:C363E0E9F9BB2A5A87257EC4004D0F7E"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="40" FOLDER_KEY="40202" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="13f16:83F1FF036EEE978885257E110048F44D"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" FOLDER_KEY="43518" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer"/>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="234402" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="48e26:CE688DE3D707706E86257EF4005755A0"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="1830" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="5106a:E3A4F4DE9DADB33D00257F0D00507BE5"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="321446" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="4f7ee:BD90EF2BC860C8F39B9061C4E8071FA2"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="295530" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="472fe:D59AE38DCE869FD000257EEE00553D0C"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="255614" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="41316:77988219C92F46C088257ED8004C26C3"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="36434" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="128c2:B0BA5A4BB288FF9985257DF0007745F9"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" FOLDER_KEY="42990" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer"/>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="88454" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="4f44e:A1ED0FC5E15B88FE00257F0700660068"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="40098" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="bbae:4287BD2FEA9A947985257D2C0067F79D"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="43762" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="d482:37B1BBBA982EDF9A85257D500041A14E"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" FOLDER_KEY="40694" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer"/>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="39902" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="3b352:EEC1F3712181C62F00257EBD0049DC31"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="43126" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="2bc4a:3D42646393231B3B85257EA50058896D"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="40894" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="e91e:9FEBB03EBD40BF22C1257D720039514F"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="287086" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="4573a:559E144C33FCF57000257EE7005CDD9B"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="40814" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="446ee:F7E197128FA6C89FC1257EE40030FD59"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="2134" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="a60a:6707644657FC886188257CBC004AFC4A"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="16" FOLDER_KEY="1882" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="5187e:544FB3757BED0BBC84DF21396D86F385"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1950" FOLDER_KEY="1642" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="4f682:C9494BADD52CDDD100257F080012C580"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="221866" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="2bf62:E347C50734C2CFA286257EA7004F203A"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="221822" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="35f7e:A662E4BB8091B11C86257EAD0072A438"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="39474" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="2a0de:DA24500542BFCF0985257E9F00518849"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="40186" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="3bade:2571C2EF7BC3BB4600257EC30009A055"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="43058" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="3b222:CD6513ED4A0149A787257EBC00724E73"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="43850" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="42aae:43BBBC60F7562EE285257EDD00694559"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="3.71" FOLDER_KEY="44666" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="14d3a:BD633B9ED2ED04AB86257E28004FEA24"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" FOLDER_KEY="702" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="CalendarViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="19d4a2:10B6C8BF9B3CDFDB00257E9E007BCC51:20150826T120000,00-00"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="311062" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="80000004"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="32922" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="4d4c2:61BCD6CDB5B6ACFB00257F04000B46B0"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1" FOLDER_KEY="43538" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="3d92e:E4A778D916EC6AD500257ECB00570B6D"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="1176" FOLDER_KEY="21838" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="19f20e:3366F97A1BD5D5171711AA3B99D219BC"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="539" FOLDER_KEY="1770" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="800006e4"/>
+</SELECTION>
+</FOLDER>
+<FOLDER CI_ACTION="false" CI_PRIMARYSORT="false" COLLECTION_POSITION="8" FOLDER_KEY="32806" IS_SNIPPETS="false" PREVIEW_COLLAPSE="true" TAB_NAVIGATOR_LANGUAGE="com.ibm.rcp.csiviews.language.english," VIEWER_ORIENTATION="512" VIEWER_TYPE="com.ibm.rcp.ui.views.CSITableViewer">
+<SELECTION>
+<DOCUMENT_KEY IMemento.internal.id="4453a:F403FA8A4A90F04800257EE300432F15"/>
+</SELECTION>
+</FOLDER>
+<EXTERNALcom.ibm.rcp.csiviews.viewpart.CSIViewPart:885191FB2044BC413C7B5521D7FE7720_5_3KE527R208CCC02M6C5LO53093 com.ibm.rcp.csiviews.viewers.DateFooterContrib.footerChoice="com.ibm.rcp.csiviews.viewers.DayFormat" com.ibm.rcp.csiviews.viewers.DateFooterContrib.showFooter="0"/>
+</CSIVIEWPARTcom.ibm.rcp.csiviews.viewpart.CSIViewPart:885191FB2044BC413C7B5521D7FE7720_5_3KE527R208CCC02M6C5LO53093>
+</viewState>
+</view>
+<view id="com.ibm.workplace.noteswc.views.NotesView:1449501097670" partName="New device REGISTERED for andrewj@us.ibm.com: &apos;mac&apos;">
+<viewState>
+<NotesView>
+<primarylocation IMemento.internal.id="3"/>
+<notesurl IMemento.internal.id="Notes://NALLN138/862565B500605475/FD85E0E088917FC98525640400684FA5/E82A7DFF1716468FF0F8C3828BEE003B"/>
+<isCompApp IMemento.internal.id="false"/>
+<com.ibm.notes.enableBuiltInPB IMemento.internal.id="false"/>
+<dbtitle IMemento.internal.id="Andrew Jones"/>
+<notesinternal IMemento.internal.id="0"/>
+<replicaid IMemento.internal.id="862565B500605475"/>
+<pageid IMemento.internal.id="885191FB2044BC413C7B5521D7FE7720_6_3KE527R200VQ502MGJOIMC20H7"/>
+<com.ibm.rcp.deferCreate IMemento.internal.id="false"/>
+</NotesView>
+</viewState>
+</view>
+<view id="com.ibm.workplace.noteswc.views.NotesView:1436968978884" partName="Workspace">
+<viewState>
+<NotesView>
+<isCompApp IMemento.internal.id="false"/>
+<com.ibm.notes.enableBuiltInPB IMemento.internal.id="false"/>
+<dbtitle IMemento.internal.id="(Untitled)"/>
+<notesinternal IMemento.internal.id="65513"/>
+<replicaid IMemento.internal.id="null"/>
+<pageid IMemento.internal.id="null"/>
+<com.ibm.rcp.deferCreate IMemento.internal.id="false"/>
+</NotesView>
+</viewState>
+</view>
+<view id="com.ibm.workplace.noteswc.views.NotesView:1449497351019" partName="ISM Portal Not Accessible ">
+<viewState>
+<NotesView>
+<primarylocation IMemento.internal.id="3"/>
+<notesurl IMemento.internal.id="Notes://NALLN138/862565B500605475/FD85E0E088917FC98525640400684FA5/02DEF5569CBCCA2285257F140043E74B"/>
+<isCompApp IMemento.internal.id="false"/>
+<com.ibm.notes.enableBuiltInPB IMemento.internal.id="false"/>
+<dbtitle IMemento.internal.id="Andrew Jones"/>
+<notesinternal IMemento.internal.id="0"/>
+<replicaid IMemento.internal.id="862565B500605475"/>
+<pageid IMemento.internal.id="885191FB2044BC413C7B5521D7FE7720_6_3KE527R200VQ502MGJOIMC20H7"/>
+<com.ibm.rcp.deferCreate IMemento.internal.id="false"/>
+</NotesView>
+</viewState>
+</view>
+</views>
+<perspectives activePart="com.ibm.workplace.noteswc.views.NotesView:1449501097670" activePerspective="com.ibm.workplace.noteswc.views.NotesView:1449501097670">
+<perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
+<descriptor descriptor="com.ibm.rcp.platform.personality.dynamic.perspective.template" id="com.ibm.workplace.noteswc.views.NotesView:1436968978884" label="Workspace"/>
+<alwaysOnActionSet id="membership.actionSet"/>
+<alwaysOnActionSet id="makeavailableoffline.actionSet"/>
+<alwaysOnActionSet id="uninstallCompositeApplication.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="composite.application.showHide"/>
+<alwaysOnActionSet id="com.ibm.rcp.syncui.menu"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.telephony.prototypes.actions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.telephony.sti.blue.actions"/>
+<alwaysOnActionSet id="com.ibm.notes.gettingstarted.actionSet"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.persistentchat.persistentchat"/>
+<alwaysOnActionSet id="com.ibm.rcp.aaf.actionSet.AAFActions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.chat.logging.ui.actionSet"/>
+<alwaysOnActionSet id="embedded.file.menu.actionset"/>
+<alwaysOnActionSet id="embedded.tools.menu.actionset"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.callhistory.actions"/>
+<alwaysOnActionSet id="com.ibm.documents.connector.files.notes.tools.actionset.add"/>
+<alwaysOnActionSet id="com.ibm.workplace.notes.menus.actionSet.ManageCAAccessAction"/>
+<alwaysOnActionSet id="com.ibm.notes.client.toolbar.defaultactionset"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.phonebook.actions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.bcs"/>
+<alwaysOnActionSet id="com.ibm.notes.toolbox.provider.toolbox.actionSet"/>
+<alwaysOnActionSet id="oneui.com.ibm.rcp.toolbox.builder.toolbox.toolbar.actionSet"/>
+<alwaysOnActionSet id="oneui.com.ibm.rcp.toolbox.builder.toolbox.actionSet"/>
+<alwaysOnActionSet id="com.ibm.rcp.toolbox.builder.toolbox.toolbar.actionSet"/>
+<alwaysOnActionSet id="com.ibm.rcp.toolbox.builder.toolbox.actionSet"/>
+<perspective_action id="com.ibm.designer.domino.perspective"/>
+<perspective_action id="com.ibm.designer.domino.classic.perspective"/>
+<perspective_action id="com.ibm.designer.domino.xsp.perspective"/>
+<view id="com.ibm.workplace.noteswc.views.NotesView:1436968978884"/>
+<viewLayoutRec id="com.ibm.workplace.noteswc.views.NotesView:1436968978884" showTitle="false" standalone="true"/>
+<layout>
+<mainWindow>
+<info part="org.eclipse.ui.editorss"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7498471" ratioLeft="1226" ratioRight="409" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@49f549f5" ratio="0.9493392" ratioLeft="862" ratioRight="46" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.ibm.workplace.noteswc.views.NotesView:1436968978884" appearance="4" expanded="2">
+<page content="com.ibm.workplace.noteswc.views.NotesView:1436968978884" label="Workspace"/>
+<presentation id="com.ibm.rcp.ui.internal.presentations.StyledPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
+<descriptor descriptor="com.ibm.rcp.platform.personality.dynamic.perspective.template" id="com.ibm.workplace.noteswc.views.NotesView:1449082851375" label="Replication and Sync"/>
+<alwaysOnActionSet id="membership.actionSet"/>
+<alwaysOnActionSet id="makeavailableoffline.actionSet"/>
+<alwaysOnActionSet id="uninstallCompositeApplication.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="composite.application.showHide"/>
+<alwaysOnActionSet id="com.ibm.rcp.syncui.menu"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.telephony.prototypes.actions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.telephony.sti.blue.actions"/>
+<alwaysOnActionSet id="com.ibm.notes.gettingstarted.actionSet"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.persistentchat.persistentchat"/>
+<alwaysOnActionSet id="com.ibm.rcp.aaf.actionSet.AAFActions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.chat.logging.ui.actionSet"/>
+<alwaysOnActionSet id="embedded.file.menu.actionset"/>
+<alwaysOnActionSet id="embedded.tools.menu.actionset"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.callhistory.actions"/>
+<alwaysOnActionSet id="com.ibm.documents.connector.files.notes.tools.actionset.add"/>
+<alwaysOnActionSet id="com.ibm.workplace.notes.menus.actionSet.ManageCAAccessAction"/>
+<alwaysOnActionSet id="com.ibm.notes.client.toolbar.defaultactionset"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.phonebook.actions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.bcs"/>
+<alwaysOnActionSet id="com.ibm.notes.toolbox.provider.toolbox.actionSet"/>
+<alwaysOnActionSet id="oneui.com.ibm.rcp.toolbox.builder.toolbox.toolbar.actionSet"/>
+<alwaysOnActionSet id="oneui.com.ibm.rcp.toolbox.builder.toolbox.actionSet"/>
+<alwaysOnActionSet id="com.ibm.rcp.toolbox.builder.toolbox.toolbar.actionSet"/>
+<alwaysOnActionSet id="com.ibm.rcp.toolbox.builder.toolbox.actionSet"/>
+<perspective_action id="com.ibm.designer.domino.perspective"/>
+<perspective_action id="com.ibm.designer.domino.classic.perspective"/>
+<perspective_action id="com.ibm.designer.domino.xsp.perspective"/>
+<view id="com.ibm.workplace.noteswc.views.NotesView:1449082851375"/>
+<viewLayoutRec id="com.ibm.workplace.noteswc.views.NotesView:1449082851375" showTitle="false" standalone="true"/>
+<layout>
+<mainWindow>
+<info part="org.eclipse.ui.editorss"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7495396" ratioLeft="814" ratioRight="272" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@414c414c" ratio="0.9496644" ratioLeft="566" ratioRight="30" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.ibm.workplace.noteswc.views.NotesView:1449082851375" appearance="4" expanded="2">
+<page content="com.ibm.workplace.noteswc.views.NotesView:1449082851375" label="Replication and Sync"/>
+<presentation id="com.ibm.rcp.ui.internal.presentations.StyledPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
+<descriptor descriptor="com.ibm.rcp.platform.personality.dynamic.perspective.template" id="com.ibm.workplace.noteswc.views.NotesView:1449086031829" label="Header Page"/>
+<alwaysOnActionSet id="membership.actionSet"/>
+<alwaysOnActionSet id="makeavailableoffline.actionSet"/>
+<alwaysOnActionSet id="uninstallCompositeApplication.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="composite.application.showHide"/>
+<alwaysOnActionSet id="com.ibm.rcp.syncui.menu"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.telephony.prototypes.actions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.telephony.sti.blue.actions"/>
+<alwaysOnActionSet id="com.ibm.notes.gettingstarted.actionSet"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.persistentchat.persistentchat"/>
+<alwaysOnActionSet id="com.ibm.rcp.aaf.actionSet.AAFActions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.chat.logging.ui.actionSet"/>
+<alwaysOnActionSet id="embedded.file.menu.actionset"/>
+<alwaysOnActionSet id="embedded.tools.menu.actionset"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.callhistory.actions"/>
+<alwaysOnActionSet id="com.ibm.documents.connector.files.notes.tools.actionset.add"/>
+<alwaysOnActionSet id="com.ibm.workplace.notes.menus.actionSet.ManageCAAccessAction"/>
+<alwaysOnActionSet id="com.ibm.notes.client.toolbar.defaultactionset"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.phonebook.actions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.bcs"/>
+<alwaysOnActionSet id="com.ibm.notes.toolbox.provider.toolbox.actionSet"/>
+<alwaysOnActionSet id="oneui.com.ibm.rcp.toolbox.builder.toolbox.toolbar.actionSet"/>
+<alwaysOnActionSet id="oneui.com.ibm.rcp.toolbox.builder.toolbox.actionSet"/>
+<alwaysOnActionSet id="com.ibm.rcp.toolbox.builder.toolbox.toolbar.actionSet"/>
+<alwaysOnActionSet id="com.ibm.rcp.toolbox.builder.toolbox.actionSet"/>
+<perspective_action id="com.ibm.designer.domino.perspective"/>
+<perspective_action id="com.ibm.designer.domino.classic.perspective"/>
+<perspective_action id="com.ibm.designer.domino.xsp.perspective"/>
+<view id="com.ibm.workplace.noteswc.views.NotesView:1449086031829"/>
+<viewLayoutRec id="com.ibm.workplace.noteswc.views.NotesView:1449086031829" showTitle="false" standalone="true"/>
+<layout>
+<mainWindow>
+<info part="org.eclipse.ui.editorss"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7495396" ratioLeft="814" ratioRight="272" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@76127612" ratio="0.9496644" ratioLeft="566" ratioRight="30" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.ibm.workplace.noteswc.views.NotesView:1449086031829" appearance="4" expanded="2">
+<page content="com.ibm.workplace.noteswc.views.NotesView:1449086031829" label="Header Page"/>
+<presentation id="com.ibm.rcp.ui.internal.presentations.StyledPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
+<descriptor descriptor="com.ibm.rcp.platform.personality.dynamic.perspective.template" id="com.ibm.workplace.noteswc.views.NotesView:1449144781150" label="Say hello to your new Mac"/>
+<alwaysOnActionSet id="membership.actionSet"/>
+<alwaysOnActionSet id="makeavailableoffline.actionSet"/>
+<alwaysOnActionSet id="uninstallCompositeApplication.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="composite.application.showHide"/>
+<alwaysOnActionSet id="com.ibm.rcp.syncui.menu"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.telephony.prototypes.actions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.telephony.sti.blue.actions"/>
+<alwaysOnActionSet id="com.ibm.notes.gettingstarted.actionSet"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.persistentchat.persistentchat"/>
+<alwaysOnActionSet id="com.ibm.rcp.aaf.actionSet.AAFActions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.chat.logging.ui.actionSet"/>
+<alwaysOnActionSet id="embedded.file.menu.actionset"/>
+<alwaysOnActionSet id="embedded.tools.menu.actionset"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.callhistory.actions"/>
+<alwaysOnActionSet id="com.ibm.documents.connector.files.notes.tools.actionset.add"/>
+<alwaysOnActionSet id="com.ibm.workplace.notes.menus.actionSet.ManageCAAccessAction"/>
+<alwaysOnActionSet id="com.ibm.notes.client.toolbar.defaultactionset"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.phonebook.actions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.bcs"/>
+<alwaysOnActionSet id="com.ibm.notes.toolbox.provider.toolbox.actionSet"/>
+<alwaysOnActionSet id="oneui.com.ibm.rcp.toolbox.builder.toolbox.toolbar.actionSet"/>
+<alwaysOnActionSet id="oneui.com.ibm.rcp.toolbox.builder.toolbox.actionSet"/>
+<alwaysOnActionSet id="com.ibm.rcp.toolbox.builder.toolbox.toolbar.actionSet"/>
+<alwaysOnActionSet id="com.ibm.rcp.toolbox.builder.toolbox.actionSet"/>
+<perspective_action id="com.ibm.designer.domino.perspective"/>
+<perspective_action id="com.ibm.designer.domino.classic.perspective"/>
+<perspective_action id="com.ibm.designer.domino.xsp.perspective"/>
+<view id="com.ibm.workplace.noteswc.views.NotesView:1449144781150"/>
+<viewLayoutRec id="com.ibm.workplace.noteswc.views.NotesView:1449144781150" showTitle="false" standalone="true"/>
+<layout>
+<mainWindow>
+<info part="org.eclipse.ui.editorss"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7495396" ratioLeft="814" ratioRight="272" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@93f093f" ratio="0.9496644" ratioLeft="566" ratioRight="30" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.ibm.workplace.noteswc.views.NotesView:1449144781150" appearance="4" expanded="2">
+<page content="com.ibm.workplace.noteswc.views.NotesView:1449144781150" label="Say hello to your new Mac"/>
+<presentation id="com.ibm.rcp.ui.internal.presentations.StyledPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
+<descriptor descriptor="885191FB2044BC413C7B5521D7FE7720_6_3KE527R200VQ502MGJOIMC20H7_original" id="885191FB2044BC413C7B5521D7FE7720_6_3KE527R200VQ502MGJOIMC20H7" label="Mail"/>
+<alwaysOnActionSet id="membership.actionSet"/>
+<alwaysOnActionSet id="makeavailableoffline.actionSet"/>
+<alwaysOnActionSet id="uninstallCompositeApplication.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="composite.application.showHide"/>
+<alwaysOnActionSet id="com.ibm.rcp.syncui.menu"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.telephony.prototypes.actions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.telephony.sti.blue.actions"/>
+<alwaysOnActionSet id="com.ibm.notes.gettingstarted.actionSet"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.persistentchat.persistentchat"/>
+<alwaysOnActionSet id="com.ibm.rcp.aaf.actionSet.AAFActions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.chat.logging.ui.actionSet"/>
+<alwaysOnActionSet id="embedded.file.menu.actionset"/>
+<alwaysOnActionSet id="embedded.tools.menu.actionset"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.callhistory.actions"/>
+<alwaysOnActionSet id="com.ibm.documents.connector.files.notes.tools.actionset.add"/>
+<alwaysOnActionSet id="com.ibm.workplace.notes.menus.actionSet.ManageCAAccessAction"/>
+<alwaysOnActionSet id="com.ibm.notes.client.toolbar.defaultactionset"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.phonebook.actions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.bcs"/>
+<alwaysOnActionSet id="com.ibm.notes.toolbox.provider.toolbox.actionSet"/>
+<alwaysOnActionSet id="oneui.com.ibm.rcp.toolbox.builder.toolbox.toolbar.actionSet"/>
+<alwaysOnActionSet id="oneui.com.ibm.rcp.toolbox.builder.toolbox.actionSet"/>
+<alwaysOnActionSet id="com.ibm.rcp.toolbox.builder.toolbox.toolbar.actionSet"/>
+<alwaysOnActionSet id="com.ibm.rcp.toolbox.builder.toolbox.actionSet"/>
+<perspective_action id="com.ibm.designer.domino.perspective"/>
+<perspective_action id="com.ibm.designer.domino.classic.perspective"/>
+<perspective_action id="com.ibm.designer.domino.xsp.perspective"/>
+<view id="com.ibm.rcp.csiviews.viewpart.CSINavViewPart:885191FB2044BC413C7B5521D7FE7720_5_3KE527R208CCC02M6C5LO53091"/>
+<view id="com.ibm.rcp.csiviews.viewpart.CSIViewPart:885191FB2044BC413C7B5521D7FE7720_5_3KE527R208CCC02M6C5LO53093"/>
+<viewLayoutRec closeable="false" id="com.ibm.rcp.csiviews.viewpart.CSIViewPart:885191FB2044BC413C7B5521D7FE7720_5_3KE527R208CCC02M6C5LO53093" showTitle="false" standalone="true"/>
+<viewLayoutRec closeable="false" id="com.ibm.rcp.csiviews.viewpart.CSINavViewPart:885191FB2044BC413C7B5521D7FE7720_5_3KE527R208CCC02M6C5LO53091" showTitle="true" standalone="true"/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@64aa64aa">
+<folder activePageID="com.ibm.rcp.csiviews.viewpart.CSINavViewPart:885191FB2044BC413C7B5521D7FE7720_5_3KE527R208CCC02M6C5LO53091" appearance="3" expanded="2">
+<page content="com.ibm.rcp.csiviews.viewpart.CSINavViewPart:885191FB2044BC413C7B5521D7FE7720_5_3KE527R208CCC02M6C5LO53091" label="Andrew Jones"/>
+<presentation id="com.ibm.rcp.ui.internal.presentations.StyledPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7498471" ratioLeft="1226" ratioRight="409" relationship="2" relative="org.eclipse.ui.internal.ViewStack@64aa64aa">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.5" ratioLeft="454" ratioRight="454" relationship="4" relative="org.eclipse.ui.internal.ViewStack@64aa64aa"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@dbd0dbd" ratio="0.1646385" ratioLeft="230" ratioRight="1167" relationship="2" relative="org.eclipse.ui.internal.ViewStack@64aa64aa">
+<folder activePageID="com.ibm.rcp.csiviews.viewpart.CSIViewPart:885191FB2044BC413C7B5521D7FE7720_5_3KE527R208CCC02M6C5LO53093" appearance="4" expanded="2">
+<page content="com.ibm.rcp.csiviews.viewpart.CSIViewPart:885191FB2044BC413C7B5521D7FE7720_5_3KE527R208CCC02M6C5LO53093" label="Mail - Inbox"/>
+<presentation id="com.ibm.rcp.ui.internal.presentations.StyledPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
+<descriptor descriptor="com.ibm.rcp.platform.personality.dynamic.perspective.template" id="com.ibm.workplace.noteswc.views.NotesView:1449254380842" label="&gt; CMS and AMM Win Room Meeting Minutes 12/4/2015 "/>
+<alwaysOnActionSet id="membership.actionSet"/>
+<alwaysOnActionSet id="makeavailableoffline.actionSet"/>
+<alwaysOnActionSet id="uninstallCompositeApplication.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="composite.application.showHide"/>
+<alwaysOnActionSet id="com.ibm.rcp.syncui.menu"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.telephony.prototypes.actions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.telephony.sti.blue.actions"/>
+<alwaysOnActionSet id="com.ibm.notes.gettingstarted.actionSet"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.persistentchat.persistentchat"/>
+<alwaysOnActionSet id="com.ibm.rcp.aaf.actionSet.AAFActions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.chat.logging.ui.actionSet"/>
+<alwaysOnActionSet id="embedded.file.menu.actionset"/>
+<alwaysOnActionSet id="embedded.tools.menu.actionset"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.callhistory.actions"/>
+<alwaysOnActionSet id="com.ibm.documents.connector.files.notes.tools.actionset.add"/>
+<alwaysOnActionSet id="com.ibm.workplace.notes.menus.actionSet.ManageCAAccessAction"/>
+<alwaysOnActionSet id="com.ibm.notes.client.toolbar.defaultactionset"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.phonebook.actions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.bcs"/>
+<alwaysOnActionSet id="com.ibm.notes.toolbox.provider.toolbox.actionSet"/>
+<alwaysOnActionSet id="oneui.com.ibm.rcp.toolbox.builder.toolbox.toolbar.actionSet"/>
+<alwaysOnActionSet id="oneui.com.ibm.rcp.toolbox.builder.toolbox.actionSet"/>
+<alwaysOnActionSet id="com.ibm.rcp.toolbox.builder.toolbox.toolbar.actionSet"/>
+<alwaysOnActionSet id="com.ibm.rcp.toolbox.builder.toolbox.actionSet"/>
+<perspective_action id="com.ibm.designer.domino.perspective"/>
+<perspective_action id="com.ibm.designer.domino.classic.perspective"/>
+<perspective_action id="com.ibm.designer.domino.xsp.perspective"/>
+<view id="com.ibm.workplace.noteswc.views.NotesView:1449254380842"/>
+<viewLayoutRec id="com.ibm.workplace.noteswc.views.NotesView:1449254380842" showTitle="false" standalone="true"/>
+<layout>
+<mainWindow>
+<info part="org.eclipse.ui.editorss"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7495396" ratioLeft="814" ratioRight="272" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1ce41ce4" ratio="0.9496644" ratioLeft="566" ratioRight="30" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.ibm.workplace.noteswc.views.NotesView:1449254380842" appearance="4" expanded="2">
+<page content="com.ibm.workplace.noteswc.views.NotesView:1449254380842" label="&gt; CMS and AMM Win Room Meeting Minutes 12/4/2015 "/>
+<presentation id="com.ibm.rcp.ui.internal.presentations.StyledPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
+<descriptor descriptor="com.ibm.rcp.platform.personality.dynamic.perspective.template" id="com.ibm.workplace.noteswc.views.NotesView:1449495826033" label="Re: Inquiry HIS Japan"/>
+<alwaysOnActionSet id="membership.actionSet"/>
+<alwaysOnActionSet id="makeavailableoffline.actionSet"/>
+<alwaysOnActionSet id="uninstallCompositeApplication.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="composite.application.showHide"/>
+<alwaysOnActionSet id="com.ibm.rcp.syncui.menu"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.telephony.prototypes.actions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.telephony.sti.blue.actions"/>
+<alwaysOnActionSet id="com.ibm.notes.gettingstarted.actionSet"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.persistentchat.persistentchat"/>
+<alwaysOnActionSet id="com.ibm.rcp.aaf.actionSet.AAFActions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.chat.logging.ui.actionSet"/>
+<alwaysOnActionSet id="embedded.file.menu.actionset"/>
+<alwaysOnActionSet id="embedded.tools.menu.actionset"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.callhistory.actions"/>
+<alwaysOnActionSet id="com.ibm.documents.connector.files.notes.tools.actionset.add"/>
+<alwaysOnActionSet id="com.ibm.workplace.notes.menus.actionSet.ManageCAAccessAction"/>
+<alwaysOnActionSet id="com.ibm.notes.client.toolbar.defaultactionset"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.phonebook.actions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.bcs"/>
+<alwaysOnActionSet id="com.ibm.notes.toolbox.provider.toolbox.actionSet"/>
+<alwaysOnActionSet id="oneui.com.ibm.rcp.toolbox.builder.toolbox.toolbar.actionSet"/>
+<alwaysOnActionSet id="oneui.com.ibm.rcp.toolbox.builder.toolbox.actionSet"/>
+<alwaysOnActionSet id="com.ibm.rcp.toolbox.builder.toolbox.toolbar.actionSet"/>
+<alwaysOnActionSet id="com.ibm.rcp.toolbox.builder.toolbox.actionSet"/>
+<perspective_action id="com.ibm.designer.domino.perspective"/>
+<perspective_action id="com.ibm.designer.domino.classic.perspective"/>
+<perspective_action id="com.ibm.designer.domino.xsp.perspective"/>
+<view id="com.ibm.workplace.noteswc.views.NotesView:1449495826033"/>
+<viewLayoutRec id="com.ibm.workplace.noteswc.views.NotesView:1449495826033" showTitle="false" standalone="true"/>
+<layout>
+<mainWindow>
+<info part="org.eclipse.ui.editorss"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7495396" ratioLeft="814" ratioRight="272" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@2c8b2c8b" ratio="0.9496644" ratioLeft="566" ratioRight="30" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.ibm.workplace.noteswc.views.NotesView:1449495826033" appearance="4" expanded="2">
+<page content="com.ibm.workplace.noteswc.views.NotesView:1449495826033" label="Re: Inquiry HIS Japan"/>
+<presentation id="com.ibm.rcp.ui.internal.presentations.StyledPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
+<descriptor descriptor="com.ibm.rcp.platform.personality.dynamic.perspective.template" id="com.ibm.workplace.noteswc.views.NotesView:1449497351019" label="ISM Portal Not Accessible "/>
+<alwaysOnActionSet id="membership.actionSet"/>
+<alwaysOnActionSet id="makeavailableoffline.actionSet"/>
+<alwaysOnActionSet id="uninstallCompositeApplication.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="composite.application.showHide"/>
+<alwaysOnActionSet id="com.ibm.rcp.syncui.menu"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.telephony.prototypes.actions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.telephony.sti.blue.actions"/>
+<alwaysOnActionSet id="com.ibm.notes.gettingstarted.actionSet"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.persistentchat.persistentchat"/>
+<alwaysOnActionSet id="com.ibm.rcp.aaf.actionSet.AAFActions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.chat.logging.ui.actionSet"/>
+<alwaysOnActionSet id="embedded.file.menu.actionset"/>
+<alwaysOnActionSet id="embedded.tools.menu.actionset"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.callhistory.actions"/>
+<alwaysOnActionSet id="com.ibm.documents.connector.files.notes.tools.actionset.add"/>
+<alwaysOnActionSet id="com.ibm.workplace.notes.menus.actionSet.ManageCAAccessAction"/>
+<alwaysOnActionSet id="com.ibm.notes.client.toolbar.defaultactionset"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.phonebook.actions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.bcs"/>
+<alwaysOnActionSet id="com.ibm.notes.toolbox.provider.toolbox.actionSet"/>
+<alwaysOnActionSet id="oneui.com.ibm.rcp.toolbox.builder.toolbox.toolbar.actionSet"/>
+<alwaysOnActionSet id="oneui.com.ibm.rcp.toolbox.builder.toolbox.actionSet"/>
+<alwaysOnActionSet id="com.ibm.rcp.toolbox.builder.toolbox.toolbar.actionSet"/>
+<alwaysOnActionSet id="com.ibm.rcp.toolbox.builder.toolbox.actionSet"/>
+<perspective_action id="com.ibm.designer.domino.perspective"/>
+<perspective_action id="com.ibm.designer.domino.classic.perspective"/>
+<perspective_action id="com.ibm.designer.domino.xsp.perspective"/>
+<view id="com.ibm.workplace.noteswc.views.NotesView:1449497351019"/>
+<viewLayoutRec id="com.ibm.workplace.noteswc.views.NotesView:1449497351019" showTitle="false" standalone="true"/>
+<layout>
+<mainWindow>
+<info part="org.eclipse.ui.editorss"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7495396" ratioLeft="814" ratioRight="272" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@3a623a62" ratio="0.9496644" ratioLeft="566" ratioRight="30" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.ibm.workplace.noteswc.views.NotesView:1449497351019" appearance="4" expanded="2">
+<page content="com.ibm.workplace.noteswc.views.NotesView:1449497351019" label="ISM Portal Not Accessible "/>
+<presentation id="com.ibm.rcp.ui.internal.presentations.StyledPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
+<descriptor descriptor="com.ibm.rcp.platform.personality.dynamic.perspective.template" id="com.ibm.workplace.noteswc.views.NotesView:1449501097670" label="New device REGISTERED for andrewj@us.ibm.com: &apos;mac&apos;"/>
+<alwaysOnActionSet id="membership.actionSet"/>
+<alwaysOnActionSet id="makeavailableoffline.actionSet"/>
+<alwaysOnActionSet id="uninstallCompositeApplication.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="composite.application.showHide"/>
+<alwaysOnActionSet id="com.ibm.rcp.syncui.menu"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.telephony.prototypes.actions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.telephony.sti.blue.actions"/>
+<alwaysOnActionSet id="com.ibm.notes.gettingstarted.actionSet"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.persistentchat.persistentchat"/>
+<alwaysOnActionSet id="com.ibm.rcp.aaf.actionSet.AAFActions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.chat.logging.ui.actionSet"/>
+<alwaysOnActionSet id="embedded.file.menu.actionset"/>
+<alwaysOnActionSet id="embedded.tools.menu.actionset"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.callhistory.actions"/>
+<alwaysOnActionSet id="com.ibm.documents.connector.files.notes.tools.actionset.add"/>
+<alwaysOnActionSet id="com.ibm.workplace.notes.menus.actionSet.ManageCAAccessAction"/>
+<alwaysOnActionSet id="com.ibm.notes.client.toolbar.defaultactionset"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.phonebook.actions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.bcs"/>
+<alwaysOnActionSet id="com.ibm.notes.toolbox.provider.toolbox.actionSet"/>
+<alwaysOnActionSet id="oneui.com.ibm.rcp.toolbox.builder.toolbox.toolbar.actionSet"/>
+<alwaysOnActionSet id="oneui.com.ibm.rcp.toolbox.builder.toolbox.actionSet"/>
+<alwaysOnActionSet id="com.ibm.rcp.toolbox.builder.toolbox.toolbar.actionSet"/>
+<alwaysOnActionSet id="com.ibm.rcp.toolbox.builder.toolbox.actionSet"/>
+<perspective_action id="com.ibm.designer.domino.perspective"/>
+<perspective_action id="com.ibm.designer.domino.classic.perspective"/>
+<perspective_action id="com.ibm.designer.domino.xsp.perspective"/>
+<view id="com.ibm.workplace.noteswc.views.NotesView:1449501097670"/>
+<viewLayoutRec id="com.ibm.workplace.noteswc.views.NotesView:1449501097670" showTitle="false" standalone="true"/>
+<layout>
+<mainWindow>
+<info part="org.eclipse.ui.editorss"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7495396" ratioLeft="814" ratioRight="272" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@26402640" ratio="0.9496644" ratioLeft="566" ratioRight="30" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.ibm.workplace.noteswc.views.NotesView:1449501097670" appearance="4" expanded="2">
+<page content="com.ibm.workplace.noteswc.views.NotesView:1449501097670" label="New device REGISTERED for andrewj@us.ibm.com: &apos;mac&apos;"/>
+<presentation id="com.ibm.rcp.ui.internal.presentations.StyledPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory/>
+</page>
+<workbenchWindowAdvisor bannerBarCollapsed="true" pageSwitcherCollapsed="false">
+<SidebarState LAYOUT_WIDTH_DATA="270" PREVIOUS_WIDTH_DATA="188" id="RIGHT" width="270">
+<RemovedShelfState id="com.ibm.collaboration.realtime.filteredbuddies.shelfview" title="Primary Contacts"/>
+<ShelfState bottomIconBarIndex="-1" collapsed="true" expanded="false" id="com.ibm.collaboration.realtime.imhub.shelfView" index="0" ratio="13108" topIconBarIndex="-1"/>
+<ShelfState bottomIconBarIndex="-1" collapsed="false" expanded="true" id="com.ibm.rtc.meetings.shelf.ui.MeetingsShelf.shelfview" index="1" ratio="13108" topIconBarIndex="-1"/>
+<ShelfState bottomIconBarIndex="-1" collapsed="true" expanded="false" id="com.ibm.rcp.ui.shelfViews.FileShareView" index="2" ratio="13108" topIconBarIndex="-1"/>
+<ShelfState bottomIconBarIndex="-1" collapsed="true" expanded="false" id="com.ibm.lconn.statusupdates.ui.shelfview" index="3" ratio="13108" topIconBarIndex="-1"/>
+<ShelfState bottomIconBarIndex="-1" collapsed="true" expanded="false" id="com.ibm.unyte.lotuslive.plugin.view.ShelfView" index="4" ratio="13108" topIconBarIndex="-1"/>
+<ShelfState bottomIconBarIndex="-1" collapsed="true" expanded="false" id="com.ibm.workplace.ui.sidecalendar.views.SideCalendarViewPart" index="5" ratio="13108" topIconBarIndex="-1"/>
+<ShelfState bottomIconBarIndex="-1" collapsed="true" expanded="false" id="com.ibm.rcp.feedreader.notes.ui.shelf" index="6" ratio="13108" topIconBarIndex="-1"/>
+<ShelfState bottomIconBarIndex="-1" collapsed="true" expanded="false" id="com.ibm.workplace.ae.client.views.AESideShelfView" index="7" ratio="13108" topIconBarIndex="-1"/>
+<ShelfState bottomIconBarIndex="-1" collapsed="true" expanded="false" id="com.ibm.rcp.toolbox.WebFragmentPallete" index="8" ratio="13108" topIconBarIndex="-1"/>
+<view id="com.ibm.collaboration.realtime.imhub" partName="Sametime Contacts">
+<viewState/>
+</view>
+<view id="com.ibm.rtc.meetings.shelf.ui.MeetingsShelf" partName="Sametime Meetings">
+<viewState/>
+</view>
+<view id="com.ibm.documents.connector.common.share.views.FileShareView" partName="Files"/>
+<view id="com.ibm.lconn.statusupdates.ui.view" partName="Status Updates"/>
+<view id="com.ibm.unyte.lotuslive.plugin.view.MiniApp" partName="IBM SmartCloud Meetings"/>
+<view id="com.ibm.workplace.ui.sidecalendar.views.SideCalendarViewPart" partName="Day-At-A-Glance"/>
+<view id="com.ibm.rcp.toolbox.WebFragmentPallete" partName="My Widgets"/>
+<view id="com.ibm.rcp.feedreader.notes.ui.NotesFeedViewPart" partName="Feeds"/>
+<view id="com.ibm.openactivities.client.common.views.AEShelfViewPart" partName="Activities"/>
+</SidebarState>
+<SidebarState LAYOUT_WIDTH_DATA="186" PREVIOUS_WIDTH_DATA="186" id="LEFT" width="186"/>
+<TabState>
+<PerspectiveInfo CAGroupPerspective="false" id="com.ibm.workplace.noteswc.views.NotesView:1436968978884" tabIndex="1" title="Workspace"/>
+<PerspectiveInfo CAGroupPerspective="false" id="com.ibm.workplace.noteswc.views.NotesView:1449082851375" tabIndex="2" title="Replication and Sync"/>
+<PerspectiveInfo CAGroupPerspective="false" id="com.ibm.workplace.noteswc.views.NotesView:1449086031829" tabIndex="3" title="Header Page"/>
+<PerspectiveInfo CAGroupPerspective="false" id="com.ibm.workplace.noteswc.views.NotesView:1449144781150" tabIndex="4" title="Say hello to your new Mac"/>
+<PerspectiveInfo CAGroupPerspective="false" id="885191FB2044BC413C7B5521D7FE7720_6_3KE527R200VQ502MGJOIMC20H7" tabIndex="0" title="Andrew Jones - Mail"/>
+<PerspectiveInfo CAGroupPerspective="false" id="com.ibm.workplace.noteswc.views.NotesView:1449254380842" tabIndex="5" title="&gt; CMS and AMM Win Room Meeting Minutes 12/4/2015 "/>
+<PerspectiveInfo CAGroupPerspective="false" id="com.ibm.workplace.noteswc.views.NotesView:1449495826033" tabIndex="6" title="Re: Inquiry HIS Japan"/>
+<PerspectiveInfo CAGroupPerspective="false" id="com.ibm.workplace.noteswc.views.NotesView:1449497351019" tabIndex="7" title="ISM Portal Not Accessible "/>
+<PerspectiveInfo CAGroupPerspective="false" id="com.ibm.workplace.noteswc.views.NotesView:1449501097670" tabIndex="8" title="New device REGISTERED for andrewj@us.ibm.com: &apos;mac&apos;"/>
+</TabState>
+</workbenchWindowAdvisor>
+<actionBarAdvisor/>
+</WindowState>
+</State>

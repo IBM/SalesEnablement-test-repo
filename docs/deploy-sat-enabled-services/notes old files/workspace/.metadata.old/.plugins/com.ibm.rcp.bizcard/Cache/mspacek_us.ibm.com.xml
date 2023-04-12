@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<uid>8A7572897</uid>
+<streetAddress>4700 S Syracuse
+Denver, CO 80237-2710
+United States</streetAddress>
+<userId>a12dbb40-8f0a-1028-8e35-db07163b51b2</userId>
+<title>Chief Architect</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/mspacek_us.ibm.com</photoUri>
+<tel>999-9999 / 1-303-981-2876</tel>
+<name>Spacek, Mark S.</name>
+<email>mspacek@us.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=a12dbb40-8f0a-1028-8e35-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=a12dbb40-8f0a-1028-8e35-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=a12dbb40-8f0a-1028-8e35-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=a12dbb40-8f0a-1028-8e35-db07163b51b2&amp;name=Spacek%2C%20Mark%20S."/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=a12dbb40-8f0a-1028-8e35-db07163b51b2&amp;name=Spacek%2C%20Mark%20S."/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/a12dbb40-8f0a-1028-8e35-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=a12dbb40-8f0a-1028-8e35-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Da12dbb40-8f0a-1028-8e35-db07163b51b2%2Cname%3DSpacek%2C%20Mark%20S."/>
+</BusinessCardLinks>
+<LastUpdated>1410312592334</LastUpdated>
+</BusinessCard>

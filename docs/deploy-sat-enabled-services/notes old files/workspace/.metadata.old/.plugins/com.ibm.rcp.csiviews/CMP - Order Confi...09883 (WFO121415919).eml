@@ -1,0 +1,452 @@
+Received: from d01relay01.pok.ibm.com ([9.56.227.233])
+          by d01ml084.pok.ibm.com (Lotus Domino Release 8.5.3 ZX853HP5)
+          with ESMTP id 2012040518121360-223831 ;
+          Thu, 5 Apr 2012 18:12:13 -0400 
+Received: from d01av02.pok.ibm.com (d01av02.pok.ibm.com [9.56.224.216])
+	by d01relay01.pok.ibm.com (8.13.8/8.13.8/NCO v10.0) with ESMTP id q35MCDo6264454
+	for <andrewj@us.ibm.com>; Thu, 5 Apr 2012 18:12:13 -0400
+Received: from d01av02.pok.ibm.com (loopback [127.0.0.1])
+	by d01av02.pok.ibm.com (8.14.4/8.13.1/NCO v10.0 AVout) with ESMTP id q35MCB0t030461
+	for <andrewj@us.ibm.com>; Thu, 5 Apr 2012 19:12:12 -0300
+Received: from e36.co.us.ibm.com ([9.17.249.46])
+	by d01av02.pok.ibm.com (8.14.4/8.13.1/NCO v10.0 AVin) with ESMTP id q35MC9ND030212
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=OK)
+	for <andrewj@us.ibm.com>; Thu, 5 Apr 2012 19:12:10 -0300
+Received: from /spool/local
+	by e36.co.us.ibm.com with IBM ESMTP SMTP Gateway: Authorized Use Only! Violators will be prosecuted
+	for <andrewj@us.ibm.com> from <nebsc@verizonwireless.com>;
+	Thu, 5 Apr 2012 16:12:09 -0600
+Received: from pershing.verizonwireless.com (162.115.228.36)
+	by e36.co.us.ibm.com (192.168.2.136) with IBM ESMTP SMTP Gateway: Authorized Use Only! Violators will be prosecuted;
+	Thu, 5 Apr 2012 16:12:06 -0600
+Received: from tbuwfm01apd.tdc.vzwcorp.com (HELO tbuwfm01apd) ([10.144.98.18])
+  by pershing.verizonwireless.com with ESMTP; 05 Apr 2012 18:12:05 -0400
+Date: Thu, 5 Apr 2012 18:12:07 -0400 (EDT)
+From: VZW WFM NE BSC <nebsc@verizonwireless.com>
+To: BRANDON.HARRIS@BLUEFISHWIRELESS.NET,
+	ANDREWJ@us.ibm.com
+Message-ID: <24393574.54571.1333663927192.JavaMail.vzwadmin@tbuwfm01apd>
+Subject: CMP - Order Confirmation for Verizon Wireless Order VZB20009883
+ (WFO121415919)
+MIME-Version: 1.0
+x-cbid: 12040522-3352-0000-0000-000003D7ECA8
+X-IBM-ISS-SpamDetectors: Score=0.041261; BY=0.041261; FL=0; FP=0; FZ=0; HX=0;
+ KW=0; PH=0; SC=0; ST=0; TS=0; UL=0; ISC=
+X-IBM-ISS-DetailInfo:  BY=3.00000264; HX=3.00000186; KW=3.00000007;
+ PH=3.00000001; SC=3.00000001; SDB=6.00128332; UDB=6.00030435; UTC=2012-04-05
+ 22:12:08
+X-MIMETrack: Itemize by SMTP Server on D01ML084/01/M/IBM(Release 8.5.3 ZX853HP5|January
+ 12, 2012) at 04/05/2012 18:12:13,
+	Serialize by Notes Client on Andrew Jones/Austin/IBM(Release 8.5.3|September
+ 15, 2011) at 04/06/2012 07:58:38 AM,
+	Serialize complete at 04/06/2012 07:58:38 AM
+X-Notes-Item: 73248E2B:BFB546DF-FF4F1013:C36ADF19;
+ type=4; name=$INetOrig
+X-Notes-Item: .,
+	Andrew Jones/Austin/IBM@IBMUS;
+ type=501; name=OriginalTo
+X-Notes-Item: Thu, 5 Apr 2012 18:12:07 -0400;
+ type=400; name=$Created
+X-Notes-Item: .;
+ name=INetFrom
+X-TNEFEvaluated: 1
+X-Notes-Item: Memo;
+ name=Form
+X-Notes-Item: ;
+ name=HasSafeStamp
+X-Notes-Item: B2EAAAEA:0C546861-852579D7:0079F811;
+ type=4; name=$Orig
+X-Notes-Item: ;
+ type=501; name=Categories
+X-Notes-Item: CN=D01ML084/OU=01/OU=M/O=IBM;
+ type=501; flags=0; name=RouteServers
+X-Notes-Item: 05-Apr-2012 18:12:13 EDT/05-Apr-2012 18:12:15 EDT;
+ type=401; flags=0; name=RouteTimes
+X-Notes-Item: Thu, 5 Apr 2012 18:12:15 -0400;
+ type=400; name=DeliveredDate
+X-Notes-Item: ;
+ name=$MiniView
+X-Notes-Item: =?ISO-8859-1?Q?Dear_Customer=2C_=A0?=;
+ flags=6; name=$Abstract
+X-Notes-Item: 73248E2B:BFB546DF-FF4F1013:C36ADF19;
+ type=4; name=$TUA
+X-Notes-Item: ok;
+ name=$DelayedImagesOK
+X-Notes-Item: CN=D01ML084/OU=01/OU=M/O=IBM,
+	CN=Andrew Jones/OU=Austin/O=IBM;
+ type=501; flags=44; name=$UpdatedBy
+X-Notes-Item: Thu, 5 Apr 2012 18:12:15 -0400;
+ type=400; name=$Revisions
+X-Notes-Item: 1;
+ name=$NoteHasNativeMIME
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_54570_16989293.1333663927191"
+
+------=_Part_54570_16989293.1333663927191
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=ISO-8859-1
+
+
+Dear Customer,
+=A0
+Thank you for your purchase today! This email represents the Verizon Wirele=
+ss Order Confirmation for the designated order(s) listed below. Please reta=
+in this for your records. Please note, a signature is required upon deliver=
+y.
+=A0
+<table width=3D'70%' cellpadding=3D'6px' cellspacing=3D'0' border=3D'0'><tr=
+><td>Your Equipment Upgrade Order # is: VZB20009883</td></tr><tr><td>Phone =
+Number:</td></tr><tr><td>512-917-8023</td></tr><tr><td>Need to activate a t=
+emporary device until your new Verizon Wireless device arrives? Go to Activ=
+ate Equipment, select the wireless number, then select Activate Equipment a=
+nd follow the steps.</td></tr><tr><td><b>Note: Customer signature is requir=
+ed at time of delivery.</b></td></tr></table><table width=3D'70%' cellpaddi=
+ng=3D'6px' cellspacing=3D'0' border=3D'0'><tr><td width=3D'50%' style=3D've=
+rtical-align:top;text-align:left;'><table><tr><td>Ship To:</td></tr><tr><td=
+>ANDREW&nbsp;JONES&nbsp;</td></tr><tr><td>1905 WHITE OAK LOOP</td></tr><tr>=
+<td>ROUND ROCK,&nbsp;TX&nbsp;78681</td></tr><tr><td>512-286-6864</td></tr><=
+/table></td><td width=3D'50%' style=3D'vertical-align:top;text-align:left;'=
+><table><tr><td>Shipping Method:</td></tr><tr><td>Free Overnight Shipping</=
+td></tr><tr><td>FREE</td></tr><tr><td>OVERNIGHT</td></tr></table></td></tr>=
+</table><table width=3D'70%' cellpadding=3D'6px' cellspacing=3D'0' border=
+=3D'0'><tr><td>&nbsp;</td></tr><tr><td>Your order is being processed and is=
+ subject to final credit approval. If additional information is needed to c=
+omplete your order, we will contact you.</td></tr><tr><td>&nbsp;</td></tr><=
+tr><td>Thank you for using the Verizon Wireless Business online ordering si=
+te.</td></tr><tr><td>&nbsp;</td></tr></table><table width=3D'70%' cellpaddi=
+ng=3D'6px' cellspacing=3D'0' border=3D'0'><tr><td colspan=3D'4' align=3D'le=
+ft' style=3D'background-color:rgb(224,224,224);font-size:14px;font-weight:b=
+old;'>Your Order</td></tr><tr><th>Item</th><th class=3D'leftBorder'>Qty.</t=
+h><th class=3D'leftBorder'>Due Monthly</th><th class=3D'leftBorder'>Due Tod=
+ay</th></tr><tr><td class=3D'topHead'>&nbsp;</td><td class=3D'colTop'>&nbsp=
+;</td><td class=3D'colBoth'>&nbsp;</td><td class=3D'colBoth'>&nbsp;</td></t=
+r><tr><td class=3D'topSection'>Package Selection&nbsp;1</td><td class=3D'co=
+lTop'>&nbsp;</td><td class=3D'colBoth'>&nbsp;</td><td class=3D'colBoth'>&nb=
+sp;</td></tr><tr><td class=3D'miniHeadline' ><b>Plan</b></td><td class=3D'c=
+olbg'>&nbsp;</td><td class=3D'colLeft'>&nbsp;</td><td class=3D'colLeft'>&nb=
+sp;</td></tr><tr><td style=3D'padding-left:20px;'>Smartphone Nationwide Glo=
+balEmail & Messaging for Business Unlimited</td><td class=3D'colbg'>1</td><=
+td class=3D'colLeft'>$59.99</td><td class=3D'colLeft'>&nbsp;</td></tr><tr><=
+td class=3D'miniHeadline' style=3D'padding-left:20px;'>512-917-8023</td><td=
+ class=3D'colbg'>&nbsp;</td><td class=3D'colLeft'>&nbsp;</td><td class=3D'c=
+olLeft'>&nbsp;</td></tr><tr><td class=3D'topHead'>Device</td><td class=3D'c=
+olTop'>&nbsp;</td><td class=3D'colBoth'>&nbsp;</td><td class=3D'colBoth'>&n=
+bsp;</td></tr><tr><td style=3D'padding-left:20px;'>Upgrade Waiver Used</td>=
+<td class=3D'colbg'>&nbsp;</td><td class=3D'colLeft'>&nbsp;</td><td class=
+=3D'colLeft'>&nbsp;</td></tr><tr><td style=3D'padding-left:20px;'>BlackBerr=
+y&#174;Bold&trade; 9930 smartphone</td><td class=3D'colbg'>1</td><td class=
+=3D'colLeft'>&nbsp;</td><td class=3D'colLeft'>FREE</td></tr><tr><td class=
+=3D'topHead'>Accessories</td><td class=3D'colTop'>&nbsp;</td><td class=3D'c=
+olBoth'>&nbsp;</td><td class=3D'colBoth'>&nbsp;</td></tr><tr><td style=3D'p=
+adding-left:20px;'>Global Support Pack</td><td class=3D'colbg'>1</td><td cl=
+ass=3D'colLeft'>&nbsp;</td><td class=3D'colLeft'>FREE</td></tr><tr><td clas=
+s=3D'topHead'>Features</td><td class=3D'colTop'>&nbsp;</td><td class=3D'col=
+Both'>&nbsp;</td><td class=3D'colBoth'>&nbsp;</td></tr><tr><td style=3D'pad=
+ding-left:20px;'><b>Chargeable or Selected Features</b></td><td class=3D'co=
+lbg'>&nbsp;</td><td class=3D'colLeft'>&nbsp;</td><td class=3D'colLeft'>&nbs=
+p;</td></tr><tr><td style=3D'padding-left:20px;'>Mobile Broadband Connect -=
+ Tethering</td><td class=3D'colbg'>1</td><td class=3D'colLeft'>$10.00</td><=
+td class=3D'colLeft'>&nbsp;</td></tr><tr><td style=3D'padding-left:20px;'><=
+b>Included Free</b></td><td class=3D'colbg'>&nbsp;</td><td class=3D'colLeft=
+'>&nbsp;</td><td class=3D'colLeft'>&nbsp;</td></tr><tr><td style=3D'padding=
+-left:20px;'>Decline Extended Warranty, Wireless Phone Protection, Total Eq=
+uipment Coverage</td><td class=3D'colbg'>&nbsp;</td><td class=3D'colLeft'>$=
+0.00</td><td class=3D'colLeft'>&nbsp;</td></tr><tr><td style=3D'padding-lef=
+t:20px;'>Block Web Purchases</td><td class=3D'colbg'>&nbsp;</td><td class=
+=3D'colLeft'>$0.00</td><td class=3D'colLeft'>&nbsp;</td></tr><tr><td style=
+=3D'padding-left:20px;'>3-Way Calling</td><td class=3D'colbg'>&nbsp;</td><t=
+d class=3D'colLeft'>$0.00</td><td class=3D'colLeft'>&nbsp;</td></tr><tr><td=
+ style=3D'padding-left:20px;'>No Answer / Busy Transfer</td><td class=3D'co=
+lbg'>&nbsp;</td><td class=3D'colLeft'>$0.00</td><td class=3D'colLeft'>&nbsp=
+;</td></tr><tr><td style=3D'padding-left:20px;'>SHARE NAME ID</td><td class=
+=3D'colbg'>&nbsp;</td><td class=3D'colLeft'>$0.00</td><td class=3D'colLeft'=
+>&nbsp;</td></tr><tr><td style=3D'padding-left:20px;'>Caller ID</td><td cla=
+ss=3D'colbg'>&nbsp;</td><td class=3D'colLeft'>$0.00</td><td class=3D'colLef=
+t'>&nbsp;</td></tr><tr><td style=3D'padding-left:20px;'>Call Forwarding</td=
+><td class=3D'colbg'>&nbsp;</td><td class=3D'colLeft'>$0.00</td><td class=
+=3D'colLeft'>&nbsp;</td></tr><tr><td style=3D'padding-left:20px;'>Call Wait=
+ing</td><td class=3D'colbg'>&nbsp;</td><td class=3D'colLeft'>$0.00</td><td =
+class=3D'colLeft'>&nbsp;</td></tr><tr><td style=3D'padding-left:20px;'>Basi=
+c Voice Mail</td><td class=3D'colbg'>&nbsp;</td><td class=3D'colLeft'>$0.00=
+</td><td class=3D'colLeft'>&nbsp;</td></tr><tr><td style=3D'padding-left:20=
+px;'>Unlimited Text Messages</td><td class=3D'colbg'>&nbsp;</td><td class=
+=3D'colLeft'>$0.00</td><td class=3D'colLeft'>&nbsp;</td></tr><tr><td style=
+=3D'padding-left:20px;'>GLOBALEMAIL & DATA ENT UNLIM</td><td class=3D'colbg=
+'>&nbsp;</td><td class=3D'colLeft'>$0.00</td><td class=3D'colLeft'>&nbsp;</=
+td></tr><tr><td style=3D'padding-left:20px;'>Pay Per Message</td><td class=
+=3D'colbg'>&nbsp;</td><td class=3D'colLeft'>$0.00</td><td class=3D'colLeft'=
+>&nbsp;</td></tr><tr><td colspan=3D'4' class=3D'topBorder'>&nbsp;</td></tr>=
+<tr><td class=3D'topBorder' colspan=3D'2'>Free Overnight Shipping(OVERNIGHT=
+)</td><td class=3D'colTop'>&nbsp;</td><td class=3D'colBoth'>FREE</td></tr><=
+tr><td class=3D'topHead'>Taxes, Govt Surchg & Fees*</td><td class=3D'colTop=
+'>&nbsp;</td><td class=3D'colBoth'>&nbsp;</td><td class=3D'colBoth'>$0.00</=
+td></tr><tr><td class=3D'topBorder' colspan=3D'2'>Total&nbsp;Due Monthly</t=
+d><td class=3D'colTop'>$69.99</td><td class=3D'colBoth'>&nbsp;</td></tr><tr=
+><td colspan=3D'2'>Total&nbsp;Due Today</td><td class=3D'colbg'>&nbsp;</td>=
+<td class=3D'colLeft'>$0.00</td></tr><tr><td colspan=3D'4' class=3D'topBord=
+er'>&nbsp;</td></tr><tr><td colspan=3D'4' class=3D'topBorder'>&nbsp;</td></=
+tr></table><table width=3D'70%' cellpadding=3D'6px' cellspacing=3D'0' borde=
+r=3D'0'><tr><td colspan=3D'2' style=3D'background-color:rgb(224,224,224);'>=
+User Information</td></tr><tr><td colspan=3D'2' class=3D'sectionHeadline'>P=
+ackage Selection&nbsp;1</td></tr><tr><td><table width=3D'70%' cellpadding=
+=3D'6px' cellspacing=3D'0' border=3D'0'><tr><td><b>User Information:</b></t=
+d></tr><tr><td>ANDY&nbsp;JONES</td></tr><tr><td>1 NEW ORCHARD RD</td></tr><=
+tr><td></td></tr><tr><td>ARMONK, NY&nbsp;10504</td></tr></table></td><td><t=
+able width=3D'70%' cellpadding=3D'6px' cellspacing=3D'0' border=3D'0'></tab=
+le></td></tr></table><table width=3D'70%' cellpadding=3D'6px' cellspacing=
+=3D'0' border=3D'0'><tr><td>&nbsp;</td></tr><tr><td style=3D'font-size:0.8e=
+m;color:#666666;width:70%;' class=3D'topBorder'>*In some states, sales tax =
+is calculated on the full retail price or inventory cost of the device you =
+purchase, and not on the discounted price you pay.  The sales tax charged o=
+n your device was based on $0.00</td></tr></table>
+=A0
+
+=A0
+If additional information is needed to complete your request, we will conta=
+ct you. Please reply to this email if you have any additional questions or =
+need to make modifications to this request. To ensure correspondence contin=
+uity, please do not alter the subject line of the message when replying.
+=A0
+Please visit us online at www.verizonwireless.com to pay your bill, check m=
+inutes used, view detailed usage, get answers to frequently asked questions=
+, and more!
+=A0
+We appreciate your business. Thank you for choosing Verizon Wireless.
+------=_Part_54570_16989293.1333663927191
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=ISO-8859-1
+
+<HTML>
+<!-- outgoingEmailTemplate.html -->
+<!-- do not remove the above comment, it is used as a identifier. It is a w=
+ay to identify
+     an email composed with this template -->
+<HEAD>
+<style type=3D"text/css">
+<!--
+p {=09padding:2px 0 0 0;
+=09margin-top: 0;
+=09margin-bottom: 0
+}
+-->
+*{font-family:arial,sans-serif;font-size:12px;}=09th{background-color:#6666=
+66;color:#FFFFFF;padding-left:10px;text-align: left;} .clear20 {clear:both;=
+ height:20px; line-height:20px;} .clear10 {clear:both; height:10px; line-he=
+ight:10px;} div.ruleA {background-color:#999999; clear:both; height:1px; ma=
+rgin:0; overflow:hidden; width:70%;} .colbg{background-color:#CCCCCC;color:=
+#D8001D;font-weight: bold;vertical-align:bottom;text-align:left;} .miniHead=
+line {font-size:1em;} .sectionHeadline {font-size:1.2em;font-weight:bold;} =
+td.topBorder {border-top:solid 1px #999999;}=09.leftBorder {border-left:sol=
+id 1px #FFFFFF;} .colLeft {background-color:#CCCCCC;color:#D8001D;font-weig=
+ht: bold;vertical-align:bottom;text-align:left;border-left:solid 1px #FFFFF=
+F;} .colTop {background-color:#CCCCCC;color:#D8001D;font-weight: bold;verti=
+cal-align:bottom;text-align:left;border-top:solid 1px #999999;} .colBoth {b=
+ackground-color:#CCCCCC;color:#D8001D;font-weight: bold;vertical-align:bott=
+om;text-align:left;border-left:solid 1px #FFFFFF;border-top:solid 1px #9999=
+99;} .topHead {font-size:1em;font-weight:bold;border-top:solid 1px #999999;=
+} .topSection {font-size:1.2em;font-weight:bold;border-top:solid 1px #99999=
+9;}=20
+</style>
+<TITLE>Verizon Wireless</TITLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<div class=3D"vzw">
+  <table cellspacing=3D0 cellpadding=3D0 width=3D100% border=3D0>
+    <TR>
+      <TD align=3D"right" valign=3D"top" class=3D"logo"><a href=3D"http://w=
+ww.verizonwireless.com" target=3D"_blank"> <img src=3D"http://ecrm.verizonw=
+ireless.com/img/wfm/template/vlogo_tab.jpg" alt=3D"Verizon Wireless" border=
+=3D"0" class=3D"logo"></a></TD>
+      <td align=3D"left" valign=3D"top"><img src=3D"http://ecrm.verizonwire=
+less.com/img/wfm/template/top_border_wide.jpg" alt=3D"decorative image" wid=
+th=3D"100%" height=3D"49">=20
+      </TD>
+    </TR>
+  </TABLE>
+     <TABLE cellspacing=3D0 cellpadding=3D0 width=3D100% border=3D0>
+      <TBODY>
+        <tr>
+          <TD><img
+=09=09=09=09=09=09=09src=3D"http://ecrm.verizonwireless.com/img/wfm/templat=
+e/redline_wide.jpg" alt=3D"decorative image" width=3D"100%"> </TD>
+        <TR> </TR>
+      </TBODY>
+    </TABLE>
+      <table cellspacing=3D0 cellpadding=3D0 width=3D100% border=3D0 bgcolo=
+r=3D#ffffff>
+        <tbody>
+          <tr>
+            <td width=3D"5%">&nbsp;</td>
+            <td valign=3Dtop align=3Dleft><!-- BEGIN EMAIL CONTENT -->
+              <p style=3D"text-align:left;">
+                <!-- START BODY CONTENT -->
+                <p>
+      Dear Customer,
+    </p>
+    <p>&#160;</p>
+    <p>
+      Thank you for your purchase today! This email represents the Verizon =
+Wireless Order Confirmation for the designated order(s) listed below. Pleas=
+e retain this for your records.  Please note, a signature is required upon =
+delivery.
+    </p>
+    <p>&#160;</p>
+    <p>
+      <table width=3D'70%' cellpadding=3D'6px' cellspacing=3D'0' border=3D'=
+0'><tr><td>Your Equipment Upgrade Order # is: VZB20009883</td></tr><tr><td>=
+Phone Number:</td></tr><tr><td>512-917-8023</td></tr><tr><td>Need to activa=
+te a temporary device until your new Verizon Wireless device arrives? Go to=
+ Activate Equipment, select the wireless number, then select Activate Equip=
+ment and follow the steps.</td></tr><tr><td><b>Note: Customer signature is =
+required at time of delivery.</b></td></tr></table><table width=3D'70%' cel=
+lpadding=3D'6px' cellspacing=3D'0' border=3D'0'><tr><td width=3D'50%' style=
+=3D'vertical-align:top;text-align:left;'><table><tr><td>Ship To:</td></tr><=
+tr><td>ANDREW&nbsp;JONES&nbsp;</td></tr><tr><td>1905 WHITE OAK LOOP</td></t=
+r><tr><td>ROUND ROCK,&nbsp;TX&nbsp;78681</td></tr><tr><td>512-286-6864</td>=
+</tr></table></td><td width=3D'50%' style=3D'vertical-align:top;text-align:=
+left;'><table><tr><td>Shipping Method:</td></tr><tr><td>Free Overnight Ship=
+ping</td></tr><tr><td>FREE</td></tr><tr><td>OVERNIGHT</td></tr></table></td=
+></tr></table><table width=3D'70%' cellpadding=3D'6px' cellspacing=3D'0' bo=
+rder=3D'0'><tr><td>&nbsp;</td></tr><tr><td>Your order is being processed an=
+d is subject to final credit approval. If additional information is needed =
+to complete your order, we will contact you.</td></tr><tr><td>&nbsp;</td></=
+tr><tr><td>Thank you for using the Verizon Wireless Business online orderin=
+g site.</td></tr><tr><td>&nbsp;</td></tr></table><table width=3D'70%' cellp=
+adding=3D'6px' cellspacing=3D'0' border=3D'0'><tr><td colspan=3D'4' align=
+=3D'left' style=3D'background-color:rgb(224,224,224);font-size:14px;font-we=
+ight:bold;'>Your Order</td></tr><tr><th>Item</th><th class=3D'leftBorder'>Q=
+ty.</th><th class=3D'leftBorder'>Due Monthly</th><th class=3D'leftBorder'>D=
+ue Today</th></tr><tr><td class=3D'topHead'>&nbsp;</td><td class=3D'colTop'=
+>&nbsp;</td><td class=3D'colBoth'>&nbsp;</td><td class=3D'colBoth'>&nbsp;</=
+td></tr><tr><td class=3D'topSection'>Package Selection&nbsp;1</td><td class=
+=3D'colTop'>&nbsp;</td><td class=3D'colBoth'>&nbsp;</td><td class=3D'colBot=
+h'>&nbsp;</td></tr><tr><td class=3D'miniHeadline' ><b>Plan</b></td><td clas=
+s=3D'colbg'>&nbsp;</td><td class=3D'colLeft'>&nbsp;</td><td class=3D'colLef=
+t'>&nbsp;</td></tr><tr><td style=3D'padding-left:20px;'>Smartphone Nationwi=
+de GlobalEmail & Messaging for Business Unlimited</td><td class=3D'colbg'>1=
+</td><td class=3D'colLeft'>$59.99</td><td class=3D'colLeft'>&nbsp;</td></tr=
+><tr><td class=3D'miniHeadline' style=3D'padding-left:20px;'>512-917-8023</=
+td><td class=3D'colbg'>&nbsp;</td><td class=3D'colLeft'>&nbsp;</td><td clas=
+s=3D'colLeft'>&nbsp;</td></tr><tr><td class=3D'topHead'>Device</td><td clas=
+s=3D'colTop'>&nbsp;</td><td class=3D'colBoth'>&nbsp;</td><td class=3D'colBo=
+th'>&nbsp;</td></tr><tr><td style=3D'padding-left:20px;'>Upgrade Waiver Use=
+d</td><td class=3D'colbg'>&nbsp;</td><td class=3D'colLeft'>&nbsp;</td><td c=
+lass=3D'colLeft'>&nbsp;</td></tr><tr><td style=3D'padding-left:20px;'>Black=
+Berry&#174;Bold&trade; 9930 smartphone</td><td class=3D'colbg'>1</td><td cl=
+ass=3D'colLeft'>&nbsp;</td><td class=3D'colLeft'>FREE</td></tr><tr><td clas=
+s=3D'topHead'>Accessories</td><td class=3D'colTop'>&nbsp;</td><td class=3D'=
+colBoth'>&nbsp;</td><td class=3D'colBoth'>&nbsp;</td></tr><tr><td style=3D'=
+padding-left:20px;'>Global Support Pack</td><td class=3D'colbg'>1</td><td c=
+lass=3D'colLeft'>&nbsp;</td><td class=3D'colLeft'>FREE</td></tr><tr><td cla=
+ss=3D'topHead'>Features</td><td class=3D'colTop'>&nbsp;</td><td class=3D'co=
+lBoth'>&nbsp;</td><td class=3D'colBoth'>&nbsp;</td></tr><tr><td style=3D'pa=
+dding-left:20px;'><b>Chargeable or Selected Features</b></td><td class=3D'c=
+olbg'>&nbsp;</td><td class=3D'colLeft'>&nbsp;</td><td class=3D'colLeft'>&nb=
+sp;</td></tr><tr><td style=3D'padding-left:20px;'>Mobile Broadband Connect =
+- Tethering</td><td class=3D'colbg'>1</td><td class=3D'colLeft'>$10.00</td>=
+<td class=3D'colLeft'>&nbsp;</td></tr><tr><td style=3D'padding-left:20px;'>=
+<b>Included Free</b></td><td class=3D'colbg'>&nbsp;</td><td class=3D'colLef=
+t'>&nbsp;</td><td class=3D'colLeft'>&nbsp;</td></tr><tr><td style=3D'paddin=
+g-left:20px;'>Decline Extended Warranty, Wireless Phone Protection, Total E=
+quipment Coverage</td><td class=3D'colbg'>&nbsp;</td><td class=3D'colLeft'>=
+$0.00</td><td class=3D'colLeft'>&nbsp;</td></tr><tr><td style=3D'padding-le=
+ft:20px;'>Block Web Purchases</td><td class=3D'colbg'>&nbsp;</td><td class=
+=3D'colLeft'>$0.00</td><td class=3D'colLeft'>&nbsp;</td></tr><tr><td style=
+=3D'padding-left:20px;'>3-Way Calling</td><td class=3D'colbg'>&nbsp;</td><t=
+d class=3D'colLeft'>$0.00</td><td class=3D'colLeft'>&nbsp;</td></tr><tr><td=
+ style=3D'padding-left:20px;'>No Answer / Busy Transfer</td><td class=3D'co=
+lbg'>&nbsp;</td><td class=3D'colLeft'>$0.00</td><td class=3D'colLeft'>&nbsp=
+;</td></tr><tr><td style=3D'padding-left:20px;'>SHARE NAME ID</td><td class=
+=3D'colbg'>&nbsp;</td><td class=3D'colLeft'>$0.00</td><td class=3D'colLeft'=
+>&nbsp;</td></tr><tr><td style=3D'padding-left:20px;'>Caller ID</td><td cla=
+ss=3D'colbg'>&nbsp;</td><td class=3D'colLeft'>$0.00</td><td class=3D'colLef=
+t'>&nbsp;</td></tr><tr><td style=3D'padding-left:20px;'>Call Forwarding</td=
+><td class=3D'colbg'>&nbsp;</td><td class=3D'colLeft'>$0.00</td><td class=
+=3D'colLeft'>&nbsp;</td></tr><tr><td style=3D'padding-left:20px;'>Call Wait=
+ing</td><td class=3D'colbg'>&nbsp;</td><td class=3D'colLeft'>$0.00</td><td =
+class=3D'colLeft'>&nbsp;</td></tr><tr><td style=3D'padding-left:20px;'>Basi=
+c Voice Mail</td><td class=3D'colbg'>&nbsp;</td><td class=3D'colLeft'>$0.00=
+</td><td class=3D'colLeft'>&nbsp;</td></tr><tr><td style=3D'padding-left:20=
+px;'>Unlimited Text Messages</td><td class=3D'colbg'>&nbsp;</td><td class=
+=3D'colLeft'>$0.00</td><td class=3D'colLeft'>&nbsp;</td></tr><tr><td style=
+=3D'padding-left:20px;'>GLOBALEMAIL & DATA ENT UNLIM</td><td class=3D'colbg=
+'>&nbsp;</td><td class=3D'colLeft'>$0.00</td><td class=3D'colLeft'>&nbsp;</=
+td></tr><tr><td style=3D'padding-left:20px;'>Pay Per Message</td><td class=
+=3D'colbg'>&nbsp;</td><td class=3D'colLeft'>$0.00</td><td class=3D'colLeft'=
+>&nbsp;</td></tr><tr><td colspan=3D'4' class=3D'topBorder'>&nbsp;</td></tr>=
+<tr><td class=3D'topBorder' colspan=3D'2'>Free Overnight Shipping(OVERNIGHT=
+)</td><td class=3D'colTop'>&nbsp;</td><td class=3D'colBoth'>FREE</td></tr><=
+tr><td class=3D'topHead'>Taxes, Govt Surchg & Fees*</td><td class=3D'colTop=
+'>&nbsp;</td><td class=3D'colBoth'>&nbsp;</td><td class=3D'colBoth'>$0.00</=
+td></tr><tr><td class=3D'topBorder' colspan=3D'2'>Total&nbsp;Due Monthly</t=
+d><td class=3D'colTop'>$69.99</td><td class=3D'colBoth'>&nbsp;</td></tr><tr=
+><td colspan=3D'2'>Total&nbsp;Due Today</td><td class=3D'colbg'>&nbsp;</td>=
+<td class=3D'colLeft'>$0.00</td></tr><tr><td colspan=3D'4' class=3D'topBord=
+er'>&nbsp;</td></tr><tr><td colspan=3D'4' class=3D'topBorder'>&nbsp;</td></=
+tr></table><table width=3D'70%' cellpadding=3D'6px' cellspacing=3D'0' borde=
+r=3D'0'><tr><td colspan=3D'2' style=3D'background-color:rgb(224,224,224);'>=
+User Information</td></tr><tr><td colspan=3D'2' class=3D'sectionHeadline'>P=
+ackage Selection&nbsp;1</td></tr><tr><td><table width=3D'70%' cellpadding=
+=3D'6px' cellspacing=3D'0' border=3D'0'><tr><td><b>User Information:</b></t=
+d></tr><tr><td>ANDY&nbsp;JONES</td></tr><tr><td>1 NEW ORCHARD RD</td></tr><=
+tr><td></td></tr><tr><td>ARMONK, NY&nbsp;10504</td></tr></table></td><td><t=
+able width=3D'70%' cellpadding=3D'6px' cellspacing=3D'0' border=3D'0'></tab=
+le></td></tr></table><table width=3D'70%' cellpadding=3D'6px' cellspacing=
+=3D'0' border=3D'0'><tr><td>&nbsp;</td></tr><tr><td style=3D'font-size:0.8e=
+m;color:#666666;width:70%;' class=3D'topBorder'>*In some states, sales tax =
+is calculated on the full retail price or inventory cost of the device you =
+purchase, and not on the discounted price you pay.  The sales tax charged o=
+n your device was based on $0.00</td></tr></table>=20
+    </p>
+    <p>&#160;</p>
+    <p>&#160;</p>
+    <p>&#160;</p>
+    <p>
+      If additional information is needed to complete your request, we will=
+ contact you. Please reply to this email if you have any additional questio=
+ns or need to make modifications to this request. To ensure correspondence =
+continuity, please do not alter the subject line of the message when replyi=
+ng.
+    </p>
+    <p>&#160;</p>
+    <p>
+      Please visit us online at www.verizonwireless.com to pay your bill, c=
+heck minutes used, view detailed usage, get answers to frequently asked que=
+stions, and more!
+    </p>
+    <p>&#160;</p>
+    <p>
+      We appreciate your business. Thank you for choosing Verizon Wireless.
+    </p>
+                <!-- END BODY CONTENT -->
+              </p>
+              <!-- END EMAIL CONTENT -->
+            </td>
+            <td width=3D"5%">&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+  <br/>
+  <table  cellspacing=3D0 cellpadding=3D0 width=3D100% border=3D0 align=3D"=
+center" >
+    <tr>
+      <TD><img
+=09=09=09=09=09=09src=3D"http://ecrm.verizonwireless.com/img/wfm/template/r=
+edline_ftr_wide.jpg"
+=09=09=09=09=09=09alt=3D"decorative line" width=3D"100%" height=3D"10"> </T=
+D>
+    </tr>
+    <tr >
+      <td align=3Dcenter width=3D100%><!-- START FOOTER CONTENT -->
+       =20
+        <!-- END FOOTER CONTENT -->
+      </td>
+    </tr>
+   =20
+  </TABLE>
+</div>
+</BODY>
+</HTML>
+
+------=_Part_54570_16989293.1333663927191--
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="msbates@us.ibm.com" displayName="Michael Scott Bates *Contractor*" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$44AF8AAF59C32BF7.jpg"/>
+  <attribute name="callupname" value="Michael Scott Bates *Contractor*"/>
+  <attribute name="Telephone" value="1-919-628-0854"/>
+  <attribute name="worklocation" value="workLoc=RTD,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Senior Active Directory Architect"/>
+  <attribute name="dn" value="uid=C-EYEC897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Michael Scott Bates *Contractor*"/>
+  <attribute name="telephonenumber" value="1-919-628-0854"/>
+  <attribute name="Address" value="3901 S Miami Blvd&#xA;Durham, NC 27703-9135&#xA;United States"/>
+  <attribute name="mail" value="msbates@us.ibm.com"/>
+  <attribute name="Title" value="Senior Active Directory Architect"/>
+  <attribute name="sn" value="Bates"/>
+  <attribute name="id" value="msbates@us.ibm.com"/>
+  <attribute name="MailAddress" value="msbates@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1407327648347"/>
+</person>

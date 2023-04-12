@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="gdschru@us.ibm.com" displayName="Gregory D. (Greg) Schrubbe" isExternal="false" lastChatTime="1364930728443">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$6F4B6F682D841F3A.jpg"/>
+  <attribute name="callupname" value="Gregory D. (Greg) Schrubbe"/>
+  <attribute name="tieline" value="428-1588"/>
+  <attribute name="Telephone" value="428-1588 / 1-516-860-1588"/>
+  <attribute name="worklocation" value="workLoc=JCO,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Director, Global Hybrid IT Solutioning, GTS Engagements"/>
+  <attribute name="dn" value="uid=483462897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Gregory D. (Greg) Schrubbe"/>
+  <attribute name="telephonenumber" value="428-1588 / 1-516-860-1588"/>
+  <attribute name="Address" value="2 Jericho Plaza&#xA;Jericho, NY 11753-1658&#xA;United States"/>
+  <attribute name="mail" value="gdschru@us.ibm.com"/>
+  <attribute name="Title" value="Director, Global Hybrid IT Solutioning, GTS Engagements"/>
+  <attribute name="id" value="gdschru@us.ibm.com"/>
+  <attribute name="sn" value="Schrubbe"/>
+  <attribute name="MailAddress" value="gdschru@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1445523452491"/>
+</person>

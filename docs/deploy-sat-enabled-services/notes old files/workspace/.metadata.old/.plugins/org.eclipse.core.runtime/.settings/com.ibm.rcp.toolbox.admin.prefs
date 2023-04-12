@@ -1,0 +1,21 @@
+#Wed May 07 09:44:40 CDT 2014
+toolboxinstallProviderIDs=com.ibm.rcp.toolbox.google.provider.internal.GooglePalleteProvider,com.ibm.rcp.toolbox.web.provider.WebServicesPalleteProvider,com.ibm.rcp.toolbox.feeds.FeedPalleteProvider,com.ibm.notes.toolbox.provider.NotesViewPalleteProvider,com.ibm.rcp.toolbox.prov.provider.ToolboxProvisioning,com.ibm.notes.toolbox.provider.NotesFormPalleteProvider,com.ibm.rcp.toolbox.search.provider.SearchPalleteProvider,com.ibm.rcp.toolbox.ca.provider.internal.CAActionPalleteProvider,com.ibm.notes.toolbox.provider.XPagesPalleteProvider
+toolboxenableRecognizers=true
+toolboxspecifyExtPtIDs=false
+toolboxinstallFromCatalog=true
+replica_id=
+toolboxvisibleChild=true
+eclipse.preferences.version=1
+toolboxEnableDefaultRecognizers=true
+toolboxinstallFromCatalogSetFromPolicies=true
+toolboxdynamicExtPtIDs=org.eclipse.ui.popupMenus,com.ibm.rcp.content.contentTypes,com.ibm.rcp.annotation.regex.regexTypes,com.ibm.rcp.ui.shelfViews,org.eclipse.ui.views,org.eclipse.ui.viewActions,com.ibm.rcp.search.engines.searchEngines,com.ibm.rcp.search.ui.searchBarSets
+toolboxcreateLocalReplica=true
+toolboxsendAsEmail=true
+createTool=false
+toolboxinstallFromOther=true
+toolboxpublishToCatalog=true
+catalogCategoriesToInstallShutdownValue=
+toolboxcreateRecognizer=true
+toolboxrestrictProviderIDs=false
+toolboxcreateAction=true
+createToolProviderIDs=.

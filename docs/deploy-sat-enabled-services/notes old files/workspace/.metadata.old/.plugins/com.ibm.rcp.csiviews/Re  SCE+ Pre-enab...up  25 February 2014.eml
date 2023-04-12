@@ -1,0 +1,210 @@
+In-Reply-To: <OF13E97D87.21729D2A-ON65257CA0.008372B1-86257CA0.0083BFD0@LocalDomain>
+References: <OF11809238.DB9622B7-ON85257C9F.007616E8-85257C9F.007CA72C@LocalDomain> <OF00E6E6B1.24EFD62A-ON85257CA0.00414A13-85257CA0.004B3EE5@LocalDomain> <OF5F9AC0E7.838322F8-ON48257CA0.004C1EDC-48257CA0.004CED65@LocalDomain> <OF8C15ACAD.BF9A6A0A-ON85257CA0.004D265D-85257CA0.004D6CCA@LocalDomain> <OFC7E771CF.2A22E226-ON48257CA0.004DD29A-48257CA0.004F4277@LocalDomain> <OF13E97D87.21729D2A-ON65257CA0.008372B1-86257CA0.0083BFD0@LocalDomain>
+X-Notes-Item: 13E97D87:21729D2A-65257CA0:008372B1;
+ type=4; name=$REF
+X-Notes-Item: 11809238:DB9622B7-85257C9F:007616E8, 11809238:DB9622B7-85257C9F:007616E8, ECA6B3EA:5B3A391D-85257CA0:004B3EF2, 5F9AC0E7:838322F8-48257CA0:004C1EDC, 8C15ACAD:BF9A6A0A-85257CA0:004D265D, C7E771CF:2A22E226-48257CA0:004DD29A, 13E97D87:21729D2A-65257CA0:008372B1;
+ type=4; name=$TUA
+X-Notes-Item: 13E97D87:21729D2A-65257CA0:008372B1;
+ type=4; name=$RFSaveInfo
+X-Notes-Item: Thu, 20 Mar 2014 07:52:21 -0400;
+ type=400; name=OriginalModTime
+X-Notes-Item: Reply;
+ name=Form
+X-Notes-Item: CN=Deepak M Nair/OU=India/O=IBM@IBMIN@IBMAU;
+ flags=44; name=InheritedFrom
+X-Notes-Item: CN=Deepak M Nair/OU=India/O=IBM@IBMIN@IBMAU@IBMIN@IBMAU;
+ flags=44; name=InheritedAltFrom
+X-Notes-Item: IBMIN@IBMAU;
+ flags=44; name=InheritedFromDomain
+X-Notes-Item: StdNotesLtr9;
+ name=Logo
+X-Notes-Item: StdNotesLtr9;
+ name=dLogo
+X-Notes-Item: True;
+ name=useApplet
+X-Notes-Item: 1;
+ name=DefaultMailSaveOptions
+X-Notes-Item: 0;
+ name=ExpandPersonalGroups
+X-Notes-Item: ;
+ name=origStat
+X-Notes-Item: ;
+ name=origSig
+X-Notes-Item: ;
+ name=tmpImp
+X-Notes-Item: ;
+ name=Sign
+X-Notes-Item: 1;
+ name=Encrypt
+X-Notes-Item: Confidential;
+ name=ConfidentialString
+X-Notes-Item: ;
+ name=Classification
+Subject: Re: SCE+ Pre-enablement - Internal Commercial Account for SaaS - Follow up, 25
+ February 2014
+X-KeepSent: CA8A471E:EE968C2A-85257CA1:0040AD00;
+ type=4; name=$KeepSent
+To: deepak.m.nair@in.ibm.com
+Cc: Jacqueline_HSIUNG/Taiwan/IBM%IBMTW%IBMAU,
+	atouma@us.ibm.com,
+	Deepak_Kumar_Kumararajah/Malaysia/IBM%IBMMY,
+	Shaiful_Azman_Yazid/Malaysia/IBM%IBMMY,
+	andrewj@us.ibm.com,
+	Anton_Lak/Australia/IBM%IBMAU,
+	dherman@us.ibm.com,
+	jscire@us.ibm.com,
+	juenger@us.ibm.com,
+	kimr@us.ibm.com,
+	mperkinson@us.ibm.com,
+	mmonti@us.ibm.com,
+	nflynn@us.ibm.com,
+	Nicole_Denny/Australia/IBM%IBMAU,
+	rmorgan1@us.ibm.com,
+	rshockle@us.ibm.com,
+	Sara_Day/Australia/IBM%IBMAU,
+	sray@au1.ibm.com,
+	tgoble@us.ibm.com,
+	VZichichi@us.ibm.com,
+	mmandako@us.ibm.com,
+	njbanks@us.ibm.com,
+	maryayad@au1.ibm.com,
+	pwgayek@us.ibm.com,
+	dalemor@us.ibm.com,
+	Ray_Sekulovski/Australia/IBM%IBMAU,
+	maryayad@au1.ibm.com,
+	bwestma@us.ibm.com
+X-Notes-Item: en;
+ type=501; name=$NameLanguageTags
+X-Notes-Item: CN=Jacqueline HSIUNG/OU=Taiwan/O=IBM@IBMTW@IBMAU,
+	CN=Antoine E Touma/OU=Southbury/O=IBM@IBMUS,
+	CN=Deepak Kumar Kumararajah/OU=Malaysia/O=IBM@IBMMY,
+	CN=Shaiful Azman Yazid/OU=Malaysia/O=IBM@IBMMY,
+	CN=Andrew Jones/OU=Austin/O=IBM@IBMUS,
+	CN=Anton Lak/OU=Australia/O=IBM@IBMAU,
+	CN=David Herman/OU=Southbury/OU=Contr/O=IBM@IBMUS,
+	CN=James Scire/OU=Mount Pleasant/O=IBM@IBMUS,
+	CN=Kathy Juenger/OU=St Louis/O=IBM@IBMUS,
+	CN=Kimberly Raszinski/OU=Tampa/OU=Contr/O=IBM@IBMUS,
+	CN=Matt Perkinson/OU=Atlanta/O=IBM@IBMUS,
+	CN=Michael Montinarelli/OU=Rochester/O=IBM@IBMUS,
+	CN=Nancy Flynn/OU=Armonk/O=IBM@IBMUS,
+	CN=Nicole Denny/OU=Australia/O=IBM@IBMAU,
+	CN=Richard Morgan/OU=Atlanta/O=IBM,
+	CN=Robert W Shockley/OU=Raleigh/O=IBM@IBMUS,
+	CN=Sara Day/OU=Australia/O=IBM@IBMAU,
+	.,
+	CN=Timothy L Goble/OU=Atlanta/O=IBM,
+	CN=Vincent Zichichi/OU=New York/O=IBM@IBMUS,
+	CN=Maite Mandakovic/OU=Columbia/O=IBM@IBMUS,
+	CN=Natalie J Banks/OU=St Louis/O=IBM@IBMUS,
+	CN=Mary Ayad/OU=Australia/O=IBM@IBMAU,
+	CN=Peter Gayek/OU=Raleigh/O=IBM@IBMUS,
+	CN=Dale Morgan/OU=Alpharetta/O=IBM@IBMUS,
+	CN=Ray Sekulovski/OU=Australia/O=IBM@IBMAU,
+	CN=Mary Ayad/OU=Australia/O=IBM@IBMAU,
+	CN=Robert Westmark/OU=Southbury/O=IBM@IBMUS;
+ type=501; flags=45; name=Originalcc
+X-Notes-Item: CN=Deepak M Nair/OU=India/O=IBM@IBMIN@IBMAU;
+ flags=45; name=AltSendTo
+X-Notes-Item: CN=Jacqueline HSIUNG/OU=Taiwan/O=IBM@IBMTW@IBMAU,
+	CN=Antoine E Touma/OU=Southbury/O=IBM@IBMUS,
+	CN=Deepak Kumar Kumararajah/OU=Malaysia/O=IBM@IBMMY,
+	CN=Shaiful Azman Yazid/OU=Malaysia/O=IBM@IBMMY,
+	CN=Andrew Jones/OU=Austin/O=IBM@IBMUS,
+	CN=Anton Lak/OU=Australia/O=IBM@IBMAU,
+	CN=David Herman/OU=Southbury/OU=Contr/O=IBM@IBMUS,
+	CN=James Scire/OU=Mount Pleasant/O=IBM@IBMUS,
+	CN=Kathy Juenger/OU=St Louis/O=IBM@IBMUS,
+	CN=Kimberly Raszinski/OU=Tampa/OU=Contr/O=IBM@IBMUS,
+	CN=Matt Perkinson/OU=Atlanta/O=IBM@IBMUS,
+	CN=Michael Montinarelli/OU=Rochester/O=IBM@IBMUS,
+	CN=Nancy Flynn/OU=Armonk/O=IBM@IBMUS,
+	CN=Nicole Denny/OU=Australia/O=IBM@IBMAU,
+	CN=Richard Morgan/OU=Atlanta/O=IBM,
+	CN=Robert W Shockley/OU=Raleigh/O=IBM@IBMUS,
+	CN=Sara Day/OU=Australia/O=IBM@IBMAU,
+	sray@au1.ibm.com,
+	CN=Timothy L Goble/OU=Atlanta/O=IBM,
+	CN=Vincent Zichichi/OU=New York/O=IBM@IBMUS,
+	CN=Maite Mandakovic/OU=Columbia/O=IBM@IBMUS,
+	CN=Natalie J Banks/OU=St Louis/O=IBM@IBMUS,
+	CN=Mary Ayad/OU=Australia/O=IBM@IBMAU,
+	CN=Peter Gayek/OU=Raleigh/O=IBM@IBMUS,
+	CN=Dale Morgan/OU=Alpharetta/O=IBM@IBMUS,
+	CN=Ray Sekulovski/OU=Australia/O=IBM@IBMAU,
+	CN=Mary Ayad/OU=Australia/O=IBM@IBMAU,
+	CN=Robert Westmark/OU=Southbury/O=IBM@IBMUS;
+ type=501; flags=45; name=AltCopyTo
+X-Notes-Item: .;
+ name=$StorageTo
+X-Notes-Item: .,
+	1,
+	.,
+	1,
+	1,
+	.,
+	.,
+	1,
+	1,
+	1,
+	1,
+	1,
+	1,
+	1,
+	1,
+	1,
+	.,
+	.,
+	1,
+	1,
+	1,
+	1,
+	1,
+	1,
+	1,
+	.,
+	1,
+	1;
+ type=501; name=$StorageCc
+X-Mailer: Lotus Notes Release 8.5.1FP5 SHF383 June 10, 2013
+Message-ID: <OFCA8A471E.EE968C2A-ON85257CA1.0040AD00-85257CA1.00413833@LocalDomain>
+From: bwestma@us.ibm.com
+Date: Thu, 20 Mar 2014 07:52:22 -0400
+X-Notes-Item: ;
+ name=HasSafeStamp
+X-Notes-Item: CN=D01ML065/OU=01/OU=M/O=IBM,
+	CN=D01ML084/OU=01/OU=M/O=IBM;
+ type=501; flags=0; name=RouteServers
+X-Notes-Item: =?UTF-8?B?MjAtTWFyLTIwMTQgMDc6NTI6MzYgRURULzIwLU1hci0yMDE0IDA3OjUyOjM2?=
+ =?UTF-8?B?IEVEVCwgMjAtTWFyLTIwMTQgMDc6NTI6MzYgRURULzIwLU1hci0yMDE0IDA3?=
+ =?UTF-8?B?OjUyOjM3IEVEVA==?=;
+ type=401; flags=0; name=RouteTimes
+X-Notes-Item: CA8A471E:EE968C2A-85257CA1:0040AD00;
+ type=4; name=$Orig
+X-Notes-Item: CN=Robert Westmark/OU=Southbury/O=IBM,
+	CN=D01ML065/OU=01/OU=M/O=IBM,
+	CN=D01ML084/OU=01/OU=M/O=IBM;
+ type=501; flags=44; name=$UpdatedBy
+X-Notes-Item: ;
+ type=501; name=Categories
+X-Notes-Item: ;
+ type=401; name=$Revisions
+X-Notes-Item: Thu, 20 Mar 2014 07:52:37 -0400;
+ type=400; name=DeliveredDate
+X-Notes-Item: ;
+ name=$MiniView
+X-Notes-Item: 1;
+ name=$NoteHasNativeMIME
+X-Notes-Item: CN=Deepak M Nair/OU=India/O=IBM@IBMIN@IBMAU;
+ name=OriginalTo
+X-Notes-Item: CN=Robert Westmark/OU=Southbury/O=IBM;
+ name=OriginalFrom
+X-MIMETrack: Serialize by Notes Client on Andrew Jones/Austin/IBM(Release 8.5.3FP5SHF238|December
+ 19, 2013) at 03/20/2014 07:31:31 AM
+MIME-Version: 1.0
+Content-type: text/html; charset=US-ASCII
+Content-Disposition: inline
+
+<html><body>
+<p><font size="2" face="sans-serif">[Portions of this MIME document are encrypted with a Notes certificate and cannot be read.]</font></body></html>
+

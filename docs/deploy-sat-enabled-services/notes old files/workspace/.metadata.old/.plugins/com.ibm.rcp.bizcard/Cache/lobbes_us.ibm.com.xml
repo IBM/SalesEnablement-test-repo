@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<name>Lobbes, Matthew M.</name>
+<LastUpdated>1426882923905</LastUpdated>
+<uid>728307897</uid>
+<userId>88250a40-8f0a-1028-93c5-db07163b51b2</userId>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/lobbes_us.ibm.com</photoUri>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=88250a40-8f0a-1028-93c5-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=88250a40-8f0a-1028-93c5-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=88250a40-8f0a-1028-93c5-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=88250a40-8f0a-1028-93c5-db07163b51b2&amp;name=Lobbes%2C%20Matthew%20M."/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=88250a40-8f0a-1028-93c5-db07163b51b2&amp;name=Lobbes%2C%20Matthew%20M."/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/88250a40-8f0a-1028-93c5-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=88250a40-8f0a-1028-93c5-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D88250a40-8f0a-1028-93c5-db07163b51b2%2Cname%3DLobbes%2C%20Matthew%20M."/>
+</BusinessCardLinks>
+</BusinessCard>

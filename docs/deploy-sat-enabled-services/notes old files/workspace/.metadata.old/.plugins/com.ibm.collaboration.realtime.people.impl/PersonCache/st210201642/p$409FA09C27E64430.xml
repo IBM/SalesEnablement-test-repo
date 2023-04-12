@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="tomalan@us.ibm.com" displayName="Tom A. Lancaster" isExternal="false" lastChatTime="1361397088040">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$409FA09C27E64430.jpg"/>
+  <attribute name="callupname" value="Tom A. Lancaster"/>
+  <attribute name="Telephone" value="1-931-529-4009"/>
+  <attribute name="worklocation" value="workLoc=ONP,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="PE"/>
+  <attribute name="dn" value="uid=8A6178897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Tom A. Lancaster"/>
+  <attribute name="telephonenumber" value="1-931-529-4009"/>
+  <attribute name="Address" value="150 4Th Ave N, Suite 450&#xA;One Nashville Place&#xA;Nashville, TN 37219-2486&#xA;United States"/>
+  <attribute name="mail" value="tomalan@us.ibm.com"/>
+  <attribute name="Title" value="PE"/>
+  <attribute name="sn" value="Lancaster"/>
+  <attribute name="id" value="tomalan@us.ibm.com"/>
+  <attribute name="MailAddress" value="tomalan@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1407784990846"/>
+</person>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="jackmanj@us.ibm.com" displayName="Jan Jackman" isExternal="false" lastChatTime="1365787965289">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$6B7C11D1E747CC27.jpg"/>
+  <attribute name="callupname" value="Jan M. Jackman"/>
+  <attribute name="tieline" value="676-6957"/>
+  <attribute name="Telephone" value="676-6957 / 1-720-395-6957"/>
+  <attribute name="worklocation" value="workLoc=HK4,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="VP,  Global Cloud Services"/>
+  <attribute name="dn" value="uid=613182897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Jan M. Jackman"/>
+  <attribute name="telephonenumber" value="676-6957 / 1-720-395-6957"/>
+  <attribute name="Address" value="5901 Broken Sound Pkwy Nw&#xA;Boca Raton, FL 33487-2773&#xA;United States"/>
+  <attribute name="mail" value="jackmanj@us.ibm.com"/>
+  <attribute name="Title" value="VP,  Global Cloud Services"/>
+  <attribute name="id" value="jackmanj@us.ibm.com"/>
+  <attribute name="sn" value="Jackman"/>
+  <attribute name="MailAddress" value="jackmanj@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1429132987573"/>
+</person>

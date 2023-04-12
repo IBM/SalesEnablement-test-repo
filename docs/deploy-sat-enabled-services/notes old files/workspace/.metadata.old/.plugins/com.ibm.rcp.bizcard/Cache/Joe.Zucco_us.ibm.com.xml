@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<streetAddress>400 N Brand Blvd
+Glendale, CA 91203-2311
+United States</streetAddress>
+<title>Project Executive</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/Joe.Zucco_us.ibm.com</photoUri>
+<tel>396-3460 / 1-720-342-3387</tel>
+<name>Zucco, Joe A.</name>
+<email>Joe.Zucco@us.ibm.com</email>
+<LastUpdated>1427130460022</LastUpdated>
+<timezoneid>-800</timezoneid>
+<uid>738379897</uid>
+<userId>590e98c0-8f0a-1028-91cc-db07163b51b2</userId>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=590e98c0-8f0a-1028-91cc-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=590e98c0-8f0a-1028-91cc-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=590e98c0-8f0a-1028-91cc-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=590e98c0-8f0a-1028-91cc-db07163b51b2&amp;name=Zucco%2C%20Joe%20A."/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=590e98c0-8f0a-1028-91cc-db07163b51b2&amp;name=Zucco%2C%20Joe%20A."/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/590e98c0-8f0a-1028-91cc-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=590e98c0-8f0a-1028-91cc-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D590e98c0-8f0a-1028-91cc-db07163b51b2%2Cname%3DZucco%2C%20Joe%20A."/>
+</BusinessCardLinks>
+</BusinessCard>

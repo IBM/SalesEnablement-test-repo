@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="jcallis@us.ibm.com" displayName="JEFFREY C. (JEFF) ALLIS" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$5DBC856BDD0B002.jpg"/>
+  <attribute name="callupname" value="JEFFREY C. (JEFF) ALLIS"/>
+  <attribute name="tieline" value="412-9476"/>
+  <attribute name="Telephone" value="412-9476 / 1-312-529-9476"/>
+  <attribute name="worklocation" value="workLoc=EQ3,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="IBM Cloud Services Specialist"/>
+  <attribute name="dn" value="uid=4G3513897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="JEFFREY C. (JEFF) ALLIS"/>
+  <attribute name="telephonenumber" value="412-9476 / 1-312-529-9476"/>
+  <attribute name="Address" value="71 S Wacker Dr&#xA;Chicago, IL 60606-4637&#xA;United States"/>
+  <attribute name="mail" value="jcallis@us.ibm.com"/>
+  <attribute name="Title" value="IBM Cloud Services Specialist"/>
+  <attribute name="id" value="jcallis@us.ibm.com"/>
+  <attribute name="sn" value="ALLIS"/>
+  <attribute name="MailAddress" value="jcallis@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1428423218429"/>
+</person>

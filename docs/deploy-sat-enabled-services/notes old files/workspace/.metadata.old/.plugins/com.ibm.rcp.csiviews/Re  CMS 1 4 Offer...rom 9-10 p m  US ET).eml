@@ -1,0 +1,420 @@
+X-Notes-Item: Thu, 3 Apr 2014 19:54:13 +0800;
+ type=400; name=OriginalModTime
+X-Notes-Item: Reply;
+ name=Form
+In-Reply-To: <OF88E946A9.7A15E099-ON85257CAE.006E866B-85257CAE.00708BFC@LocalDomain>
+References: <OF88E946A9.7A15E099-ON85257CAE.006E866B-85257CAE.00708BFC@LocalDomain>
+X-Notes-Item: 88E946A9:7A15E099-85257CAE:006E866B;
+ type=4; name=$REF
+X-Notes-Item: 88E946A9:7A15E099-85257CAE:006E866B, 88E946A9:7A15E099-85257CAE:006E866B;
+ type=4; name=$TUA
+X-Notes-Item: CN=Tony Rego/OU=Raleigh/OU=Contr/O=IBM@IBMUS@IBMAU;
+ flags=44; name=InheritedFrom
+X-Notes-Item: CN=Tony Rego/OU=Raleigh/OU=Contr/O=IBM@IBMUS@IBMAU@IBMUS@IBMAU;
+ flags=44; name=InheritedAltFrom
+X-Notes-Item: IBMUS@IBMAU;
+ flags=44; name=InheritedFromDomain
+X-Notes-Item: StdNotesLtr25;
+ name=Logo
+X-Notes-Item: StdNotesLtr25;
+ name=dLogo
+X-Notes-Item: True;
+ name=useApplet
+X-Notes-Item: 1;
+ name=DefaultMailSaveOptions
+X-Notes-Item: 0;
+ name=ExpandPersonalGroups
+X-Notes-Item: ;
+ name=origStat
+X-Notes-Item: ;
+ name=origSig
+X-Notes-Item: ;
+ name=tmpImp
+X-Notes-Item: ;
+ name=Sign
+X-Notes-Item: 0;
+ type=300; name=AttachmentValidation
+X-Notes-Item: =?UTF-8?B?VG9ueSwgVGhpcyBpcyBteSB1cGRhdGUgZm9yIHlvdXIgdG9waWNzIGlu?=
+ =?UTF-8?B?IFBFTiwgbGV0J3MgdGFsayBkZXRhaWwgaW4gdGhlIG1lZXRpbmcu?=;
+ flags=6; name=$Abstract
+X-Notes-Item: IBM Confidential;
+ name=ConfidentialString
+X-Notes-Item: ;
+ name=Classification
+Subject: Re: CMS 1.4 Offering Deployment questions / topics for Global/China Team
+ call on  on Friday 4/4 from 9-10 a.m. Beijing time (Thursday 4/3 from 9-10
+ p.m. US ET)
+X-KeepSent: 8123530F:B3F29F7C-48257CAF:003B9717;
+ type=4; name=$KeepSent
+To: tonyrego@us.ibm.com
+Cc: Albert_KW_Lee/Hong_Kong/IBM%IBMHK,
+	Andrew_Jones/Austin/IBM%IBMUS,
+	Dennis_CN_YUE/China/IBM%IBMCN,
+	Gang_Li/China/IBM%IBMCN,
+	Matt_Perkinson/Atlanta/IBM%IBMUS,
+	Michael_Montinarelli/Rochester/IBM%IBMUS,
+	Russell_Lindburg/Chicago/IBM%IBMUS,
+	Xin_Hua_Yuan/China/IBM%IBMCN,
+	myu@cn.ibm.com,
+	wenhaif@cn.ibm.com
+X-Notes-Item: en;
+ type=501; name=$NameLanguageTags
+X-Notes-Item: CN=Albert KW Lee/OU=Hong Kong/O=IBM@IBMHK,
+	CN=Andrew Jones/OU=Austin/O=IBM@IBMUS,
+	CN=Dennis CN YUE/OU=China/O=IBM@IBMCN,
+	CN=Gang Li/OU=China/O=IBM@IBMCN,
+	CN=Matt Perkinson/OU=Atlanta/O=IBM@IBMUS,
+	CN=Michael Montinarelli/OU=Rochester/O=IBM@IBMUS,
+	CN=Russell Lindburg/OU=Chicago/O=IBM@IBMUS,
+	CN=Xin Hua Yuan/OU=China/O=IBM@IBMCN,
+	CN=Michael Yu/OU=China/O=IBM@IBMCN,
+	CN=Hai Feng HF Wen/OU=China/O=IBM@IBMCN;
+ type=501; flags=45; name=Originalcc
+X-Notes-Item: CN=Tony Rego/OU=Raleigh/OU=Contr/O=IBM@IBMUS@IBMAU;
+ flags=45; name=AltSendTo
+X-Notes-Item: CN=Albert KW Lee/OU=Hong Kong/O=IBM@IBMHK,
+	CN=Andrew Jones/OU=Austin/O=IBM@IBMUS,
+	CN=Dennis CN YUE/OU=China/O=IBM@IBMCN,
+	CN=Gang Li/OU=China/O=IBM@IBMCN,
+	CN=Matt Perkinson/OU=Atlanta/O=IBM@IBMUS,
+	CN=Michael Montinarelli/OU=Rochester/O=IBM@IBMUS,
+	CN=Russell Lindburg/OU=Chicago/O=IBM@IBMUS,
+	CN=Xin Hua Yuan/OU=China/O=IBM@IBMCN,
+	CN=Michael Yu/OU=China/O=IBM@IBMCN,
+	CN=Hai Feng HF Wen/OU=China/O=IBM@IBMCN;
+ type=501; flags=45; name=AltCopyTo
+X-Notes-Item: .;
+ name=$StorageTo
+X-Notes-Item: .,
+	.,
+	.,
+	.,
+	1,
+	.,
+	.,
+	.,
+	1,
+	1;
+ type=501; name=$StorageCc
+X-Mailer: Lotus Notes Release 8.5.3FP4 SHF39 May 13, 2013
+Message-ID: <OF8123530F.B3F29F7C-ON48257CAF.003B9717-48257CAF.004163BB@LocalDomain>
+From: cysun@cn.ibm.com
+Date: Thu, 3 Apr 2014 19:50:54 +0800
+X-Notes-Item: 0;
+ name=Encrypt
+X-Notes-Item: ;
+ name=HasSafeStamp
+X-Notes-Item: CN=D23ML022/OU=23/OU=M/O=IBM,
+	CN=d23hubm8/OU=23/OU=H/O=IBM,
+	CN=d23hubm3/OU=23/OU=H/O=IBM,
+	CN=d23hubm1/OU=23/OU=H/O=IBM,
+	CN=D03HUB02/OU=03/OU=H/O=IBM,
+	CN=D01HUB01/OU=01/OU=H/O=IBM,
+	CN=D01ML084/OU=01/OU=M/O=IBM;
+ type=501; flags=0; name=RouteServers
+X-Notes-Item: =?UTF-8?B?MDMtQXByLTIwMTQgMTk6NTA6NTYgWkU4LzAzLUFwci0yMDE0IDE5OjUwOjU4?=
+ =?UTF-8?B?IFpFOCwgMDMtQXByLTIwMTQgMTk6NTQ6MDQgWkU4LzAzLUFwci0yMDE0IDE5?=
+ =?UTF-8?B?OjU0OjA1IFpFOCwgMDMtQXByLTIwMTQgMjI6MjU6NDMgWkUxMC8wMy1BcHIt?=
+ =?UTF-8?B?MjAxNCAyMjoyNTo0MyBaRTEwLCAwMy1BcHItMjAxNCAyMjoyNTo0MiBaRTEw?=
+ =?UTF-8?B?LzAzLUFwci0yMDE0IDIyOjI1OjQzIFpFMTAsIDAzLUFwci0yMDE0IDA1OjU0?=
+ =?UTF-8?B?OjIwIE1EVC8wMy1BcHItMjAxNCAwNTo1NDoyMCBNRFQsIDAzLUFwci0yMDE0?=
+ =?UTF-8?B?IDA3OjU0OjIwIEVEVC8wMy1BcHItMjAxNCAwNzo1NDoyMCBFRFQsIDAzLQ==?=
+ =?UTF-8?B?QXByLTIwMTQgMDc6NTQ6MjAgRURULzAzLUFwci0yMDE0IDA3OjU0OjIx?=
+ =?UTF-8?B?IEVEVA==?=;
+ type=401; flags=0; name=RouteTimes
+X-Notes-Item: 8123530F:B3F29F7C-48257CAF:003B9717;
+ type=4; name=$Orig
+X-Notes-Item: CN=D23ML022/OU=23/OU=M/O=IBM,
+	CN=d23hubm8/OU=23/OU=H/O=IBM,
+	CN=d23hubm3/OU=23/OU=H/O=IBM,
+	CN=d23hubm1/OU=23/OU=H/O=IBM,
+	CN=D03HUB02/OU=03/OU=H/O=IBM,
+	CN=D01HUB01/OU=01/OU=H/O=IBM,
+	CN=D01ML084/OU=01/OU=M/O=IBM;
+ type=501; flags=44; name=$UpdatedBy
+X-Notes-Item: ;
+ type=501; name=Categories
+X-Notes-Item: ;
+ type=401; name=$Revisions
+X-Notes-Item: IBMCN@IBMAU;
+ name=FromDomain
+X-Notes-Item: Thu, 3 Apr 2014 07:54:21 -0400;
+ type=400; name=DeliveredDate
+X-Notes-Item: ;
+ name=$MiniView
+X-Notes-Item: 1;
+ name=$NoteHasNativeMIME
+X-Notes-Item: CN=Tony Rego/OU=Raleigh/OU=Contr/O=IBM@IBMUS@IBMAU;
+ name=OriginalTo
+X-Notes-Item: CN=Cheng Yue CS Sun/OU=China/O=IBM;
+ name=OriginalFrom
+X-MIMETrack: Serialize by Notes Client on Andrew Jones/Austin/IBM(Release 8.5.3FP5SHF238|December
+ 19, 2013) at 04/07/2014 10:25:19 AM
+MIME-Version: 1.0
+Content-type: multipart/related; 
+	Boundary="0__=C7BBF63CDFA811878f9e8a93df938690918cC7BBF63CDFA81187"
+Content-Disposition: inline
+
+--0__=C7BBF63CDFA811878f9e8a93df938690918cC7BBF63CDFA81187
+Content-type: text/html; charset=US-ASCII
+Content-Disposition: inline
+Content-transfer-encoding: quoted-printable
+
+<html><body>
+<p><font size=3D"2" face=3D"sans-serif">Tony,</font><br>
+<br>
+<font size=3D"2" face=3D"sans-serif">This is my update for your topics =
+in </font><font size=3D"2" color=3D"#0000FF" face=3D"sans-serif">PEN</f=
+ont><font size=3D"2" face=3D"sans-serif">, let's talk detail in the mee=
+ting.</font><br>
+<font size=3D"2" face=3D"sans-serif"><br>
+<br>
+<br>
+Nothing is impossible!<br>
+<br>
+Kevin, Sun Cheng Yue<br>
+Senior Manager<br>
+Cloud Services Sales - SCE+, ITS, GCG<br>
+E-mail: cysun@cn.ibm.com<br>
+Tel: 86-10-63615168<br>
+Fax: 86-10-63618531<br>
+MP: &nbsp;86-13501072229</font><br>
+<br>
+<img width=3D"16" height=3D"16" src=3D"cid:0__=3DC7BBF63CDFA811878f9e8a=
+93df93869091@local" border=3D"0" alt=3D"Inactive hide details for Tony =
+Rego---2014/04/03 04:26:02---Hi, Cloud Services China Leadership Team f=
+or CMS 1.4 and the China "><font size=3D"2" color=3D"#424282" face=3D"s=
+ans-serif">Tony Rego---2014/04/03 04:26:02---Hi, Cloud Services China L=
+eadership Team for CMS 1.4 and the China Lite Site PoD, &nbsp;Here are =
+our ques</font><br>
+<br>
+<font size=3D"1" color=3D"#5F5F5F" face=3D"sans-serif">From:	</font><fo=
+nt size=3D"1" face=3D"sans-serif">Tony Rego/Raleigh/Contr/IBM@IBMUS</fo=
+nt><br>
+<font size=3D"1" color=3D"#5F5F5F" face=3D"sans-serif">To:	</font><font=
+ size=3D"1" face=3D"sans-serif">Albert KW Lee/Hong Kong/IBM@IBMHK, Chen=
+g Yue CS Sun/China/IBM@IBMCN, Dennis CN YUE/China/IBM@IBMCN, Gang Li/Ch=
+ina/IBM@IBMCN, Xin Hua Yuan/China/IBM@IBMCN, </font><br>
+<font size=3D"1" color=3D"#5F5F5F" face=3D"sans-serif">Cc:	</font><font=
+ size=3D"1" face=3D"sans-serif">Andrew Jones/Austin/IBM@IBMUS, Matt Per=
+kinson/Atlanta/IBM@IBMUS, Michael Montinarelli/Rochester/IBM@IBMUS, Rus=
+sell Lindburg/Chicago/IBM@IBMUS</font><br>
+<font size=3D"1" color=3D"#5F5F5F" face=3D"sans-serif">Date:	</font><fo=
+nt size=3D"1" face=3D"sans-serif">2014/04/03 04:26</font><br>
+<font size=3D"1" color=3D"#5F5F5F" face=3D"sans-serif">Subject:	</font>=
+<font size=3D"1" face=3D"sans-serif">CMS 1.4 Offering Deployment questi=
+ons / topics for Global/China Team call on &nbsp;on Friday 4/4 from 9-1=
+0 a.m. Beijing time (Thursday 4/3 from 9-10 p.m. US ET)</font><br>
+<hr width=3D"100%" size=3D"2" align=3D"left" noshade style=3D"color:#80=
+91A5; "><br>
+<br>
+<font size=3D"2" face=3D"sans-serif">Hi, Cloud Services China Leadershi=
+p Team for CMS 1.4 and the China Lite Site PoD, </font><br>
+<br>
+<font size=3D"2" face=3D"sans-serif">Here are our questions / topics fo=
+r our call with you tomorrow Friday morning 4/4 from 9-10 a.m. Beijing =
+time (Thursday night 4/3 from 9-10 p.m. ET in US).</font><br>
+<br>
+<font size=3D"2" face=3D"sans-serif"><b>1. Go to Market/RTM/Channel est=
+ablishment/Use of Business Partners</b></font>
+<ul type=3D"disc" style=3D"padding-left: 18pt">
+<li><font size=3D"2" face=3D"sans-serif">What are the Routes to Market =
+(RTM) for IBM sellers vs. 21V in China? </font>
+<li><font size=3D"2" color=3D"#0000FF" face=3D"sans-serif">IBM CS sales=
+ will have FTF coverage to customer, and to partner eco-system to gener=
+ate CMS pipeline directly. &nbsp;Also will leverage 21V sales force to =
+extend coverage scope, but if opportunity is from 21V the TCV and rev w=
+ill be not IBM sales rep performance.</font>
+<li><font size=3D"2" face=3D"sans-serif">How are Business Partners (BPs=
+) planned to be used?</font>
+<li><font size=3D"2" color=3D"#0000FF" face=3D"sans-serif">we focus on =
+3 tiers of partners development as: ISVs, Industry SI and Consultancy C=
+ompanies.</font></ul>
+<br>
+<font size=3D"2" face=3D"sans-serif"><b>2. Sales/Solutioning/Rules of E=
+ngagement/Lead Passing/Enablement training/Demo capability</b></font>
+<ul type=3D"disc" style=3D"padding-left: 18pt">
+<li><font size=3D"2" face=3D"sans-serif">Are we planning to document th=
+e Rules of Engagement/Lead Passing arrangements between IBM and 21V sel=
+lers? </font>
+<li><font size=3D"2" color=3D"#0000FF" face=3D"sans-serif">Yes, we have=
+ clear credit rule and bi-weekly pipeline review with 21V.</font>
+<li><font size=3D"2" face=3D"sans-serif">What are the China team requir=
+ements for a Demo capability? </font>
+<li><font size=3D"2" color=3D"#0000FF" face=3D"sans-serif">Demo capabil=
+ity is so important for China team to improve customer experience, espe=
+cially in the sales engagement early stage that China customer always a=
+sk demo environment to have a real feeling of Cloud services. &nbsp;We =
+plan to request 3*x86 and 3*Power demo VM in Japan or Australia POD.</f=
+ont>
+<li><font size=3D"2" face=3D"sans-serif">On Enablement Training: </font=
+>
+<ol type=3D"1" style=3D"padding-left: 18pt">
+<li><font size=3D"2" face=3D"sans-serif">What special training requirem=
+ents are there for IBM sellers in China selling the China PoD and when =
+is this needed? </font></ol>
+
+<ul type=3D"disc" style=3D"padding-left: 18pt">
+<li><font size=3D"2" color=3D"#0000FF" face=3D"sans-serif">CMS 1.4 func=
+tions, especially for SC4SAP/Oracle in April</font></ul>
+
+<ol type=3D"1" style=3D"padding-left: 18pt">
+<li><font size=3D"2" face=3D"sans-serif">What special training requirem=
+ents are there for 21V and what help is needed from the global IBM team=
+ to support?</font></ol>
+
+<ul type=3D"disc" style=3D"padding-left: 18pt">
+<li><font size=3D"2" color=3D"#0000FF" face=3D"sans-serif">portal devel=
+opment, on-boarding process</font></ul>
+
+<ol type=3D"1" style=3D"padding-left: 18pt">
+<li><font size=3D"2" face=3D"sans-serif">What special training requirem=
+ents are there for BPs and what help is needed from the global IBM team=
+ to support?</font></ol>
+
+<ul type=3D"disc" style=3D"padding-left: 18pt">
+<li><font size=3D"2" color=3D"#0000FF" face=3D"sans-serif">CMS 1.4 func=
+tions, SC4SAP/Oracle, and how to engage with IBM global team resources =
+to sell CMS global POD capacity</font></ul>
+</ul>
+<br>
+<font size=3D"2" face=3D"sans-serif"><b>3. Pricing/Discounting/Use of I=
+BM Pricing tools</b></font>
+<ul type=3D"disc" style=3D"padding-left: 18pt">
+<li><font size=3D"2" face=3D"sans-serif">Will Pricing and Discounts rel=
+eased by Global Pricing be used as is in China? If not, what changes ar=
+e foreseen?</font>
+<li><font size=3D"2" color=3D"#0000FF" face=3D"sans-serif">Yes, we have=
+ approved net price from global. But based on the list price dropped re=
+cently, shall we request to update the net price accordingly?</font>
+<li><font size=3D"2" face=3D"sans-serif">Are IBM Pricing tools planned =
+to be used by IBM sellers? 21V sellers?</font>
+<li><font size=3D"2" color=3D"#0000FF" face=3D"sans-serif">Yes, IBMer w=
+ill use internal IPT tools, but will not be open to 21V. IBM CMS sales =
+will run the config and list price to 21V, partners or end user.</font>=
+</ul>
+<br>
+<font size=3D"2" face=3D"sans-serif"><b>4. Contracting and Contract str=
+ucture (between 21V and Service Recipients)</b></font>
+<ul type=3D"disc" style=3D"padding-left: 18pt">
+<li><font size=3D"2" face=3D"sans-serif">Have we started work on the Co=
+ntract between 21V and its Service Recipients? </font>
+<li><font size=3D"2" color=3D"#0000FF" face=3D"sans-serif">21V is prepa=
+ring the contract template and we will discuss it by this month.</font>=
+</ul>
+<br>
+<font size=3D"2" face=3D"sans-serif"><b>5. E2E Process/IBM revenue trac=
+king and recognition &nbsp; &nbsp;</b></font>
+<ul type=3D"disc" style=3D"padding-left: 18pt">
+<li><font size=3D"2" face=3D"sans-serif">Have we started work on docume=
+nting the E2E Process/IBM revenue tracking and recognition processes fo=
+r the CMS 1.4 Offering with the China PoD deployment? </font>
+<li><font size=3D"2" color=3D"#0000FF" face=3D"sans-serif">Based on Ser=
+vices Agreement between IBM and 21V, they will pay monthly charge to IB=
+M from July, 2014.</font></ul>
+<br>
+<font size=3D"2" face=3D"sans-serif">I note that Fausto has recently re=
+-scheduled his Thursday 4/3 8 a.m. US ET call with China to run from 9:=
+30-10;30 p.m. US ET, so that Fausto's call now overlaps the last 30 min=
+ of our call with you.</font><br>
+<br>
+<font size=3D"2" face=3D"sans-serif">We will try to do our call with yo=
+u in 30 min, in case we lose some of you to Fausto's call at 9:30 p.m. =
+US ET.</font><br>
+<br>
+<font size=3D"2" face=3D"sans-serif">Best wishes.................Tony. =
+</font>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr valign=3D"top"><td width=3D"584" colspan=3D"3" valign=3D"middle">
+<ul style=3D"padding-left: 1pt"><hr width=3D"100%" size=3D"2" align=3D"=
+left" style=3D"color:#000000; "></ul>
+</td></tr>
+
+<tr valign=3D"top"><td width=3D"294" valign=3D"middle">
+<ul style=3D"padding-left: 1pt"><font size=3D"2" face=3D"Arial"><b>Tony=
+ Rego</b></font><font size=3D"1" color=3D"#808080" face=3D"Arial"><br>
+Project Manager <br>
+Cloud Services Global Deployment<br>
+Phone: &nbsp;416-284-5138<br>
+email: &nbsp;</font><a href=3D"mailto:%20tonyrego@us.ibm.com"><font siz=
+e=3D"1" color=3D"#0000FF" face=3D"Arial">tonyrego@us.ibm.com</font></a>=
+</ul>
+</td><td width=3D"195">
+<ul style=3D"padding-left: 1pt"><font size=3D"1" color=3D"#808080" face=
+=3D"Arial">72 D'Arcy Magee Crescent <br>
+Toronto, Ontario M1C2T5 <br>
+Canada</font></ul>
+</td><td width=3D"92"><div align=3D"right"><font size=3D"1" face=3D"ser=
+if"><br>
+</font><img src=3D"cid:1__=3DC7BBF63CDFA811878f9e8a93df93869091@local" =
+width=3D"84" height=3D"30" alt=3D"IBM-Logo"></div></td></tr>
+</table>
+
+<p>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr valign=3D"top"><td width=3D"588" bgcolor=3D"#82C0FF" valign=3D"midd=
+le">
+<ul style=3D"padding-left: 4pt"><font size=3D"1" color=3D"#FFFFFF" face=
+=3D"sans-serif"><b>&nbsp; &nbsp;ITSO </b></font><a href=3D"http://w3.it=
+so.ibm.com/gcs"><font size=3D"1" color=3D"#0066AA" face=3D"sans-serif">=
+<b>Global Content Services </b></font><font size=3D"1" color=3D"#FFFFFF=
+" face=3D"sans-serif"><b>&gt;</b></font></a><font size=3D"1" face=3D"sa=
+ns-serif">&nbsp; &nbsp; &nbsp;</font><a href=3D"http://www.ibm.com/redb=
+ooks/"><font size=3D"1" color=3D"#0066AA" face=3D"sans-serif"><b>IBM Re=
+dbooks </b></font><font size=3D"1" color=3D"#FFFFFF" face=3D"sans-serif=
+"><b>&gt;</b></font></a><font size=3D"1" face=3D"sans-serif">&nbsp; &nb=
+sp; &nbsp;</font><a href=3D"http://www.redbooks.ibm.com/ibmpress/"><fon=
+t size=3D"1" color=3D"#0066AA" face=3D"sans-serif"><b>IBM Press </b></f=
+ont><font size=3D"1" color=3D"#FFFFFF" face=3D"sans-serif"><b>&gt;</b><=
+/font></a><font size=3D"1" face=3D"sans-serif">&nbsp;</font></ul>
+</td></tr>
+</table>
+<br>
+<br>
+</body></html>=
+
+--0__=C7BBF63CDFA811878f9e8a93df938690918cC7BBF63CDFA81187
+Content-type: image/gif; 
+	name="graycol.gif"
+Content-Disposition: inline; filename="graycol.gif"
+Content-ID: <0__=C7BBF63CDFA811878f9e8a93df93869091@local>
+Content-transfer-encoding: base64
+
+R0lGODlhEAAQAKECAMzMzAAAAP///wAAACH5BAEAAAIALAAAAAAQABAAAAIXlI+py+0PopwxUbpu
+ZRfKZ2zgSJbmSRYAIf4fT3B0aW1pemVkIGJ5IFVsZWFkIFNtYXJ0U2F2ZXIhAAA7
+
+--0__=C7BBF63CDFA811878f9e8a93df938690918cC7BBF63CDFA81187
+Content-type: image/gif; 
+	name="02839834.gif"
+Content-Disposition: inline; filename="02839834.gif"
+Content-ID: <1__=C7BBF63CDFA811878f9e8a93df93869091@local>
+Content-transfer-encoding: base64
+
+R0lGODlhVAAeALMAAP///wCKvwCz7wA+abLc7H/E33/Z90yt0kzK9LLo+gAAAAAAAAAAAAAAAAAA
+AAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpy
+ZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0
+az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAw
+ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIv
+MjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4
+bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6
+Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0
+cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxQUEw
+QTdFMkYwMzcxMUUwQTJFRUZEMkRDREYwMkY0RSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDox
+QUEwQTdFMUYwMzcxMUUwQTJFRUZEMkRDREYwMkY0RSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQ
+aG90b3Nob3AgQ1M1IFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJ
+RD0iQjcyOEMzMjc5RTJERTA4QjExOTNEMDkxQTFCNEYwQzgiIHN0UmVmOmRvY3VtZW50SUQ9IkI3
+MjhDMzI3OUUyREUwOEIxMTkzRDA5MUExQjRGMEM4Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3Jk
+ZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv
+7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2
+tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359
+fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVE
+Q0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwL
+CgkIBwYFBAMCAQAAIfkEAAAAAAAsAAAAAFQAHgAABP9wyEkrACLrzTMyVwgEZGmSYnquQSpWMHV1
+dGckInsSLkDopp5wSCwaj8ikcslsCmPQWW26AY2AJZ7oh0U9oTApdXzpkgqpgrnlbLvf8Li8GSN2
+XIa7Coi+qIFLdUN6InkbCC5dIYpzjY6PkJE9gkJjNj1dBwAHjEmUPZZVQit/JaVnK5Kqq6ytRJ8u
+oRpWiTtXLD6pSrApsrOYtoBcQa7FxsdyvCKEIYYaiHsmWqcBfcMlgWGDHHjMZbbf2BfXXsjm5+gp
+YNq+NeEsWgClfbmAX+sTYu2/t/A55fV0iChwIF46SAQKJKR30NEBggQ04ZOBYZ+AG/90GFTDkNyJ
+EAUVFIYEMDFfRV8famlUkcIjMT8PL0QAADs=
+
+--0__=C7BBF63CDFA811878f9e8a93df938690918cC7BBF63CDFA81187--
+

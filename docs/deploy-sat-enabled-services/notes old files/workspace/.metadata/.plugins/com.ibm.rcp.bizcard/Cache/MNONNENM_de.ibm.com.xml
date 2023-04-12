@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>Germany</countryName>
+<locality>FRANKFURT</locality>
+<org>GTS,IOT</org>
+<userId>0503b440-8f0a-1028-8486-db07163b51b2</userId>
+<name>Nonnenmacher, Michael</name>
+<floor>4</floor>
+<uid>114816724</uid>
+<officeBuilding>52</officeBuilding>
+<streetAddress>Wilhelm-Fay-Str. 30-34
+Frankfurt 65936
+Germany</streetAddress>
+<role>IBM employee, Regular</role>
+<title>Global Offerings Management (Cloud Managed Services and Transformation)</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/MNONNENM_de.ibm.com</photoUri>
+<tel>49-172-7286735</tel>
+<email>MNONNENM@de.ibm.com</email>
+<office>B 4. STOCK</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=0503b440-8f0a-1028-8486-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=0503b440-8f0a-1028-8486-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=0503b440-8f0a-1028-8486-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=0503b440-8f0a-1028-8486-db07163b51b2&amp;name=Nonnenmacher%2C%20Michael"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=0503b440-8f0a-1028-8486-db07163b51b2&amp;name=Nonnenmacher%2C%20Michael"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/0503b440-8f0a-1028-8486-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=0503b440-8f0a-1028-8486-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D0503b440-8f0a-1028-8486-db07163b51b2%2Cname%3DNonnenmacher%2C%20Michael"/>
+</BusinessCardLinks>
+<LastUpdated>1441111373703</LastUpdated>
+<timezoneid>200</timezoneid>
+</BusinessCard>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>United States</countryName>
+<locality>HERNDON</locality>
+<org>IBM Sales &amp; Distribution, Technical Sales</org>
+<userId>1ee14bc0-97af-102a-8812-99e846013974</userId>
+<name>SEAMAN, JAMES W.</name>
+<floor>NA</floor>
+<uid>282995897</uid>
+<officeBuilding>2300</officeBuilding>
+<streetAddress>2300 Dulles Station Blvd
+Dulles Station West Floors 1,2,4,5
+Herndon, VA 20171-6133
+United States</streetAddress>
+<region>VA</region>
+<role>IBM employee, Regular</role>
+<title>Client Technical Architect: Cross Brand Solutions Architect for Deloitte</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/jseaman_us.ibm.com</photoUri>
+<tel>1-703-943-2835</tel>
+<email>jseaman@us.ibm.com</email>
+<office>MOBILE</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=1ee14bc0-97af-102a-8812-99e846013974&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=1ee14bc0-97af-102a-8812-99e846013974"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=1ee14bc0-97af-102a-8812-99e846013974"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=1ee14bc0-97af-102a-8812-99e846013974&amp;name=SEAMAN%2C%20JAMES%20W."/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=1ee14bc0-97af-102a-8812-99e846013974&amp;name=SEAMAN%2C%20JAMES%20W."/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/1ee14bc0-97af-102a-8812-99e846013974"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=1ee14bc0-97af-102a-8812-99e846013974"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D1ee14bc0-97af-102a-8812-99e846013974%2Cname%3DSEAMAN%2C%20JAMES%20W."/>
+</BusinessCardLinks>
+<LastUpdated>1448908334199</LastUpdated>
+</BusinessCard>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>United States</countryName>
+<locality>BIRMINGHAM</locality>
+<org>GTS,System Services</org>
+<userId>282e63c0-8f0a-1028-9201-db07163b51b2</userId>
+<name>Hanson, Horace B.</name>
+<floor>NA</floor>
+<uid>327096897</uid>
+<officeBuilding>764</officeBuilding>
+<streetAddress>3500 Blue Lake Dr
+Birmingham, AL 35243-1900
+United States</streetAddress>
+<region>AL</region>
+<role>IBM employee, Regular</role>
+<title>IT Specialist</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/hbhanson_us.ibm.com</photoUri>
+<tel>1-205-937-3171</tel>
+<email>hbhanson@us.ibm.com</email>
+<office>HOME</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=282e63c0-8f0a-1028-9201-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=282e63c0-8f0a-1028-9201-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=282e63c0-8f0a-1028-9201-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=282e63c0-8f0a-1028-9201-db07163b51b2&amp;name=Hanson%2C%20Horace%20B."/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=282e63c0-8f0a-1028-9201-db07163b51b2&amp;name=Hanson%2C%20Horace%20B."/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/282e63c0-8f0a-1028-9201-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=282e63c0-8f0a-1028-9201-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D282e63c0-8f0a-1028-9201-db07163b51b2%2Cname%3DHanson%2C%20Horace%20B."/>
+</BusinessCardLinks>
+<LastUpdated>1443540392869</LastUpdated>
+</BusinessCard>

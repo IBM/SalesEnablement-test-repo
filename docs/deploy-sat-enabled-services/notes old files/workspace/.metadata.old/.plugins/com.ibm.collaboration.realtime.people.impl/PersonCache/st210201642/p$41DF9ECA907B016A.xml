@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="jaschune@us.ibm.com" displayName="Julie A. Schuneman" isExternal="false" lastChatTime="1382465516963">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$41DF9ECA907B016A.jpg"/>
+  <attribute name="callupname" value="JULIE A. SCHUNEMAN"/>
+  <attribute name="Telephone" value="1-904-608-0930"/>
+  <attribute name="worklocation" value="workLoc=EY1,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="IBM Distinguished Engineer and CTO, Cloud Advisory Services CoC , Member AoT and Academy Leadership Team"/>
+  <attribute name="dn" value="uid=800471897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="JULIE A. SCHUNEMAN"/>
+  <attribute name="telephonenumber" value="1-904-608-0930"/>
+  <attribute name="Address" value="4601 Touchton Rd E&#xA;Ste 4120&#xA;Jacksonville, FL 32246-4484&#xA;United States"/>
+  <attribute name="mail" value="jaschune@us.ibm.com"/>
+  <attribute name="Title" value="IBM Distinguished Engineer and CTO, Cloud Advisory Services CoC , Member AoT and Academy Leadership Team"/>
+  <attribute name="sn" value="SCHUNEMAN"/>
+  <attribute name="id" value="jaschune@us.ibm.com"/>
+  <attribute name="MailAddress" value="jaschune@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1400505045704"/>
+</person>

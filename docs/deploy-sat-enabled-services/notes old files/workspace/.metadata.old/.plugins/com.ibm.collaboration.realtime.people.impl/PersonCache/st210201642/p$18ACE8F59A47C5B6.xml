@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="cliffp@us.ibm.com" displayName="Clifford A. Pickover" isExternal="false" lastChatTime="1374244743131">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$18ACE8F59A47C5B6.jpg"/>
+  <attribute name="callupname" value="Clifford A. Pickover"/>
+  <attribute name="tieline" value="862-3630"/>
+  <attribute name="Telephone" value="862-3630 / 1-914-945-3630"/>
+  <attribute name="worklocation" value="workLoc=RCX,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Master Inventor; Editor-in-Chief, IBM Journal of R&amp;D; Council for Innovation Leadership"/>
+  <attribute name="dn" value="uid=083801897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Clifford A. Pickover"/>
+  <attribute name="telephonenumber" value="862-3630 / 1-914-945-3630"/>
+  <attribute name="Address" value="1101 Kitchawan Rd&#xA;Route 134 / Po Box 218&#xA;Yorktown Heights, NY 10598&#xA;United States"/>
+  <attribute name="mail" value="cliffp@us.ibm.com"/>
+  <attribute name="Title" value="Master Inventor; Editor-in-Chief, IBM Journal of R&amp;D; Council for Innovation Leadership"/>
+  <attribute name="id" value="cliffp@us.ibm.com"/>
+  <attribute name="sn" value="Pickover"/>
+  <attribute name="MailAddress" value="cliffp@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1390931279939"/>
+</person>

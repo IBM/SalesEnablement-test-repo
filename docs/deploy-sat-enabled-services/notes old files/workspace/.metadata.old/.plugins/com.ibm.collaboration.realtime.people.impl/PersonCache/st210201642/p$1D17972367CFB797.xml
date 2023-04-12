@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="carolynk@us.ibm.com" displayName="Carolyn Olsen" isExternal="false" lastChatTime="1392650130278">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$1D17972367CFB797.jpg"/>
+  <attribute name="callupname" value="Carolyn Olsen"/>
+  <attribute name="Telephone" value="1-845-797-1648"/>
+  <attribute name="worklocation" value="workLoc=CEF,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="global offerings contract development  - Legal"/>
+  <attribute name="dn" value="uid=420791897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Carolyn Olsen"/>
+  <attribute name="telephonenumber" value="1-845-797-1648"/>
+  <attribute name="Address" value="2070 Route 52&#xA;Hopewell Junction, NY 12533-6683&#xA;United States"/>
+  <attribute name="mail" value="carolynk@us.ibm.com"/>
+  <attribute name="Title" value="global offerings contract development  - Legal"/>
+  <attribute name="sn" value="Olsen"/>
+  <attribute name="id" value="carolynk@us.ibm.com"/>
+  <attribute name="MailAddress" value="carolynk@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1420548036166"/>
+</person>

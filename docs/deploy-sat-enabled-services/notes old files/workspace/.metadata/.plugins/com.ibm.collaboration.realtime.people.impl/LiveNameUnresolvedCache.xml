@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?> <resolverCache>
+  <unresolvedEntry name="CN=Ashish Patel/OU=Toronto/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-02 07:23"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=Alex B Delin/OU=Endicott/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-02 09:26"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=CMS DPE/OU=Southbury/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-01 07:18"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=IBM Smarter Services Selling/OU=Raleigh/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-01 07:28"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="do-not-reply@w3.ifundit.ibm.com">
+    <community host="messaging.ibm.com" time="2015-12-01 07:18"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=Anthony J W Kwang/OU=Singapore/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-02 07:23"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="wathelp@ca.ibm.com">
+    <community host="messaging.ibm.com" time="2015-12-01 07:27"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=Bodil Braren/OU=White Plains/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-02 07:23"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=WST Feedback/OU=Watson/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-02 08:34"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="contentupdates@webbuyersguide.com">
+    <community host="messaging.ibm.com" time="2015-12-01 09:48"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=Intranet_Password/OU=Jackson/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-02 07:21"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="computerworld_newsletters@cwonline.computerworld.com">
+    <community host="messaging.ibm.com" time="2015-12-02 09:29"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="0">
+    <community host="messaging.ibm.com" time="2015-12-01 07:56"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="no-reply@collabserv.com">
+    <community host="messaging.ibm.com" time="2015-12-01 07:18"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="Pedro Soares">
+    <community host="messaging.ibm.com" time="2015-12-01 07:25"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="jonesagency@cmaaccess.com">
+    <community host="messaging.ibm.com" time="2015-12-02 07:23"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="aambati1@in.ibm.com">
+    <community host="messaging.ibm.com" time="2015-12-02 07:23"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=IBM Verse for IBMers/OU=Columbia/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-02 07:21"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=Martin Jetter Communications/OU=Somers/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-01 07:18"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="noreply-ibm-notification@us.ibm.com">
+    <community host="messaging.ibm.com" time="2015-12-01 07:42"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="andrew@jones-tx.com">
+    <community host="messaging.ibm.com" time="2015-12-02 08:01"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="att@e.att-mail.com">
+    <community host="messaging.ibm.com" time="2015-12-02 07:23"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="enewsletter@opengroup.org">
+    <community host="messaging.ibm.com" time="2015-12-02 10:11"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=WAM Administrator/OU=Charlotte/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-02 07:42"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=Alexander Amies/OU=China/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-02 07:23"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=IBM Cloud News/OU=Somers/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-01 10:35"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=Norman Liu/OU=Austin/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-02 09:39"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=Leslie A Nelson/OU=Raleigh/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-02 09:45"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=Anna L Linne/OU=Somers/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-02 07:23"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="newsletters@techrepublic.online.com">
+    <community host="messaging.ibm.com" time="2015-12-01 09:58"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="jbonds@ztech.us">
+    <community host="messaging.ibm.com" time="2015-12-01 09:51"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="newsletters@cioinsight.com">
+    <community host="messaging.ibm.com" time="2015-12-02 08:31"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=UKICloud Architects/OU=UK/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-01 07:20"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=bluemine/OU=Raleigh/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-02 10:11"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="editorialnewsletters@info.thechannelcompany.com">
+    <community host="messaging.ibm.com" time="2015-12-02 13:14"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=Anthony Befi/OU=Austin/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-02 07:23"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="ConnectionsCommunities-db">
+    <community host="messaging.ibm.com" time="2015-12-01 09:48"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=Aaron Cheng/OU=Ontario/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-02 07:23"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="brett@brettbunch.com">
+    <community host="messaging.ibm.com" time="2015-12-02 07:23"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="aaron_peeler@ncsu.edu">
+    <community host="messaging.ibm.com" time="2015-12-02 07:23"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="team@RightScale.com">
+    <community host="messaging.ibm.com" time="2015-12-01 09:48"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="vrmmail@vrm.ca.ibm.com">
+    <community host="messaging.ibm.com" time="2015-12-01 08:11"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="mynotify@stg.events.ihost.com">
+    <community host="messaging.ibm.com" time="2015-12-01 10:23"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="noreply@apm.ibmserviceengage.com">
+    <community host="messaging.ibm.com" time="2015-12-01 07:42"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=Tom M Morrissey/OU=Somers/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-02 09:34"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=Andrea&apos; Carkhum/OU=Atlanta/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-02 07:23"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="IBM Verse for IBMers">
+    <community host="messaging.ibm.com" time="2015-12-02 07:22"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="messages-noreply@linkedin.com">
+    <community host="messaging.ibm.com" time="2015-12-02 13:14"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=Aldo Gallone/OU=Markham/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-02 07:23"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="jr802r@att.com">
+    <community host="messaging.ibm.com" time="2015-12-02 09:26"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=Gustavo de Oliveira Annarumma/OU=Brazil/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-02 07:22"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="icics_cfp@just.edu.jo">
+    <community host="messaging.ibm.com" time="2015-12-02 09:29"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=CARG Business Office/OU=UK/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-01 07:18"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="CN=SCE plus/OU=Germany/O=IBM">
+    <community host="messaging.ibm.com" time="2015-12-02 07:21"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="JD4718@att.com">
+    <community host="messaging.ibm.com" time="2015-12-02 10:19"/>
+  </unresolvedEntry>
+  <unresolvedEntry name="cail_mail@cail.net">
+    <community host="messaging.ibm.com" time="2015-12-01 10:48"/>
+  </unresolvedEntry>
+</resolverCache>

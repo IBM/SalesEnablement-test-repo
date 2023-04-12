@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<streetAddress>1177 S Belt Line Rd
+Coppell, TX 75019-4642
+United States</streetAddress>
+<title>Architect, Automation Acceleration Team</title>
+<tel>1-845-270-2000</tel>
+<name>Foley, Patti</name>
+<email>pfoley@us.ibm.com</email>
+<LastUpdated>1435167472980</LastUpdated>
+<actualtimezoneid>America/Chicago</actualtimezoneid>
+<timezoneid>-500</timezoneid>
+<uid>4A9508897</uid>
+<userId>3e3c2440-8f0a-1028-8870-db07163b51b2</userId>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/pfoley_us.ibm.com</photoUri>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=3e3c2440-8f0a-1028-8870-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=3e3c2440-8f0a-1028-8870-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=3e3c2440-8f0a-1028-8870-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=3e3c2440-8f0a-1028-8870-db07163b51b2&amp;name=Foley%2C%20Patti"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=3e3c2440-8f0a-1028-8870-db07163b51b2&amp;name=Foley%2C%20Patti"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/3e3c2440-8f0a-1028-8870-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=3e3c2440-8f0a-1028-8870-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D3e3c2440-8f0a-1028-8870-db07163b51b2%2Cname%3DFoley%2C%20Patti"/>
+</BusinessCardLinks>
+</BusinessCard>

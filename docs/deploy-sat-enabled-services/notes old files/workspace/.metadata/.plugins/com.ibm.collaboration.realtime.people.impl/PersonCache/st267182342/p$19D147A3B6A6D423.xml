@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="joerger@us.ibm.com" displayName="James A. (Jim) Joerger" isExternal="false" lastChatTime="1391112779415">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$19D147A3B6A6D423.jpg"/>
+  <attribute name="callupname" value="James A. (Jim) Joerger"/>
+  <attribute name="Telephone" value="1-315-750-8706"/>
+  <attribute name="worklocation" value="workLoc=KDC,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Director and Senior Project Executive, AT&amp;T"/>
+  <attribute name="dn" value="uid=319587897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="James A. (Jim) Joerger"/>
+  <attribute name="telephonenumber" value="1-315-750-8706"/>
+  <attribute name="Address" value="1630 Long Pond Rd&#xA;Rochester, NY 14626-1496&#xA;United States"/>
+  <attribute name="mail" value="joerger@us.ibm.com"/>
+  <attribute name="Title" value="Director and Senior Project Executive, AT&amp;T"/>
+  <attribute name="sn" value="Joerger"/>
+  <attribute name="id" value="joerger@us.ibm.com"/>
+  <attribute name="MailAddress" value="joerger@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1445014363909"/>
+</person>

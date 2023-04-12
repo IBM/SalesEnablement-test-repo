@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="krwalker@us.ibm.com" displayName="Keith R. Walker" isExternal="false" lastChatTime="1380823411644">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$4360E48BA0E53AE9.jpg"/>
+  <attribute name="callupname" value="Keith R. Walker"/>
+  <attribute name="tieline" value="363-9128"/>
+  <attribute name="Telephone" value="363-9128 / 1-512-286-9128"/>
+  <attribute name="worklocation" value="workLoc=BNT,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="BMC Remedy Team Lead, Master Inventor"/>
+  <attribute name="dn" value="uid=805801897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Keith R. Walker"/>
+  <attribute name="telephonenumber" value="363-9128 / 1-512-286-9128"/>
+  <attribute name="Address" value="11501 Burnet Rd&#xA;Austin, TX 78758-3400&#xA;United States"/>
+  <attribute name="mail" value="krwalker@us.ibm.com"/>
+  <attribute name="Title" value="BMC Remedy Team Lead, Master Inventor"/>
+  <attribute name="id" value="krwalker@us.ibm.com"/>
+  <attribute name="sn" value="Walker"/>
+  <attribute name="MailAddress" value="krwalker@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1383053895156"/>
+</person>

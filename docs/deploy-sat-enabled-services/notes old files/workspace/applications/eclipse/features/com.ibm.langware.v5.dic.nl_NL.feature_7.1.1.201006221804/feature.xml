@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed Materials - Property of IBM
+  5724-R09
+  © Copyright IBM Corp. 2006, 2009 
+-->
+<feature colocation-affinity="com.ibm.rcp.site.anchor.user.feature" id="com.ibm.langware.v5.dic.nl_NL.feature" label="%feature.name" nl="nl_NL" provider-name="%feature.provider" version="7.1.1.201006221804">
+
+   <description>
+      %feature.description
+   </description>
+
+   <copyright url="%copyright.url">
+      %feature.copyright
+   </copyright>
+
+   <license>
+      %feature.license
+   </license>
+
+   <requires>
+      <import feature="com.ibm.langware.v5.feature"/>
+   </requires>
+   
+   <plugin download-size="858" fragment="true" id="com.ibm.langware.v5.dic.nl_NL" install-size="1238" version="7.1.1.201006221804"/>
+
+</feature>

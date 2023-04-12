@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="mkkeller@us.ibm.com" displayName="Matthew K. (Matt) Keller" isExternal="false" lastChatTime="1409335617148">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$2A2191C32946B0A2.jpg"/>
+  <attribute name="callupname" value="Matthew K. (Matt) Keller"/>
+  <attribute name="Telephone" value="1-678-654-5363"/>
+  <attribute name="worklocation" value="workLoc=FE9,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Cloud Managed Services Delivery Automations Lead"/>
+  <attribute name="dn" value="uid=5D6694897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Matthew K. (Matt) Keller"/>
+  <attribute name="telephonenumber" value="1-678-654-5363"/>
+  <attribute name="Address" value="6303 Barfield Rd Ne&#xA;Sandy Springs, GA 30328-4233&#xA;United States"/>
+  <attribute name="mail" value="mkkeller@us.ibm.com"/>
+  <attribute name="Title" value="Cloud Managed Services Delivery Automations Lead"/>
+  <attribute name="sn" value="Keller"/>
+  <attribute name="id" value="mkkeller@us.ibm.com"/>
+  <attribute name="MailAddress" value="mkkeller@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1427113725062"/>
+</person>

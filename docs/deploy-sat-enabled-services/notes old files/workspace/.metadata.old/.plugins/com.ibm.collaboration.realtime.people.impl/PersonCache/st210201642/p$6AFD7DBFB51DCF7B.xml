@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="lmonet@us.ibm.com" displayName="Lisa A. Hall" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$6AFD7DBFB51DCF7B.jpg"/>
+  <attribute name="callupname" value="Lisa A. Hall *Contractor*"/>
+  <attribute name="tieline" value="637-9401"/>
+  <attribute name="Telephone" value="637-9401 / 1-704-340-9401"/>
+  <attribute name="worklocation" value="workLoc=GW5,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Toshiba Service Delivery Manager  - Carolinas"/>
+  <attribute name="dn" value="uid=3574TZ897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Lisa A. Hall *Contractor*"/>
+  <attribute name="telephonenumber" value="637-9401 / 1-704-340-9401"/>
+  <attribute name="Address" value="10330 David Taylor Drive&#xA;Charlotte, NC 28262&#xA;United States"/>
+  <attribute name="mail" value="lmonet@us.ibm.com"/>
+  <attribute name="Title" value="Toshiba Service Delivery Manager  - Carolinas"/>
+  <attribute name="id" value="lmonet@us.ibm.com"/>
+  <attribute name="sn" value="Hall"/>
+  <attribute name="MailAddress" value="lmonet@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1408992450095"/>
+</person>

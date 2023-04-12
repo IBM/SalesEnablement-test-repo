@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="MRONCI@ae.ibm.com" displayName="Mauro Ronci" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$5F8BB0BA66AE21E.jpg"/>
+  <attribute name="callupname" value="Mauro Ronci"/>
+  <attribute name="tieline" value="369-77959"/>
+  <attribute name="Telephone" value="369-77959 / 971-0-44501959"/>
+  <attribute name="worklocation" value="workLoc=G4D,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Volume Sales Leader - Middle East &amp; Africa"/>
+  <attribute name="dn" value="uid=002986675,c=ae,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Mauro Ronci"/>
+  <attribute name="telephonenumber" value="369-77959 / 971-0-44501959"/>
+  <attribute name="Address" value="Plot 21, Al Safouh Second&#xA;Arenco Tower&#xA;Dubai&#xA;United Arab Emirates"/>
+  <attribute name="mail" value="MRONCI@ae.ibm.com"/>
+  <attribute name="Title" value="Volume Sales Leader - Middle East &amp; Africa"/>
+  <attribute name="id" value="MRONCI@ae.ibm.com"/>
+  <attribute name="sn" value="RONCI"/>
+  <attribute name="MailAddress" value="MRONCI@ae.ibm.com"/>
+  <attribute name="lastUpdate" value="1384261210427"/>
+</person>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>United States</countryName>
+<locality>JEFFERSON CITY</locality>
+<org>IBM Sales &amp; Distribution, Marketing</org>
+<userId>7479a3c0-8f0a-1028-9c6b-db07163b51b2</userId>
+<name>Gentry, Casey L.</name>
+<floor>NA</floor>
+<uid>912065897</uid>
+<officeBuilding>JFC</officeBuilding>
+<streetAddress>3220 West Edgewood Drive
+Suite G
+Jefferson City, MO 65109-6883
+United States</streetAddress>
+<region>MO</region>
+<role>IBM employee, Regular</role>
+<title>Campaign Manager, Enterprise Transformation, IBM North America</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/clgentry_us.ibm.com</photoUri>
+<tel>1-720-396-2302</tel>
+<email>clgentry@us.ibm.com</email>
+<office>HOME</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=7479a3c0-8f0a-1028-9c6b-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=7479a3c0-8f0a-1028-9c6b-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=7479a3c0-8f0a-1028-9c6b-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=7479a3c0-8f0a-1028-9c6b-db07163b51b2&amp;name=Gentry%2C%20Casey%20L."/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=7479a3c0-8f0a-1028-9c6b-db07163b51b2&amp;name=Gentry%2C%20Casey%20L."/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/7479a3c0-8f0a-1028-9c6b-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=7479a3c0-8f0a-1028-9c6b-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D7479a3c0-8f0a-1028-9c6b-db07163b51b2%2Cname%3DGentry%2C%20Casey%20L."/>
+</BusinessCardLinks>
+<LastUpdated>1445610708412</LastUpdated>
+</BusinessCard>

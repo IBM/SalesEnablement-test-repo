@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<actualtimezoneid>Europe/Berlin</actualtimezoneid>
+<timezoneid>+200</timezoneid>
+<countryName>Switzerland</countryName>
+<locality>ZÜRICH</locality>
+<org>IBM Cloud</org>
+<userId>70fa13c0-f231-1033-8925-d6e5955dd3a1</userId>
+<name>Kueng, Markus</name>
+<floor>03</floor>
+<uid>050946848</uid>
+<officeBuilding>D3F</officeBuilding>
+<streetAddress>Vulkanstr. 106
+Zürich 8048
+Switzerland</streetAddress>
+<role>IBM employee, Regular</role>
+<title>Cloud Services Sales</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/markus.kueng_ch.ibm.com</photoUri>
+<tel>41-58 333 12 69</tel>
+<email>markus.kueng@ch.ibm.com</email>
+<office>NORD</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=70fa13c0-f231-1033-8925-d6e5955dd3a1&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=70fa13c0-f231-1033-8925-d6e5955dd3a1"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=70fa13c0-f231-1033-8925-d6e5955dd3a1"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=70fa13c0-f231-1033-8925-d6e5955dd3a1&amp;name=Kueng%2C%20Markus"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=70fa13c0-f231-1033-8925-d6e5955dd3a1&amp;name=Kueng%2C%20Markus"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/70fa13c0-f231-1033-8925-d6e5955dd3a1"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=70fa13c0-f231-1033-8925-d6e5955dd3a1"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D70fa13c0-f231-1033-8925-d6e5955dd3a1%2Cname%3DKueng%2C%20Markus"/>
+</BusinessCardLinks>
+<LastUpdated>1443188705227</LastUpdated>
+</BusinessCard>

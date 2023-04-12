@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="adasari@us.ibm.com" displayName="Anthony Dasari" isExternal="false" lastChatTime="1316015456640">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$73FC590478B50F5.jpg"/>
+  <attribute name="callupname" value="Anthony J. Dasari"/>
+  <attribute name="tieline" value="363-5866"/>
+  <attribute name="Telephone" value="363-5866 / 1-512-286-5866"/>
+  <attribute name="worklocation" value="workLoc=BNT,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Program Director, Product Management, IBM PureSystems"/>
+  <attribute name="dn" value="uid=7A2858897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Anthony J. Dasari"/>
+  <attribute name="telephonenumber" value="363-5866 / 1-512-286-5866"/>
+  <attribute name="Address" value="11501 Burnet Rd&#xA;Austin, TX 78758-3400&#xA;United States"/>
+  <attribute name="mail" value="adasari@us.ibm.com"/>
+  <attribute name="Title" value="Program Director, Product Management, IBM PureSystems"/>
+  <attribute name="id" value="adasari@us.ibm.com"/>
+  <attribute name="sn" value="Dasari"/>
+  <attribute name="MailAddress" value="adasari@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1408992452107"/>
+</person>

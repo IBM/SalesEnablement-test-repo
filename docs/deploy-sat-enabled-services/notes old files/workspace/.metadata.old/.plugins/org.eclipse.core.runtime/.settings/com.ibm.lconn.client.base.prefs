@@ -1,0 +1,34 @@
+#Wed Jul 01 08:16:01 CDT 2015
+activities=true
+news_ssl=true
+activities_ssl=true
+Connections=true
+username=CN\=Andrew Jones/OU\=Austin/O\=IBM
+deploymentConfig_ssl=true
+files=true
+forums=true
+news=true
+eclipse.preferences.version=1
+profiles_ssl=true
+profiles=true
+search=true
+deploymentConfig=true
+dogear_ssl=true
+activities_secondary=true
+communities_ssl=true
+dogear=true
+wikis=true
+homepage_ssl=true
+blogs_ssl=true
+blogs=true
+search_ssl=true
+wikis_ssl=true
+homepage=true
+opensocial_ssl=true
+enableConnectionsPref=true
+opensocial=true
+communities=true
+hiddenEmail=false
+files_ssl=true
+forums_ssl=true
+cloudService=false

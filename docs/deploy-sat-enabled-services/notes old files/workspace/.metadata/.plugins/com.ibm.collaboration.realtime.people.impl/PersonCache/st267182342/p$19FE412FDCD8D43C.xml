@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="lindburg@us.ibm.com" displayName="Russell R. (Russ) Lindburg" isExternal="false" lastChatTime="1441917535009">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$19FE412FDCD8D43C.jpg"/>
+  <attribute name="callupname" value="Russell R. (Russ) Lindburg"/>
+  <attribute name="tieline" value="824-1412"/>
+  <attribute name="Telephone" value="824-1412 / 1-630-785-1412"/>
+  <attribute name="worklocation" value="workLoc=EQ3,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Global Cloud Managed Services Sales Leader"/>
+  <attribute name="dn" value="uid=749959897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Russell R. (Russ) Lindburg"/>
+  <attribute name="telephonenumber" value="824-1412 / 1-630-785-1412"/>
+  <attribute name="Address" value="71 S Wacker Dr&#xA;Chicago, IL 60606-4637&#xA;United States"/>
+  <attribute name="mail" value="lindburg@us.ibm.com"/>
+  <attribute name="Title" value="Global Cloud Managed Services Sales Leader"/>
+  <attribute name="id" value="lindburg@us.ibm.com"/>
+  <attribute name="sn" value="Lindburg"/>
+  <attribute name="MailAddress" value="lindburg@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1443196014735"/>
+</person>

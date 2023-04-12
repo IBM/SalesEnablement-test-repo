@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<uid>2A0307897</uid>
+<streetAddress>5901 Broken Sound Pkwy Nw
+Boca Raton, FL 33487-2773
+United States</streetAddress>
+<userId>219fec40-8f0a-1028-98ec-db07163b51b2</userId>
+<title>Manager, Cloud Programs</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/hensley_us.ibm.com</photoUri>
+<tel>1-305-259-5572</tel>
+<name>Hensley, Craig</name>
+<email>hensley@us.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=219fec40-8f0a-1028-98ec-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=219fec40-8f0a-1028-98ec-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=219fec40-8f0a-1028-98ec-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=219fec40-8f0a-1028-98ec-db07163b51b2&amp;name=Hensley%2C%20Craig"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=219fec40-8f0a-1028-98ec-db07163b51b2&amp;name=Hensley%2C%20Craig"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/219fec40-8f0a-1028-98ec-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=219fec40-8f0a-1028-98ec-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D219fec40-8f0a-1028-98ec-db07163b51b2%2Cname%3DHensley%2C%20Craig"/>
+</BusinessCardLinks>
+<LastUpdated>1436294348577</LastUpdated>
+<actualtimezoneid>America/New_York</actualtimezoneid>
+<timezoneid>-400</timezoneid>
+<postalCode>33176</postalCode>
+</BusinessCard>

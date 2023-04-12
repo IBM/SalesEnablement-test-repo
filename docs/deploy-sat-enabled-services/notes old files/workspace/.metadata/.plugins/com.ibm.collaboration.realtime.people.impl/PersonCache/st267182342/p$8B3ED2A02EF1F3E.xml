@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="robf@us.ibm.com" displayName="Robert K. (Rob) Floyd" isExternal="false" lastChatTime="1406059830386">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$8B3ED2A02EF1F3E.jpg"/>
+  <attribute name="callupname" value="Robert K. (Rob) Floyd"/>
+  <attribute name="tieline" value="589-4467"/>
+  <attribute name="Telephone" value="589-4467 / 1-352-989-5045"/>
+  <attribute name="worklocation" value="workLoc=FF5,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Cloud Managed Services Lead Network Architect"/>
+  <attribute name="dn" value="uid=4A2004897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Robert K. (Rob) Floyd"/>
+  <attribute name="telephonenumber" value="589-4467 / 1-352-989-5045"/>
+  <attribute name="Address" value="800 N Magnolia Ave&#xA;Ste 1600&#xA;Orlando, FL 32803-3252&#xA;United States"/>
+  <attribute name="mail" value="robf@us.ibm.com"/>
+  <attribute name="Title" value="Cloud Managed Services Lead Network Architect"/>
+  <attribute name="id" value="robf@us.ibm.com"/>
+  <attribute name="sn" value="Floyd"/>
+  <attribute name="MailAddress" value="robf@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1444749296911"/>
+</person>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="bala@us.ibm.com" displayName="Balasubramanian Sivasubramanian" isExternal="false" lastChatTime="1430763855891">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$612FCE69BD86517B.jpg"/>
+  <attribute name="callupname" value="BALASUBRAMANIAN SIVASUBRAMANIAN"/>
+  <attribute name="tieline" value="363-6301"/>
+  <attribute name="Telephone" value="363-6301 / 1-512-286-6301"/>
+  <attribute name="worklocation" value="workLoc=BNT,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="IBM Expert IT Specialist - IBM SW Adoption - Global Account"/>
+  <attribute name="dn" value="uid=6D2827897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="BALASUBRAMANIAN SIVASUBRAMANIAN"/>
+  <attribute name="telephonenumber" value="363-6301 / 1-512-286-6301"/>
+  <attribute name="Address" value="11501 Burnet Rd&#xA;Austin, TX 78758-3400&#xA;United States"/>
+  <attribute name="mail" value="bala@us.ibm.com"/>
+  <attribute name="Title" value="IBM Expert IT Specialist - IBM SW Adoption - Global Account"/>
+  <attribute name="id" value="bala@us.ibm.com"/>
+  <attribute name="sn" value="SIVASUBRAMANIAN"/>
+  <attribute name="MailAddress" value="bala@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1431961319647"/>
+</person>

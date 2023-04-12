@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<streetAddress>3031 N Rocky Point Dr West
+Suite 500
+Tampa, FL 33607-5878
+United States</streetAddress>
+<title>Director - WW Technical Sales and Industry Cloud Solutions</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/chavan_us.ibm.com</photoUri>
+<tel>1-720-396-6392</tel>
+<name>Chavan, Vinod</name>
+<email>chavan@us.ibm.com</email>
+<LastUpdated>1448048670521</LastUpdated>
+<timezoneid>-400</timezoneid>
+<countryName>United States</countryName>
+<locality>TAMPA</locality>
+<org>IBM Cloud</org>
+<userId>6a57a540-8f0a-1028-95c6-db07163b51b2</userId>
+<floor>NA</floor>
+<uid>845978897</uid>
+<officeBuilding>3031</officeBuilding>
+<region>FL</region>
+<role>IBM employee, Regular</role>
+<office>MOBILE</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=6a57a540-8f0a-1028-95c6-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=6a57a540-8f0a-1028-95c6-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=6a57a540-8f0a-1028-95c6-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=6a57a540-8f0a-1028-95c6-db07163b51b2&amp;name=Chavan%2C%20Vinod"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=6a57a540-8f0a-1028-95c6-db07163b51b2&amp;name=Chavan%2C%20Vinod"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/6a57a540-8f0a-1028-95c6-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=6a57a540-8f0a-1028-95c6-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D6a57a540-8f0a-1028-95c6-db07163b51b2%2Cname%3DChavan%2C%20Vinod"/>
+</BusinessCardLinks>
+<actualtimezoneid>America/New_York</actualtimezoneid>
+<postalCode>33647</postalCode>
+</BusinessCard>

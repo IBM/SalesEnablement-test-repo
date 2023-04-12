@@ -1,0 +1,317 @@
+X-Notes-Item: 1;
+ name=$AutoSpell
+X-Notes-Item: Thu, 4 Oct 2012 14:51:01 -0400;
+ type=400; name=OriginalModTime
+X-Notes-Item: Reply;
+ name=Form
+In-Reply-To: <OF4D272EF4.C7316804-ON85257A8D.00652D52-86257A8D.00667467@LocalDomain>
+References: <OF4AA06EE1.37E3EE39-ON85257A8D.0054288B-85257A8D.005D75BB@LocalDomain> <OF4D272EF4.C7316804-ON85257A8D.00652D52-86257A8D.00667467@LocalDomain>
+X-Notes-Item: 4D272EF4:C7316804-85257A8D:00652D52;
+ type=4; name=$REF
+X-Notes-Item: 4AA06EE1:37E3EE39-85257A8D:0054288B, 4AA06EE1:37E3EE39-85257A8D:0054288B, 4D272EF4:C7316804-85257A8D:00652D52;
+ type=4; name=$TUA
+X-Notes-Item: CN=Andrew Jones/OU=Austin/O=IBM;
+ flags=44; name=InheritedFrom
+X-Notes-Item: CN=Andrew Jones/OU=Austin/O=IBM;
+ flags=44; name=InheritedAltFrom
+X-Notes-Item: StdNotesLtr25;
+ name=Logo
+X-Notes-Item: StdNotesLtr25;
+ name=dLogo
+X-Notes-Item: True;
+ name=useApplet
+X-Notes-Item: 1;
+ name=DefaultMailSaveOptions
+X-Notes-Item: 0;
+ name=ExpandPersonalGroups
+X-Notes-Item: ;
+ name=origStat
+X-Notes-Item: ;
+ name=tmpImp
+X-Notes-Item: ;
+ name=Sign
+X-Notes-Item: =?UTF-8?B?VGhhbmtzIEFuZHkuLiBJIHRoaW5rIHRoaXMgaXMgZmluZSAgVGhhbmtzLA==?=;
+ flags=6; name=$Abstract
+X-Notes-Item: IBM Confidential;
+ name=ConfidentialString
+X-Notes-Item: ;
+ name=Classification
+Subject: Re: Suspended VM
+X-KeepSent: FE63EBDD:4876F6FF-85257A8D:00678621;
+ type=4; name=$KeepSent
+To: andrewj@us.ibm.com
+X-Notes-Item: en;
+ type=501; name=$NameLanguageTags
+X-Notes-Item: ;
+ flags=45; name=INetCopyTo
+X-Notes-Item: CN=Andrew Jones/OU=Austin/O=IBM@IBMUS;
+ flags=45; name=AltSendTo
+X-Notes-Item: ;
+ flags=45; name=AltCopyTo
+X-Notes-Item: 1;
+ name=$StorageTo
+X-Notes-Item: ;
+ name=$StorageCc
+X-Mailer: Lotus Notes Release 8.5.1FP5 SHF29 November 12, 2010
+Message-ID: <OFFE63EBDD.4876F6FF-ON85257A8D.00678621-85257A8D.00678CBF@LocalDomain>
+From: sandlebe@us.ibm.com
+Date: Thu, 4 Oct 2012 14:51:02 -0400
+X-Notes-Item: 0;
+ name=Encrypt
+X-Notes-Item: ;
+ name=HasSafeStamp
+X-Notes-Item: CN=D03NM116/OU=03/OU=M/O=IBM,
+	CN=D03HUB01/OU=03/OU=H/O=IBM,
+	CN=D01HUB01/OU=01/OU=H/O=IBM,
+	CN=D01ML084/OU=01/OU=M/O=IBM;
+ type=501; flags=0; name=RouteServers
+X-Notes-Item: =?UTF-8?B?MDQtT2N0LTIwMTIgMTI6NTU6NDUgTURULzA0LU9jdC0yMDEyIDEyOjU1OjQ1?=
+ =?UTF-8?B?IE1EVCwgMDQtT2N0LTIwMTIgMTI6NTU6NDUgTURULzA0LU9jdC0yMDEyIDEy?=
+ =?UTF-8?B?OjU1OjQ1IE1EVCwgMDQtT2N0LTIwMTIgMTQ6NTU6NDUgRURULzA0LU9jdC0=?=
+ =?UTF-8?B?MjAxMiAxNDo1NTo0NSBFRFQsIDA0LU9jdC0yMDEyIDE0OjU1OjQ2IEVEVC8=?=
+ =?UTF-8?B?MDQtT2N0LTIwMTIgMTQ6NTU6NDcgRURU?=;
+ type=401; flags=0; name=RouteTimes
+X-Notes-Item: FE63EBDD:4876F6FF-85257A8D:00678621;
+ type=4; name=$Orig
+X-Notes-Item: CN=Chip Sandleben/OU=Indianapolis/O=IBM,
+	CN=D03NM116/OU=03/OU=M/O=IBM,
+	CN=D03HUB01/OU=03/OU=H/O=IBM,
+	CN=D01HUB01/OU=01/OU=H/O=IBM,
+	CN=D01ML084/OU=01/OU=M/O=IBM;
+ type=501; flags=44; name=$UpdatedBy
+X-Notes-Item: ;
+ type=501; name=Categories
+X-Notes-Item: ;
+ type=401; name=$Revisions
+X-Notes-Item: Thu, 4 Oct 2012 14:55:47 -0400;
+ type=400; name=DeliveredDate
+X-Notes-Item: ;
+ name=$MiniView
+X-Notes-Item: 1;
+ name=$NoteHasNativeMIME
+X-Notes-Item: CN=Andrew Jones/OU=Austin/O=IBM@IBMUS;
+ name=OriginalTo
+X-Notes-Item: CN=Chip Sandleben/OU=Indianapolis/O=IBM;
+ name=OriginalFrom
+X-MIMETrack: Serialize by Notes Client on Andrew Jones/Austin/IBM(Release 8.5.3|September
+ 15, 2011) at 10/04/2012 03:21:29 PM
+MIME-Version: 1.0
+Content-type: multipart/related; 
+	Boundary="0__=0ABBF01EDFF400B18f9e8a93df938690918c0ABBF01EDFF400B1"
+Content-Disposition: inline
+
+--0__=0ABBF01EDFF400B18f9e8a93df938690918c0ABBF01EDFF400B1
+Content-type: text/html; charset=ISO-8859-1
+Content-Disposition: inline
+Content-transfer-encoding: quoted-printable
+
+<html><body>
+<p><font size=3D"2" face=3D"sans-serif">Thanks Andy.. I think this is f=
+ine</font><br>
+<font size=3D"2" face=3D"sans-serif"><br>
+Thanks, <br>
+Chip<br>
+<br>
+Chip Sandleben<br>
+IBM Corporation<br>
+1-720-396-5002 Office</font><br>
+<br>
+<img width=3D"16" height=3D"16" src=3D"cid:0__=3D0ABBF01EDFF400B18f9e8a=
+93df93869091@local" border=3D"0" alt=3D"Inactive hide details for Andre=
+w Jones---10/04/2012 02:39:09 PM---I want to add this guidance to our k=
+nowledge base.  I've done"><font size=3D"2" color=3D"#424282" face=3D"s=
+ans-serif">Andrew Jones---10/04/2012 02:39:09 PM---I want to add this g=
+uidance to our knowledge base. &nbsp;I've done some minor tweaking, but=
+ want to get y</font><br>
+<br>
+
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=
+
+<tr valign=3D"top"><td width=3D"1%"><img width=3D"96" height=3D"1" src=3D=
+"cid:1__=3D0ABBF01EDFF400B18f9e8a93df93869091@local" border=3D"0" alt=3D=
+""><br>
+
+<ul style=3D"padding-left: 4pt"><font size=3D"1" color=3D"#5F5F5F" face=
+=3D"sans-serif">From:</font></ul>
+</td><td width=3D"100%"><img width=3D"1" height=3D"1" src=3D"cid:1__=3D=
+0ABBF01EDFF400B18f9e8a93df93869091@local" border=3D"0" alt=3D""><br>
+<font size=3D"1" face=3D"sans-serif">Andrew Jones/Austin/IBM</font></td=
+></tr>
+
+<tr valign=3D"top"><td width=3D"1%"><img width=3D"96" height=3D"1" src=3D=
+"cid:1__=3D0ABBF01EDFF400B18f9e8a93df93869091@local" border=3D"0" alt=3D=
+""><br>
+
+<ul style=3D"padding-left: 4pt"><font size=3D"1" color=3D"#5F5F5F" face=
+=3D"sans-serif">To:</font></ul>
+</td><td width=3D"100%"><img width=3D"1" height=3D"1" src=3D"cid:1__=3D=
+0ABBF01EDFF400B18f9e8a93df93869091@local" border=3D"0" alt=3D""><br>
+<font size=3D"1" face=3D"sans-serif">Chip Sandleben/Indianapolis/IBM@IB=
+MUS</font></td></tr>
+
+<tr valign=3D"top"><td width=3D"1%"><img width=3D"96" height=3D"1" src=3D=
+"cid:1__=3D0ABBF01EDFF400B18f9e8a93df93869091@local" border=3D"0" alt=3D=
+""><br>
+
+<ul style=3D"padding-left: 4pt"><font size=3D"1" color=3D"#5F5F5F" face=
+=3D"sans-serif">Date:</font></ul>
+</td><td width=3D"100%"><img width=3D"1" height=3D"1" src=3D"cid:1__=3D=
+0ABBF01EDFF400B18f9e8a93df93869091@local" border=3D"0" alt=3D""><br>
+<font size=3D"1" face=3D"sans-serif">10/04/2012 02:39 PM</font></td></t=
+r>
+
+<tr valign=3D"top"><td width=3D"1%"><img width=3D"96" height=3D"1" src=3D=
+"cid:1__=3D0ABBF01EDFF400B18f9e8a93df93869091@local" border=3D"0" alt=3D=
+""><br>
+
+<ul style=3D"padding-left: 4pt"><font size=3D"1" color=3D"#5F5F5F" face=
+=3D"sans-serif">Subject:</font></ul>
+</td><td width=3D"100%"><img width=3D"1" height=3D"1" src=3D"cid:1__=3D=
+0ABBF01EDFF400B18f9e8a93df93869091@local" border=3D"0" alt=3D""><br>
+<font size=3D"1" face=3D"sans-serif">Re: Suspended VM</font></td></tr>
+</table>
+<hr width=3D"100%" size=3D"2" align=3D"left" noshade style=3D"color:#80=
+91A5; "><br>
+<br>
+<font size=3D"2" face=3D"sans-serif">I want to add this guidance to our=
+ knowledge base. &nbsp;I've done some minor tweaking, but want to get y=
+our review to make sure you don't have any issues with my changes:</fon=
+t><br>
+
+<ul style=3D"padding-left: 18pt"><font size=3D"3" face=3D"serif">SCE+ h=
+as the ability to stop a server (virtual machine).=A0 This is accomplis=
+hed through the SCE+ portal via the path: </font>
+<ul style=3D"padding-left: 36pt"><font size=3D"3" face=3D"serif">Home-&=
+gt;Request a New Service-&gt;Server Management-&gt;Server Operations-&g=
+t;Stop Server</font></ul>
+<font size=3D"3" face=3D"serif">When this occurs, the server is charged=
+ a reduced </font><font size=3D"3" face=3D"serif"><i>suspend </i></font=
+><font size=3D"3" face=3D"serif">rate as well as the utilized backup st=
+orage &quot;per GB&quot; charge. =A0<br>
+<br>
+For example:</font>
+<ul style=3D"padding-left: 36pt"><font size=3D"3" face=3D"serif">SCE+ b=
+ills monthly or a fraction of a month for a running small xSeries VM th=
+at includes 1vCPU, 1GB RAM and 64GB storage.=A0 That VM costs ~$430 MRC=
+ plus the backup storage used by the original full backup and the incre=
+mental backps since the VM was provisioned. If it gets suspended (via t=
+he Stop Server action), the VM charge drops to the </font><font size=3D=
+"3" face=3D"serif"><i>suspend </i></font><font size=3D"3" face=3D"serif=
+">rate of=A0 ~$90 MRC.=A0 However, there is still the full charge for t=
+he backup storage used (the amount of the full backup that was created =
+when the VM was originally provisioned as well as the storage for the i=
+ncremental backups). =A0</font></ul>
+<font size=3D"3" face=3D"serif"><b><br>
+It is important to note, however, that=A0 SCE+ was not architected for =
+large volumes of VM's being shut down routinely.=A0 The use case was fo=
+r VM's to be spun up to handle holiday rush for 3 months and then shut =
+down for the other 9 months.=A0 The SCE+ managing infrastructure will n=
+ot support the notion of 100's of VM's stopping in an evening and then =
+starting again the next morning.=A0 If this were to occur the start up =
+time and shutdown times would take hours to complete. There are no SLAs=
+ for the start up/shutdown times.</b></font><font size=3D"3" face=3D"se=
+rif">=A0 </font></ul>
+<br>
+<font size=3D"2" face=3D"sans-serif">Andrew R. Jones<br>
+Phone: 512-286-6864 (T/L 363-6864)<br>
+E-Mail Address: andrewj@us.ibm.com<br>
+</font><br>
+<font size=3D"2" face=3D"sans-serif"><br>
+Senior Cloud Solution Architect<br>
+IBM Global Technology Services<br>
+</font><br>
+<font size=3D"2" face=3D"sans-serif">IBM Master Inventor<br>
+IBM Certified SOA Solution Designer<br>
+IBM Certified IT Architect</font><br>
+<br>
+<br>
+<img width=3D"16" height=3D"16" src=3D"cid:0__=3D0ABBF01EDFF400B18f9e8a=
+93df93869091@local" border=3D"0" alt=3D"Inactive hide details for Chip =
+Sandleben---10/04/2012 12:04:37 PM---Dan,  After much gyration and gnas=
+hing of teeth I think I f"><font size=3D"2" color=3D"#424282" face=3D"s=
+ans-serif">Chip Sandleben---10/04/2012 12:04:37 PM---Dan, &nbsp;After m=
+uch gyration and gnashing of teeth I think I found the answer thanks to=
+ Pat Dolan and J</font><br>
+<br>
+<font size=3D"1" color=3D"#5F5F5F" face=3D"sans-serif">From:	</font><fo=
+nt size=3D"1" face=3D"sans-serif">Chip Sandleben/Indianapolis/IBM</font=
+><br>
+<font size=3D"1" color=3D"#5F5F5F" face=3D"sans-serif">To:	</font><font=
+ size=3D"1" face=3D"sans-serif">Daniel O'Flanagan/UK/IBM@IBMGB, </font>=
+<br>
+<font size=3D"1" color=3D"#5F5F5F" face=3D"sans-serif">Cc:	</font><font=
+ size=3D"1" face=3D"sans-serif">Andrew Jones/Austin/IBM@IBMUS, Patrick =
+K Dolan/Boulder/IBM@IBMUS, Joe Hudson/Boulder/Contr/IBM@IBMUS, Richard =
+Morgan/Atlanta/IBM@IBMUS, Kit Linton/Raleigh/IBM@IBMUS, Diana G Harris/=
+Dallas/Contr/IBM@IBMUS, Peter Gayek/Raleigh/IBM@IBMUS</font><br>
+<font size=3D"1" color=3D"#5F5F5F" face=3D"sans-serif">Date:	</font><fo=
+nt size=3D"1" face=3D"sans-serif">10/04/2012 12:04 PM</font><br>
+<font size=3D"1" color=3D"#5F5F5F" face=3D"sans-serif">Subject:	</font>=
+<font size=3D"1" face=3D"sans-serif">Suspended VM</font><br>
+<hr width=3D"100%" size=3D"2" align=3D"left" noshade style=3D"color:#80=
+91A5; "><br>
+<br>
+<font size=3D"2" face=3D"sans-serif">Dan, </font><br>
+<br>
+<font size=3D"2" face=3D"sans-serif">After much gyration and gnashing o=
+f teeth I think I found the answer thanks to Pat Dolan and Joe Hudson. =
+</font><br>
+<br>
+<font size=3D"2" face=3D"sans-serif">The VM when suspended is charged t=
+he suspend rate plus the utilized backup storage &quot;per GB&quot; cha=
+rge. &nbsp;</font><br>
+<br>
+<font size=3D"2" face=3D"sans-serif">Example, </font><br>
+<br>
+<font size=3D"2" face=3D"sans-serif">We bill monthly or a fraction of a=
+ month for a live small xSeries VM that includes 1vCPU, 1GB RAM and 64G=
+B storage. &nbsp;That VM costs ~$430 MRC plus the backup storage used b=
+y the original full backup and the incrementals since the VM was provis=
+ioned.</font><br>
+<br>
+<font size=3D"2" face=3D"sans-serif">If it gets suspended, the VM charg=
+e drops to the suspend rate of &nbsp;~$90 MRC. &nbsp;However, there is =
+still a charge for the backup storage used. &nbsp;That will be the amou=
+nt of the full backup that was created when the VM was originally provi=
+sioned as well as any changes. &nbsp;</font><br>
+<br>
+<br>
+<font size=3D"2" face=3D"sans-serif">As a reminder though. &nbsp;SCE+ w=
+as not architected for large volumes of VM's being shut down routinely.=
+ &nbsp;The use case was for VM's to be spun up to handle holiday rush f=
+or 3 months and then shut down for the other 9 months. &nbsp;TSAM and t=
+he provisioning infrastructure will not support the notion of 100's of =
+VM's stopping in an evening and then starting again the next morning. &=
+nbsp;If this were to occur the startup time and shutdown times would ta=
+ke hours to complete. </font><br>
+<font size=3D"2" face=3D"sans-serif"><br>
+Thanks, <br>
+Chip<br>
+<br>
+Chip Sandleben<br>
+IBM Corporation<br>
+1-720-396-5002 Office</font><br>
+<br>
+</body></html>=
+
+--0__=0ABBF01EDFF400B18f9e8a93df938690918c0ABBF01EDFF400B1
+Content-type: image/gif; 
+	name="graycol.gif"
+Content-Disposition: inline; filename="graycol.gif"
+Content-ID: <0__=0ABBF01EDFF400B18f9e8a93df93869091@local>
+Content-transfer-encoding: base64
+
+R0lGODlhEAAQAKECAMzMzAAAAP///wAAACH5BAEAAAIALAAAAAAQABAAAAIXlI+py+0PopwxUbpu
+ZRfKZ2zgSJbmSRYAIf4fT3B0aW1pemVkIGJ5IFVsZWFkIFNtYXJ0U2F2ZXIhAAA7
+
+--0__=0ABBF01EDFF400B18f9e8a93df938690918c0ABBF01EDFF400B1
+Content-type: image/gif; 
+	name="ecblank.gif"
+Content-Disposition: inline; filename="ecblank.gif"
+Content-ID: <1__=0ABBF01EDFF400B18f9e8a93df93869091@local>
+Content-transfer-encoding: base64
+
+R0lGODlhEAABAIAAAAAAAP///yH5BAEAAAEALAAAAAAQAAEAAAIEjI8ZBQA7
+
+--0__=0ABBF01EDFF400B18f9e8a93df938690918c0ABBF01EDFF400B1--
+

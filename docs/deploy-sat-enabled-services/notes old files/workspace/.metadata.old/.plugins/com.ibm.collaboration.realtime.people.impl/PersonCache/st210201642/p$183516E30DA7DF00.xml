@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="dadavis@us.ibm.com" displayName="Donovan A. Davis" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$183516E30DA7DF00.jpg"/>
+  <attribute name="callupname" value="Donovan A. Davis"/>
+  <attribute name="Telephone" value="1-302-319-8524"/>
+  <attribute name="worklocation" value="workLoc=WCH,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Transition and Transformation Integration Manager"/>
+  <attribute name="dn" value="uid=810152897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Donovan A. Davis"/>
+  <attribute name="telephonenumber" value="1-302-319-8524"/>
+  <attribute name="Address" value="1475 Phoenixville Pike&#xA;West Chester, PA 19380-1437&#xA;United States"/>
+  <attribute name="mail" value="dadavis@us.ibm.com"/>
+  <attribute name="Title" value="Transition and Transformation Integration Manager"/>
+  <attribute name="sn" value="Davis"/>
+  <attribute name="id" value="dadavis@us.ibm.com"/>
+  <attribute name="MailAddress" value="dadavis@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1410312588380"/>
+</person>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="huynhson@us.ibm.com" displayName="SON X. HUYNH" isExternal="false" lastChatTime="1441813082402">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$5BAAEA9E32CFCA2C.jpg"/>
+  <attribute name="callupname" value="SON X. HUYNH"/>
+  <attribute name="tieline" value="873-2538"/>
+  <attribute name="Telephone" value="873-2538 / 1-610-578-2538"/>
+  <attribute name="worklocation" value="workLoc=WCH,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Cloud Enablement Program Manager"/>
+  <attribute name="dn" value="uid=565387897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="SON X. HUYNH"/>
+  <attribute name="telephonenumber" value="873-2538 / 1-610-578-2538"/>
+  <attribute name="Address" value="1475 Phoenixville Pike&#xA;West Chester, PA 19380-1437&#xA;United States"/>
+  <attribute name="mail" value="huynhson@us.ibm.com"/>
+  <attribute name="Title" value="Cloud Enablement Program Manager"/>
+  <attribute name="id" value="huynhson@us.ibm.com"/>
+  <attribute name="sn" value="HUYNH"/>
+  <attribute name="MailAddress" value="huynhson@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1444659291214"/>
+</person>

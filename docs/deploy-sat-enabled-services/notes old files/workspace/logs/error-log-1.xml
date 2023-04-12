@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/xsl" href="Log_Viewer.xml"?> 
+<CommonBaseEvents>
+<CommonBaseEvent creationTime="2015-12-02T13:53:25.831-06:00" globalInstanceId="EL094123750001516441b0ae00000001" msg="Warnings while parsing the view contributions from the &apos;org.eclipse.ui.viewActions&apos; extension point" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.ui" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:25.832-06:00" globalInstanceId="EL094123750001516441b0ae00000003" msg="Actions require a non-empty label or definitionId: plug-in=&apos;com.ibm.rtc.meetings.library&apos;, id=&apos;AUTOGEN:::com.ibm.rtc.meetings.library.toolbaractions/com.ibm.rtc.meetings.library.ui.actions.addcontentaction&apos;" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.ui" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:25.832-06:00" globalInstanceId="EL094123750001516441b0ae00000005" msg="Actions require a non-empty label or definitionId: plug-in=&apos;com.ibm.rtc.meetings.library&apos;, id=&apos;AUTOGEN:::com.ibm.rtc.meetings.library.toolbaractions/com.ibm.rtc.meetings.library.ui.actions.snapshotaction&apos;" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.ui" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:25.832-06:00" globalInstanceId="EL094123750001516441b0ae00000007" msg="Actions require a non-empty label or definitionId: plug-in=&apos;com.ibm.rtc.meetings.library&apos;, id=&apos;AUTOGEN:::com.ibm.rtc.meetings.library.toolbaractions/com.ibm.rtc.meetings.library.ui.actions.clipboardpasteaction&apos;" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.ui" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:25.832-06:00" globalInstanceId="EL094123750001516441b0ae00000009" msg="Actions require a non-empty label or definitionId: plug-in=&apos;com.ibm.rtc.meetings.polling&apos;, id=&apos;AUTOGEN:::com.ibm.rtc.meetings.polling.actions.pollingactions/com.ibm.rtc.meetings.polling.actions.pollingaction&apos;" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.ui" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:34.312-06:00" globalInstanceId="EL094123750001516441b0ae0000000b" msg="CWPMS0008I: com.ibm.collaboration.realtime.policy.sametime.managedsettings.ManagedSettingsPolicyProvider is not currently available." severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+		<values>com.ibm.rcp.managedsettings.internal.UpdateJob</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+		<values>getProvidersToUpdate</values>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="com.ibm.rcp.managedsettings" threadId="2" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.042-06:00" globalInstanceId="EL094123750001516441b0ae0000000d" msg="NLS unused message: pref_status_msg_title in: com.ibm.collaboration.realtime.imhub.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.043-06:00" globalInstanceId="EL094123750001516441b0ae0000000f" msg="NLS unused message: addUserTitle in: com.ibm.collaboration.realtime.imhub.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.076-06:00" globalInstanceId="EL094123750001516441b0ae00000011" msg="NLS unused message: // in: com.ibm.collaboration.realtime.ui.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.142-06:00" globalInstanceId="EL094123750001516441b0ae00000013" msg="NLS unused message: avshelf_audio_call_only_view_participants_list in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.142-06:00" globalInstanceId="EL094123750001516441b0ae00000015" msg="NLS unused message: video_layout_list_loading_failed in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.142-06:00" globalInstanceId="EL094123750001516441b0ae00000017" msg="NLS unused message: video_layout_selection_failed in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.142-06:00" globalInstanceId="EL094123750001516441b0ae00000019" msg="NLS unused message: video_crashed_after_layout_selection in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.142-06:00" globalInstanceId="EL094123750001516441b0ae0000001b" msg="NLS unused message: label_sametime_unified_telephone in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.142-06:00" globalInstanceId="EL094123750001516441b0ae0000001d" msg="NLS unused message: label_call_notifications_play_sounds in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.142-06:00" globalInstanceId="EL094123750001516441b0ae0000001f" msg="NLS unused message: label_routing_calls_edit in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.143-06:00" globalInstanceId="EL094123750001516441b0ae00000021" msg="NLS unused message: label_routing_calls_specific_people_list in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.143-06:00" globalInstanceId="EL094123750001516441b0ae00000023" msg="NLS unused message: label_routing_calls_timeframe_title in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.143-06:00" globalInstanceId="EL094123750001516441b0ae00000025" msg="NLS unused message: label_routing_calls_rule_in_effect in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.143-06:00" globalInstanceId="EL094123750001516441b0ae00000027" msg="NLS unused message: label_routing_calls_time_range in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.143-06:00" globalInstanceId="EL094123750001516441b0ae00000029" msg="NLS unused message: label_routing_calls_timezone_assigned_by_moderator in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.143-06:00" globalInstanceId="EL094123750001516441b0ae0000002b" msg="NLS unused message: label_routing_calls_specific_people in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.143-06:00" globalInstanceId="EL094123750001516441b0ae0000002d" msg="NLS unused message: label_search_for_existing_contact in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.143-06:00" globalInstanceId="EL094123750001516441b0ae0000002f" msg="NLS unused message: label_routing_calls_rule_applies in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.143-06:00" globalInstanceId="EL094123750001516441b0ae00000031" msg="NLS unused message: label_routing_calls_rules_evaluation in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.143-06:00" globalInstanceId="EL094123750001516441b0ae00000033" msg="NLS unused message: label_accidentally_disconnected_call_window_closes in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.143-06:00" globalInstanceId="EL094123750001516441b0ae00000035" msg="NLS unused message: label_video_camera_properties in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.143-06:00" globalInstanceId="EL094123750001516441b0ae00000037" msg="NLS unused message: label_picture_adjustments in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.143-06:00" globalInstanceId="EL094123750001516441b0ae00000039" msg="NLS unused message: label_new_phonebook_contact in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.144-06:00" globalInstanceId="EL094123750001516441b0ae0000003b" msg="NLS unused message: label_remove_from_phonebook in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.144-06:00" globalInstanceId="EL094123750001516441b0ae0000003d" msg="NLS unused message: label_enter_passcode_and_keys in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.144-06:00" globalInstanceId="EL094123750001516441b0ae0000003f" msg="NLS unused message: avshelf_label_lecture_style_info in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.144-06:00" globalInstanceId="EL094123750001516441b0ae00000041" msg="NLS unused message: avshelf_configure_voice_and_video in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.144-06:00" globalInstanceId="EL094123750001516441b0ae00000043" msg="NLS unused message: avshelf_install_voice_and_video in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.144-06:00" globalInstanceId="EL094123750001516441b0ae00000045" msg="NLS unused message: avshelf_label_open_in_new_window in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.144-06:00" globalInstanceId="EL094123750001516441b0ae00000047" msg="NLS unused message: label_rtcp_aggregrated_statistics in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.144-06:00" globalInstanceId="EL094123750001516441b0ae00000049" msg="NLS unused message: label_rtcp_detailed_statistics in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.144-06:00" globalInstanceId="EL094123750001516441b0ae0000004b" msg="NLS unused message: label_tls_cert_dont_trust in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.144-06:00" globalInstanceId="EL094123750001516441b0ae0000004d" msg="NLS unused message: label_tls_cert_trust_for_session in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.144-06:00" globalInstanceId="EL094123750001516441b0ae0000004f" msg="NLS unused message: label_tls_cert_trust in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.144-06:00" globalInstanceId="EL094123750001516441b0ae00000051" msg="NLS unused message: label_tls_cert_problem_secure_connection in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.144-06:00" globalInstanceId="EL094123750001516441b0ae00000053" msg="NLS unused message: label_tls_cert_unable_to_create_security_connection in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.145-06:00" globalInstanceId="EL094123750001516441b0ae00000055" msg="NLS unused message: label_tls_cert_detils in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.145-06:00" globalInstanceId="EL094123750001516441b0ae00000057" msg="NLS unused message: label_tls_cert_issued_to in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.145-06:00" globalInstanceId="EL094123750001516441b0ae00000059" msg="NLS unused message: label_tls_cert_issued_by in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.145-06:00" globalInstanceId="EL094123750001516441b0ae0000005b" msg="NLS unused message: label_tls_cert_valid_from in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.145-06:00" globalInstanceId="EL094123750001516441b0ae0000005d" msg="NLS unused message: label_sip_call_failure in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.145-06:00" globalInstanceId="EL094123750001516441b0ae0000005f" msg="NLS unused message: label_sip_registration_failure in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.145-06:00" globalInstanceId="EL094123750001516441b0ae00000061" msg="NLS unused message: label_unknow_window_handle in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.145-06:00" globalInstanceId="EL094123750001516441b0ae00000063" msg="NLS unused message: label_unknow_call_handle in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.145-06:00" globalInstanceId="EL094123750001516441b0ae00000065" msg="NLS unused message: label_invalid_microphone in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.145-06:00" globalInstanceId="EL094123750001516441b0ae00000067" msg="NLS unused message: label_invalid_speaker in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.145-06:00" globalInstanceId="EL094123750001516441b0ae00000069" msg="NLS unused message: label_invalidd_camera in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.145-06:00" globalInstanceId="EL094123750001516441b0ae0000006b" msg="NLS unused message: label_registration_falied_invalid_properties in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.145-06:00" globalInstanceId="EL094123750001516441b0ae0000006d" msg="NLS unused message: label_invalid_action_on_sound_file in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.145-06:00" globalInstanceId="EL094123750001516441b0ae0000006f" msg="NLS unused message: label_unable_to_connect_to_server in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.145-06:00" globalInstanceId="EL094123750001516441b0ae00000071" msg="NLS unused message: label_unknow_host in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.146-06:00" globalInstanceId="EL094123750001516441b0ae00000073" msg="NLS unused message: label_camera_not_supported in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.146-06:00" globalInstanceId="EL094123750001516441b0ae00000075" msg="NLS unused message: label_speaker_microphone_not_working in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.146-06:00" globalInstanceId="EL094123750001516441b0ae00000077" msg="NLS unused message: label_unable_to_start_video in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.146-06:00" globalInstanceId="EL094123750001516441b0ae00000079" msg="NLS unused message: label_meeting_room_center_video_quality in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.146-06:00" globalInstanceId="EL094123750001516441b0ae0000007b" msg="NLS unused message: label_meeting_room_center_video_optimization in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.146-06:00" globalInstanceId="EL094123750001516441b0ae0000007d" msg="NLS unused message: label_meeting_room_center_conf_line_rate in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.146-06:00" globalInstanceId="EL094123750001516441b0ae0000007f" msg="NLS unused message: label_meeting_room_center_avsettings in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.146-06:00" globalInstanceId="EL094123750001516441b0ae00000081" msg="NLS unused message: label_meeting_room_center_note in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.146-06:00" globalInstanceId="EL094123750001516441b0ae00000083" msg="NLS unused message: label_meeting_room_center_video_conf_line_rate_note in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.146-06:00" globalInstanceId="EL094123750001516441b0ae00000085" msg="NLS unused message: label_meeting_room_center_video_video_optimization_note in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.146-06:00" globalInstanceId="EL094123750001516441b0ae00000087" msg="NLS unused message: avshelf_edit_room_sametimeav in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.146-06:00" globalInstanceId="EL094123750001516441b0ae00000089" msg="NLS unused message: avshelf_edit_room_service_provider in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.146-06:00" globalInstanceId="EL094123750001516441b0ae0000008b" msg="NLS unused message: avshelf_room_editav_callininfo in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.147-06:00" globalInstanceId="EL094123750001516441b0ae0000008d" msg="NLS unused message: gear_menu_enable_disable_sut in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.147-06:00" globalInstanceId="EL094123750001516441b0ae0000008f" msg="NLS unused message: label_phone_book in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.147-06:00" globalInstanceId="EL094123750001516441b0ae00000091" msg="NLS unused message: menu_close_video_preview in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.147-06:00" globalInstanceId="EL094123750001516441b0ae00000093" msg="NLS unused message: label_pause_video in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.147-06:00" globalInstanceId="EL094123750001516441b0ae00000095" msg="NLS unused message: label_hide_video_preview in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.147-06:00" globalInstanceId="EL094123750001516441b0ae00000097" msg="NLS unused message: label_resume_video in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.147-06:00" globalInstanceId="EL094123750001516441b0ae00000099" msg="NLS unused message: label_show_video in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.147-06:00" globalInstanceId="EL094123750001516441b0ae0000009b" msg="NLS unused message: label_adj_volume in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.147-06:00" globalInstanceId="EL094123750001516441b0ae0000009d" msg="NLS unused message: label_video_statistics in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.147-06:00" globalInstanceId="EL094123750001516441b0ae0000009f" msg="NLS unused message: menu_alerts in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.147-06:00" globalInstanceId="EL094123750001516441b0ae000000a1" msg="NLS unused message: label_addto_phonebook in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.147-06:00" globalInstanceId="EL094123750001516441b0ae000000a3" msg="NLS unused message: dialog_offline_sendemail in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.147-06:00" globalInstanceId="EL094123750001516441b0ae000000a5" msg="NLS unused message: label_email in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.147-06:00" globalInstanceId="EL094123750001516441b0ae000000a7" msg="NLS unused message: label_notification_display in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.147-06:00" globalInstanceId="EL094123750001516441b0ae000000a9" msg="NLS unused message: label_play_alert_for_incoming_computer_calls in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.148-06:00" globalInstanceId="EL094123750001516441b0ae000000ab" msg="NLS unused message: label_user_away in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.148-06:00" globalInstanceId="EL094123750001516441b0ae000000ad" msg="NLS unused message: label_user_in_meeting in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.148-06:00" globalInstanceId="EL094123750001516441b0ae000000af" msg="NLS unused message: label_user_in_dnd in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.148-06:00" globalInstanceId="EL094123750001516441b0ae000000b1" msg="NLS unused message: label_user_is_onphone in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.148-06:00" globalInstanceId="EL094123750001516441b0ae000000b3" msg="NLS unused message: label_auto_close_window in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.148-06:00" globalInstanceId="EL094123750001516441b0ae000000b5" msg="NLS unused message: label_edit_selected_entry in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.148-06:00" globalInstanceId="EL094123750001516441b0ae000000b7" msg="NLS unused message: label_add_to_list in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.148-06:00" globalInstanceId="EL094123750001516441b0ae000000b9" msg="NLS unused message: label_specify_date in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.148-06:00" globalInstanceId="EL094123750001516441b0ae000000bb" msg="NLS unused message: label_apply_time_of_day in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.148-06:00" globalInstanceId="EL094123750001516441b0ae000000bd" msg="NLS unused message: avshelf_label_audio_call_controls_info in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.148-06:00" globalInstanceId="EL094123750001516441b0ae000000bf" msg="NLS unused message: avshelf_label_lecture_style_extra in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.148-06:00" globalInstanceId="EL094123750001516441b0ae000000c1" msg="NLS unused message: click_to_collpase in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2015-12-02T13:53:36.148-06:00" globalInstanceId="EL094123750001516441b0ae000000c3" msg="NLS unused message: label_call_sel_contacts in: com.ibm.collaboration.realtime.telephony.core.strings.messages" severity="30" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string"> 
+			<values>WARNING</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId component="Expeditor 6.2" componentIdType="ProductName" instanceId="1449072544948" location="T520" locationType="Hostname" subComponent="org.eclipse.osgi" threadId="1" componentType="http://www.w3.org/2001/XMLSchema-instance"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+</CommonBaseEvents>

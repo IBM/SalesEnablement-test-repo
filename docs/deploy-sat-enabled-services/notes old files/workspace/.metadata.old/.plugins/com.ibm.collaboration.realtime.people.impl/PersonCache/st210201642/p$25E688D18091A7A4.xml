@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="ukhatwan@us.ibm.com" displayName="Umesh G. Khatwani" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$25E688D18091A7A4.jpg"/>
+  <attribute name="callupname" value="Umesh G. Khatwani"/>
+  <attribute name="tieline" value="363-6971"/>
+  <attribute name="Telephone" value="363-6971 / 1-512-286-6971"/>
+  <attribute name="worklocation" value="workLoc=PLA,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Program Director, AIX OS and I/O Development"/>
+  <attribute name="dn" value="uid=614243897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Umesh G. Khatwani"/>
+  <attribute name="telephonenumber" value="363-6971 / 1-512-286-6971"/>
+  <attribute name="Address" value="11400 Burnet Rd&#xA;Austin, TX 78758-3493&#xA;United States"/>
+  <attribute name="mail" value="ukhatwan@us.ibm.com"/>
+  <attribute name="Title" value="Program Director, AIX OS and I/O Development"/>
+  <attribute name="id" value="ukhatwan@us.ibm.com"/>
+  <attribute name="sn" value="Khatwani"/>
+  <attribute name="MailAddress" value="ukhatwan@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1429187818394"/>
+</person>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="cornette@us.ibm.com" displayName="Joel B. Cornette" isExternal="false" lastChatTime="1432135735456">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$625F81CF68108687.jpg"/>
+  <attribute name="callupname" value="Joel B. Cornette"/>
+  <attribute name="tieline" value="444-7877"/>
+  <attribute name="Telephone" value="444-7877 / 1-919-254-7877"/>
+  <attribute name="worklocation" value="workLoc=RPL,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Global Technical Sales-IBM Cloud Division"/>
+  <attribute name="dn" value="uid=724832897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Joel B. Cornette"/>
+  <attribute name="telephonenumber" value="444-7877 / 1-919-254-7877"/>
+  <attribute name="Address" value="3039 E Cornwallis Rd&#xA;P.O. Box 12195&#xA;Research Triangle Park, NC 27709-2195&#xA;United States"/>
+  <attribute name="mail" value="cornette@us.ibm.com"/>
+  <attribute name="Title" value="Global Technical Sales-IBM Cloud Division"/>
+  <attribute name="id" value="cornette@us.ibm.com"/>
+  <attribute name="sn" value="Cornette"/>
+  <attribute name="MailAddress" value="cornette@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1432736176879"/>
+</person>

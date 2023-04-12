@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="jcurrie1@us.ibm.com" displayName="John M. Currie" isExternal="false" lastChatTime="1354737245330">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$6201B560D889024E.jpg"/>
+  <attribute name="callupname" value="John M. Currie"/>
+  <attribute name="Telephone" value="1-914-391-1192"/>
+  <attribute name="worklocation" value="workLoc=PLP,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Manager, Cloud Infrastructure Services Offerings"/>
+  <attribute name="dn" value="uid=722489897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="John M. Currie"/>
+  <attribute name="telephonenumber" value="1-914-391-1192"/>
+  <attribute name="Address" value="2455 South Rd&#xA;Poughkeepsie, NY 12601-5400&#xA;United States"/>
+  <attribute name="mail" value="jcurrie1@us.ibm.com"/>
+  <attribute name="Title" value="Manager, Cloud Infrastructure Services Offerings"/>
+  <attribute name="sn" value="Currie"/>
+  <attribute name="id" value="jcurrie1@us.ibm.com"/>
+  <attribute name="MailAddress" value="jcurrie1@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1408992457884"/>
+</person>

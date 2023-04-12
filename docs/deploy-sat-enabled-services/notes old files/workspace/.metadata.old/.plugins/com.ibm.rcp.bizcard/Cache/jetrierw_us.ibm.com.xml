@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<uid>6D7145897</uid>
+<streetAddress>650 3Rd Ave. South
+Minneapolis, MN 55402-4300
+United States</streetAddress>
+<userId>55cbff40-4e33-102c-8e9c-980191c9f99a</userId>
+<title>IT Architect</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/jetrierw_us.ibm.com</photoUri>
+<tel>1-651-592-1521</tel>
+<name>TRIERWEILER, JOHN E.</name>
+<email>jetrierw@us.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=55cbff40-4e33-102c-8e9c-980191c9f99a&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=55cbff40-4e33-102c-8e9c-980191c9f99a"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=55cbff40-4e33-102c-8e9c-980191c9f99a"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=55cbff40-4e33-102c-8e9c-980191c9f99a&amp;name=TRIERWEILER%2C%20JOHN%20E."/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=55cbff40-4e33-102c-8e9c-980191c9f99a&amp;name=TRIERWEILER%2C%20JOHN%20E."/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/55cbff40-4e33-102c-8e9c-980191c9f99a"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=55cbff40-4e33-102c-8e9c-980191c9f99a"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D55cbff40-4e33-102c-8e9c-980191c9f99a%2Cname%3DTRIERWEILER%2C%20JOHN%20E."/>
+</BusinessCardLinks>
+<LastUpdated>1435167941532</LastUpdated>
+</BusinessCard>

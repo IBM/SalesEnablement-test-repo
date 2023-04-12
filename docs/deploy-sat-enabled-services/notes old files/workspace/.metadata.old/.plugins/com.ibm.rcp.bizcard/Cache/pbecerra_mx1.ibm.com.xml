@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<name>Becerra Hernandez, Paola</name>
+<LastUpdated>1430767268155</LastUpdated>
+<actualtimezoneid>America/Mexico_City</actualtimezoneid>
+<timezoneid>-500</timezoneid>
+<uid>062395781</uid>
+<userId>24e7a7c0-8f0b-1028-9111-db07163b51b2</userId>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/pbecerra_mx1.ibm.com</photoUri>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=24e7a7c0-8f0b-1028-9111-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=24e7a7c0-8f0b-1028-9111-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=24e7a7c0-8f0b-1028-9111-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=24e7a7c0-8f0b-1028-9111-db07163b51b2&amp;name=Becerra%20Hernandez%2C%20Paola"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=24e7a7c0-8f0b-1028-9111-db07163b51b2&amp;name=Becerra%20Hernandez%2C%20Paola"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/24e7a7c0-8f0b-1028-9111-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=24e7a7c0-8f0b-1028-9111-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D24e7a7c0-8f0b-1028-9111-db07163b51b2%2Cname%3DBecerra%20Hernandez%2C%20Paola"/>
+</BusinessCardLinks>
+<streetAddress>Alfonso Napoles Gandara 3111
+Mexico City, DIF 01210
+Mexico</streetAddress>
+<title>GTS Cloud Services Sales Manager</title>
+<tel>828-6608 / 111-525-270-6608</tel>
+<email>pbecerra@mx1.ibm.com</email>
+</BusinessCard>

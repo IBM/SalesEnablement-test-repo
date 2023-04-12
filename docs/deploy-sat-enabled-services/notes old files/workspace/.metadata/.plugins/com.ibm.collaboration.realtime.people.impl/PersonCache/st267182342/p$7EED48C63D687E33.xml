@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="rsimonis@us.ibm.com" displayName="rsimonis@us.ibm.com - Ruth Simonis/Cleveland/IBM" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$7EED48C63D687E33.jpg"/>
+  <attribute name="callupname" value="Ruth M. (RUTH) Simonis"/>
+  <attribute name="Telephone" value="1-216-731-3868"/>
+  <attribute name="worklocation" value="workLoc=HI5,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Delivery Program Executive - Global Cloud Client Services Center of Excellence"/>
+  <attribute name="dn" value="uid=2D7265897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Ruth M. (RUTH) Simonis"/>
+  <attribute name="telephonenumber" value="1-216-731-3868"/>
+  <attribute name="Address" value="1228 Euclid Ave&#xA;9Th Floor&#xA;Cleveland, OH 44115-1845&#xA;United States"/>
+  <attribute name="mail" value="rsimonis@us.ibm.com"/>
+  <attribute name="Title" value="Delivery Program Executive - Global Cloud Client Services Center of Excellence"/>
+  <attribute name="sn" value="Simonis"/>
+  <attribute name="id" value="rsimonis@us.ibm.com"/>
+  <attribute name="MailAddress" value="rsimonis@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1449071095559"/>
+</person>

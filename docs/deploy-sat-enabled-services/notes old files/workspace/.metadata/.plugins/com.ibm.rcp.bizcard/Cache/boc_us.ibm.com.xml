@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>United States</countryName>
+<locality>RESEARCH TRIANGLE PARK</locality>
+<org>GTS, Technology Innovation and Automation</org>
+<userId>2795cd40-8f0a-1028-905a-db07163b51b2</userId>
+<name>OConnell, Brian M.</name>
+<floor>01</floor>
+<uid>321759897</uid>
+<officeBuilding>062</officeBuilding>
+<streetAddress>3039 E Cornwallis Rd
+P.O. Box 12195
+Research Triangle Park, NC 27709-2195
+United States</streetAddress>
+<region>NC</region>
+<role>IBM employee, Regular</role>
+<title>STSM, Master Inventor</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/boc_us.ibm.com</photoUri>
+<tel>1-919-254-7142</tel>
+<email>boc@us.ibm.com</email>
+<office>R103L</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=2795cd40-8f0a-1028-905a-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=2795cd40-8f0a-1028-905a-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=2795cd40-8f0a-1028-905a-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=2795cd40-8f0a-1028-905a-db07163b51b2&amp;name=OConnell%2C%20Brian%20M."/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=2795cd40-8f0a-1028-905a-db07163b51b2&amp;name=OConnell%2C%20Brian%20M."/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/2795cd40-8f0a-1028-905a-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=2795cd40-8f0a-1028-905a-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D2795cd40-8f0a-1028-905a-db07163b51b2%2Cname%3DOConnell%2C%20Brian%20M."/>
+</BusinessCardLinks>
+<LastUpdated>1444933200229</LastUpdated>
+<timezoneid>-400</timezoneid>
+</BusinessCard>

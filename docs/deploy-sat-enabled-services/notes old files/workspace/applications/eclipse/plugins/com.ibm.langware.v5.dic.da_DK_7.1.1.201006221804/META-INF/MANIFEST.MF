@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-Name: Danish(Denmark) Dictionary
+Created-By: 2.3 (IBM Corporation)
+Ant-Version: Apache Ant 1.7.0
+Bundle-Vendor: IBM
+Bundle-ManifestVersion: 2
+Fragment-Host: com.ibm.langware.v5;bundle-version="7.0.0"
+Bundle-SymbolicName: com.ibm.langware.v5.dic.da_DK;singleton:=true
+Bundle-Version: 7.1.1.201006221804
+
+Name: dictionaries/da-DK-LSpell-7000.dic
+SHA1-Digest: CDNypIDrGW62vIuJyriy9wwcmt8=
+
+Name: copyright.txt
+SHA1-Digest: Zmyi+Kh+EXIivJ6Gex4MGwlwurg=
+
+Name: about.html
+SHA1-Digest: dQHlcrUJtjI1RzS9Vwqihw23FE0=
+
+Name: fragment.xml
+SHA1-Digest: R3SaYHvIHjqkJ/NgDQrD6q/JfUw=
+

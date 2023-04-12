@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="pchung@ca.ibm.com" displayName="Patrick (P.A.) Chung Tze Cheong" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$AB00CF545FA0865.jpg"/>
+  <attribute name="callupname" value="Patrick (P.A.) Chung Tze Cheong"/>
+  <attribute name="tieline" value="314-2144"/>
+  <attribute name="Telephone" value="314-2144 / 1-514-964-2144"/>
+  <attribute name="worklocation" value="workLoc=C4R,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="IT Specialist"/>
+  <attribute name="dn" value="uid=080014649,c=ca,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Patrick (P.A.) Chung Tze Cheong"/>
+  <attribute name="telephonenumber" value="314-2144 / 1-514-964-2144"/>
+  <attribute name="Address" value="1360 Rene Levesque Blvd. West&#xA;Montreal, QC H3G 2W6&#xA;Canada"/>
+  <attribute name="mail" value="pchung@ca.ibm.com"/>
+  <attribute name="Title" value="IT Specialist"/>
+  <attribute name="id" value="pchung@ca.ibm.com"/>
+  <attribute name="sn" value="Chung Tze Cheong"/>
+  <attribute name="MailAddress" value="pchung@ca.ibm.com"/>
+  <attribute name="lastUpdate" value="1395330513554"/>
+</person>

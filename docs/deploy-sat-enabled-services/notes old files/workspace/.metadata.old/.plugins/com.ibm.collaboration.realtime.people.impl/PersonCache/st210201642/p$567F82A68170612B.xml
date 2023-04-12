@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="kweir@us.ibm.com" displayName="Kraig C. Weir" isExternal="false" lastChatTime="1395863811953">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$567F82A68170612B.jpg"/>
+  <attribute name="callupname" value="Kraig C. Weir"/>
+  <attribute name="Telephone" value="1-925-989-6141"/>
+  <attribute name="worklocation" value="workLoc=ECR,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="."/>
+  <attribute name="dn" value="uid=2D7049897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Kraig C. Weir"/>
+  <attribute name="telephonenumber" value="1-925-989-6141"/>
+  <attribute name="Address" value="2929 N Central Ave&#xA;Phoenix, AZ 85012-2727&#xA;United States"/>
+  <attribute name="mail" value="kweir@us.ibm.com"/>
+  <attribute name="Title" value="."/>
+  <attribute name="sn" value="WEIR"/>
+  <attribute name="id" value="kweir@us.ibm.com"/>
+  <attribute name="MailAddress" value="kweir@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1397046228132"/>
+</person>

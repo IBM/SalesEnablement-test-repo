@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="biuppa@us.ibm.com" displayName="Joseph B. (Bruce) Iuppa" isExternal="false" lastChatTime="1405515203179">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$27BC38EF3539C6BC.jpg"/>
+  <attribute name="callupname" value="Joseph B. (Bruce) Iuppa"/>
+  <attribute name="Telephone" value="1-585-388-7913"/>
+  <attribute name="worklocation" value="workLoc=KDC,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Delivery Focal Point Network, SMBDI"/>
+  <attribute name="dn" value="uid=3A5731897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Joseph B. (Bruce) Iuppa"/>
+  <attribute name="telephonenumber" value="1-585-388-7913"/>
+  <attribute name="Address" value="1630 Long Pond Rd&#xA;Rochester, NY 14626-1496&#xA;United States"/>
+  <attribute name="mail" value="biuppa@us.ibm.com"/>
+  <attribute name="Title" value="Delivery Focal Point Network, SMBDI"/>
+  <attribute name="sn" value="Iuppa"/>
+  <attribute name="id" value="biuppa@us.ibm.com"/>
+  <attribute name="MailAddress" value="biuppa@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1407203003534"/>
+</person>

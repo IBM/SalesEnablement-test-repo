@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<uid>409322897</uid>
+<userId>341a25c0-8f0a-1028-826d-db07163b51b2</userId>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/lg_us.ibm.com</photoUri>
+<name>Gable, Lisa A.</name>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=341a25c0-8f0a-1028-826d-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=341a25c0-8f0a-1028-826d-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=341a25c0-8f0a-1028-826d-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=341a25c0-8f0a-1028-826d-db07163b51b2&amp;name=Gable%2C%20Lisa%20A."/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=341a25c0-8f0a-1028-826d-db07163b51b2&amp;name=Gable%2C%20Lisa%20A."/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/341a25c0-8f0a-1028-826d-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=341a25c0-8f0a-1028-826d-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D341a25c0-8f0a-1028-826d-db07163b51b2%2Cname%3DGable%2C%20Lisa%20A."/>
+</BusinessCardLinks>
+<LastUpdated>1429187075399</LastUpdated>
+<timezoneid>-500</timezoneid>
+<streetAddress>11501 Burnet Rd
+Austin, TX 78758-3400
+United States</streetAddress>
+<title>Manager, Pathways Program</title>
+<tel>363-6249 / 1-512-286-6249</tel>
+<email>lg@us.ibm.com</email>
+</BusinessCard>

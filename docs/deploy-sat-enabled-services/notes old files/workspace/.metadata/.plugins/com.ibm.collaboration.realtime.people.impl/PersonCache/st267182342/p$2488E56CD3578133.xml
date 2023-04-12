@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="kmctigue@us.ibm.com" displayName="Ken McTigue" isExternal="false" lastChatTime="1443711332521">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$2488E56CD3578133.jpg"/>
+  <attribute name="callupname" value="Ken McTigue"/>
+  <attribute name="tieline" value="676-8469"/>
+  <attribute name="Telephone" value="676-8469 / 1-720-395-8469"/>
+  <attribute name="worklocation" value="workLoc=SUF,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="VP, Cloud Services GTS Integration"/>
+  <attribute name="dn" value="uid=875589897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Ken McTigue"/>
+  <attribute name="telephonenumber" value="676-8469 / 1-720-395-8469"/>
+  <attribute name="Address" value="299-300 Long Meadow Rd&#xA;P.O. Box 700&#xA;Sterling Forest, NY 10979-0700&#xA;United States"/>
+  <attribute name="mail" value="kmctigue@us.ibm.com"/>
+  <attribute name="Title" value="VP, Cloud Services GTS Integration"/>
+  <attribute name="id" value="kmctigue@us.ibm.com"/>
+  <attribute name="sn" value="McTigue"/>
+  <attribute name="MailAddress" value="kmctigue@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1446822127456"/>
+</person>

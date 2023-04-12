@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>United States</countryName>
+<locality>BALTIMORE</locality>
+<org>IBM Software Sales</org>
+<userId>ccfc7140-8f09-1028-971d-db07163b51b2</userId>
+<name>Notaro, Peter J. (Pete)</name>
+<floor>NA</floor>
+<uid>032108897</uid>
+<officeBuilding>100</officeBuilding>
+<streetAddress>100 E Pratt St
+Baltimore, MD 21202-1009
+United States</streetAddress>
+<region>MD</region>
+<role>IBM employee, Regular</role>
+<title>Director, NA Cloud Services</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/pnotaro_us.ibm.com</photoUri>
+<tel>1-410-332-2120</tel>
+<email>pnotaro@us.ibm.com</email>
+<office>MOBILE</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=ccfc7140-8f09-1028-971d-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=ccfc7140-8f09-1028-971d-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=ccfc7140-8f09-1028-971d-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=ccfc7140-8f09-1028-971d-db07163b51b2&amp;name=Notaro%2C%20Peter%20J.%20%28Pete%29"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=ccfc7140-8f09-1028-971d-db07163b51b2&amp;name=Notaro%2C%20Peter%20J.%20%28Pete%29"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/ccfc7140-8f09-1028-971d-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=ccfc7140-8f09-1028-971d-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Dccfc7140-8f09-1028-971d-db07163b51b2%2Cname%3DNotaro%2C%20Peter%20J.%20%28Pete%29"/>
+</BusinessCardLinks>
+<LastUpdated>1441915640535</LastUpdated>
+</BusinessCard>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>Belgium</countryName>
+<locality>BRUSSELS</locality>
+<org>IBM Cloud</org>
+<userId>ab02eec0-8f09-1028-82b9-db07163b51b2</userId>
+<name>Mottiat, Frederic</name>
+<floor>A2</floor>
+<officeBuilding>BELE</officeBuilding>
+<uid>001627624</uid>
+<role>IBM employee, Regular</role>
+<title>SoftLayer Strategic Partners &amp; Industry Alignement, Europe</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/frederic_mottiat_be.ibm.com</photoUri>
+<tel>32-2-339-5191</tel>
+<email>frederic_mottiat@be.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=ab02eec0-8f09-1028-82b9-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=ab02eec0-8f09-1028-82b9-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=ab02eec0-8f09-1028-82b9-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=ab02eec0-8f09-1028-82b9-db07163b51b2&amp;name=Mottiat%2C%20Frederic"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=ab02eec0-8f09-1028-82b9-db07163b51b2&amp;name=Mottiat%2C%20Frederic"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/ab02eec0-8f09-1028-82b9-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=ab02eec0-8f09-1028-82b9-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Dab02eec0-8f09-1028-82b9-db07163b51b2%2Cname%3DMottiat%2C%20Frederic"/>
+</BusinessCardLinks>
+<LastUpdated>1441917132589</LastUpdated>
+</BusinessCard>

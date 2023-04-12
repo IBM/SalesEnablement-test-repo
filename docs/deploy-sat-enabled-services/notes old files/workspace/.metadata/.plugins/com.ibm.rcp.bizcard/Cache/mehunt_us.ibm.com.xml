@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<streetAddress>2710 S Gateway Oaks Dr
+Suite 200
+Sacramento, CA 95833-4307
+United States</streetAddress>
+<title>Cloud Engineer</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/mehunt_us.ibm.com</photoUri>
+<tel>1-530-878-1338</tel>
+<name>HUNT, MARY E.</name>
+<email>mehunt@us.ibm.com</email>
+<LastUpdated>1441140437115</LastUpdated>
+<actualtimezoneid>America/Los_Angeles</actualtimezoneid>
+<timezoneid>-700</timezoneid>
+<postalCode>95602</postalCode>
+<countryName>United States</countryName>
+<locality>SACRAMENTO</locality>
+<org>IBM Cloud</org>
+<userId>78ac8fc0-407f-102f-83a8-f96b542d5e60</userId>
+<floor>NA</floor>
+<uid>0G0475897</uid>
+<officeBuilding>9714</officeBuilding>
+<region>CA</region>
+<role>IBM employee, Regular</role>
+<office>MOBILE</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=78ac8fc0-407f-102f-83a8-f96b542d5e60&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=78ac8fc0-407f-102f-83a8-f96b542d5e60"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=78ac8fc0-407f-102f-83a8-f96b542d5e60"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=78ac8fc0-407f-102f-83a8-f96b542d5e60&amp;name=HUNT%2C%20MARY%20E."/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=78ac8fc0-407f-102f-83a8-f96b542d5e60&amp;name=HUNT%2C%20MARY%20E."/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/78ac8fc0-407f-102f-83a8-f96b542d5e60"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=78ac8fc0-407f-102f-83a8-f96b542d5e60"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D78ac8fc0-407f-102f-83a8-f96b542d5e60%2Cname%3DHUNT%2C%20MARY%20E."/>
+</BusinessCardLinks>
+</BusinessCard>

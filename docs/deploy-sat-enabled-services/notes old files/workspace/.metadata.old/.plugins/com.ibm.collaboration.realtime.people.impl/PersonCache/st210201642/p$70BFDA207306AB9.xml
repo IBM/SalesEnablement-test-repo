@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="archie1@us.ibm.com" displayName="Archie L. Slaughter" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$70BFDA207306AB9.jpg"/>
+  <attribute name="callupname" value="Archie L. Slaughter"/>
+  <attribute name="tieline" value="938-1994"/>
+  <attribute name="Telephone" value="938-1994 / 1-720-396-1994"/>
+  <attribute name="worklocation" value="workLoc=EP8,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Base Growth, Solution Manager"/>
+  <attribute name="dn" value="uid=974201897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Archie L. Slaughter"/>
+  <attribute name="telephonenumber" value="938-1994 / 1-720-396-1994"/>
+  <attribute name="Address" value="8275 Tournament Dr&#xA;Suite 300&#xA;Memphis, TN 38125-8882&#xA;United States"/>
+  <attribute name="mail" value="archie1@us.ibm.com"/>
+  <attribute name="Title" value="Base Growth, Solution Manager"/>
+  <attribute name="id" value="archie1@us.ibm.com"/>
+  <attribute name="sn" value="Slaughter"/>
+  <attribute name="MailAddress" value="archie1@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1400592402182"/>
+</person>

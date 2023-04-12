@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="mwaldbus@us.ibm.com" displayName="Matthew A. Waldbusser" isExternal="false" lastChatTime="1412257974252">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$4267C07E1CC771C0.jpg"/>
+  <attribute name="callupname" value="Matthew Waldbusser"/>
+  <attribute name="Telephone" value="1-512-573-3199"/>
+  <attribute name="worklocation" value="workLoc=BNT,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Director - Bluemix Garage and Lab Services"/>
+  <attribute name="dn" value="uid=994356897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Matthew Waldbusser"/>
+  <attribute name="telephonenumber" value="1-512-573-3199"/>
+  <attribute name="Address" value="11501 Burnet Rd&#xA;Austin, TX 78758-3400&#xA;United States"/>
+  <attribute name="mail" value="mwaldbus@us.ibm.com"/>
+  <attribute name="Title" value="Director - Bluemix Garage and Lab Services"/>
+  <attribute name="sn" value="Waldbusser"/>
+  <attribute name="id" value="mwaldbus@us.ibm.com"/>
+  <attribute name="MailAddress" value="mwaldbus@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1420552699924"/>
+</person>

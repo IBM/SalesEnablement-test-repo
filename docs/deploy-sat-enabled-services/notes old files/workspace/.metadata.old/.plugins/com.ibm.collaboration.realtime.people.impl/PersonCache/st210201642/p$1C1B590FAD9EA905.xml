@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="NGLOVER@uk.ibm.com" displayName="N (Neil) Glover" isExternal="false" lastChatTime="1422440029226">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$1C1B590FAD9EA905.jpg"/>
+  <attribute name="callupname" value="N (Neil) Glover"/>
+  <attribute name="tieline" value="270703"/>
+  <attribute name="Telephone" value="270703 / 44-7753-832162"/>
+  <attribute name="worklocation" value="workLoc=HUR,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Senior Technical Solution &amp; Project Manager - Global Complex Opportunity Support"/>
+  <attribute name="dn" value="uid=044232866,c=gb,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="N (Neil) Glover"/>
+  <attribute name="telephonenumber" value="270703 / 44-7753-832162"/>
+  <attribute name="Address" value="Hursley Park&#xA;Hursley SO212JN&#xA;United Kingdom"/>
+  <attribute name="mail" value="NGLOVER@uk.ibm.com"/>
+  <attribute name="Title" value="Senior Technical Solution &amp; Project Manager - Global Complex Opportunity Support"/>
+  <attribute name="id" value="NGLOVER@uk.ibm.com"/>
+  <attribute name="sn" value="Glover"/>
+  <attribute name="MailAddress" value="NGLOVER@uk.ibm.com"/>
+  <attribute name="lastUpdate" value="1426178794732"/>
+</person>

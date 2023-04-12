@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<name>Mackowiak, Pawel</name>
+<LastUpdated>1411730013747</LastUpdated>
+<actualtimezoneid>Europe/Berlin</actualtimezoneid>
+<timezoneid>+100</timezoneid>
+<uid>P00137820</uid>
+<streetAddress>Ul. Muchoborska 8
+Wojdyla Business Park
+Wroclaw 54424
+Poland</streetAddress>
+<userId>1f1d93c0-48c6-1033-89c7-da464da4668d</userId>
+<title>Technical Solution Manager</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/pawel.mackowiak_pl.ibm.com</photoUri>
+<tel>6949 / 48-71-760-6949</tel>
+<email>pawel.mackowiak@pl.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=1f1d93c0-48c6-1033-89c7-da464da4668d&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=1f1d93c0-48c6-1033-89c7-da464da4668d"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=1f1d93c0-48c6-1033-89c7-da464da4668d"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=1f1d93c0-48c6-1033-89c7-da464da4668d&amp;name=Mackowiak%2C%20Pawel"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=1f1d93c0-48c6-1033-89c7-da464da4668d&amp;name=Mackowiak%2C%20Pawel"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/1f1d93c0-48c6-1033-89c7-da464da4668d"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=1f1d93c0-48c6-1033-89c7-da464da4668d"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D1f1d93c0-48c6-1033-89c7-da464da4668d%2Cname%3DMackowiak%2C%20Pawel"/>
+</BusinessCardLinks>
+</BusinessCard>

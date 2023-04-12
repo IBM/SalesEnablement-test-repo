@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<uid>600135659</uid>
+<userId>2ae6c240-c6b0-102e-9dcf-da4e2c4426f0</userId>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/pbarquer_cr.ibm.com</photoUri>
+<name>Barquero Garro, Pablo</name>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=2ae6c240-c6b0-102e-9dcf-da4e2c4426f0&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=2ae6c240-c6b0-102e-9dcf-da4e2c4426f0"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=2ae6c240-c6b0-102e-9dcf-da4e2c4426f0"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=2ae6c240-c6b0-102e-9dcf-da4e2c4426f0&amp;name=Barquero%20Garro%2C%20Pablo"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=2ae6c240-c6b0-102e-9dcf-da4e2c4426f0&amp;name=Barquero%20Garro%2C%20Pablo"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/2ae6c240-c6b0-102e-9dcf-da4e2c4426f0"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=2ae6c240-c6b0-102e-9dcf-da4e2c4426f0"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D2ae6c240-c6b0-102e-9dcf-da4e2c4426f0%2Cname%3DBarquero%20Garro%2C%20Pablo"/>
+</BusinessCardLinks>
+<LastUpdated>1428075420619</LastUpdated>
+</BusinessCard>

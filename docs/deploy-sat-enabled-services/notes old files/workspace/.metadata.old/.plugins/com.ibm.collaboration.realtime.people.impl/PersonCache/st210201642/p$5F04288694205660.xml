@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="ocasioj@us.ibm.com" displayName="Jose Ocasio" isExternal="false" lastChatTime="1432135024410">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$5F04288694205660.jpg"/>
+  <attribute name="callupname" value="Jose Ocasio"/>
+  <attribute name="tieline" value="676-3238"/>
+  <attribute name="Telephone" value="676-3238 / 1-720-395-3238"/>
+  <attribute name="worklocation" value="workLoc=CNY,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Technical Solutions Architect - Shared Cloud Services - US"/>
+  <attribute name="dn" value="uid=898676897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Jose Ocasio"/>
+  <attribute name="telephonenumber" value="676-3238 / 1-720-395-3238"/>
+  <attribute name="Address" value="1 North Castle Dr&#xA;Armonk, NY 10504-1785&#xA;United States"/>
+  <attribute name="mail" value="ocasioj@us.ibm.com"/>
+  <attribute name="Title" value="Technical Solutions Architect - Shared Cloud Services - US"/>
+  <attribute name="id" value="ocasioj@us.ibm.com"/>
+  <attribute name="sn" value="Ocasio"/>
+  <attribute name="MailAddress" value="ocasioj@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1432135024510"/>
+</person>

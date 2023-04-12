@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="schmidtb@us.ibm.com" displayName="Birgit Schmidt-Wesche" isExternal="false" lastChatTime="1365019739185">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$648AF22DDBD7AFB0.jpg"/>
+  <attribute name="callupname" value="Birgit Schmidt-Wesche"/>
+  <attribute name="tieline" value="938-9921"/>
+  <attribute name="Telephone" value="938-9921 / 1-720-396-9921"/>
+  <attribute name="worklocation" value="workLoc=CNY,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="SCE+ Roadmap &amp; Requirements Manager - Cloud Computing scenarios &amp; user roles"/>
+  <attribute name="dn" value="uid=034154897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Birgit Schmidt-Wesche"/>
+  <attribute name="telephonenumber" value="938-9921 / 1-720-396-9921"/>
+  <attribute name="Address" value="1 North Castle Dr&#xA;Armonk, NY 10504-1785&#xA;United States"/>
+  <attribute name="mail" value="schmidtb@us.ibm.com"/>
+  <attribute name="Title" value="SCE+ Roadmap &amp; Requirements Manager - Cloud Computing scenarios &amp; user roles"/>
+  <attribute name="id" value="schmidtb@us.ibm.com"/>
+  <attribute name="sn" value="Schmidt-Wesche"/>
+  <attribute name="MailAddress" value="schmidtb@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1381837647666"/>
+</person>

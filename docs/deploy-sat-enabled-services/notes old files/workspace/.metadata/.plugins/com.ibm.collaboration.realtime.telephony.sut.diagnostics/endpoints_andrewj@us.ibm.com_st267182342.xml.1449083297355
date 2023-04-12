@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpointPreferences>
+   <endpoints>
+      <endpoint key="79dd505969b14b0b8b1da6ed23bf8c00">
+         <addressUri>tel:23636864</addressUri>
+         <description>Office</description>
+         <displayValue>23636864</displayValue>
+         <isComputer>false</isComputer>
+         <isNonSutEndpoint>false</isNonSutEndpoint>
+         <isSutSoftphone>false</isSutSoftphone>
+         <isTelephone>true</isTelephone>
+         <isUserDefined>false</isUserDefined>
+         <isVideoDevice>false</isVideoDevice>
+         <isVoicemailDevice>false</isVoicemailDevice>
+         <label>Office</label>
+         <noAnswerSeconds>10</noAnswerSeconds>
+      </endpoint>
+      <endpoint key="c1c0b86945fe4c9ead345d69ce4a30ad">
+         <addressUri>tel:+15129178023</addressUri>
+         <description>Cell</description>
+         <displayValue>+15129178023</displayValue>
+         <isComputer>false</isComputer>
+         <isNonSutEndpoint>false</isNonSutEndpoint>
+         <isSutSoftphone>false</isSutSoftphone>
+         <isTelephone>true</isTelephone>
+         <isUserDefined>true</isUserDefined>
+         <isVideoDevice>false</isVideoDevice>
+         <isVoicemailDevice>false</isVoicemailDevice>
+         <label>Cell</label>
+         <noAnswerSeconds>10</noAnswerSeconds>
+      </endpoint>
+   </endpoints>
+   <callRoutingConditions>
+      <callRoutingCondition key="SUT_DEFAULT_EC">
+         <location>any</location>
+         <preferredEndpoint>79dd505969b14b0b8b1da6ed23bf8c00</preferredEndpoint>
+         <status>any</status>
+         <isDefault>true</isDefault>
+         <isEnabled>true</isEnabled>
+      </callRoutingCondition>
+   </callRoutingConditions>
+</endpointPreferences>

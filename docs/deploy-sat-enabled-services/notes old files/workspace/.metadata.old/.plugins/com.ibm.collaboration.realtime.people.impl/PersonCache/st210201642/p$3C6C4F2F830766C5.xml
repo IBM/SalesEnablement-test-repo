@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="merenda@us.ibm.com" displayName="merenda@us.ibm.com - Edward Merenda/Poughkeepsie/IBM" isExternal="false" lastChatTime="1426259176573">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$3C6C4F2F830766C5.jpg"/>
+  <attribute name="callupname" value="Edward Merenda"/>
+  <attribute name="Telephone" value="1-845-635-3391"/>
+  <attribute name="worklocation" value="workLoc=PLP,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="global Technical Sales lead for Cloud Managed Services"/>
+  <attribute name="dn" value="uid=220074897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Edward Merenda"/>
+  <attribute name="telephonenumber" value="1-845-635-3391"/>
+  <attribute name="Address" value="2455 South Rd&#xA;Poughkeepsie, NY 12601-5400&#xA;United States"/>
+  <attribute name="mail" value="merenda@us.ibm.com"/>
+  <attribute name="Title" value="global Technical Sales lead for Cloud Managed Services"/>
+  <attribute name="sn" value="Merenda"/>
+  <attribute name="id" value="merenda@us.ibm.com"/>
+  <attribute name="MailAddress" value="merenda@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1435777225560"/>
+</person>

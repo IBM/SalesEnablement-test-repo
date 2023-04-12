@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<uid>C-D539897</uid>
+<userId>1d3d8640-0251-1031-8ec5-fc8ed460f1bb</userId>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/events1_us.ibm.com</photoUri>
+<name>IBM Learning Events *APPLICATION-ID*</name>
+<email>events1@us.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=1d3d8640-0251-1031-8ec5-fc8ed460f1bb&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=1d3d8640-0251-1031-8ec5-fc8ed460f1bb"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=1d3d8640-0251-1031-8ec5-fc8ed460f1bb"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=1d3d8640-0251-1031-8ec5-fc8ed460f1bb&amp;name=IBM%20Learning%20Events%20*APPLICATION-ID*"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=1d3d8640-0251-1031-8ec5-fc8ed460f1bb&amp;name=IBM%20Learning%20Events%20*APPLICATION-ID*"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/1d3d8640-0251-1031-8ec5-fc8ed460f1bb"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=1d3d8640-0251-1031-8ec5-fc8ed460f1bb"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D1d3d8640-0251-1031-8ec5-fc8ed460f1bb%2Cname%3DIBM%20Learning%20Events%20*APPLICATION-ID*"/>
+</BusinessCardLinks>
+<LastUpdated>1425390604432</LastUpdated>
+</BusinessCard>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="cbryan@us.ibm.com" displayName="Charles L. (Chuck) Bryan" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$1F2A81CCEB4E3CCC.jpg"/>
+  <attribute name="callupname" value="Charles L. (Chuck) Bryan"/>
+  <attribute name="Telephone" value="1-215-794-3758"/>
+  <attribute name="worklocation" value="workLoc=A49,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Linux and Power Growth Solutions Team Leader"/>
+  <attribute name="dn" value="uid=035398897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Charles L. (Chuck) Bryan"/>
+  <attribute name="telephonenumber" value="1-215-794-3758"/>
+  <attribute name="Address" value="30 S 17Th St&#xA;Philadelphia, PA 19103-4001&#xA;United States"/>
+  <attribute name="mail" value="cbryan@us.ibm.com"/>
+  <attribute name="Title" value="Linux and Power Growth Solutions Team Leader"/>
+  <attribute name="sn" value="Bryan"/>
+  <attribute name="id" value="cbryan@us.ibm.com"/>
+  <attribute name="MailAddress" value="cbryan@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1396358858073"/>
+</person>

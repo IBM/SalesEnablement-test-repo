@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="tcaroul@us.ibm.com" displayName="Barbara Terry (Terry) Caroul *Contractor*" isExternal="false" lastChatTime="1429634649537">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$4496772A4191B345.jpg"/>
+  <attribute name="callupname" value="Barbara Terry (Terry) Caroul *Contractor*"/>
+  <attribute name="Telephone" value="1-904-494-8265"/>
+  <attribute name="worklocation" value="workLoc=EY1,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Senior Consultant, ITSO"/>
+  <attribute name="dn" value="uid=C-990Y897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Barbara Terry (Terry) Caroul *Contractor*"/>
+  <attribute name="telephonenumber" value="1-904-494-8265"/>
+  <attribute name="Address" value="4601 Touchton Rd E&#xA;Ste 4120&#xA;Jacksonville, FL 32246-4484&#xA;United States"/>
+  <attribute name="mail" value="tcaroul@us.ibm.com"/>
+  <attribute name="Title" value="Senior Consultant, ITSO"/>
+  <attribute name="sn" value="Caroul"/>
+  <attribute name="id" value="tcaroul@us.ibm.com"/>
+  <attribute name="MailAddress" value="tcaroul@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1434638224233"/>
+</person>

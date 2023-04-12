@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<uid>C-HTX1897</uid>
+<streetAddress>590 Madison Ave
+New York, NY 10022-2524
+United States</streetAddress>
+<userId>0acbf4c0-7d6d-1034-8a06-875b21a6991e</userId>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/bptalks_us.ibm.com</photoUri>
+<name>Blueprint Talks *FUNCTIONAL-ID*</name>
+<email>bptalks@us.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=0acbf4c0-7d6d-1034-8a06-875b21a6991e&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=0acbf4c0-7d6d-1034-8a06-875b21a6991e"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=0acbf4c0-7d6d-1034-8a06-875b21a6991e"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=0acbf4c0-7d6d-1034-8a06-875b21a6991e&amp;name=Blueprint%20Talks%20*FUNCTIONAL-ID*"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=0acbf4c0-7d6d-1034-8a06-875b21a6991e&amp;name=Blueprint%20Talks%20*FUNCTIONAL-ID*"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/0acbf4c0-7d6d-1034-8a06-875b21a6991e"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=0acbf4c0-7d6d-1034-8a06-875b21a6991e"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D0acbf4c0-7d6d-1034-8a06-875b21a6991e%2Cname%3DBlueprint%20Talks%20*FUNCTIONAL-ID*"/>
+</BusinessCardLinks>
+<LastUpdated>1434117003734</LastUpdated>
+</BusinessCard>

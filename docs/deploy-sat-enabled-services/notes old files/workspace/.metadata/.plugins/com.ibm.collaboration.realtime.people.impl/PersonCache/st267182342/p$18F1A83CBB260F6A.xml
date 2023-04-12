@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="robbiem@us.ibm.com" displayName="Robert R. (Robbie) Mitchell" isExternal="false" lastChatTime="1390327562610">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$18F1A83CBB260F6A.jpg"/>
+  <attribute name="callupname" value="Robert R. (Robbie) Mitchell"/>
+  <attribute name="tieline" value="441-2303"/>
+  <attribute name="Telephone" value="441-2303 / 1-919-543-2303"/>
+  <attribute name="worklocation" value="workLoc=RPL,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Offering Manager - IBM Resiliency Services"/>
+  <attribute name="dn" value="uid=553379897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Robert R. (Robbie) Mitchell"/>
+  <attribute name="telephonenumber" value="441-2303 / 1-919-543-2303"/>
+  <attribute name="Address" value="3039 E Cornwallis Rd&#xA;P.O. Box 12195&#xA;Research Triangle Park, NC 27709-2195&#xA;United States"/>
+  <attribute name="mail" value="robbiem@us.ibm.com"/>
+  <attribute name="Title" value="Offering Manager - IBM Resiliency Services"/>
+  <attribute name="id" value="robbiem@us.ibm.com"/>
+  <attribute name="sn" value="Mitchell"/>
+  <attribute name="MailAddress" value="robbiem@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1445459387729"/>
+</person>

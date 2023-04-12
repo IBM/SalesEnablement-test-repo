@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>United States</countryName>
+<locality>AUSTIN</locality>
+<org>IBM Cloud</org>
+<userId>4ac07cc0-8f0a-1028-98bb-db07163b51b2</userId>
+<name>Rubio, Pedro  (Pete)</name>
+<floor>6</floor>
+<uid>629612897</uid>
+<officeBuilding>905</officeBuilding>
+<streetAddress>11501 Burnet Rd
+Austin, TX 78758-3400
+United States</streetAddress>
+<region>TX</region>
+<role>IBM employee, Regular</role>
+<title>Director, Cloud Foundation Services</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/prubio_us.ibm.com</photoUri>
+<tel>1-512-286-8334</tel>
+<email>prubio@us.ibm.com</email>
+<office>6F-018</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=4ac07cc0-8f0a-1028-98bb-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=4ac07cc0-8f0a-1028-98bb-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=4ac07cc0-8f0a-1028-98bb-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=4ac07cc0-8f0a-1028-98bb-db07163b51b2&amp;name=Rubio%2C%20Pedro%20%20%28Pete%29"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=4ac07cc0-8f0a-1028-98bb-db07163b51b2&amp;name=Rubio%2C%20Pedro%20%20%28Pete%29"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/4ac07cc0-8f0a-1028-98bb-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=4ac07cc0-8f0a-1028-98bb-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D4ac07cc0-8f0a-1028-98bb-db07163b51b2%2Cname%3DRubio%2C%20Pedro%20%20%28Pete%29"/>
+</BusinessCardLinks>
+<LastUpdated>1447713337559</LastUpdated>
+</BusinessCard>

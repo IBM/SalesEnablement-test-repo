@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="bpreine@us.ibm.com" displayName="bpreine@us.ibm.com - Brennan Preine/Philadelphia/IBM" isExternal="false" lastChatTime="1374167907250">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$5EED51BB36F6567A.jpg"/>
+  <attribute name="callupname" value="BRENNAN J. PREINE"/>
+  <attribute name="Telephone" value="1-215-518-5910"/>
+  <attribute name="worklocation" value="workLoc=WCH,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Cloud Business Development Executive"/>
+  <attribute name="dn" value="uid=0D2287897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="BRENNAN J. PREINE"/>
+  <attribute name="telephonenumber" value="1-215-518-5910"/>
+  <attribute name="Address" value="1475 Phoenixville Pike&#xA;West Chester, PA 19380-1437&#xA;United States"/>
+  <attribute name="mail" value="bpreine@us.ibm.com"/>
+  <attribute name="Title" value="Cloud Business Development Executive"/>
+  <attribute name="sn" value="PREINE"/>
+  <attribute name="id" value="bpreine@us.ibm.com"/>
+  <attribute name="MailAddress" value="bpreine@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1420740906606"/>
+</person>

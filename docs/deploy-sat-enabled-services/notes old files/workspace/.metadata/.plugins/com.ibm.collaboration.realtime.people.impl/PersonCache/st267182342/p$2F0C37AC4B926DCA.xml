@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="vardakas@us.ibm.com" displayName="Douglas P. Vardakas" isExternal="false" lastChatTime="1384289379406">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$2F0C37AC4B926DCA.jpg"/>
+  <attribute name="callupname" value="Douglas P. Vardakas"/>
+  <attribute name="tieline" value="930-9335"/>
+  <attribute name="Telephone" value="930-9335 / 1-215-237-1023"/>
+  <attribute name="worklocation" value="workLoc=WCH,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Program Manager, Cloud Infrastructure Services"/>
+  <attribute name="dn" value="uid=384670897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Douglas P. Vardakas"/>
+  <attribute name="telephonenumber" value="930-9335 / 1-215-237-1023"/>
+  <attribute name="Address" value="1475 Phoenixville Pike&#xA;West Chester, PA 19380-1437&#xA;United States"/>
+  <attribute name="mail" value="vardakas@us.ibm.com"/>
+  <attribute name="Title" value="Program Manager, Cloud Infrastructure Services"/>
+  <attribute name="id" value="vardakas@us.ibm.com"/>
+  <attribute name="sn" value="Vardakas"/>
+  <attribute name="MailAddress" value="vardakas@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1444749293490"/>
+</person>

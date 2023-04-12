@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="SMOSER@de.ibm.com" displayName="Simon Danie Moser" isExternal="false" lastChatTime="1425582183887">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$7F8A02FEDE5FADCE.jpg"/>
+  <attribute name="callupname" value="Simon Danie Moser"/>
+  <attribute name="tieline" value="120-4304"/>
+  <attribute name="Telephone" value="120-4304 / 49-7031-16-4304"/>
+  <attribute name="worklocation" value="workLoc=BOA,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Software Architect, Bluemix Development"/>
+  <attribute name="dn" value="uid=140972724,c=de,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Simon Danie Moser"/>
+  <attribute name="telephonenumber" value="120-4304 / 49-7031-16-4304"/>
+  <attribute name="Address" value="Schoenaicher Str. 220&#xA;Boeblingen 71032&#xA;Germany"/>
+  <attribute name="mail" value="SMOSER@de.ibm.com"/>
+  <attribute name="Title" value="Software Architect, Bluemix Development"/>
+  <attribute name="id" value="SMOSER@de.ibm.com"/>
+  <attribute name="sn" value="Moser"/>
+  <attribute name="MailAddress" value="SMOSER@de.ibm.com"/>
+  <attribute name="lastUpdate" value="1425582184008"/>
+</person>

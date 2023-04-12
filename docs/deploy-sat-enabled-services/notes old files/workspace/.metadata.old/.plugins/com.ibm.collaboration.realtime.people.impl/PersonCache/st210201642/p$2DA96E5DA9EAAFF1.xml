@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="kmdavis@us.ibm.com" displayName="Karen M. Davis *Contractor*" isExternal="false" lastChatTime="1390494555663">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$2DA96E5DA9EAAFF1.jpg"/>
+  <attribute name="callupname" value="Karen M. Davis *Contractor*"/>
+  <attribute name="Telephone" value="1-301-332-3242"/>
+  <attribute name="worklocation" value="workLoc=BME,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="ITSO Global Content Services -  Project Management"/>
+  <attribute name="dn" value="uid=C-B4L6897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Karen M. Davis *Contractor*"/>
+  <attribute name="telephonenumber" value="1-301-332-3242"/>
+  <attribute name="Address" value="6710 Rockledge Dr&#xA;Bethesda, MD 20817-1827&#xA;United States"/>
+  <attribute name="mail" value="kmdavis@us.ibm.com"/>
+  <attribute name="Title" value="ITSO Global Content Services -  Project Management"/>
+  <attribute name="sn" value="Davis"/>
+  <attribute name="id" value="kmdavis@us.ibm.com"/>
+  <attribute name="MailAddress" value="kmdavis@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1429187348620"/>
+</person>

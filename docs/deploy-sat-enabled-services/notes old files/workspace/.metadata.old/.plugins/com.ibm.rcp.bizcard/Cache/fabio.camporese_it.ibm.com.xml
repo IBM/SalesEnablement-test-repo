@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<uid>026230758</uid>
+<streetAddress>Circonvallazione Idroscalo
+Segrate, MI 20090
+Italy</streetAddress>
+<userId>c79f26c0-8f09-1028-9fc1-db07163b51b2</userId>
+<title>IBM Certified Architect</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/fabio.camporese_it.ibm.com</photoUri>
+<tel>25560 / 39-02-5962-5560</tel>
+<name>Camporese, Fabio</name>
+<email>fabio.camporese@it.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=c79f26c0-8f09-1028-9fc1-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=c79f26c0-8f09-1028-9fc1-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=c79f26c0-8f09-1028-9fc1-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=c79f26c0-8f09-1028-9fc1-db07163b51b2&amp;name=Camporese%2C%20Fabio"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=c79f26c0-8f09-1028-9fc1-db07163b51b2&amp;name=Camporese%2C%20Fabio"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/c79f26c0-8f09-1028-9fc1-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=c79f26c0-8f09-1028-9fc1-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Dc79f26c0-8f09-1028-9fc1-db07163b51b2%2Cname%3DCamporese%2C%20Fabio"/>
+</BusinessCardLinks>
+<LastUpdated>1433862529010</LastUpdated>
+<timezoneid>100</timezoneid>
+</BusinessCard>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<uid>7D9804897</uid>
+<streetAddress>30 S 17Th St
+Philadelphia, PA 19103-4001
+United States</streetAddress>
+<userId>cfe64cc0-fe34-102c-807d-c8ff1d560dc0</userId>
+<title>Product Manager, Cloud Infrastructure Services</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/george.contino_us.ibm.com</photoUri>
+<tel>1-484-483-8946</tel>
+<name>CONTINO, GEORGE</name>
+<email>george.contino@us.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=cfe64cc0-fe34-102c-807d-c8ff1d560dc0&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=cfe64cc0-fe34-102c-807d-c8ff1d560dc0"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=cfe64cc0-fe34-102c-807d-c8ff1d560dc0"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=cfe64cc0-fe34-102c-807d-c8ff1d560dc0&amp;name=CONTINO%2C%20GEORGE"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=cfe64cc0-fe34-102c-807d-c8ff1d560dc0&amp;name=CONTINO%2C%20GEORGE"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/cfe64cc0-fe34-102c-807d-c8ff1d560dc0"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=cfe64cc0-fe34-102c-807d-c8ff1d560dc0"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Dcfe64cc0-fe34-102c-807d-c8ff1d560dc0%2Cname%3DCONTINO%2C%20GEORGE"/>
+</BusinessCardLinks>
+<LastUpdated>1408992450811</LastUpdated>
+</BusinessCard>

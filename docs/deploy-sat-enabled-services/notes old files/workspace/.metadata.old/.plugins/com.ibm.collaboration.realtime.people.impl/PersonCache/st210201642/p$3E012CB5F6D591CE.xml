@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="kawils@us.ibm.com" displayName="Kathy A. Wilson *Contractor*" isExternal="false" lastChatTime="1396890183596">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$3E012CB5F6D591CE.jpg"/>
+  <attribute name="callupname" value="Kathy A. Wilson *Contractor*"/>
+  <attribute name="Telephone" value="1-201-739-0717"/>
+  <attribute name="worklocation" value="workLoc=GS3,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Marketing Communications Consultant"/>
+  <attribute name="dn" value="uid=C-HEFK897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Kathy A. Wilson *Contractor*"/>
+  <attribute name="telephonenumber" value="1-201-739-0717"/>
+  <attribute name="Address" value="930 Sylvan Ave&#xA;1St Fl&#xA;Englewood Cliffs, NJ 07632-3301&#xA;United States"/>
+  <attribute name="mail" value="kawils@us.ibm.com"/>
+  <attribute name="Title" value="Marketing Communications Consultant"/>
+  <attribute name="sn" value="Wilson"/>
+  <attribute name="id" value="kawils@us.ibm.com"/>
+  <attribute name="MailAddress" value="kawils@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1435772936413"/>
+</person>

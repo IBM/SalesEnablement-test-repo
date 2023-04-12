@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="javier.becares@es.ibm.com" displayName="javier.becares@es.ibm.com - Javier Becares Garcia/Spain/IBM" isExternal="false" lastChatTime="1432738513065">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$33230C7F3D08B85C.jpg"/>
+  <attribute name="callupname" value="Javier Becares Garcia"/>
+  <attribute name="Telephone" value="34-91-3977175 x67175"/>
+  <attribute name="worklocation" value="workLoc=0AM,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Cloud Client Technical IT Specialist -  Solution Design Center of Excellence"/>
+  <attribute name="dn" value="uid=081479838,c=es,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Javier Becares Garcia"/>
+  <attribute name="telephonenumber" value="34-91-3977175 x67175"/>
+  <attribute name="Address" value="Sta. Hortensia 26-28&#xA;Madrid, M 28002&#xA;Spain"/>
+  <attribute name="mail" value="javier.becares@es.ibm.com"/>
+  <attribute name="Title" value="Cloud Client Technical IT Specialist -  Solution Design Center of Excellence"/>
+  <attribute name="sn" value="Becares Garcia"/>
+  <attribute name="id" value="javier.becares@es.ibm.com"/>
+  <attribute name="MailAddress" value="javier.becares@es.ibm.com"/>
+  <attribute name="lastUpdate" value="1444677694769"/>
+</person>

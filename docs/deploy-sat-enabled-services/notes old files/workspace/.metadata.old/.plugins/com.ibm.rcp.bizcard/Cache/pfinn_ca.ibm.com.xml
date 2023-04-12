@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<uid>083606649</uid>
+<streetAddress>3600 Steeles Ave East
+Markham, ON L3R 9Z7
+Canada</streetAddress>
+<userId>f3baa7c0-8f09-1028-9c3d-db07163b51b2</userId>
+<title>Client IT Architect</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/pfinn_ca.ibm.com</photoUri>
+<tel>318-5281 / 1-416-478-5281</tel>
+<name>Finn, Peter (P.)</name>
+<email>pfinn@ca.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=f3baa7c0-8f09-1028-9c3d-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=f3baa7c0-8f09-1028-9c3d-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=f3baa7c0-8f09-1028-9c3d-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=f3baa7c0-8f09-1028-9c3d-db07163b51b2&amp;name=Finn%2C%20Peter%20%28P.%29"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=f3baa7c0-8f09-1028-9c3d-db07163b51b2&amp;name=Finn%2C%20Peter%20%28P.%29"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/f3baa7c0-8f09-1028-9c3d-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=f3baa7c0-8f09-1028-9c3d-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Df3baa7c0-8f09-1028-9c3d-db07163b51b2%2Cname%3DFinn%2C%20Peter%20%28P.%29"/>
+</BusinessCardLinks>
+<LastUpdated>1435167584166</LastUpdated>
+</BusinessCard>

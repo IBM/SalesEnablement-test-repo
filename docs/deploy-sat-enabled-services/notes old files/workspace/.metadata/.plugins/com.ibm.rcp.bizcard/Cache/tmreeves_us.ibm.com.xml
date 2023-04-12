@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>United States</countryName>
+<locality>TAMPA</locality>
+<org>IBM Cloud</org>
+<userId>03d4aa40-8d80-102f-9e64-e7096694e8e4</userId>
+<name>REEVES, THOMAS M. (MIKE)</name>
+<floor>NA</floor>
+<uid>0G5751897</uid>
+<officeBuilding>3031</officeBuilding>
+<streetAddress>3031 N Rocky Point Dr West
+Suite 500
+Tampa, FL 33607-5878
+United States</streetAddress>
+<region>FL</region>
+<role>IBM employee, Regular</role>
+<title>IT Management Consultant - Cloud Advisory Services CoC</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/tmreeves_us.ibm.com</photoUri>
+<tel>1-813-356-6977</tel>
+<email>tmreeves@us.ibm.com</email>
+<office>MOBILE</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=03d4aa40-8d80-102f-9e64-e7096694e8e4&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=03d4aa40-8d80-102f-9e64-e7096694e8e4"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=03d4aa40-8d80-102f-9e64-e7096694e8e4"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=03d4aa40-8d80-102f-9e64-e7096694e8e4&amp;name=REEVES%2C%20THOMAS%20M.%20%28MIKE%29"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=03d4aa40-8d80-102f-9e64-e7096694e8e4&amp;name=REEVES%2C%20THOMAS%20M.%20%28MIKE%29"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/03d4aa40-8d80-102f-9e64-e7096694e8e4"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=03d4aa40-8d80-102f-9e64-e7096694e8e4"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D03d4aa40-8d80-102f-9e64-e7096694e8e4%2Cname%3DREEVES%2C%20THOMAS%20M.%20%28MIKE%29"/>
+</BusinessCardLinks>
+<LastUpdated>1444752068425</LastUpdated>
+<timezoneid>-400</timezoneid>
+</BusinessCard>

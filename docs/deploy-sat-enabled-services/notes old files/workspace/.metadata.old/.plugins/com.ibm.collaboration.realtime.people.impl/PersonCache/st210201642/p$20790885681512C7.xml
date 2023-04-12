@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="schneeb@us.ibm.com" displayName="Kenneth R. (Ken) Schneebeli" isExternal="false" lastChatTime="1424804578079">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$20790885681512C7.jpg"/>
+  <attribute name="callupname" value="Kenneth R. (Ken) Schneebeli"/>
+  <attribute name="Telephone" value="1-408-888-7174"/>
+  <attribute name="worklocation" value="workLoc=SJH,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Deployment Manager - IPCenter Dynamic Automation"/>
+  <attribute name="dn" value="uid=942920897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Kenneth R. (Ken) Schneebeli"/>
+  <attribute name="telephonenumber" value="1-408-888-7174"/>
+  <attribute name="Address" value="650 Harry Road&#xA;Almaden Research Center&#xA;San Jose, CA 95120-6099&#xA;United States"/>
+  <attribute name="mail" value="schneeb@us.ibm.com"/>
+  <attribute name="Title" value="Deployment Manager - IPCenter Dynamic Automation"/>
+  <attribute name="sn" value="Schneebeli"/>
+  <attribute name="id" value="schneeb@us.ibm.com"/>
+  <attribute name="MailAddress" value="schneeb@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1435167985511"/>
+</person>

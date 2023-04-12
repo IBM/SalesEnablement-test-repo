@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1438371048000" transient="true" version="3.0">
+<site enabled="true" policy="MANAGED-ONLY" updateable="true" url="platform:/base/">
+<feature id="com.ibm.rcp.esupport.client.feature" url="features/com.ibm.rcp.esupport.client.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="org.apache.struts.feature" url="features/org.apache.struts.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.v5.feature" url="features/com.ibm.langware.v5.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.rcp.ws.axis.feature" url="features/com.ibm.rcp.ws.axis.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.v5.dic.nn_NO.feature" url="features/com.ibm.langware.v5.dic.nn_NO.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.langware.v5.dic.cs_CZ.feature" url="features/com.ibm.langware.v5.dic.cs_CZ.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.langware.annotator.dictterms.feature" url="features/com.ibm.langware.annotator.dictterms.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.rcp.ui.browser.feature" url="features/com.ibm.rcp.ui.browser.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.core.runtime.feature" url="features/com.ibm.langware.core.runtime.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.pvc.servlet.jsp.jstl.feature" url="features/com.ibm.pvc.servlet.jsp.jstl.feature_1.1.1.20131002-1404/" version="1.1.1.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.v5.dic.sv_SE.feature" url="features/com.ibm.langware.v5.dic.sv_SE.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.langware.v5.dic.feature" url="features/com.ibm.langware.v5.dic.feature_6.2.4.201201141051/" version="6.2.4.201201141051">
+</feature>
+<feature id="com.ibm.rcp.threading.monitor.feature" url="features/com.ibm.rcp.threading.monitor.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.v5.dic.fr_CA.feature" url="features/com.ibm.langware.v5.dic.fr_CA.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.pvc.webhttpservice.feature" url="features/com.ibm.pvc.webhttpservice.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.feedreader.feature" url="features/com.ibm.rcp.feedreader.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.osg.service.useradmin.feature" url="features/com.ibm.osg.service.useradmin.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.eclipse.rcp.ui.feature.patch" url="features/com.ibm.rcp.eclipse.rcp.ui.feature.patch_9.0.1.20140609-1400/" version="9.0.1.20140609-1400">
+</feature>
+<feature id="com.ibm.langware.v5.dic.it_IT.feature" url="features/com.ibm.langware.v5.dic.it_IT.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.langware.v5.dic.ru_RU.feature" url="features/com.ibm.langware.v5.dic.ru_RU.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.langware.v5.dic.fi_FI.feature" url="features/com.ibm.langware.v5.dic.fi_FI.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.mobileservices.isync.feature" url="features/com.ibm.mobileservices.isync.feature_9.1.3.1-20131002-1404/" version="9.1.3.1-20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.servlet.jwl.feature" url="features/com.ibm.rcp.servlet.jwl.feature_3.0.8.20131002-1404/" version="3.0.8.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.v27.dic.hu_HU.feature" url="features/com.ibm.langware.v27.dic.hu_HU.feature_2.7.2.201111100545/" version="2.7.2.201111100545">
+</feature>
+<feature id="com.ibm.rcp.locationmanager.ui.feature" url="features/com.ibm.rcp.locationmanager.ui.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.eclipse.emf.feature" url="features/com.ibm.rcp.eclipse.emf.feature_9.0.1.20130829-1400/" version="9.0.1.20130829-1400">
+</feature>
+<feature id="com.ibm.rcp.webcontainer.jspcompilerbridge.feature" url="features/com.ibm.rcp.webcontainer.jspcompilerbridge.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.propertybroker.feature" url="features/com.ibm.rcp.propertybroker.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.icu.feature" url="features/com.ibm.rcp.icu.feature_9.0.1.20130829-1400/" version="9.0.1.20130829-1400">
+</feature>
+<feature id="com.ibm.rcp.ui.widgets.feature.patch" url="features/com.ibm.rcp.ui.widgets.feature.patch_9.0.1.20140627-1700/" version="9.0.1.20140627-1700">
+</feature>
+<feature id="com.ibm.rcp.runtimes.desktop.dev.feature" url="features/com.ibm.rcp.runtimes.desktop.dev.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.accounts.ui.feature" url="features/com.ibm.rcp.accounts.ui.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.net.feature" url="features/com.ibm.rcp.net.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.platform.feature" url="features/com.ibm.rcp.platform.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.v5.dic.ar_XX.feature" url="features/com.ibm.langware.v5.dic.ar_XX.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.rcp.database.derby.feature" url="features/com.ibm.rcp.database.derby.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.eclipse.xsd.feature" url="features/com.ibm.rcp.eclipse.xsd.feature_9.0.1.20130829-1400/" version="9.0.1.20130829-1400">
+</feature>
+<feature id="com.ibm.rcp.toolbox.ca.feature" url="features/com.ibm.rcp.toolbox.ca.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.database.feature" url="features/com.ibm.rcp.database.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="org.apache.myfaces.feature" url="features/org.apache.myfaces.feature_1.1.2.20131002-1404/" version="1.1.2.20131002-1404">
+</feature>
+<feature id="org.apache.axis.feature" url="features/org.apache.axis.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.v5.dic.nl_NL.feature" url="features/com.ibm.langware.v5.dic.nl_NL.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.langware.v5.dic.es_ES.feature" url="features/com.ibm.langware.v5.dic.es_ES.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.micro.client.feature" url="features/com.ibm.micro.client.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.v27.feature" url="features/com.ibm.langware.v27.feature_2.7.2.201111100545/" version="2.7.2.201111100545">
+</feature>
+<feature id="com.ibm.langware.v5.dic.de_CH.feature" url="features/com.ibm.langware.v5.dic.de_CH.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.rcp.eclipse.rcp.ui.feature" url="features/com.ibm.rcp.eclipse.rcp.ui.feature_9.0.1.20130829-1400/" version="9.0.1.20130829-1400">
+</feature>
+<feature id="com.ibm.rcp.sharedbundle.ui.feature" url="features/com.ibm.rcp.sharedbundle.ui.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.ui.browser.launcher.feature" url="features/com.ibm.rcp.ui.browser.launcher.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.personality.default.feature" plugin-identifier="com.ibm.rcp.platform.personality.branding.help" url="features/com.ibm.rcp.personality.default.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.managedsettings.feature" url="features/com.ibm.rcp.managedsettings.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="org.apache.portals.bridges.feature" url="features/org.apache.portals.bridges.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.portal.app.ui.feature" url="features/com.ibm.rcp.portal.app.ui.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.managedsettings.portal.feature" url="features/com.ibm.rcp.managedsettings.portal.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.feeds.parser.feature" url="features/com.ibm.rcp.feeds.parser.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.v27.dic.feature" url="features/com.ibm.langware.v27.dic.feature_6.2.4.201111100545/" version="6.2.4.201111100545">
+</feature>
+<feature id="com.ibm.langware.v5.dic.ca_CT.feature" url="features/com.ibm.langware.v5.dic.ca_CT.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.rcp.sync.feature" url="features/com.ibm.rcp.sync.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.v5.dic.en_US.feature" url="features/com.ibm.langware.v5.dic.en_US.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="org.apache.derby.feature" url="features/org.apache.derby.feature_10.5.3.1-1002448/" version="10.5.3.1-1002448">
+</feature>
+<feature id="com.ibm.pvc.jndi.provider.java.feature" url="features/com.ibm.pvc.jndi.provider.java.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.portal.catalog.ui.feature" url="features/com.ibm.rcp.portal.catalog.ui.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.osg.service.cm.feature" url="features/com.ibm.osg.service.cm.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.mqttclient.jms.feature" url="features/com.ibm.mqttclient.jms.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.core.logger.ui.feature" url="features/com.ibm.rcp.core.logger.ui.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.dynamic.extension.feature" url="features/com.ibm.rcp.dynamic.extension.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.personality.framework.feature.patch" url="features/com.ibm.rcp.personality.framework.feature.patch_9.0.1.20140627-1700/" version="9.0.1.20140627-1700">
+</feature>
+<feature id="com.ibm.rcp.composite.container.feature" url="features/com.ibm.rcp.composite.container.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.pvc.webcontainer.feature" url="features/com.ibm.pvc.webcontainer.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.toolbox.prov.provider.feature" url="features/com.ibm.rcp.toolbox.prov.provider.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.pvc.servlet.jsp.feature" url="features/com.ibm.pvc.servlet.jsp.feature_2.1.0.20131002-1404/" version="2.1.0.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.livetext.feature.patch" url="features/com.ibm.rcp.livetext.feature.patch_9.0.1.20140627-1700/" version="9.0.1.20140627-1700">
+</feature>
+<feature id="com.ibm.osg.service.metatype.feature" url="features/com.ibm.osg.service.metatype.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.roaming.service.feature" url="features/com.ibm.rcp.roaming.service.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.rcp.textanalyzer.uima.feature" url="features/com.ibm.rcp.textanalyzer.uima.feature_6.2.4.201111100545/" version="6.2.4.201111100545">
+</feature>
+<feature id="com.ibm.langware.v27.dic.iw_IL.feature" url="features/com.ibm.langware.v27.dic.iw_IL.feature_2.7.2.201111100545/" version="2.7.2.201111100545">
+</feature>
+<feature id="com.ibm.rcp.accounts.feature.patch" url="features/com.ibm.rcp.accounts.feature.patch_9.0.1.20140627-1700/" version="9.0.1.20140627-1700">
+</feature>
+<feature id="com.ibm.rcp.browser.service.feature" url="features/com.ibm.rcp.browser.service.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.toolbox.feeds.provider.feature" url="features/com.ibm.rcp.toolbox.feeds.provider.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.v5.dic.fr_FR.feature" url="features/com.ibm.langware.v5.dic.fr_FR.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.langware.v5.dic.pl_PL.feature" url="features/com.ibm.langware.v5.dic.pl_PL.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.rcp.hunspell.feature" url="features/com.ibm.rcp.hunspell.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.portletcontainer.feature" plugin-identifier="com.ibm.rcp.portletcontainer.branding" url="features/com.ibm.rcp.portletcontainer.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.hunspell.dic.pt_PT.feature" url="features/com.ibm.rcp.hunspell.dic.pt_PT.feature_9.0.0.20130223-1449/" version="9.0.0.20130223-1449">
+</feature>
+<feature id="com.ibm.rcp.eclipse.platform.help.feature" url="features/com.ibm.rcp.eclipse.platform.help.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.v27.dic.tr_TR.feature" url="features/com.ibm.langware.v27.dic.tr_TR.feature_2.7.2.201111100545/" version="2.7.2.201111100545">
+</feature>
+<feature id="com.ibm.langware.v5.dic.en_US_Medical.feature" url="features/com.ibm.langware.v5.dic.en_US_Medical.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.rcp.personality.framework.feature" url="features/com.ibm.rcp.personality.framework.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.textanalyzer.feature" url="features/com.ibm.rcp.textanalyzer.feature_6.2.4.201212180934/" version="6.2.4.201212180934">
+</feature>
+<feature id="com.ibm.langware.v5.dic.nb_NO.feature" url="features/com.ibm.langware.v5.dic.nb_NO.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.langware.annotation.uima.feature" url="features/com.ibm.langware.annotation.uima.feature_6.2.4.201111100545/" version="6.2.4.201111100545">
+</feature>
+<feature id="com.ibm.rcp.ui.widgets.feature" url="features/com.ibm.rcp.ui.widgets.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.xulrunner.runtime.feature.patch" url="features/com.ibm.rcp.xulrunner.runtime.feature.patch_9.0.1.20140627-1700/" version="9.0.1.20140627-1700">
+</feature>
+<feature id="com.ibm.pvc.servlet.feature" url="features/com.ibm.pvc.servlet.feature_2.5.0.20131002-1404/" version="2.5.0.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.v5.dic.en_GB.feature" url="features/com.ibm.langware.v5.dic.en_GB.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="org.apache.commons.feature" url="features/org.apache.commons.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.pvcws.feature" url="features/com.ibm.pvcws.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.rules.annotator.runtime.feature" url="features/com.ibm.langware.rules.annotator.runtime.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.rcp.eclipse.sdk.subset.feature" url="features/com.ibm.rcp.eclipse.sdk.subset.feature_9.0.1.20130829-1400/" version="9.0.1.20130829-1400">
+</feature>
+<feature id="com.ibm.rcp.ui.browser.portal.feature" url="features/com.ibm.rcp.ui.browser.portal.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.portletviewer.feature" url="features/com.ibm.rcp.portletviewer.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.accounts.feature" url="features/com.ibm.rcp.accounts.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.logging.icl.feature" url="features/com.ibm.logging.icl.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.micro.feature" url="features/com.ibm.micro.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.topologyhandler.ui.feature" url="features/com.ibm.rcp.topologyhandler.ui.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.pvc.jta.feature" url="features/com.ibm.pvc.jta.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.portal.feature" url="features/com.ibm.rcp.portal.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.syncui.feature" url="features/com.ibm.rcp.syncui.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.mobileservices.isync.db2j.feature" url="features/com.ibm.mobileservices.isync.db2j.feature_9.1.3.1-20131002-1404/" version="9.1.3.1-20131002-1404">
+</feature>
+<feature id="org.apache.uima.runtime.feature" url="features/org.apache.uima.runtime.feature_2.3.0.incubating/" version="2.3.0.incubating">
+</feature>
+<feature id="com.ibm.rcp.feeds.parser.feature.patch" url="features/com.ibm.rcp.feeds.parser.feature.patch_9.0.1.20140627-1700/" version="9.0.1.20140627-1700">
+</feature>
+<feature id="com.ibm.rcp.esupport.client.ui.feature" url="features/com.ibm.rcp.esupport.client.ui.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.eclipse.gef.feature" url="features/com.ibm.rcp.eclipse.gef.feature_9.0.1.20130829-1400/" version="9.0.1.20130829-1400">
+</feature>
+<feature id="com.ibm.rcp.syncui.scheduler.feature" url="features/com.ibm.rcp.syncui.scheduler.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.portal.feature" url="features/com.ibm.portal.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.mqttclient.feature" url="features/com.ibm.mqttclient.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.pvcws.wss.feature" url="features/com.ibm.pvcws.wss.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.v27.dic.zh_CN.feature" url="features/com.ibm.langware.v27.dic.zh_CN.feature_2.7.2.201111100545/" version="2.7.2.201111100545">
+</feature>
+<feature id="com.ibm.rcp.toolbox.feature" url="features/com.ibm.rcp.toolbox.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.micro.admin.feature" url="features/com.ibm.micro.admin.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.engine.feature" url="features/com.ibm.langware.engine.feature_6.2.4.201111100545/" version="6.2.4.201111100545">
+</feature>
+<feature id="com.ibm.rcp.provisioning.ui.feature" url="features/com.ibm.rcp.provisioning.ui.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.lexical.annotator.runtime.feature" url="features/com.ibm.langware.lexical.annotator.runtime.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.langware.v5.dic.en_US_IBMTerms.feature" url="features/com.ibm.langware.v5.dic.en_US_IBMTerms.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.rcp.propertybroker.swt.feature" url="features/com.ibm.rcp.propertybroker.swt.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.v5.dic.pt_BR.feature" url="features/com.ibm.langware.v5.dic.pt_BR.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.rcp.livetext.feature" url="features/com.ibm.rcp.livetext.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.toolbox.ca.provider.feature" url="features/com.ibm.rcp.toolbox.ca.provider.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.servlet.jsf.ext.feature" url="features/com.ibm.rcp.servlet.jsf.ext.feature_3.0.8.20131002-1404/" version="3.0.8.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.v27.dic.zh_TW.feature" url="features/com.ibm.langware.v27.dic.zh_TW.feature_2.7.2.201111100545/" version="2.7.2.201111100545">
+</feature>
+<feature id="com.ibm.rcp.toolbox.google.provider.feature" url="features/com.ibm.rcp.toolbox.google.provider.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.esupport.client.product.SSC4TNF.feature" url="features/com.ibm.esupport.client.product.SSC4TNF.feature_4.1.1.20131002-1404/" version="4.1.1.20131002-1404">
+</feature>
+<feature id="com.ibm.pvc.jms.feature" url="features/com.ibm.pvc.jms.feature_1.1.1.20131002-1404/" version="1.1.1.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.v5.dic.de_DE_Reform.feature" url="features/com.ibm.langware.v5.dic.de_DE_Reform.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.rcp.toolbox.web.provider.feature" url="features/com.ibm.rcp.toolbox.web.provider.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.dombrowser.feature" url="features/com.ibm.rcp.dombrowser.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.eclipse.jdt.feature" url="features/com.ibm.rcp.eclipse.jdt.feature_9.0.1.20130829-1400/" version="9.0.1.20130829-1400">
+</feature>
+<feature id="com.ibm.langware.v5.dic.af_ZA.feature" url="features/com.ibm.langware.v5.dic.af_ZA.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.langware.v5.dic.el_GR.feature" url="features/com.ibm.langware.v5.dic.el_GR.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.rcp.locationmanager.feature" url="features/com.ibm.rcp.locationmanager.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.json4j.feature" url="features/com.ibm.json4j.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.langware.v5.dic.da_DK.feature" url="features/com.ibm.langware.v5.dic.da_DK.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.langware.v5.dic.en_AU.feature" url="features/com.ibm.langware.v5.dic.en_AU.feature_7.2.0.201111100545/" version="7.2.0.201111100545">
+</feature>
+<feature id="com.ibm.rcp.os.ui.feature" url="features/com.ibm.rcp.os.ui.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.rte.feature" url="features/com.ibm.rcp.rte.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.eclipse.platform.feature" url="features/com.ibm.rcp.eclipse.platform.feature_9.0.1.20130829-1400/" version="9.0.1.20130829-1400">
+</feature>
+<feature id="org.osgi.service.webapplication.feature" url="features/org.osgi.service.webapplication.feature_1.0.1.20131002-1404/" version="1.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.xulrunner.runtime.feature" url="features/com.ibm.rcp.xulrunner.runtime.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.security.feature" url="features/com.ibm.rcp.security.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+</site>
+<site enabled="true" policy="MANAGED-ONLY" updateable="true" url="platform:/config/../applications/eclipse/">
+<feature id="com.ibm.langware.v5.dic.pt_PT.feature" url="features/com.ibm.langware.v5.dic.pt_PT.feature_7.1.1.201006221804/" version="7.1.1.201006221804">
+</feature>
+<feature id="com.ibm.rcp.site.anchor.user.feature" url="features/com.ibm.rcp.site.anchor.user.feature_6.1.1/" version="6.1.1">
+</feature>
+</site>
+<site enabled="true" policy="MANAGED-ONLY" updateable="true" url="file:../../shared/eclipse/">
+<feature id="com.ibm.collaboration.realtime.telephony.base.feature" url="features/com.ibm.collaboration.realtime.telephony.base.feature_9.0.0.20150203-0045/" version="9.0.0.20150203-0045">
+</feature>
+<feature id="com.ibm.notes.roaming.provider.feature" url="features/com.ibm.notes.roaming.provider.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.collaboration.realtime.contact.storage.feature" url="features/com.ibm.collaboration.realtime.contact.storage.feature_9.0.0.20150203-0045/" version="9.0.0.20150203-0045">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.prototypes.feature" url="features/com.ibm.collaboration.realtime.telephony.prototypes.feature_9.0.0.20150203-0045/" version="9.0.0.20150203-0045">
+</feature>
+<feature id="com.ibm.rcp.aaf.catalog.feature" url="features/com.ibm.rcp.aaf.catalog.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.collaboration.realtime.contact.notes.feature" url="features/com.ibm.collaboration.realtime.contact.notes.feature_9.0.0.20150203-0045/" version="9.0.0.20150203-0045">
+</feature>
+<feature id="com.ibm.documents.connector.notes.feature" url="features/com.ibm.documents.connector.notes.feature_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.rcp.toolbox.opensocial.feature" url="features/com.ibm.rcp.toolbox.opensocial.feature_9.0.1.20131022-1058/" version="9.0.1.20131022-1058">
+</feature>
+<feature id="com.ibm.jscript.editor.feature" url="features/com.ibm.jscript.editor.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.collaboration.realtime.stjavatk.feature" url="features/com.ibm.collaboration.realtime.stjavatk.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.help.feature" url="features/com.ibm.collaboration.realtime.help.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.wink.feature" url="features/com.ibm.wink.feature_9.0.1.v00_00_20131004-1200/" version="9.0.1.v00_00_20131004-1200">
+</feature>
+<feature id="com.ibm.notes.pim.feature.patch" url="features/com.ibm.notes.pim.feature.patch_9.0.1.20140804-1000/" version="9.0.1.20140804-1000">
+</feature>
+<feature id="com.ibm.rcp.spellcheck.server.feature" url="features/com.ibm.rcp.spellcheck.server.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.collaboration.realtime.application.feature" plugin-identifier="com.ibm.collaboration.realtime.application" url="features/com.ibm.collaboration.realtime.application.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.core.advanced.feature" url="features/com.ibm.collaboration.realtime.core.advanced.feature_9.0.0.20150203-0345/" version="9.0.0.20150203-0345">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.sut.blue.feature" url="features/com.ibm.collaboration.realtime.telephony.sut.blue.feature_9.0.0.20150203-0045/" version="9.0.0.20150203-0045">
+</feature>
+<feature id="com.ibm.notes.toolbox.provider.feature" url="features/com.ibm.notes.toolbox.provider.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.notes.notesviews.feature" url="features/com.ibm.notes.notesviews.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.collaboration.realtime.rtc.st.feature" url="features/com.ibm.collaboration.realtime.rtc.st.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.notes.java.api.feature" url="features/com.ibm.notes.java.api.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.content.operations.registry.feature" url="features/com.ibm.content.operations.registry.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.feedreader.notes.feature" url="features/com.ibm.rcp.feedreader.notes.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.notes.embeddedexperiences.feature" url="features/com.ibm.notes.embeddedexperiences.feature_9.0.1.20131022-1058/" version="9.0.1.20131022-1058">
+</feature>
+<feature id="com.ibm.lconn.client.bizcard.extension.feature" url="features/com.ibm.lconn.client.bizcard.extension.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.commons.additional.features" url="features/com.ibm.commons.additional.features_9.0.1.20131004-1200/" version="9.0.1.20131004-1200">
+</feature>
+<feature id="com.ibm.xsp.extlib.designer.tooling.feature" url="features/com.ibm.xsp.extlib.designer.tooling.feature_9.0.1.v00_00_20131022-0932/" version="9.0.1.v00_00_20131022-0932">
+</feature>
+<feature id="com.ibm.collaboration.realtime.chat.logging.impl.feature" url="features/com.ibm.collaboration.realtime.chat.logging.impl.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.embedded.feature" url="features/com.ibm.collaboration.realtime.telephony.embedded.feature_9.0.0.20150203-0045/" version="9.0.0.20150203-0045">
+</feature>
+<feature id="com.ibm.xsp.core.feature.patch" url="features/com.ibm.xsp.core.feature.patch_9.0.1.20140804-1000/" version="9.0.1.20140804-1000">
+</feature>
+<feature id="com.ibm.rcp.g11n.feature" url="features/com.ibm.rcp.g11n.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.notes.mailarchivesearch.feature" url="features/com.ibm.notes.mailarchivesearch.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.notes.document.container.feature" url="features/com.ibm.notes.document.container.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.rcp.notes.util.feature" url="features/com.ibm.rcp.notes.util.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.rcp.toolbox.search.provider.feature" url="features/com.ibm.rcp.toolbox.search.provider.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.xsp.feature.patch" url="features/com.ibm.xsp.feature.patch_9.0.1.20140804-1000/" version="9.0.1.20140804-1000">
+</feature>
+<feature id="com.ibm.commons.jdbc.feature" url="features/com.ibm.commons.jdbc.feature_9.0.1.20131004-1200/" version="9.0.1.20131004-1200">
+</feature>
+<feature id="com.ibm.sametime.contactcleaner.feature" url="features/com.ibm.sametime.contactcleaner.feature_1.0.0.201009071625/" version="1.0.0.201009071625">
+</feature>
+<feature id="com.ibm.designer.domino.xsp.feature" url="features/com.ibm.designer.domino.xsp.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.jscript.feature" url="features/com.ibm.jscript.feature_9.0.1.20131004-1200/" version="9.0.1.20131004-1200">
+</feature>
+<feature id="com.ibm.rcp.realtime.livenames.feature" url="features/com.ibm.rcp.realtime.livenames.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.rcp.eclipse.emf.add.feature" url="features/com.ibm.rcp.eclipse.emf.add.feature_9.0.1.20130829-1400/" version="9.0.1.20130829-1400">
+</feature>
+<feature id="com.ibm.documents.share.notes.feature.nl1" url="features/com.ibm.documents.share.notes.feature.nl1_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.documents.share.notes.feature.nl2" url="features/com.ibm.documents.share.notes.feature.nl2_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.documents.share.notes.feature.nl3" url="features/com.ibm.documents.share.notes.feature.nl3_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.collaboration.realtime.installhandler.feature" url="features/com.ibm.collaboration.realtime.installhandler.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.notes.search.spotlight.feature" url="features/com.ibm.notes.search.spotlight.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.collaboration.realtime.core.feature" url="features/com.ibm.collaboration.realtime.core.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.rcp.search.engines.yahoo.feature" url="features/com.ibm.rcp.search.engines.yahoo.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.collaboration.realtime.browser.feature" url="features/com.ibm.collaboration.realtime.browser.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.notifications.feature" url="features/com.ibm.collaboration.realtime.notifications.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.documents.connector.account.preferences.feature" url="features/com.ibm.documents.connector.account.preferences.feature_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.prod.feature" url="features/com.ibm.collaboration.realtime.telephony.prod.feature_9.0.0.20150203-0045/" version="9.0.0.20150203-0045">
+</feature>
+<feature id="com.ibm.rcp.site.anchor.shared.feature" url="features/com.ibm.rcp.site.anchor.shared.feature_6.1.1/" version="6.1.1">
+</feature>
+<feature id="com.ibm.designer.domino.api.feature" url="features/com.ibm.designer.domino.api.feature_9.0.1.20131004-1200/" version="9.0.1.20131004-1200">
+</feature>
+<feature id="com.ibm.notes.gettingstarted.feature" url="features/com.ibm.notes.gettingstarted.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.notes.search.beagle.feature" url="features/com.ibm.notes.search.beagle.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.etools.xve.feature" url="features/com.ibm.etools.xve.feature_1.4.0.v20090406_2150/" version="1.4.0.v20090406_2150">
+</feature>
+<feature id="com.ibm.rcp.portal.catalog.doc.feature" url="features/com.ibm.rcp.portal.catalog.doc.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.designer.ide.broker.feature" url="features/com.ibm.designer.ide.broker.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.collaboration.realtime.chat.logging.feature" url="features/com.ibm.collaboration.realtime.chat.logging.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.notes.search.common.feature" url="features/com.ibm.notes.search.common.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.rcp.pim.views.feature" url="features/com.ibm.rcp.pim.views.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.xsp.extlib.feature.patch" url="features/com.ibm.xsp.extlib.feature.patch_9.0.1.20140804-1000/" version="9.0.1.20140804-1000">
+</feature>
+<feature id="com.ibm.xsp.core.feature" url="features/com.ibm.xsp.core.feature_9.0.1.20131004-1200/" version="9.0.1.20131004-1200">
+</feature>
+<feature id="com.ibm.collaboration.realtime.people.feature" url="features/com.ibm.collaboration.realtime.people.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.commons.swt.feature" url="features/com.ibm.commons.swt.feature_9.0.1.20131004-1200/" version="9.0.1.20131004-1200">
+</feature>
+<feature id="com.ibm.rcp.toolbox.web.provider.se.feature" url="features/com.ibm.rcp.toolbox.web.provider.se.feature_9.0.1.20131022-1058/" version="9.0.1.20131022-1058">
+</feature>
+<feature id="com.ibm.designer.domino.lib.xml.feature" url="features/com.ibm.designer.domino.lib.xml.feature_9.0.1.20131004-1200/" version="9.0.1.20131004-1200">
+</feature>
+<feature id="org.apache.wink.feature" url="features/org.apache.wink.feature_1.1.2.20131004-1200/" version="1.1.2.20131004-1200">
+</feature>
+<feature id="com.ibm.cic.licensing.feature" url="features/com.ibm.cic.licensing.feature_7.0.0.v20061002------2PD88PA89P/" version="7.0.0.v20061002------2PD88PA89P">
+</feature>
+<feature id="com.ibm.rtc.meetings.embedded.feature" url="features/com.ibm.rtc.meetings.embedded.feature_9.0.0.20150203-1103/" version="9.0.0.20150203-1103">
+</feature>
+<feature id="com.ibm.collaboration.realtime.chatrooms.feature" url="features/com.ibm.collaboration.realtime.chatrooms.feature_9.0.0.20150203-0345/" version="9.0.0.20150203-0345">
+</feature>
+<feature id="com.ibm.designer.domino.lscript.feature" url="features/com.ibm.designer.domino.lscript.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.designer.domino.lib.xml.xstream.feature" url="features/com.ibm.designer.domino.lib.xml.xstream.feature_9.0.1.20131004-1200/" version="9.0.1.20131004-1200">
+</feature>
+<feature id="com.ibm.collaboration.realtime.oi.base.feature" url="features/com.ibm.collaboration.realtime.oi.base.feature_9.0.0.20150203-0745/" version="9.0.0.20150203-0745">
+</feature>
+<feature id="com.voicerite.vc3.softphone.voicesuiteIntegration" url="features/com.voicerite.vc3.softphone.voicesuiteIntegration_1.0.7/" version="1.0.7">
+</feature>
+<feature id="com.ibm.lconn.client.activities.feature" url="features/com.ibm.lconn.client.activities.feature_4.5.0.20150203-1718/" version="4.5.0.20150203-1718">
+</feature>
+<feature id="com.ibm.lconn.client.activities.nls1.feature" url="features/com.ibm.lconn.client.activities.nls1.feature_4.5.0.20130513-2034/" version="4.5.0.20130513-2034">
+</feature>
+<feature id="com.ibm.opensocial.sapi.feature" url="features/com.ibm.opensocial.sapi.feature_9.0.1.20131022-1058/" version="9.0.1.20131022-1058">
+</feature>
+<feature id="com.ibm.collaboration.realtime.activitymonitor.feature" url="features/com.ibm.collaboration.realtime.activitymonitor.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.status.ext.feature" url="features/com.ibm.collaboration.realtime.status.ext.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.fiesta.notes.feature" url="features/com.ibm.fiesta.notes.feature_9.0.1.20131022-1058/" version="9.0.1.20131022-1058">
+</feature>
+<feature id="com.ibm.lconn.client.activities.nls3.feature" url="features/com.ibm.lconn.client.activities.nls3.feature_4.5.0.20130513-2034/" version="4.5.0.20130513-2034">
+</feature>
+<feature id="com.ibm.fiesta.commons.feature.patch" url="features/com.ibm.fiesta.commons.feature.patch_9.0.1.20140804-1000/" version="9.0.1.20140804-1000">
+</feature>
+<feature id="com.ibm.designer.domino.lib.xsp.feature.patch" url="features/com.ibm.designer.domino.lib.xsp.feature.patch_9.0.1.20140804-1000/" version="9.0.1.20140804-1000">
+</feature>
+<feature id="com.ibm.designer.ide.broker.generator.feature" url="features/com.ibm.designer.ide.broker.generator.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.jscript.debugger.feature" url="features/com.ibm.jscript.debugger.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.xsp.extlib.feature" url="features/com.ibm.xsp.extlib.feature_9.0.1.v00_00_20131004-1200/" version="9.0.1.v00_00_20131004-1200">
+</feature>
+<feature id="com.ibm.notes.pd.feature" url="features/com.ibm.notes.pd.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.lconn.client.bizcard.livenames.feature" url="features/com.ibm.lconn.client.bizcard.livenames.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.rcp.aaf.feature" url="features/com.ibm.rcp.aaf.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.notes.search.googledesktop.feature" url="features/com.ibm.notes.search.googledesktop.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.collaboration.realtime.issi.feature" url="features/com.ibm.collaboration.realtime.issi.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.commons.script.feature" url="features/com.ibm.commons.script.feature_9.0.1.20131004-1200/" version="9.0.1.20131004-1200">
+</feature>
+<feature id="com.ibm.lconn.client.activities.nl.feature" url="features/com.ibm.lconn.client.activities.nl.feature_4.5.0/" version="4.5.0">
+</feature>
+<feature id="com.ibm.lconn.statusupdates.feature" url="features/com.ibm.lconn.statusupdates.feature_4.5.0.20150203-1718/" version="4.5.0.20150203-1718">
+</feature>
+<feature id="com.ibm.collaboration.realtime.accessibility.feature" url="features/com.ibm.collaboration.realtime.accessibility.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.embedded.feature" url="features/com.ibm.collaboration.realtime.embedded.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.rcp.search.feature" url="features/com.ibm.rcp.search.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.collaboration.realtime.bluepages.embedded.feature" url="features/com.ibm.collaboration.realtime.bluepages.embedded.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.notes.search.windowsdesktop.feature" url="features/com.ibm.notes.search.windowsdesktop.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.collaboration.realtime.oi.embedded.feature" url="features/com.ibm.collaboration.realtime.oi.embedded.feature_9.0.0.20150203-0745/" version="9.0.0.20150203-0745">
+</feature>
+<feature id="com.ibm.collaboration.realtime.notes.messages.feature" url="features/com.ibm.collaboration.realtime.notes.messages.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.notes.livetext.feature" url="features/com.ibm.notes.livetext.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.notes.toolbox.ca.provider.feature" url="features/com.ibm.notes.toolbox.ca.provider.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.collaboration.realtime.login.feature" url="features/com.ibm.collaboration.realtime.login.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.rcp.cae.toolbox.adapter.feature" url="features/com.ibm.rcp.cae.toolbox.adapter.feature_1.5.0.20131002-1404/" version="1.5.0.20131002-1404">
+</feature>
+<feature id="com.ibm.etools.xve.core.feature" url="features/com.ibm.etools.xve.core.feature_1.3.0.v20090425_0155/" version="1.3.0.v20090425_0155">
+</feature>
+<feature id="com.ibm.rcp.pim.views.feature.patch" url="features/com.ibm.rcp.pim.views.feature.patch_9.0.1.20140804-1000-T00037SHF/" version="9.0.1.20140804-1000-T00037SHF">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.softphone.feature" url="features/com.ibm.collaboration.realtime.telephony.softphone.feature_9.0.0.20150203-0045/" version="9.0.0.20150203-0045">
+</feature>
+<feature id="com.ibm.designer.domino.lib.misc.feature" url="features/com.ibm.designer.domino.lib.misc.feature_9.0.1.20131004-1200/" version="9.0.1.20131004-1200">
+</feature>
+<feature id="com.ibm.collaboration.realtime.notes.connector.feature.patch.n9" url="features/com.ibm.collaboration.realtime.notes.connector.feature.patch.n9_8.5.2.20140610-0645/" version="8.5.2.20140610-0645">
+</feature>
+<feature id="com.ibm.etools.attrview.feature" url="features/com.ibm.etools.attrview.feature_1.1.0.v20090406_2150/" version="1.1.0.v20090406_2150">
+</feature>
+<feature id="com.ibm.collaboration.realtime.location.feature" url="features/com.ibm.collaboration.realtime.location.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.sut.callhistory.feature" url="features/com.ibm.collaboration.realtime.telephony.sut.callhistory.feature_9.0.0.20150203-0045/" version="9.0.0.20150203-0045">
+</feature>
+<feature id="com.ibm.csi.feature" url="features/com.ibm.csi.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.collaboration.realtime.browser.xul.feature" url="features/com.ibm.collaboration.realtime.browser.xul.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.im.community.impl.feature" url="features/com.ibm.collaboration.realtime.im.community.impl.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.fiesta.commons.feature" url="features/com.ibm.fiesta.commons.feature_9.0.1.20131022-1058/" version="9.0.1.20131022-1058">
+</feature>
+<feature id="com.ibm.rtc.web.utils.feature" url="features/com.ibm.rtc.web.utils.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.directoryservices.feature" url="features/com.ibm.directoryservices.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.collaboration.realtime.chat.logging.ui.feature" url="features/com.ibm.collaboration.realtime.chat.logging.ui.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.ui.feature" url="features/com.ibm.collaboration.realtime.ui.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.chat.feature" url="features/com.ibm.collaboration.realtime.chat.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.quickfind.feature" url="features/com.ibm.collaboration.realtime.quickfind.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.notes.dip.feature" url="features/com.ibm.notes.dip.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.collaboration.realtime.credentialstore.feature" url="features/com.ibm.collaboration.realtime.credentialstore.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.notes.client.feature.patch" url="features/com.ibm.notes.client.feature.patch_9.0.1.20140804-1000/" version="9.0.1.20140804-1000">
+</feature>
+<feature id="com.ibm.collaboration.realtime.filteredbuddies.feature" url="features/com.ibm.collaboration.realtime.filteredbuddies.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.filetransfer.feature" url="features/com.ibm.collaboration.realtime.filetransfer.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.directory.bluepages.menus.feature" url="features/com.ibm.collaboration.realtime.directory.bluepages.menus.feature_1.0.0/" version="1.0.0">
+</feature>
+<feature id="com.ibm.documents.connector.account.preferences.feature.nl1" url="features/com.ibm.documents.connector.account.preferences.feature.nl1_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.designer.domino.feature.patch" url="features/com.ibm.designer.domino.feature.patch_9.0.1.20140804-1000-T00037SHF/" version="9.0.1.20140804-1000-T00037SHF">
+</feature>
+<feature id="com.ibm.designer.domino.runtime.core.feature" url="features/com.ibm.designer.domino.runtime.core.feature_9.0.1.20131004-1200/" version="9.0.1.20131004-1200">
+</feature>
+<feature id="com.ibm.documents.connector.account.preferences.feature.nl2" url="features/com.ibm.documents.connector.account.preferences.feature.nl2_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.documents.connector.account.preferences.feature.nl3" url="features/com.ibm.documents.connector.account.preferences.feature.nl3_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.notes.pim.feature" url="features/com.ibm.notes.pim.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.notes.view.container.feature" url="features/com.ibm.notes.view.container.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.commons.swt.xml.feature" url="features/com.ibm.commons.swt.xml.feature_9.0.1.20131004-1200/" version="9.0.1.20131004-1200">
+</feature>
+<feature id="com.ibm.documents.connector.files.authentication.feature" url="features/com.ibm.documents.connector.files.authentication.feature_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.designer.domino.runtime.feature" url="features/com.ibm.designer.domino.runtime.feature_9.0.1.20131004-1200/" version="9.0.1.20131004-1200">
+</feature>
+<feature id="com.ibm.notes.sametime.installed.feature" url="features/com.ibm.notes.sametime.installed.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.voicerite.vc3.sametime" url="features/com.voicerite.vc3.sametime_3.7.35/" version="3.7.35">
+</feature>
+<feature id="com.ibm.collaboration.realtime.webapi.feature" url="features/com.ibm.collaboration.realtime.webapi.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.community.st.feature" url="features/com.ibm.collaboration.realtime.community.st.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.documents.share.common.feature.nl1" url="features/com.ibm.documents.share.common.feature.nl1_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.documents.share.common.feature.nl2" url="features/com.ibm.documents.share.common.feature.nl2_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.documents.share.common.feature.nl3" url="features/com.ibm.documents.share.common.feature.nl3_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.collaboration.realtime.app.services.feature" url="features/com.ibm.collaboration.realtime.app.services.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.rtc.core.feature" url="features/com.ibm.collaboration.realtime.rtc.core.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.spellchecker.feature" url="features/com.ibm.collaboration.realtime.spellchecker.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.rtcadapter.feature" url="features/com.ibm.collaboration.realtime.rtcadapter.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.designer.domino.lib.xsp.feature" url="features/com.ibm.designer.domino.lib.xsp.feature_9.0.1.20131004-1200/" version="9.0.1.20131004-1200">
+</feature>
+<feature id="com.ibm.rtc.meetings.help.feature" url="features/com.ibm.rtc.meetings.help.feature_9.0.0.20150203-1103/" version="9.0.0.20150203-1103">
+</feature>
+<feature id="com.ibm.designer.domino.feature" url="features/com.ibm.designer.domino.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.notes.links.feature" url="features/com.ibm.notes.links.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.rcp.search.engines.google.feature" url="features/com.ibm.rcp.search.engines.google.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.xsp.extlib.designer.tooling.feature.source" url="features/com.ibm.xsp.extlib.designer.tooling.feature.source_9.0.1.v00_00_20131022-0932/" version="9.0.1.v00_00_20131022-0932">
+</feature>
+<feature id="com.ibm.notes.branding.feature.patch" url="features/com.ibm.notes.branding.feature.patch_9.0.1.20140804-1000-T00037SHF/" version="9.0.1.20140804-1000-T00037SHF">
+</feature>
+<feature id="com.ibm.collaboration.realtime.livetext.feature" url="features/com.ibm.collaboration.realtime.livetext.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.instantshare.feature" url="features/com.ibm.collaboration.realtime.instantshare.feature_9.0.0.20150203-0345/" version="9.0.0.20150203-0345">
+</feature>
+<feature id="com.ibm.collaboration.realtime.im.community.feature" url="features/com.ibm.collaboration.realtime.im.community.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.brokerbridge.feature" url="features/com.ibm.collaboration.realtime.brokerbridge.feature_9.0.0.20150203-0745/" version="9.0.0.20150203-0745">
+</feature>
+<feature id="com.ibm.xsp.extlib.feature.source" url="features/com.ibm.xsp.extlib.feature.source_9.0.1.v00_00_20131004-1200/" version="9.0.1.v00_00_20131004-1200">
+</feature>
+<feature id="com.ibm.rcp.pim.widgets.feature.patch" url="features/com.ibm.rcp.pim.widgets.feature.patch_9.0.1.20140804-1000/" version="9.0.1.20140804-1000">
+</feature>
+<feature id="com.ibm.notes.toolbox.admin.feature" url="features/com.ibm.notes.toolbox.admin.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.commons.feature" url="features/com.ibm.commons.feature_9.0.1.20131004-1200/" version="9.0.1.20131004-1200">
+</feature>
+<feature id="com.ibm.collaboration.realtime.contactlist.feature" url="features/com.ibm.collaboration.realtime.contactlist.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.rtc.meetings.feature" url="features/com.ibm.rtc.meetings.feature_9.0.0.20150203-1103/" version="9.0.0.20150203-1103">
+</feature>
+<feature id="com.ibm.rcp.contentspots.feature" url="features/com.ibm.rcp.contentspots.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.ui.browser.content.feature" url="features/com.ibm.rcp.ui.browser.content.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="org.eclipse.tptp.trace.memory.feature" url="features/org.eclipse.tptp.trace.memory.feature_4.2.0.v200606121835--0842282835373A/" version="4.2.0.v200606121835--0842282835373A">
+</feature>
+<feature id="com.ibm.collaboration.realtime.calendar.feature" url="features/com.ibm.collaboration.realtime.calendar.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.documents.share.notes.feature" url="features/com.ibm.documents.share.notes.feature_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.sut.base.feature" url="features/com.ibm.collaboration.realtime.telephony.sut.base.feature_9.0.0.20150203-0045/" version="9.0.0.20150203-0045">
+</feature>
+<feature id="com.ibm.documents.share.common.feature" url="features/com.ibm.documents.share.common.feature_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.notes.toolbox.langware.feature" url="features/com.ibm.notes.toolbox.langware.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.documents.connector.runtime.feature" url="features/com.ibm.documents.connector.runtime.feature_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.lconn.client.bizcard.feature" url="features/com.ibm.lconn.client.bizcard.feature_4.5.0.20150203-1718/" version="4.5.0.20150203-1718">
+</feature>
+<feature id="com.ibm.notes.client.feature" url="features/com.ibm.notes.client.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.collaboration.realtime.messages.feature" url="features/com.ibm.collaboration.realtime.messages.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.annotate.feature" url="features/com.ibm.collaboration.realtime.annotate.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.palettes.feature" url="features/com.ibm.collaboration.realtime.palettes.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.notes.connector.feature" url="features/com.ibm.collaboration.realtime.notes.connector.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.rcp.eclipse.wst.add.feature" url="features/com.ibm.rcp.eclipse.wst.add.feature_9.0.1.20130829-1400/" version="9.0.1.20130829-1400">
+</feature>
+<feature id="com.ibm.designer.domino.doc.feature" url="features/com.ibm.designer.domino.doc.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.commons.script.feature.patch" url="features/com.ibm.commons.script.feature.patch_9.0.1.20140804-1000/" version="9.0.1.20140804-1000">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.sut.phonebook.feature" url="features/com.ibm.collaboration.realtime.telephony.sut.phonebook.feature_9.0.0.20150203-0045/" version="9.0.0.20150203-0045">
+</feature>
+<feature id="com.ibm.collaboration.realtime.primarybuddies.feature" url="features/com.ibm.collaboration.realtime.primarybuddies.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.bluepages.feature" url="features/com.ibm.collaboration.realtime.bluepages.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.lconn.client.activities.nls2.feature" url="features/com.ibm.lconn.client.activities.nls2.feature_4.5.0.20130513-2034/" version="4.5.0.20130513-2034">
+</feature>
+<feature id="com.ibm.notes.search.tracker.feature" url="features/com.ibm.notes.search.tracker.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.documents.connector.notes.feature.nl1" url="features/com.ibm.documents.connector.notes.feature.nl1_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.notes.ipc.feature" url="features/com.ibm.notes.ipc.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.documents.connector.notes.feature.nl2" url="features/com.ibm.documents.connector.notes.feature.nl2_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.documents.connector.notes.feature.nl3" url="features/com.ibm.documents.connector.notes.feature.nl3_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.collaboration.realtime.broadcast.feature" url="features/com.ibm.collaboration.realtime.broadcast.feature_9.0.0.20150203-0345/" version="9.0.0.20150203-0345">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.sut.embedded.feature" url="features/com.ibm.collaboration.realtime.telephony.sut.embedded.feature_9.0.0.20150203-0045/" version="9.0.0.20150203-0045">
+</feature>
+<feature id="com.ibm.collaboration.realtime.orgtree.feature" url="features/com.ibm.collaboration.realtime.orgtree.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.notes.branding.feature" url="features/com.ibm.notes.branding.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.rcp.eclipse.sdk.add.feature" url="features/com.ibm.rcp.eclipse.sdk.add.feature_9.0.1.20130829-1400/" version="9.0.1.20130829-1400">
+</feature>
+<feature id="com.ibm.collaboration.realtime.telephony.status.feature" url="features/com.ibm.collaboration.realtime.telephony.status.feature_9.0.0.20150203-0045/" version="9.0.0.20150203-0045">
+</feature>
+<feature id="com.ibm.commons.xsd.feature" url="features/com.ibm.commons.xsd.feature_9.0.1.20131004-1200/" version="9.0.1.20131004-1200">
+</feature>
+<feature id="com.ibm.siapi.feature" url="features/com.ibm.siapi.feature_9.0.1.20131002-1404/" version="9.0.1.20131002-1404">
+</feature>
+<feature id="com.ibm.rcp.feedreader.notes.providers.feature" url="features/com.ibm.rcp.feedreader.notes.providers.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.rcp.eclipse.xsd.add.feature" url="features/com.ibm.rcp.eclipse.xsd.add.feature_9.0.1.20130829-1400/" version="9.0.1.20130829-1400">
+</feature>
+<feature id="com.ibm.rcp.pim.widgets.feature" url="features/com.ibm.rcp.pim.widgets.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.notes.toolbox.feature" url="features/com.ibm.notes.toolbox.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.documents.connector.runtime.feature.nl1" url="features/com.ibm.documents.connector.runtime.feature.nl1_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.documents.connector.runtime.feature.nl2" url="features/com.ibm.documents.connector.runtime.feature.nl2_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.documents.connector.runtime.feature.nl3" url="features/com.ibm.documents.connector.runtime.feature.nl3_8.5.4.20150204-0740/" version="8.5.4.20150204-0740">
+</feature>
+<feature id="com.ibm.collaboration.realtime.advanced.embedded.feature" url="features/com.ibm.collaboration.realtime.advanced.embedded.feature_9.0.0.20150203-0345/" version="9.0.0.20150203-0345">
+</feature>
+<feature id="com.ibm.csi.notes.feature" url="features/com.ibm.csi.notes.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.collaboration.realtime.calendar.common.feature" url="features/com.ibm.collaboration.realtime.calendar.common.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.collaboration.realtime.people.impl.feature" url="features/com.ibm.collaboration.realtime.people.impl.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+<feature id="com.ibm.xsp.feature" url="features/com.ibm.xsp.feature_9.0.1.20131004-1200/" version="9.0.1.20131004-1200">
+</feature>
+<feature id="com.ibm.notes.aaf.feature" url="features/com.ibm.notes.aaf.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.notes.iopes.search.feature" url="features/com.ibm.notes.iopes.search.feature_9.0.1.20131022-0932/" version="9.0.1.20131022-0932">
+</feature>
+<feature id="com.ibm.collaboration.realtime.webapi.ssl.feature" url="features/com.ibm.collaboration.realtime.webapi.ssl.feature_9.0.0.20150203-0608/" version="9.0.0.20150203-0608">
+</feature>
+</site>
+</config>

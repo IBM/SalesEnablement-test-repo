@@ -1,0 +1,442 @@
+X-Notes-Item: 1;
+ name=$AutoSpell
+X-Notes-Item: Fri, 10 Aug 2012 10:15:40 -0400;
+ type=400; name=OriginalModTime
+X-Notes-Item: Reply;
+ name=Form
+In-Reply-To: <OF522BEA9D.77342FE0-ON86257A56.004BA213-86257A56.004C3CFB@LocalDomain>
+References: <OFF4304A6B.353ECC48-ONC1257A54.003841D8-C1257A54.003DA417@LocalDomain> <OF522BEA9D.77342FE0-ON86257A56.004BA213-86257A56.004C3CFB@LocalDomain>
+X-Notes-Item: 522BEA9D:77342FE0-86257A56:004BA213;
+ type=4; name=$REF
+X-Notes-Item: F4304A6B:353ECC48-C1257A54:003841D8, F4304A6B:353ECC48-C1257A54:003841D8, 522BEA9D:77342FE0-86257A56:004BA213;
+ type=4; name=$TUA
+X-Notes-Item: CN=Prabhakar Attaluri/OU=Schaumburg/O=IBM@IBMUS;
+ flags=44; name=InheritedFrom
+X-Notes-Item: CN=Prabhakar Attaluri/OU=Schaumburg/O=IBM@IBMUS@IBMUS;
+ flags=44; name=InheritedAltFrom
+X-Notes-Item: IBMUS;
+ flags=44; name=InheritedFromDomain
+X-Notes-Item: StdNotesLtr8;
+ name=Logo
+X-Notes-Item: StdNotesLtr8;
+ name=dLogo
+X-Notes-Item: 1;
+ name=DefaultMailSaveOptions
+X-Notes-Item: 0;
+ name=ExpandPersonalGroups
+X-Notes-Item: ;
+ name=origStat
+X-Notes-Item: ;
+ name=tmpImp
+X-Notes-Item: ;
+ name=Sign
+X-Notes-Item: See my comments in red.. Suraj I need you to provide more insight on the
+ monitoring one...  Jennifer;
+ flags=6; name=$Abstract
+X-Notes-Item: IBM Confidential;
+ name=ConfidentialString
+X-Notes-Item: ;
+ name=Classification
+Subject: Re: SCE+ some questions
+X-KeepSent: F72B4D4E:61925D3A-85257A56:004CBAA5;
+ type=4; name=$KeepSent
+To: Prabhakar_Attaluri/Schaumburg/IBM%IBMUS
+Cc: marcus.erber@at.ibm.com,
+	andrewj@us.ibm.com,
+	suraj@us.ibm.com
+X-Notes-Item: en;
+ type=501; name=$NameLanguageTags
+X-Notes-Item: CN=Marcus Erber/OU=Austria/O=IBM@IBMAT@IBMGB,
+	CN=Andrew Jones/OU=Austin/O=IBM@IBMUS,
+	CN=Suraj Subramanian/OU=Mountain View/O=IBM@IBMUS;
+ type=501; flags=45; name=Originalcc
+X-Notes-Item: CN=Prabhakar Attaluri/OU=Schaumburg/O=IBM@IBMUS;
+ flags=45; name=AltSendTo
+X-Notes-Item: CN=Marcus Erber/OU=Austria/O=IBM@IBMAT@IBMGB,
+	CN=Andrew Jones/OU=Austin/O=IBM@IBMUS,
+	CN=Suraj Subramanian/OU=Mountain View/O=IBM@IBMUS;
+ type=501; flags=45; name=AltCopyTo
+X-Notes-Item: .;
+ name=$StorageTo
+X-Notes-Item: .,
+	.,
+	.;
+ type=501; name=$StorageCc
+X-Mailer: Lotus Notes Release 8.5.1FP5 SHF29 November 12, 2010
+Message-ID: <OFF72B4D4E.61925D3A-ON85257A56.004CBAA5-85257A56.004E5C4D@LocalDomain>
+From: jawatson@ca.ibm.com
+Date: Fri, 10 Aug 2012 10:15:30 -0400
+X-Notes-Item: 0;
+ name=Encrypt
+X-Notes-Item: ;
+ name=HasSafeStamp
+X-Notes-Item: CN=D01ML394/OU=01/OU=M/O=IBM,
+	CN=D01HUB30/OU=01/OU=H/O=IBM,
+	CN=D01HUB02/OU=01/OU=H/O=IBM,
+	CN=D01ML084/OU=01/OU=M/O=IBM;
+ type=501; flags=0; name=RouteServers
+X-Notes-Item: =?UTF-8?B?MTAtQXVnLTIwMTIgMTA6MTU6MzAgRURULzEwLUF1Zy0yMDEyIDEwOjE1OjMw?=
+ =?UTF-8?B?IEVEVCwgMTAtQXVnLTIwMTIgMTA6MTU6MzAgRURULzEwLUF1Zy0yMDEyIDEw?=
+ =?UTF-8?B?OjE1OjMwIEVEVCwgMTAtQXVnLTIwMTIgMTA6MTU6MzAgRURULzEwLUF1Zy0=?=
+ =?UTF-8?B?MjAxMiAxMDoxNTozMSBFRFQsIDEwLUF1Zy0yMDEyIDEwOjE1OjMxIEVEVC8=?=
+ =?UTF-8?B?MTAtQXVnLTIwMTIgMTA6MTU6MzIgRURU?=;
+ type=401; flags=0; name=RouteTimes
+X-Notes-Item: F72B4D4E:61925D3A-85257A56:004CBAA5;
+ type=4; name=$Orig
+X-Notes-Item: CN=D01ML394/OU=01/OU=M/O=IBM,
+	CN=D01HUB30/OU=01/OU=H/O=IBM,
+	CN=D01HUB02/OU=01/OU=H/O=IBM,
+	CN=D01ML084/OU=01/OU=M/O=IBM;
+ type=501; flags=44; name=$UpdatedBy
+X-Notes-Item: ;
+ type=501; name=Categories
+X-Notes-Item: ;
+ type=401; name=$Revisions
+X-Notes-Item: IBMCA;
+ name=FromDomain
+X-Notes-Item: Fri, 10 Aug 2012 10:15:32 -0400;
+ type=400; name=DeliveredDate
+X-Notes-Item: ;
+ name=$MiniView
+X-Notes-Item: 1;
+ name=$NoteHasNativeMIME
+X-Notes-Item: CN=Prabhakar Attaluri/OU=Schaumburg/O=IBM@IBMUS;
+ name=OriginalTo
+X-Notes-Item: CN=Jennifer A Watson/OU=Toronto/O=IBM;
+ name=OriginalFrom
+X-MIMETrack: Serialize by Notes Client on Andrew Jones/Austin/IBM(Release 8.5.3|September
+ 15, 2011) at 10/02/2012 05:55:26 PM
+MIME-Version: 1.0
+Content-type: multipart/related; 
+	Boundary="0__=0ABBF0C5DFDF3C358f9e8a93df938690918c0ABBF0C5DFDF3C35"
+Content-Disposition: inline
+
+--0__=0ABBF0C5DFDF3C358f9e8a93df938690918c0ABBF0C5DFDF3C35
+Content-type: text/html; charset=ISO-8859-1
+Content-Disposition: inline
+Content-transfer-encoding: quoted-printable
+
+<html><body>
+<p><font size=3D"2" face=3D"sans-serif">See my comments in red.. Suraj =
+I need you to provide more insight on the monitoring one...</font><font=
+ size=3D"1" face=3D"Arial"><br>
+</font><br>
+<font size=3D"3" color=3D"#888888" face=3D"Arial"><b>Jennifer Watson</b=
+></font><font size=3D"1" face=3D"Arial"><br>
+Continual Process Improvement Specialist<br>
+ITIL=AE v3 Foundations Certified<br>
+Global Process Management Services</font>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr valign=3D"top"><td width=3D"680" colspan=3D"2" valign=3D"middle"><h=
+r width=3D"100%" size=3D"2" align=3D"left"></td></tr>
+
+<tr valign=3D"top"><td width=3D"419"><font size=3D"1" color=3D"#466BB0"=
+ face=3D"Arial"><b>Phone:</b></font><font size=3D"1" color=3D"#5F5F5F" =
+face=3D"Arial">&nbsp;1-705-429-4158</font><font size=3D"1" color=3D"#46=
+6BB0" face=3D"Arial"><b><br>
+E-mail:</b></font><font size=3D"1" color=3D"#5F5F5F" face=3D"Arial">&nb=
+sp;</font><a href=3D"mailto:jawatson@ca.ibm.com" target=3D"_blank"><fon=
+t size=3D"1" color=3D"#5F5F5F" face=3D"Arial"><u>jawatson@ca.ibm.com</u=
+></font></a><font size=3D"1" color=3D"#466BB0" face=3D"Arial"><b><br>
+Service Requests for Global Process Needs: </b></font><a href=3D"http:/=
+/ibmurl.hursley.ibm.com/2KSK" target=3D"_blank"><font size=3D"1" color=3D=
+"#5F5F5F" face=3D"Arial"><u>ibmurl.hursley.ibm.com/2KSK</u></font></a><=
+font size=3D"1" color=3D"#5F5F5F" face=3D"Arial"><i><br>
+&quot;Today is your day! Your mountain is waiting. So... get on your wa=
+y.&quot; - Dr. Seuss</i></font></td><td width=3D"261"><div align=3D"rig=
+ht"><img src=3D"cid:0__=3D0ABBF0C5DFDF3C358f9e8a93df93869091@local" wid=
+th=3D"83" height=3D"30" alt=3D"IBM"><font size=3D"1" color=3D"#5F5F5F" =
+face=3D"Arial"><br>
+<br>
+Wasaga Beach, ON <br>
+Canada</font></div></td></tr>
+</table>
+<br>
+<img width=3D"16" height=3D"16" src=3D"cid:1__=3D0ABBF0C5DFDF3C358f9e8a=
+93df93869091@local" border=3D"0" alt=3D"Inactive hide details for Prabh=
+akar Attaluri---08/10/2012 09:56:09 AM---Marcus, See my responses below=
+ in this pen"><font size=3D"2" color=3D"#424282" face=3D"sans-serif">Pr=
+abhakar Attaluri---08/10/2012 09:56:09 AM---Marcus, See my responses be=
+low in this pen</font><br>
+<br>
+<font size=3D"1" color=3D"#5F5F5F" face=3D"sans-serif">From:	</font><fo=
+nt size=3D"1" face=3D"sans-serif">Prabhakar Attaluri/Schaumburg/IBM@IBM=
+US</font><br>
+<font size=3D"1" color=3D"#5F5F5F" face=3D"sans-serif">To:	</font><font=
+ size=3D"1" face=3D"sans-serif">Marcus Erber/Austria/IBM@IBMAT@IBMGB</f=
+ont><br>
+<font size=3D"1" color=3D"#5F5F5F" face=3D"sans-serif">Cc:	</font><font=
+ size=3D"1" face=3D"sans-serif">Andrew Jones/Austin/IBM@IBMUS, Jennifer=
+ A Watson/Toronto/IBM@IBMCA</font><br>
+<font size=3D"1" color=3D"#5F5F5F" face=3D"sans-serif">Date:	</font><fo=
+nt size=3D"1" face=3D"sans-serif">08/10/2012 09:56 AM</font><br>
+<font size=3D"1" color=3D"#5F5F5F" face=3D"sans-serif">Subject:	</font>=
+<font size=3D"1" face=3D"sans-serif">Re: SCE+ some questions</font><br>=
+
+<hr width=3D"100%" size=3D"2" align=3D"left" noshade style=3D"color:#80=
+91A5; "><br>
+<br>
+<font size=3D"2" face=3D"sans-serif">Marcus,</font><br>
+<font size=3D"2" face=3D"sans-serif">See my responses below in this </f=
+ont><font size=3D"2" color=3D"#0000FF" face=3D"sans-serif">pen</font><f=
+ont size=3D"2" face=3D"sans-serif"><br>
+</font><font size=3D"1" face=3D"Arial"><br>
+</font><br>
+<font size=3D"2" color=3D"#888888" face=3D"Arial"><b>Prabhakar (Prabs) =
+Attaluri</b></font><font size=3D"1" face=3D"Arial"><br>
+Global Cloud Technology Leader, STSM<br>
+Global Cloud Managed Services Enablement, IBM GTS</font>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr valign=3D"top"><td width=3D"544" colspan=3D"2" valign=3D"middle"><h=
+r width=3D"100%" size=3D"2" align=3D"left"></td></tr>
+
+<tr valign=3D"top"><td width=3D"334"><font size=3D"1" color=3D"#466BB0"=
+ face=3D"Arial"><b>Phone:</b></font><font size=3D"1" color=3D"#5F5F5F" =
+face=3D"Arial">&nbsp;1-720-395-5964</font><font size=3D"1" color=3D"#46=
+6BB0" face=3D"Arial">&nbsp;| </font><font size=3D"1" color=3D"#466BB0" =
+face=3D"Arial"><b>Tie-Line:</b></font><font size=3D"1" color=3D"#5F5F5F=
+" face=3D"Arial">&nbsp;676-5964</font><font size=3D"1" color=3D"#466BB0=
+" face=3D"Arial">&nbsp;| </font><font size=3D"1" color=3D"#466BB0" face=
+=3D"Arial"><b>Mobile:</b></font><font size=3D"1" color=3D"#5F5F5F" face=
+=3D"Arial">&nbsp;1-630-715-2588</font><font size=3D"1" color=3D"#466BB0=
+" face=3D"Arial"><b><br>
+E-mail:</b></font><font size=3D"1" color=3D"#5F5F5F" face=3D"Arial">&nb=
+sp;</font><a href=3D"mailto:prabs@us.ibm.com" target=3D"_blank"><font s=
+ize=3D"1" color=3D"#5F5F5F" face=3D"Arial"><u>prabs@us.ibm.com</u></fon=
+t></a><font size=3D"1" color=3D"#466BB0" face=3D"Arial"><b><br>
+Find me on:</b></font><font size=3D"1" color=3D"#5F5F5F" face=3D"Arial"=
+>&nbsp;</font><a href=3D"http://www.linkedin.com/pub/prabhakar-attaluri=
+/5/116/641" target=3D"_blank"><img src=3D"cid:2__=3D0ABBF0C5DFDF3C358f9=
+e8a93df93869091@local" width=3D"16" height=3D"16" alt=3D"LinkedIn: http=
+://www.linkedin.com/pub/prabhakar-attaluri/5/116/641" border=3D"0"></a>=
+<font size=3D"1" color=3D"#5F5F5F" face=3D"Arial">&nbsp;</font><a href=3D=
+"https://twitter.com/@prabs_a" target=3D"_blank"><img src=3D"cid:3__=3D=
+0ABBF0C5DFDF3C358f9e8a93df93869091@local" width=3D"16" height=3D"16" al=
+t=3D"Twitter: https://twitter.com/@prabs_a" border=3D"0"></a><font size=
+=3D"1" color=3D"#5F5F5F" face=3D"Arial">&nbsp;</font></td><td width=3D"=
+210"><div align=3D"right"><img src=3D"cid:4__=3D0ABBF0C5DFDF3C358f9e8a9=
+3df93869091@local" width=3D"70" height=3D"24" alt=3D"IBM"><font size=3D=
+"1" color=3D"#5F5F5F" face=3D"Arial"><br>
+</font></div></td></tr>
+</table>
+<br>
+<br>
+<br>
+<img width=3D"16" height=3D"16" src=3D"cid:1__=3D0ABBF0C5DFDF3C358f9e8a=
+93df93869091@local" border=3D"0" alt=3D"Inactive hide details for Marcu=
+s Erber---08/08/2012 06:13:22 AM---Prabs, For a customer meeting next w=
+eek I would like to discu"><font size=3D"2" color=3D"#424282" face=3D"s=
+ans-serif">Marcus Erber---08/08/2012 06:13:22 AM---Prabs, For a custome=
+r meeting next week I would like to discuss the following questions wit=
+h you as</font><br>
+<br>
+<font size=3D"1" color=3D"#5F5F5F" face=3D"sans-serif">From:	</font><fo=
+nt size=3D"1" face=3D"sans-serif">Marcus Erber/Austria/IBM@IBMAT</font>=
+<br>
+<font size=3D"1" color=3D"#5F5F5F" face=3D"sans-serif">To:	</font><font=
+ size=3D"1" face=3D"sans-serif">Prabhakar Attaluri/Schaumburg/IBM, </fo=
+nt><br>
+<font size=3D"1" color=3D"#5F5F5F" face=3D"sans-serif">Date:	</font><fo=
+nt size=3D"1" face=3D"sans-serif">08/08/2012 06:13 AM</font><br>
+<font size=3D"1" color=3D"#5F5F5F" face=3D"sans-serif">Subject:	</font>=
+<font size=3D"1" face=3D"sans-serif">SCE+ some questions</font><br>
+<hr width=3D"100%" size=3D"2" align=3D"left" noshade style=3D"color:#80=
+91A5; "><br>
+<br>
+<font size=3D"2" face=3D"sans-serif">Prabs,</font><br>
+<br>
+<font size=3D"2" face=3D"sans-serif">For a customer meeting next week I=
+ would like to discuss the following questions with you as they will co=
+me from the client for sure:</font><br>
+
+<ol type=3D"1" style=3D"padding-left: 18pt">
+<li><font size=3D"2" face=3D"sans-serif">Is it true that the SCE+ porta=
+l can be accessed by the Internet? </font><font size=3D"2" color=3D"#00=
+00FF" face=3D"sans-serif">Yes, but default connection is using Customer=
+ prem VPN</font>
+<li><font size=3D"2" face=3D"sans-serif">Which service management ticke=
+ts can be viewed in the portal?</font>
+<ol type=3D"1" style=3D"padding-left: 18pt">
+<li><font size=3D"2" face=3D"sans-serif">I would assume all service req=
+uest tickets that are created using the portal can be viewed and access=
+ed </font><font size=3D"2" color=3D"#FF0000" face=3D"sans-serif">Yes. J=
+ennifer pls, confirm - From &nbsp;a customer perspective yes, the custo=
+mer has the ability to view their Service Request at any point during i=
+ts duration via the portal, including a LOG tab where the customer can =
+pro-actively look for updates/status provided by SCE+ Delivery teams th=
+at may be updating the request. The Customer also has the ability to Ad=
+d log entries to their request (normally for request of type issue/Inci=
+dents) if additional information was required from the customer etc... =
+however these updates are fed back to the IBM ISM ticket and required S=
+CE+ Delivery to also pro-actively look for these updates.. i.e. the sta=
+tus of the request does not change or flag the analyst to look for the =
+update.<br>
+</font>
+<li><font size=3D"2" face=3D"sans-serif">Is is possible to view tickets=
+ that were automatically generated by the monitoring?</font><font size=3D=
+"2" color=3D"#0000FF" face=3D"sans-serif">&nbsp;Yes read access only. J=
+ennifer, pls. confirm - </font><font size=3D"2" color=3D"#FF0000" face=3D=
+"sans-serif">As I understand today these are internal to SCE+ Delivery =
+only via SCE+ ISM there is no Service Request created in the Portal for=
+ the Customer to view... CA/CBM does NOT have the ability to view any a=
+lerts/monitoring via the portal, however Suaj has advised that SCE+ IBM=
+ Account team members can potentially be granted access to see alerts/m=
+onitoring for their accounts only.. Suraj please expand as required.<br=
+>
+</font></ol>
+
+<li><font size=3D"2" face=3D"sans-serif">Mandatory OS settings: As I un=
+derstood the customer can have temporary root access to install his app=
+lications ontop of a standard SCE+ image. After the root access is revo=
+ked, the delivery team checks for certain vital OS settings and resets =
+them back to acceptable values if necessary. Are these settings and val=
+ues somewhere documented? This is one of the first questions I always g=
+et when I discuss this topic with clients! </font><font size=3D"2" colo=
+r=3D"#0000FF" face=3D"sans-serif">Delivery team resets anything flagged=
+ by health scans. These are documented in Cloud Isec policy.</font>
+<li><font size=3D"2" face=3D"sans-serif">3rd party Licenses: I understo=
+od, most Microsoft server products can now be used on SCE+. How about O=
+racle licenses. Do we have any kind of guideline what the client needs =
+to have/needs to check about his Oracle licenses?Oracle licenses by nam=
+ed user are no issue. </font><font size=3D"2" color=3D"#0000FF" face=3D=
+"sans-serif">Oracle license for DB is same as non virtualized as Oracle=
+ has not finalized for sub capacity licensing agreements yet. So we nee=
+d to provide SCE+ asset info to customers to go procure Oracle licenses=
+. PLs. contact Joe Hudson from offering if you need more info.</font></=
+ol>
+<br>
+<font size=3D"2" face=3D"sans-serif">Thanks,</font>
+<p><font size=3D"1" face=3D"Verdana">by(e)<br>
+me.</font>
+<p><font size=3D"1" face=3D"Verdana">Follow me on </font><a href=3D"htt=
+p://twitter.com/emarcusnet"><font size=3D"1" color=3D"#00FFFF" face=3D"=
+Verdana"><b>twitter</b></font></a><font size=3D"1" face=3D"Verdana">&nb=
+sp;or check out </font><a href=3D"http://www.toughtsoncloud.com/"></a><=
+a href=3D"http://www.thoughtsoncloud.com/"><font size=3D"1" face=3D"Ver=
+dana">http://www.thoughtsoncloud.com</font></a><font size=3D"2" face=3D=
+"Verdana">&nbsp;</font><font size=3D"1" face=3D"Verdana">for the latest=
+ cloud news. </font><br>
+<hr width=3D"100%" size=3D"2" align=3D"left"><font size=3D"1" color=3D"=
+#0099FF" face=3D"Verdana"><b>DI Marcus Erber </b></font><font size=3D"1=
+" color=3D"#666666" face=3D"Verdana">| Senior IT Architect | Cloud Mana=
+ged Services | Europe IOT</font><font size=3D"1" color=3D"#0099FF" face=
+=3D"Verdana"><b><br>
+IBM Austria </b></font><font size=3D"1" color=3D"#666666" face=3D"Verda=
+na">| Obere Donaustrasse 95 | A-1020 Wien | BO/Dep. 88/794</font><font =
+size=3D"1" color=3D"#0099FF" face=3D"Verdana"><b><br>
+marcus.erber@at.ibm.com </b></font><font size=3D"1" color=3D"#666666" f=
+ace=3D"Verdana">| Voice: +43-1-21145-9874 | Fax: +43-720-515242</font>
+<p><font size=3D"1" color=3D"#666666" face=3D"Verdana"><b>IBM =D6sterre=
+ich Internationale B=FCromaschinen Gesellschaft m.b.H.</b></font><font =
+size=3D"1" color=3D"#666666" face=3D"Verdana"><br>
+Sitz: Wien | Firmenbuchgericht: Handelsgericht Wien, FN 80000y</font>
+<p><font size=3D"1" color=3D"#800000" face=3D"Verdana"><b>Out of Office=
+:</b></font><font size=3D"1" color=3D"#666666" face=3D"Verdana"><br>
+15.08. - 15.08.2012 Public Holiday<br>
+24.08. - 03.09.2012 VMworld 2012<br>
+</font>
+<p></body></html>=
+
+--0__=0ABBF0C5DFDF3C358f9e8a93df938690918c0ABBF0C5DFDF3C35
+Content-type: image/gif; 
+	name="02253656.gif"
+Content-Disposition: inline; filename="02253656.gif"
+Content-ID: <0__=0ABBF0C5DFDF3C358f9e8a93df93869091@local>
+Content-transfer-encoding: base64
+
+R0lGODlhUwAeALMAAP///wCKvwCz7wA+abLc7H/E33/Z90yt0kzK9LLo+gAAAAAAAAAAAAAAAAAA
+AAAAACH5BAAAAAAALAAAAABTAB4AAAT/cMhJKwAi680zMlcIBGRpkmJ6rkEaVjB1dXRnJCJ7Ei5A
+6KaecEgsGo/IpHLJbKZi0FltugGNgCWe6IdF9aAxKXV86ZIKqYK55Wy73/C4XBkedlyGuwqIvqiB
+dDBEeiJ5GwguXSGKc42Oj5CRInVCYzY9XQcAB4xIlD2WVUIrfyWlZyuSqqusrV+CdqEZVok7Vyw+
+qUmfLrIatDm2gFxBrsbHyG+8KYQhhhqIeyZapwF9xCWBFrEbeM1ltuDZF9heyefo6RdgsL414ixa
+AKV9uYCv7BNi7r/wK/K3tmARUeAAQHWOCBRQWA9howMFCRzIJwMDPwE3gukAqKZhuRMhFQosFElR
+n0VfH2ptVJHiYzE/EAFEAAA7
+
+--0__=0ABBF0C5DFDF3C358f9e8a93df938690918c0ABBF0C5DFDF3C35
+Content-type: image/gif; 
+	name="graycol.gif"
+Content-Disposition: inline; filename="graycol.gif"
+Content-ID: <1__=0ABBF0C5DFDF3C358f9e8a93df93869091@local>
+Content-transfer-encoding: base64
+
+R0lGODlhEAAQAKECAMzMzAAAAP///wAAACH5BAEAAAIALAAAAAAQABAAAAIXlI+py+0PopwxUbpu
+ZRfKZ2zgSJbmSRYAIf4fT3B0aW1pemVkIGJ5IFVsZWFkIFNtYXJ0U2F2ZXIhAAA7
+
+--0__=0ABBF0C5DFDF3C358f9e8a93df938690918c0ABBF0C5DFDF3C35
+Content-type: image/jpeg; 
+	name="02156552.jpg"
+Content-Disposition: inline; filename="02156552.jpg"
+Content-ID: <2__=0ABBF0C5DFDF3C358f9e8a93df93869091@local>
+Content-transfer-encoding: base64
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAEAAQAwERAAIRAQMRAf/EAGoAAAMAAAAAAAAAAAAAAAAA
+AAMFBgEAAwEBAAAAAAAAAAAAAAAAAgMEBQYQAAIBBAICAwEAAAAAAAAAAAECAxEEBQYAEiITITEH
+FBEAAgICAQUBAAAAAAAAAAAAAQIRAwAEEiFRYSIUBf/aAAwDAQACEQMRAD8Avdc1jEZDUrG8TFLd
+5Gcxo0zRwsrs0Qd+zP5ly1TzestK2EEwucrRriyvkAS0+MS7rrSYjXry/mwqWPWKT+e6WFEZJlUl
+CGUdlPYfB5TRcrtAacf8pUSVjB6V+va3reuWWMyq3S3dpe+6ZVjU0jWL108mU17D6pwtr817G5qV
+gp3wdDaWteBBkPOSeY/VMTk9O2jAwrdTZLN5U3OOHQMpid1oGIYkOQKUAPGnUK2I8rCpBypLfVgZ
+6tOf/9k=
+
+--0__=0ABBF0C5DFDF3C358f9e8a93df938690918c0ABBF0C5DFDF3C35
+Content-type: image/jpeg; 
+	name="02328908.jpg"
+Content-Disposition: inline; filename="02328908.jpg"
+Content-ID: <3__=0ABBF0C5DFDF3C358f9e8a93df93869091@local>
+Content-transfer-encoding: base64
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAEAAQAwERAAIRAQMRAf/EAGkAAQEBAAAAAAAAAAAAAAAA
+AAQFCAEBAQEAAAAAAAAAAAAAAAAABAMFEAABBAICAQUAAAAAAAAAAAABEQIDBQAEQQYxIXESIhQR
+AAEEAQQDAQAAAAAAAAAAAAIBEQMEADGREgUhQRPR/9oADAMBAAIRAxEAPwDRdvcnStGNcSYwwOcw
+cqoxkMHMMxL3YfGdEXRtN8VV38FhsGGONzXBpcpQhAQOPfJy11BHXE0+zCcuKIuj5D7fq3Wrb6tz
+XQfrjiAbLAASVC8D1Qh3HjF0zjIFjNWf3mH30NqOwFmEfog6jv8AuL612K3sd2SDcqX6UQYXiYhw
+CggfH7Nb5XJWqwALifLF9R21ixIoyQrGLO/nbyiZ/9k=
+
+--0__=0ABBF0C5DFDF3C358f9e8a93df938690918c0ABBF0C5DFDF3C35
+Content-type: image/gif; 
+	name="02163169.gif"
+Content-Disposition: inline; filename="02163169.gif"
+Content-ID: <4__=0ABBF0C5DFDF3C358f9e8a93df93869091@local>
+Content-transfer-encoding: base64
+
+R0lGODlhVwAeAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKbK8ER3u8bGxv///wAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAP/78KCgpICAgP8AAAD/AP//AAAA//8A/wD//////yH5BAAAAAAALAAAAABXAB4A
+hwAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKbK8ER3u8bGxv///wAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/7
+8KCgpICAgP8AAAD/AP//AAAA//8A/wD//////wj+ABcoGEiwYMEFDAQaXGhwAUIGEBMyLBixIsSJ
+By1qVIiRIEKOHRc+hAiS4ciKJU1qXMmypcuXMGPKnEmzps2bLlNO/Biy40OdBlf2VHByJVCREoeq
+TOrT4tGMOKNKnUq1qtWrDBjmDIoSacWOFpve1NqypNOFGsUyXYq1rdu3cOO2JMvyKdq0Te0WnUnX
+qFKiQkUebOhVruHDiBPD7Lvx796sDddmLFyT8dm/gaFOvBhZsefPoN9a7kqRdOmvnVNGpExzdESz
+pj2G7QxZNmeooXPr3o1aAUmlPP/ePToSZG+2F1dLxhhcuG3ivU+qzZpVIHXecH0PTI5dNHXtdmUZ
+h9/5mnnXotOvUx8PmP3Bk9C/4iU/2zeDgAA7
+
+--0__=0ABBF0C5DFDF3C358f9e8a93df938690918c0ABBF0C5DFDF3C35--
+

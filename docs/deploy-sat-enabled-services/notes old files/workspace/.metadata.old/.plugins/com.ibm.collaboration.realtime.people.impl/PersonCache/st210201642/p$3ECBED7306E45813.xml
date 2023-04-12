@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="robertg1@ca.ibm.com" displayName="Robert (R.) Godin" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$3ECBED7306E45813.jpg"/>
+  <attribute name="callupname" value="Robert (R.) Godin"/>
+  <attribute name="tieline" value="314-1250"/>
+  <attribute name="Telephone" value="314-1250 / 1-514-964-1250"/>
+  <attribute name="worklocation" value="workLoc=C4R,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Project Management"/>
+  <attribute name="dn" value="uid=0D0094649,c=ca,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Robert (R.) Godin"/>
+  <attribute name="telephonenumber" value="314-1250 / 1-514-964-1250"/>
+  <attribute name="Address" value="1360 Rene Levesque Blvd. West&#xA;Montreal, QC H3G 2W6&#xA;Canada"/>
+  <attribute name="mail" value="robertg1@ca.ibm.com"/>
+  <attribute name="Title" value="Project Management"/>
+  <attribute name="id" value="robertg1@ca.ibm.com"/>
+  <attribute name="sn" value="Godin"/>
+  <attribute name="MailAddress" value="robertg1@ca.ibm.com"/>
+  <attribute name="lastUpdate" value="1395330510564"/>
+</person>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="bwlehman@us.ibm.com" displayName="Bret W. Lehman" isExternal="false" lastChatTime="1427816461813">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$6A5FD28624D2E76E.jpg"/>
+  <attribute name="callupname" value="Bret W. Lehman"/>
+  <attribute name="Telephone" value="1-919-961-3785"/>
+  <attribute name="worklocation" value="workLoc=RPL,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Client Technical Architect, Site &amp; Facilities Services center of excellence, IBM Resiliency Services"/>
+  <attribute name="dn" value="uid=174327897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Bret W. Lehman"/>
+  <attribute name="telephonenumber" value="1-919-961-3785"/>
+  <attribute name="Address" value="3039 E Cornwallis Rd&#xA;P.O. Box 12195&#xA;Research Triangle Park, NC 27709-2195&#xA;United States"/>
+  <attribute name="mail" value="bwlehman@us.ibm.com"/>
+  <attribute name="Title" value="Client Technical Architect, Site &amp; Facilities Services center of excellence, IBM Resiliency Services"/>
+  <attribute name="sn" value="Lehman"/>
+  <attribute name="id" value="bwlehman@us.ibm.com"/>
+  <attribute name="MailAddress" value="bwlehman@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1435167733518"/>
+</person>

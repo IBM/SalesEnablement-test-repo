@@ -1,0 +1,7 @@
+#Map of context data for a perspective
+#Tue Mar 31 13:48:23 CDT 2015
+com.ibm.portal.app.input.name=Notes Contacts Application.xml
+com.ibm.portal.app.input.file=names.nsf
+applicationGUID=0CD82AEE23082989AC8B2CE7BBC443D9_1F_3KE527R200VQ502MGJOIMC2GG4
+requestUrl=nrpc\:/__802564EC00470D0C/composite.xml?file\=names.nsf&name\=Notes%20Contacts%20Application.xml&caxmlts\=1400092914000
+com.ibm.portal.app.input.caxmlts=1400092914000

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<streetAddress>Technology Campus
+Damastown Industrial Estate
+Mulhuddart 15
+Ireland</streetAddress>
+<title>Bluemix Product Manager - IBM Cloud</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/LYNCHIAN_ie.ibm.com</photoUri>
+<tel>353-1-8810668</tel>
+<name>Lynch, Ian</name>
+<email>LYNCHIAN@ie.ibm.com</email>
+<LastUpdated>1443718658815</LastUpdated>
+<timezoneid>100</timezoneid>
+<countryName>Ireland</countryName>
+<locality>MULHUDDART</locality>
+<org>IBM Commerce</org>
+<userId>cf022c40-2b00-102d-95f0-956a6dfe7a69</userId>
+<uid>I71902754</uid>
+<role>IBM employee, Regular</role>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=cf022c40-2b00-102d-95f0-956a6dfe7a69&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=cf022c40-2b00-102d-95f0-956a6dfe7a69"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=cf022c40-2b00-102d-95f0-956a6dfe7a69"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=cf022c40-2b00-102d-95f0-956a6dfe7a69&amp;name=Lynch%2C%20Ian"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=cf022c40-2b00-102d-95f0-956a6dfe7a69&amp;name=Lynch%2C%20Ian"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/cf022c40-2b00-102d-95f0-956a6dfe7a69"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=cf022c40-2b00-102d-95f0-956a6dfe7a69"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Dcf022c40-2b00-102d-95f0-956a6dfe7a69%2Cname%3DLynch%2C%20Ian"/>
+</BusinessCardLinks>
+</BusinessCard>

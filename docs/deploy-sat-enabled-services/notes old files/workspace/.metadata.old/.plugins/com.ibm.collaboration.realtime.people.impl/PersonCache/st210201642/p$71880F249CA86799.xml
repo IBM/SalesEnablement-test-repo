@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="mjbangel@us.ibm.com" displayName="MATTHEW J. (Matthew) BANGEL" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$71880F249CA86799.jpg"/>
+  <attribute name="callupname" value="MATTHEW J. (Matthew) BANGEL"/>
+  <attribute name="tieline" value="676-8624"/>
+  <attribute name="Telephone" value="676-8624 / 1-720-395-8624"/>
+  <attribute name="worklocation" value="workLoc=GS9,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="AG Technical Lead - Integration Services"/>
+  <attribute name="dn" value="uid=7A8938897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="MATTHEW J. (Matthew) BANGEL"/>
+  <attribute name="telephonenumber" value="676-8624 / 1-720-395-8624"/>
+  <attribute name="Address" value="257 Fuller Road&#xA;Albany, NY 12203&#xA;United States"/>
+  <attribute name="mail" value="mjbangel@us.ibm.com"/>
+  <attribute name="Title" value="AG Technical Lead - Integration Services"/>
+  <attribute name="id" value="mjbangel@us.ibm.com"/>
+  <attribute name="sn" value="BANGEL"/>
+  <attribute name="MailAddress" value="mjbangel@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1435168060848"/>
+</person>

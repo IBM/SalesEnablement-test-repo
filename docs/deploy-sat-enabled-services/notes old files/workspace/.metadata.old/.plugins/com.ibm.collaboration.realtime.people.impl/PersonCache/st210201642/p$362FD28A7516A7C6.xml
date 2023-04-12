@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="jlyman@us.ibm.com" displayName="JEAN M. LYMAN" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$362FD28A7516A7C6.jpg"/>
+  <attribute name="callupname" value="JEAN M. LYMAN"/>
+  <attribute name="Telephone" value="1-214-790-4711"/>
+  <attribute name="worklocation" value="workLoc=DFW,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Director, Transition &amp; Transformation"/>
+  <attribute name="dn" value="uid=4G3359897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="JEAN M. LYMAN"/>
+  <attribute name="telephonenumber" value="1-214-790-4711"/>
+  <attribute name="Address" value="1177 S Belt Line Rd&#xA;Coppell, TX 75019-4642&#xA;United States"/>
+  <attribute name="mail" value="jlyman@us.ibm.com"/>
+  <attribute name="Title" value="Director, Transition &amp; Transformation"/>
+  <attribute name="sn" value="LYMAN"/>
+  <attribute name="id" value="jlyman@us.ibm.com"/>
+  <attribute name="MailAddress" value="jlyman@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1410312575494"/>
+</person>

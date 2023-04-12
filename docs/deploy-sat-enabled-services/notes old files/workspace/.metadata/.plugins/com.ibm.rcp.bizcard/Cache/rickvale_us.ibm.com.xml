@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>United States</countryName>
+<locality>HERNDON</locality>
+<org>IBM Cloud</org>
+<userId>2d74fb40-a769-1034-95e1-a8aa994df202</userId>
+<name>VALENCIA, ENRIQUE G. (RICK)</name>
+<floor>NA</floor>
+<uid>5G2962897</uid>
+<officeBuilding>2300</officeBuilding>
+<streetAddress>2300 Dulles Station Blvd
+Dulles Station West Floors 1,2,4,5
+Herndon, VA 20171-6133
+United States</streetAddress>
+<region>VA</region>
+<role>IBM employee, Regular</role>
+<title>Outbound Product Management</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/rickvale_us.ibm.com</photoUri>
+<tel>1-703-626-2544</tel>
+<email>rickvale@us.ibm.com</email>
+<office>HOME</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=2d74fb40-a769-1034-95e1-a8aa994df202&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=2d74fb40-a769-1034-95e1-a8aa994df202"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=2d74fb40-a769-1034-95e1-a8aa994df202"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=2d74fb40-a769-1034-95e1-a8aa994df202&amp;name=VALENCIA%2C%20ENRIQUE%20G.%20%28RICK%29"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=2d74fb40-a769-1034-95e1-a8aa994df202&amp;name=VALENCIA%2C%20ENRIQUE%20G.%20%28RICK%29"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/2d74fb40-a769-1034-95e1-a8aa994df202"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=2d74fb40-a769-1034-95e1-a8aa994df202"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D2d74fb40-a769-1034-95e1-a8aa994df202%2Cname%3DVALENCIA%2C%20ENRIQUE%20G.%20%28RICK%29"/>
+</BusinessCardLinks>
+<LastUpdated>1443806778933</LastUpdated>
+</BusinessCard>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="nlcadmus@us.ibm.com" displayName="NICHOLAS L. (NICK) CADMUS" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$4F47E7E2AA7F63B8.jpg"/>
+  <attribute name="callupname" value="NICHOLAS L. (NICK) CADMUS"/>
+  <attribute name="tieline" value="620-3479"/>
+  <attribute name="Telephone" value="620-3479 / 1-607-429-3479"/>
+  <attribute name="worklocation" value="workLoc=PLE,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Attorney, IP Law"/>
+  <attribute name="dn" value="uid=2A0319897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="NICHOLAS L. (NICK) CADMUS"/>
+  <attribute name="telephonenumber" value="620-3479 / 1-607-429-3479"/>
+  <attribute name="Address" value="Ibm 1701 North St&#xA;Endicott, NY 13760-5553&#xA;United States"/>
+  <attribute name="mail" value="nlcadmus@us.ibm.com"/>
+  <attribute name="Title" value="Attorney, IP Law"/>
+  <attribute name="id" value="nlcadmus@us.ibm.com"/>
+  <attribute name="sn" value="CADMUS"/>
+  <attribute name="MailAddress" value="nlcadmus@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1428001175047"/>
+</person>

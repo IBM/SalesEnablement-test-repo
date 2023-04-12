@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="gpizano@uy.ibm.com" displayName="Gabriel Pizano Roiria" isExternal="false" lastChatTime="1433515213581">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$3A5080D94D303749.jpg"/>
+  <attribute name="callupname" value="Gabriel Pizano Roiria"/>
+  <attribute name="tieline" value="761-5206"/>
+  <attribute name="Telephone" value="761-5206 / 598-2-902-3617 x5206"/>
+  <attribute name="worklocation" value="workLoc=UPL,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Technical Sales"/>
+  <attribute name="dn" value="uid=006455869,c=uy,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Gabriel Pizano Roiria"/>
+  <attribute name="telephonenumber" value="761-5206 / 598-2-902-3617 x5206"/>
+  <attribute name="Address" value="Plaza Independencia 721&#xA;Montevideo, MO 11000&#xA;Uruguay"/>
+  <attribute name="mail" value="gpizano@uy.ibm.com"/>
+  <attribute name="Title" value="Technical Sales"/>
+  <attribute name="id" value="gpizano@uy.ibm.com"/>
+  <attribute name="sn" value="Pizano Roiria"/>
+  <attribute name="MailAddress" value="gpizano@uy.ibm.com"/>
+  <attribute name="lastUpdate" value="1435693105179"/>
+</person>

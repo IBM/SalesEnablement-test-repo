@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="jasanden@us.ibm.com" displayName="Jeffrey A. (Jeff) Sanden" isExternal="false" lastChatTime="1426094711096">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$3E1E734FECFB0E35.jpg"/>
+  <attribute name="callupname" value="Jeffrey A. (Jeff) Sanden"/>
+  <attribute name="tieline" value="938-9000"/>
+  <attribute name="Telephone" value="938-9000 / 1-720-396-9000"/>
+  <attribute name="worklocation" value="workLoc=WCH,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Distinguished Engineer - Cloud Networking"/>
+  <attribute name="dn" value="uid=782325897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Jeffrey A. (Jeff) Sanden"/>
+  <attribute name="telephonenumber" value="938-9000 / 1-720-396-9000"/>
+  <attribute name="Address" value="1475 Phoenixville Pike&#xA;West Chester, PA 19380-1437&#xA;United States"/>
+  <attribute name="mail" value="jasanden@us.ibm.com"/>
+  <attribute name="Title" value="Distinguished Engineer - Cloud Networking"/>
+  <attribute name="id" value="jasanden@us.ibm.com"/>
+  <attribute name="sn" value="Sanden"/>
+  <attribute name="MailAddress" value="jasanden@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1444749295073"/>
+</person>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<name>Carragh.Smith@jda.com</name>
+<BusinessCardLinks>
+<Link enabled="false" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=&amp;searchBy=userid"/>
+<Link enabled="false" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid="/>
+<Link enabled="false" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid="/>
+<Link enabled="false" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=&amp;name="/>
+<Link enabled="false" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=&amp;name="/>
+<Link enabled="false" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/"/>
+<Link enabled="false" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid="/>
+<Link enabled="false" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D%2Cname%3D"/>
+</BusinessCardLinks>
+<LastUpdated>1413847759937</LastUpdated>
+</BusinessCard>

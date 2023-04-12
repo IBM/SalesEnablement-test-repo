@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>United States</countryName>
+<locality>DUBLIN</locality>
+<org>IBM Systems</org>
+<userId>407c64c0-2b46-102f-8620-c85bb2e9552b</userId>
+<name>Demko, Michael A. (Mike)</name>
+<floor>NA</floor>
+<uid>7D8886897</uid>
+<officeBuilding>SCD1</officeBuilding>
+<streetAddress>6060 Britton
+Dublin, OH 43016
+United States</streetAddress>
+<region>OH</region>
+<role>IBM employee, Regular</role>
+<title>WW Sales Enablement Leader, M&amp;A</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/mdemko_us.ibm.com</photoUri>
+<tel>1-720-395-1366</tel>
+<email>mdemko@us.ibm.com</email>
+<office>HOME</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=407c64c0-2b46-102f-8620-c85bb2e9552b&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=407c64c0-2b46-102f-8620-c85bb2e9552b"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=407c64c0-2b46-102f-8620-c85bb2e9552b"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=407c64c0-2b46-102f-8620-c85bb2e9552b&amp;name=Demko%2C%20Michael%20A.%20%28Mike%29"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=407c64c0-2b46-102f-8620-c85bb2e9552b&amp;name=Demko%2C%20Michael%20A.%20%28Mike%29"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/407c64c0-2b46-102f-8620-c85bb2e9552b"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=407c64c0-2b46-102f-8620-c85bb2e9552b"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D407c64c0-2b46-102f-8620-c85bb2e9552b%2Cname%3DDemko%2C%20Michael%20A.%20%28Mike%29"/>
+</BusinessCardLinks>
+<LastUpdated>1448027693287</LastUpdated>
+</BusinessCard>

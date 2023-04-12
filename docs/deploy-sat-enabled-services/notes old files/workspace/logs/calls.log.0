@@ -1,0 +1,83 @@
+Nov 9, 2015 11:00:12 AM  4923021841288810201  Created Call active=true ended=false locked=false muted=false paused=false recording=false videoCall=false callStatus=unknown startTime=Mon Nov 09 11:00:12 CST 2015 participantInvitedCount=0
+Nov 9, 2015 11:00:12 AM  4923021841288810201  setEndpoint PARAMETERS 
+	Key: 79dd505969b14b0b8b1da6ed23bf8c00
+	Label: Office
+	Address URI: tel:23636864
+	Description: Office
+	Display value: 23636864
+	No answer seconds: 10
+	Computer: false
+	Telephone: true
+	Video device: false
+	Voicemail: false
+	User defined: false
+	Hidden: false
+	Available: true
+	Proxy computer: false
+	Sametime AV computer: false
+	SUT softphone: false
+	Non-SUT endpoint: false
+	SUT address URI: tel:23636864
+	 
+Nov 9, 2015 11:00:12 AM  4923021841288810201  propertyChange propertyName=endpoint newValue=
+	Key: 79dd505969b14b0b8b1da6ed23bf8c00
+	Label: Office
+	Address URI: tel:23636864
+	Description: Office
+	Display value: 23636864
+	No answer seconds: 10
+	Computer: false
+	Telephone: true
+	Video device: false
+	Voicemail: false
+	User defined: false
+	Hidden: false
+	Available: true
+	Proxy computer: false
+	Sametime AV computer: false
+	SUT softphone: false
+	Non-SUT endpoint: false
+	SUT address URI: tel:23636864
+	
+Nov 9, 2015 11:00:30 AM  4923021841288810201  processCallEvent type=incomingCallAccepted participantId=andrewj@us.ibm.com addressURI=tel:111223636864 callerName=tel:4073330720 conferenceCall=false
+Nov 9, 2015 11:00:30 AM  4923021841288810201  connectIncomingCall PARAMETERS [serviceProviderId=null, maxBitRate=0, isVideoCall=false, isTelephoneCall=false, isMeeting=false, caller=andrewj@us.ibm.com::st267182342::st267182342, callees= null, calleesAddresses = null, properties={addressUri=tel:111223636864, ConferenceServiceName=Sametime Unified Telephony, UnifiedNumber=tel:+17203493358, incomingCallEvent=com.ibm.collaboration.realtime.telephony.impl.event.IncomingCallEventImpl@68746874, MaximumVideoConferenceUsers=2, communityId=st267182342, TelephoneConferenceEnabled=true, placeId=4923021841288810201, ServiceProviderId=com.ibm.collaboration.realtime.telephony.sti.service, MaximumAudioConferenceUsers=6}] 
+Nov 9, 2015 11:00:30 AM  4923021841288810201  propertyChange propertyName=telephoneCall oldValue=false newValue=true
+Nov 9, 2015 11:00:30 AM  4923021841288810201  setCallOptions PARAMETERS [serviceProviderId=null, maxBitRate=0, isVideoCall=false, isTelephoneCall=false, isMeeting=false, caller=andrewj@us.ibm.com::st267182342::st267182342, callees= null, calleesAddresses = null, properties={addressUri=tel:111223636864, ConferenceServiceName=Sametime Unified Telephony, UnifiedNumber=tel:+17203493358, incomingCallEvent=com.ibm.collaboration.realtime.telephony.impl.event.IncomingCallEventImpl@68746874, MaximumVideoConferenceUsers=2, communityId=st267182342, TelephoneConferenceEnabled=true, placeId=4923021841288810201, ServiceProviderId=com.ibm.collaboration.realtime.telephony.sti.service, MaximumAudioConferenceUsers=6}] 
+Nov 9, 2015 11:00:30 AM  4923021841288810201  propertyChange propertyName=participantAdded newValue=com.ibm.collaboration.realtime.telephony.impl.ParticipantImpl@5aa35aa3[id:tel:4073330720 addressUri:tel:4073330720 displayName:tel:4073330720 person:tel:4073330720::st267182342::st267182342 localUser:false isModerator:false status:null isPaused:false isTalking:false isVisible:false isAudioMuted:false isSilenced:false isAudioMutedByModerator:false isVideoMutedfalse isVideoMutedByModeratorfalse Properties: null Provider data: null setParticipantProperty:false setParticipantVolume:false silenceParticipant:true]
+Nov 9, 2015 11:00:30 AM  4923021841288810201  processCallEvent type=participantAdded participantId=tel:4073330720 addressURI=tel:4073330720 displayName=tel:4073330720 initiator=false moderator=false
+Nov 9, 2015 11:00:30 AM  4923021841288810201  propertyChange propertyName=participantAdded newValue=com.ibm.collaboration.realtime.telephony.impl.ParticipantImpl@800080[id:andrewj@us.ibm.com addressUri:tel:4073330720 displayName:Andrew Jones (678-8023) person:andrewj@us.ibm.com::st267182342::st267182342 localUser:true isModerator:false status:null isPaused:false isTalking:false isVisible:false isAudioMuted:false isSilenced:false isAudioMutedByModerator:false isVideoMutedfalse isVideoMutedByModeratorfalse Properties: null Provider data: null setParticipantProperty:false setParticipantVolume:false silenceParticipant:true]
+Nov 9, 2015 11:00:30 AM  4923021841288810201  processCallEvent type=participantAdded participantId=andrewj@us.ibm.com addressURI=tel:4073330720 displayName=Andrew Jones (678-8023) initiator=false moderator=false
+Nov 9, 2015 11:00:30 AM  4923021841288810201  propertyChange propertyName=connected oldValue=false newValue=true
+Nov 9, 2015 11:00:30 AM  4923021841288810201  processCallEvent type=participantConnected participantId=andrewj@us.ibm.com addressURI=tel:111223636864
+Nov 9, 2015 11:00:30 AM  4923021841288810201  getAllowedVideoLayouts 
+Nov 9, 2015 11:00:30 AM  4923021841288810201  getAllowedVideoLayouts 
+Nov 9, 2015 11:00:30 AM  4923021841288810201  processCallEvent type=participantConnected participantId=tel:4073330720 addressURI=tel:4073330720
+Nov 9, 2015 11:00:31 AM  4923021841288810201  processCallEvent type=participantAdded participantId=andrewj@us.ibm.com displayName=Andrew Jones (678-8023) initiator=false moderator=false
+Nov 9, 2015 11:00:31 AM  4923021841288810201  processCallEvent type=participantAdded participantId=tel:4073330720 displayName=tel:4073330720 initiator=true moderator=false
+Nov 9, 2015 11:00:39 AM  4923021841288810201  propertyChange propertyName=connected oldValue=true newValue=false
+Nov 9, 2015 11:00:39 AM  4923021841288810201  setEndpoint 
+Nov 9, 2015 11:00:39 AM  4923021841288810201  propertyChange propertyName=endpoint oldValue=
+	Key: 79dd505969b14b0b8b1da6ed23bf8c00
+	Label: Office
+	Address URI: tel:23636864
+	Description: Office
+	Display value: 23636864
+	No answer seconds: 10
+	Computer: false
+	Telephone: true
+	Video device: false
+	Voicemail: false
+	User defined: false
+	Hidden: false
+	Available: true
+	Proxy computer: false
+	Sametime AV computer: false
+	SUT softphone: false
+	Non-SUT endpoint: false
+	SUT address URI: tel:23636864
+	
+Nov 9, 2015 11:00:39 AM  4923021841288810201  processCallEvent type=participantDisconnected participantId=andrewj@us.ibm.com addressURI=tel:111223636864
+Nov 9, 2015 11:00:39 AM  4923021841288810201  leaveCall PARAMETERS false 
+Nov 9, 2015 11:00:39 AM  4923021841288810201  setEndpoint 
+Nov 9, 2015 11:00:39 AM  4923021841288810201  propertyChange propertyName=ended oldValue=false newValue=true
+Nov 9, 2015 11:00:39 AM  4923021841288810201  processCallEvent type=callTerminated participantId=andrewj@us.ibm.com reason=callTerminated

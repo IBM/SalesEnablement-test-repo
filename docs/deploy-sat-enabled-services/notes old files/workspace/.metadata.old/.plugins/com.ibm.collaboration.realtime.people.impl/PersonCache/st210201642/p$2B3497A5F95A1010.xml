@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="kimr@us.ibm.com" displayName="Kimberly Raszinski *Contractor*" isExternal="false" lastChatTime="1390426088433">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$2B3497A5F95A1010.jpg"/>
+  <attribute name="callupname" value="Kimberly Raszinski *Contractor*"/>
+  <attribute name="Telephone" value="1-813-662-2819"/>
+  <attribute name="worklocation" value="workLoc=TAA,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Project Manager  - GTS Cloud Managed Services"/>
+  <attribute name="dn" value="uid=C-BBR8897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Kimberly Raszinski *Contractor*"/>
+  <attribute name="telephonenumber" value="1-813-662-2819"/>
+  <attribute name="Address" value="3031 N Rocky Point Dr West&#xA;Suite 500&#xA;Tampa, FL 33607-5878&#xA;United States"/>
+  <attribute name="mail" value="kimr@us.ibm.com"/>
+  <attribute name="Title" value="Project Manager  - GTS Cloud Managed Services"/>
+  <attribute name="sn" value="Raszinski"/>
+  <attribute name="id" value="kimr@us.ibm.com"/>
+  <attribute name="MailAddress" value="kimr@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1391100262597"/>
+</person>

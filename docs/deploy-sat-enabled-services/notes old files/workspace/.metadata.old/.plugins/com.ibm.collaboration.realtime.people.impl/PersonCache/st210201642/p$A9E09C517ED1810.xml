@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="faisalbeg@us.ibm.com" displayName="Mirza F. Beg" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$A9E09C517ED1810.jpg"/>
+  <attribute name="callupname" value="Mirza F. Beg"/>
+  <attribute name="tieline" value="293-6603"/>
+  <attribute name="Telephone" value="293-6603 / 1-845-433-6603"/>
+  <attribute name="worklocation" value="workLoc=PLP,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="SAP ARCHITECT"/>
+  <attribute name="dn" value="uid=3A7434897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Mirza F. Beg"/>
+  <attribute name="telephonenumber" value="293-6603 / 1-845-433-6603"/>
+  <attribute name="Address" value="2455 South Rd&#xA;Poughkeepsie, NY 12601-5400&#xA;United States"/>
+  <attribute name="mail" value="faisalbeg@us.ibm.com"/>
+  <attribute name="Title" value="SAP ARCHITECT"/>
+  <attribute name="id" value="faisalbeg@us.ibm.com"/>
+  <attribute name="sn" value="Beg"/>
+  <attribute name="MailAddress" value="faisalbeg@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1392154074132"/>
+</person>

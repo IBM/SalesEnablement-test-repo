@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="desanch@us.ibm.com" displayName="Douglas E. (Doug) Sanchez" isExternal="false" lastChatTime="1368215736571">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$7A9AD1BCC6CBE7B2.jpg"/>
+  <attribute name="callupname" value="Douglas E. (Doug) Sanchez"/>
+  <attribute name="tieline" value="363-8385"/>
+  <attribute name="Telephone" value="363-8385 / 1-512-286-8385"/>
+  <attribute name="worklocation" value="workLoc=BNT,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="AIX: VIOS L3 Component Lead"/>
+  <attribute name="dn" value="uid=226777897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Douglas E. (Doug) Sanchez"/>
+  <attribute name="telephonenumber" value="363-8385 / 1-512-286-8385"/>
+  <attribute name="Address" value="11501 Burnet Rd&#xA;Austin, TX 78758-3400&#xA;United States"/>
+  <attribute name="mail" value="desanch@us.ibm.com"/>
+  <attribute name="Title" value="AIX: VIOS L3 Component Lead"/>
+  <attribute name="sn" value="Sanchez"/>
+  <attribute name="id" value="desanch@us.ibm.com"/>
+  <attribute name="MailAddress" value="desanch@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1383059373746"/>
+</person>

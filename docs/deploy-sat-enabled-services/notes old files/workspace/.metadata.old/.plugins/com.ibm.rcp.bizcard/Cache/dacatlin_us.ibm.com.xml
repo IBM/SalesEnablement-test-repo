@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<streetAddress>800 N Magnolia Ave
+Ste 1600
+Orlando, FL 32803-3252
+United States</streetAddress>
+<title>Certified Cloud Advisor</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/dacatlin_us.ibm.com</photoUri>
+<tel>1-407-252-7863</tel>
+<name>Catlin, Derek A.</name>
+<email>dacatlin@us.ibm.com</email>
+<LastUpdated>1431608403853</LastUpdated>
+<timezoneid>-500</timezoneid>
+<uid>318077897</uid>
+<userId>26fd36c0-8f0a-1028-8e29-db07163b51b2</userId>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=26fd36c0-8f0a-1028-8e29-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=26fd36c0-8f0a-1028-8e29-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=26fd36c0-8f0a-1028-8e29-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=26fd36c0-8f0a-1028-8e29-db07163b51b2&amp;name=Catlin%2C%20Derek%20A."/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=26fd36c0-8f0a-1028-8e29-db07163b51b2&amp;name=Catlin%2C%20Derek%20A."/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/26fd36c0-8f0a-1028-8e29-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=26fd36c0-8f0a-1028-8e29-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D26fd36c0-8f0a-1028-8e29-db07163b51b2%2Cname%3DCatlin%2C%20Derek%20A."/>
+</BusinessCardLinks>
+</BusinessCard>

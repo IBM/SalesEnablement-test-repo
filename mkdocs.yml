@@ -1,0 +1,104 @@
+# Project info
+site_name: IBM Cloud Satellite L3 Demonstration
+site_description: IBM Cloud Satellite Sales Enablement Level 3 Demonstration
+site_author: Andrew R. Jones (andrewj@us.ibm.com)
+copyright: Copyright &copy; 2022 IBM
+
+# Repository
+repo_name: IBM/SalesEnablement-Satellite-L3
+#repo_url: https://github.com/IBM/SalesEnablement-Satellite-L3/
+#edit_uri: edit/master/docs
+docs_dir: docs
+
+
+nav:
+  - Home: README.md
+  - Part 1 - IBM Cloud Satellite overview:
+    - 'Introduction': 'environment/01.01 Introduction.md'
+    - 'What are IBM Cloud Satellite Locations': 'environment/02.01 What are Locations.md'
+    - 'Watch: How to provision a Location in AWS': 'environment/02.02 Watch: How to provision a Location in AWS.md'
+    - 'Demonstrate: How to provision a Location': 'environment/02.03 Demonstrate: How to provision a Location.md'
+    - 'What are Links': 'environment/03.01 What are Links.md'
+    - 'Using the IBM Cloud command line interfaces (CLIs)': 'environment/04.01 Using the IBM Cloud command line interfaces (CLIs).md'
+    - 'Next steps': 'environment/05.01 Next steps.md'
+  - Part 2 - Deploy an IBM Cloud Satellite enabled service:
+    - 'Introduction': 'deploy-sat-enabled-services/01.01 Introduction.md'
+    - 'Explore Satellite enabled services': 'deploy-sat-enabled-services/02.01 ExploreSatServices.md'
+    - 'Watch: Deploying Red Hat OpenShift to an IBM Cloud Satellite Location': 'deploy-sat-enabled-services/03.01 Watch: Deploy ROKS to Sat.md'
+    - 'Demonstrate: How to deploy Red Hat OpenShift to an IBM Cloud Satellite Location': 'deploy-sat-enabled-services/04.01 Demonstrate: Provision ROKS to Sat.md'
+    - 'Next steps': 'deploy-sat-enabled-services/05.01 Next steps.md'
+  - Part 3 - Deploy an OpenShift application:
+    - 'Introduction and terminology': 'deploy-application/01.01 Introduction.md'
+    - 'The Food Delivery Application': 'deploy-application/01.02 The Food Delivery Application.md'
+    - 'Demonstration flow': 'deploy-application/01.03 Demonstration flow.md'
+    - 'View cluster groups': 'deploy-application/02.01 Create cluster groups.md'
+    - 'View configuration': 'deploy-application/03.01 Create a configuration.md'
+    - 'Create versions': 'deploy-application/03.02 Create versions.md'
+    - 'Create subscriptions': 'deploy-application/03.03 Create subscriptions.md'
+    - 'Verify the application is deployed': 'deploy-application/03.04 Verify the application is deployed.md'
+    - 'Update the development and production frontends': 'deploy-application/04.01 Update the development and production frontends.md'
+    - 'Perform a rollback': 'deploy-application/04.02 Perform a rollback.md'
+    - 'Next steps': 'deploy-application/05.01 Next steps.md'
+  - Part 4 - Preparing for a client demonstration:
+    - 'Introduction': 'prepping-for-a-demo/01.01 Introduction.md'
+    - 'The Big Event': 'prepping-for-a-demo/02.01 The Big Event.md'
+    - 'Demonstration setup': 'prepping-for-a-demo/03.01 Setting up for the virtual demo.md'
+    - 'Next steps': 'prepping-for-a-demo/04.01 Next steps.md'
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - content.code.annotate
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+plugins:
+    - search
+    - mkdocs-video
+    - macros
+
+extra:
+  generator: false
+
+markdown_extensions:
+  - sane_lists
+  - pymdownx.details
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+
+extra:
+  learningplan:
+    name: "IBM Cloud Satellite Sales Level 3"
+    url: "https://yourlearning.ibm.com/activity/PLAN-7D757C8B58E7"
+  tz_environment:
+    name: "IBM Cloud Satellite - Sales Enablment L3"
+    url: "https://techzone.ibm.com/my/reservations"
+    uuid_label: "Demo-UUID"
+  account: "2435442 - ITZ - Satellite"
+  aws:
+    location: aws-us-east-2
+    host_ip: ip-10-0-1-114
+    cluster_name: aws_os_cluster
+    cluster_id: c7o5jt8w0o6g5fkl3rp0
+    ingress: aws-os-cluster-222b3514854c2221251113b2b051506c-0000.upi.containers.appdomain.cloud
+  ibm:
+    cluster_name: ibmcloud-wdc-os
+    cluster_id: cab66ouw097nu74c4gmg
+    ingress: ibmcloud-wdc-os-222b3514854c2221251113b2b051506c-0000.us-east.containers.appdomain.cloud

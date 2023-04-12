@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="lachance@us.ibm.com" displayName="Phyliss M. Lachance" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$6CA120D44FD6C24D.jpg"/>
+  <attribute name="callupname" value="Phyliss M. Lachance"/>
+  <attribute name="tieline" value="826-2225"/>
+  <attribute name="Telephone" value="826-2225 / 1-914-766-2225"/>
+  <attribute name="worklocation" value="workLoc=SMS,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Research IP Pricing &amp; Investment Specialist"/>
+  <attribute name="dn" value="uid=3A8432897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Phyliss M. Lachance"/>
+  <attribute name="telephonenumber" value="826-2225 / 1-914-766-2225"/>
+  <attribute name="Address" value="294 Route 100&#xA;Somers, NY 10589-3216&#xA;United States"/>
+  <attribute name="mail" value="lachance@us.ibm.com"/>
+  <attribute name="Title" value="Research IP Pricing &amp; Investment Specialist"/>
+  <attribute name="id" value="lachance@us.ibm.com"/>
+  <attribute name="sn" value="Lachance"/>
+  <attribute name="MailAddress" value="lachance@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1408992466891"/>
+</person>

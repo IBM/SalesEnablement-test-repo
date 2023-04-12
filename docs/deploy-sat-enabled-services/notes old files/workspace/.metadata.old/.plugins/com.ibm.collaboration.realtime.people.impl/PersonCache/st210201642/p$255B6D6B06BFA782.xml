@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="patricia.carey@us.ibm.com" displayName="Patricia M. (PATRICIA) Foley" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$255B6D6B06BFA782.jpg"/>
+  <attribute name="callupname" value="Patricia M. (PATRICIA) Foley"/>
+  <attribute name="Telephone" value="1-916-434-6337"/>
+  <attribute name="worklocation" value="workLoc=FA0,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="IT Specialist, SAP ABAP Developer - Industrial EA SAP"/>
+  <attribute name="dn" value="uid=0D7107897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Patricia M. (PATRICIA) Foley"/>
+  <attribute name="telephonenumber" value="1-916-434-6337"/>
+  <attribute name="Address" value="4400 N 1St St&#xA;Suite 100&#xA;San Jose, CA 95134-1257&#xA;United States"/>
+  <attribute name="mail" value="patricia.carey@us.ibm.com"/>
+  <attribute name="Title" value="IT Specialist, SAP ABAP Developer - Industrial EA SAP"/>
+  <attribute name="sn" value="Foley"/>
+  <attribute name="id" value="patricia.carey@us.ibm.com"/>
+  <attribute name="MailAddress" value="patricia.carey@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1435167480935"/>
+</person>

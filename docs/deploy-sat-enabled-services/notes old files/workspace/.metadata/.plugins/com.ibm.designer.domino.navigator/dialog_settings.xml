@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="designer.navigator.settings">
+		<item value="false" key="desinger.navigator.showfolders"/>
+		<item value="" key="other.apps.working.set.name"/>
+		<item value="" key="working.set.name"/>
+		<item value="4" key="desinger.navigator.sortorder"/>
+	</section>
+</section>

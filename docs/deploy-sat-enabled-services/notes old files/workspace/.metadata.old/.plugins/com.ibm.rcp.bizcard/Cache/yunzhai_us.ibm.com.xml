@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<uid>5D2457897</uid>
+<userId>cb643a40-3445-102c-97cf-bf457c1fccf4</userId>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/yunzhai_us.ibm.com</photoUri>
+<name>ZHAI, YUN</name>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=cb643a40-3445-102c-97cf-bf457c1fccf4&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=cb643a40-3445-102c-97cf-bf457c1fccf4"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=cb643a40-3445-102c-97cf-bf457c1fccf4"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=cb643a40-3445-102c-97cf-bf457c1fccf4&amp;name=ZHAI%2C%20YUN"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=cb643a40-3445-102c-97cf-bf457c1fccf4&amp;name=ZHAI%2C%20YUN"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/cb643a40-3445-102c-97cf-bf457c1fccf4"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=cb643a40-3445-102c-97cf-bf457c1fccf4"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Dcb643a40-3445-102c-97cf-bf457c1fccf4%2Cname%3DZHAI%2C%20YUN"/>
+</BusinessCardLinks>
+<LastUpdated>1433519174759</LastUpdated>
+<timezoneid>-400</timezoneid>
+</BusinessCard>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="smsaund@us.ibm.com" displayName="Sharon M. Saunders" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$1EEE068764323F31.jpg"/>
+  <attribute name="callupname" value="Sharon M. Saunders"/>
+  <attribute name="tieline" value="216-8276"/>
+  <attribute name="Telephone" value="216-8276 / 1-336-668-9405"/>
+  <attribute name="worklocation" value="workLoc=FR4,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Channel Business Support"/>
+  <attribute name="dn" value="uid=080825897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Sharon M. Saunders"/>
+  <attribute name="telephonenumber" value="216-8276 / 1-336-668-9405"/>
+  <attribute name="Address" value="7029 Albert Pick Rd&#xA;Greensboro, NC 27409-9538&#xA;United States"/>
+  <attribute name="mail" value="smsaund@us.ibm.com"/>
+  <attribute name="Title" value="Channel Business Support"/>
+  <attribute name="id" value="smsaund@us.ibm.com"/>
+  <attribute name="sn" value="Saunders"/>
+  <attribute name="MailAddress" value="smsaund@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1408992468633"/>
+</person>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="schiesse@us.ibm.com" displayName="William E. Schiesser" isExternal="false" lastChatTime="1425582128353">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$7E25878885716BFF.jpg"/>
+  <attribute name="callupname" value="William E. Schiesser"/>
+  <attribute name="tieline" value="620-3917"/>
+  <attribute name="Telephone" value="620-3917 / 1-607-429-3917"/>
+  <attribute name="worklocation" value="workLoc=PLE,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Patent Portfolio Manager"/>
+  <attribute name="dn" value="uid=040890897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="William E. Schiesser"/>
+  <attribute name="telephonenumber" value="620-3917 / 1-607-429-3917"/>
+  <attribute name="Address" value="Ibm 1701 North St&#xA;Endicott, NY 13760-5553&#xA;United States"/>
+  <attribute name="mail" value="schiesse@us.ibm.com"/>
+  <attribute name="Title" value="Patent Portfolio Manager"/>
+  <attribute name="id" value="schiesse@us.ibm.com"/>
+  <attribute name="sn" value="Schiesser"/>
+  <attribute name="MailAddress" value="schiesse@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1425582128464"/>
+</person>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="stewar2@us.ibm.com" displayName="Doris J. Richardson" isExternal="false" lastChatTime="1296249129975">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$2E081F1F71FC044E.jpg"/>
+  <attribute name="callupname" value="Doris J. Richardson"/>
+  <attribute name="tieline" value="826-4535"/>
+  <attribute name="Telephone" value="826-4535 / 1-914-766-4535"/>
+  <attribute name="worklocation" value="workLoc=SMS,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Assistant to Andrew Sotiropoulos, General Manager - WW Sales , Integrated Technology Services"/>
+  <attribute name="dn" value="uid=778506897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Doris J. Richardson"/>
+  <attribute name="telephonenumber" value="826-4535 / 1-914-766-4535"/>
+  <attribute name="Address" value="294 Route 100&#xA;Somers, NY 10589-3216&#xA;United States"/>
+  <attribute name="mail" value="stewar2@us.ibm.com"/>
+  <attribute name="Title" value="Assistant to Andrew Sotiropoulos, General Manager - WW Sales , Integrated Technology Services"/>
+  <attribute name="id" value="stewar2@us.ibm.com"/>
+  <attribute name="sn" value="Richardson"/>
+  <attribute name="MailAddress" value="stewar2@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1408992449945"/>
+</person>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>United States</countryName>
+<locality>HERNDON</locality>
+<org>Global Technology Services</org>
+<userId>aa0041c0-56ae-102b-97f2-f4f7902a5c09</userId>
+<name>Navarrete, Christina M.</name>
+<floor>NA</floor>
+<uid>5D7849897</uid>
+<officeBuilding>2300</officeBuilding>
+<streetAddress>2300 Dulles Station Blvd
+Dulles Station West Floors 1,2,4,5
+Herndon, VA 20171-6133
+United States</streetAddress>
+<region>VA</region>
+<role>IBM employee, Regular</role>
+<title>Cloud Unit - Cost Coordinator</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/cnavarre_us.ibm.com</photoUri>
+<tel>1-703-943-2505</tel>
+<email>cnavarre@us.ibm.com</email>
+<office>HOME</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=aa0041c0-56ae-102b-97f2-f4f7902a5c09&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=aa0041c0-56ae-102b-97f2-f4f7902a5c09"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=aa0041c0-56ae-102b-97f2-f4f7902a5c09"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=aa0041c0-56ae-102b-97f2-f4f7902a5c09&amp;name=Navarrete%2C%20Christina%20M."/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=aa0041c0-56ae-102b-97f2-f4f7902a5c09&amp;name=Navarrete%2C%20Christina%20M."/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/aa0041c0-56ae-102b-97f2-f4f7902a5c09"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=aa0041c0-56ae-102b-97f2-f4f7902a5c09"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Daa0041c0-56ae-102b-97f2-f4f7902a5c09%2Cname%3DNavarrete%2C%20Christina%20M."/>
+</BusinessCardLinks>
+<LastUpdated>1443189709506</LastUpdated>
+<timezoneid>-400</timezoneid>
+</BusinessCard>

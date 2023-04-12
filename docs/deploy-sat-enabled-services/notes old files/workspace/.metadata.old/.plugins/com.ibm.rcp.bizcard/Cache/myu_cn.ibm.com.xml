@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<uid>013968672</uid>
+<userId>6b2bc840-b9b8-102a-8c0c-8b15144bf410</userId>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/myu_cn.ibm.com</photoUri>
+<name>YU, XIAO DONG</name>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=6b2bc840-b9b8-102a-8c0c-8b15144bf410&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=6b2bc840-b9b8-102a-8c0c-8b15144bf410"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=6b2bc840-b9b8-102a-8c0c-8b15144bf410"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=6b2bc840-b9b8-102a-8c0c-8b15144bf410&amp;name=YU%2C%20XIAO%20DONG"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=6b2bc840-b9b8-102a-8c0c-8b15144bf410&amp;name=YU%2C%20XIAO%20DONG"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/6b2bc840-b9b8-102a-8c0c-8b15144bf410"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=6b2bc840-b9b8-102a-8c0c-8b15144bf410"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D6b2bc840-b9b8-102a-8c0c-8b15144bf410%2Cname%3DYU%2C%20XIAO%20DONG"/>
+</BusinessCardLinks>
+<LastUpdated>1426680113228</LastUpdated>
+<timezoneid>800</timezoneid>
+<streetAddress>27,North 4 Ring Mid Road, Beichen X
+Pangu Plaza
+Beijing, 11 100101
+China</streetAddress>
+<title>SENIOR  ARCHITECT and CONSULTANT</title>
+<tel>86-10-63613891</tel>
+<email>myu@cn.ibm.com</email>
+</BusinessCard>

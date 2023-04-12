@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Generated-from: 1368328301682;type=2
+Bundle-ManifestVersion: 2
+Bundle-Name: Preferences Plug-in
+Bundle-SymbolicName: com.voicerite.vc3.vzb.preferences; singleton:=true
+Bundle-Version: 3.7.2.ST030735
+Bundle-ClassPath: preferences.jar
+Bundle-Activator: com.voicerite.vc3.vzb.preferences.PreferencesPlugin
+Bundle-Vendor: VoiceRite
+Bundle-Localization: plugin
+Export-Package: com.voicerite.vc3.vzb.preferences,
+ com.voicerite.vc3.vzb.preferences.gui.preferencesContextControl.dlist,
+ com.voicerite.vc3.vzb.preferences.gui.wizard,
+ com.voicerite.vc3.vzb.preferences.inbox
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.voicerite.vc3.resources,
+ com.voicerite.vc3.mediaplayer,
+ org.eclipse.ui.forms,
+ com.voicerite.vc3.library,
+ com.voicerite.vc3.preferences,
+ com.voicerite.vc3.preferences.voicerite.oem
+Eclipse-LazyStart: true

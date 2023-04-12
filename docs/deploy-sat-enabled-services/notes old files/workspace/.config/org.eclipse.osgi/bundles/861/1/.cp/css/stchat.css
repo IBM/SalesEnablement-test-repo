@@ -1,0 +1,38 @@
+/* Copyright IBM Corp. 2014  All Rights Reserved.                    */
+body { margin: 0 0 0 0; padding:0 0 0 0; overflow:hidden; background-color:#fafafa; }
+.grayBackground { background-color:#f6f6f6; }
+.transcript { background-color:#d2d2d2;}
+.messageBlock {padding-left:10px; padding-right:10px;padding-top:0}
+.expansion{height:10px;width:100%;overflow:hidden;}
+.expansionx{height:10px;overflow:hidden;}
+.line{height:1px;background-color:#cccccc;overflow:hidden;}
+.message { padding-left:0px; padding-right:65px;margin-left:0px; word-wrap:break-word; white-space:-moz-pre-wrap; _white-space:pre; white-space:pre-wrap;}
+.messageCont { padding-left:20px; margin-left:95px; word-wrap:break-word; white-space:-moz-pre-wrap; _white-space:pre;white-space:pre-wrap;}
+.other { font-size:11px;color:#1970b0;vertical-align:top;font-weight:bold;font-style:normal;float:left; width:95px; white-space:nowrap; }
+.myself { font-size:11px;color:#222222;font-style:normal;font-weight:bold;font-style:normal;float:left; width:95px; white-space:nowrap; }
+.otherCont { font-size:8px;text-align:right; color:#1970b0;font-family:Arial,Lucida Grande;font-style:normal;vertical-align:top;font-weight:bold;float:left; width:95px; }
+.myselfCont { font-size:8px;text-align:right; color:#222222;font-family:Arial,Lucida Grande;font-style:normal;vertical-align:top;font-weight:bold;float:left; width:95px; }
+.system { font-size:11px; word-wrap:break-word;color:#d13f08;font-style:normal;font-weight:normal; white-space:-moz-pre-wrap; _white-space:pre;white-space:pre-wrap; }
+.showTimestamp { padding-left:20px;font-size:11px; float:right; color:#999999;font-style:normal;font-weight:normal; }
+.other1 { font-size:11px; color:#ba006e;vertical-align:top;font-weight:bold;font-style:normal;float:left; width:95px; }
+.otherCont1 { font-size:8px;text-align:right; color:#ba006e;font-family:Arial,Lucida Grande;font-style:normal;vertical-align:top;font-weight:bold;float:left; width:95px; }
+.other2 { font-size:11px; color:#007670;vertical-align:top;font-weight:bold;font-style:normal;float:left; width:95px; }
+.otherCont2 { font-size:8px;text-align:right; color:#007670;font-family:Arial,Lucida Grande;font-style:normal;vertical-align:top;font-weight:bold;float:left; width:95px; }
+.other3 { font-size:11px; color:#3b0256;vertical-align:top;font-weight:bold;font-style:normal;float:left; width:95px; }
+.otherCont3 { font-size:8px;text-align:right; color:#3b0256;font-family:Arial,Lucida Grande;font-style:normal;vertical-align:top;font-weight:bold;float:left; width:95px; }
+.other4 { font-size:11px; color:#00512b;vertical-align:top;font-weight:bold;font-style:normal;float:left; width:95px; }
+.otherCont4 { font-size:8px;text-align:right; color:#00512b;font-family:Arial,Lucida Grande;font-style:normal;vertical-align:top;font-weight:bold;float:left; width:95px; }
+.other5 { font-size:11px; color:#a91024;vertical-align:top;font-weight:bold;font-style:normal;float:left; width:95px; }
+.otherCont5 { font-size:8px;text-align:right; color:#a91024;font-family:Arial,Lucida Grande;font-style:normal;vertical-align:top;font-weight:bold;float:left; width:95px; }
+.other6 { font-size:11px; color:#b8471b;vertical-align:top;font-weight:bold;font-style:normal;float:left; width:95px; }
+.otherCont6 { font-size:8px;text-align:right; color:#b8471b;font-family:Arial,Lucida Grande;font-style:normal;vertical-align:top;font-weight:bold;float:left; width:95px; }
+.other7 { font-size:11px; color:#7f1c7d;vertical-align:top;font-weight:bold;font-style:normal;float:left; width:95px; }
+.otherCont7 { font-size:8px;text-align:right; color:#7f1c7d;font-family:Arial,Lucida Grande;font-style:normal;vertical-align:top;font-weight:bold;float:left; width:95px; }
+.highlight { background-color:#bed6f8; }
+.datestamp { padding-right:0px; font-size:11px; cursor:default;padding-top:1px;padding-bottom:1px; background-color:#a7a7a7; width:100%; float:left; text-align:right; color:#333333; font-weight:bold; font-style:italic; }
+#chatAlert { float:left; border-bottom:1px solid #E8D091; padding:6px; width:100%; color:#A5754C; }
+#chatAlertImage { float:left; }
+#chatAlertText { float:left; margin-left:6px; margin-right:10px;}
+#chatAlertClose { float:right; margin-right:10px; padding-right:6px; margin-top:0px; }
+#chatAlertText a { color:#A5754C; }
+#chatAlertText a:hover { color:#A5754C; text-decoration:none; }

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>United States</countryName>
+<locality>RESEARCH TRIANGLE PARK</locality>
+<org>GTS, System Services</org>
+<userId>1d73cec0-8f0a-1028-88ad-db07163b51b2</userId>
+<name>Houghtlin, Mark R.</name>
+<floor>NA</floor>
+<uid>270746897</uid>
+<officeBuilding>002</officeBuilding>
+<streetAddress>3039 E Cornwallis Rd
+P.O. Box 12195
+Research Triangle Park, NC 27709-2195
+United States</streetAddress>
+<region>NC</region>
+<role>IBM employee, Regular</role>
+<title>Performance &amp; Capacity Planning Services</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/mrhought_us.ibm.com</photoUri>
+<tel>1-877-708-2783</tel>
+<email>mrhought@us.ibm.com</email>
+<office>MOBILE</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=1d73cec0-8f0a-1028-88ad-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=1d73cec0-8f0a-1028-88ad-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=1d73cec0-8f0a-1028-88ad-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=1d73cec0-8f0a-1028-88ad-db07163b51b2&amp;name=Houghtlin%2C%20Mark%20R."/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=1d73cec0-8f0a-1028-88ad-db07163b51b2&amp;name=Houghtlin%2C%20Mark%20R."/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/1d73cec0-8f0a-1028-88ad-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=1d73cec0-8f0a-1028-88ad-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D1d73cec0-8f0a-1028-88ad-db07163b51b2%2Cname%3DHoughtlin%2C%20Mark%20R."/>
+</BusinessCardLinks>
+<LastUpdated>1444752128153</LastUpdated>
+<timezoneid>-400</timezoneid>
+</BusinessCard>

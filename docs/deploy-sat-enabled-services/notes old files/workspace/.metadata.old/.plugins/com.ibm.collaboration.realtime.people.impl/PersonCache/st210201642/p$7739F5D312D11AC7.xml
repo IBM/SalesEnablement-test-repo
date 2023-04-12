@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="gartnerp@us.ibm.com" displayName="Paul E. Gartner" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$7739F5D312D11AC7.jpg"/>
+  <attribute name="callupname" value="Paul E. Gartner"/>
+  <attribute name="tieline" value="938-5789"/>
+  <attribute name="Telephone" value="938-5789 / 1-630-297-3724"/>
+  <attribute name="worklocation" value="workLoc=GD2,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Client Finance Manager / GTS Strategic Outsourcing Engagements"/>
+  <attribute name="dn" value="uid=751123897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Paul E. Gartner"/>
+  <attribute name="telephonenumber" value="938-5789 / 1-630-297-3724"/>
+  <attribute name="Address" value="18W140 Butterfield Road&#xA;One Lincoln Centre, 16Th Floor&#xA;Oakbrook Terrace, IL 60181-4835&#xA;United States"/>
+  <attribute name="mail" value="gartnerp@us.ibm.com"/>
+  <attribute name="Title" value="Client Finance Manager / GTS Strategic Outsourcing Engagements"/>
+  <attribute name="id" value="gartnerp@us.ibm.com"/>
+  <attribute name="sn" value="Gartner"/>
+  <attribute name="MailAddress" value="gartnerp@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1392154077102"/>
+</person>

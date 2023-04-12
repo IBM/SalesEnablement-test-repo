@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="mssmit@us.ibm.com" displayName="MICHAEL S. (SCOTT) SMITH" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$35019DE7EF496C87.jpg"/>
+  <attribute name="callupname" value="MICHAEL S. (SCOTT) SMITH"/>
+  <attribute name="Telephone" value="1-512-937-6474"/>
+  <attribute name="worklocation" value="workLoc=PLA,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Client Solution Executive"/>
+  <attribute name="dn" value="uid=3G4089897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="MICHAEL S. (SCOTT) SMITH"/>
+  <attribute name="telephonenumber" value="1-512-937-6474"/>
+  <attribute name="Address" value="11400 Burnet Rd&#xA;Austin, TX 78758-3493&#xA;United States"/>
+  <attribute name="mail" value="mssmit@us.ibm.com"/>
+  <attribute name="Title" value="Client Solution Executive"/>
+  <attribute name="sn" value="SMITH"/>
+  <attribute name="id" value="mssmit@us.ibm.com"/>
+  <attribute name="MailAddress" value="mssmit@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1445014374961"/>
+</person>

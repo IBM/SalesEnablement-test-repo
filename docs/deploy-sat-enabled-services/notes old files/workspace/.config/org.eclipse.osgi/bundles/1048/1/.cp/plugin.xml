@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright IBM Corp. 2014  All Rights Reserved.                    -->
+<?eclipse version="3.0"?>
+
+<plugin>
+   <extension
+         point="com.ibm.collaboration.realtime.chatwindow.chatAction">
+      <chatAction
+            class="com.ibm.collaboration.realtime.palettes.ExChatToolBarOnAction"
+            displayName="%smileys"
+            id="com.ibm.collaboration.realtime.palettes.openpalettes"
+            image="smileys/Emoticon.png"
+            menubarPath="tools/insert/additions"
+            path="format/insertMiddle"
+            showsFor="both"
+            tooltipText="%smileys_tooltip"
+            type="format"
+            themeDataName="com.ibm.collaboration.realtime.theme.Emoticon"/>
+   </extension>
+   <extension
+         point="com.ibm.collaboration.realtime.rtcadapter.offlineMsgParsers">
+      <offlineMsgParser
+            id="com.ibm.collaboration.realtime.palettes.PalettesOfflineMessageParser"
+            parser="com.ibm.collaboration.realtime.palettes.PalettesOfflineMessageParser"/>
+   </extension>
+   <extension
+         point="com.ibm.collaboration.realtime.annotate.annotationProvider">
+      <annotationProvider
+            class="com.ibm.collaboration.realtime.palettes.PalettesAnnotationProvider"
+            enabled="true"
+            id="com.ibm.collaboration.realtime.palettes"
+            lifecycleManager="com.ibm.collaboration.realtime.palettes.PalettesLifecycleManager"/>
+   </extension>
+   <extension
+         point="com.ibm.collaboration.realtime.messages.MessageHandlerListener">
+      <messageHandlerCallbackProxy
+            callbackType="pre"
+            handler="com.ibm.collaboration.realtime.palettes.PalettesMessageHandler">
+         <message class="com.ibm.collaboration.realtime.messages.im.ImTextReceivedMessage"/>
+         <message class="com.ibm.collaboration.realtime.messages.im.ManyToManyTextReceivedMessage"/>
+      </messageHandlerCallbackProxy>
+   </extension>
+   <extension
+         point="com.ibm.collaboration.realtime.browser.BrowserEventListener">
+      <BrowserEventListener
+            class="com.ibm.collaboration.realtime.palettes.AddToPalette"
+            id="com.ibm.collaboration.realtime.palettes.addtopalette"
+            label="%addtopalette"
+            eventType="contextmenu"/>
+   </extension>
+   <extension
+         point="com.ibm.collaboration.realtime.community.communityListeners">
+      <community-listener class="com.ibm.collaboration.realtime.palettes.ExCommunityAdapter">
+         <loadRule
+               eventClass="com.ibm.collaboration.realtime.im.community.CommunityLoginEvent"
+               eventType="TYPE_LOGGED_IN"/>
+      </community-listener>
+   </extension>
+
+</plugin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="joe.gallego@us.ibm.com" displayName="Joseph  (Joe) Gallego" isExternal="false" lastChatTime="1434573076630">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$3E7FEBF1B78B5D62.jpg"/>
+  <attribute name="callupname" value="JOSEPH  (JOE) GALLEGO"/>
+  <attribute name="tieline" value="444-5863"/>
+  <attribute name="Telephone" value="444-5863 / 1-919-254-5863"/>
+  <attribute name="worklocation" value="workLoc=RPL,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="IBM Cloud Services Enablement Leader for SAP Workloads"/>
+  <attribute name="dn" value="uid=2G2509897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="JOSEPH  (JOE) GALLEGO"/>
+  <attribute name="telephonenumber" value="444-5863 / 1-919-254-5863"/>
+  <attribute name="Address" value="3039 E Cornwallis Rd&#xA;P.O. Box 12195&#xA;Research Triangle Park, NC 27709-2195&#xA;United States"/>
+  <attribute name="mail" value="joe.gallego@us.ibm.com"/>
+  <attribute name="Title" value="IBM Cloud Services Enablement Leader for SAP Workloads"/>
+  <attribute name="id" value="joe.gallego@us.ibm.com"/>
+  <attribute name="sn" value="GALLEGO"/>
+  <attribute name="MailAddress" value="joe.gallego@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1436191782628"/>
+</person>

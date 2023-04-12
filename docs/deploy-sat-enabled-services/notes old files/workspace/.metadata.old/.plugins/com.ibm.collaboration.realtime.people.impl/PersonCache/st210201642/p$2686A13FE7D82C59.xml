@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="rhineh@us.ibm.com" displayName="David P. (Dave) Rhinehart" isExternal="false" lastChatTime="1408485043843">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$2686A13FE7D82C59.jpg"/>
+  <attribute name="callupname" value="David P. (Dave) Rhinehart"/>
+  <attribute name="tieline" value="676-4083"/>
+  <attribute name="Telephone" value="676-4083 / 1-720-395-4083"/>
+  <attribute name="worklocation" value="workLoc=EOP,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Enablement Manager, IBM Cloud Solutions, Services Integration Hub, United States"/>
+  <attribute name="dn" value="uid=621397897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="David P. (Dave) Rhinehart"/>
+  <attribute name="telephonenumber" value="676-4083 / 1-720-395-4083"/>
+  <attribute name="Address" value="100 E Pratt St&#xA;Baltimore, MD 21202-1009&#xA;United States"/>
+  <attribute name="mail" value="rhineh@us.ibm.com"/>
+  <attribute name="Title" value="Enablement Manager, IBM Cloud Solutions, Services Integration Hub, United States"/>
+  <attribute name="id" value="rhineh@us.ibm.com"/>
+  <attribute name="sn" value="Rhinehart"/>
+  <attribute name="MailAddress" value="rhineh@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1425590967266"/>
+</person>

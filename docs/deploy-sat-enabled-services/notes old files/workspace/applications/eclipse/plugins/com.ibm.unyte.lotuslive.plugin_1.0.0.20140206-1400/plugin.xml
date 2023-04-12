@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright IBM Corp. 2014  All Rights Reserved.                    -->
+<?eclipse version="3.2"?>
+<plugin>
+
+   <!-- preferences -->
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="com.ibm.unyte.plugin.preferences.PreferencePage"
+            id="com.ibm.unyte.lotuslive.plugin.preferences.PreferencePage"
+            name="%unyte.brand.productname"/>
+      <page
+            class="com.ibm.unyte.plugin.preferences.PreferenceAdvancedPage"
+            id="com.ibm.unyte.lotuslive.plugin.preferences.PreferenceAdvancedPage"
+            name="%PreferencePage.13"
+            category="com.ibm.unyte.lotuslive.plugin.preferences.PreferencePage"/>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer class="com.ibm.unyte.plugin.preferences.PreferenceInitializer"/>
+   </extension>
+   
+   
+   <!-- mini app -->
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            category="com.ibm.unyte.lotuslive.plugin"
+            class="com.ibm.unyte.plugin.view.MiniApp"
+            icon="img/icon.img"
+            id="com.ibm.unyte.lotuslive.plugin.view.MiniApp"
+            name="%unyte.brand.productname"/>
+   </extension>
+   <extension 
+		point="com.ibm.rcp.ui.shelfViews">
+   <shelfView 
+		id="com.ibm.unyte.lotuslive.plugin.view.ShelfView"
+		region="BOTTOM"
+		showTitle="true"
+		view="com.ibm.unyte.lotuslive.plugin.view.MiniApp" />
+	</extension>
+	
+	
+
+   
+</plugin>

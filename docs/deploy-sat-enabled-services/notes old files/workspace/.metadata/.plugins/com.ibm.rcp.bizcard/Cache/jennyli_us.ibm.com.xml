@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>United States</countryName>
+<locality>SOMERS</locality>
+<org>IBM Analytics</org>
+<userId>18af1ac0-8f0a-1028-950c-db07163b51b2</userId>
+<name>Li, Jenny S.</name>
+<floor>1</floor>
+<uid>229139897</uid>
+<officeBuilding>SOM1</officeBuilding>
+<streetAddress>294 Route 100
+Somers, NY 10589-3216
+United States</streetAddress>
+<region>NY</region>
+<role>IBM employee, Regular</role>
+<title>Master Inventor, Senior Certified IT Architect, SWG Industrial Sector Architecture</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/jennyli_us.ibm.com</photoUri>
+<tel>1-914-766-1479</tel>
+<email>jennyli@us.ibm.com</email>
+<office>1M04</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=18af1ac0-8f0a-1028-950c-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=18af1ac0-8f0a-1028-950c-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=18af1ac0-8f0a-1028-950c-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=18af1ac0-8f0a-1028-950c-db07163b51b2&amp;name=Li%2C%20Jenny%20S."/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=18af1ac0-8f0a-1028-950c-db07163b51b2&amp;name=Li%2C%20Jenny%20S."/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/18af1ac0-8f0a-1028-950c-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=18af1ac0-8f0a-1028-950c-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D18af1ac0-8f0a-1028-950c-db07163b51b2%2Cname%3DLi%2C%20Jenny%20S."/>
+</BusinessCardLinks>
+<LastUpdated>1447447798624</LastUpdated>
+</BusinessCard>

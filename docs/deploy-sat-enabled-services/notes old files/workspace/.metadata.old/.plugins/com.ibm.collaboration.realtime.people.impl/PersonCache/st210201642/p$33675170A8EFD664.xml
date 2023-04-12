@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="stewartb@ie.ibm.com" displayName="Bairbre Stewart" isExternal="false" lastChatTime="1409685878406">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$33675170A8EFD664.jpg"/>
+  <attribute name="callupname" value="Bairbre Stewart"/>
+  <attribute name="Telephone" value="353-1-826-9071"/>
+  <attribute name="worklocation" value="workLoc=IEA,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Director  -  Cloud Enablement and Solutioning Support - GTS Solutions, Integration and Deployment"/>
+  <attribute name="dn" value="uid=I56110754,c=ie,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Bairbre Stewart"/>
+  <attribute name="telephonenumber" value="353-1-826-9071"/>
+  <attribute name="Address" value="Technology Campus&#xA;Damastown Industrial Estate&#xA;Mulhuddart 15&#xA;Ireland"/>
+  <attribute name="mail" value="stewartb@ie.ibm.com"/>
+  <attribute name="Title" value="Director  -  Cloud Enablement and Solutioning Support - GTS Solutions, Integration and Deployment"/>
+  <attribute name="sn" value="Stewart"/>
+  <attribute name="id" value="stewartb@ie.ibm.com"/>
+  <attribute name="MailAddress" value="stewartb@ie.ibm.com"/>
+  <attribute name="lastUpdate" value="1410278912544"/>
+</person>

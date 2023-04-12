@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="njbanks@us.ibm.com" displayName="Natalie J. (Natalie J. Banks) Banks" isExternal="false" lastChatTime="1432833609578">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$171404AB29F19C9D.jpg"/>
+  <attribute name="callupname" value="Natalie J. (Natalie J. Banks) Banks"/>
+  <attribute name="tieline" value="938-0396"/>
+  <attribute name="Telephone" value="938-0396 / 1-720-396-0396"/>
+  <attribute name="worklocation" value="workLoc=IKS,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="SO Delivery, Cloud Managed Services (CMS) Program Manager"/>
+  <attribute name="dn" value="uid=192635897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Natalie J. (Natalie J. Banks) Banks"/>
+  <attribute name="telephonenumber" value="938-0396 / 1-720-396-0396"/>
+  <attribute name="Address" value="11200 Lakeview Ave&#xA;Lenexa, KS 66219-1398&#xA;United States"/>
+  <attribute name="mail" value="njbanks@us.ibm.com"/>
+  <attribute name="Title" value="SO Delivery, Cloud Managed Services (CMS) Program Manager"/>
+  <attribute name="id" value="njbanks@us.ibm.com"/>
+  <attribute name="sn" value="Banks"/>
+  <attribute name="MailAddress" value="njbanks@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1436277000045"/>
+</person>

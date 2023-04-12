@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="matos@us.ibm.com" displayName="Fernando Matos - LBaaS expert" isExternal="false" lastChatTime="1412714386842">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$62A419C59AC6A554.jpg"/>
+  <attribute name="callupname" value="Fernando Matos"/>
+  <attribute name="tieline" value="873-2095"/>
+  <attribute name="Telephone" value="873-2095 / 1-610-578-2095"/>
+  <attribute name="worklocation" value="workLoc=WCH,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Network Architect - SmartCloud Networking"/>
+  <attribute name="dn" value="uid=905642897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Fernando Matos"/>
+  <attribute name="telephonenumber" value="873-2095 / 1-610-578-2095"/>
+  <attribute name="Address" value="1475 Phoenixville Pike&#xA;West Chester, PA 19380-1437&#xA;United States"/>
+  <attribute name="mail" value="matos@us.ibm.com"/>
+  <attribute name="Title" value="Network Architect - SmartCloud Networking"/>
+  <attribute name="id" value="matos@us.ibm.com"/>
+  <attribute name="sn" value="Matos"/>
+  <attribute name="MailAddress" value="matos@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1415385288294"/>
+</person>

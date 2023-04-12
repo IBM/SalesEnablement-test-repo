@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<uid>038320897</uid>
+<streetAddress>11400 Burnet Rd
+Austin, TX 78758-3493
+United States</streetAddress>
+<userId>d1c12540-8f09-1028-8b4f-db07163b51b2</userId>
+<title>Manager, AIX Development</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/saint_us.ibm.com</photoUri>
+<tel>363-8699 / 1-512-286-8699</tel>
+<name>St. Pierre, Ronald M. (Ron)</name>
+<email>saint@us.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=d1c12540-8f09-1028-8b4f-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=d1c12540-8f09-1028-8b4f-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=d1c12540-8f09-1028-8b4f-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=d1c12540-8f09-1028-8b4f-db07163b51b2&amp;name=St.%20Pierre%2C%20Ronald%20M.%20%28Ron%29"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=d1c12540-8f09-1028-8b4f-db07163b51b2&amp;name=St.%20Pierre%2C%20Ronald%20M.%20%28Ron%29"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/d1c12540-8f09-1028-8b4f-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=d1c12540-8f09-1028-8b4f-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Dd1c12540-8f09-1028-8b4f-db07163b51b2%2Cname%3DSt.%20Pierre%2C%20Ronald%20M.%20%28Ron%29"/>
+</BusinessCardLinks>
+<LastUpdated>1429198671472</LastUpdated>
+</BusinessCard>

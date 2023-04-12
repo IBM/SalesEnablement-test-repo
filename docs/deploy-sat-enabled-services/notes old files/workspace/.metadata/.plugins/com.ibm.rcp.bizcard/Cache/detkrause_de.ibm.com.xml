@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<streetAddress>Beim Strohhause 17
+Hamburg 20097
+Germany</streetAddress>
+<title>SoftLayer Technical Sales</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/detkrause_de.ibm.com</photoUri>
+<tel>49-7034-643-1432</tel>
+<name>Krause, Detlef</name>
+<email>detkrause@de.ibm.com</email>
+<LastUpdated>1444737511692</LastUpdated>
+<actualtimezoneid>Europe/Berlin</actualtimezoneid>
+<timezoneid>+200</timezoneid>
+<postalCode>28857</postalCode>
+<countryName>Germany</countryName>
+<locality>HAMBURG</locality>
+<org>GTS, System Services</org>
+<userId>0634e140-8f0a-1028-8a18-db07163b51b2</userId>
+<floor>NA</floor>
+<uid>119240724</uid>
+<officeBuilding>56</officeBuilding>
+<role>IBM employee, Regular</role>
+<office>HOME</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=0634e140-8f0a-1028-8a18-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=0634e140-8f0a-1028-8a18-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=0634e140-8f0a-1028-8a18-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=0634e140-8f0a-1028-8a18-db07163b51b2&amp;name=Krause%2C%20Detlef"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=0634e140-8f0a-1028-8a18-db07163b51b2&amp;name=Krause%2C%20Detlef"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/0634e140-8f0a-1028-8a18-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=0634e140-8f0a-1028-8a18-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D0634e140-8f0a-1028-8a18-db07163b51b2%2Cname%3DKrause%2C%20Detlef"/>
+</BusinessCardLinks>
+</BusinessCard>

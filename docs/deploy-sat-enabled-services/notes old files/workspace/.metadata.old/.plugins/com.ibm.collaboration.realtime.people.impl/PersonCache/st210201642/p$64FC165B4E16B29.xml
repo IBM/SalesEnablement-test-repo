@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="paulbrad@us.ibm.com" displayName="Paul L. Bradshaw" isExternal="false" lastChatTime="1429281853460">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$64FC165B4E16B29.jpg"/>
+  <attribute name="callupname" value="Paul L. Bradshaw"/>
+  <attribute name="tieline" value="457-2468"/>
+  <attribute name="Telephone" value="457-2468 / 1-408-927-2468"/>
+  <attribute name="worklocation" value="workLoc=SJH,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Chief Storage Architect for Clouds"/>
+  <attribute name="dn" value="uid=104143897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Paul L. Bradshaw"/>
+  <attribute name="telephonenumber" value="457-2468 / 1-408-927-2468"/>
+  <attribute name="Address" value="650 Harry Road&#xA;Almaden Research Center&#xA;San Jose, CA 95120-6099&#xA;United States"/>
+  <attribute name="mail" value="paulbrad@us.ibm.com"/>
+  <attribute name="Title" value="Chief Storage Architect for Clouds"/>
+  <attribute name="id" value="paulbrad@us.ibm.com"/>
+  <attribute name="sn" value="Bradshaw"/>
+  <attribute name="MailAddress" value="paulbrad@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1435611463628"/>
+</person>

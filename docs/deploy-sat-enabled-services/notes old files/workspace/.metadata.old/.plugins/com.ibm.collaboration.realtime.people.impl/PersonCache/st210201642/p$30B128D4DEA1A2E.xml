@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="cgregory@us.ibm.com" displayName="Charles M. (Chuck) Gregory" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$30B128D4DEA1A2E.jpg"/>
+  <attribute name="callupname" value="Charles M. (Chuck) Gregory"/>
+  <attribute name="tieline" value="962-2921"/>
+  <attribute name="Telephone" value="962-2921 / 1-720-663-2921"/>
+  <attribute name="worklocation" value="workLoc=WNM,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Senior Project Manager"/>
+  <attribute name="dn" value="uid=4D6172897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Charles M. (Chuck) Gregory"/>
+  <attribute name="telephonenumber" value="962-2921 / 1-720-663-2921"/>
+  <attribute name="Address" value="18000 W 9 Mile Rd&#xA;Southfield, MI 48075-4009&#xA;United States"/>
+  <attribute name="mail" value="cgregory@us.ibm.com"/>
+  <attribute name="Title" value="Senior Project Manager"/>
+  <attribute name="id" value="cgregory@us.ibm.com"/>
+  <attribute name="sn" value="GREGORY"/>
+  <attribute name="MailAddress" value="cgregory@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1392154117143"/>
+</person>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autoStatus autoChange="false" avToAway="true" awayToAv="true" awayWhenLocked="true" backWhenUnlocked="true" idleSt="4" lastUpdated="1441024271921" lockSt="4" logoutWhenIdle="false" logoutWhenLocked="false" minutes="20" notesLock="true" prompt="true" sharingAutoChange="false" sharingPrompt="true" useDiffMsg="false" version="1.1" when="0">
+</autoStatus>

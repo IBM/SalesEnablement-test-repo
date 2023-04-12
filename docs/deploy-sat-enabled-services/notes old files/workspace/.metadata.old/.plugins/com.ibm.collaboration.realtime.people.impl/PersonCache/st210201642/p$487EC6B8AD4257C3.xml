@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="MACHO@de.ibm.com" displayName="Holger Macho" isExternal="false" lastChatTime="1421689108026">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$487EC6B8AD4257C3.jpg"/>
+  <attribute name="callupname" value="Holger Macho"/>
+  <attribute name="tieline" value="120-5050"/>
+  <attribute name="Telephone" value="120-5050 / 49-7031 16 5050"/>
+  <attribute name="worklocation" value="workLoc=BOA,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Director of Cloud Managed Services (CMS) Solutioning worldwide"/>
+  <attribute name="dn" value="uid=053325724,c=de,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Holger Macho"/>
+  <attribute name="telephonenumber" value="120-5050 / 49-7031 16 5050"/>
+  <attribute name="Address" value="Schoenaicher Str. 220&#xA;Boeblingen 71032&#xA;Germany"/>
+  <attribute name="mail" value="MACHO@de.ibm.com"/>
+  <attribute name="Title" value="Director of Cloud Managed Services (CMS) Solutioning worldwide"/>
+  <attribute name="id" value="MACHO@de.ibm.com"/>
+  <attribute name="sn" value="Macho"/>
+  <attribute name="MailAddress" value="MACHO@de.ibm.com"/>
+  <attribute name="lastUpdate" value="1428681956336"/>
+</person>

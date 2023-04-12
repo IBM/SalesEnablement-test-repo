@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<streetAddress>4401 Belle Oaks Dr
+Ashley Center
+Charleston, SC 29405-8537
+United States</streetAddress>
+<title>Managing Consultant - Process &amp; Data Integration</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/tcuzmar_us.ibm.com</photoUri>
+<tel>749-3826 / 1-843-906-0237</tel>
+<name>CUZMAR, TIM</name>
+<email>tcuzmar@us.ibm.com</email>
+<LastUpdated>1436301015302</LastUpdated>
+<timezoneid>-400</timezoneid>
+<uid>4D8922897</uid>
+<userId>1d1ac2c0-b9c0-102a-860c-8b15144bf410</userId>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=1d1ac2c0-b9c0-102a-860c-8b15144bf410&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=1d1ac2c0-b9c0-102a-860c-8b15144bf410"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=1d1ac2c0-b9c0-102a-860c-8b15144bf410"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=1d1ac2c0-b9c0-102a-860c-8b15144bf410&amp;name=CUZMAR%2C%20TIM"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=1d1ac2c0-b9c0-102a-860c-8b15144bf410&amp;name=CUZMAR%2C%20TIM"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/1d1ac2c0-b9c0-102a-860c-8b15144bf410"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=1d1ac2c0-b9c0-102a-860c-8b15144bf410"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D1d1ac2c0-b9c0-102a-860c-8b15144bf410%2Cname%3DCUZMAR%2C%20TIM"/>
+</BusinessCardLinks>
+</BusinessCard>

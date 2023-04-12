@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pallete roamingId="1917446429" version="1.1">
+<palleteItems>
+<palleteItem description="" doubleClickCommandId="" hideThumbnail="false" id="164082694" imageUrl="https://www.lotuslive.com/styles/css/images/lotuslive_meetings_icon.gif" providerId="com.ibm.rcp.toolbox.prov.provider.ToolboxProvisioning" signedAndTrusted="false" title="SmartCloud Meetings (original)" url="http://www.conferenceservers.com/brands/SBS/LLMEETING_EN-US" widgetId="1510233145">
+<preferences/>
+<data>
+<installManifest>&lt;install&gt;&#x0A;  &lt;installfeature id=&quot;com.ibm.unyte.lotuslive.feature&quot; name=&quot;Meetings&quot; version=&quot;1.0.0.20100105-1228&quot;&gt;&#x0A;&#x09;&lt;requirements&gt;&#x0A;&#x09;&#x09;&lt;feature id=&quot;com.ibm.unyte.lotuslive.feature&quot; version=&quot;1.0.0.20100105-1228&quot; match=&quot;greaterOrEqual&quot; /&gt;&#x0A;&#x09;&lt;/requirements&gt;&#x0A;  &lt;/installfeature&gt;&#x0A;&lt;/install&gt;&#x0A;</installManifest>
+</data>
+</palleteItem>
+<palleteItem contributeTabOnStartup="false" contributeToSideshelfOnStartup="false" description="" doubleClickCommandId="" hideThumbnail="false" id="635276357" imageUrl="https://apps.na.collabserv.com/favicon.ico" providerId="com.ibm.rcp.toolbox.web.provider.WebServicesPalleteProvider" signedAndTrusted="false" singletonSidebar="false" title="Meetings" url="https://apps.na.collabserv.com/meetings/host/sametime" viewImageUrl="" widgetId="1479554284">
+<preferences/>
+<data>
+<authForm accountName="" authFormNumber="" authRequired="" authUrl="" passwordField="" userNameField=""/>
+</data>
+</palleteItem>
+</palleteItems>
+</pallete>

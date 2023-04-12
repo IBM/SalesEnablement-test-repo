@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<State>
+<WindowState UserId="CN=Andrew Jones/OU=Austin/O=IBM" height="700" maximized="true" width="300" x="2018" y="90">
+<fastViewData/>
+<perspectiveBar/>
+<coolbarLayout locked="0">
+<coolItem id="BEGIN_GROUP" itemType="typeGroupMarker"/>
+<coolItem id="com.ibm.notes.client.toolbar.contributions.notesContextSensitive" itemType="typeToolBarContribution" x="473" y="0"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="composite.application.showHide" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.annotationNavigation" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.navigation" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="MIDDLE_GROUP" itemType="typeGroupMarker"/>
+<coolItem id="END_GROUP" itemType="typeGroupMarker"/>
+<coolItem id="UserSeparator" itemType="typeSeparator"/>
+<coolItem id="com.ibm.notes.client.toolbar.contributions.Address" itemType="typeToolBarContribution" x="0" y="0"/>
+<coolItem id="com.ibm.notes.client.toolbar.contributions.View" itemType="typeToolBarContribution" x="0" y="0"/>
+<coolItem id="com.ibm.notes.client.toolbar.contributions.sebworks_bluebar" itemType="typeToolBarContribution" x="511" y="0"/>
+</coolbarLayout>
+<page focus="true" label="&lt;Unknown Label&gt; - ...">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="com.ibm.rcp.ui.internal.presentations.StyledPresentationFactory"/>
+</folder>
+</info>
+</editorArea>
+</editors>
+<views>
+<view id="com.ibm.collaboration.realtime.imhub" partName="Sametime Contacts">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="com.ibm.collaboration.realtime.imhub" activePerspective="com.ibm.collaboration.realtime.imhub">
+<perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
+<descriptor descriptor="com.ibm.rcp.platform.personality.dynamic.perspective.template" id="com.ibm.collaboration.realtime.imhub" label="..."/>
+<alwaysOnActionSet id="membership.actionSet"/>
+<alwaysOnActionSet id="makeavailableoffline.actionSet"/>
+<alwaysOnActionSet id="uninstallCompositeApplication.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="composite.application.showHide"/>
+<alwaysOnActionSet id="com.ibm.rcp.syncui.menu"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.callhistory.actions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.telephony.sti.blue.actions"/>
+<alwaysOnActionSet id="embedded.telephony.voip.tools.menu.actionset"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.directory.bluepages.actionset"/>
+<alwaysOnActionSet id="com.voicerite.vc3.sametime.ui.AboutActionSet"/>
+<alwaysOnActionSet id="com.voicerite.vc3.sametime.ui.VideoActionSet"/>
+<alwaysOnActionSet id="com.voicerite.vc3.sametime.ui.LogInActionSet"/>
+<alwaysOnActionSet id="com.voicerite.vc3.sametime.ui.LogOutActionSet"/>
+<alwaysOnActionSet id="com.voicerite.vc3.sametime.ui.LaunchWizardActionSet"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.LogInLogOutActionSet"/>
+<alwaysOnActionSet id="com.ibm.notes.gettingstarted.actionSet"/>
+<alwaysOnActionSet id="com.ibm.workplace.notes.menus.actionSet.ManageCAAccessAction"/>
+<alwaysOnActionSet id="com.ibm.notes.client.toolbar.defaultactionset"/>
+<alwaysOnActionSet id="com.ibm.rtc.meetings.integration.actionsSets"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.phonebook.actions"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.callhistory.embedded.actions"/>
+<alwaysOnActionSet id="com.ibm.sametime.sut.ui.phonebook.embedded.actions"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="com.ibm.rcp.aaf.actionSet.AAFActions"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.chat.logging.ui.actionSet"/>
+<alwaysOnActionSet id="embedded.file.menu.actionset"/>
+<alwaysOnActionSet id="embedded.tools.menu.actionset"/>
+<alwaysOnActionSet id="com.ibm.collaboration.realtime.login.hannover.menuBar"/>
+<alwaysOnActionSet id="embedded.meetings.tools.actionSet"/>
+<perspective_action id="com.ibm.designer.domino.perspective"/>
+<perspective_action id="com.ibm.designer.domino.classic.perspective"/>
+<perspective_action id="com.ibm.designer.domino.xsp.perspective"/>
+<view id="com.ibm.collaboration.realtime.imhub"/>
+<viewLayoutRec id="com.ibm.collaboration.realtime.imhub" showTitle="true" standalone="true"/>
+<layout>
+<mainWindow>
+<info part="org.eclipse.ui.editorss"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="207" ratioRight="69" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@166b166b" ratio="0.9488372" ratioLeft="612" ratioRight="33" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.ibm.collaboration.realtime.imhub" appearance="3" expanded="2">
+<page content="com.ibm.collaboration.realtime.imhub" label="Sametime Contacts"/>
+<presentation id="com.ibm.rcp.ui.internal.presentations.StyledPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+</WindowState>
+</State>

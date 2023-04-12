@@ -1,0 +1,35 @@
+/* Copyright IBM Corp. 2001, 2012  All Rights Reserved.              */
+
+BODY 
+	{ font-size: 10pt; line-height: 1em; margin-top: 10pt; margin-bottom: 10pt; }
+P
+	{ margin-top: 0; margin-bottom: 0 }
+A
+	{ color: black; text-decoration: none; cursor: pointer,hand }
+A:hover
+	{ text-decoration: underline }
+H1,H2,H3,H4
+	{ font-family:Lucida,Sans-Serif; }
+H1,H2
+	{ font-weight: 600 }
+H3
+	{ margin-left: 2em }
+H4
+	{ margin-left: 3em }
+
+.Toc
+	{ font-family:Verdana,Sans-Serif }
+.Toc A
+	{ font-weight:bold; }
+.twistie
+	{ cursor: hand }
+.field 
+	{ border: solid 1px; width: 1px; margin: 0px 1px -1px 1px; padding: 1px 4px; }
+.formula, .lotusscript, .javascript
+	{ font-family:monospace; line-height:1.2em; margin-left:.75in; margin-top:.5em; margin-bottom:0; background:#DDDDDD; }
+.BuiltInAction 
+	{ font-family:Verdana,Sans-Serif; margin-left:.75in; margin-top:.5em; margin-bottom:0; background:#DDDDDD; }
+.ObjectSummary 
+	{ font-family:Verdana,Sans-Serif; margin-top:.2em; margin-left:.2in; }
+.Event 
+	{ font-family:monospace; margin-left:.5in; margin-top:.5em; background:#DDDDDD; }

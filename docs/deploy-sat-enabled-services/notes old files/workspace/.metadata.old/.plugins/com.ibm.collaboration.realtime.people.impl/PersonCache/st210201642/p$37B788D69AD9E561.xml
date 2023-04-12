@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="cbhadaur@in.ibm.com" displayName="Chakresh S Bhadauriya" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$37B788D69AD9E561.jpg"/>
+  <attribute name="callupname" value="Chakresh S Bhadauriya"/>
+  <attribute name="Telephone" value="91-809-520-1201"/>
+  <attribute name="worklocation" value="workLoc=D4T,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="SCEp Technical  Lead Cloud Delivery Center (MSD)"/>
+  <attribute name="dn" value="uid=02445K744,c=in,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Chakresh S Bhadauriya"/>
+  <attribute name="telephonenumber" value="91-809-520-1201"/>
+  <attribute name="Address" value="Outer Ring Road, Embassy Manyatha B&#xA;Rachenahalli &amp; Nagawara Villages&#xA;Bangalore, KA 560045&#xA;India"/>
+  <attribute name="mail" value="cbhadaur@in.ibm.com"/>
+  <attribute name="Title" value="SCEp Technical  Lead Cloud Delivery Center (MSD)"/>
+  <attribute name="sn" value="Bhadauriya"/>
+  <attribute name="id" value="cbhadaur@in.ibm.com"/>
+  <attribute name="MailAddress" value="cbhadaur@in.ibm.com"/>
+  <attribute name="lastUpdate" value="1412779871283"/>
+</person>

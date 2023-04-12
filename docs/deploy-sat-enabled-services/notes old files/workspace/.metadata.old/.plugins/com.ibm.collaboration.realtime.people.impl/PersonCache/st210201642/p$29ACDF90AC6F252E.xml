@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="rh@us.ibm.com" displayName="Rick A. Hamilton II" isExternal="false" lastChatTime="1435081694173">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$29ACDF90AC6F252E.jpg"/>
+  <attribute name="callupname" value="Rick A. Hamilton II"/>
+  <attribute name="tieline" value="722-4798"/>
+  <attribute name="Telephone" value="722-4798 / 1-804-327-4798"/>
+  <attribute name="worklocation" value="workLoc=RIC,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Cloud Offering Evangelist"/>
+  <attribute name="dn" value="uid=355403897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Rick A. Hamilton II"/>
+  <attribute name="telephonenumber" value="722-4798 / 1-804-327-4798"/>
+  <attribute name="Address" value="9201 Arboretum Pkwy&#xA;Suite 300&#xA;Richmond, VA 23236-5402&#xA;United States"/>
+  <attribute name="mail" value="rh@us.ibm.com"/>
+  <attribute name="Title" value="Cloud Offering Evangelist"/>
+  <attribute name="id" value="rh@us.ibm.com"/>
+  <attribute name="sn" value="Hamilton II"/>
+  <attribute name="MailAddress" value="rh@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1435173506674"/>
+</person>

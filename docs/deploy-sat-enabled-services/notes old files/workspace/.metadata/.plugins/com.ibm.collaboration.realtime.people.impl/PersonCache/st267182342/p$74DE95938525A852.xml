@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="bartfai@us.ibm.com" displayName="Robert F. Bartfai" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$74DE95938525A852.jpg"/>
+  <attribute name="callupname" value="Robert F. Bartfai"/>
+  <attribute name="tieline" value="539-9430"/>
+  <attribute name="Telephone" value="539-9430 / 1-520-529-7742"/>
+  <attribute name="worklocation" value="workLoc=PLT,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Replication Services Technical Architect , STSM, Master Inventor"/>
+  <attribute name="dn" value="uid=309624897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Robert F. Bartfai"/>
+  <attribute name="telephonenumber" value="539-9430 / 1-520-529-7742"/>
+  <attribute name="Address" value="9000 S Rita Rd&#xA;Tucson, AZ 85744-0002&#xA;United States"/>
+  <attribute name="mail" value="bartfai@us.ibm.com"/>
+  <attribute name="Title" value="Replication Services Technical Architect , STSM, Master Inventor"/>
+  <attribute name="id" value="bartfai@us.ibm.com"/>
+  <attribute name="sn" value="Bartfai"/>
+  <attribute name="MailAddress" value="bartfai@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1445537166214"/>
+</person>

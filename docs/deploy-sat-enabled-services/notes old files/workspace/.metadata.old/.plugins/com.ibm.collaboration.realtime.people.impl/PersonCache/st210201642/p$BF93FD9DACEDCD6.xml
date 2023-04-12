@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="John_Moore@us.ibm.com" displayName="John E. Moore" isExternal="false" lastChatTime="1430770365610">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$BF93FD9DACEDCD6.jpg"/>
+  <attribute name="callupname" value="John E. Moore"/>
+  <attribute name="tieline" value="963-2257"/>
+  <attribute name="Telephone" value="963-2257 / 1-720-342-2257"/>
+  <attribute name="worklocation" value="workLoc=A43,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Master Inventor, STSM, Lead Strategist for RUN, IT Optimization"/>
+  <attribute name="dn" value="uid=807778897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="John E. Moore"/>
+  <attribute name="telephonenumber" value="963-2257 / 1-720-342-2257"/>
+  <attribute name="Address" value="8888 Keystone Crossing&#xA;Suite 925&#xA;Indianapolis, IN 46240&#xA;United States"/>
+  <attribute name="mail" value="John_Moore@us.ibm.com"/>
+  <attribute name="Title" value="Master Inventor, STSM, Lead Strategist for RUN, IT Optimization"/>
+  <attribute name="id" value="John_Moore@us.ibm.com"/>
+  <attribute name="sn" value="Moore"/>
+  <attribute name="MailAddress" value="John_Moore@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1433282734655"/>
+</person>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="canavar@us.ibm.com" displayName="canavar@us.ibm.com - Carlos Navarro/Dallas/IBM" isExternal="false" lastChatTime="1369173843721">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$2B32BDB6EEB8B8DF.jpg"/>
+  <attribute name="callupname" value="CARLOS NAVARRO"/>
+  <attribute name="tieline" value="906-3345"/>
+  <attribute name="Telephone" value="906-3345 / 1-972-906-3345"/>
+  <attribute name="worklocation" value="workLoc=DFW,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Integrated Communication Services"/>
+  <attribute name="dn" value="uid=685523897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="CARLOS NAVARRO"/>
+  <attribute name="telephonenumber" value="906-3345 / 1-972-906-3345"/>
+  <attribute name="Address" value="1177 S Belt Line Rd&#xA;Coppell, TX 75019-4642&#xA;United States"/>
+  <attribute name="mail" value="canavar@us.ibm.com"/>
+  <attribute name="Title" value="Integrated Communication Services"/>
+  <attribute name="id" value="canavar@us.ibm.com"/>
+  <attribute name="sn" value="NAVARRO"/>
+  <attribute name="MailAddress" value="canavar@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1428930958024"/>
+</person>

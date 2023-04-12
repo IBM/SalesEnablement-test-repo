@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="dpainter@us.ibm.com" displayName="Donna D. Painter" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$54813F9B3B2954F1.jpg"/>
+  <attribute name="callupname" value="Donna D. Painter"/>
+  <attribute name="Telephone" value="1-610-578-2185"/>
+  <attribute name="worklocation" value="workLoc=WCH,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Industry Client Director, AmerisourceBergen Corp"/>
+  <attribute name="dn" value="uid=459784897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Donna D. Painter"/>
+  <attribute name="telephonenumber" value="1-610-578-2185"/>
+  <attribute name="Address" value="1475 Phoenixville Pike&#xA;West Chester, PA 19380-1437&#xA;United States"/>
+  <attribute name="mail" value="dpainter@us.ibm.com"/>
+  <attribute name="Title" value="Industry Client Director, AmerisourceBergen Corp"/>
+  <attribute name="sn" value="Painter"/>
+  <attribute name="id" value="dpainter@us.ibm.com"/>
+  <attribute name="MailAddress" value="dpainter@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1392154077614"/>
+</person>

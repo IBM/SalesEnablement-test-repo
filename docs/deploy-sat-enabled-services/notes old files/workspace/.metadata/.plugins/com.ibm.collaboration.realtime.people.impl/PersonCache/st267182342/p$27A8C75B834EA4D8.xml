@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="dhorta@us.ibm.com" displayName="Eduarda D. (EDUARDA) Horta-Freitas" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$27A8C75B834EA4D8.jpg"/>
+  <attribute name="callupname" value="Eduarda D. (EDUARDA) Horta-Freitas"/>
+  <attribute name="Telephone" value="1-469-387-0252"/>
+  <attribute name="worklocation" value="workLoc=DFW,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Applications on Demand - SAP Support"/>
+  <attribute name="dn" value="uid=2D7139897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Eduarda D. (EDUARDA) Horta-Freitas"/>
+  <attribute name="telephonenumber" value="1-469-387-0252"/>
+  <attribute name="Address" value="1177 S Belt Line Rd&#xA;Coppell, TX 75019-4642&#xA;United States"/>
+  <attribute name="mail" value="dhorta@us.ibm.com"/>
+  <attribute name="Title" value="Applications on Demand - SAP Support"/>
+  <attribute name="sn" value="Horta-Freitas"/>
+  <attribute name="id" value="dhorta@us.ibm.com"/>
+  <attribute name="MailAddress" value="dhorta@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1448888100416"/>
+</person>

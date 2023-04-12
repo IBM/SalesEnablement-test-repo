@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<streetAddress>4400 N 1St St
+Suite 100
+San Jose, CA 95134-1257
+United States</streetAddress>
+<title>IT Specialist, SAP ABAP Developer - Industrial EA SAP</title>
+<tel>1-916-434-6337</tel>
+<name>Foley, Patricia M. (PATRICIA)</name>
+<email>patricia.carey@us.ibm.com</email>
+<LastUpdated>1435167481853</LastUpdated>
+<actualtimezoneid>America/Los_Angeles</actualtimezoneid>
+<timezoneid>-700</timezoneid>
+<uid>0D7107897</uid>
+<userId>bf93b6c0-8f0a-1028-8575-db07163b51b2</userId>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/patricia.carey_us.ibm.com</photoUri>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=bf93b6c0-8f0a-1028-8575-db07163b51b2&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=bf93b6c0-8f0a-1028-8575-db07163b51b2"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=bf93b6c0-8f0a-1028-8575-db07163b51b2"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=bf93b6c0-8f0a-1028-8575-db07163b51b2&amp;name=Foley%2C%20Patricia%20M.%20%28PATRICIA%29"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=bf93b6c0-8f0a-1028-8575-db07163b51b2&amp;name=Foley%2C%20Patricia%20M.%20%28PATRICIA%29"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/bf93b6c0-8f0a-1028-8575-db07163b51b2"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=bf93b6c0-8f0a-1028-8575-db07163b51b2"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Dbf93b6c0-8f0a-1028-8575-db07163b51b2%2Cname%3DFoley%2C%20Patricia%20M.%20%28PATRICIA%29"/>
+</BusinessCardLinks>
+</BusinessCard>

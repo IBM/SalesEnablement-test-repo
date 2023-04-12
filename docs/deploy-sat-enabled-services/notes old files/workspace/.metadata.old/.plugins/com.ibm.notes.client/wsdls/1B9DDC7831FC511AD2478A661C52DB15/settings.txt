@@ -1,0 +1,4 @@
+#Used by Property Broker for Managing Cache
+#Mon Jan 26 07:20:36 CST 2015
+lastModifiedDate=2015.01.23 15\:09\:42
+=properties

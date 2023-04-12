@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="dmac@us.ibm.com" displayName="Dave McAllister" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$446E6EE9C2EF8BF8.jpg"/>
+  <attribute name="callupname" value="Dave McAllister"/>
+  <attribute name="tieline" value="347-1387"/>
+  <attribute name="Telephone" value="347-1387 / 1-303-924-1387"/>
+  <attribute name="worklocation" value="workLoc=BOL,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Program &amp; Business Manager,  GTS Executive Briefing Centers"/>
+  <attribute name="dn" value="uid=3A7525897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Dave McAllister"/>
+  <attribute name="telephonenumber" value="347-1387 / 1-303-924-1387"/>
+  <attribute name="Address" value="6300 Diagonal Hwy&#xA;Boulder, CO 80301-6108&#xA;United States"/>
+  <attribute name="mail" value="dmac@us.ibm.com"/>
+  <attribute name="Title" value="Program &amp; Business Manager,  GTS Executive Briefing Centers"/>
+  <attribute name="id" value="dmac@us.ibm.com"/>
+  <attribute name="sn" value="McAllister"/>
+  <attribute name="MailAddress" value="dmac@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1426867283305"/>
+</person>

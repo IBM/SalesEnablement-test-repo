@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="jposner@us.ibm.com" displayName="jposner@us.ibm.com - Jon Posner/Austin/IBM" isExternal="false" lastChatTime="">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$5F9DE1A2B4615D3C.jpg"/>
+  <attribute name="callupname" value="Jonathan K. (Jon) Posner"/>
+  <attribute name="tieline" value="363-8056"/>
+  <attribute name="Telephone" value="363-8056 / 1-512-286-8056"/>
+  <attribute name="worklocation" value="workLoc=PLA,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Chip Integration"/>
+  <attribute name="dn" value="uid=099622897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Jonathan K. (Jon) Posner"/>
+  <attribute name="telephonenumber" value="363-8056 / 1-512-286-8056"/>
+  <attribute name="Address" value="11400 Burnet Rd&#xA;Austin, TX 78758-3493&#xA;United States"/>
+  <attribute name="mail" value="jposner@us.ibm.com"/>
+  <attribute name="Title" value="Chip Integration"/>
+  <attribute name="id" value="jposner@us.ibm.com"/>
+  <attribute name="sn" value="Posner"/>
+  <attribute name="MailAddress" value="jposner@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1435071435385"/>
+</person>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>United States</countryName>
+<locality>AUSTIN</locality>
+<org>GTS, System Services</org>
+<userId>2befaac0-8adf-1032-8ded-9633c0345385</userId>
+<name>SMITH, MICHAEL S. (SCOTT)</name>
+<floor>NA</floor>
+<uid>3G4089897</uid>
+<officeBuilding>045</officeBuilding>
+<streetAddress>11400 Burnet Rd
+Austin, TX 78758-3493
+United States</streetAddress>
+<region>TX</region>
+<role>IBM employee, Regular</role>
+<title>Client Solution Executive</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/mssmit_us.ibm.com</photoUri>
+<tel>1-512-937-6474</tel>
+<email>mssmit@us.ibm.com</email>
+<office>MOBILE</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=2befaac0-8adf-1032-8ded-9633c0345385&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=2befaac0-8adf-1032-8ded-9633c0345385"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=2befaac0-8adf-1032-8ded-9633c0345385"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=2befaac0-8adf-1032-8ded-9633c0345385&amp;name=SMITH%2C%20MICHAEL%20S.%20%28SCOTT%29"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=2befaac0-8adf-1032-8ded-9633c0345385&amp;name=SMITH%2C%20MICHAEL%20S.%20%28SCOTT%29"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/2befaac0-8adf-1032-8ded-9633c0345385"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=2befaac0-8adf-1032-8ded-9633c0345385"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D2befaac0-8adf-1032-8ded-9633c0345385%2Cname%3DSMITH%2C%20MICHAEL%20S.%20%28SCOTT%29"/>
+</BusinessCardLinks>
+<LastUpdated>1445014375956</LastUpdated>
+<timezoneid>-500</timezoneid>
+</BusinessCard>

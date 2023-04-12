@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>United States</countryName>
+<locality>AUSTIN</locality>
+<org>IBM Cloud</org>
+<userId>fb082940-bfc6-1034-9d57-a8aa994df202</userId>
+<name>SHAIKH, ABDULLAH</name>
+<floor>7</floor>
+<uid>5G6990897</uid>
+<officeBuilding>903</officeBuilding>
+<streetAddress>11501 Burnet Rd
+Austin, TX 78758-3400
+United States</streetAddress>
+<region>TX</region>
+<role>IBM employee, Regular</role>
+<title>Senior Design Lead</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/ashaikh_us.ibm.com</photoUri>
+<tel>1-512-920-2166</tel>
+<email>ashaikh@us.ibm.com</email>
+<office>7H-011</office>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=fb082940-bfc6-1034-9d57-a8aa994df202&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=fb082940-bfc6-1034-9d57-a8aa994df202"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=fb082940-bfc6-1034-9d57-a8aa994df202"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=fb082940-bfc6-1034-9d57-a8aa994df202&amp;name=SHAIKH%2C%20ABDULLAH"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=fb082940-bfc6-1034-9d57-a8aa994df202&amp;name=SHAIKH%2C%20ABDULLAH"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/fb082940-bfc6-1034-9d57-a8aa994df202"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=fb082940-bfc6-1034-9d57-a8aa994df202"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3Dfb082940-bfc6-1034-9d57-a8aa994df202%2Cname%3DSHAIKH%2C%20ABDULLAH"/>
+</BusinessCardLinks>
+<LastUpdated>1444831121733</LastUpdated>
+</BusinessCard>

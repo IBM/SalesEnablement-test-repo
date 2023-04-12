@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="chawla@ca.ibm.com" displayName="Madhuri (M.) Chawla" isExternal="false" lastChatTime="1404326077103">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$3AF40E1D26F1C883.jpg"/>
+  <attribute name="callupname" value="Madhuri (M.) Chawla"/>
+  <attribute name="tieline" value="318-5332"/>
+  <attribute name="Telephone" value="318-5332 / 1-416-478-5332"/>
+  <attribute name="worklocation" value="workLoc=4AN,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Director, IBM Global Cloud for SAP Technical Sales &amp; Solutioning, Senior Technical Staff Member"/>
+  <attribute name="dn" value="uid=066311649,c=ca,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Madhuri (M.) Chawla"/>
+  <attribute name="telephonenumber" value="318-5332 / 1-416-478-5332"/>
+  <attribute name="Address" value="3600 Steeles Ave East&#xA;Markham, ON L3R 9Z7&#xA;Canada"/>
+  <attribute name="mail" value="chawla@ca.ibm.com"/>
+  <attribute name="Title" value="Director, IBM Global Cloud for SAP Technical Sales &amp; Solutioning, Senior Technical Staff Member"/>
+  <attribute name="id" value="chawla@ca.ibm.com"/>
+  <attribute name="sn" value="Chawla"/>
+  <attribute name="MailAddress" value="chawla@ca.ibm.com"/>
+  <attribute name="lastUpdate" value="1445528788613"/>
+</person>

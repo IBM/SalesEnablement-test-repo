@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<countryName>China</countryName>
+<locality>DALIAN</locality>
+<org>Global Business Services</org>
+<userId>e2a393c0-ba71-102b-952d-c574ebd76cf3</userId>
+<name>MENG, SONG HAO</name>
+<floor>7</floor>
+<officeBuilding>DL16</officeBuilding>
+<uid>207039672</uid>
+<region>21</region>
+<role>IBM employee, Regular</role>
+<title>Accredited Certified Architect - Mobile</title>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/mengshao_cn.ibm.com</photoUri>
+<tel>86-411-88151281</tel>
+<email>mengshao@cn.ibm.com</email>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=e2a393c0-ba71-102b-952d-c574ebd76cf3&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=e2a393c0-ba71-102b-952d-c574ebd76cf3"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=e2a393c0-ba71-102b-952d-c574ebd76cf3"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=e2a393c0-ba71-102b-952d-c574ebd76cf3&amp;name=MENG%2C%20SONG%20HAO"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=e2a393c0-ba71-102b-952d-c574ebd76cf3&amp;name=MENG%2C%20SONG%20HAO"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/e2a393c0-ba71-102b-952d-c574ebd76cf3"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=e2a393c0-ba71-102b-952d-c574ebd76cf3"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3De2a393c0-ba71-102b-952d-c574ebd76cf3%2Cname%3DMENG%2C%20SONG%20HAO"/>
+</BusinessCardLinks>
+<LastUpdated>1439324466850</LastUpdated>
+</BusinessCard>

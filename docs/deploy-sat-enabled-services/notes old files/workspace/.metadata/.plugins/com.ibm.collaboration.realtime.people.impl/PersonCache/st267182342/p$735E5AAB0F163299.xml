@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="mperkinson@us.ibm.com" displayName="Matthew T. (Matt) Perkinson" isExternal="false" lastChatTime="1447441304352">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$735E5AAB0F163299.jpg"/>
+  <attribute name="callupname" value="Matthew  (Matt) Perkinson"/>
+  <attribute name="Telephone" value="1-770-639-8550"/>
+  <attribute name="worklocation" value="workLoc=FE9,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Manager - Global Cloud Services Technical Sales"/>
+  <attribute name="dn" value="uid=6D4283897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Matthew  (Matt) Perkinson"/>
+  <attribute name="telephonenumber" value="1-770-639-8550"/>
+  <attribute name="Address" value="6303 Barfield Rd Ne&#xA;Sandy Springs, GA 30328-4233&#xA;United States"/>
+  <attribute name="mail" value="mperkinson@us.ibm.com"/>
+  <attribute name="Title" value="Manager - Global Cloud Services Technical Sales"/>
+  <attribute name="sn" value="Perkinson"/>
+  <attribute name="id" value="mperkinson@us.ibm.com"/>
+  <attribute name="MailAddress" value="mperkinson@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1448887542986"/>
+</person>

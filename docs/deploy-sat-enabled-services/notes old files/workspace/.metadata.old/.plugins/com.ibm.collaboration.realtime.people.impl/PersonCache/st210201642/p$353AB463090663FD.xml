@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st210201642" communityProviderId="Sametime" contactId="arnoldf@us.ibm.com" displayName="Arnold Flores" isExternal="false" lastChatTime="1371669919363">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st210201642\p$353AB463090663FD.jpg"/>
+  <attribute name="callupname" value="Arnold Flores"/>
+  <attribute name="tieline" value="363-6178"/>
+  <attribute name="Telephone" value="363-6178 / 1-512-286-6178"/>
+  <attribute name="worklocation" value="workLoc=BNT,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="AIX Base Kernel Development (VMM)"/>
+  <attribute name="dn" value="uid=140908897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="Arnold Flores"/>
+  <attribute name="telephonenumber" value="363-6178 / 1-512-286-6178"/>
+  <attribute name="Address" value="11501 Burnet Rd&#xA;Austin, TX 78758-3400&#xA;United States"/>
+  <attribute name="mail" value="arnoldf@us.ibm.com"/>
+  <attribute name="Title" value="AIX Base Kernel Development (VMM)"/>
+  <attribute name="id" value="arnoldf@us.ibm.com"/>
+  <attribute name="sn" value="Flores"/>
+  <attribute name="MailAddress" value="arnoldf@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1390406064106"/>
+</person>

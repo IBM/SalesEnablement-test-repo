@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person communityId="st267182342" communityProviderId="Sametime" contactId="jseaman@us.ibm.com" displayName="JAMES W. SEAMAN" isExternal="false" lastChatTime="1448906369515">
+  <attribute name="ImagePath" value="C:\notes\data\workspace\.metadata\.plugins\com.ibm.collaboration.realtime.people.impl\PersonCache\st267182342\p$7DDB9A61092C66DB.jpg"/>
+  <attribute name="callupname" value="JAMES W. SEAMAN"/>
+  <attribute name="tieline" value="518-2835"/>
+  <attribute name="Telephone" value="518-2835 / 1-703-943-2835"/>
+  <attribute name="worklocation" value="workLoc=GT7,ou=bluepages,o=ibm.com"/>
+  <attribute name="jobresponsibilities" value="Client Technical Architect: Cross Brand Solutions Architect for Deloitte"/>
+  <attribute name="dn" value="uid=282995897,c=us,ou=bluepages,o=ibm.com"/>
+  <attribute name="Name" value="JAMES W. SEAMAN"/>
+  <attribute name="telephonenumber" value="518-2835 / 1-703-943-2835"/>
+  <attribute name="Address" value="2300 Dulles Station Blvd&#xA;Dulles Station West Floors 1,2,4,5&#xA;Herndon, VA 20171-6133&#xA;United States"/>
+  <attribute name="mail" value="jseaman@us.ibm.com"/>
+  <attribute name="Title" value="Client Technical Architect: Cross Brand Solutions Architect for Deloitte"/>
+  <attribute name="id" value="jseaman@us.ibm.com"/>
+  <attribute name="sn" value="SEAMAN"/>
+  <attribute name="MailAddress" value="jseaman@us.ibm.com"/>
+  <attribute name="lastUpdate" value="1448906358348"/>
+</person>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><BusinessCard>
+<uid>091822631</uid>
+<userId>3a4decc0-773e-1029-92c2-882a644e52b4</userId>
+<photoUri>file:/C:/notes/data/workspace/.metadata/.plugins/com.ibm.rcp.bizcard/Cache/hmachado_br.ibm.com</photoUri>
+<name>Homem, Helvio De Castro Machado</name>
+<BusinessCardLinks>
+<Link enabled="true" label="Profiles" tooltip="" url="https://w3-connections.ibm.com/profiles/html/simpleSearch.do?searchFor=3a4decc0-773e-1029-92c2-882a644e52b4&amp;searchBy=userid"/>
+<Link enabled="true" label="Communities" tooltip="" url="https://w3-connections.ibm.com/communities/service/html/allcommunities?userid=3a4decc0-773e-1029-92c2-882a644e52b4"/>
+<Link enabled="true" label="Blogs" tooltip="" url="https://w3-connections.ibm.com/blogs/roller-ui/allblogs?userid=3a4decc0-773e-1029-92c2-882a644e52b4"/>
+<Link enabled="true" label="Forums" tooltip="" url="https://w3-connections.ibm.com/forums/html/search?userid=3a4decc0-773e-1029-92c2-882a644e52b4&amp;name=Homem%2C%20Helvio%20De%20Castro%20Machado"/>
+<Link enabled="true" label="Wikis" tooltip="" url="https://w3-connections.ibm.com/wikis/home/search?uid=3a4decc0-773e-1029-92c2-882a644e52b4&amp;name=Homem%2C%20Helvio%20De%20Castro%20Machado"/>
+<Link enabled="true" label="Files" tooltip="" url="https://w3-connections.ibm.com/files/app/person/3a4decc0-773e-1029-92c2-882a644e52b4"/>
+<Link enabled="true" label="Bookmarks" tooltip="" url="https://w3-connections.ibm.com/dogear/html?userid=3a4decc0-773e-1029-92c2-882a644e52b4"/>
+<Link enabled="true" label="Activities" tooltip="" url="https://w3-connections.ibm.com/activities/service/html/mainpage#dashboard%2Cmyactivities%2Cuserid%3D3a4decc0-773e-1029-92c2-882a644e52b4%2Cname%3DHomem%2C%20Helvio%20De%20Castro%20Machado"/>
+</BusinessCardLinks>
+<LastUpdated>1431517559117</LastUpdated>
+<actualtimezoneid>America/Sao_Paulo</actualtimezoneid>
+<timezoneid>-300</timezoneid>
+<postalCode>13044163</postalCode>
+<streetAddress>Rd J Fco Aguirre Proença Km 9 Sp101
+Chacara Assay
+Hortolandia, SP 13186-900
+Brazil</streetAddress>
+<title>IT Architect, Cloud Services, IBM Cloud</title>
+<tel>720-1056 / 55-19-2132-4396</tel>
+<email>hmachado@br.ibm.com</email>
+</BusinessCard>
