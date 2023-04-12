@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: 1.5.0 (IBM Corporation)
+
+Name: installhandler.jar
+SHA1-Digest: I6O+mmobnsXXZ8AXvUahESGP2N8=
+
+Name: feature.xml
+SHA1-Digest: a1V1JitTZllsi/vdo4M4Xfn9lJY=
+

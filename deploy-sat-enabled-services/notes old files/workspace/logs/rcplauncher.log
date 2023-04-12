@@ -1,0 +1,8 @@
+CWPNL0030I: rcplauncher wmain arguments="C:\notes\framework\rcp\rcplauncher.exe, -nosplash, -config, notes, -nl, en_US, -dir, ltr, -NPARAMS, /authenticate, =c:\notes\notes.ini, -RPARAMS, -vmargs, 
+CWPNL0303I: lock file captured @ 20151203_060443_249
+CWPNL0090E: Existing platform lock file found - checking validity.
+CWPNL0304I: We are main process
+
+CWPNL0021I: VM specified is "C:/notes/framework/../jvm/bin/"
+CWPNL0077I: loading jvm.properties at "C:/notes/framework/rcp/deploy/jvm.properties"
+CWPNL0306I: lock file released @ 20151203_060447_324

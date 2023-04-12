@@ -1,0 +1,103 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.0
+Created-By: 2.3 (IBM Corporation)
+
+Name: feature_cs.properties
+SHA1-Digest: ixkoUe5JWB8FL0dMsskrZkWVkNw=
+
+Name: feature_pl_tr.properties
+SHA1-Digest: 7lpgk2agkIUYMcQT9fUrxD+4Coo=
+
+Name: feature_zh_TW.properties
+SHA1-Digest: XXHeYzuDEhQGqvSBXzM49BycCm8=
+
+Name: feature_es.properties
+SHA1-Digest: HL4k+IF1MtzzvYGRegP+FJ1DV9E=
+
+Name: feature_fi.properties
+SHA1-Digest: doRIpl8CA7hKdN7EK6StN6dY59c=
+
+Name: feature_iw.properties
+SHA1-Digest: yppf2+wygE8AWsqzT9ayAwXhg6A=
+
+Name: feature_ja.properties
+SHA1-Digest: 6B8w2GxtymKoVN+6g599qW0w07w=
+
+Name: feature_tr.properties
+SHA1-Digest: VhI/0MGlOmWtjFpxQErgK5CSKPE=
+
+Name: feature_nl.properties
+SHA1-Digest: ppyQVTCUdlqdJYWGQvCBoteLI9g=
+
+Name: feature_no.properties
+SHA1-Digest: s8K+EgxUJYhcxhoheknglp6NE1M=
+
+Name: feature.properties
+SHA1-Digest: bpB+IcZnunsCrs5J3/Kufyfu4o4=
+
+Name: feature_fr.properties
+SHA1-Digest: kocnw4ldfq4A4p3ukoeSFNsAH8s=
+
+Name: feature_hu.properties
+SHA1-Digest: JbPSogbXzPjfgLnsVPDy3nQaDNk=
+
+Name: feature_da.properties
+SHA1-Digest: D9jouUBMs7DX2nlipuKTS7RJggA=
+
+Name: feature.xml
+SHA1-Digest: 32IyhsFKeAp1E9luVaGFFQh+P9o=
+
+Name: feature_it.properties
+SHA1-Digest: i5JBDAoarFjoFKLBVskiJqDcsQU=
+
+Name: feature_pl.properties
+SHA1-Digest: CTp9ujJDVieS41KjUwdKNZchpBs=
+
+Name: feature_pt_BR.properties
+SHA1-Digest: LKV9IDA8ql+vfB79RljNABTCav8=
+
+Name: feature_zh_CN.properties
+SHA1-Digest: eiCrYNyjBRudO8ZI2PWnsQtptv0=
+
+Name: feature_sv.properties
+SHA1-Digest: t8MPZR4Ck/j/FR7ZgC1idA+3Pgw=
+
+Name: feature_sk.properties
+SHA1-Digest: uxjtGMctbUH894OBKn5uEdsYMRs=
+
+Name: feature_ru.properties
+SHA1-Digest: h3epCeVJsUZ1wLqTtsWKD+6nXZQ=
+
+Name: feature_uk.properties
+SHA1-Digest: Lkagc3uTBpFQhHk7bOBAOF7Hbbc=
+
+Name: feature_th.properties
+SHA1-Digest: vv+bY6YYUNqL3exG0nJnALmesfw=
+
+Name: feature_pt.properties
+SHA1-Digest: 12nNzOK8RhvtD8WdAbUGuIxvdHg=
+
+Name: feature_ko.properties
+SHA1-Digest: yQv2RSeFFOLqI0zFIgl5/lPFzts=
+
+Name: feature_ar.properties
+SHA1-Digest: EwjLM0AR1/AZytVtAJZKABSzVmM=
+
+Name: feature_sl.properties
+SHA1-Digest: m2rYg2URnYN0QRtDqoC8j1qwbos=
+
+Name: license.html
+SHA1-Digest: J7qLeZ/FOP3U1PogEl1RRQC+LtU=
+
+Name: feature_el.properties
+SHA1-Digest: va+ab9rDa+t2wwB7dHtNAATvRM4=
+
+Name: feature_de.properties
+SHA1-Digest: X/bHn4jsftLVDywuj+wkrgHdVng=
+
+Name: feature_ro.properties
+SHA1-Digest: St1vC0sIe4YkdqEENfhlWhBdeGQ=
+
+Name: feature_ca.properties
+SHA1-Digest: 7gVC1F/gb8XIRwuRy18M9ucEWz0=
+

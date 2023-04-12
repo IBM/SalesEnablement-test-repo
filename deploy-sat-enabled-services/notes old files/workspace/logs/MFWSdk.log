@@ -1,0 +1,769 @@
+P:06264 T:1136 2014/09/03 14:56:52:085 [ Error] T-4520  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:06264 T:1136 2014/09/03 14:56:52:085 [ Error] T-4520  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:06264 T:1136 2014/09/04 13:43:55:686 [ Error] T-5972  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:06264 T:1136 2014/09/04 13:43:55:786 [ Error] T-9088  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:06264 T:1136 2014/09/04 13:43:55:786 [ Error] T-9088  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:06264 T:1136 2014/09/04 13:43:55:986 [ Error] T-9492  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:06264 T:1136 2014/09/04 13:43:55:986 [ Error] T-9492  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:06264 T:1136 2014/09/04 13:43:55:986 [ Error] T-9692  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:06264 T:1136 2014/09/04 13:43:55:986 [ Error] T-10852  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:06264 T:1136 2014/09/04 13:43:55:986 [ Error] T-10852  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:06264 T:1136 2014/09/04 13:43:56:086 [ Error] T-13040  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:06264 T:1136 2014/09/04 13:43:56:086 [ Error] T-13040  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:06264 T:1136 2014/09/04 13:43:56:086 [ Error] T-9472  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:06284 T:13920 2014/09/04 13:45:06:577 [ Error] T-8480  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:06284 T:13920 2014/09/04 13:45:06:578 [ Error] T-8480  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:08392 T:9200 2014/09/08 12:58:05:690 [ Error] T-3888  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08392 T:9200 2014/09/08 12:58:05:718 [ Error] T-3888  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:10108 T:7768 2014/09/08 13:11:10:637 [ Error] T-6588  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10108 T:7768 2014/09/08 13:11:10:637 [ Error] T-6588  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:10108 T:7768 2014/09/13 20:40:01:650 [ Error] T-10104  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:10108 T:7768 2014/09/13 20:40:01:750 [ Error] T-7112  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10108 T:7768 2014/09/13 20:40:01:750 [ Error] T-7112  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10108 T:7768 2014/09/13 20:40:01:950 [ Error] T-7924  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:10108 T:7768 2014/09/13 20:40:01:950 [ Error] T-7924  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10108 T:7768 2014/09/13 20:40:01:950 [ Error] T-7808  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:10108 T:7768 2014/09/13 20:40:02:050 [ Error] T-412  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10108 T:7768 2014/09/13 20:40:02:050 [ Error] T-412  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:01564 T:2036 2014/09/16 18:22:13:411 [ Error] T-7116  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:01564 T:2036 2014/09/16 18:22:13:411 [ Error] T-7116  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:01564 T:2036 2014/09/16 18:35:54:165 [ Error] T-10192  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:01564 T:2036 2014/09/16 23:13:33:629 [ Error] T-10192  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:01564 T:2036 2014/09/17 00:01:41:752 [ Error] T-10192  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:01564 T:2036 2014/09/18 03:01:27:845 [ Error] T-4012  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:01564 T:2036 2014/09/18 03:01:27:845 [ Error] T-8280  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:01564 T:2036 2014/09/18 03:01:27:845 [ Error] T-8280  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:01564 T:2036 2014/09/18 03:01:28:045 [ Error] T-2512  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:01564 T:2036 2014/09/18 03:01:28:045 [ Error] T-2512  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:01564 T:2036 2014/09/18 03:01:28:045 [ Error] T-10192  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:08832 T:5656 2014/09/22 07:20:58:723 [ Error] T-4824  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08832 T:5656 2014/09/22 07:20:58:729 [ Error] T-4824  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:08832 T:5656 2014/09/22 08:13:26:344 [ Error] T-6724  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08832 T:5656 2014/09/22 08:13:26:344 [ Error] T-6724  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08832 T:5656 2014/09/22 08:15:43:853 [ Error] T-6724  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08832 T:5656 2014/09/22 08:15:43:853 [ Error] T-6724  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08832 T:5656 2014/09/22 08:19:58:480 [ Error] T-6724  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08832 T:5656 2014/09/22 08:19:58:480 [ Error] T-6724  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08832 T:5656 2014/09/22 08:50:17:593 [ Error] T-6724  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08832 T:5656 2014/09/22 08:50:17:593 [ Error] T-6724  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08832 T:5656 2014/09/23 07:24:55:356 [ Error] T-8736  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:08832 T:5656 2014/09/23 07:24:55:456 [ Error] T-3568  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:08832 T:5656 2014/09/23 07:24:55:456 [ Error] T-3568  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08832 T:5656 2014/09/23 07:24:55:656 [ Error] T-1864  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:08832 T:5656 2014/09/23 07:24:55:656 [ Error] T-1864  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08832 T:5656 2014/09/23 07:24:55:656 [ Error] T-6724  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:08832 T:5656 2014/09/23 07:24:55:656 [ Error] T-7564  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:08832 T:5656 2014/09/23 07:24:55:656 [ Error] T-7564  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08832 T:5656 2014/09/23 07:24:55:756 [ Error] T-1980  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:08832 T:5656 2014/09/23 07:24:55:756 [ Error] T-1980  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08832 T:5656 2014/09/23 07:24:55:756 [ Error] T-7704  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:03260 T:8784 2014/09/23 07:42:54:507 [ Error] T-6972  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:03260 T:8784 2014/09/23 07:42:54:516 [ Error] T-6972  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09780 T:10152 2014/10/01 13:03:27:112 [ Error] T-6492  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09780 T:10152 2014/10/01 13:03:27:112 [ Error] T-6492  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09780 T:10152 2014/10/03 10:58:01:033 [ Error] T-13940  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:09780 T:10152 2014/10/03 10:58:01:033 [ Error] T-13044  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09780 T:10152 2014/10/03 10:58:01:033 [ Error] T-13044  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09780 T:10152 2014/10/03 10:58:01:233 [ Error] T-13064  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:09780 T:10152 2014/10/03 10:58:01:233 [ Error] T-13064  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09780 T:10152 2014/10/03 10:58:01:233 [ Error] T-2032  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:09780 T:10152 2014/10/03 10:58:01:333 [ Error] T-4748  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09780 T:10152 2014/10/03 10:58:01:333 [ Error] T-4748  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:01412 T:13724 2014/10/03 11:08:42:134 [ Error] T-12148  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:01412 T:13724 2014/10/03 11:08:42:135 [ Error] T-12148  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:01736 T:8676 2014/10/06 09:13:46:909 [ Error] T-9092  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:01736 T:8676 2014/10/06 09:13:46:909 [ Error] T-9092  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:01736 T:8676 2014/10/07 16:00:41:907 [ Error] T-4976  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:01736 T:8676 2014/10/07 16:00:41:907 [ Error] T-5940  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:01736 T:8676 2014/10/07 16:00:41:907 [ Error] T-5940  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:01736 T:8676 2014/10/07 16:00:42:107 [ Error] T-5304  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:01736 T:8676 2014/10/07 16:00:42:107 [ Error] T-5304  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:01736 T:8676 2014/10/07 16:00:42:107 [ Error] T-2008  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:01736 T:8676 2014/10/07 16:00:42:207 [ Error] T-6292  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:01736 T:8676 2014/10/07 16:00:42:207 [ Error] T-6292  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:01736 T:8676 2014/10/07 16:00:42:307 [ Error] T-5608  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:01736 T:8676 2014/10/07 16:00:42:307 [ Error] T-5608  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:01736 T:8676 2014/10/07 16:00:42:307 [ Error] T-8908  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:07424 T:9504 2014/10/07 16:02:59:341 [ Error] T-7532  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:07424 T:9504 2014/10/07 16:02:59:341 [ Error] T-7532  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:07424 T:9504 2014/10/08 10:24:22:755 [ Error] T-5436  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:07424 T:9504 2014/10/08 10:24:22:855 [ Error] T-1972  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:07424 T:9504 2014/10/08 10:24:22:855 [ Error] T-1972  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:07424 T:9504 2014/10/08 10:24:22:955 [ Error] T-9952  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:07424 T:9504 2014/10/08 10:24:22:955 [ Error] T-9952  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:07424 T:9504 2014/10/08 10:24:22:955 [ Error] T-9064  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:07424 T:9504 2014/10/08 10:24:23:055 [ Error] T-9068  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:07424 T:9504 2014/10/08 10:24:23:055 [ Error] T-9068  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:01428 T:8524 2014/10/08 10:29:16:600 [ Error] T-12168  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:01428 T:8524 2014/10/08 10:29:16:601 [ Error] T-12168  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:01428 T:8524 2014/10/10 09:29:43:635 [ Error] T-11880  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:01428 T:8524 2014/10/10 09:29:43:635 [ Error] T-10428  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:01428 T:8524 2014/10/10 09:29:43:635 [ Error] T-10428  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:01428 T:8524 2014/10/10 09:29:43:835 [ Error] T-10396  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:01428 T:8524 2014/10/10 09:29:43:835 [ Error] T-10396  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:01428 T:8524 2014/10/10 09:29:43:835 [ Error] T-9968  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:01428 T:8524 2014/10/10 09:29:43:835 [ Error] T-5780  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:01428 T:8524 2014/10/10 09:29:43:835 [ Error] T-5780  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:01428 T:8524 2014/10/10 09:29:43:935 [ Error] T-7440  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:01428 T:8524 2014/10/10 09:29:43:935 [ Error] T-7440  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:01428 T:8524 2014/10/10 09:29:43:935 [ Error] T-2132  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:09288 T:1268 2014/10/10 09:39:59:004 [ Error] T-4496  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09288 T:1268 2014/10/10 09:39:59:031 [ Error] T-4496  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09288 T:1268 2014/10/13 12:36:22:271 [ Error] T-8712  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:09288 T:1268 2014/10/13 12:36:22:371 [ Error] T-4748  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09288 T:1268 2014/10/13 12:36:22:371 [ Error] T-4748  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09288 T:1268 2014/10/13 12:36:22:571 [ Error] T-2448  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:09288 T:1268 2014/10/13 12:36:22:571 [ Error] T-2448  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09288 T:1268 2014/10/13 12:36:22:571 [ Error] T-6588  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:09288 T:1268 2014/10/13 12:36:22:571 [ Error] T-9200  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09288 T:1268 2014/10/13 12:36:22:571 [ Error] T-9200  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:13696 T:9620 2014/10/13 12:36:57:216 [ Error] T-11268  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:13696 T:9620 2014/10/13 12:36:57:217 [ Error] T-11268  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:13696 T:9620 2014/10/21 06:42:03:429 [ Error] T-6124  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:13696 T:9620 2014/10/21 06:42:03:429 [ Error] T-10980  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:13696 T:9620 2014/10/21 06:42:03:429 [ Error] T-10980  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:13696 T:9620 2014/10/21 06:42:03:629 [ Error] T-1500  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:13696 T:9620 2014/10/21 06:42:03:629 [ Error] T-1500  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:13696 T:9620 2014/10/21 06:42:03:629 [ Error] T-11552  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:13696 T:9620 2014/10/21 06:42:03:629 [ Error] T-3868  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:13696 T:9620 2014/10/21 06:42:03:629 [ Error] T-3868  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:13696 T:9620 2014/10/21 06:42:03:729 [ Error] T-8316  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:13696 T:9620 2014/10/21 06:42:03:729 [ Error] T-8316  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:13696 T:9620 2014/10/21 06:42:03:729 [ Error] T-13036  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:10092 T:5196 2014/10/21 06:51:25:283 [ Error] T-4412  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10092 T:5196 2014/10/21 06:51:25:283 [ Error] T-4412  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:10936 T:8856 2014/10/22 06:53:58:604 [ Error] T-1480  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10936 T:8856 2014/10/22 06:53:58:604 [ Error] T-1480  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:10936 T:8856 2014/10/23 08:13:43:083 [ Error] T-560  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:10936 T:8856 2014/10/23 15:06:34:854 [ Error] T-6992  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:10936 T:8856 2014/10/23 15:06:34:954 [ Error] T-4872  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10936 T:8856 2014/10/23 15:06:34:954 [ Error] T-4872  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10936 T:8856 2014/10/23 15:06:35:154 [ Error] T-10892  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:10936 T:8856 2014/10/23 15:06:35:154 [ Error] T-10892  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10936 T:8856 2014/10/23 15:06:35:154 [ Error] T-10760  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:10936 T:8856 2014/10/23 15:06:35:154 [ Error] T-10672  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10936 T:8856 2014/10/23 15:06:35:154 [ Error] T-10672  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10936 T:8856 2014/10/23 15:06:35:154 [ Error] T-9908  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10936 T:8856 2014/10/23 15:06:35:154 [ Error] T-9908  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10936 T:8856 2014/10/23 15:06:35:154 [ Error] T-10164  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:06200 T:8420 2014/10/23 15:21:48:355 [ Error] T-2352  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:06200 T:8420 2014/10/23 15:21:48:376 [ Error] T-2352  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:06200 T:8420 2014/10/24 06:46:44:199 [ Error] T-8296  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:06200 T:8420 2014/10/24 06:54:43:958 [ Error] T-3260  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:06200 T:8420 2014/10/24 06:54:44:058 [ Error] T-8284  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:06200 T:8420 2014/10/24 06:54:44:058 [ Error] T-8284  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:06200 T:8420 2014/10/24 06:54:44:258 [ Error] T-8288  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:06200 T:8420 2014/10/24 06:54:44:258 [ Error] T-8288  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:06200 T:8420 2014/10/24 06:54:44:258 [ Error] T-8296  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:06200 T:8420 2014/10/24 06:54:44:258 [ Error] T-9856  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:06200 T:8420 2014/10/24 06:54:44:258 [ Error] T-9856  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:06200 T:8420 2014/10/24 06:54:44:358 [ Error] T-8364  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:06200 T:8420 2014/10/24 06:54:44:358 [ Error] T-8364  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:06200 T:8420 2014/10/24 06:54:44:358 [ Error] T-8380  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:08572 T:6064 2014/10/24 07:01:00:158 [ Error] T-9684  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08572 T:6064 2014/10/24 07:01:00:178 [ Error] T-9684  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09272 T:6312 2014/10/29 07:13:29:252 [ Error] T-6044  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09272 T:6312 2014/10/29 07:13:29:281 [ Error] T-6044  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09796 T:10944 2014/10/29 07:48:32:457 [ Error] T-10744  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09796 T:10944 2014/10/29 07:48:32:457 [ Error] T-10744  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09796 T:10944 2014/10/29 15:02:17:790 [ Error] T-9788  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:09796 T:10944 2014/10/29 15:02:17:890 [ Error] T-11060  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09796 T:10944 2014/10/29 15:02:17:890 [ Error] T-11060  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09796 T:10944 2014/10/29 15:02:17:990 [ Error] T-11040  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:09796 T:10944 2014/10/29 15:02:17:990 [ Error] T-11040  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09796 T:10944 2014/10/29 15:02:17:990 [ Error] T-10960  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:10824 T:5112 2014/10/29 15:31:43:669 [ Error] T-10168  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10824 T:5112 2014/10/29 15:31:43:669 [ Error] T-10168  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09304 T:5896 2014/11/03 14:45:47:193 [ Error] T-2240  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09304 T:5896 2014/11/03 14:45:47:193 [ Error] T-2240  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09304 T:5896 2014/11/05 10:53:21:399 [ Error] T-9320  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:09304 T:5896 2014/11/05 10:53:21:499 [ Error] T-3684  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09304 T:5896 2014/11/05 10:53:21:499 [ Error] T-3684  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09304 T:5896 2014/11/05 10:53:21:699 [ Error] T-6212  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:09304 T:5896 2014/11/05 10:53:21:699 [ Error] T-6212  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09304 T:5896 2014/11/05 10:53:21:699 [ Error] T-4540  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:09304 T:5896 2014/11/05 10:53:21:699 [ Error] T-3428  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09304 T:5896 2014/11/05 10:53:21:699 [ Error] T-3428  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09304 T:5896 2014/11/05 10:53:21:799 [ Error] T-8456  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09304 T:5896 2014/11/05 10:53:21:799 [ Error] T-8456  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09304 T:5896 2014/11/05 10:53:21:799 [ Error] T-4424  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:10980 T:9232 2014/11/05 11:24:40:080 [ Error] T-9364  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10980 T:9232 2014/11/05 11:24:40:080 [ Error] T-9364  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:10980 T:9232 2014/11/07 05:55:43:103 [ Error] T-12720  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10980 T:9232 2014/11/17 17:05:34:481 [ Error] T-9212  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:10980 T:9232 2014/11/17 17:05:34:581 [ Error] T-6968  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10980 T:9232 2014/11/17 17:05:34:581 [ Error] T-6968  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10980 T:9232 2014/11/17 17:05:34:781 [ Error] T-3524  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:10980 T:9232 2014/11/17 17:05:34:781 [ Error] T-3524  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10980 T:9232 2014/11/17 17:05:34:781 [ Error] T-12720  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:10980 T:9232 2014/11/17 17:05:34:781 [ Error] T-6996  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10980 T:9232 2014/11/17 17:05:34:781 [ Error] T-6996  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10980 T:9232 2014/11/17 17:05:34:881 [ Error] T-11792  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10980 T:9232 2014/11/17 17:05:34:881 [ Error] T-11792  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10980 T:9232 2014/11/17 17:05:34:881 [ Error] T-4372  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:05512 T:8696 2014/11/17 17:17:13:096 [ Error] T-9748  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:05512 T:8696 2014/11/17 17:17:13:097 [ Error] T-9748  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09816 T:3420 2014/11/21 14:49:00:231 [ Error] T-7336  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09816 T:3420 2014/11/21 14:49:00:254 [ Error] T-7336  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09816 T:3420 2014/12/03 12:06:10:576 [ Error] T-9840  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:09816 T:3420 2014/12/03 12:06:10:676 [ Error] T-3460  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09816 T:3420 2014/12/03 12:06:10:676 [ Error] T-3460  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09816 T:3420 2014/12/03 12:06:10:876 [ Error] T-8676  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:09816 T:3420 2014/12/03 12:06:10:876 [ Error] T-8676  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09816 T:3420 2014/12/03 12:06:10:876 [ Error] T-9656  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:09816 T:3420 2014/12/03 12:06:10:876 [ Error] T-10080  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09816 T:3420 2014/12/03 12:06:10:876 [ Error] T-10080  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09444 T:5788 2014/12/03 12:25:23:776 [ Error] T-1832  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09444 T:5788 2014/12/03 12:25:23:777 [ Error] T-1832  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09444 T:5788 2014/12/13 19:18:23:758 [ Error] T-9716  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09444 T:5788 2014/12/13 19:18:23:758 [ Error] T-9716  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09444 T:5788 2014/12/18 15:47:44:286 [ Error] T-9452  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:09444 T:5788 2014/12/18 15:47:44:386 [ Error] T-9740  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09444 T:5788 2014/12/18 15:47:44:386 [ Error] T-9740  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09444 T:5788 2014/12/18 15:47:44:486 [ Error] T-9760  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:09444 T:5788 2014/12/18 15:47:44:486 [ Error] T-9760  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09444 T:5788 2014/12/18 15:47:44:486 [ Error] T-9716  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:09444 T:5788 2014/12/18 15:47:44:586 [ Error] T-7976  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09444 T:5788 2014/12/18 15:47:44:586 [ Error] T-7976  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10768 T:11632 2015/01/05 13:07:47:390 [ Error] T-12760  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10768 T:11632 2015/01/05 13:07:47:390 [ Error] T-12760  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:10768 T:11632 2015/01/09 07:35:00:000 [ Error] T-10908  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:10768 T:11632 2015/01/09 07:35:00:100 [ Error] T-13152  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10768 T:11632 2015/01/09 07:35:00:100 [ Error] T-13152  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10768 T:11632 2015/01/09 07:35:00:300 [ Error] T-6060  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:10768 T:11632 2015/01/09 07:35:00:300 [ Error] T-6060  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10768 T:11632 2015/01/09 07:35:00:300 [ Error] T-4552  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:10768 T:11632 2015/01/09 07:35:00:300 [ Error] T-1532  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10768 T:11632 2015/01/09 07:35:00:300 [ Error] T-1532  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10768 T:11632 2015/01/09 07:35:00:400 [ Error] T-9092  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10768 T:11632 2015/01/09 07:35:00:400 [ Error] T-9092  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10768 T:11632 2015/01/09 07:35:00:400 [ Error] T-9732  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:12896 T:13188 2015/01/09 07:36:36:786 [ Error] T-13356  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:12896 T:13188 2015/01/09 07:36:36:786 [ Error] T-13356  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09964 T:10652 2015/01/09 08:31:04:062 [ Error] T-8384  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09964 T:10652 2015/01/09 08:31:04:062 [ Error] T-8384  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:01548 T:2772 2015/01/15 07:44:14:749 [ Error] T-6028  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:01548 T:2772 2015/01/15 07:44:14:773 [ Error] T-6028  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:01548 T:2772 2015/01/22 12:25:40:090 [ Error] T-7324  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:01548 T:2772 2015/01/22 12:25:40:090 [ Error] T-4048  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:01548 T:2772 2015/01/22 12:25:40:090 [ Error] T-4048  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:01548 T:2772 2015/01/22 12:25:40:290 [ Error] T-9044  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:01548 T:2772 2015/01/22 12:25:40:290 [ Error] T-9044  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:01548 T:2772 2015/01/22 12:25:40:290 [ Error] T-9196  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:01548 T:2772 2015/01/22 12:25:40:390 [ Error] T-8856  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:01548 T:2772 2015/01/22 12:25:40:390 [ Error] T-8856  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09428 T:9368 2015/01/22 12:54:10:304 [ Error] T-9956  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09428 T:9368 2015/01/22 12:54:10:322 [ Error] T-9956  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09428 T:9368 2015/01/22 13:05:33:768 [ Error] T-9432  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:09428 T:9368 2015/01/22 13:05:33:768 [ Error] T-8248  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09428 T:9368 2015/01/22 13:05:33:768 [ Error] T-8248  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09428 T:9368 2015/01/22 13:05:33:968 [ Error] T-2108  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:09428 T:9368 2015/01/22 13:05:33:968 [ Error] T-2108  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09428 T:9368 2015/01/22 13:05:33:968 [ Error] T-10112  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:09428 T:9368 2015/01/22 13:05:33:968 [ Error] T-9904  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09428 T:9368 2015/01/22 13:05:33:968 [ Error] T-9904  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09428 T:9368 2015/01/22 13:05:34:068 [ Error] T-9912  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09428 T:9368 2015/01/22 13:05:34:068 [ Error] T-9912  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09428 T:9368 2015/01/22 13:05:34:068 [ Error] T-9436  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:10120 T:9192 2015/01/22 13:06:27:691 [ Error] T-9080  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10120 T:9192 2015/01/22 13:06:27:691 [ Error] T-9080  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:10120 T:9192 2015/01/26 09:23:30:563 [ Error] T-4708  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:10120 T:9192 2015/01/26 09:23:30:663 [ Error] T-7328  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10120 T:9192 2015/01/26 09:23:30:663 [ Error] T-7328  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10120 T:9192 2015/01/26 09:23:30:763 [ Error] T-8220  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:10120 T:9192 2015/01/26 09:23:30:763 [ Error] T-8220  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10120 T:9192 2015/01/26 09:23:30:763 [ Error] T-5280  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:10120 T:9192 2015/01/26 09:23:30:863 [ Error] T-2020  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10120 T:9192 2015/01/26 09:23:30:863 [ Error] T-2020  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10844 T:10504 2015/01/26 10:08:16:929 [ Error] T-9112  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10844 T:10504 2015/01/26 10:08:16:930 [ Error] T-9112  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:10844 T:10504 2015/01/30 13:39:21:874 [ Error] T-12004  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10844 T:10504 2015/01/30 13:39:21:974 [ Error] T-12004  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10844 T:10504 2015/01/30 13:39:28:974 [ Error] T-12004  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10844 T:10504 2015/01/30 13:39:29:074 [ Error] T-12004  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10844 T:10504 2015/02/04 16:31:32:041 [ Error] T-12004  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10844 T:10504 2015/02/04 16:31:38:942 [ Error] T-12004  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10844 T:10504 2015/02/04 16:31:38:942 [ Error] T-12004  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10844 T:10504 2015/02/04 16:36:54:665 [ Error] T-12004  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10844 T:10504 2015/02/04 16:36:54:765 [ Error] T-12004  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10844 T:10504 2015/02/04 16:37:05:966 [ Error] T-12004  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10844 T:10504 2015/02/04 16:37:05:966 [ Error] T-12004  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10844 T:10504 2015/02/09 14:55:20:580 [ Error] T-17900  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:13036 T:10680 2015/02/13 12:02:35:019 [ Error] T-13000  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:13036 T:10680 2015/02/13 12:02:35:019 [ Error] T-13000  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:13036 T:10680 2015/02/18 14:13:03:546 [ Error] T-17544  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:13036 T:10680 2015/02/18 14:13:03:553 [ Error] T-6596  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:13036 T:10680 2015/02/18 14:13:03:553 [ Error] T-6596  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:13036 T:10680 2015/02/18 14:13:03:753 [ Error] T-14088  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:13036 T:10680 2015/02/18 14:13:03:753 [ Error] T-14088  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:13036 T:10680 2015/02/18 14:13:03:753 [ Error] T-13744  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:13036 T:10680 2015/02/18 14:13:03:753 [ Error] T-13876  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:13036 T:10680 2015/02/18 14:13:03:753 [ Error] T-13876  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:13036 T:10680 2015/02/18 14:13:03:853 [ Error] T-19276  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:13036 T:10680 2015/02/18 14:13:03:853 [ Error] T-19276  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:13036 T:10680 2015/02/18 14:13:03:853 [ Error] T-3628  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:10156 T:8196 2015/02/18 15:39:44:069 [ Error] T-6132  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10156 T:8196 2015/02/18 15:39:44:069 [ Error] T-6132  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:10156 T:8196 2015/02/18 16:37:26:978 [ Error] T-7652  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10156 T:8196 2015/02/18 16:37:26:978 [ Error] T-7652  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10156 T:8196 2015/02/18 16:39:41:386 [ Error] T-10160  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:10156 T:8196 2015/02/18 16:39:41:386 [ Error] T-5812  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10156 T:8196 2015/02/18 16:39:41:386 [ Error] T-5812  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10156 T:8196 2015/02/18 16:39:41:586 [ Error] T-5632  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:10156 T:8196 2015/02/18 16:39:41:586 [ Error] T-5632  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10156 T:8196 2015/02/18 16:39:41:586 [ Error] T-7652  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:10156 T:8196 2015/02/18 16:39:41:686 [ Error] T-3752  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10156 T:8196 2015/02/18 16:39:41:686 [ Error] T-3752  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10156 T:8196 2015/02/18 16:39:41:786 [ Error] T-6672  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10156 T:8196 2015/02/18 16:39:41:786 [ Error] T-6672  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10156 T:8196 2015/02/18 16:39:41:786 [ Error] T-9044  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:08448 T:10544 2015/02/19 06:57:36:729 [ Error] T-10324  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08448 T:10544 2015/02/19 06:57:36:729 [ Error] T-10324  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:08448 T:10544 2015/02/19 06:59:21:693 [ Error] T-10480  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08448 T:10544 2015/02/19 06:59:21:693 [ Error] T-10480  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08448 T:10544 2015/02/19 07:06:56:942 [ Error] T-8452  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:08448 T:10544 2015/02/19 07:06:56:942 [ Error] T-10640  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:08448 T:10544 2015/02/19 07:06:56:942 [ Error] T-10640  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08448 T:10544 2015/02/19 07:06:57:142 [ Error] T-10520  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:08448 T:10544 2015/02/19 07:06:57:142 [ Error] T-10520  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08448 T:10544 2015/02/19 07:06:57:142 [ Error] T-10480  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:08448 T:10544 2015/02/19 07:06:57:242 [ Error] T-10420  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:08448 T:10544 2015/02/19 07:06:57:242 [ Error] T-10420  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08448 T:10544 2015/02/19 07:06:57:342 [ Error] T-10532  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:08448 T:10544 2015/02/19 07:06:57:342 [ Error] T-10532  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08448 T:10544 2015/02/19 07:06:57:342 [ Error] T-10528  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:10036 T:11120 2015/02/19 07:08:04:307 [ Error] T-9336  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10036 T:11120 2015/02/19 07:08:04:307 [ Error] T-9336  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:10036 T:11120 2015/02/19 08:43:39:356 [ Error] T-9752  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10036 T:11120 2015/02/19 08:43:39:356 [ Error] T-9752  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10036 T:11120 2015/02/26 15:23:04:091 [ Error] T-10016  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:10036 T:11120 2015/02/26 15:23:04:191 [ Error] T-1176  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10036 T:11120 2015/02/26 15:23:04:191 [ Error] T-1176  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10036 T:11120 2015/02/26 15:23:04:291 [ Error] T-8408  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:10036 T:11120 2015/02/26 15:23:04:291 [ Error] T-8408  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10036 T:11120 2015/02/26 15:23:04:291 [ Error] T-9752  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:10036 T:11120 2015/02/26 15:23:04:391 [ Error] T-11140  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10036 T:11120 2015/02/26 15:23:04:391 [ Error] T-11140  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10036 T:11120 2015/02/26 15:23:04:491 [ Error] T-9428  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10036 T:11120 2015/02/26 15:23:04:491 [ Error] T-9428  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10036 T:11120 2015/02/26 15:23:04:491 [ Error] T-7248  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:08220 T:9828 2015/02/27 07:21:30:997 [ Error] T-4548  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08220 T:9828 2015/02/27 07:21:31:006 [ Error] T-4548  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:08220 T:9828 2015/03/02 10:56:31:666 [ Error] T-4704  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:08220 T:9828 2015/03/02 10:56:31:666 [ Error] T-10308  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:08220 T:9828 2015/03/02 10:56:31:666 [ Error] T-10308  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08220 T:9828 2015/03/02 10:56:31:866 [ Error] T-10288  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:08220 T:9828 2015/03/02 10:56:31:866 [ Error] T-10288  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08220 T:9828 2015/03/02 10:56:31:866 [ Error] T-7124  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:08220 T:9828 2015/03/02 10:56:31:966 [ Error] T-10320  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:08220 T:9828 2015/03/02 10:56:31:966 [ Error] T-10320  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08220 T:9828 2015/03/02 10:56:32:066 [ Error] T-10300  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:08220 T:9828 2015/03/02 10:56:32:066 [ Error] T-10300  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08220 T:9828 2015/03/02 10:56:32:066 [ Error] T-10296  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:07844 T:9648 2015/03/02 11:27:55:076 [ Error] T-9356  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:07844 T:9648 2015/03/02 11:27:55:082 [ Error] T-9356  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:07844 T:9648 2015/03/05 07:08:47:862 [ Error] T-9632  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:07844 T:9648 2015/03/05 07:08:47:962 [ Error] T-9632  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08836 T:5408 2015/03/06 07:25:27:753 [ Error] T-1756  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08836 T:5408 2015/03/06 07:25:27:753 [ Error] T-1756  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:08836 T:5408 2015/03/10 19:09:15:561 [ Error] T-9612  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08836 T:5408 2015/03/16 11:32:03:855 [ Error] T-8840  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:08836 T:5408 2015/03/16 11:32:03:955 [ Error] T-4708  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:08836 T:5408 2015/03/16 11:32:03:955 [ Error] T-4708  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08836 T:5408 2015/03/16 11:32:04:155 [ Error] T-10120  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:08836 T:5408 2015/03/16 11:32:04:155 [ Error] T-10120  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08836 T:5408 2015/03/16 11:32:04:155 [ Error] T-9612  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:08836 T:5408 2015/03/16 11:32:04:155 [ Error] T-3244  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:08836 T:5408 2015/03/16 11:32:04:155 [ Error] T-3244  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10132 T:9744 2015/03/16 14:28:51:851 [ Error] T-4336  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10132 T:9744 2015/03/16 14:28:51:856 [ Error] T-4336  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:10132 T:9744 2015/03/17 07:12:08:525 [ Error] T-4720  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:07036 T:7604 2015/03/17 08:40:59:466 [ Error] T-5136  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:07036 T:7604 2015/03/17 08:40:59:472 [ Error] T-5136  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:07036 T:7604 2015/03/23 06:49:33:363 [ Error] T-7444  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:07036 T:7604 2015/03/26 12:38:23:461 [ Error] T-5540  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:07036 T:7604 2015/03/26 12:38:23:461 [ Error] T-10192  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:07036 T:7604 2015/03/26 12:38:23:461 [ Error] T-10192  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:07036 T:7604 2015/03/26 12:38:23:661 [ Error] T-2564  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:07036 T:7604 2015/03/26 12:38:23:661 [ Error] T-2564  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:07036 T:7604 2015/03/26 12:38:23:661 [ Error] T-7444  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:07036 T:7604 2015/03/26 12:38:23:761 [ Error] T-7104  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:07036 T:7604 2015/03/26 12:38:23:761 [ Error] T-7104  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:07036 T:7604 2015/03/26 12:38:23:861 [ Error] T-2012  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:07036 T:7604 2015/03/26 12:38:23:861 [ Error] T-2012  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:07036 T:7604 2015/03/26 12:38:23:861 [ Error] T-5428  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:07548 T:7964 2015/03/26 12:57:31:754 [ Error] T-1636  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:07548 T:7964 2015/03/26 12:57:31:770 [ Error] T-1636  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:07548 T:7964 2015/04/03 14:06:44:930 [ Error] T-4056  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:07548 T:7964 2015/04/03 14:06:45:030 [ Error] T-6612  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:07548 T:7964 2015/04/03 14:06:45:030 [ Error] T-6612  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:07548 T:7964 2015/04/03 14:06:45:130 [ Error] T-8416  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:07548 T:7964 2015/04/03 14:06:45:130 [ Error] T-8416  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:07548 T:7964 2015/04/03 14:06:45:130 [ Error] T-8688  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:07548 T:7964 2015/04/03 14:06:45:230 [ Error] T-1092  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:07548 T:7964 2015/04/03 14:06:45:230 [ Error] T-1092  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:02388 T:04184 2015/04/03 14:20:50:821 [ Error] T-12476  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:02388 T:04184 2015/04/03 14:20:50:821 [ Error] T-12476  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:02388 T:04184 2015/04/05 20:29:29:424 [ Error] T-14128  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08020 T:09384 2015/04/07 09:10:26:541 [ Error] T-2564  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08020 T:09384 2015/04/07 09:10:26:557 [ Error] T-2564  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:08020 T:09384 2015/04/07 12:22:50:504 [ Error] T-9944  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08020 T:09384 2015/04/07 12:22:50:504 [ Error] T-9944  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08020 T:09384 2015/04/09 06:32:43:145 [ Error] T-9944  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08020 T:09384 2015/04/09 06:32:43:145 [ Error] T-9944  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10016 T:10144 2015/04/09 09:57:05:818 [ Error] T-8340  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10016 T:10144 2015/04/09 09:57:05:818 [ Error] T-8340  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:04860 T:00776 2015/04/09 15:43:16:137 [ Error] T-9348  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:04860 T:00776 2015/04/09 15:43:16:158 [ Error] T-9348  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:08384 T:08824 2015/04/10 07:02:25:573 [ Error] T-6976  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08384 T:08824 2015/04/10 07:02:25:592 [ Error] T-6976  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:08384 T:08824 2015/04/12 15:16:04:334 [ Error] T-9348  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08384 T:08824 2015/04/12 15:16:04:334 [ Error] T-9348  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08384 T:08824 2015/04/13 07:25:04:739 [ Error] T-9348  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08384 T:08824 2015/04/13 07:25:04:739 [ Error] T-9348  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08384 T:08824 2015/04/13 07:25:54:641 [ Error] T-9348  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08384 T:08824 2015/04/13 07:25:54:641 [ Error] T-9348  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:06960 T:07412 2015/04/13 11:54:30:325 [ Error] T-10904  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:06960 T:07412 2015/04/13 11:54:30:325 [ Error] T-10904  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:06960 T:07412 2015/04/14 15:27:09:218 [ Error] T-9392  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:06960 T:07412 2015/04/14 15:27:09:218 [ Error] T-9104  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:06960 T:07412 2015/04/14 15:27:09:218 [ Error] T-9104  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:06960 T:07412 2015/04/14 15:27:09:418 [ Error] T-10704  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:06960 T:07412 2015/04/14 15:27:09:418 [ Error] T-10704  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:06960 T:07412 2015/04/14 15:27:09:418 [ Error] T-10460  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:06960 T:07412 2015/04/14 15:27:09:418 [ Error] T-5456  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:06960 T:07412 2015/04/14 15:27:09:418 [ Error] T-5456  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:06960 T:07412 2015/04/14 15:27:09:518 [ Error] T-10492  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:06960 T:07412 2015/04/14 15:27:09:518 [ Error] T-10492  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:06960 T:07412 2015/04/14 15:27:09:518 [ Error] T-4180  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:11092 T:12768 2015/04/14 15:28:49:351 [ Error] T-8928  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:11092 T:12768 2015/04/14 15:28:49:351 [ Error] T-8928  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:04228 T:05232 2015/04/15 14:27:13:972 [ Error] T-2676  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:04228 T:05232 2015/04/15 14:27:13:973 [ Error] T-2676  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:04228 T:05232 2015/04/17 14:18:56:418 [ Error] T-7860  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:04228 T:05232 2015/04/17 14:18:56:418 [ Error] T-7212  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:04228 T:05232 2015/04/17 14:18:56:418 [ Error] T-7212  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:04228 T:05232 2015/04/17 14:18:56:618 [ Error] T-9792  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:04228 T:05232 2015/04/17 14:18:56:618 [ Error] T-9792  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:04228 T:05232 2015/04/17 14:18:56:618 [ Error] T-10020  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:04228 T:05232 2015/04/17 14:18:56:618 [ Error] T-7480  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:04228 T:05232 2015/04/17 14:18:56:618 [ Error] T-7480  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:04228 T:05232 2015/04/17 14:18:56:718 [ Error] T-3864  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:04228 T:05232 2015/04/17 14:18:56:718 [ Error] T-3864  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:04228 T:05232 2015/04/17 14:18:56:718 [ Error] T-9824  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:10372 T:09332 2015/04/19 19:33:24:835 [ Error] T-11400  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10372 T:09332 2015/04/19 19:33:24:835 [ Error] T-11400  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:10372 T:09332 2015/04/19 19:46:53:419 [ Error] T-8264  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10372 T:09332 2015/04/19 20:49:40:610 [ Error] T-8264  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10372 T:09332 2015/04/19 20:49:40:610 [ Error] T-8264  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:07460 T:10108 2015/04/20 09:38:15:045 [ Error] T-6340  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:07460 T:10108 2015/04/20 09:38:15:054 [ Error] T-6340  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:07460 T:10108 2015/04/20 10:06:15:398 [ Error] T-8640  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:04788 T:08880 2015/04/21 08:18:09:157 [ Error] T-9032  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:04788 T:08880 2015/04/21 08:18:09:169 [ Error] T-9032  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:04788 T:08880 2015/04/30 09:49:21:614 [ Error] T-5668  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:04788 T:08880 2015/04/30 09:49:21:714 [ Error] T-9228  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:04788 T:08880 2015/04/30 09:49:21:714 [ Error] T-9228  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:04788 T:08880 2015/04/30 09:49:21:914 [ Error] T-10044  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:04788 T:08880 2015/04/30 09:49:21:914 [ Error] T-10044  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:04788 T:08880 2015/04/30 09:49:21:914 [ Error] T-3004  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:04788 T:08880 2015/04/30 09:49:21:914 [ Error] T-3240  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:04788 T:08880 2015/04/30 09:49:21:914 [ Error] T-3240  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:00776 T:04716 2015/05/01 08:11:54:671 [ Error] T-7268  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:00776 T:04716 2015/05/01 08:11:54:690 [ Error] T-7268  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09384 T:01992 2015/05/01 14:43:52:175 [ Error] T-8232  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09384 T:01992 2015/05/01 14:43:52:176 [ Error] T-8232  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:08824 T:06992 2015/05/04 09:21:00:411 [ Error] T-9192  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08824 T:06992 2015/05/04 09:21:00:554 [ Error] T-9192  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:11356 T:26064 2015/05/06 10:25:42:602 [ Error] T-7116  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:11356 T:26064 2015/05/06 10:25:42:602 [ Error] T-7116  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:11356 T:26064 2015/05/08 11:12:18:275 [ Error] T-13112  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:11356 T:26064 2015/05/08 11:12:18:375 [ Error] T-25788  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:11356 T:26064 2015/05/08 11:12:18:375 [ Error] T-25788  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:11356 T:26064 2015/05/08 11:12:18:475 [ Error] T-11940  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:11356 T:26064 2015/05/08 11:12:18:475 [ Error] T-11940  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:11356 T:26064 2015/05/08 11:12:18:475 [ Error] T-20124  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:11356 T:26064 2015/05/08 11:12:18:575 [ Error] T-14168  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:11356 T:26064 2015/05/08 11:12:18:575 [ Error] T-14168  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08160 T:08624 2015/05/11 06:49:05:297 [ Error] T-8680  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08160 T:08624 2015/05/11 06:49:05:297 [ Error] T-8680  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:08160 T:08624 2015/05/11 07:36:25:030 [ Error] T-9220  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08160 T:08624 2015/05/11 11:50:22:517 [ Error] T-9220  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08160 T:08624 2015/05/12 06:50:59:184 [ Error] T-9220  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08160 T:08624 2015/05/12 06:50:59:184 [ Error] T-9220  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08160 T:08624 2015/05/12 15:03:16:134 [ Error] T-6324  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:08160 T:08624 2015/05/12 15:03:16:134 [ Error] T-6096  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:08160 T:08624 2015/05/12 15:03:16:134 [ Error] T-6096  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08160 T:08624 2015/05/12 15:03:16:334 [ Error] T-4540  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:08160 T:08624 2015/05/12 15:03:16:334 [ Error] T-4540  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08160 T:08624 2015/05/12 15:03:16:334 [ Error] T-9220  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:08160 T:08624 2015/05/12 15:03:16:334 [ Error] T-6460  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:08160 T:08624 2015/05/12 15:03:16:334 [ Error] T-6460  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08160 T:08624 2015/05/12 15:03:16:434 [ Error] T-10192  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:08160 T:08624 2015/05/12 15:03:16:434 [ Error] T-10192  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08160 T:08624 2015/05/12 15:03:16:434 [ Error] T-5672  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:09060 T:11116 2015/05/13 06:45:42:358 [ Error] T-11540  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09060 T:11116 2015/05/13 06:45:42:358 [ Error] T-11540  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09060 T:11116 2015/05/13 06:48:55:572 [ Error] T-11896  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09060 T:11116 2015/05/13 06:48:55:572 [ Error] T-11896  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09060 T:11116 2015/05/14 07:07:08:641 [ Error] T-11896  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09060 T:11116 2015/05/14 07:09:11:554 [ Error] T-11896  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09060 T:11116 2015/05/14 12:19:06:659 [ Error] T-11896  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09060 T:11116 2015/05/18 06:51:24:719 [ Error] T-11896  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09060 T:11116 2015/05/18 06:51:24:719 [ Error] T-11896  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09060 T:11116 2015/05/20 07:27:56:306 [ Error] T-9844  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:09060 T:11116 2015/05/20 07:27:56:406 [ Error] T-7736  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09060 T:11116 2015/05/20 07:27:56:406 [ Error] T-7736  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09060 T:11116 2015/05/20 07:27:56:606 [ Error] T-12044  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:09060 T:11116 2015/05/20 07:27:56:606 [ Error] T-12044  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09060 T:11116 2015/05/20 07:27:56:606 [ Error] T-11896  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:09060 T:11116 2015/05/20 07:27:56:606 [ Error] T-6932  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09060 T:11116 2015/05/20 07:27:56:606 [ Error] T-6932  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09060 T:11116 2015/05/20 07:27:56:706 [ Error] T-9172  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09060 T:11116 2015/05/20 07:27:56:706 [ Error] T-9172  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09060 T:11116 2015/05/20 07:27:56:706 [ Error] T-11336  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:08204 T:07100 2015/05/20 07:47:13:748 [ Error] T-4756  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08204 T:07100 2015/05/20 07:47:13:758 [ Error] T-4756  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:08204 T:07100 2015/05/21 08:09:16:420 [ Error] T-9276  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:08204 T:07100 2015/05/21 08:09:16:520 [ Error] T-2232  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:08204 T:07100 2015/05/21 08:09:16:520 [ Error] T-2232  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08204 T:07100 2015/05/21 08:09:16:720 [ Error] T-8568  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:08204 T:07100 2015/05/21 08:09:16:720 [ Error] T-8568  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08204 T:07100 2015/05/21 08:09:16:720 [ Error] T-9552  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:08204 T:07100 2015/05/21 08:09:16:720 [ Error] T-7768  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:08204 T:07100 2015/05/21 08:09:16:720 [ Error] T-7768  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08204 T:07100 2015/05/21 08:09:16:820 [ Error] T-7776  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:08204 T:07100 2015/05/21 08:09:16:820 [ Error] T-7776  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08204 T:07100 2015/05/21 08:09:16:820 [ Error] T-7428  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:09908 T:09892 2015/05/21 08:54:00:630 [ Error] T-4480  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09908 T:09892 2015/05/21 08:54:00:658 [ Error] T-4480  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09908 T:09892 2015/05/25 06:37:03:142 [ Error] T-10228  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09908 T:09892 2015/05/26 09:19:46:812 [ Error] T-10228  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09908 T:09892 2015/05/27 09:45:22:840 [ Error] T-9912  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:09908 T:09892 2015/05/27 09:45:22:840 [ Error] T-5968  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09908 T:09892 2015/05/27 09:45:22:840 [ Error] T-5968  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09908 T:09892 2015/05/27 09:45:23:040 [ Error] T-4340  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:09908 T:09892 2015/05/27 09:45:23:040 [ Error] T-4340  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09908 T:09892 2015/05/27 09:45:23:040 [ Error] T-10228  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:09908 T:09892 2015/05/27 09:45:23:040 [ Error] T-6848  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09908 T:09892 2015/05/27 09:45:23:040 [ Error] T-6848  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09908 T:09892 2015/05/27 09:45:23:140 [ Error] T-10868  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:09908 T:09892 2015/05/27 09:45:23:140 [ Error] T-10868  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09908 T:09892 2015/05/27 09:45:23:140 [ Error] T-7400  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:08944 T:09104 2015/05/27 09:54:11:838 [ Error] T-9556  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08944 T:09104 2015/05/27 09:54:11:874 [ Error] T-9556  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:08944 T:09104 2015/05/27 10:16:10:477 [ Error] T-4748  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08944 T:09104 2015/05/27 10:59:16:823 [ Error] T-4748  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08944 T:09104 2015/06/01 07:17:04:473 [ Error] T-4748  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08944 T:09104 2015/06/01 07:17:04:582 [ Error] T-4748  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:08944 T:09104 2015/06/12 06:44:45:884 [ Error] T-1360  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:08944 T:09104 2015/06/12 06:44:45:890 [ Error] T-5572  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:08944 T:09104 2015/06/12 06:44:45:890 [ Error] T-5572  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08944 T:09104 2015/06/12 06:44:46:090 [ Error] T-6232  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:08944 T:09104 2015/06/12 06:44:46:090 [ Error] T-6232  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08944 T:09104 2015/06/12 06:44:46:090 [ Error] T-4748  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:08944 T:09104 2015/06/12 06:44:46:190 [ Error] T-9232  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:08944 T:09104 2015/06/12 06:44:46:190 [ Error] T-9232  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08944 T:09104 2015/06/12 06:44:46:290 [ Error] T-5744  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:08944 T:09104 2015/06/12 06:44:46:290 [ Error] T-5744  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:08944 T:09104 2015/06/12 06:44:46:290 [ Error] T-5968  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:16128 T:09528 2015/06/12 06:55:02:092 [ Error] T-16652  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:16128 T:09528 2015/06/12 06:55:02:092 [ Error] T-16652  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:16128 T:09528 2015/06/18 06:32:16:181 [ Error] T-12612  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:16128 T:09528 2015/06/18 06:32:16:281 [ Error] T-4008  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:16128 T:09528 2015/06/18 06:32:16:281 [ Error] T-4008  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10200 T:06716 2015/06/18 06:45:29:018 [ Error] T-9312  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10200 T:06716 2015/06/18 06:45:29:036 [ Error] T-9312  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:10188 T:06684 2015/06/24 07:05:53:325 [ Error] T-9572  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10188 T:06684 2015/06/24 07:05:53:353 [ Error] T-9572  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09432 T:02988 2015/06/26 06:57:07:628 [ Error] T-9172  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09432 T:02988 2015/06/26 06:57:07:628 [ Error] T-9172  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09432 T:02988 2015/07/01 06:50:01:742 [ Error] T-9436  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:09432 T:02988 2015/07/01 06:50:01:742 [ Error] T-8780  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09432 T:02988 2015/07/01 06:50:01:742 [ Error] T-8780  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09432 T:02988 2015/07/01 06:50:02:042 [ Error] T-9300  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:09432 T:02988 2015/07/01 06:50:02:042 [ Error] T-9300  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09432 T:02988 2015/07/01 06:50:02:042 [ Error] T-4048  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:09432 T:02988 2015/07/01 06:50:02:042 [ Error] T-1592  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09432 T:02988 2015/07/01 06:50:02:042 [ Error] T-1592  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09432 T:02988 2015/07/01 06:50:02:142 [ Error] T-7940  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09432 T:02988 2015/07/01 06:50:02:142 [ Error] T-7940  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09432 T:02988 2015/07/01 06:50:02:142 [ Error] T-3304  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:12204 T:12992 2015/07/01 08:19:47:045 [ Error] T-11800  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:12204 T:12992 2015/07/01 08:19:47:045 [ Error] T-11800  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:04844 T:13936 2015/07/06 07:36:05:070 [ Error] T-8724  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:04844 T:13936 2015/07/06 07:36:05:071 [ Error] T-8724  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09064 T:13072 2015/07/09 09:09:58:874 [ Error] T-1712  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09064 T:13072 2015/07/09 09:09:58:875 [ Error] T-1712  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:11652 T:09372 2015/08/31 07:31:15:480 [ Error] T-14728  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:11652 T:09372 2015/08/31 07:31:15:480 [ Error] T-14728  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:11652 T:09372 2015/09/01 09:03:49:815 [ Error] T-11840  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:11652 T:09372 2015/09/01 09:03:49:915 [ Error] T-6044  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:11652 T:09372 2015/09/01 09:03:49:915 [ Error] T-6044  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:11652 T:09372 2015/09/01 09:03:50:115 [ Error] T-14536  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:11652 T:09372 2015/09/01 09:03:50:115 [ Error] T-14536  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:11652 T:09372 2015/09/01 09:03:50:115 [ Error] T-4300  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:11652 T:09372 2015/09/01 09:03:50:115 [ Error] T-7352  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:11652 T:09372 2015/09/01 09:03:50:115 [ Error] T-7352  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:15972 T:14252 2015/09/01 09:06:04:306 [ Error] T-12356  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:15972 T:14252 2015/09/01 09:06:04:306 [ Error] T-12356  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:15972 T:14252 2015/09/04 14:05:35:363 [ Error] T-7956  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09604 T:10872 2015/09/09 13:12:53:976 [ Error] T-2308  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09604 T:10872 2015/09/09 13:12:53:986 [ Error] T-2308  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09604 T:10872 2015/09/11 14:36:05:080 [ Error] T-7280  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:09604 T:10872 2015/09/11 14:36:05:080 [ Error] T-10992  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09604 T:10872 2015/09/11 14:36:05:080 [ Error] T-10992  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09604 T:10872 2015/09/11 14:36:05:280 [ Error] T-10968  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:09604 T:10872 2015/09/11 14:36:05:280 [ Error] T-10968  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09604 T:10872 2015/09/11 14:36:05:280 [ Error] T-10888  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:09604 T:10872 2015/09/11 14:36:05:380 [ Error] T-11004  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09604 T:10872 2015/09/11 14:36:05:380 [ Error] T-11004  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09604 T:10872 2015/09/11 14:36:05:480 [ Error] T-10980  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09604 T:10872 2015/09/11 14:36:05:480 [ Error] T-10980  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09604 T:10872 2015/09/11 14:36:05:480 [ Error] T-10976  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:10288 T:03168 2015/09/14 07:56:02:791 [ Error] T-10140  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10288 T:03168 2015/09/14 07:56:02:791 [ Error] T-10140  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:10288 T:03168 2015/09/16 07:00:00:165 [ Error] T-11084  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:10288 T:03168 2015/09/16 07:00:00:265 [ Error] T-9896  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10288 T:03168 2015/09/16 07:00:00:265 [ Error] T-9896  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:05644 T:06632 2015/09/16 07:24:27:327 [ Error] T-3008  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:05644 T:06632 2015/09/16 07:24:27:332 [ Error] T-3008  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:05644 T:06632 2015/09/21 09:41:11:912 [ Error] T-7948  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:05644 T:06632 2015/09/21 09:41:11:912 [ Error] T-1456  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:05644 T:06632 2015/09/21 09:41:11:912 [ Error] T-1456  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:05644 T:06632 2015/09/21 09:41:12:112 [ Error] T-3412  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:05644 T:06632 2015/09/21 09:41:12:112 [ Error] T-3412  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:05644 T:06632 2015/09/21 09:41:12:112 [ Error] T-3940  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:05644 T:06632 2015/09/21 09:41:12:212 [ Error] T-6944  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:05644 T:06632 2015/09/21 09:41:12:212 [ Error] T-6944  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:12500 T:08672 2015/09/21 09:44:22:635 [ Error] T-6424  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:12500 T:08672 2015/09/21 09:44:22:635 [ Error] T-6424  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:12500 T:08672 2015/09/22 10:23:24:884 [ Error] T-12508  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:12500 T:08672 2015/09/25 06:59:22:905 [ Error] T-12508  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:12500 T:08672 2015/09/25 06:59:27:726 [ Error] T-12508  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:12500 T:08672 2015/09/25 06:59:27:726 [ Error] T-12508  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:12500 T:08672 2015/09/25 07:01:20:613 [ Error] T-12508  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:12500 T:08672 2015/09/25 07:01:20:713 [ Error] T-12508  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:04152 T:10024 2015/10/02 08:09:46:438 [ Error] T-9028  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:04152 T:10024 2015/10/02 08:09:46:438 [ Error] T-9028  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:04152 T:10024 2015/10/03 07:58:05:136 [ Error] T-4212  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:04152 T:10024 2015/10/12 06:18:58:606 [ Error] T-4212  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:04152 T:10024 2015/10/12 06:18:58:606 [ Error] T-4212  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:04152 T:10024 2015/10/14 08:37:12:272 [ Error] T-4336  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:04152 T:10024 2015/10/14 08:37:12:372 [ Error] T-9548  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:04152 T:10024 2015/10/14 08:37:12:372 [ Error] T-9548  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:04152 T:10024 2015/10/14 08:37:12:472 [ Error] T-9720  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:04152 T:10024 2015/10/14 08:37:12:472 [ Error] T-9720  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:04152 T:10024 2015/10/14 08:37:12:472 [ Error] T-4212  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:04152 T:10024 2015/10/14 08:37:12:572 [ Error] T-4828  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:04152 T:10024 2015/10/14 08:37:12:572 [ Error] T-4828  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:04152 T:10024 2015/10/14 08:37:12:672 [ Error] T-9044  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:04152 T:10024 2015/10/14 08:37:12:672 [ Error] T-9044  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:04152 T:10024 2015/10/14 08:37:12:672 [ Error] T-9336  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:07588 T:09636 2015/10/14 08:47:44:327 [ Error] T-8128  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:07588 T:09636 2015/10/14 08:47:44:328 [ Error] T-8128  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:07588 T:09636 2015/10/14 08:53:14:652 [ Error] T-852  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:07588 T:09636 2015/10/14 12:30:46:518 [ Error] T-852  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:07588 T:09636 2015/10/14 12:30:46:518 [ Error] T-852  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:07588 T:09636 2015/10/16 14:26:29:967 [ Error] T-7624  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:07588 T:09636 2015/10/16 14:26:29:967 [ Error] T-8496  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:07588 T:09636 2015/10/16 14:26:29:967 [ Error] T-8496  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:07588 T:09636 2015/10/16 14:26:30:167 [ Error] T-9644  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:07588 T:09636 2015/10/16 14:26:30:167 [ Error] T-9644  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:07588 T:09636 2015/10/16 14:26:30:167 [ Error] T-852  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:07588 T:09636 2015/10/16 14:26:30:267 [ Error] T-2312  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:07588 T:09636 2015/10/16 14:26:30:267 [ Error] T-2312  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:07588 T:09636 2015/10/16 14:26:30:367 [ Error] T-2876  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:07588 T:09636 2015/10/16 14:26:30:367 [ Error] T-2876  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:07588 T:09636 2015/10/16 14:26:30:367 [ Error] T-8492  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:16700 T:14540 2015/10/19 07:33:02:545 [ Error] T-7584  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:16700 T:14540 2015/10/19 07:33:02:545 [ Error] T-7584  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:16700 T:14540 2015/10/20 16:18:48:846 [ Error] T-804  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:16700 T:14540 2015/10/20 16:18:48:946 [ Error] T-7932  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:16700 T:14540 2015/10/20 16:18:48:946 [ Error] T-7932  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:16700 T:14540 2015/10/20 16:18:49:046 [ Error] T-6880  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:16700 T:14540 2015/10/20 16:18:49:046 [ Error] T-6880  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:16700 T:14540 2015/10/20 16:18:49:046 [ Error] T-9684  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:16700 T:14540 2015/10/20 16:18:49:146 [ Error] T-15040  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:16700 T:14540 2015/10/20 16:18:49:146 [ Error] T-15040  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09292 T:10892 2015/10/21 06:42:00:664 [ Error] T-10824  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09292 T:10892 2015/10/21 06:42:00:683 [ Error] T-10824  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09292 T:10892 2015/10/25 15:41:52:267 [ Error] T-9452  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:07192 T:00264 2015/10/30 08:32:23:561 [ Error] T-8216  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:07192 T:00264 2015/10/30 08:32:23:561 [ Error] T-8216  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:07192 T:00264 2015/11/02 09:11:50:676 [ Error] T-9576  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:07192 T:00264 2015/11/02 09:11:50:776 [ Error] T-10916  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:07192 T:00264 2015/11/02 09:11:50:776 [ Error] T-10916  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:07192 T:00264 2015/11/02 09:11:50:976 [ Error] T-6724  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:07192 T:00264 2015/11/02 09:11:50:976 [ Error] T-6724  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:07192 T:00264 2015/11/02 09:11:50:976 [ Error] T-10516  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:07192 T:00264 2015/11/02 09:11:50:976 [ Error] T-10192  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:07192 T:00264 2015/11/02 09:11:50:976 [ Error] T-10192  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:07192 T:00264 2015/11/02 09:11:51:076 [ Error] T-10276  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:07192 T:00264 2015/11/02 09:11:51:076 [ Error] T-10276  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:07192 T:00264 2015/11/02 09:11:51:076 [ Error] T-10612  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:10040 T:14040 2015/11/06 06:48:45:318 [ Error] T-13596  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10040 T:14040 2015/11/06 06:48:45:330 [ Error] T-13596  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:02312 T:10912 2015/11/06 09:01:52:858 [ Error] T-6468  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:02312 T:10912 2015/11/06 09:01:52:864 [ Error] T-6468  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:02312 T:10912 2015/11/11 20:58:34:044 [ Error] T-10200  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:02312 T:10912 2015/11/13 07:03:13:609 [ Error] T-10200  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:02312 T:10912 2015/11/13 07:03:13:709 [ Error] T-10200  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:02312 T:10912 2015/11/17 07:16:13:572 [ Error] T-9868  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:02312 T:10912 2015/11/17 07:16:13:590 [ Error] T-7616  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:02312 T:10912 2015/11/17 07:16:13:590 [ Error] T-7616  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:02312 T:10912 2015/11/17 07:16:13:790 [ Error] T-5368  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:02312 T:10912 2015/11/17 07:16:13:790 [ Error] T-5368  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:02312 T:10912 2015/11/17 07:16:13:790 [ Error] T-10200  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:02312 T:10912 2015/11/17 07:16:13:790 [ Error] T-11120  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:02312 T:10912 2015/11/17 07:16:13:790 [ Error] T-11120  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:02312 T:10912 2015/11/17 07:16:13:890 [ Error] T-8568  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:02312 T:10912 2015/11/17 07:16:13:890 [ Error] T-8568  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:02312 T:10912 2015/11/17 07:16:13:890 [ Error] T-8472  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:09916 T:08032 2015/11/17 07:40:09:361 [ Error] T-9240  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09916 T:08032 2015/11/17 07:40:09:375 [ Error] T-9240  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09916 T:08032 2015/11/24 19:41:42:716 [ Error] T-10112  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09916 T:08032 2015/11/24 21:27:34:984 [ Error] T-9892  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:09916 T:08032 2015/11/24 21:27:34:984 [ Error] T-9904  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09916 T:08032 2015/11/24 21:27:34:984 [ Error] T-9904  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09916 T:08032 2015/11/24 21:27:35:184 [ Error] T-3420  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:09916 T:08032 2015/11/24 21:27:35:184 [ Error] T-3420  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09916 T:08032 2015/11/24 21:27:35:184 [ Error] T-10112  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:09916 T:08032 2015/11/24 21:27:35:284 [ Error] T-8500  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09916 T:08032 2015/11/24 21:27:35:284 [ Error] T-8500  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:12396 T:12080 2015/11/30 06:45:28:024 [ Error] T-13960  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:12396 T:12080 2015/11/30 06:45:28:024 [ Error] T-13960  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:12396 T:12080 2015/11/30 16:15:10:984 [ Error] T-9956  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:12396 T:12080 2015/11/30 16:15:10:984 [ Error] T-3592  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:12396 T:12080 2015/11/30 16:15:10:984 [ Error] T-3592  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:12396 T:12080 2015/11/30 16:15:11:184 [ Error] T-9424  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:12396 T:12080 2015/11/30 16:15:11:184 [ Error] T-9424  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:12396 T:12080 2015/11/30 16:15:11:184 [ Error] T-13372  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:12396 T:12080 2015/11/30 16:15:11:184 [ Error] T-13512  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:12396 T:12080 2015/11/30 16:15:11:184 [ Error] T-13512  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:12396 T:12080 2015/11/30 16:15:11:284 [ Error] T-2912  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:12396 T:12080 2015/11/30 16:15:11:284 [ Error] T-2912  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:12396 T:12080 2015/11/30 16:15:11:284 [ Error] T-8864  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:03692 T:08412 2015/12/01 07:18:31:761 [ Error] T-2588  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:03692 T:08412 2015/12/01 07:18:31:776 [ Error] T-2588  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:10516 T:08112 2015/12/02 07:20:59:140 [ Error] T-10332  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:10516 T:08112 2015/12/02 07:20:59:140 [ Error] T-10332  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:10516 T:08112 2015/12/02 10:55:25:470 [ Error] T-9956  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:10516 T:08112 2015/12/02 10:55:25:470 [ Error] T-800  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:10516 T:08112 2015/12/02 10:55:25:470 [ Error] T-800  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10516 T:08112 2015/12/02 10:55:25:670 [ Error] T-1320  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:10516 T:08112 2015/12/02 10:55:25:670 [ Error] T-1320  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:10516 T:08112 2015/12/02 10:55:25:670 [ Error] T-11032  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:09664 T:9732 2015/12/02 13:08:10:949 [ Error] T-9640  MFWSdk  [FindDeviceInfo:33] FindDeviceInfo:Invalid device.
+P:09664 T:9732 2015/12/02 13:08:10:949 [ Error] T-9640  MFWSdk  [PLCM_MFW_SetAudioDevice:71] PLCM_MFW_SetAudioDevice[EXIT] Invalid audio output device,deviceId:.
+P:09664 T:9732 2015/12/02 13:51:11:865 [ Error] T-2752  MFWSdk  [PLCM_MFW_StopPlayAlert:332] MFW [EXIT] PLCM_MFW_StopPlayAlert exit with 0.
+P:09664 T:9732 2015/12/02 13:51:11:965 [ Error] T-3776  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09664 T:9732 2015/12/02 13:51:11:965 [ Error] T-3776  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09664 T:9732 2015/12/02 13:51:12:066 [ Error] T-6920  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10054.
+P:09664 T:9732 2015/12/02 13:51:12:066 [ Error] T-6920  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09664 T:9732 2015/12/02 13:51:12:066 [ Error] T-8936  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!
+P:09664 T:9732 2015/12/02 13:51:12:166 [ Error] T-8680  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09664 T:9732 2015/12/02 13:51:12:166 [ Error] T-8680  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09664 T:9732 2015/12/02 13:51:12:166 [ Error] T-4848  MFWSdk  [MediaFramework::RecvBytes:1254] Abnormal return, error code is 10038.
+P:09664 T:9732 2015/12/02 13:51:12:166 [ Error] T-4848  MFWSdk  [MediaFramework::RecieveLoop:864] Receive error (maybe remote side has closed the socket).
+P:09664 T:9732 2015/12/02 13:51:12:167 [ Error] T-632  MFWSdk  [MediaFramework::ReceiveDataMFSdk:1153] Receiving data should not be here!

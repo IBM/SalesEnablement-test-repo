@@ -1,0 +1,248 @@
+/* Copyright IBM Corp. 2014  All Rights Reserved.                    */
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+html {
+	overflow: visible;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	/*font-size: 62.5%;*/ /*gives 10px if base is 16px*/
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+
+button, a, input, table, tr, td {
+	border: 0;
+	color: inherit;
+	font: inherit;
+	line-height: normal;
+	margin: 0;
+	padding: 0;
+}
+
+input.text, input.text-disabled,
+.button-bg, .button-bg-disabled,
+button, button span,
+#meeting_id {
+	display: -o-inline-box;
+	display: -khtml-inline-box;
+	display: -ms-inline-box;
+	display: -moz-inline-box;
+	display: -webkit-inline-box;
+	display: inline-block;
+	#display: inline;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	#vertical-align: auto;
+	#zoom: 1;
+}
+
+
+a, input, h2, label, .button-bg, .button-bg-disabled, #meeting_id {
+	font-size: 1.2em;
+}
+
+a {
+	color: #2070E8;
+	cursor: pointer;
+	margin: 0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #B8B8B8;
+	text-decoration: none;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	-ms-interpolation-mode: nearest-neighbor;
+}
+
+.button-bg, .button-bg-disabled {
+	border: 0.1em solid #2060A8;
+	height: auto;	
+	position: relative;
+	width: auto;
+}
+.button-bg-disabled {
+	border-color: #909090;
+}
+
+.button-bg img, .button-bg-disabled img {
+	display: block;
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.button-bg img.fadinggray {
+	display: none;
+}
+
+.button-bg-disabled img.fadingblue {
+	display: none;
+}
+
+button, input.text, input.text-disabled {
+	font-weight: bold;
+}
+
+input.text, input.text-disabled {
+	padding: 0.40625em 0.25em;
+	#padding: 0.5399em 0.25em;
+}
+/* can not group the following rules into one, causes failure*/
+button::-khtml-focus-inner {
+    border: 0;
+    padding: 0;
+}
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+button::-ms-focus-inner {
+    border: 0;
+    padding: 0;
+}
+button::-o-focus-inner {
+    border: 0;
+    padding: 0;
+}
+button::-webkit-focus-inner {
+    border: 0;
+    padding: 0;
+}
+button::focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+button {
+	background-color: transparent;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 100%;
+	height: auto;
+	overflow: visible;
+	padding: 0.40625em 0.5em;
+	position: relative;
+	white-space: nowrap;
+	width: auto;
+	z-index: 1;
+}
+
+button.disabled {
+	color: #909090;
+	cursor: default;
+}
+
+fieldset {
+	border: 0 none;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: #2070E8;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin: 0 0 1em 0;
+}
+
+h2 {
+	color: inherit;
+	font-weight: bold;
+	margin: 0 0 0.5em 0;
+}
+input.text, input.text-disabled {
+	border: 0.1em solid #2060A8;
+	color: #000000;
+	margin: 0 0.25em 0 0;
+	width: 14em;
+}
+
+input.text-disabled {
+	border-color: #5898E8;
+	color: #B8B8B8;
+}
+
+#container {
+	padding: 1em;
+}
+
+#header {
+	margin-bottom: 1.5em;
+}
+
+#host_form {
+	margin-bottom: 1em;
+}
+
+#logo {
+	background: url(logo.jpg) no-repeat top left;
+	height: 44px;
+}
+
+#footer {
+	padding-left: 1em;
+}
+
+#content {
+}
+
+.form_group {
+	border: 0.1em solid #B8B8B8;
+	-khtml-border-radius: 0.8em;
+	-moz-border-radius: 0.8em;
+	-ms-border-radius: 0.8em;
+	-o-border-radius: 0.8em;
+	-webkit-border-radius: 0.8em;
+	border-radius: 0.8em;
+	padding: 2em 1em 2em 1em;
+	margin-bottom: 2em;
+}
+
+#meeting_id {
+	margin-left: 1.5em;
+	#vertical-align: center;
+	padding: 0.50625em 0;
+	white-space: nowrap;
+}
+
+.option-group {
+	margin: 0;
+	padding: 0 0 2em 0;
+}
+
+.option {
+	margin-bottom: 0.5em;
+}
+
+.option input, .option label {
+	vertical-align: middle;
+}
+
+.option label{
+	margin-left: 0.5em;
+}
+
+.option label span {
+	color: #888888;
+}

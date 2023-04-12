@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-Name: Portuguese(Portugal) Dictionary
+Created-By: 2.3 (IBM Corporation)
+Ant-Version: Apache Ant 1.7.0
+Bundle-Vendor: IBM
+Bundle-ManifestVersion: 2
+Fragment-Host: com.ibm.langware.v5;bundle-version="7.0.0"
+Bundle-SymbolicName: com.ibm.langware.v5.dic.pt_PT;singleton:=true
+Bundle-Version: 7.1.1.201006221804
+
+Name: copyright.txt
+SHA1-Digest: Zmyi+Kh+EXIivJ6Gex4MGwlwurg=
+
+Name: about.html
+SHA1-Digest: dQHlcrUJtjI1RzS9Vwqihw23FE0=
+
+Name: dictionaries/pt-PT-LSpell-7000.dic
+SHA1-Digest: vKiG2j8lRIpzxSr8oyTcHOoe4gI=
+
+Name: fragment.xml
+SHA1-Digest: LsbAxU/bB76ICfiPfG5nEa6rHNo=
+
