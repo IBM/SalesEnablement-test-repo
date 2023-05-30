@@ -17,7 +17,7 @@
     
     
       
-        <title>Clone GitHub repository - IBM Cloud Satellite Level 3</title>
+        <title>Setup GitHub repository - IBM Cloud Satellite Level 3</title>
       
     
     
@@ -96,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Clone GitHub repository
+              Setup GitHub repository
             
           </span>
         </div>
@@ -297,7 +297,7 @@
       
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Clone GitHub repository
+        Setup GitHub repository
       </a>
       
     </li>
@@ -570,9 +570,147 @@
                 
 
 
-  <h1>Clone GitHub repository</h1>
+  <h1>Setup GitHub repository</h1>
 
-
+<p>The steps below assume a working knowledge of GitHub. To complete the exercise, you can utilize either your public GitHub identification, or for IBM employees, your IBM Enterprise GitHub ID. The directions below are based on using your public GitHub identification. </p>
+<ol>
+<li>Log in to GitHub by opening a browser window to  <a href="https://github.com/login" target="_blank">https://github.com/login</a>.</li>
+</ol>
+<p><img alt="" src="_attachments/githubLogin.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you do not already have a GitHub user ID, you can create a free one by clicking the <strong>Create an account</strong> link on the sign in page.</p>
+</div>
+<ol start="2">
+<li>
+<p>Open a browser window to <a href="https://github.com/IBM/satellite-config-example" target="_blank">https://github.com/IBM/satellite-config-example</a>.</p>
+</li>
+<li>
+<p>Click the <strong>Fork</strong> button.</p>
+</li>
+</ol>
+<p><img alt="" src="_attachments/githubSampleRepo.png" /></p>
+<ol start="4">
+<li>Uncheck the <strong>Copy the main branch only</strong> checkbox and click <strong>Create fork</strong>.</li>
+</ol>
+<p><img alt="" src="_attachments/githubSampleRepoFork.png" /></p>
+<p>The browser should redirect to the new repository in your GitHub workspace.</p>
+<ol start="5">
+<li>Select the <strong>config-sample-dev</strong> branch in the <strong>branch</strong> pull-down menu.</li>
+</ol>
+<p><img alt="" src="_attachments/githubBranchPulldown.png" /></p>
+<ol start="6">
+<li>Click the <strong>deployments</strong> folder.</li>
+</ol>
+<p><img alt="" src="_attachments/githubDevBranch.png" /></p>
+<p>Next, update each of the four (4) YAML files with the namespace created specifically for you in the IBM Technology Zone (ITZ) environment. The namespace name can be found on the ITZ reservation page (see the example below) or in the e-mail sent by ITZ for the reservation. The value will be in the format "######ABCD-ns-se-l3". In the images below "2700039nft-ns-se-l3" is used, but <strong>you must use your specific value in order to successfully complete this exercise</strong>.</p>
+<details class="note">
+<summary>Why am I doing this?</summary>
+<p>Because the ITZ environment is shared by all users of this demonstration guide, a common namespace cannot be used or else users would overwrite each other and cause issues when attempting to follow the instructions. Each ITZ reservation sets up a unique namespace for each user. By changing this value in the deployment YAML files for the sample application, each user is able to deploy their own copy of the application in the OpenShift clusters managed by IBM Cloud Satellite.</p>
+</details>
+<p>Sample ITZ reservation page:</p>
+<p><img alt="" src="_attachments/itzReservationNamespace.png" /></p>
+<p>Sample ITZ e-mail:</p>
+<p><img alt="" src="_attachments/itzEmailNamespace.png" /></p>
+<ol start="7">
+<li>Click the <strong>1-helloworld-namespace.yaml</strong> file in the deployments directory.</li>
+</ol>
+<p><img alt="" src="_attachments/githubDevDeployments.png" /></p>
+<ol start="8">
+<li>Edit the file by clicking the <strong>pencil</strong> (<img alt="" src="_attachments/pencilIcon.png" />) icon.</li>
+</ol>
+<p><img alt="" src="_attachments/githubDevNamespaceYAML.png" /></p>
+<ol start="9">
+<li>Change the value of the <strong>name</strong> field to the name of your ITZ-created namespace and change the <strong>labels</strong> section as shown below.</li>
+</ol>
+<p><img alt="" src="_attachments/githubDevNamespaceYAML-Updated.png" /></p>
+<p>!!! warning "Do not use <strong>2700039nft-ns-se-l3</strong></p>
+<div class="highlight"><pre><span></span><code>You must use the namespace name created specifically for you as shown in your ITZ reservation!
+</code></pre></div>
+<p>Because the namespace is already created for you by the ITZ reservation, the <strong>deploy.razee.io/mode: "EnsureExists"</strong> label tells Satellite config to ignore this step if the namespace already exists.  </p>
+<ol start="10">
+<li>Click <strong>Commit changes...</strong>.</li>
+</ol>
+<p><img alt="" src="_attachments/githubDevNamespaceYAML-Commit.png" /></p>
+<ol start="11">
+<li>Update the <strong>Commit message</strong> text field with an appropriate message and then click the <strong>Commit changes</strong> button.</li>
+</ol>
+<p><img alt="" src="_attachments/githubDevNamespaceYAML-CommitMessage.png" /></p>
+<ol start="12">
+<li>Click <strong>deployments</strong> to navigate back to the list of YAML files.</li>
+</ol>
+<p><img alt="" src="_attachments/githubDevNamespaceYAML-Back.png" /></p>
+<p>Next, the other three (3) YAML files need to be updated. For each of these, only the <strong>namespace</strong> field needs to be updated. The next set of steps walk you through updating one of the files, but you must do it for all three files:</p>
+<ul>
+<li>2-helloworld-deployment.yaml</li>
+<li>3-helloworld-route.yaml</li>
+<li>4-helloworld-svc.yaml</li>
+</ul>
+<ol start="13">
+<li>Click the <strong>2-helloworld-deployment.yaml</strong> file name.</li>
+<li>Edit the file by clicking the <strong>pencil</strong> (<img alt="" src="_attachments/pencilIcon.png" />) icon. </li>
+<li>Change the <strong>namespace</strong> field from <strong>satellite-config-sample</strong> to your ITZ specific namespace name.</li>
+</ol>
+<p><img alt="" src="_attachments/githubHelloWorldDeploymentYAML-edited.png" /></p>
+<p>!!! warning "Do not use <strong>2700039nft-ns-se-l3</strong></p>
+<div class="highlight"><pre><span></span><code>You must use the namespace name created specifically for you as shown in your ITZ reservation!
+</code></pre></div>
+<ol start="16">
+<li>Click the <strong>Commit changes...</strong> button.</li>
+<li>Update the <strong>Commit message</strong> text field with an appropriate message and then click the <strong>Commit changes</strong> button.</li>
+<li>Click <strong>deployments</strong> to navigate back to the list of YAML files.</li>
+</ol>
+<p>Repeat steps 13-18 for each of the other 2 files in the <strong>deployments</strong> directory:</p>
+<ul>
+<li>3-helloworld-route.yaml</li>
+<li>4-helloworld-svc.yaml</li>
+</ul>
+<p>For this demonstration, 2 branches in GitHub are used: development (dev) and production (prod). The changes just made in the dev branch need to be made in the prod branch as well. This can be done manually using the steps above, or a pull request can be completed to copy all changes from the dev branch to the prod branch. This process will be used in the demonstration as well, so instead of manually making the changes, lets practice doing a pull request.</p>
+<ol start="19">
+<li>Click the <strong>Pull requests</strong> link at the top of the GitHub page.</li>
+</ol>
+<p><img alt="" src="_attachments/githubPRLabel.png" /></p>
+<ol start="20">
+<li>Click the <strong>New pull request</strong> button.</li>
+</ol>
+<p><img alt="" src="_attachments/githubNewPR.png" /></p>
+<ol start="21">
+<li>Change the <strong>base repository</strong> field from <strong>IBM/satellite-config-example</strong> to your GitHub fork of the repository.</li>
+</ol>
+<p><img alt="" src="_attachments/githubPRChangeBase.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Select <strong>your</strong> repository fork!!!</p>
+</div>
+<ol start="22">
+<li>Change the <strong>base</strong> field from <strong>main</strong> to <strong>config-sample-prod</strong> and the <strong>compare</strong> field from <strong>main</strong> to <strong>config-sample-dev</strong>.</li>
+</ol>
+<p><img alt="" src="_attachments/githubPRBaseAndCompare.png" /></p>
+<p>This will tell GitHub to pull all changes in the <strong>dev</strong> branch into the <strong>prod</strong> branch.</p>
+<ol start="23">
+<li>Verify the pull request can be merged, and click <strong>Create pull request</strong>.</li>
+</ol>
+<p><img alt="" src="_attachments/githubPRMergeOK.png" /></p>
+<ol start="24">
+<li>Enter a comment for the request and click <strong>Create pull request</strong>.</li>
+</ol>
+<p><img alt="" src="_attachments/githubPRMergeComment.png" /></p>
+<ol start="25">
+<li>Review the changes that are being made with the pull request and click <strong>Merge pull request</strong>.</li>
+</ol>
+<p><img alt="" src="_attachments/githubPRMergeReview.png" /></p>
+<ol start="26">
+<li>Click <strong>Confirm merge</strong> to perform the merging of the dev and prod branches.</li>
+</ol>
+<p><img alt="" src="_attachments/githubPRMergeConfirm.png" /></p>
+<p>Verify the changes in the <strong>prod</strong> branch.</p>
+<ol start="27">
+<li>Click the <strong>&lt;&gt; Code</strong> link and then change the <strong>branch</strong> pulldown menu to <strong>config-sample-prod</strong>.</li>
+</ol>
+<p><img alt="" src="_attachments/githubVerifyProd.png" /></p>
+<p>Notice the status above the table.  It should reflect the recent merge of the pull request. You can also view the changes to each file by clicking the <strong>deployments</strong> directory and viewing the individual YAML files.</p>
+<p><img alt="" src="_attachments/githubVerifyProdListing.png" /></p>
+<p>To summarize, at this point you have copied (forked) sample code from one GitHub repository to your a personal repository and updated the associated YAML files that will be used to deploy the sample application for both the dev and prod branches.  </p>
+<p>In the next section, ....</p>
 
 
 
