@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<alertsettings>
-<settings animate="slide" bringFront="true" closeAutomatically="true" corner="SE" duration="10" edgePadding="10" flashWindow="false" height="175" key="&lt;default&gt;" playSound="true" soundFile="audio/alert.wav" width="250" windowClass="com.ibm.collaboration.realtime.alertmanager.ICTAlertWindow" windowParent="com.ibm.collaboration.realtime.alertmanager" windowType="less"/>
-<settings animate="slide" bringFront="true" closeAutomatically="true" corner="SE" duration="10" edgePadding="10" flashWindow="true" height="175" key="/app/meetinginvitealert" playSound="true" soundFile="audio/alert.wav" width="325" windowClass="com.ibm.collaboration.realtime.alertmanager.ICTAlertWindow" windowParent="com.ibm.collaboration.realtime.alertmanager" windowType="standard"/>
-</alertsettings>

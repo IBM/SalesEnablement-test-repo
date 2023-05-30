@@ -1,2 +1,0 @@
-Tue Jul 14 07:59:33 CDT 2015
-Obsolete com.ibm.portal.cai plugin not present

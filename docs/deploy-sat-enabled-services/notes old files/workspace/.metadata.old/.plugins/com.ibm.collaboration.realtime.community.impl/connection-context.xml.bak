@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<connection-context>
-  <connection connectionType="direct" proxyHost="" proxyPort="" proxyResolvesLocally="false" proxyUserName="" tokenHostUrl="" transport=""/>
-</connection-context>

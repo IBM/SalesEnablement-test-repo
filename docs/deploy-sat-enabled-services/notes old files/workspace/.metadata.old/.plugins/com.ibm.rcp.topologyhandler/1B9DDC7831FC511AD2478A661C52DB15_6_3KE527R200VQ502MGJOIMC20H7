@@ -1,7 +1,0 @@
-#Map of context data for a perspective
-#Fri Jul 10 10:06:42 CDT 2015
-com.ibm.portal.app.input.name=NotesMailApps.xml
-com.ibm.portal.app.input.file=archive08092007.nsf
-applicationGUID=1B9DDC7831FC511AD2478A661C52DB15_1F_3KE527R200VQ502MGJOIMC2096
-requestUrl=nrpc\:/__862573320041B2B6/composite.xml?file\=archive08092007.nsf&name\=NotesMailApps.xml&caxmlts\=1406723846000
-com.ibm.portal.app.input.caxmlts=1406723846000

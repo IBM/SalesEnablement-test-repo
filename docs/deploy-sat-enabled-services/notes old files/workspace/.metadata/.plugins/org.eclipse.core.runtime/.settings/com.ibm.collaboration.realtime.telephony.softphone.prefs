@@ -1,7 +1,0 @@
-#Wed Dec 02 13:51:12 CST 2015
-media.session.audio.codecs.sut=ISAC iLBC G729 G7221-32 G7221-24 G7221-16 PCMU PCMA telephone-event
-suppress.failed.sip.registration=true
-eclipse.preferences.version=1
-sip.register.instance.id=886c41bf-6b9e-4065-bd25-a4bfd595dde0
-incoming.call.timeout=10
-community.policies.enabled=true

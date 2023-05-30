@@ -1,8 +1,0 @@
-#Map of context data for a perspective
-#Thu Dec 03 06:04:54 CST 2015
-com.ibm.portal.app.input.name=NotesMailApps.xml
-com.ibm.portal.app.input.file=andrewj.nsf
-applicationGUID=E3C3F57F211E78905CE3E0B477694B16_1F_3KE527R200VQ502MGJOIMC2096
-requestUrl=nrpc\:/__862565B500605475/composite.xml?file\=andrewj.nsf&name\=NotesMailApps.xml&caxmlts\=1435754184000&launchUrl\=Notes%3A%2F%2F%2F862565B500605475%2FCalendarFS%3FOpenFrameset%26or1flg%3D289%26or2flg%3D3145728%26hashId%3DE3C3F57F211E78905CE3E0B477694B16
-com.ibm.portal.app.input.launchUrl=Notes\:///862565B500605475/CalendarFS?OpenFrameset&or1flg\=289&or2flg\=3145728&hashId\=E3C3F57F211E78905CE3E0B477694B16
-com.ibm.portal.app.input.caxmlts=1435754184000

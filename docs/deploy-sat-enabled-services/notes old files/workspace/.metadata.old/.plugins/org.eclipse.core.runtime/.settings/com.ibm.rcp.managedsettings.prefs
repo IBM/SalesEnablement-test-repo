@@ -1,8 +1,0 @@
-#Sat May 11 23:18:30 EDT 2013
-com.ibm.rcp.managedsettings.provider.file-weight=300
-eclipse.preferences.version=1
-com.ibm.rcp.managedsettings.provider.portal-weight=200
-com.ibm.notes.managedsettings.provider.PolicyProvider-weight=100
-UpdateIntervalInMins=720
-com.ibm.notes.managedsettings.provider.ServerConfigProvider-weight=101
-com.ibm.collaboration.realtime.policy.sametime.managedsettings.ManagedSettingsPolicyProvider-weight=10

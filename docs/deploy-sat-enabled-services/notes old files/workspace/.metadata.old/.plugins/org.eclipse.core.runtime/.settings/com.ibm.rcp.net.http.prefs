@@ -1,8 +1,0 @@
-#Wed Oct 02 19:33:23 CDT 2013
-http.IsSecureProxy=false
-http.ProxyPort=8080
-http.manualProxyEnabled=false
-eclipse.preferences.version=1
-http.browserSettingsEnabled=true
-http.ProxyHost=
-http.nonProxyHosts=

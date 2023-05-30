@@ -1,4 +1,0 @@
-
- 07/05/2014  09:54:01:262 : PID:=11496 :  FINEST :: Browser.h :: CBrowser::GetExtent#1353   :: Mesg=Replying to IEOOP_HWND_ID query: 0x507b0 
- 07/05/2014  09:55:11:792 : PID:=11496 :  FINE :: Browser.h :: CBrowser::CBrowser#159   :: Mesg=this=02807E98, instanceCount=2, IEVersion=-108 
- 07/05/2014  09:55:11:801 : PID:=11496 :  FINEST :: Browser.h :: CBrowser::GetExtent#1353   :: Mesg=Replying to IEOOP_HWND_ID query: 0x507b0 
