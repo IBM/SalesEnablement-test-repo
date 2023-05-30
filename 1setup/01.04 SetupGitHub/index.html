@@ -621,12 +621,13 @@
 </ol>
 <p><img alt="" src="../_attachments/githubDevNamespaceYAML.png" /></p>
 <ol start="9">
-<li>Change the value of the <strong>name</strong> field to the name of your ITZ-created namespace and change the <strong>labels</strong> section as shown below.</li>
+<li>Change the value of the <strong>name</strong> field to the name of your ITZ-created namespace, remove the <strong>name: satellite-config-sample</strong> line under the <strong>labels</strong> section, and add the line <strong>deploy.razee.io/mode: "EnsureExists"</strong> under the <strong>labels</strong> section as shown below.</li>
 </ol>
 <p><img alt="" src="../_attachments/githubDevNamespaceYAML-Updated.png" /></p>
-<p>!!! warning "Do not use <strong>2700039nft-ns-se-l3</strong></p>
-<div class="highlight"><pre><span></span><code>You must use the namespace name created specifically for you as shown in your ITZ reservation!
-</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Formatting in YAML is important</p>
+<p>The YAML language is very sensitive to formatting. Make sure each line aligns as illustrated in the image above. Use spaces and not tabs (2 spaces before <strong>name:</strong> and <strong>labels:</strong> and 4 spaces before <strong>deploy.razee.io/mode:</strong>).</p>
+</div>
 <p>Because the namespace is already created for you by the ITZ reservation, the <strong>deploy.razee.io/mode: "EnsureExists"</strong> label tells Satellite config to ignore this step if the namespace already exists.  </p>
 <ol start="10">
 <li>Click <strong>Commit changes...</strong>.</li>
@@ -652,9 +653,10 @@
 <li>Change the <strong>namespace</strong> field from <strong>satellite-config-sample</strong> to your ITZ specific namespace name.</li>
 </ol>
 <p><img alt="" src="../_attachments/githubHelloWorldDeploymentYAML-edited.png" /></p>
-<p>!!! warning "Do not use <strong>2700039nft-ns-se-l3</strong></p>
-<div class="highlight"><pre><span></span><code>You must use the namespace name created specifically for you as shown in your ITZ reservation!
-</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Do not use <strong>2700039nft-ns-se-l3</strong></p>
+<p>You must use the namespace name created specifically for you as shown in your ITZ reservation!</p>
+</div>
 <ol start="16">
 <li>Click the <strong>Commit changes...</strong> button.</li>
 <li>Update the <strong>Commit message</strong> text field with an appropriate message and then click the <strong>Commit changes</strong> button.</li>
@@ -677,14 +679,14 @@
 <ol start="21">
 <li>Change the <strong>base repository</strong> field from <strong>IBM/satellite-config-example</strong> to your GitHub fork of the repository.</li>
 </ol>
-<p><img alt="" src="_attachments/githubPRChangeBase.png" /></p>
+<p><img alt="" src="../_attachments/githubPRChangeBase.png" /></p>
 <div class="admonition warning">
 <p class="admonition-title">Select <strong>your</strong> repository fork!!!</p>
 </div>
 <ol start="22">
 <li>Change the <strong>base</strong> field from <strong>main</strong> to <strong>config-sample-prod</strong> and the <strong>compare</strong> field from <strong>main</strong> to <strong>config-sample-dev</strong>.</li>
 </ol>
-<p><img alt="" src="_attachments/githubPRBaseAndCompare.png" /></p>
+<p><img alt="" src="../_attachments/githubPRBaseAndCompare.png" /></p>
 <p>This will tell GitHub to pull all changes in the <strong>dev</strong> branch into the <strong>prod</strong> branch.</p>
 <ol start="23">
 <li>Verify the pull request can be merged, and click <strong>Create pull request</strong>.</li>
@@ -697,7 +699,7 @@
 <ol start="25">
 <li>Review the changes that are being made with the pull request and click <strong>Merge pull request</strong>.</li>
 </ol>
-<p><img alt="" src="_attachments/githubPRMergeReview.png" /></p>
+<p><img alt="" src="../_attachments/githubPRMergeReview.png" /></p>
 <ol start="26">
 <li>Click <strong>Confirm merge</strong> to perform the merging of the dev and prod branches.</li>
 </ol>
