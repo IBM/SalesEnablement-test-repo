@@ -17,7 +17,7 @@ nav:
     - 'The environment' : '1setup/01.01 Introduction.md'
     - 'Pre-requisites' : '1setup/01.02 Pre-requisites.md'
     - 'Create environment reservation' : '1setup/01.03 CreateReservation.md'
-    - 'Clone GitHub repository' : '1setup/01.04 CloneGitHub.md'
+    - 'Setup GitHub repository' : '1setup/01.04 SetupGitHub.md'
   - Part 2 - Provisioning and configuring IBM Cloud Satellite:
     - 'Locations': '2provisioning/02.01 Locations.md'
     - 'Satellite-enabled services' : '2provisioning/02.02 Services.md'
