@@ -27,8 +27,8 @@ nav:
     - 'Deploy a web app using GitHub and Sat Config' : '3config/03.02 GitHubConfig.md'
   - Part 4 - The demonstration:
     - 'Introduction' : '4demo/04.01 Introduction.md'
-    - 'General demonstration' : '4demo/04.02 GeneralDemo.md'
-    - 'Deploying applications from GitHub' : '4demo/04.03 DeployDemo.md'
+    - 'High level demonstration of IBM Cloud Satellite' : '4demo/04.02 GeneralDemo.md'
+    - 'Sat Config demonstration' : '4demo/04.03 DeployDemo.md'
   - Next Steps: NextSteps.md
 
 
