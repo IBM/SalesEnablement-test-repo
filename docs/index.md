@@ -20,6 +20,10 @@ There are 4 parts to this demonstration guide as seen in the left hand navigatio
 
 Some content will be a labeled as **Required for technical sales only**. However, individuals in sales roles are highly encouraged to complete these sections and include them in their demonstrations. Step-by-steps directions are provided, but some technical knowledge and experience with source control systems like GitHub and basic Yet Another Markup Language (YAML) is assumed.
 
+!!! important "Important"
+
+    Note: all images and videos used in this demonstration guide were created in June 2023. There may be differences between these images and videos than the current IBM Cloud Portal, Red Hat OpenShift web console, and other user interfaces shown.
+
 ## Helpful tips for using this demonstration environment
 
 Throughout the lab, you will see images that are examples of what you should be seeing in the IBM Cloud Portal, Red Hat OpenShift web console, and other web pages and tools used in this guide. The following styles of highlighting is used:
