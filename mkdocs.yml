@@ -22,9 +22,9 @@ nav:
     - 'Satellite-enabled services' : '2provisioning/02.02 Services.md'
     - 'Link endpoints' : '2provisioning/02.03 LinkEndpoints.md'
   - Part 3 - Satellite Config:
-    - 'Introduction and terminology' : '3config/03.01 IntroAndTerms.md'
+    - 'What is Sat Config' : '3config/03.01 IntroAndTerms.md'
     - 'Setup GitHub repository' : '3config/03.02 SetupGitHub.md'
-    - 'Deploy a web app using GitHub and Sat Config' : '3config/03.03 GitHubConfig.md'
+    - 'Deploy a web app using Sat Config' : '3config/03.03 GitHubConfig.md'
   - Part 4 - The demonstration:
     - 'Introduction' : '4demo/04.01 Introduction.md'
     - 'High level demonstration of IBM Cloud Satellite' : '4demo/04.02 GeneralDemo.md'
