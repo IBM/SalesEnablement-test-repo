@@ -1,17 +1,56 @@
-# Welcome to MkDocs
+Welcome to the IBM Cloud Satellite Technology Sales Enablement Level 3 demonstration guide. The goal of this demonstration guide is to provide IBM and Business Partner Sales and Technical Sales the knowledge and tools to perform introductory demonstrations of IBM Cloud Satellite.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+There are 4 parts to this demonstration guide as seen in the left hand navigation:
 
-## Commands
+ - Part 1 - Setup
+   
+   Learn about the environment that will be utilized for this learning activity, the prerequisites required, how to create a reservation for the environment in IBM Technology Zone (ITZ), and how to setup the GitHub repository that is needed to complete the activity.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+ - Part 2 - Provisioning and configuring IBM Cloud Satellite
 
-## Project layout
+   Learn about the provisioning process for IBM Cloud Satellite *Location*, Satellite-enabled *Services*, and *Link endpoints*. Note, in this activity a new IBM Cloud Satellite Location will NOT be provisioned. Rather, a shared, pre-provisioned Satellite Location and cloud-enabled service (Red Hat OpenShift on IBM Cloud) will be utilized. Videos are provided that demonstrate the provisioning processes for these resources.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+ - Part 3 - Using Satellite Config
+
+   Learn about Satellite *Config* and how it is used to deploy Kubernetes resources to RedHat OpenShift clusters maintained in a GitHub repository.
+
+ - Part 4 - The demonstration
+
+   In the final section, learn how to demonstrate to client's some of the value of IBM Cloud Satellite. Guidance on performing a client demonstration using the shared ITZ environment is provided that illustrates how IBM Cloud Satellite and cloud-enabled services are provisioned, and how Sat Config can be used to deploy and manage Kubernetes applications.
+
+Some content will be a labeled as **Required for technical sales only**. However, individuals in sales roles are highly encouraged to complete these sections and include them in their demonstrations. Step-by-steps directions are provided, but some technical knowledge and experience with source control systems like GitHub and basic Yet Another Markup Language (YAML) is assumed.
+
+## Helpful tips for using this demonstration environment
+
+Throughout the lab, you will see images that are examples of what you should be seeing in the IBM Cloud Portal, Red Hat OpenShift web console, and other web pages and tools used in this guide. The following styles of highlighting is used:
+
+- Action highlight box: Illustrates where to click,  enter, or select an item:
+
+![](_attachments/ClickActionRectangle.png)
+
+- Path/explore highlight box: Illustrates one of two things:
+
+    - the path to follow to get to a specific location in the user interface
+    - areas to explore
+
+![](_attachments/PathExploreHighlight.png)
+
+- Copy to clipboard box: Text that is copied to local clipboard. Click the copy icon (highlighted below) and then paste using local operating systems paste function, for example, entering ++ctrl++**+v**, ++cmd++**+v**, or right click and select paste.
+
+![](_attachments/Usage-Clipboard.png)
+
+<!-- Additionally, there are several "click-thru" demonstrations.  Links to click-thru demonstrations will open in a new browser window or tab with a screen similar to the image below.
+
+![](_attachments/ClickThruStartPage.png)
+
+Click the play button ![](_attachments/ClickThruPlayButton.png) in the middle of the screen to start the demo. Then, simply follow the steps in the demonstration guide. If at any point you are unsure where to click, click anywhere on the screen and a highlight box will appear showing where to click next. -->
+
+## Acronyms
+
+The following acronyms are used throughout this demonstration guide:
+
+
+    - cmd - The command key on your keyboard
+    - ctrl - The control key on your keyboard
+    - ITZ - IBM Technology Zone
+    - YAML - Yet Another Markup Language
