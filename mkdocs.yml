@@ -17,14 +17,14 @@ nav:
     - 'The environment' : '1setup/01.01 Introduction.md'
     - 'Pre-requisites' : '1setup/01.02 Pre-requisites.md'
     - 'Create environment reservation' : '1setup/01.03 CreateReservation.md'
-    - 'Setup GitHub repository' : '1setup/01.04 SetupGitHub.md'
   - Part 2 - Provisioning and configuring IBM Cloud Satellite:
     - 'Locations': '2provisioning/02.01 Locations.md'
     - 'Satellite-enabled services' : '2provisioning/02.02 Services.md'
     - 'Link endpoints' : '2provisioning/02.03 LinkEndpoints.md'
   - Part 3 - Satellite Config:
     - 'Introduction and terminology' : '3config/03.01 IntroAndTerms.md'
-    - 'Deploy a web app using GitHub and Sat Config' : '3config/03.02 GitHubConfig.md'
+    - 'Setup GitHub repository' : '1setup/03.02 SetupGitHub.md'
+    - 'Deploy a web app using GitHub and Sat Config' : '3config/03.03 GitHubConfig.md'
   - Part 4 - The demonstration:
     - 'Introduction' : '4demo/04.01 Introduction.md'
     - 'High level demonstration of IBM Cloud Satellite' : '4demo/04.02 GeneralDemo.md'
