@@ -67,6 +67,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#provisioning-a-location-in-3rd-party-cloud-provider" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -205,7 +210,7 @@
   
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
-        Home
+        Overview
       </a>
     </li>
   
@@ -342,6 +347,8 @@
       
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
+      
+        
       
       
       <a href="./" class="md-nav__link md-nav__link--active">
@@ -557,6 +564,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -570,9 +579,74 @@
                 
 
 
-  <h1>Locations</h1>
-
-
+<p>The first step to utilize IBM Cloud Satellite is to create a <strong>Location</strong>. A Location is a representation of an environment in a client's choice of infrastructure, such as an on-premises data center or public cloud. Below is a high-level architectural view of a Satellite Location.</p>
+<p><img alt="" src="../_attachments/Sat-LocationArchitecture.png" /></p>
+<p>Creating a Satellite Location can be achieved through the IBM Cloud Portal, via the IBM Cloud Satellite command line interfaces, or application programming interfaces (APIs). For other public cloud providers, IBM Cloud Satellite provides automation via <a href="https://cloud.ibm.com/docs/schematics?topic=schematics-about-schematics" target="_blank">IBM Cloud Schematics</a> to set up the Location. For on-premises deployments, scripts are provided that will need to be executed on each of the target host machines. Planning for the creation of a Location is critical. Detailed planning information is provided in the IBM Cloud Satellite documentation in the <a href="https://cloud.ibm.com/docs/satellite?topic=satellite-infrastructure-plan" target="_blank">Planning your environment for Satellite</a> section.</p>
+<p>There are many requirements associated with creating a Satellite Location including minimum host requirements, and minimum network latency between Satellite Location hosts and IBM Cloud data centers. <strong>Note:</strong> the physical location of the Satellite Location is not an attribute of the Location. It is a good practice to use the physical location in the Satellite Location name or tags. To learn more about Satellite Locations, refer to the Satellite Location product documentation: <a href="https://cloud.ibm.com/docs/satellite?topic=satellite-locations" target="_blank">https://cloud.ibm.com/docs/satellite?topic=satellite-locations</a>.</p>
+<p>The image below is from the <a href="https://cloud.ibm.com/satellite/locations/create" target="_blank">IBM Cloud Portal</a>. There are tiles that provide a wizard-based creation process for 3rd party cloud providers as well as on-premises, edge, and advanced configurations. </p>
+<p><img alt="" src="../_attachments/Sat-CreateLocation.png" /></p>
+<h1 id="provisioning-a-location-in-3rd-party-cloud-provider">Provisioning a location in 3rd party cloud provider</h1>
+<p>The Terraform-based creation wizards for 3rd party cloud providers first prompt users for credentials for the users account in the 3rd party cloud. An example is shown below for Amazon Web Services (AWS).</p>
+<p><img alt="" src="../_attachments/Sat-AWSCreateLocationCredentials.png" /></p>
+<p>Once credentials are provided, prompts are provided for completing the required information to provision the Location. These include:</p>
+<ul>
+<li>The data center or region in the 3rd party provider where the Location should be created.</li>
+<li>The number and hardware configuration (CPU, Memory, Storage) of the virtual servers that will be provisioned ofr the location.</li>
+<li>And the IBM Cloud Object Storage bucket that will used to store information about the Location.</li>
+</ul>
+<p><img alt="" src="../_attachments/Sat-AWSCreateLocationDetails.png" /></p>
+<p>The video below shows the provisioning of an IBM Cloud Satellite Location in AWS. The video has been edited to minimize the viewing time and does not reflect the actual provisioning time of a Satellite Location. The actual provisioning time (from clicking "Create location" to the Location being ready) will vary. When this video was created, it took approximately 25 minutes for the 12 hosts to be provisioned in AWS and configured as a Satellite Location.</p>
+<p>Use this video to understand the talking points you can use with a client when describing the provisioning process.</p>
+<p><div class="video-container"><iframe src="../_videos/IBMCloudSatellite-Seller-L3-ProvisionLocation-final.mp4" style="position: relative; width: 100%; height: 22.172vw" frameborder="0" allowfullscreen></iframe></div></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If the video appears blurry, click the fullscreen <img alt="" src="_attachments/FullScreenVideo.png" /> or <img alt="" src="_attachments/FullScreenVideo3.png" /> icon.</p>
+</div>
+<h1 id="on-premises-or-edge">On-premises or edge</h1>
+<p>Provisioning a Location in a client's datacenter or edge location is accomplished through customized scripts. These scripts can be run manually or incorporated in automation tools like Schematics. </p>
+<p>Once all the planning is complete and hardware that meets the required Satellite specifications is available, the high-level process to create a Location is:</p>
+<ol>
+<li>Create the Location using the IBM Cloud Portal or command line interface</li>
+<li>Generate and download the <strong>host attach</strong> script using the IBM Cloud Portal or command line interface</li>
+<li>Copy and run the <strong>host attach</strong> script on each local physical or virtual server</li>
+<li>Assign hosts to the location control pane</li>
+<li>Assign additional hosts to various satellite-enabled services (e.g RedHat OpenShift on IBM Cloud, Cloud Object Storage, Event Streams, etc.)</li>
+</ol>
+<p>A more detailed explanation of these steps can be found <a href="https://cloud.ibm.com/docs/satellite?topic=satellite-location-host" target="_blank">here</a> in the product documentation.</p>
+<h2 id="more-about-the-itz-environment-used-in-this-activity">More about the ITZ environment used in this activity</h2>
+<p>As mentioned earlier, this activity utilizes a shared, pre-provisioned IBM Cloud Satellite Location. This environment is deployed on a set of VMware-based virtual servers that are actually running in a IBM Cloud for VMware vCenter Server (VCS) environment. This deployment model is only supported for testing purposes, however, it mimics one of the most common deployment models for IBM Cloud Satellite which is a set of VMware-based virtual machines running in a client's datacenter.</p>
+<p>The pre-provisioned Location used for this activity is located in the ITZ Cloud account called <strong>2435442 - ITZ - Satellite</strong> and is called <strong>yl-l3-vmware</strong>. To view the Location details, follow these steps:</p>
+<ol>
+<li>Login to the IBM Cloud portal here: <a href="https://cloud.ibm.com" target="_blank">https://cloud.ibm.com</a>.</li>
+<li>Once authenticated, change to the **2435442 - ITZ - Satellite.</li>
+</ol>
+<p><img alt="" src="../_attachments/CloudPortal-changeAccounts.png" /></p>
+<ol start="3">
+<li>Navigate to the Satellite Location page by clicking the hamburger menu icon <img alt="" src="../_attachments/HamburgerMenu.png" /> at top left, selecting <strong>Satellite</strong> and then <strong>Locations</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/CloudPortal-SatLocationsMenu.png" /></p>
+<ol start="4">
+<li>Locate and click on the <strong>yl-l3-vmware</strong> in the Locations table.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-LocationsTable.png" /></p>
+<div class="admonition hint">
+<p class="admonition-title">Finding the correct location</p>
+<p>This ITZ cloud account is used by many different ITZ environments. If the <strong>yl-l3-vmware</strong> location is not visible in the table, use the table's search or sort feature.</p>
+</div>
+<ol start="5">
+<li>Explore the details of the Location including the <strong>Overview</strong> and <strong>Hosts</strong> views.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-LocationDetails.png" /></p>
+<ol start="6">
+<li>On the <strong>Hosts</strong> page, click the <strong>Attach host +</strong> button.</li>
+</ol>
+<p><img alt="" src="_attachments/Sat-LocationHosts.png" /></p>
+<p>Here is where administrators come to generate and download the shell script to add hosts to the location. This is done when provisioning the control plane as well as additional servers needed for cloud-enabled services.</p>
+<ol start="7">
+<li>Download and explore the <strong>attach host</strong> script (<strong>Required for technical sellers only</strong>).</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-LocationHostAttachScript.png" /></p>
+<p>Continue to the next section to learn about IBM Cloud Satellite-enabled services.</p>
 
 
 

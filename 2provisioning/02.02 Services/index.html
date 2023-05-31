@@ -205,7 +205,7 @@
   
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
-        Home
+        Overview
       </a>
     </li>
   
@@ -572,7 +572,33 @@
 
   <h1>Satellite-enabled services</h1>
 
-
+<p>Many IBM Cloud services are enabled for IBM Cloud Satellite including IBM Cloud databases, IBM Event Streams, IBM Key Protect, Red Hat OpenShift on IBM Cloud, and others. In the future, more services will be enabled for IBM Cloud Satellite. For a full list of Satellite-enabled services, user the IBM Cloud Portal as described below, or check out the documentation page <a href="https://cloud.ibm.com/docs/satellite?topic=satellite-managed-services" target="_blank">Supported Satellite-enabled IBM Cloud services</a>.</p>
+<p>To successfully deploy any satellite-enabled service, hosts must be available and unassigned at the Location. As seen in the previous chapter about Locations, all the hosts at the **yl-l3-vmware are already assigned either to the Location control plane, or a already deployed Red Hat OpenShift on IBM Cloud cluster. </p>
+<p>Continuing from the previous chapter on Locations, in the steps below, explore how Red Hat OpenShift on IBM Cloud is deployed to a Location. </p>
+<ol>
+<li>Click the <strong>Services</strong> link on the <strong>yl-l3-vmware</strong> page in the IBM Cloud Portal</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-LocationOverviewToServices.png" /></p>
+<ol start="2">
+<li>Review the already deployed services, and then click the <strong>Create services +</strong> button.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-LocationServices.png" /></p>
+<ol start="3">
+<li>Review the list of available services, and then click the <strong>Red Hat OpenShift on IBM Cloud</strong> tile.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-LocationServicesCreate.png" /></p>
+<ol start="4">
+<li>Explore the <strong>Red Hat OpenShift cluster</strong> provisioning page in the IBM Cloud Portal.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-LocationServicesCreateROKS.png" /></p>
+<p>The image above is only part of the provisioning page. Notice how the <strong>Satellite</strong> tile under the <strong>Infrastructure</strong> section, the <strong>Resource group</strong>, and the <strong>yl-l3-vmware</strong> Location under the <strong>Locations</strong> section have been pre-selected.</p>
+<p>Scroll down to see the other parameters required to provision the OpenShift cluster. Notice the <strong>Minimum host requirements are not met</strong> warning. This is identifying the fact no unassigned hosts are available in the <strong>yl-l3-vmware</strong>. If unassigned hosts were available for the specified worker pool configuration, the <strong>Create</strong> button at the far right of the page would be enabled.</p>
+<p>Continue to scroll further in the dialog. Take special notice of the <strong>Satellite Config</strong> section. <strong>Satellite Config</strong> will be covered in more detail later in this guide. For now, note that in order to use <strong>Satellite Config</strong> to deploy Kubernetes resources to the cluster, it must be enabled at the time the cluster is created or a manual script must be run later.</p>
+<p>As mentioned earlier, an OpenShift cluster has already been deployed to the <strong>yl-l3-vmware</strong> Location. The deployment of the cluster took approximately 30 minutes.</p>
+<ol start="5">
+<li>Return to the <strong>Location</strong> details page by clicking on the browsers <strong>back</strong> button or clicking <a href="https://cloud.ibm.com/satellite/locations/chckr9kw0f1manafo5og/overview" target="_blank">here</a>.</li>
+</ol>
+<p>At this time, feel free to explore the other Satellite-enabled services before proceeding to the next chapter to learn about <strong>Link Endpoints</strong>.</p>
 
 
 

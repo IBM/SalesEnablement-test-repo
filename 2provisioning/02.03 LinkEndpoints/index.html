@@ -205,7 +205,7 @@
   
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
-        Home
+        Overview
       </a>
     </li>
   
@@ -572,7 +572,43 @@
 
   <h1>Link endpoints</h1>
 
-
+<p>Networking is a critical aspect of a IBM Cloud Satellite deployment and should be diligently planned. The product documentation provides detailed guidance on host network requirements, outbound connectivity from the Location datacenter to IBM Cloud, and additional details.  To learn more, start <a href="https://cloud.ibm.com/docs/satellite?topic=satellite-reqs-host-network" target="_blank">here</a>.</p>
+<p>IBM Cloud Satellite <strong>Link endpoints</strong> provide controls for network traffic to and from a Satellite Location and services, servers, and/or applications that run outside of the Location. With <strong>Satellite Link endpoints</strong>, you can allow software that runs in your Satellite location to connect to a service, server, or application that runs outside of the Satellite Location. Links can also allow software that is connected to the IBM Cloud private network to connect to a service, server, or application that runs in your Satellite Location.</p>
+<p>To establish the connection, you must specify the destination resource's fully qualified domain name (FQDN) or IP address, port, the connection protocol, and any authentication methods at the endpoint. The endpoint is registered with the Satellite Link component of your Location's Satellite control plane. To help maintain enterprise security and audit compliance, <strong>Satellite Link endpoints</strong> provide additional built-in controls to restrict client access to endpoints, and to log and audit traffic that flows over endpoints.</p>
+<p>While Satellite Links are not used in explicitly used in the demonstration guidance provided in this activity, there are <strong>Link endpoints</strong> defined in the shared ITZ environment, and are an important concept to understand. For more information on Links, read the documentation <a href="https://cloud.ibm.com/docs/satellite?topic=satellite-link-location-cloud" target="_blank">here</a>.</p>
+<p>In the following steps, learn more about <strong>Link endpoints</strong>.</p>
+<ol>
+<li>
+<p>If not already open in a browser, return to the <strong>Location</strong> details page by clicking <a href="https://cloud.ibm.com/satellite/locations/chckr9kw0f1manafo5og/overview" target="_blank">here</a>.</p>
+</li>
+<li>
+<p>Click <strong>Link endpoints</strong> in the left-hand navigation pane.</p>
+</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-LocationOverviewToLinks.png" /></p>
+<ol start="3">
+<li>Review the <strong>Integrations</strong> that are available between IBM Cloud Satellite and IBM Cloud logging, monitoring, and event tracking services.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-LocationLinksIntegrations.png" /></p>
+<p>Note, access to these integrated services is not provided in this shared ITZ environment. These are used by ITZ to monitor the health of the environment. However, the availability of these integrations is a critical benefit of IBM Cloud Satellite for clients and provide logging, monitoring, and event tracking capabilities the most clients will expect.</p>
+<ol start="4">
+<li>Click the <strong>System endpoints</strong> tab.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-LocationLinkstoSystemEndpoints.png" /></p>
+<ol start="5">
+<li>Review the configured <strong>System endpoints</strong>. </li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-LocationLinksSystemEndpoints.png" /></p>
+<p>These endpoints control access between the Satellite Location and other IBM Cloud services like logging, monitoring, and IBM Cloud Object Storage. Notice the 2 different values under <strong>Destination type</strong> in the table.</p>
+<ul>
+<li><strong>Cloud endpoint</strong></li>
+</ul>
+<p>By default, source clients in a Satellite location cannot reach destination resources that run outside of the location because the destination resource's IP address is not routable from within the location. A <strong>Cloud endpoint</strong> enables resources running in the Location to reach outside resources.</p>
+<ul>
+<li><strong>Location endpoint</strong></li>
+</ul>
+<p>By default, source clients that are connected to the IBM Cloud private network cannot reach destination resources that run in a Satellite Location because the destination resource's IP address is not routable from outside the location. <strong>Location endpoints</strong> allow outside resources to reach resources running inside the Location.</p>
+<p>Proceed to the next section to learn about IBM Cloud Satellite Config and how it is used to deploy Kubernetes resources to OpenShift clusters managed by IBM Cloud Satellite.</p>
 
 
 

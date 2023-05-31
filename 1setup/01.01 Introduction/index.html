@@ -205,7 +205,7 @@
   
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
-        Home
+        Overview
       </a>
     </li>
   
@@ -572,7 +572,23 @@
 
   <h1>The environment</h1>
 
-
+<p>IBM Cloud Satellite is an extension of the IBM Cloud that can run inside a client's data center, at the edge, in public clouds, or any location of the client’s choice. IBM Cloud Satellite is a managed, distributed cloud solution that delivers cloud services, Application Programming Interfaces (APIs), access policies, security controls, and compliance.</p>
+<p>This demonstration environment has a dual purpose. First, it is meant to educate you on IBM Cloud Satellite and how to demonstrate some of the capabilities of IBM Cloud Satellite to clients. Second, the environment can be used for actual client demonstrations. After you are familiar with the content, have practice performing a demonstration, get in front of a client and show the power of IBM Cloud Satellite.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>The focus of the demonstration is on the Infrastructure as a Service capability of IBM Cloud Satellite and not on the specific services deployed to a Satellite Location (for example, Red Hat OpenShift on IBM Cloud).</p>
+<p>Provisioning a Satellite Location on a public cloud like AWS, is automated and typically takes 25-30 minutes depending on the cloud provider, configuration of the servers being used, and other factors. Deploying Red Hat OpenShift on IBM Cloud to the Satellite Location usually takes another 30-45 minutes. In addition, to easily access resources on those servers you would need to either create a Virtual Private Network or manually make network configuration changes. This can be time consuming and error prone and will typically take longer than most clients are willing to sit through for a demonstration. In this demonstration asset, an IBM Cloud Satellite environment has already been provisioned for you.</p>
+</div>
+<p><strong>In this demonstration environment, you will NOT have full access to the IBM Cloud Satellite capabilities.</strong> Your user ID will be restricted to specific capabilities. You will <strong>not</strong> have permissions to:</p>
+<ul>
+<li>create new Satellite Locations, Clusters, Cluster Groups, or Configurations</li>
+<li>deploy new IBM Cloud Services (for example: IBM Cloud Databases, Key Protect, etc.)</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Attempting to perform an action that you do not have permissions for will result in an error message like the one below. This is not an issue with the IBM Cloud or IBM Cloud Satellite, rather a restriction of the demo environment and the permissions assigned to users.</p>
+<p><img alt="" src="../_attachments/ErrorMessage.png" /></p>
+</div>
 
 
 
@@ -596,7 +612,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../.." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
+        <a href="../.." class="md-footer__link md-footer__link--prev" aria-label="Previous: Overview" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -605,7 +621,7 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Home
+              Overview
             </div>
           </div>
         </a>
