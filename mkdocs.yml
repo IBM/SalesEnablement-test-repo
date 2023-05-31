@@ -24,7 +24,7 @@ nav:
     - 'Link endpoints' : '2provisioning/02.03 LinkEndpoints.md'
   - Part 3 - Satellite Config:
     - 'Introduction and terminology' : '3config/03.01 IntroAndTerms.md'
-    - 'Create a GitHub-based config and subscriptions' : '3config/03.02 GitHubConfig.md'
+    - 'Deploy a web app using GitHub and Sat Config' : '3config/03.02 GitHubConfig.md'
   - Part 4 - The demonstration:
     - 'Introduction' : '4demo/04.01 Introduction.md'
     - 'General demonstration' : '4demo/04.02 GeneralDemo.md'
