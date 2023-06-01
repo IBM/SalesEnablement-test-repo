@@ -572,7 +572,24 @@
 
   <h1>Deploy a web app using Sat Config</h1>
 
-<p>... TO BE WRITTEN ...</p>
+<p>Now it is time to create a <strong>Satellite Config</strong> configuration that utilizes the GitOp model to deploy a sample application to a set of OpenShift clusters. For this activity, two OpenShift clusters will be utilized as shown below.</p>
+<p><img alt="" src="../_attachments/Sat-ConfigDemoArch.png" /></p>
+<p>The cluster running in IBM Cloud, which has been registered with <strong>Satellite config</strong>, will be called the <strong>development</strong> cluster. The cluster running at the Satellite Location, will be called the <strong>production</strong> cluster. Each of these clusters have been defined in a cluster group: se-l3-development and se-l3-production. </p>
+<p><img alt="" src="../_attachments/Sat-ConfigClusterGroups.png" />
+<img alt="" src="../_attachments/Sat-ConfigDevClusterGroup.png" />
+<img alt="" src="../_attachments/Sat-ConfigProdClusterGroup.png" /></p>
+<p>Remember, cluster groups can contain on or more clusters, but for this activity the size of each is a single cluster. In an actual client environment, there could be several clusters in both the development and test groups and each could be in different IBM Cloud datacenters or Satellite Locations any where in the world.</p>
+<p>Take a few minutes to explore the Cluster and Cluster groups pages in the IBM Cloud Portal.</p>
+<p>Recall, in the IBM Technology Zone (ITZ) environment used in this activity only limited access is provided to users. Specific to <strong>Satellite config</strong>, users are NOT given permissions to create new clusters, cluster groups, or configurations. As seen above, the 2 cluster groups have already been configured. Additionally, who configurations have also been created for each user. The name of these groups include a unique user identifier (as described in the previous chapter) and a suffix of <strong>-ns-se-l3</strong> and <strong>gitconf-se-l3</strong>. </p>
+<p>The <strong>ns-se-l3</strong> configuration utilizes the <em>Direct Upload</em> model of <strong>Satellite config</strong>. It contains a single version that creates a <strong>namespace</strong> (referred to as a <strong>Project</strong> within OpenShift) resource in OpenShift if it does not already exist. The YAML for this version looks like:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nt">apiversion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">project.openshift.io/v1</span><span class="w"></span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;2700039nft-se-l3&quot;</span><span class="w"></span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="nt">displayName</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">2700039nft-se-l3</span><span class="w"></span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Project</span><span class="w"></span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="nt">metadata</span><span class="p">:</span><span class="w">  </span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">2700039nft-se-l3</span><span class="w">  </span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">  </span><span class="nt">labels</span><span class="p">:</span><span class="w">    </span><span class="nt">deploy.razee.io/mode</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;EnsureExists&quot;</span><span class="w"></span>
+</code></pre></div>
 <p>Next, learn how to bring everything together to prepare for and deliver client facing demonstrations of IBM Cloud Satellite..</p>
 
 

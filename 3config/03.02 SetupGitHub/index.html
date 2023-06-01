@@ -583,7 +583,7 @@
 <li><a href="https://resources.github.com/topics/fundamentals/" target="_blank">GitHub Fundamentals</a></li>
 <li>For a very basic Git and GitHub tutorial, check out this <a href="https://www.youtube.com/watch?v=mJ-qvsxPHpY" target="_blank">Git Tutorial for Dummies</a>.</li>
 </ul>
-<p>To complete the exercise, utilize either a public GitHub identification, or for IBM employees, a IBM Enterprise GitHub ID. The directions below are based on using a public GitHub identification. </p>
+<p>To complete the exercise, utilize either a public GitHub identification, or for IBM employees, an IBM Enterprise GitHub ID. The directions below are based on using a public GitHub identification. </p>
 <ol>
 <li>Log in to GitHub by opening a browser window to  <a href="https://github.com/login" target="_blank">https://github.com/login</a>.</li>
 </ol>
@@ -614,7 +614,7 @@
 <li>Click the <strong>deployments</strong> folder.</li>
 </ol>
 <p><img alt="" src="../_attachments/githubDevBranch.png" /></p>
-<p>Next, update each of the four (4) YAML files with the namespace created specifically for you in the IBM Technology Zone (ITZ) environment. The namespace name can be found on the ITZ reservation page (see the example below) or in the e-mail sent by ITZ for the reservation. The value will be in the format "######ABCD-ns-se-l3". In the images below "2700039nft-ns-se-l3" is used, but <strong>you must use your specific value in order to successfully complete this exercise</strong>.</p>
+<p>Next, update each of the four (4) YAML files with the namespace created specifically for you in the IBM Technology Zone (ITZ) environment. The namespace name can be found on the ITZ reservation page (see the example below) or in the e-mail sent by ITZ for the reservation. The value will be in the format "######ABCD-se-l3". In the images below "2700039nft-ns-se-l3" or "2700039nft-se-l3" are used, but <strong>you must use your specific value in order to successfully complete this exercise</strong>.</p>
 <details class="note">
 <summary>Why am I doing this?</summary>
 <p>Because the ITZ environment is shared by all users of this demonstration guide, a common namespace cannot be used or else users would overwrite each other and cause issues when attempting to follow the instructions. Each ITZ reservation sets up a unique namespace for each user. By changing this value in the deployment YAML files for the sample application, each user is able to deploy their own copy of the application in the OpenShift clusters managed by IBM Cloud Satellite.</p>
@@ -665,7 +665,7 @@
 </ol>
 <p><img alt="" src="../_attachments/githubHelloWorldDeploymentYAML-edited.png" /></p>
 <div class="admonition warning">
-<p class="admonition-title">Do not use <strong>2700039nft-ns-se-l3</strong></p>
+<p class="admonition-title">Do not use <strong>2700039nft-se-l3</strong></p>
 <p>You must use the namespace name created specifically for you as shown in your ITZ reservation!</p>
 </div>
 <ol start="16">
