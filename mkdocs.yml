@@ -99,6 +99,7 @@ extra:
   account: "2435442 - ITZ - Satellite"
   sat:
     location: yl-l3-vmware
+    location_stub: yl-l3-empty-location
     location_id: chckr9kw0f1manafo5og
     cluster_name: yl-l3-vmware-roks-1
     cluster_id: chcntaqw0tllp3174mr0
@@ -110,3 +111,7 @@ extra:
     cluster_id: chm9pmdd074nifmp68e0
     cluster_role: development
     console: https://console-openshift-console.yl-l3-ibm-roks-2-222b3514854c2221251113b2b051506c-0000.us-south.containers.appdomain.cloud/dashboards
+  
+  clusterGroups:
+    development: se-l3-development
+    production: se-l3-production

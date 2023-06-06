@@ -4,19 +4,19 @@ There are 4 parts to this demonstration guide as seen in the left hand navigatio
 
  - Part 1 - Setup
    
-   Learn about the environment that will be utilized for this learning activity, the prerequisites required, how to create a reservation for the environment in IBM Technology Zone (ITZ), and how to setup the GitHub repository that is needed to complete the activity.
+   Learn about the environment that will be utilized for this learning activity, the prerequisites required, and how to create a reservation for the environment in IBM Technology Zone (ITZ).
 
  - Part 2 - Provisioning and configuring IBM Cloud Satellite
 
    Learn about the provisioning process for IBM Cloud Satellite *Location*, Satellite-enabled *Services*, and *Link endpoints*. Note, in this activity a new IBM Cloud Satellite Location will NOT be provisioned. Rather, a shared, pre-provisioned Satellite Location and cloud-enabled service (Red Hat OpenShift on IBM Cloud) will be utilized. Videos are provided that demonstrate the provisioning processes for these resources.
 
- - Part 3 - Using Satellite Config
+ - Part 3 - Satellite Config
 
-   Learn about Satellite *Config* and how it is used to deploy Kubernetes resources to RedHat OpenShift clusters maintained in a GitHub repository.
+   Learn about Satellite *Config* and how it is used to easily deploy Kubernetes resources to RedHat OpenShift clusters maintained in a GitHub repository. 
 
  - Part 4 - The demonstration
 
-   In the final section, learn how to demonstrate to client's some of the value of IBM Cloud Satellite. Guidance on performing a client demonstration using the shared ITZ environment is provided that illustrates how IBM Cloud Satellite and cloud-enabled services are provisioned, and how Sat Config can be used to deploy and manage Kubernetes applications.
+   In the final section, learn how to demonstrate to client's some of the value of IBM Cloud Satellite. Guidance on performing a client demonstration using the shared ITZ environment is provided that illustrates how IBM Cloud Satellite and cloud-enabled services are provisioned, and how Sat Config can be used to deploy and manage Kubernetes resources easily and consistently.
 
 Some content will be a labeled as **Required for technical sales only**. However, individuals in sales roles are highly encouraged to complete these sections and include them in their demonstrations. Step-by-steps directions are provided, but some technical knowledge and experience with source control systems like GitHub and basic Yet Another Markup Language (YAML) is assumed.
 
