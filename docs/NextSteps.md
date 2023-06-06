@@ -1,4 +1,4 @@
-Congratulations! At this point, you should now be ready to demonstrate the some of the many values of IBM Cloud Satellite to clients. 
+Congratulations! At this point, you should now be ready to demonstrate some of the many values of IBM Cloud Satellite to clients. 
 
 To complete the IBM Cloud Satellite Level 3 badge, do one of the following:
 
