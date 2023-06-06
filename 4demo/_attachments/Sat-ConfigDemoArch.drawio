@@ -1,0 +1,37 @@
+<mxfile host="Electron" modified="2023-06-06T12:25:54.867Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="ejm83Gy46P92Lf2DncBL" version="21.2.8" type="device">
+  <diagram name="Sat-ConfigDemoArch-1" id="CJ3f567l9QBepxpRFmsh">
+    <mxGraphModel dx="1114" dy="824" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hT9cZg69qHS-tKKZcQSA-48" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="470" y="102" width="580" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="hT9cZg69qHS-tKKZcQSA-49" value="IBM Cloud" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="665" y="500" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hT9cZg69qHS-tKKZcQSA-50" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="110" y="172" width="310" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="hT9cZg69qHS-tKKZcQSA-51" value="Remote Satellite Location" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="168" y="500" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hT9cZg69qHS-tKKZcQSA-53" value="Red Hat OpenShift on IBM Cloud Cluster" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="205" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hT9cZg69qHS-tKKZcQSA-55" value="Red Hat OpenShift on IBM Cloud Cluster" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="600" y="305" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hT9cZg69qHS-tKKZcQSA-57" value="Satellite Config" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="820" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hT9cZg69qHS-tKKZcQSA-59" value="Production" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="235" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hT9cZg69qHS-tKKZcQSA-60" value="Development" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="630" y="365" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

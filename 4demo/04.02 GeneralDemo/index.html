@@ -572,8 +572,135 @@
 
   <h1>High level demonstration of IBM Cloud Satellite</h1>
 
-<p>... TO BE WRITTEN ...</p>
-<p>Next, follow and learn a prepared script to demonstrate the power of IBM Cloud Satellite Config to automate the deployment of Kubernetes services to OpenShift clusters managed by IBM Cloud Satellite.</p>
+<p>The following steps assume all of the prior sections of this activity have been completed. </p>
+<ol>
+<li>Login to the IBM Cloud portal here: https://cloud.ibm.com and change to the 2435442 - ITZ - Satellite.</li>
+</ol>
+<p><img alt="" src="../_attachments/CloudPortal-changeAccounts.png" /></p>
+<p>If introductions have not already been done, now is the time. If the client is not an existing IBM Cloud user, then provide some high level statements about IBM Cloud (e.g. world wide coverage, 300 cloud based services including fully managed Software as a Service (SaaS) offerings, etc.).</p>
+<ol start="2">
+<li>Navigate to the Satellite Overview page.</li>
+</ol>
+<p><img alt="" src="../_attachments/CloudPortalSatMenu.png" /></p>
+<p>If earlier discussions were not focused on IBM Cloud Satellite, describe the offering and its values. Leverage the talking points from the IBM Cloud Satellite Client presentation (from the IBM Cloud Satellite Level 2 learning plan). The overview provides some useful descriptions on three topics that will be covered: IBM Cloud services, Application management, and network traffic management.</p>
+<ol start="3">
+<li>Click the <strong>Create a Satellite Location +</strong> button.</li>
+</ol>
+<p><img alt="" src="../_attachments/CloudPortalCreateLocation.png" /></p>
+<p>If it is known the client uses a specific cloud provider, focus on that specific provider and how IBM Cloud Satellite provides automated, terraform-based scripts to both provision the remote resources as well as deploying the control plane resources for a Satellite Location. </p>
+<p>In lieu of the next steps which use the <strong>Advanced configuration</strong> option, consider creating an account in one of the 3rd party clouds and using those credentials to show the Satellite location provisioning page (see image below for how it looks in AWS). Alternatively, the video in the <strong>Provisioning</strong> chapter can be used as part of the demonstration to show the process for a Location in AWS.</p>
+<p><img alt="" src="../../2provisioning/_attachments/Sat-AWSCreateLocationDetails.png" /></p>
+<ol start="4">
+<li>Click the <strong>Advanced configuration</strong> tile.</li>
+</ol>
+<p><img alt="" src="../_attachments/SatLocationsMenu.png" /></p>
+<p>Notice there is very little information required to create a <strong>Satellite location</strong>. As learned earlier, the real provisioning work is done by the attach host script that are generated for the location which is executed on each of the physical servers. This will be explored shortly. The key fields on the location creation screen are the <strong>Managed from</strong>, zone names, support for Red Hat CoreOS, and an object storage bucket.</p>
+<ol start="5">
+<li>Click the <strong>Managed from</strong> pull down option.</li>
+</ol>
+<p><img alt="" src="../_attachments/SatLocationsManagedFrom.png" /></p>
+<p>When provisioning a <strong>Satellite location</strong>, clients should choose the IBM Cloud datacenter that is nearest to the physical servers in the remote location. The hosts attached to the <strong>Satellite location</strong> control plane must have a low latency connection of less than or equal to 200 milliseconds (&lt;= 200ms) round-trip time (RTT) to the IBM Cloud region that the <strong>Satellite location</strong> is managed from. Learn more about this requirement <a href="https://cloud.ibm.com/docs/satellite?topic=satellite-sat-regions" target="_blank">here</a>.</p>
+<p>Depending on the audience, discuss the following topics:</p>
+<ul>
+<li>
+<p>Zones - The <strong>Zone</strong> fields allow the user to specify names used for the network availability zones where control plane and worker nodes will be assigned. High availability (HA) is a key to keeping applications up and running, even after a partial or full site failure. The main purpose of high availability is to eliminate potential points of failures in an infrastructure. </p>
+</li>
+<li>
+<p>Red Hat CoreOS - Enabling Red Hat CoreOS support comes with both pros and cons. A Red Hat CoreOS enabled location unlocks more features such as minimal outbound network requirements, HTTP proxy for outbound traffic, OpenShift virtualization, and single node cluster topology. But it has a higher infrastructure requirement. On the other hand, a non-CoreOS enabled location supports a smaller feature set but can run at a smaller footprint, allowing more clusters per same capacity.  For more information about the key benefits of CoreOS, see <a href="https://docs.openshift.com/container-platform/4.10/architecture/architecture-rhcos.html" target="_blank">Red Hat Enterprise Linux CoreOS</a>.</p>
+</li>
+<li>
+<p>IBM Cloud Object Storage - An object storage bucket is required to store data about the <strong>Satellite location</strong>&gt; and backups of the OpenShift clusters. </p>
+</li>
+</ul>
+<p>Once all the required information is provided, a user would click <strong>Create location</strong>. Users of this IBM Technology Zone (ITZ) environment will NOT have permission to create a location. Inform the client that creating a <strong>Satellite location</strong> using the advanced configuration method only takes a few minutes, where as using one of the automated approaches for 3rd party cloud providers will take longer as the actual servers are provision in the client's account and the host attach scripts are executed. </p>
+<ol start="6">
+<li>Click the <strong>Locations</strong> bread crumb trail at the top of the <strong>Advanced configuration</strong> page.</li>
+</ol>
+<p><img alt="" src="../_attachments/SatLocationsCookieCrumb.png" /></p>
+<p>Inform the audience that a pre-provisioned location will be used to show how hosts are added to the location.</p>
+<ol start="7">
+<li>Enter <strong>yl-l3</strong> in the <strong>Locations</strong> table search bar and then click the <strong>yl-l3-empty-location</strong> entry.</li>
+</ol>
+<p><img alt="" src="../_attachments/SatLocations.png" /></p>
+<p>The <strong>Setting up your new location</strong> provides the basic flow for adding hosts and setting up the location.</p>
+<ol start="8">
+<li>Click the <strong>Hosts</strong> link in left-hand menu.</li>
+</ol>
+<p><img alt="" src="../_attachments/SatLocationStubSettingUp.png" /></p>
+<p>The next step is to add a host to the location. As mentioned earlier, this involves downloading a host attach script and executing that script on each server that is to be added to the location.</p>
+<ol start="9">
+<li>Click the <strong>Attach host +</strong> button.</li>
+</ol>
+<p><img alt="" src="../_attachments/SatLocationStufHosts.png" /></p>
+<p>In this ITZ environment, access is not provided to generate the script or download the script. If there is a very technical audience, a sample script is located <a href="file:downloads/attachHost-yl-l3-empty-location.sh> target="_blank"&gt;here</a> that can be downloaded and displayed. Continuing with the baking show approach, now show a location that already has hosts attached.</p>
+<ol start="10">
+<li>Click the <strong>Locations</strong> bread crumb trail at the top of the <strong>hosts</strong> page.</li>
+</ol>
+<p><img alt="" src="../_attachments/SatLocationStubHostsBreadCrumb.png" /></p>
+<ol start="11">
+<li>Enter <strong>yl-l3</strong> in the <strong>Locations</strong> table search bar and then click the <strong>yl-l3-vmware</strong> entry.</li>
+</ol>
+<p><img alt="" src="../_attachments/SatLocations2.png" /></p>
+<p>The overview page for a <strong>Satellite location</strong> provides general information about the location and the location's health. </p>
+<ol start="12">
+<li>Click the <strong>Hosts</strong> link in left-hand menu.</li>
+</ol>
+<p><img alt="" src="../_attachments/SatLocationMainOverview.png" /></p>
+<p>On the <strong>Hosts</strong> notice that 12 hosts have been added to this location. Initially when added, the host's <strong>Availability</strong> would be listed as <strong>Unassigned</strong>. The next step for creating the location would be to assign a minimum of 3 hosts to the <strong>Control plane</strong>
+<strong>Control plane</strong> hosts do not run any client workloads, rather the location control plane runs resources that are managed by IBM to manage the hosts, clusters, and other resources that you attach to the location. Sizing of the control plane is an important exercise that needs be done early in the planning phase, but keep in mind additional hosts can be added to the control plane at any time by running the <strong>attach host</strong> script on new servers.</p>
+<ol start="13">
+<li>Click the <strong>Services</strong> link in left-hand menu.</li>
+</ol>
+<p>IBM Cloud Satellite provides clients the ability to run cloud services at remote locations.  As seen here, Red Hat OpenShift on IBM Cloud, an IBM-managed deployment of OpenShift, has already been deployed at this location.  Lets explore how this was done.</p>
+<ol start="14">
+<li>Click the <strong>Create services +</strong> button.</li>
+</ol>
+<p><img alt="" src="../_attachments/SatLocationMainServices.png" /></p>
+<p>There are several Satellite-enabled services available in the IBM Cloud catalog and can be easily deployed to a <strong>Satellite location</strong>. Take a few minutes to highlight each of the available services and the capabilities they provide.</p>
+<ol start="15">
+<li>Click the <strong>Red Hat OpenShift on IBM Cloud</strong> tile.</li>
+</ol>
+<p><img alt="" src="../_attachments/SatLocationMainServicesCatalog.png" /></p>
+<p>With Red Hat OpenShift on IBM Cloud, is a Platform as a Service (PaaS) that provides an IBM managed environment for running Kubernetes resources. These could be client applications and/or IBM offerings like IBM Cloud Paks.  As a Satellite-enabled service, the deployment of OpenShift is fully automated. </p>
+<p>Using the <strong>Red Hat OpenShift cluster</strong> deployment page, describe the required parameters for the deployment. The key fields to highlight are the <strong>Location</strong>, number of worker nodes, OpenShift version, licensing, and Satellite Config enablement.</p>
+<ul>
+<li>
+<p>Location - The location is pre-selected since the request was to add a service to the yl-l3-vmware location. </p>
+</li>
+<li>
+<p>Worker pool - These settings allow users to specify what availability zones should be used and now many worker nodes should be deployed to each zone as well as the number of virtual CPUs (vCPU) and memory for each worker node. Sizing of the worker pool is a critical activity. Hosts can be added and removed, but it is important to size the pool based upon the planned workloads.</p>
+</li>
+<li>
+<p>OpenShift version - There will typically be 3-4 versions of OpenShift available. As new version's are made available by Red Hat, the older versions will roll off of the selectable list. While Red Hat OpenShift on IBM Cloud is a managed service, there are client responsibilities which include updating the workers nodes. This will be discussed again later.</p>
+</li>
+<li>
+<p>Licensing - OpenShift licensing can be added here or Red Hat OpenShift Cluster Manage can be used by the client to manage the OpenShift licenses.</p>
+</li>
+<li>
+<p>Satellite Config - Satellite config can be enabled for the cluster now, or later by running the register cluster script as described earlier in this activity.</p>
+</li>
+</ul>
+<p>Notice the warning that the <strong>Minimum host requirements are not met</strong> message is displayed. This is due to the fact all the hosts in the location are already utilized. Hosts most be available and in the <strong>Unassigned</strong> state in order for a new service to be deployed to the location.</p>
+<p>Once all the required parameters are provided, the <strong>Create</strong> button would be enabled and the automated deployment could be started. Note, the deployment of OpenShift in this ITZ environment took approximately 30 minutes to complete.</p>
+<p>When the <strong>OpenShift</strong> tile was clicked, this provisioning dialog opened in a new browser tab or window. Close this window and return to the Location Services page.</p>
+<ol start="16">
+<li>Click the <strong>x</strong> at top right.</li>
+</ol>
+<p><img alt="" src="../_attachments/SatLocationMainServicesCatalogX.png" /></p>
+<ol start="17">
+<li>Click the <strong>Link endpoints</strong> link in left-hand menu.</li>
+</ol>
+<p><img alt="" src="../_attachments/SatLocationMainServicesLinkMenu.png" /></p>
+<p>As described earlier, <strong>Link endpoints</strong> are used to control and audit network traffic between the IBM Cloud Satellite location and services, servers, and applications that run outside of the location.</p>
+<p>IBM Cloud Satellite provides clients the ability to integrate with IBM Cloud logging, monitoring, and activity tracking to <strong>Link endpoints</strong>. These integrations are outside of the scope of this demonstration and access to the dashboards are not provided for this ITZ environment, rather is used by ITZ to monitor and managed the shared environment.</p>
+<ol start="18">
+<li>Click the <strong>Create endpoint +</strong> button.</li>
+</ol>
+<p><img alt="" src="../_attachments/SatLocationMainLinks.png" /></p>
+<p>There are two types of <strong>Link endpoints</strong> as described in the earlier chapter on <strong>Link endpoints</strong>. A <strong>Satellite location</strong> endpoint specifies that the destination resouce runs ona a cluster or host in the Satellite location, where as a <strong>Cloud endpoint</strong> specifies that the destination resources run in IBM Cloud. </p>
+<p>Depending on the audience and technical comfort with the topic, click the <strong>Next</strong> button to walk through the information required to create an endpoint. If details are not required, simply describe the <strong>Link endpoint</strong> as a networking rule that allows in and outbound access over a secure tunnel between the resources at the <strong>Satellite location</strong> and the outside world over the Internet.</p>
+<p>The other important resource at a <strong>Satellite location</strong> is storage. The access controls in this ITZ environment does not provide access to this page in the IBM Cloud portal. <strong>Storage configurations</strong>. In addition to the storage that may be directly associated with the worker nodes added to a location, additional storage may also be added to the location and made available to the clusters and resources running in the <strong>Satellite location</strong>. Templates are available for 3rd party cloud storage types (AWS, Azure, Goolge), various IBM System Storage types, NetApp storage systems, VMware, and OpenShift Data Foundation (ODF). Additionally, Satellite supports bring-your-own storage drivers installed using the OpenShift Catalog, OperatorHUb, Helm charts, or by deploying images to the clusters that include the require storage drivers. For more information on **Satellite storage read <a href="https://cloud.ibm.com/docs/satellite?topic=satellite-storage-template-ov" target="_blank">Understanding Satellite storage</a>.</p>
+<p>At this point, the creation of a IBM Cloud Satellite location and the deployment of a Satellite-enabled service (Red Hat OpenShift on IBM Cloud) as been demonstrated. Next, follow and learn how to demonstrate the power of IBM Cloud Satellite Config to automate the deployment of Kubernetes services to OpenShift clusters managed by IBM Cloud Satellite.</p>
 
 
 
