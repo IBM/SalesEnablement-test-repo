@@ -98,7 +98,7 @@ extra:
     collectionURL: "https://techzone.ibm.com/collection/ibm-cloud-satellite-level-3"
     # below is to the draft for environment
     environmentURL: "https://techzone.ibm.com/my/reservations/create/647f301a17fe470017596255"
-    myreservationsURL: "https://techzone.ibm.com/my/reservations"
+    myresURL: "https://techzone.ibm.com/my/reservations"
     uuid_label: "Demo-UUID"
   account: "2435442 - ITZ - Satellite"
   sat:
