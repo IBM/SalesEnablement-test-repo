@@ -589,11 +589,11 @@
 <p>Filter or find the 2 pre-provisioned configurations using the unique name created in the ITZ reservation (<strong>2700039nft</strong> in the examples below).</p>
 </li>
 </ol>
-<p><img alt="" src="_attachments/Sat-ConfigMyConfigs.png" /></p>
+<p><img alt="" src="../_attachments/Sat-ConfigMyConfigs.png" /></p>
 <ol start="3">
 <li>Click your unique configuration with the <strong>-se-l3</strong> extension in the table.</li>
 </ol>
-<p><img alt="" src="_attachments/Sat-ConfigMyConfigs-Click-SEL3.png" /></p>
+<p><img alt="" src="../_attachments/Sat-ConfigMyConfigs-Click-SEL3.png" /></p>
 <p>The <strong>ns-se-l3</strong> configuration utilizes the <em>Direct Upload</em> model of <strong>Satellite config</strong>. It contains a single version that creates a <strong>namespace</strong> (referred to as a <strong>Project</strong> within OpenShift) resource in OpenShift if it does not already exist. The YAML for this version looks like:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nt">apiversion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">project.openshift.io/v1</span><span class="w"></span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;2700039nft-se-l3&quot;</span><span class="w"></span>
@@ -606,7 +606,7 @@
 <ol start="4">
 <li>Click the unique subscription for the configuration in the Subscriptions table.</li>
 </ol>
-<p><img alt="" src="_attachments/Sat-ConfigMyConfigs-Click-SEL3-Sub.png" /></p>
+<p><img alt="" src="../_attachments/Sat-ConfigMyConfigs-Click-SEL3-Sub.png" /></p>
 <ol start="5">
 <li>Verify the subscription is deployed to the 2 cluster groups: se-l3-development and se-l3-production and the <strong>Rollout status</strong> is <strong>Deployed</strong>.</li>
 </ol>
