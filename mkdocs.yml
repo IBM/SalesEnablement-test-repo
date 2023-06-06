@@ -87,6 +87,7 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.keys
+  - attr_list
 
 extra:
   learningplan:
