@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#macro-syntax-error" class="md-skip">
+        <a href="#37" class="md-skip">
           Skip to content
         </a>
       
@@ -514,12 +514,39 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
-        
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Satellite Config demonstration
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         Satellite Config demonstration
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#37" class="md-nav__link">
+    37.
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -564,8 +591,21 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#37" class="md-nav__link">
+    37.
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -579,10 +619,197 @@
                 
 
 
-<h1 id="macro-syntax-error"><em>Macro Syntax Error</em></h1>
-<p><em>Line 104 in Markdown file:</em> <strong>unexpected '}'</strong> 
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">Return</span> <span class="n">to</span> <span class="n">the</span> <span class="n">browser</span> <span class="n">page</span> <span class="k">for</span> <span class="n">the</span> <span class="n">IBM</span> <span class="n">Cloud</span> <span class="n">Portal</span> <span class="ow">and</span> <span class="n">repeat</span> <span class="n">steps</span> <span class="mi">12</span> <span class="n">through</span> <span class="mi">18</span> <span class="n">using</span> <span class="n">the</span> <span class="o">**</span><span class="p">{{</span> <span class="n">sat</span><span class="o">.</span><span class="n">cluster_name</span> <span class="p">}</span><span class="o">**</span> <span class="n">cluster</span> <span class="n">which</span> <span class="ow">is</span> <span class="n">the</span> <span class="n">OpenShift</span> <span class="n">cluster</span> <span class="n">running</span> <span class="ow">in</span> <span class="n">the</span> <span class="o">**</span><span class="n">production</span><span class="o">**</span> <span class="n">environment</span><span class="o">.</span> 
-</code></pre></div></p>
+  <h1>Satellite Config demonstration</h1>
+
+<p>Now it is time to demonstrate the power of <strong>Satellite config</strong>. Recall the high-level architecture of the IBM Technology Zone (ITZ) environment as illustrated below.</p>
+<p><img alt="" src="../../3config/_attachments/Sat-ConfigDemoArch.png" /></p>
+<p>In this part of the demonstration, <strong>Satellite config</strong> will be used to:</p>
+<ul>
+<li>deploy the sample application to the <strong>Development</strong> cluster from the <strong>Development</strong> branch of the  GitHub repository</li>
+<li>deploy the sample application to the <strong>Production</strong> cluster from the <strong>Production</strong> branch of the  GitHub repository </li>
+<li>update the <strong>Production</strong> deployment of the application using the GitHub Development and Operations (DevOps) model by updating the <strong>Development</strong> branch in GitHub and initiating GigHub <strong>pull request</strong> of the <strong>Development</strong> branch to the <strong>Production</strong> branch</li>
+</ul>
+<p>To achieve this, <strong>subscriptions</strong> need to be created for both the <strong>Development</strong> and <strong>Production</strong> branches to deploy the application to the respective OpenShift clusters.</p>
+<ol>
+<li>Open the <strong>Configurations</strong> page in the IBM Cloud Portal: <a href="https://cloud.ibm.com/satellite/configuration" target="_blank">https://cloud.ibm.com/satellite/configuration</a.></li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-Configs-All.png" /></p>
+<ol start="2">
+<li>Use the <strong>Search</strong> function to display only the configurations you have control over using the <strong>Namespace</strong> field from the ITZ reservation.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-Configs-Filtered.png" /></p>
+<details class="error">
+<summary>Don't see your configurations?</summary>
+<p>Make sure the 2435442 - ITZ - Satellite is selected in the IBM Cloud Portal. 
+<img alt="" src="../../2provisioning/_attachments/CloudPortal-changeAccounts.png" /></p>
+</details>
+<ol start="3">
+<li>Click the <strong>Configuration</strong> with the <strong>-gitconf-se-l3</strong> extension.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-Configs-Filtered-GitConf.png" /></p>
+<ol start="4">
+<li>Click the <strong>Create Subscription +</strong> button.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-Configs-GitConf.png" /></p>
+<ol start="5">
+<li>Enter the URL for <strong>your</strong> fork of the GitHub repository for the sample code. This is the URL recorded in step 28 in the <strong>Setup GitHub repository</strong> chapter.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-Configs-GitConf-SubURL.png" /></p>
+<p>??? question "Are private GitHub repositories supported?</p>
+<div class="highlight"><pre><span></span><code>Yes, private GitHub repositories are supported. Additional configuration steps are required to create a **secret** on the target cluster that contains a personal access token with at least **read** access to the private repository. Learn more &lt;a href=&quot;https://cloud.ibm.com/docs/satellite?topic=satellite-satcon-manage-gitops&amp;interface=ui#create-satconfig-ui-gitops&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.
+</code></pre></div>
+<ol start="6">
+<li>Enter <strong>config-sample-dev</strong> in the <strong>Branch name</strong> text entry field.</li>
+<li>Enter <strong>deployments/*.yaml</strong> in the <strong>Path</strong> text entry field.</li>
+<li>If not entered automatically, enter <strong>config-sample-dev</strong> in the <strong>Subscription name field</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-Configs-GitConf-SubFields.png" /></p>
+<ol start="9">
+<li>Check the checkbox for the <strong>se-l3-development</strong> cluster group in the table of cluster groups.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-Configs-GitConf-ClusterGroups.png" /></p>
+<p>!!! hint "Enter <strong>se-l3</strong> in the search field to filter the <strong>Cluster Groups</strong> table. </p>
+<ol start="10">
+<li>Click the <strong>Create</strong> button.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-Configs-GitConf-CreateButton.png" /></p>
+<ol start="11">
+<li>Before validating the application is deployed, repeat steps 4 through 10 to create a <strong>Subscription</strong> for the **config-sample-prod as shown below.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-Configs-GitConf-ProdSub.png" /></p>
+<p>Usually, in less than a minute, both subscriptions should show a <strong>Rollout status</strong> of <strong>deployed</strong> as shown below.</p>
+<p><img alt="" src="../_attachments/Sat-Configs-GitConf-SubsDeployed.png" /></p>
+<p>Now, verify the deployments are successful by using the Red Hat OpenShift web console for each of the clusters.</p>
+<ol start="12">
+<li>Click the hamburger menu <img alt="" src="../../2provisioning/_attachments/HamburgerMenu.png" /> icon at to left and then <strong>OpenShift</strong> and <strong>Clusters</strong>.</li>
+</ol>
+<p><img alt="" src="_attachments/Sat-Configs-GitConf-ClustersMenu.png" /></p>
+<ol start="13">
+<li>Click <strong>yl-l3-ibm-roks-2</strong> in the table of clusters. This is the cluster assigned to the <strong>se-l3-development</strong> cluster group which is the <strong>development</strong> cluster in this environment.</li>
+</ol>
+<p><img alt="" src="_attachments/openShiftClusters-dev.png" /></p>
+<ol start="14">
+<li>Click the <strong>OpenShift web console</strong> button at top right.</li>
+</ol>
+<p><img alt="" src="_attachments/openShiftClusters-devOverview.png" /></p>
+<p>The OpenShift web console will take a few seconds to open in a new browser tab or window. The default view may vary when the web console open. </p>
+<ol start="15">
+<li>If not already set, select the <strong>Developer</strong> perspective in the OpenShift web console.</li>
+</ol>
+<p><img alt="" src="_attachments/openShiftWC-PerspectiveMenu.png" /></p>
+<p>16.Click the <strong>Topology</strong> option in left-hand menu.</p>
+<p><img alt="" src="_attachments/openShiftWC-TopologyMenu.png" /></p>
+<ol start="17">
+<li>Select <strong>your</strong> unique namespace as shown in the ITZ reservation.</li>
+</ol>
+<p><img alt="" src="_attachments/openShiftWC-NamespaceMenu.png" /></p>
+<p>In the topology view of <strong>your</strong> namespace, the sample <strong>helloworld-app</strong> deployment should be shown. </p>
+<ol start="18">
+<li>Click the route link <img alt="" src="_attachments/openShiftWC-RouteLinkIcon.pnf" /> icon to open the web page front end to the deployed application.</li>
+</ol>
+<p><img alt="" src="_attachments/openShiftWC-SampleAppDeployment.png" /></p>
+<p>A new browser tab or window should open to the web page front end of the deployed application. Which will look like the following:</p>
+<p><img alt="" src="_attachments/openShiftWC-SampleAppWebPage.png" /></p>
+<p>Return to the browser page for the IBM Cloud Portal and repeat steps 12 through 18 using the <strong>yl-l3-vmware-roks-1</strong> cluster which is the OpenShift cluster running in the <strong>production</strong> environment. </p>
+<p>Notice the output of both applications is the same! Recall, during the GitHub configuration steps earlier, the contents of the <strong>config-sample-dev</strong> were copied to the <strong>config-sample-prod</strong> when the pull request merged the two together.</p>
+<p>Leave all these windows or tabs open but be sure to track which windows/tabs are the <strong>production</strong> web page and OpenShift web console, and which are the pages for the <strong>development</strong> branch.</p>
+<div class="admonition hint">
+<p class="admonition-title">Keeping the windows in order</p>
+<p>During this demo, several browser windows and tabs will be used. While there are many ways to manage them, consider moving all the <strong>developer</strong> pages to one browser window including:
+- IBM Cloud Portal
+- GitHub repository
+- OpenShift web console
+- Sample application web front end</p>
+<p>And move the two <strong>production</strong> pages to another browser window:
+- OpenShift web console
+- Sample application web front end</p>
+<p>Then split the two browser windows on the monitor.</p>
+<p><img alt="" src="_attachments/SplitScreenView.png" /></p>
+</div>
+<p>In the next stage of the demonstration, modify the <strong>config-sample-dev</strong> web page by editing the <strong>2-helloworld-deployment.yaml</strong> file.</p>
+<ol start="19">
+<li>In <strong>your</strong> GitHub repository, click the branch pull-down menu and select the config-sample-dev branch.</li>
+</ol>
+<p><img alt="" src="_attachments/gitBranchMenu.png" /></p>
+<ol start="20">
+<li>Click the <strong>deployments</strong> folder.</li>
+</ol>
+<p><img alt="" src="_attachments/gitDevBranch.png" /></p>
+<ol start="21">
+<li>Click the <strong>2-helloworld-deployment.yaml</strong> file.</li>
+</ol>
+<p><img alt="" src="_attachments/gitDevBranchFiles.png" /></p>
+<ol start="22">
+<li>Click the pencil <img alt="" src="../../3config/_attachments/pencilIcon.png" /> icon to edit the file.</li>
+</ol>
+<p><img alt="" src="_attachments/gitDevBranchFile2Pencil.png" /></p>
+<ol start="23">
+<li>Scroll to the very last line of the file and change the <strong>value</strong> attribute from <strong>"1.1"</strong> to <strong>"1.2"</strong>.</li>
+</ol>
+<p><img alt="" src="_attachments/gitDevBranchFile2NewValue.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Do not change any other values and maintain proper spacing</p>
+<p>Remember, YAML is a very strict language. Make sure all spacing and quotes remain the same. Any string can be used in stead of "1.2". The value just needs to be different in order for GitHub to notice the change.</p>
+</div>
+<ol start="24">
+<li>Click the <strong>Commit changes...</strong> button.</li>
+</ol>
+<p><img alt="" src="_attachments/gitDevBranchFile2NewValueSave1.png" /></p>
+<p>To see <strong>Satellite config</strong> in action, complete the next two steps without a long delay between the two. <strong>Satellite config</strong> runs subscriptions approximately every 5 minutes. When performing a client demonstration, consider building talking points into the time between the next two steps.</p>
+<ol start="25">
+<li>Click the <strong>Commit changes</strong> button in the pop-up dialog. Optionally, modify the <strong>Commit message</strong> text entry field.</li>
+</ol>
+<p><img alt="" src="_attachments/gitDevBranchFile2NewValueSave2.png" /></p>
+<ol start="26">
+<li>Return to the OpenShift web console for the <strong>yl-l3-ibm-roks-2</strong> cluster (<strong>development</strong>) and click the middle of the <strong>helloworld-app</strong>.</li>
+</ol>
+<p><img alt="" src="_attachments/openShiftWC-SampleAppDevOpenDetails.png" /></p>
+<p>A side window will open with the details of the sample application's deployment.</p>
+<p><img alt="" src="_attachments/openShiftWC-SampleAppDevDeploymentDetails.png" /></p>
+<p>Now observe the two highlighted sections. Several things will be occurring, as seen in the animation below. First <strong>Satellite config</strong>, at its ~5 minute interval, will notice a change in the GitHub repository for the <strong>config-sample-dev</strong> repository. It will then process the YAML files just as it did when the subscription was first run. This will deploy the updated <strong>2-helloworld-deployment.yaml</strong> to the OpenShift cluster. In OpenShift, as illustrated in the animated give below, a new <strong>pod</strong> will be created with executing the new deployment with the changes made. This creates a new instance of the application. Once the new <strong>pod</strong> is running, the old <strong>pod</strong> is deleted. This process prevents downtime.</p>
+<p><img alt="" src="_attachments/openShiftWC-NewDeploymentAnimation.png" /></p>
+<ol start="27">
+<li>Click the route link <img alt="" src="_attachments/openShiftWC-RouteLinkIcon.pnf" /> icon to open the web page front end to the deployed application in the **yl-l3-ibm-roks-2 cluster.</li>
+</ol>
+<p><img alt="" src="_attachments/openShiftWC-SampleAppDeployment.png" /></p>
+<p>Notice the string displayed should reflect the change made from the edit of the <strong>2-helloworld-deployment.yaml</strong>.</p>
+<p><img alt="" src="_attachments/openShiftWC-SampleAppWebPage2.png" /></p>
+<p>As part of the DevOps process, the next step after modifying and testing any changes made is to perform a <strong>pull request</strong> from the <strong>config-sample-dev</strong> to the <strong>config-sample-prod</strong>. Once the <strong>pull request</strong> is <strong>merged</strong> in GitHub, the <strong>Satellite config</strong> for the **se-l3-production cluster group will be processed. </p>
+<ol start="28">
+<li>Switch to the browser tab for the <strong>config-sample-prod</strong> cluster and verify the sample application is still at version <strong>1.1</strong>.</li>
+</ol>
+<p><img alt="" src="_attachments/openShiftWC-SampleAppDeployment.png" /></p>
+<p><img alt="" src="_attachments/openShiftWC-SampleAppWebPage.png" /></p>
+<ol start="29">
+<li>Switch to the GitHub browser tab and click the <strong>Pull request</strong> link.</li>
+</ol>
+<p><img alt="" src="_attachments/github-PullRequestLink.png" /></p>
+<ol start="30">
+<li>Click the <strong>New pull request</strong> button.</li>
+</ol>
+<p><img alt="" src="_attachments/github-NewPullRequestButton.png" /></p>
+<ol start="31">
+<li>Change the <strong>base repository</strong> pull-down to <strong>your</strong> repository.</li>
+</ol>
+<p><img alt="" src="_attachments/github-NewPullRequestBaseRepo.png" /></p>
+<ol start="33">
+<li>Change the <strong>base</strong> branch to <strong>config-sample-prod</strong> and the <strong>compare</strong> branch to **config-sample-dev.</li>
+</ol>
+<p><img alt="" src="_attachments/github-NewPullRequestChangeBaseAndCompare.png" /></p>
+<ol start="34">
+<li>Click the <strong>Create pull request</strong> button.</li>
+</ol>
+<p><img alt="" src="_attachments/github-CreatePullRequestButton.png" /></p>
+<ol start="35">
+<li>Once again, click the <strong>Create pull request</strong> button.</li>
+</ol>
+<p><img alt="" src="_attachments/github-CreatePullRequestButton2.png" /></p>
+<ol start="36">
+<li>Click the <strong>Resolve conflicts</strong> button.</li>
+</ol>
+<p><img alt="" src="_attachments/github-ResolveConflictsButton.png" /></p>
+<h2 id="37">37.</h2>
+<p>Continue to the next section to learn how to complete the IBM Cloud Satellite Level 3 learning plan.</p>
 
 
 
