@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#macro-rendering-error" class="md-skip">
+        <a href="#14-click-the-hamb" class="md-skip">
           Skip to content
         </a>
       
@@ -514,12 +514,39 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
-        
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Sat Config demonstration
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         Sat Config demonstration
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#14-click-the-hamb" class="md-nav__link">
+    14. Click the hamb
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -564,8 +591,21 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#14-click-the-hamb" class="md-nav__link">
+    14. Click the hamb
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -579,20 +619,76 @@
                 
 
 
-<h1 id="macro-rendering-error"><em>Macro Rendering Error</em></h1>
-<p><strong>UndefinedError</strong>: 'ClusterGroups' is undefined</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Traceback (most recent call last):
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  File &quot;/usr/local/lib/python3.9/site-packages/mkdocs_macros/plugin.py&quot;, line 480, in render
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    return md_template.render(**page_variables)
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>  File &quot;/usr/local/lib/python3.9/site-packages/jinja2/environment.py&quot;, line 1301, in render
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    self.environment.handle_exception()
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>  File &quot;/usr/local/lib/python3.9/site-packages/jinja2/environment.py&quot;, line 936, in handle_exception
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    raise rewrite_traceback_stack(source=source)
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>  File &quot;&lt;template&gt;&quot;, line 68, in top-level template code
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>  File &quot;/usr/local/lib/python3.9/site-packages/jinja2/environment.py&quot;, line 485, in getattr
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    return getattr(obj, attribute)
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>jinja2.exceptions.UndefinedError: &#39;ClusterGroups&#39; is undefined
+  <h1>Sat Config demonstration</h1>
+
+<p>Now it is time to demonstrate the power of <strong>Satellite config</strong>. Recall the high-level architecture of the IBM Technology Zone (ITZ) environment as illustrated below.</p>
+<p><img alt="" src="../../3config/_attachments/Sat-ConfigDemoArch.png" /></p>
+<p>In this part of the demonstration, <strong>Satellite config</strong> will be used to:</p>
+<ul>
+<li>deploy the sample application to the <strong>Development</strong> cluster from the <strong>Development</strong> branch of the  GitHub repository</li>
+<li>deploy the sample application to the <strong>Production</strong> cluster from the <strong>Production</strong> branch of the  GitHub repository </li>
+<li>update the <strong>Production</strong> deployment of the application using the GitHub Development and Operations (DevOps) model by updating the <strong>Development</strong> branch in GitHub and initiating GigHub <strong>pull request</strong> of the <strong>Development</strong> branch to the <strong>Production</strong> branch</li>
+</ul>
+<p>To achieve this, <strong>subscriptions</strong> need to be created for both the <strong>Development</strong> and <strong>Production</strong> branches to deploy the application to the respective OpenShift clusters.</p>
+<ol>
+<li>Open the <strong>Configurations</strong> page in the IBM Cloud Portal: <a href="https://cloud.ibm.com/satellite/configuration" target="_blank">https://cloud.ibm.com/satellite/configuration</a.></li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-Configs-All.png" /></p>
+<ol start="2">
+<li>Use the <strong>Search</strong> function to display only the configurations you have control over using the <strong>Namespace</strong> field from the ITZ reservation.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-Configs-Filtered.png" /></p>
+<details class="error">
+<summary>Don't see your configurations?</summary>
+<p>Make sure the 2435442 - ITZ - Satellite is selected in the IBM Cloud Portal. 
+<img alt="" src="../../2provisioning/_attachments/CloudPortal-changeAccounts.png" /></p>
+</details>
+<ol start="3">
+<li>Click the <strong>Configuration</strong> with the <strong>-gitconf-se-l3</strong> extension.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-Configs-Filtered-GitConf.png" /></p>
+<ol start="4">
+<li>Click the <strong>Create Subscription +</strong> button.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-Configs-GitConf.png" /></p>
+<ol start="5">
+<li>Enter the URL for <strong>your</strong> fork of the GitHub repository for the sample code. This is the URL recorded in step 28 in the <strong>Setup GitHub repository</strong> chapter.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-Configs-GitConf-SubURL.png" /></p>
+<p>??? question "Are private GitHub repositories supported?</p>
+<div class="highlight"><pre><span></span><code>Yes, private GitHub repositories are supported. Additional configuration steps are required to create a **secret** on the target cluster that contains a personal access token with at least **read** access to the private repository. Learn more &lt;a href=&quot;https://cloud.ibm.com/docs/satellite?topic=satellite-satcon-manage-gitops&amp;interface=ui#create-satconfig-ui-gitops&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.
 </code></pre></div>
+<ol start="6">
+<li>Enter <strong>config-sample-dev</strong> in the <strong>Branch name</strong> text entry field.</li>
+<li>Enter <strong>deployments/*.yaml</strong> in the <strong>Path</strong> text entry field.</li>
+<li>If not entered automatically, enter <strong>config-sample-dev</strong> in the <strong>Subscription name field</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-Configs-GitConf-SubFields.png" /></p>
+<ol start="9">
+<li>Check the checkbox for the <strong>se-l3-development</strong> cluster group in the table of cluster groups.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-Configs-GitConf-ClusterGroups.png" /></p>
+<p>!!! hint "Enter <strong>se-l3</strong> in the search field to filter the <strong>Cluster Groups</strong> table. </p>
+<ol start="10">
+<li>Click the <strong>Create</strong> button.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-Configs-GitConf-CreateButton.png" /></p>
+<ol start="11">
+<li>Before validating the application is deployed, repeat steps 4 through 10 to create a <strong>Subscription</strong> for the **config-sample-prod as shown below.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-Configs-GitConf-ProdSub.png" /></p>
+<p>Usually, in less than a minute, both subscriptions should show a <strong>Rollout status</strong> of <strong>deployed</strong> as shown below.</p>
+<p><img alt="" src="../_attachments/Sat-Configs-GitConf-SubsDeployed.png" /></p>
+<p>Now, verify the deployments are successful by using the Red Hat OpenShift web console for each of the clusters.</p>
+<ol start="12">
+<li>Click the <strong>se-l3-development</strong> link.</li>
+</ol>
+<p><img alt="" src="../_attachments/Sat-Configs-GitConf-DevSub.png" /></p>
+<ol start="13">
+<li>On the <strong>se-l3-development</strong> subscription details page, click the <strong>yl-l3-ibm-roks-2</strong> link to open the IBM Cloud Portal page for the OpenShift cluster running on IBM Cloud</li>
+</ol>
+<h2 id="14-click-the-hamb">14. Click the hamb</h2>
+<p>Continue to the next section to learn how to complete the IBM Cloud Satellite Level 3 learning plan.</p>
 
 
 
