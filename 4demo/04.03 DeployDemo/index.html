@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#14-click-the-hamb" class="md-skip">
+        <a href="#macro-syntax-error" class="md-skip">
           Skip to content
         </a>
       
@@ -514,39 +514,12 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Satellite Config demonstration
-          <span class="md-nav__icon md-icon"></span>
-        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         Satellite Config demonstration
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#14-click-the-hamb" class="md-nav__link">
-    14. Click the hamb
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -591,21 +564,8 @@
   
   
   
+    
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#14-click-the-hamb" class="md-nav__link">
-    14. Click the hamb
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -619,76 +579,10 @@
                 
 
 
-  <h1>Satellite Config demonstration</h1>
-
-<p>Now it is time to demonstrate the power of <strong>Satellite config</strong>. Recall the high-level architecture of the IBM Technology Zone (ITZ) environment as illustrated below.</p>
-<p><img alt="" src="../../3config/_attachments/Sat-ConfigDemoArch.png" /></p>
-<p>In this part of the demonstration, <strong>Satellite config</strong> will be used to:</p>
-<ul>
-<li>deploy the sample application to the <strong>Development</strong> cluster from the <strong>Development</strong> branch of the  GitHub repository</li>
-<li>deploy the sample application to the <strong>Production</strong> cluster from the <strong>Production</strong> branch of the  GitHub repository </li>
-<li>update the <strong>Production</strong> deployment of the application using the GitHub Development and Operations (DevOps) model by updating the <strong>Development</strong> branch in GitHub and initiating GigHub <strong>pull request</strong> of the <strong>Development</strong> branch to the <strong>Production</strong> branch</li>
-</ul>
-<p>To achieve this, <strong>subscriptions</strong> need to be created for both the <strong>Development</strong> and <strong>Production</strong> branches to deploy the application to the respective OpenShift clusters.</p>
-<ol>
-<li>Open the <strong>Configurations</strong> page in the IBM Cloud Portal: <a href="https://cloud.ibm.com/satellite/configuration" target="_blank">https://cloud.ibm.com/satellite/configuration</a.></li>
-</ol>
-<p><img alt="" src="../_attachments/Sat-Configs-All.png" /></p>
-<ol start="2">
-<li>Use the <strong>Search</strong> function to display only the configurations you have control over using the <strong>Namespace</strong> field from the ITZ reservation.</li>
-</ol>
-<p><img alt="" src="../_attachments/Sat-Configs-Filtered.png" /></p>
-<details class="error">
-<summary>Don't see your configurations?</summary>
-<p>Make sure the 2435442 - ITZ - Satellite is selected in the IBM Cloud Portal. 
-<img alt="" src="../../2provisioning/_attachments/CloudPortal-changeAccounts.png" /></p>
-</details>
-<ol start="3">
-<li>Click the <strong>Configuration</strong> with the <strong>-gitconf-se-l3</strong> extension.</li>
-</ol>
-<p><img alt="" src="../_attachments/Sat-Configs-Filtered-GitConf.png" /></p>
-<ol start="4">
-<li>Click the <strong>Create Subscription +</strong> button.</li>
-</ol>
-<p><img alt="" src="../_attachments/Sat-Configs-GitConf.png" /></p>
-<ol start="5">
-<li>Enter the URL for <strong>your</strong> fork of the GitHub repository for the sample code. This is the URL recorded in step 28 in the <strong>Setup GitHub repository</strong> chapter.</li>
-</ol>
-<p><img alt="" src="../_attachments/Sat-Configs-GitConf-SubURL.png" /></p>
-<p>??? question "Are private GitHub repositories supported?</p>
-<div class="highlight"><pre><span></span><code>Yes, private GitHub repositories are supported. Additional configuration steps are required to create a **secret** on the target cluster that contains a personal access token with at least **read** access to the private repository. Learn more &lt;a href=&quot;https://cloud.ibm.com/docs/satellite?topic=satellite-satcon-manage-gitops&amp;interface=ui#create-satconfig-ui-gitops&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.
-</code></pre></div>
-<ol start="6">
-<li>Enter <strong>config-sample-dev</strong> in the <strong>Branch name</strong> text entry field.</li>
-<li>Enter <strong>deployments/*.yaml</strong> in the <strong>Path</strong> text entry field.</li>
-<li>If not entered automatically, enter <strong>config-sample-dev</strong> in the <strong>Subscription name field</strong>.</li>
-</ol>
-<p><img alt="" src="../_attachments/Sat-Configs-GitConf-SubFields.png" /></p>
-<ol start="9">
-<li>Check the checkbox for the <strong>se-l3-development</strong> cluster group in the table of cluster groups.</li>
-</ol>
-<p><img alt="" src="../_attachments/Sat-Configs-GitConf-ClusterGroups.png" /></p>
-<p>!!! hint "Enter <strong>se-l3</strong> in the search field to filter the <strong>Cluster Groups</strong> table. </p>
-<ol start="10">
-<li>Click the <strong>Create</strong> button.</li>
-</ol>
-<p><img alt="" src="../_attachments/Sat-Configs-GitConf-CreateButton.png" /></p>
-<ol start="11">
-<li>Before validating the application is deployed, repeat steps 4 through 10 to create a <strong>Subscription</strong> for the **config-sample-prod as shown below.</li>
-</ol>
-<p><img alt="" src="../_attachments/Sat-Configs-GitConf-ProdSub.png" /></p>
-<p>Usually, in less than a minute, both subscriptions should show a <strong>Rollout status</strong> of <strong>deployed</strong> as shown below.</p>
-<p><img alt="" src="../_attachments/Sat-Configs-GitConf-SubsDeployed.png" /></p>
-<p>Now, verify the deployments are successful by using the Red Hat OpenShift web console for each of the clusters.</p>
-<ol start="12">
-<li>Click the <strong>se-l3-development</strong> link.</li>
-</ol>
-<p><img alt="" src="../_attachments/Sat-Configs-GitConf-DevSub.png" /></p>
-<ol start="13">
-<li>On the <strong>se-l3-development</strong> subscription details page, click the <strong>yl-l3-ibm-roks-2</strong> link to open the IBM Cloud Portal page for the OpenShift cluster running on IBM Cloud</li>
-</ol>
-<h2 id="14-click-the-hamb">14. Click the hamb</h2>
-<p>Continue to the next section to learn how to complete the IBM Cloud Satellite Level 3 learning plan.</p>
+<h1 id="macro-syntax-error"><em>Macro Syntax Error</em></h1>
+<p><em>Line 104 in Markdown file:</em> <strong>unexpected '}'</strong> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">Return</span> <span class="n">to</span> <span class="n">the</span> <span class="n">browser</span> <span class="n">page</span> <span class="k">for</span> <span class="n">the</span> <span class="n">IBM</span> <span class="n">Cloud</span> <span class="n">Portal</span> <span class="ow">and</span> <span class="n">repeat</span> <span class="n">steps</span> <span class="mi">12</span> <span class="n">through</span> <span class="mi">18</span> <span class="n">using</span> <span class="n">the</span> <span class="o">**</span><span class="p">{{</span> <span class="n">sat</span><span class="o">.</span><span class="n">cluster_name</span> <span class="p">}</span><span class="o">**</span> <span class="n">cluster</span> <span class="n">which</span> <span class="ow">is</span> <span class="n">the</span> <span class="n">OpenShift</span> <span class="n">cluster</span> <span class="n">running</span> <span class="ow">in</span> <span class="n">the</span> <span class="o">**</span><span class="n">production</span><span class="o">**</span> <span class="n">environment</span><span class="o">.</span> 
+</code></pre></div></p>
 
 
 
