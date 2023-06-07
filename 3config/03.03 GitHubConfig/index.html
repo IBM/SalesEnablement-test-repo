@@ -580,7 +580,7 @@
 <img alt="" src="../_attachments/Sat-ConfigProdClusterGroup.png" /></p>
 <p>Remember, cluster groups can contain on or more clusters, but for this activity the size of each is a single cluster. In an actual client environment, there could be several clusters in both the development and test groups and each could be in different IBM Cloud datacenters or Satellite Locations any where in the world.</p>
 <p>Take a few minutes to explore the Cluster and Cluster groups pages in the IBM Cloud Portal.</p>
-<p>Recall, in the IBM Technology Zone (ITZ) environment used in this activity only limited access is provided to users. Specific to <strong>Satellite config</strong>, users are NOT given permissions to create new clusters, cluster groups, or configurations. As seen above, the 2 cluster groups have already been configured. Additionally, who configurations have also been created for each user. The name of these groups include a unique user identifier (as described in the previous chapter) and a suffix of <strong>-ns-se-l3</strong> and <strong>gitconf-se-l3</strong>. </p>
+<p>Recall, in the IBM Technology Zone (ITZ) environment used in this activity only limited access is provided to users. Specific to <strong>Satellite config</strong>, users are NOT given permissions to create new clusters, cluster groups, or configurations. As seen above, the 2 cluster groups have already been configured. Additionally, two configurations have also been created for each user. The name of these configurations include a unique user identifier (as described in the previous chapter) and a suffix of <strong>-se-l3</strong> and <strong>gitconf-se-l3</strong>. </p>
 <ol>
 <li>
 <p>If not already open, open a browser window to the <a href="https://cloud.ibm.com/satellite/configuration" target="_blank">Configurations</a> page under IBM Cloud Satellite.</p>
@@ -594,7 +594,7 @@
 <li>Click your unique configuration with the <strong>-se-l3</strong> extension in the table.</li>
 </ol>
 <p><img alt="" src="../_attachments/Sat-ConfigMyConfigs-Click-SEL3.png" /></p>
-<p>The <strong>ns-se-l3</strong> configuration utilizes the <em>Direct Upload</em> model of <strong>Satellite config</strong>. It contains a single version that creates a <strong>namespace</strong> (referred to as a <strong>Project</strong> within OpenShift) resource in OpenShift if it does not already exist. The YAML for this version looks like:</p>
+<p>The <em>-se-l3</em><em> configuration utilizes the </em>Direct Upload<em> model of </em><em>Satellite config</em><em>. It contains a single version that creates a </em><em>namespace</em><em> (referred to as a </em><em>Project</em>* within OpenShift) resource in OpenShift if it does not already exist. The YAML for this version looks like:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nt">apiversion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">project.openshift.io/v1</span><span class="w"></span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;2700039nft-se-l3&quot;</span><span class="w"></span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="nt">displayName</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">2700039nft-se-l3</span><span class="w"></span>

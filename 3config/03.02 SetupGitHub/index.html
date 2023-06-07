@@ -693,12 +693,13 @@
 <p><img alt="" src="../_attachments/githubPRChangeBase.png" /></p>
 <div class="admonition warning">
 <p class="admonition-title">Select <strong>your</strong> repository fork!!!</p>
+<p>The default selection is the original IBM/satellite-config-example. You must select <strong>your</strong> repository instead of the default.</p>
 </div>
 <ol start="22">
-<li>Change the <strong>base</strong> field from <strong>main</strong> to <strong>config-sample-prod</strong> and the <strong>compare</strong> field from <strong>main</strong> to <strong>config-sample-dev</strong>.</li>
+<li>Change the <strong>base</strong> field from <strong>main</strong> to <strong><em>*config-sample-prod</em></strong><em> and the </em><em>compare</em><em> field from </em><em>main</em><em> to </em><strong><em>config-sample-dev</em></strong>*.</li>
 </ol>
 <p><img alt="" src="../_attachments/githubPRBaseAndCompare.png" /></p>
-<p>This will tell GitHub to pull all changes in the <strong>dev</strong> branch into the <strong>prod</strong> branch.</p>
+<p>This will tell GitHub to pull all changes in the <strong><em>*config-sample-dev</em></strong><em> branch into the </em><em>config-sample-prod</em>* branch.</p>
 <ol start="23">
 <li>Verify the pull request can be merged, and click <strong>Create pull request</strong>.</li>
 </ol>
@@ -723,6 +724,10 @@
 <p>Notice the status above the table.  It should reflect the recent merge of the pull request. You can also view the changes to each file by clicking the <strong>deployments</strong> directory and viewing the individual YAML files.</p>
 <p><img alt="" src="../_attachments/githubVerifyProdListing.png" /></p>
 <p>To summarize, at this point you have copied (forked) sample code from one GitHub repository to your personal repository and updated the associated YAML files that will be used to deploy the sample application for both the dev and prod branches.  </p>
+<ol start="28">
+<li>Before proceeding, copy and record the URL for you repository. This URL will be needed later. The URL will be in the format: <strong>https://github.com/<your git user ID>/satellite-config-example</strong>. The user ID and last part of the URL appears in GitHub as illustrated below:</li>
+</ol>
+<p><img alt="" src="_attachments/githubURL.png" /></p>
 <p>Next, learn how to use IBM Cloud Satellite Config to deploy the web application the the OpenShift clusters managed by IBM Cloud Satellite.</p>
 
 
