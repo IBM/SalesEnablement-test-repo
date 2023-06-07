@@ -67,11 +67,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#37" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -515,38 +510,9 @@
       
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Satellite Config demonstration
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         Satellite Config demonstration
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#37" class="md-nav__link">
-    37.
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -591,21 +557,6 @@
   
   
   
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#37" class="md-nav__link">
-    37.
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -773,7 +724,7 @@
 </ol>
 <p><img alt="" src="../_attachments/openShiftWC-SampleAppDeployment.png" /></p>
 <p>Notice the string displayed should reflect the change made from the edit of the <strong>2-helloworld-deployment.yaml</strong>.</p>
-<p><img alt="" src="_attachments/openShiftWC-SampleAppWebPage2.png" /></p>
+<p><img alt="" src="../_attachments/openShiftWC-SampleAppWebPage2.png" /></p>
 <p>As part of the DevOps process, the next step after modifying and testing any changes made is to perform a <strong>pull request</strong> from the <strong>config-sample-dev</strong> to the <strong>config-sample-prod</strong>. Once the <strong>pull request</strong> is <strong>merged</strong> in GitHub, the <strong>Satellite config</strong> for the **se-l3-production cluster group will be processed. </p>
 <ol start="28">
 <li>Switch to the browser tab for the <strong>config-sample-prod</strong> cluster and verify the sample application is still at version <strong>1.1</strong>.</li>
@@ -787,7 +738,7 @@
 <ol start="30">
 <li>Click the <strong>New pull request</strong> button.</li>
 </ol>
-<p><img alt="" src="_attachments/github-NewPullRequestButton.png" /></p>
+<p><img alt="" src="../_attachments/github-NewPullRequestButton.png" /></p>
 <ol start="31">
 <li>Change the <strong>base repository</strong> pull-down to <strong>your</strong> repository.</li>
 </ol>
@@ -805,10 +756,28 @@
 </ol>
 <p><img alt="" src="../_attachments/github-CreatePullRequestButton2.png" /></p>
 <ol start="36">
-<li>Click the <strong>Resolve conflicts</strong> button.</li>
+<li>Click the <strong>Merge pull request</strong> button.</li>
 </ol>
-<p><img alt="" src="../_attachments/github-ResolveConflictsButton.png" /></p>
-<h2 id="37">37.</h2>
+<p><img alt="" src="../_attachments/github-MergePullRequest.png" /></p>
+<ol start="37">
+<li>Click the <strong>Confirm merge</strong> button.</li>
+</ol>
+<p><img alt="" src="../_attachments/github-ConfirmMerge.png" /></p>
+<p>Now that the merge has been performed in GitHub, the changes will be propagated to the se-l3-production cluster group via the <strong>Satellite config</strong> subscription.</p>
+<ol start="38">
+<li>Return to the OpenShift web console for the <strong>yl-l3-vmware-roks-1</strong> cluster (<strong>production</strong>) and click the middle of the <strong>helloworld-app</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/openShiftWC-SampleAppDevOpenDetails.png" /></p>
+<p>A side window will open with the details of the sample application's deployment.</p>
+<p><img alt="" src="../_attachments/openShiftWC-SampleAppDevDeploymentDetails.png" /></p>
+<p>Just as observed with the <strong>development</strong> copy of the sample application, the <strong>production</strong> copy will be updated. A new pod will be created and the old one will be removed. It may take a full 5 minutes before the update occurs.  </p>
+<ol start="39">
+<li>Click the route link <img alt="" src="../_attachments/openShiftWC-RouteLinkIcon.png" /> icon to open the web page front end to the deployed application in the **yl-l3-vmware-roks-1 cluster.</li>
+</ol>
+<p><img alt="" src="../_attachments/openShiftWC-SampleAppDeployment.png" /></p>
+<p>Notice the string displayed should reflect the change made from the edit of the <strong>2-helloworld-deployment.yaml</strong>.</p>
+<p><img alt="" src="../_attachments/openShiftWC-SampleAppWebPage2.png" /></p>
+<p>That concludes to demonstration of <strong>Satellite config</strong> and how it can be used in conjunction with GitHub and a DevOps process.</p>
 <p>Continue to the next section to learn how to complete the IBM Cloud Satellite Level 3 learning plan.</p>
 
 
