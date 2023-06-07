@@ -120,3 +120,7 @@ extra:
   clusterGroups:
     development: se-l3-development
     production: se-l3-production
+
+  git:
+    ProdBranch: config-sample-prod
+    DevBranch: config-sample-dev
