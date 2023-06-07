@@ -705,7 +705,7 @@
 <p><img alt="" src="../_attachments/openShiftWC-NamespaceMenu.png" /></p>
 <p>In the topology view of <strong>your</strong> namespace, the sample <strong>helloworld-app</strong> deployment should be shown. </p>
 <ol start="18">
-<li>Click the route link <img alt="" src="_attachments/openShiftWC-RouteLinkIcon.pnf" /> icon to open the web page front end to the deployed application.</li>
+<li>Click the route link <img alt="" src="../_attachments/openShiftWC-RouteLinkIcon.png" /> icon to open the web page front end to the deployed application.</li>
 </ol>
 <p><img alt="" src="../_attachments/openShiftWC-SampleAppDeployment.png" /></p>
 <p>A new browser tab or window should open to the web page front end of the deployed application. Which will look like the following:</p>
@@ -767,9 +767,9 @@
 <p>A side window will open with the details of the sample application's deployment.</p>
 <p><img alt="" src="../_attachments/openShiftWC-SampleAppDevDeploymentDetails.png" /></p>
 <p>Now observe the two highlighted sections. Several things will be occurring, as seen in the animation below. First <strong>Satellite config</strong>, at its ~5 minute interval, will notice a change in the GitHub repository for the <strong>config-sample-dev</strong> repository. It will then process the YAML files just as it did when the subscription was first run. This will deploy the updated <strong>2-helloworld-deployment.yaml</strong> to the OpenShift cluster. In OpenShift, as illustrated in the animated give below, a new <strong>pod</strong> will be created with executing the new deployment with the changes made. This creates a new instance of the application. Once the new <strong>pod</strong> is running, the old <strong>pod</strong> is deleted. This process prevents downtime.</p>
-<p><img alt="" src="_attachments/openShiftWC-NewDeploymentAnimation.png" /></p>
+<p><img alt="" src="../_attachments/openShiftWC-NewDeploymentAnimation.gif" /></p>
 <ol start="27">
-<li>Click the route link <img alt="" src="_attachments/openShiftWC-RouteLinkIcon.pnf" /> icon to open the web page front end to the deployed application in the **yl-l3-ibm-roks-2 cluster.</li>
+<li>Click the route link <img alt="" src="../_attachments/openShiftWC-RouteLinkIcon.png" /> icon to open the web page front end to the deployed application in the **yl-l3-ibm-roks-2 cluster.</li>
 </ol>
 <p><img alt="" src="../_attachments/openShiftWC-SampleAppDeployment.png" /></p>
 <p>Notice the string displayed should reflect the change made from the edit of the <strong>2-helloworld-deployment.yaml</strong>.</p>
