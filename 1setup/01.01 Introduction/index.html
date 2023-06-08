@@ -572,14 +572,11 @@
 
   <h1>The environment</h1>
 
-<p>IBM Cloud Satellite is an extension of the IBM Cloud that can run inside a client's data center, at the edge, in public clouds, or any location of the client’s choice. IBM Cloud Satellite is a managed, distributed cloud solution that delivers cloud services, Application Programming Interfaces (APIs), access policies, security controls, and compliance.</p>
-<p>This demonstration environment has a dual purpose. First, it is meant to educate you on IBM Cloud Satellite and how to demonstrate some of the capabilities of IBM Cloud Satellite to clients. Second, the environment can be used for actual client demonstrations. After you are familiar with the content, have practice performing a demonstration, get in front of a client and show the power of IBM Cloud Satellite.</p>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>The focus of the demonstration is on the Infrastructure as a Service capability of IBM Cloud Satellite and not on the specific services deployed to a Satellite Location (for example, Red Hat OpenShift on IBM Cloud).</p>
-<p>Provisioning a Satellite Location on a public cloud like AWS, is automated and typically takes 25-30 minutes depending on the cloud provider, configuration of the servers being used, and other factors. Deploying Red Hat OpenShift on IBM Cloud to the Satellite Location usually takes another 30-45 minutes. In addition, to easily access resources on those servers you would need to either create a Virtual Private Network or manually make network configuration changes. This can be time consuming and error prone and will typically take longer than most clients are willing to sit through for a demonstration. In this demonstration asset, an IBM Cloud Satellite environment has already been provisioned for you.</p>
-</div>
-<p><strong>In this demonstration environment, you will NOT have full access to the IBM Cloud Satellite capabilities.</strong> Your user ID will be restricted to specific capabilities. You will <strong>not</strong> have permissions to:</p>
+<p>IBM Cloud Satellite is an extension of IBM Cloud that can run inside a client's data center, at the edge, in public clouds, or any location of the client’s choice. IBM Cloud Satellite is a managed, distributed cloud solution that delivers cloud services, Application Programming Interfaces (APIs), access policies, security controls, and compliance.</p>
+<p>This activity utilizes a <strong>shared</strong> IBM Technology Zone (ITZ) demonstration environment. The environment consists of a single IBM Cloud Satellite Location and two (2) Red Hat OpenShift on IBM Cloud clusters as illustrated below.</p>
+<p><img alt="" src="../../3config/_attachments/Sat-ConfigDemoArch.png" /></p>
+<p>Everyone taking the IBM Cloud Satellite Level 3 course utilizes this single, shared ITZ environment.</p>
+<p><strong>In this demonstration environment, full access to the IBM Cloud Satellite capabilities is NOT provided.</strong> Users are restricted to specific capabilities controlled by IBM Cloud Identify Access and Management (IAM) roles and policies. Users will <strong>NOT</strong> have permission to:</p>
 <ul>
 <li>create new Satellite Locations, Clusters, Cluster Groups, or Configurations</li>
 <li>deploy new IBM Cloud Services (for example: IBM Cloud Databases, Key Protect, etc.)</li>
@@ -588,6 +585,11 @@
 <p class="admonition-title">Warning</p>
 <p>Attempting to perform an action that you do not have permissions for will result in an error message like the one below. This is not an issue with the IBM Cloud or IBM Cloud Satellite, rather a restriction of the demo environment and the permissions assigned to users.</p>
 <p><img alt="" src="../_attachments/ErrorMessage.png" /></p>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>The focus of the demonstration is on the Infrastructure as a Service capability of IBM Cloud Satellite and not on the specific services deployed to a Satellite Location (for example, Red Hat OpenShift on IBM Cloud).</p>
+<p>Provisioning a Satellite Location on a public cloud like AWS, is automated and typically takes 25-30 minutes depending on the cloud provider, configuration of the servers being used, and other factors. Deploying Red Hat OpenShift on IBM Cloud to the Satellite Location usually takes another 30-45 minutes. In addition, to easily access resources on those servers you would need to either create a Virtual Private Network or manually make network configuration changes. This can be time consuming and error prone and will typically take longer than most clients are willing to sit through for a demonstration. In this demonstration asset, an IBM Cloud Satellite environment has already been provisioned for you.</p>
 </div>
 
 

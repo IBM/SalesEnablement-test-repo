@@ -578,15 +578,15 @@
 <li>Clusters</li>
 </ul>
 <p>The previous chapter discussed deploying a Red Hat OpenShift on IBM Cloud cluster to a Satellite Location and how during that process the option to enable <strong>Satellite Config</strong> to access that cluster. In addition, IBM Cloud Satellite provides the ability for <strong>Satellite Config</strong> to access other OpenShift cluster's running on IBM Cloud. This is accomplished by manually registering the cluster with <strong>Satellite Config</strong>. </p>
-<p>Registering clusters is a two step process. The first is to register the cluster with <strong>Satellite Config</strong> through the IBM Cloud Portal or command line interface. This will create a record in the <strong>Satellite Config</strong> configuration data store (ConfigMap) and generate a command line that will need to be executed on the OpenShift cluster. That is step 2. A user with administrative privileges on the OpenShit cluster will need to execute the generated command line. The command creates the razeedeploy project, custom resource definitions, and Role-based access control (RBAC) policies on the cluster that are required to make the cluster visible to Satellite Config.</p>
+<p>Registering clusters is a two step process. The first is to register the cluster with <strong>Satellite Config</strong> through the IBM Cloud Portal or command line interface. This will create a record in the <strong>Satellite Config</strong> configuration data store (ConfigMap) and generate a command line that will need to be executed on the OpenShift cluster. Step 2, a user with administrative privileges on the OpenShit cluster will need to execute the generated command line. The command creates the razeedeploy project, custom resource definitions, and Role-based access control (RBAC) policies on the cluster that are required to make the cluster visible to Satellite Config.</p>
 <ul>
 <li>Cluster groups</li>
 </ul>
-<p>A cluster group specifies a set of OpenShift clusters that are registered with the Satellite Config. A cluster group consists of one or more registered clusters that can reside in different Satellite Locations or IBM Cloud.</p>
+<p>A cluster group specifies a set of OpenShift clusters that are registered with Satellite Config. A cluster group consists of one or more registered clusters that can reside in different Satellite Locations or IBM Cloud.</p>
 <ul>
 <li>Configuration</li>
 </ul>
-<p>A Satellite configuration, also referred to as <strong>Conifg</strong>, is a continuous delivery tool that is used to consistently roll out versions of Kubernetes resources across cluster groups. For more information, see <a href="https://cloud.ibm.com/docs/satellite?topic=satellite-setup-clusters-satconfig" target="_blank">Deploying Red Hat OpenShift resources across clusters with Satellite configurations</a>.</p>
+<p>A Satellite configuration, also referred to as <strong>Config</strong>, is a continuous delivery tool that is used to consistently roll out versions of Kubernetes resources across cluster groups. For more information, see <a href="https://cloud.ibm.com/docs/satellite?topic=satellite-setup-clusters-satconfig" target="_blank">Deploying Red Hat OpenShift resources across clusters with Satellite configurations</a>.</p>
 <ul>
 <li>Version</li>
 </ul>
@@ -594,14 +594,15 @@
 <ul>
 <li>Subscription</li>
 </ul>
-<p>A Satellite subscription is created for a <strong>Config</strong> and specifies which version of the Kubernetes resource that is to be deployed to one or more cluster groups. </p>
+<p>A Satellite subscription is created for a <strong>Config</strong> and specifies which version of the Kubernetes resource is to be deployed to one or more cluster groups. </p>
 <ul>
 <li>Source repository</li>
 </ul>
 <p>A source repository can be thought of as a datastore for different resource definitions (like a version) of YAML files (and more). <strong>Satellite Config</strong> supports both <a href="https://github.com" target="_blank">GitHub</a> and <a href="https://gitlab.com" target="_blank">GitLab</a> as source repositories. In this activity, GitHub is used as the source repository.</p>
-<p><strong>Satellite Config</strong> supports to models for creating configurations. One is a <em>GitOps-based</em> configuration which utilizes a source repository. GitOps is an operational framework that takes Development and Operations (DevOps) best practices used for application development such as version control, collaboration, compliance, and Continous Integration/Continuous Deployment (CI/CD), and applies them to infrastructure automation. The other is a <em>Direct Upload</em> model where a version file is created or uploaded directly into the configuration via the IBM Cloud Portal or command line utilities.</p>
-<p>In this activity, the focus will be on the GitOps-based model. With this model, <strong>Satellite Config</strong> enables clusters specified in a subscription to a configuration to automatically pull changes directly from the source repository (GitHub in this activity). Resources stay in the source repository and automatically deploy when the referenced source changes. This process is illustrated in the diagram below.</p>
+<p><strong>Satellite Config</strong> supports two models for creating configurations. One is a <em>GitOps-based</em> configuration which utilizes a source repository. GitOps is an operational framework that takes Development and Operations (DevOps) best practices used for application development such as version control, collaboration, compliance, and Continuous Integration/Continuous Deployment (CI/CD), and applies them to infrastructure automation. The other is a <em>Direct Upload</em> model where a version file is created or uploaded directly into the configuration via the IBM Cloud Portal or command line utilities.</p>
+<p>In this activity, the focus will be on the GitOps-based model. Subscriptions will be created in a configuration that will deploy resources stored in GitHub. After an initial deployment, if the resources change in GitHub, they are automatically deployed by <strong>Satellite Config</strong>. This process is illustrated in the diagram below.</p>
 <p><img alt="" src="../_attachments/Sat-ConfigGitOpsFlow.png" /></p>
+<p>This demonstration using GitHub is borrowed from the <a href="https://cloud.ibm.com/docs/satellite?topic=satellite-begin-sat-config-tutorial&interface=ui" target="_blank">Deploying apps to clusters with Satellite Config</a> tutorial in the IBM Cloud Satellite documentation.</p>
 <p>Before creating a configuration using the <strong>Satellite Config</strong> GitOps model, a source repository will need to be created along with a sample application.</p>
 
 
