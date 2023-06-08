@@ -98,6 +98,7 @@ extra:
   tz_environment:
     name: "IBM Cloud Satellite - Level 3"
     collectionURL: "https://techzone.ibm.com/collection/ibm-cloud-satellite-level-3"
+    environmentName: "DO NOT USE AT THIS TIME - Test Demonstration Environment"
     environmentURL: "https://techzone.ibm.com/my/reservations/create/647f301a17fe470017596255"
     myresURL: "https://techzone.ibm.com/my/reservations"
     uuid_label: "Demo-UUID"
