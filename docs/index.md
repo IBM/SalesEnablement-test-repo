@@ -43,7 +43,7 @@ Throughout the lab, you will see images that are examples of what you should be 
 
 ![](_attachments/Usage-Clipboard.png)
 
-<!-- Additionally, there are several "click-thru" demonstrations.  Links to click-thru demonstrations will open in a new browser window or tab with a screen similar to the image below.
+<!-- Additionally, there are several "click-thru" demonstrations. Links to click-thru demonstrations will open in a new browser window or tab with a screen similar to the image below.
 
 ![](_attachments/ClickThruStartPage.png)
 
