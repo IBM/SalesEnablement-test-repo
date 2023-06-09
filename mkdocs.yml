@@ -29,6 +29,7 @@ nav:
     - 'Introduction' : '4demo/04.01 Introduction.md'
     - 'High level demonstration of IBM Cloud Satellite' : '4demo/04.02 GeneralDemo.md'
     - 'Satellite Config demonstration' : '4demo/04.03 DeployDemo.md'
+    - 'Watch a recorded demonstration example' : '4demo/04.04 WatchDemo.md'
   - Next Steps: NextSteps.md
 
 
