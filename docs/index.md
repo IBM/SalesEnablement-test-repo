@@ -22,7 +22,7 @@ There are 4 parts to this demonstration guide as seen in the left hand navigatio
 
    In the final section, learn how to demonstrate to client's some of the value of IBM Cloud Satellite. Guidance on performing a client demonstration using the shared ITZ environment is provided that illustrates how IBM Cloud Satellite and Satellite-enabled services are provisioned, and how Satellite Config can be used to deploy and manage Kubernetes resources easily and consistently.
 
-Some content will be a labeled as **Required for technical sales only**. However, individuals in sales roles are encouraged to complete these sections and include them in their demonstrations. Step-by-step directions are provided, but some technical knowledge and experience with source control systems like GitHub and basic Yet Another Markup Language (YAML) is assumed.
+Some content will be labeled as **Required for technical sales only**. However, individuals in sales roles are encouraged to complete these sections and include them in their demonstrations. Step-by-step directions are provided, but some technical knowledge and experience with source control systems like GitHub and basic Yet Another Markup Language (YAML) is assumed.
 
 !!! important "Important"
 
