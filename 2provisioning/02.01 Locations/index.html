@@ -600,13 +600,17 @@
 <p>The image below is from the <a href="https://cloud.ibm.com/satellite/locations/create" target="_blank">IBM Cloud Portal</a>. There are tiles that provide a wizard-based creation process for 3rd party cloud providers as well as on-premises, edge, and advanced configurations. </p>
 <p><img alt="" src="../_attachments/Sat-CreateLocation.png" /></p>
 <h1 id="provisioning-a-location-in-3rd-party-cloud-provider">Provisioning a location in 3rd party cloud provider</h1>
+<div class="admonition reminder">
+<p class="admonition-title">Permission to perform these steps are not provided in the ITZ demonstration environment.</p>
+<p>The steps are detailed here to completeness. If users have their own AWS account, they can follow along; however, any charges incurred are the responsibility of the user. Users should stop before actually provisioning resources. </p>
+</div>
 <p>The Terraform-based creation wizards for 3rd party cloud providers first prompt users for credentials for the users account in the 3rd party cloud. An example is shown below for Amazon Web Services (AWS).</p>
 <p><img alt="" src="../_attachments/Sat-AWSCreateLocationCredentials.png" /></p>
 <p>Once credentials are provided, prompts are provided for completing the required information to provision the Location. These include:</p>
 <ul>
 <li>The data center or region in the 3rd party provider where the Location should be created.</li>
-<li>The number and hardware configuration (CPU, Memory, Storage) of the virtual servers that will be provisioned ofr the location.</li>
-<li>And the IBM Cloud Object Storage bucket that will used to store information about the Location.</li>
+<li>The number and hardware configuration (CPU, Memory, Storage) of the virtual servers that will be provisioned for the location.</li>
+<li>And the IBM Cloud Object Storage bucket that will be used to store information about the Location. ofr </li>
 </ul>
 <p><img alt="" src="../_attachments/Sat-AWSCreateLocationDetails.png" /></p>
 <p>The video below shows the provisioning of an IBM Cloud Satellite Location in AWS. The video has been edited to minimize the viewing time and does not reflect the actual provisioning time of a Satellite Location. The actual provisioning time (from clicking "Create location" to the Location being ready) will vary. When this video was created, it took approximately 25 minutes for the 12 hosts to be provisioned in AWS and configured as a Satellite Location.</p>
