@@ -8,7 +8,7 @@ To complete the IBM Cloud Satellite Level 3 badge, do one of the following:
 
 - **Business Partners:**
     
-    Return the the IBM Cloud Satellite Level 3 learning plan in IBM Training Digital Learning Platform (learn.ibm.com) and mark the IBM Cloud Satellite Demonstration Guide activity complete. Next, you must take a very short, 5 question quiz regarding the activity just completed. Upon a passing the quiz, you will have completed the requirements for the IBM Cloud Satellite Level 3 badge. 
+    Return the the IBM Cloud Satellite Level 3 learning plan in IBM Training Digital Learning Platform (learn.ibm.com) and mark the IBM Cloud Satellite Demonstration Guide activity complete. Next, you must take a very short, 5 question quiz regarding the activity just completed. Upon passing the quiz, you will have completed the requirements for the IBM Cloud Satellite Level 3 badge. 
 
 Think you've recorded a great demonstration based upon this activity and want to share it with others? Please share with the author of this activity (email and Slack addresses are shown below) for possible inclusion in updates to this demonstration guide.
 
