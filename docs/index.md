@@ -16,7 +16,7 @@ There are 4 parts to this demonstration guide as seen in the left hand navigatio
 
  - Part 3 - Satellite Config
 
-   Learn about Satellite *Config* and how it is used to easily deploy Kubernetes resources to RedHat OpenShift clusters maintained in a GitHub repository. 
+   Learn about Satellite *Config* and how it is used to easily deploy Kubernetes resources to Red Hat OpenShift clusters maintained in a GitHub repository. 
 
  - Part 4 - The demonstration
 
