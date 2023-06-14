@@ -739,6 +739,10 @@
 <p><img alt="" src="../_attachments/openShiftWC-SampleAppDeployment.png" /></p>
 <p>Notice the string displayed should reflect the change made from the edit of the <strong>2-helloworld-deployment.yaml</strong>.</p>
 <p><img alt="" src="../_attachments/openShiftWC-SampleAppWebPage2.png" /></p>
+<details class="error">
+<summary>Still seeing 1.1?</summary>
+<p>Make sure at least 5 minutes has passed from when the code was changed in GitHub. After 5 minutes, click the deployment route link in the OpenShift web console, or refresh the browser page where teh Hello World application is running.</p>
+</details>
 <p>As part of the DevOps process, the next step after modifying and testing any changes made is to perform a <strong>pull request</strong> from the <strong>config-sample-dev</strong> to the <strong>config-sample-prod</strong>. Once the <strong>pull request</strong> is <strong>merged</strong> in GitHub, the <strong>Satellite config</strong> for the **se-l3-production cluster group will be processed. </p>
 <ol start="28">
 <li>Switch to the browser tab for the <strong>config-sample-prod</strong> cluster and verify the sample application is still at version <strong>1.1</strong>.</li>
@@ -784,7 +788,7 @@
 <p><img alt="" src="../_attachments/openShiftWC-SampleAppDevOpenDetails.png" /></p>
 <p>A side window will open with the details of the sample application's deployment.</p>
 <p><img alt="" src="../_attachments/openShiftWC-SampleAppDevDeploymentDetails.png" /></p>
-<p>Just as observed with the <strong>development</strong> copy of the sample application, the <strong>production</strong> copy will be updated. A new pod will be created and the old one will be removed. It may take a full 5 minutes before the update occurs. </p>
+<p>Just as observed with the <strong>development</strong> copy of the sample application, the <strong>production</strong> copy will be updated. A new pod will be created and the old one will be removed. <strong>It may take a full 5 minutes before the update occurs.</strong></p>
 <ol start="39">
 <li>Click the route link <img alt="" src="../_attachments/openShiftWC-RouteLinkIcon.png" /> icon to open the web page front end to the deployed application in the **yl-l3-vmware-roks-1 cluster.</li>
 </ol>
