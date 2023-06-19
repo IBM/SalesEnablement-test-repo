@@ -5,8 +5,8 @@ site_author: Andrew R. Jones (andrewj@us.ibm.com)
 copyright: Copyright &copy; 2022 IBM
 
 # Repository
-repo_name: IBM/SalesEnablement-test-repo
-#repo_url: IBM/SalesEnablement-test-repo
+repo_name: IBM/SalesEnablement-Satellite-L3-Sales
+#repo_url: IBM/SalesEnablement-Satellite-L3-Sales
 #edit_uri: edit/master/docs
 docs_dir: docs
 
