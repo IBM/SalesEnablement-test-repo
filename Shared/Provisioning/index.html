@@ -1,0 +1,819 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="IBM Cloud for VMware Solutions Level 3 Demonstration Guide">
+      
+      
+        <meta name="author" content="Andrew R. Jones (andrewj@us.ibm.com) & Chris Bienko (cdbienko@us.ibm.com)">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.4.0">
+    
+    
+      
+        <title>Provisioning - IBM Cloud for VMware Solutions</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.69437709.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="IBM Cloud for VMware Solutions" class="md-header__button md-logo" aria-label="IBM Cloud for VMware Solutions" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IBM Cloud for VMware Solutions
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Provisioning
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="IBM Cloud for VMware Solutions" class="md-nav__button md-logo" aria-label="IBM Cloud for VMware Solutions" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    IBM Cloud for VMware Solutions
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Welcome
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          VMware Solutions Shared (OPTIONAL)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="VMware Solutions Shared (OPTIONAL)" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          VMware Solutions Shared (OPTIONAL)
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Introduction/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Provisioning
+      </a>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Managing/" class="md-nav__link">
+        Managing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../HandsOn/" class="md-nav__link">
+        Hands On Access
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          VMware as a Service
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="VMware as a Service" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          VMware as a Service
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../VMaaS/Introduction.md" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../VMaaS/Provisioning.md" class="md-nav__link">
+        Provisioning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../VMaaS/Managing.md" class="md-nav__link">
+        Managing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../VMaaS/HandsOn.md" class="md-nav__link">
+        Hands On Access
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          VMware Solutions Dedicated
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="VMware Solutions Dedicated" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          VMware Solutions Dedicated
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Dedicated/Introduction/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Dedicated/Provisioning/" class="md-nav__link">
+        Provisioning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Dedicated/Managing/" class="md-nav__link">
+        Managing
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NextSteps/" class="md-nav__link">
+        Next Steps
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<p><div class="video-container"><iframe src="../_videos/VMware%20L3%20Shared%20Provisioning.mp4" style="position: relative; width: 100%; height: 22.172vw" frameborder="0" allowfullscreen></iframe></div></p>
+<p>The following module will guide business partners and IBM sellers through the process of provisioning a <strong>VMware Shared</strong> plan via the IBM Cloud. Along the way, additional context around sizing and configuration of the offering will be provided, illustrating the value of these features to end-users, and pointers supplied to additional resources for those looking to dig deeper.</p>
+<h1 id="_1"></h1>
+<h1 id="click-thru-demonstration">Click-Thru Demonstration</h1>
+<hr />
+<p><strong>Click-thru demo:</strong> <a href="https://ibm.github.io/SalesEnablement-VMware-L3/includes/Shared-Provisioning/index.html" target ="_blank">Provision an instance of IBM Cloud VMware Solutions Shared</a>.</p>
+<p>We begin by simulating how to provision a VMware Shared instance. Use the click-thru demonstration linked above to practice the provisioning process. The fields that require a text entry (e.g. service name) are pre-populated in the click-thru demonstration. Open the link and then click the play button <img alt="" src="../_attachments/ClickThruPlayButton.png" /> to begin the demonstration.</p>
+<div class="admonition note">
+<p class="admonition-title">NAVIGATION</p>
+<p>Not sure where to click or what to do next? Simply click anywhere on the screen within the click-thru demo page and the spot to interact with next will be highlighted. Step-by-step instructions on how to navigate the demo, and repeat the demonstration again in front of clients, are provided in the write-up below.</p>
+</div>
+<h1 id="_2"></h1>
+<h1 id="step-by-step-instructions">Step-By-Step Instructions</h1>
+<hr />
+<p>VMWare Solutions, including the <strong>Shared</strong> plan and other tiers, are accessible through the <a href="https://cloud.ibm.com/vmware" target="_blank">VMware portal on IBM Cloud</a>. Be aware that if you provision a live VMware Shared instance using your <em>personal</em> IBM Cloud account, then your account (and credit card associated with that personal account) will be billed for the deployment.</p>
+<ol>
+<li>
+<p>From the IBM Cloud dashboard, click the <strong>VMware</strong> tab on the left hand navigation menu, or alternatively</p>
+</li>
+<li>
+<p>Search for <code>VMware Solutions</code> in the search bar at the top of the page.</p>
+</li>
+</ol>
+<p><img alt="" src="../_attachments/shared-provisioning-1.png" /></p>
+<ol start="3">
+<li>Switch to your personal IBM Cloud account, or an account that you have permission to charge billable expenses to, by clicking the drop-down selector in the top right corner of the IBM Cloud interface. <em>Note:</em> this step is not shown as part of the Click-thru demonstration.</li>
+</ol>
+<p><img alt="" src="../_attachments/shared-provisioning-2.png" /></p>
+<p>With your account properly set, you can proceed with configuration and setup of a VMware Shared plan. There are four flavors currently provided for VMware on IBM Cloud: <code>VMware Shared</code>, <code>VMware as a Service</code>, <code>VMware vSphere</code>, and <code>VMware vCenter Server</code>. For the purposes of this module, you will be provisioning and configuring a <code>VMware Shared</code> instance.</p>
+<ol start="4">
+<li>As shown in the screenshot below, select the <strong>VMware Shared</strong> tile and click <strong>Create</strong> to continue to the configuration page.</li>
+</ol>
+<p><img alt="" src="../_attachments/shared-provisioning-3.png" /></p>
+<p>The web browser will redirect to a new page, where you will be asked to provide detailed configuration options for various elements of the VMware Shared instance that IBM Cloud is to deploy.</p>
+<h1 id="_3"></h1>
+<h1 id="pricing-plans">Pricing Plans</h1>
+<hr />
+<div class="admonition tip">
+<p class="admonition-title">ON-DEMAND VS. RESERVED</p>
+<p>Two tiers of pricing plan are available for any VMware Shared virtual data center</p>
+<p>environment: <code>on-demand</code> or <code>reserved</code>.</p>
+</div>
+<p><strong>On-demand</strong> allocates virtual data center virtual CPU (vCPU) and RAM as needed. The amount of time that the allocation requires will depend upon the global demand (usage) of the virtual data center vCPU and RAM for the region in which the Shared plan is deployed. Allocations of vCPU and RAM, therefore, are scalable and can be adjusted over time. The price is calculated hourly and it is based on the resource usage in the virtual data center.</p>
+<p><strong>Reserved</strong> pre-allocates the vCPU and RAM virtual data center reservations at deployment time and their availability afterwards is guaranteed; this contrasts sharply with on-demand deployments, where availability is a best-effort guarantee (but not at a certainty — as demand across the infrastructure region in which it is deployed may ebb and flow over time). The price is calculated monthly for the full duration of the reservation and it is based on the allocation size of the virtual data center.</p>
+<ol start="5">
+<li>Select the <strong>On-Demand</strong> pricing plan.</li>
+</ol>
+<p><img alt="" src="../_attachments/shared-provisioning-4.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">ADJUSTING COSTS</p>
+<p>Take note that the <strong>Summary</strong> panel at the far-right side of the IBM Cloud dashboard dynamically updates as you adjust configuration options on this page. Try out various options along the way to preview how these features impact the cost of a VMware Shared deployment. You can also read more about pricing within the <strong>About</strong> tab.</p>
+</div>
+<ol start="6">
+<li>
+<p>Supply a unique and memorable <strong>Virtual data center name</strong> for your environment, such as <code>se-l3-shared</code>.</p>
+</li>
+<li>
+<p>Set the <strong>Resource Group</strong> to <code>Enablement-L3</code>. This determines how resources are organized within your IBM Cloud account. Resource Groups cannot be changed for a service instance once it has been deployed. You will <strong>not</strong> be able to set this value in the ITZ environment. If you are replicating these steps using your personal IBM Cloud account, you will likely see different Resource Groups available than the ones shown here.</p>
+</li>
+</ol>
+<h1 id="_4"></h1>
+<h1 id="deployment-topology">Deployment Topology</h1>
+<hr />
+<div class="admonition tip">
+<p class="admonition-title">SINGLE VS. MULTI-ZONE</p>
+<p>For every deployment of VMware Shared, there are two Topologies that a client may select</p>
+<p>from: <code>single</code> or <code>multi-zone</code>.</p>
+</div>
+<p>A <strong>single zone</strong> VMware virtual data center deployment will provision the environment within a single availability center (easier to manage, but vulnerable to a single point of failure).</p>
+<p>A <strong>multi-zone</strong> VMware virtual data center deployment will deploy across two availability zones in an IBM Cloud multi-zone region, providing failover in the event that a single-zone data center failure occurs.</p>
+<ol start="8">
+<li>
+<p>Select the <code>Single-zone VMware virtual data center</code> topology.</p>
+</li>
+<li>
+<p><strong>Geography</strong> should be set to the region located closest to your local area. <em>Note:</em> this step is not shown as part of the Click-thru demonstration.</p>
+</li>
+<li>
+<p>Use the default value selected for <strong>Site</strong>.</p>
+</li>
+<li>
+<p>Use the default value selected for <strong>Location</strong>. <em>Note:</em> for the Click-thru demonstration, you will be asked to inspect the <strong>Location</strong> options before cancelling back out to the main configuration page.</p>
+</li>
+</ol>
+<p><img alt="" src="../_attachments/shared-provisioning-5.png" /></p>
+<h1 id="_5"></h1>
+<h1 id="networking-types">Networking Types</h1>
+<hr />
+<div class="admonition tip">
+<p class="admonition-title">NETWORK CONFIGURATIONS</p>
+<p>VMware Shared on IBM Cloud supports two networking</p>
+<p>configurations: <code>Public and Private</code> or <code>Private Only</code>.</p>
+</div>
+<p>The <strong>public network</strong> endpoints that are provisioned by default are the five public IP addresses that are displayed in the VMware Shared virtual data center details page. After the demonstration environment has provisioned, you will be able to go and inspect those for yourself.</p>
+<p>A <strong>private network</strong> endpoint allows a customer's IBM Cloud account devices or resources to connect to their virtual data centers by using the IBM Cloud private network. The private network endpoint service is available and ready to use in all virtual data centers provisioned through the IBM Cloud.</p>
+<ol start="12">
+<li>Click the <strong>Networking</strong> tab from the sidebar. To give the environment the widest range of options, select the <code>Public and Private</code> <strong>Networking</strong> option from the configuration panel.</li>
+</ol>
+<p><img alt="" src="../_attachments/shared-provisioning-6.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">ADVANCED EDGE GATEWAY</p>
+<p>By default, every virtual data center comes configured with one advanced edge gateway, with five public IP addresses and one private service IP address. The advanced edge gateway is configurable by a customer and can be tailored to their specific needs.</p>
+</div>
+<p>Connections to private network endpoints do not require public internet access. A private network endpoint provides a unique IP address that is accessible to customers without the need for a VPN connection. Private network endpoints support one-way traffic from IBM Cloud account resources to the virtual machines in a customer's virtual data center.</p>
+<p>There are several considerations to take into account creating a private network for VMware Shared, or any private network connection on IBM Cloud in general. They are:</p>
+<ul>
+<li>
+<p>If you have an IBM Cloud Direct Link on your account, you must establish a tunnel between the cross-connect router and the customer edge to have access to the virtual data center.</p>
+</li>
+<li>
+<p>You can order only one private network endpoint per single-zone virtual data centers.</p>
+</li>
+<li>
+<p>For multi-zone virtual data centers, two private network endpoints must be ordered to correspond with each NSX Edge Service Gateway.</p>
+</li>
+<li>
+<p>If you want to change the device type of your private network endpoint, you must first delete the existing private network endpoint. Then, create a new private network endpoint with the new device type.</p>
+</li>
+<li>
+<p>You can simultaneously make resource updates to your virtual data center while you create or delete a private network endpoint.</p>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">ADDITIONAL RESOURCES</p>
+<p>Dig deeper into how to define and manage private networks within IBM Cloud's online documentation:</p>
+<ul>
+<li>
+<p>Viewing a private network endpoint for a virtual data center: <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-shared_viewing-endpoints" target="_blank">https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-shared_viewing-endpoints</a></p>
+</li>
+<li>
+<p>Modifying a private network endpoint for a virtual data center: <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-shared_modifying-endpoints" target="_blank">https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-shared_modifying-endpoints</a></p>
+</li>
+<li>
+<p>Deleting a private network endpoint from a virtual data center: <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-shared_deleting-endpoints" target="_blank">https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-shared_deleting-endpoints</a></p>
+</li>
+<li>
+<p>Creating a private network endpoint: <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-shared_creating-endpoints" target="_blank">https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-shared_creating-endpoints</a></p>
+</li>
+</ul>
+</div>
+<h1 id="_6"></h1>
+<h1 id="virtual-data-center-capacity">Virtual Data Center Capacity</h1>
+<hr />
+<p>These values essentially determine the compute processing capacity that is allocated to your virtual data center. It is measured in vCPU increments. Each vCPU increment represents a single 2.0 GHz core. Compute memory, or "RAM limit" as it is described on the IBM Cloud portal, is allocated in one gigabyte (GB) increments. RAM limits identify the maximum amount of random access memory available to each virtual data center.</p>
+<p>The limit placed on the maximum vCPU values determines the total number of processing units available for each virtual data center. Similarly, the RAM limit sets the maximum amount of memory available. You can adjust either of these values after you provision the virtual data center — giving customers the ability to scale and grow (or scale down) their virtual date center over time.</p>
+<ol start="13">
+<li>
+<p>Set the value of <strong>vCPU Limit</strong> to <code>100</code>.</p>
+</li>
+<li>
+<p>Set the value of <strong>RAM Limit</strong> to <code>10240</code>.</p>
+</li>
+</ol>
+<p><img alt="" src="../_attachments/shared-provisioning-7.png" /></p>
+<p>The <em>least</em> amount of vCPU that can be provisioned for any data center is 1 vCPU; RAM is likewise limited to a minimum of 1 GB. Obviously, in the case of a real-world demonstration environment (or a production environment), you will want to size these appropriately to the anticipated workloads that the virtual server will be subject to.</p>
+<h1 id="_7"></h1>
+<h1 id="storage">Storage</h1>
+<hr />
+<p>When creating or deploying vApps / VMs, customers can select either an unencrypted or encrypted storage policy. Each option has six different tiers of storage available, depending on the storage performance required, with each option carrying a maximum throughput of IOPS (input-output operations per second) per gigabyte.</p>
+<ol start="15">
+<li>How you are billed for storage, and the types of storage policies used, only come into effect after you have started deploying vApps or VMs within your VMware Shared plan. As we are not deploying code as part of this hands-on material, it is not necessary for us to worry about storage configurations at this time.</li>
+</ol>
+<p><img alt="" src="../_attachments/shared-provisioning-8.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">WHERE'S MY STORAGE?</p>
+<p>Storage policy availability can vary by region and deployment topology. To inspect further details on the storage options available for any VMware Shared configuration, click the <strong>About</strong> tab at the top of the IBM Cloud catalog page.</p>
+</div>
+<p>Encryption-enabled storage policies are available to all virtual data centers. Encryption protects not only the VMs but also VM disks and other files. Administrators can encrypt VMs and disks by associating the VM or disk with a storage policy that has enabled VM-encryption capabilities. For more information about the VM encryption limitations for VMware Cloud Director 10.3, see <a href="https://docs.vmware.com/en/VMware-Cloud-Director/10.3/VMware-Cloud-Director-Service-Provider-Admin-Portal-Guide/GUID-80F58C1D-A97E-43FE-8E41-E9242A1D2332.html" target="_blank">Enabling VM encryption on storage policies of an Organization virtual data center</a>.</p>
+<h1 id="_8"></h1>
+<h1 id="pre-installed-services">Pre-Installed Services</h1>
+<hr />
+<p>There are three services pre-installed with every deployment of VMware Shared on IBM Cloud. While they are ready for activation at any time, they are not free to use — if a client wishes to make use of these services, they must agree to the terms of use license and incur the costs associated with that add-on service. If the pre-installed service is never activated or used, no additional charges will be leveed against the VMware Shared client.</p>
+<ol start="16">
+<li>These services, as described, are pre-installed with every VMware Shared deployment on IBM Cloud. We will not be making use of these services for the purposes of this hands-on lab and as such they can be ignored for now.</li>
+</ol>
+<p><img alt="" src="../_attachments/shared-provisioning-9.png" /></p>
+<p>The pre-installed services include:</p>
+<ul>
+<li>
+<p><strong>Veeam Availability Suite</strong>: Veeam enables secure backups to VMware Shared workloads. It also packages capabilities for meeting recovery objectives, cloud-based disaster recovery backups, as well as monitoring and reporting capabilities.</p>
+</li>
+<li>
+<p><strong>Veeam Cloud Connect Replication</strong>: Extends on-premises Veeam environments to IBM Cloud, providing a secure and resilient disaster recovery environment.</p>
+</li>
+<li>
+<p><strong>Zerto</strong>: Replicates VMs between data centers in the public cloud, or between public cloud and on-premises data centers.</p>
+</li>
+</ul>
+<h1 id="_9"></h1>
+<h1 id="after-placing-an-order">After Placing An Order</h1>
+<hr />
+<p>When satisfied with the configuration options, inspect the far-right side of the IBM Cloud interface to confirm your costs and agree to the terms of service. As mentioned before, <strong>be aware that provisioning a VMware Shared plan on IBM Cloud will result in billing to your personal account</strong> (and associated credit card personal credit card).</p>
+<ol start="17">
+<li>
+<p>Verify that you have read and agree to the terms of service.</p>
+</li>
+<li>
+<p>Click <strong>Create</strong> to initiate the deployment of the VMware Shared service on IBM Cloud.</p>
+</li>
+</ol>
+<p><img alt="" src="../_attachments/shared-provisioning-10.png" /></p>
+<p>Once you click <strong>Confirm</strong>, the deployment of the resources starts automatically and a message will be displayed on the IBM Cloud interface explaining that the order is being processed. You can check the deployment status, including any issues that might require your attention, by viewing the <strong>Resources</strong> tab from the <a href="https://cloud.ibm.com/vmware" target="_blank">VMware Solutions dashboard</a>.</p>
+<ol start="19">
+<li>Return to the <a href="https://cloud.ibm.com/vmware" target="_blank">VMware Solutions dashboard</a> and drill down into <strong>Resources</strong> &gt; <strong>VMware Shared</strong> to monitor the progress of your deployment. <em>Note:</em> this step is not shown as part of the Click-thru demonstration.</li>
+</ol>
+<p><img alt="" src="../_attachments/shared-provisioning-11.png" /></p>
+<p>Once the resources have been successfully deployed, the components that are described within the <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-shared_overview#shared_overview-specs" target="_blank">technical specifications documentation for VMware Shared</a> will be installed within your VMware virtual instance.</p>
+<p>When the resources are ready to use, the status will be changed to <strong>Ready</strong>. When ready, proceed to the <a href="https://ibm.github.io/SalesEnablement-VMware-L3/Shared/Managing/" target="_blank">Managing</a> module of this hands-on documentation.</p>
+
+
+
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../Introduction/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Introduction" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Introduction
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../Managing/" class="md-footer__link md-footer__link--next" aria-label="Next: Managing" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Managing
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2022 IBM
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.9c69f0bc.min.js"></script>
+      
+    
+  </body>
+</html>
