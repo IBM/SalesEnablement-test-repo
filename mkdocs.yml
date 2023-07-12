@@ -1,62 +1,40 @@
 # Project info
-site_name: IBM Cloud Satellite Level 3
-site_description: IBM Cloud Satellite Sales Enablement Level 3 
-site_author: Andrew R. Jones (andrewj@us.ibm.com)
+site_name: IBM Cloud for VMware Solutions
+site_description: IBM Cloud for VMware Solutions Level 3 Demonstration Guide
+site_author: Andrew R. Jones (andrewj@us.ibm.com) & Chris Bienko (cdbienko@us.ibm.com)
 copyright: Copyright &copy; 2022 IBM
 
 # Repository
-repo_name: IBM/SalesEnablement-test-repo
-#repo_url: IBM/SalesEnablement-test-repo
+repo_name:  IBM/SalesEnablement-VMware-L3
+
+#repo_url: https://github.com/IBM/SalesEnablement-VMware-L3
 #edit_uri: edit/master/docs
 docs_dir: docs
 
 
 nav:
-  - Overview: index.md
-  - Part 1 - Setup:
-    - 'The environment' : '1setup/01.01 Introduction.md'
-    - 'Pre-requisites' : '1setup/01.02 Pre-requisites.md'
-    - 'Create environment reservation' : '1setup/01.03 CreateReservation.md'
-  - Part 2 - Provisioning and configuring IBM Cloud Satellite:
-    - 'Locations': '2provisioning/02.01 Locations.md'
-    - 'Satellite-enabled services' : '2provisioning/02.02 Services.md'
-    - 'Link endpoints' : '2provisioning/02.03 LinkEndpoints.md'
-  - Part 3 - Satellite Config:
-    - 'What is Sat Config' : '3config/03.01 IntroAndTerms.md'
-    - 'Setup GitHub repository' : '3config/03.02 SetupGitHub.md'
-    - 'Deploy a web app using Sat Config' : '3config/03.03 GitHubConfig.md'
-  - Part 4 - The demonstration:
-    - 'Introduction' : '4demo/04.01 Introduction.md'
-    - 'High level demonstration of IBM Cloud Satellite' : '4demo/04.02 GeneralDemo.md'
-    - 'Satellite Config demonstration' : '4demo/04.03 DeployDemo.md'
-    - 'Watch a recorded demonstration example' : '4demo/04.04 WatchDemo.md'
-  - Next Steps: NextSteps.md
-
-
-  # - Part 3 - Deploy an OpenShift application:
-  #   - 'Introduction and terminology': 'deploy-application/01.01 Introduction.md'
-  #   - 'The Food Delivery Application': 'deploy-application/01.02 The Food Delivery Application.md'
-  #   - 'Demonstration flow': 'deploy-application/01.03 Demonstration flow.md'
-  #   - 'View cluster groups': 'deploy-application/02.01 Create cluster groups.md'
-  #   - 'View configuration': 'deploy-application/03.01 Create a configuration.md'
-  #   - 'Create versions': 'deploy-application/03.02 Create versions.md'
-  #   - 'Create subscriptions': 'deploy-application/03.03 Create subscriptions.md'
-  #   - 'Verify the application is deployed': 'deploy-application/03.04 Verify the application is deployed.md'
-  #   - 'Update the development and production frontends': 'deploy-application/04.01 Update the development and production frontends.md'
-  #   - 'Perform a rollback': 'deploy-application/04.02 Perform a rollback.md'
-  #   - 'Next steps': 'deploy-application/05.01 Next steps.md'
-  # - Part 4 - Preparing for a client demonstration:
-  #   - 'Introduction': 'prepping-for-a-demo/01.01 Introduction.md'
-  #   - 'The Big Event': 'prepping-for-a-demo/02.01 The Big Event.md'
-  #   - 'Demonstration setup': 'prepping-for-a-demo/03.01 Setting up for the virtual demo.md'
-  #   - 'Next steps': 'prepping-for-a-demo/04.01 Next steps.md'
+  - 'Welcome': 'index.md'
+  - 'VMware Solutions Shared (OPTIONAL)':
+    - 'Introduction': 'Shared/Introduction.md'
+    - 'Provisioning': 'Shared/Provisioning.md'
+    - 'Managing': 'Shared/Managing.md'
+    - 'Hands On Access': 'Shared/HandsOn.md'
+  - 'VMware as a Service':
+    - 'Introduction': 'VMaaS/Introduction.md'
+    - 'Provisioning': 'VMaaS/Provisioning.md'
+    - 'Managing': 'VMaaS/Managing.md'
+    - 'Hands On Access': 'VMaaS/HandsOn.md'
+  - 'VMware Solutions Dedicated':
+    - 'Introduction': 'Dedicated/Introduction.md'
+    - 'Provisioning': 'Dedicated/Provisioning.md'
+    - 'Managing': 'Dedicated/Managing.md'
+  - 'Next Steps': 'NextSteps.md'
 
 theme:
   name: material
   features:
     - navigation.instant
     - navigation.tracking
-    - navigation.top
     - content.code.annotate
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -71,14 +49,9 @@ theme:
         name: Switch to light mode
 
 plugins:
-    - search
-    - mkdocs-video:
-        is_video: True
-        video_autoplay: False
+    - mkdocs-video
     - macros
-
-extra:
-  generator: false
+    - search
 
 markdown_extensions:
   - sane_lists
@@ -93,36 +66,24 @@ markdown_extensions:
   - attr_list
 
 extra:
+  generator: false
+  gitRepo: "https://github.com/IBM/SalesEnablement-VMware-L3"
   learningplan:
-    name: "IBM Cloud Satellite Sales - Level 3"
-    url: "https://yourlearning.ibm.com/activity/PLAN-7D757C8B58E7"
-  tz_environment:
-    name: "IBM Cloud Satellite - Level 3"
-    collectionURL: "https://techzone.ibm.com/collection/ibm-cloud-satellite-level-3"
-    environmentName: "Demonstration Environment: IBM Cloud Satellite - Level 3"
-    environmentURL: "https://techzone.ibm.com/collection/ibm-cloud-satellite-level-3/environments"
-    myresURL: "https://techzone.ibm.com/my/reservations"
-    uuid_label: "Demo-UUID"
-  account: "2435442 - ITZ - Satellite"
-  sat:
-    location: yl-l3-vmware
-    location_stub: yl-l3-empty-location
-    location_id: chckr9kw0f1manafo5og
-    cluster_name: yl-l3-vmware-roks-1
-    cluster_id: chcntaqw0tllp3174mr0
-    cluster_role: production
-    console: https://console-openshift-console.yl-l3-vmware-roks-1-222b3514854c2221251113b2b051506c-0000.us-east.containers.appdomain.cloud/dashboards
-
-  ibm:
-    cluster_name: yl-l3-ibm-roks-2
-    cluster_id: chm9pmdd074nifmp68e0
-    cluster_role: development
-    console: https://console-openshift-console.yl-l3-ibm-roks-2-222b3514854c2221251113b2b051506c-0000.us-south.containers.appdomain.cloud/dashboards
-  
-  clusterGroups:
-    development: se-l3-development
-    production: se-l3-production
-
-  git:
-    ProdBranch: config-sample-prod
-    DevBranch: config-sample-dev
+    name: "IBM Cloud for VMware Solutions Level 3"
+  level2learningplan:
+    name: "IBM Cloud for VMware Solutions Sales Foundation"
+    YLurl: "https://yourlearning.ibm.com/activity/PLAN-9B285157EA97"
+    BPurl: "https://learn.ibm.com/course/view.php?id=11142"
+  offering:
+    name: "IBM Cloud for VMware Solutions"
+  guide:
+    name: "IBM Cloud for VMware Solutions - Level 3 Demonstration Guide"
+    url: "https://ibm.github.io/SalesEnablement-VMware-L3/"
+  itz:
+    account: "2326338 - ITZ-VMWARE"
+    collection: ""
+    environment: ""
+    resourceGroup: "Enablement-L3"
+    dedicated:
+      instanceName: "vcs-l3"
+      clusterName: "vcs-dv-consolidated"

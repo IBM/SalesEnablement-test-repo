@@ -1,54 +1,83 @@
-Welcome to the IBM Cloud Satellite Technology Sales Enablement Level 3 demonstration guide. The goal of this demonstration guide is to provide IBM and Business Partner Sales and Technical Sales the knowledge and tools to perform introductory demonstrations of IBM Cloud Satellite.
+**Update**
 
-!!! important "Please read all sections of this document!"
-    
-    Skipping any section of this demonstration guide will impact the ability to successfully complete the IBM Cloud Satellite Technology Sales Enablement Level 3. 
+This Level 3 was originally written in late 2022, since the IBM Cloud for VMware Solutions portfolio has add several new offerings like **VMware as a Service (VMaaS)** and **Cyber Recovery**. Additionally, in the near future VMaaS will support both single-tenant (available today) and multi-tenant capabilities. When the multi-tenant capability is available, the plan is to phase out the **VMware Shared** offering. Given that direction, this Level 3 has been updated to include a VMaaS module and the VMware Shared module is now optional. The Stand and Deliver requirements for IBM employees and the business partner quiz have been updated to reflect these changes.
 
-There are 4 parts to this demonstration guide as seen in the left hand navigation:
+![type:video](./_videos/VMware L3 Welcome.mp4)
 
- - Part 1 - Setup
-   
-   Learn about the environment that will be utilized for this learning activity, the prerequisites required, and how to create a reservation for the environment in IBM Technology Zone (ITZ).
+Welcome to the **IBM Cloud for VMware Solutions - Level 3** course and demonstration guide! The goal is to provide Sellers and Technical Sellers, including both IBMers and Business Partners, with the knowledge and tools to perform click-thru demonstrations of **VMware Shared** and **VMware Dedicated** plans via the IBM Cloud.
 
- - Part 2 - Provisioning and configuring IBM Cloud Satellite
+Currently, there are four offerings in the IBM Cloud for VMware Solutions portfolio: ```VMware Shared```, ```VMware as a Service```, ```VMware vSphere```, and ```VMware vCenter Server```. This Level 3 learning plan focuses only on ```VMware Shared``` and ```VMware Dedicated``` offerings. This course is not intended to serve as a deep dive into VMware-specific topics; rather the focus is on the ```IBM Cloud``` aspects of the offerings. Numerous links and pointers to additional content around VMware-specific features are included in each of the modules of this course.
 
-   Learn about the provisioning process for IBM Cloud Satellite *Locations*, Satellite-enabled *Services*, and *Link endpoints* by exploring the pre-provisioned ITZ environment. Note, in this activity a new IBM Cloud Satellite Location will NOT be provisioned. Rather, a shared, pre-provisioned Satellite Location and cloud-enabled service (Red Hat OpenShift on IBM Cloud) will be utilized. Videos are provided that demonstrate the provisioning processes for these resources.
+Most modules are accompanied by recordings and narrated instructions, delivered by your team of authors. Be sure to watch these for a visual demonstration of how to perform the hands-on lab components. In particular, it is strongly recommended that IBM Sellers and Technical Sellers watch these recordings — they will be useful for you as you go about creating and recording your own Stand & Deliver presentations for Level 3 accreditation.
 
- - Part 3 - Satellite Config
+!!! tip "ACCREDITATION"
+    To receive Level 3 accreditation, IBMers and Business Partners must demonstrate mastery of the skills learned throughout the various modules of these hands-on labs and coursework. Level 3 accreditation requirements— and the way participants will be evaluated before receiving accreditation —differs depending on job role.
 
-   Learn about Satellite *Config* and how it is used to easily deploy Kubernetes resources to Red Hat OpenShift clusters maintained in a GitHub repository. 
+**Business Partners** must pass an accreditation quiz after completing the hands-on portion of the course. The quiz consists of multiple choice questions, with four possible responses (and only one correct answer) for each question. **Hint: keep the demonstration guide and the associated IBM Technology Zone (TechZone) environment active while completing the quiz. Watch for the "BP quiz question" ![](_attachments/questionICON.png) icon in the demonstration guide.**
 
- - Part 4 - The demonstration
+**IBM Sales and Tech Sales** must develop and record a Stand & Deliver presentation. This video is intended to simulate your delivery of a “live” demo in front of a client — on camera. IBMers will have flexibility in defining a hypothetical client, the pain points that customer has, and the goals they aspire to achieve. The recording will then cover the seller’s hands-on demonstration and pitch to the client of the value of the IBM solution using the environments and techniques of this lab.
 
-   In the final section, learn how to demonstrate to client's some of the value of IBM Cloud Satellite. Guidance on performing a client demonstration using the shared ITZ environment is provided that illustrates how IBM Cloud Satellite and Satellite-enabled services are provisioned, and how Satellite Config can be used to deploy and manage Kubernetes resources easily and consistently.
+Specific criteria that must be demonstrated as part of the Stand & Deliver recordings is provided within the documentation that accompanies the Level 3 course. Before jumping into the next module, please read the guidance below. Your comprehension of the information outlined below will save you time while completing the lab work.
 
-Some content will be labeled as **Required for technical sales only**. However, individuals in sales roles are encouraged to complete these sections and include them in their demonstrations. Step-by-step directions are provided, but some technical knowledge and experience with source control systems like GitHub and basic Yet Another Markup Language (YAML) is assumed.
+!!! tip "FIND HELP"
+    If at any point during the hands-on material you need help from the team of authors and other IBM experts, please connect with us via the #cloud-platform-demo-feedback Slack channel. Any comments or suggestions are also welcome in this channel.
 
-!!! important "Important"
+#
+# Navigating the Lab Guide
+-----------------------------
 
-    Note: most images and videos used in this demonstration guide were created in June 2023. There may be differences between these images and videos than the current IBM Cloud Portal, Red Hat OpenShift web console, and other user interfaces shown. Some recorded videos were recorded prior to June 2023.
+The Level 3 demonstration guide is organized into two chapters, covering the ```VMware Shared``` and ```VMware Dedicated``` offerings of the **IBM Cloud for VMware Solutions** portfolio. Both chapters contain modules that provide an *Introduction* to offering, steps to *Provision* a deployment, and explore how clients *Manage* their instance through the IBM Cloud portal and the respective VMware tools.
 
-## Helpful tips for using this demonstration environment
+!!! warning "WARNING"
+    The agile nature of cloud means that the interface and layout of the IBM Cloud Portal, as well as the IBM Cloud for VMware Solutions offering, will change on a regular basis. Screenshots and videos captured within this documentation may not always reflect the latest versions available from IBM Cloud — although the IBM Technology Sales Enablement team strives to update these assets on a regular basis.
 
-Throughout the lab, you will see images that are examples of what you should be seeing in the IBM Cloud Portal, Red Hat OpenShift web console, and other web pages and tools used in this guide. The following styles of highlighting is used:
+In some images, the following styles of highlighting are utilized:
 
-- Action highlight box: Illustrates where to click,  enter, or select an item:
+- **Action highlight box**: Illustrates where to click, enter, or select an item.
+![](_attachments/welcome-1.png)
 
-![](_attachments/ClickActionRectangle.png)
+- **Path/explore highlight box**: Illustrates one of two things: the path to follow to get to a specific location in the user interface; or areas to explore.
+![](_attachments/welcome-2.png)
 
-- Path/explore highlight box: Illustrates one of two things:
+- **Copy to clipboard box**: The text is copied to the clipboard. Click the copy icon (highlighted below) and then paste using the operating systems paste function; for example, entering ```Ctrl+v```, ```Cmd+v```, or right-click and select ```Paste```.
+![](_attachments/welcome-3.png)
 
-    - the path to follow to get to a specific location in the user interface
-    - areas to explore
+- **Click-thru interactive demonstrations**: Links to click-thru demonstrations will open in a new browser window or tab with a screen similar to the image below. Click the ```(>)``` icon to get started and follow the steps outlined within this L3 demonstration guide. If unsure of where to click to proceed, click anywhere on the screen and a highlight box will appear indicating where to click next.
+![](_attachments/welcome-4.png)
 
-![](_attachments/PathExploreHighlight.png)
+# Acronyms
+-----------------------------
 
-<!-- - Copy to clipboard box: Text that is copied to local clipboard. Click the copy icon (highlighted below) and then paste using local operating systems paste function, for example, entering ++ctrl++**+v**, ++cmd++**+v**, or right click and select paste.
-
-![](_attachments/Usage-Clipboard.png) -->
-
-<!-- Additionally, there are several "click-thru" demonstrations. Links to click-thru demonstrations will open in a new browser window or tab with a screen similar to the image below.
-
-![](_attachments/ClickThruStartPage.png)
-
-Click the play button ![](_attachments/ClickThruPlayButton.png) in the middle of the screen to start the demo. Then, simply follow the steps in the demonstration guide. If at any point you are unsure where to click, click anywhere on the screen and a highlight box will appear showing where to click next. -->
+The following acronyms and short-form terminology are used throughout the guide:
+```
+Application programming interfaces (APIs)
+Classless inter-domain routing (CIDR)
+Control (ctrl) - The control key on keyboard
+Command (cmd) - The command key on keyboard
+Disaster Recovery (DR)
+Domain Name Service (DNS)
+Dynamic Host Configuration Protocol (DHCP)
+Gigabyte (GB)
+Health Insurance Portability and Accountability Act (HIPAA)
+High Availability (HA)
+IBM Technology Zone (TechZone)
+Identification (ID)
+Identity Access Management (IAM)
+Infrastructure as a Service (IaaS)
+Input/output operations per second (IOPs)
+Internet Protocol (IP)
+Operating System (OS)
+Random access memory (RAM)
+Recovery Point Objective (RPO)
+Reliability, Availability, and Serviceability (RAS)
+Software Defined Data Center (SDDC)
+Secure Shell (SSH)
+User identification (ID)
+Virtual Application (vApp)
+Virtual Central Processor Unit (vCPU)
+VMware Cloud Director (VCD)
+VMware vRealize Log Insight (vRLI)
+VMware vRealize Operations (vROps)
+Virtual Data Center (VDC)
+Virtual Machine (VM)
+```
