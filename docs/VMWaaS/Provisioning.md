@@ -17,7 +17,7 @@ VMware Solutions, including the VMWaaS and other offerings, are accessible throu
 
 1. Open the click-thru demo and then click play ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
-   **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-VMware-L3/includes/VMaaS-provision-site/index.html" target ="_blank">Provision an instance of VMWaaS</a>
+   **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMaaS-provision-site/index.html" target ="_blank">Provision an instance of VMWaaS</a>
 
 **Site versus virtual data center**
 
