@@ -20,10 +20,10 @@ nav:
     - 'Managing': 'Shared/Managing.md'
     - 'Hands On Access': 'Shared/HandsOn.md'
   - 'VMware as a Service':
-    - 'Introduction': 'VMaaS/Introduction.md'
-    - 'Provisioning': 'VMaaS/Provisioning.md'
-    - 'Managing': 'VMaaS/Managing.md'
-    - 'Hands On Access': 'VMaaS/HandsOn.md'
+    - 'Introduction': 'VMWaaS/Introduction.md'
+    - 'Provisioning': 'VMWaaS/Provisioning.md'
+    - 'Managing': 'VMWaaS/Managing.md'
+    - 'Hands On Access': 'VMWaaS/HandsOn.md'
   - 'VMware Solutions Dedicated':
     - 'Introduction': 'Dedicated/Introduction.md'
     - 'Provisioning': 'Dedicated/Provisioning.md'
