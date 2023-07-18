@@ -538,7 +538,7 @@
 <p>Begin by simulating how to provision a VMware Shared instance. Use the click-thru demonstration to practice the provisioning process. The fields that require a text entry (for example Provider Virtual Data Center name) are pre-populated in the click-thru demonstration. Open the link and then click play <img alt="" src="../_attachments/ClickThruPlayButton.png" /> to begin the demonstration.</p>
 <div class="admonition note">
 <p class="admonition-title">Navigation</p>
-<p>Not sure where to click or what to do next? Click anywhere on the screen within the click-thru demo page and the spot to interact with next is highlighted. Step-by-step instructions on how to navigate the demo follow.</p>
+<p>Not sure where to click or what to do next? Click anywhere on the screen within the click-thru demo page and the spot to interact with next is highlighted. Step-by-step instructions on how to run the demo follow.</p>
 </div>
 <h1 id="_2"></h1>
 <h1 id="step-by-step-instructions">Step-by-step Instructions</h1>
@@ -559,9 +559,9 @@
 <li>
 <p>Click the <strong>Cloud Director Site</strong> tile.</p>
 </li>
-<li>Click in the <strong>Name</strong> text entry field.</li>
+<li>Click in the <strong>Name</strong> field.</li>
 </ol>
-<p>A descriptive name should be specified for the Cloud Director site as it cannot be changed after the site is provisioned. </p>
+<p>Specify a descriptive name for the Cloud Director site as it cannot be changed after the site is provisioned. </p>
 <ol start="6">
 <li>Click the <strong>Resource Group</strong> drop-down menu.</li>
 </ol>
@@ -574,7 +574,7 @@
 <p>VMaaS is not available in all IBM Cloud data centers. Always verify the current support locations in the IBM Cloud portal or the documentation <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-tenant-plan-deploy#tenant-plan-deploy-locations" target="_blank">here</a>.</p>
 <ol start="10">
 <li>
-<p>Click in the <strong>Cluster name</strong> text entry field.</p>
+<p>Click in the <strong>Cluster name</strong> field.</p>
 <p>A single-tenant <strong>site</strong> consists of one or more VMware vCenter <strong>clusters</strong>. Clusters are the building blocks of PVDCs. When initially provisioning a VMWaaS site, just one cluster can be provisioned. More clusters can be added later. A minimum of 2 hosts are required for NFS-only storage clusters. A minimum of 6 hosts is required for vSAN plus optional NFS storage clusters. Hosts can be added and removed to increase and decrease capacity of the cluster. All hosts in a cluster must be homogeneous in their configuration and must be chosen from the support configurations.</p>
 <p>Clients specify the hosts from a set of bare metal configurations. Supported configurations will change over time, consult the IBM Cloud portal or the documentation <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-tenant-plan-deploy#tenant-plan-deploy-bms-req" target="_blank">here</a> for the current supported configurations.</p>
 <p>VMWaaS supports both network file storage (NFS) and VMware vSAN (virtual Storage Area Network) storage. You can select NFS only storage or vSAN storage with optional NFS storage. </p>
@@ -599,20 +599,21 @@
 </li>
 <li>
 <p>Click the <strong>Veeam Backup and Replication</strong> toggle button to disable the installation of Veeam.</p>
-<p>At the time this document was written, the only add-on service available at provisioning time is Veeam. To learn more about Veeam, go <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-tenant-veeam" target="_blank">here</a>. Since this is a demonstration environment, Veeam is not deployed.</p>
+<p>At the time this document was written, the only add-on service available at provisioning time was Veeam. To learn more about Veeam, go <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-tenant-veeam" target="_blank">here</a>. Veeam is not deployed for the demonstration.</p>
 </li>
 <li>
-<p>Click the <strong>I have read and agreed to the following license agreements</strong> check box.</p>
+<p>Click the <strong>I have read and agreed to the following license agreements</strong> checkbox.</p>
 </li>
 <li>Click the <strong>Create</strong> button.</li>
 </ol>
+<p>The provisioning process is automated and includes provisioning the bare metal servers and deploying the VMware software stack. Provisioning time varies based on the number and configuration of the bare metal servers. When the ITZ environment used for this learning plan was originally created, the provisioning of the site took approximately XXX hours.</p>
 <h1 id="_4"></h1>
 <h1 id="provision-a-virtual-data-center-single-tenant">Provision a virtual data center (single-tenant)</h1>
 <p>The <strong>Fast provisioning of VMs using linked clones</strong> option saves time by using linked clones for virtual machine provisioning. This option is enabled at the provider virtual data center (PVDC) level. You can also enable fast provisioning for any VDCs created within the PVDC. If not enabled, all provisioning operations use full clones. To learn more about fast provisioning, check out VMware's documentation <a href="https://docs.vmware.com/en/VMware-Cloud-Director/10.4/VMware-Cloud-Director-Tenant-Portal-Guide/GUID-4C232B62-4C95-44FF-AD8F-DA2588A5BACC.html" target="_blank">here</a>. </p>
 <p><strong>Network edge</strong></p>
 <p>VDCs connect to the public and IBM private networks through edges. Edges can also be used to connect multiple VDC networks together. Currently, four choices of <strong>edge</strong> types are supported: 
 - <strong>Efficiency</strong>    These edges allocate networking resources that can be used by up to 100 VDCs before another efficiency edge needs to be created. The first time an efficiency edge is selected new CPU, RAM, and storage resources are required. CPU and RAM are used from the single tenant site. New edge storage is allocated at a cost. Subsequent VDCs up to 100 can use this edge at no extra cost. This option is suitable for saving resources and costs with independent networking control per VDC.
-- <strong>Performance - M</strong>   This option is suitable when only L2 through L4 features such as NAT, routing, L4 firewall, L4 load balancer are required and the total throughput requirement is less than 2 Gbps.
+- <strong>Performance - M</strong>   This option is suitable when only Layer 2 (L2) through L4 features such as Network Address Translation (NAT), routing, L4 firewall, and/or L4 load balancers are required and the total throughput requirement is less than 2 gigabits per second (Gbps).
 - <strong>Performance - L</strong>   This option is suitable when only L2 through L4 features such as NAT, routing, L4 firewall, L4 load balancer are required and the total throughput is in the range 2 - 10 Gbps.
 - <strong>Performance - XL</strong>  This option is suitable when the total throughput required is multiple Gbps for L7 and VPN. </p>
 <p>The <strong>Create without network edge</strong> option is suitable for centralized networking administration and control over multiple VDCs. Learn more about this option <a href="https://cloud.ibm.com/docs/vmware-service?topic=vmware-service-vdc-adding#vdc-adding-procedure" target="_blank">here</a>.</p>
