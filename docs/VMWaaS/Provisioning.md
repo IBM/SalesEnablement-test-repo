@@ -25,6 +25,10 @@ Begin by simulating how to provision a VMware Shared instance. Use the click-thr
 
      **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMaaS-provision-site/index.html" target ="_blank">Provision an instance of VMaaS</a>
 
+     Here is a video of the actual provisioning process used to create this click-thru demo and the environment in ITZ. Note: this video has no audio.
+     
+     ![type:video](./_videos/VMaaS-provision-site-no-audio.mp4).
+
 2. Click the VMware (![](_attachments/VMicon.png)) icon in navigation menu.
 3. Click the **VMware as a Service** tile.
 
