@@ -7,7 +7,7 @@ The following module guides Business Partners and IBM sellers through the proces
 Begin by simulating how to provision a VMware Shared instance. Use the click-thru demonstration to practice the provisioning process. The fields that require a text entry (for example Provider Virtual Data Center name) are pre-populated in the click-thru demonstration. Open the link and then click play ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
 !!! Note "Navigation"
-    Not sure where to click or what to do next? Click anywhere on the screen within the click-thru demo page and the spot to interact with next is highlighted. Step-by-step instructions on how to navigate the demo follow.
+    Not sure where to click or what to do next? Click anywhere on the screen within the click-thru demo page and the spot to interact with next is highlighted. Step-by-step instructions on how to run the demo follow.
 
 #
 # Step-by-step Instructions
@@ -29,9 +29,9 @@ VMware Solutions, including the VMWaaS and other offerings, are accessible throu
     A VMWaaS single-tenant **site** is a deployment of VMware vCloud Director on dedicated infrastructure. A **virtual data center (VDC)** is a logical data center that uses some or all of the resources of a **site**. A **site** must be created prior to creating VDCs. A **site** can have zero or more **VDCs**. 
 
 4. Click the **Cloud Director Site** tile.
-5. Click in the **Name** text entry field.
+5. Click in the **Name** field.
 
-   A descriptive name should be specified for the Cloud Director site as it cannot be changed after the site is provisioned. 
+   Specify a descriptive name for the Cloud Director site as it cannot be changed after the site is provisioned. 
 
 6. Click the **Resource Group** drop-down menu.
 
@@ -43,7 +43,7 @@ VMware Solutions, including the VMWaaS and other offerings, are accessible throu
 
    VMaaS is not available in all IBM Cloud data centers. Always verify the current support locations in the IBM Cloud portal or the documentation <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-tenant-plan-deploy#tenant-plan-deploy-locations" target="_blank">here</a>.
 
-10. Click in the **Cluster name** text entry field.
+10. Click in the **Cluster name** field.
 
     A single-tenant **site** consists of one or more VMware vCenter **clusters**. Clusters are the building blocks of PVDCs. When initially provisioning a VMWaaS site, just one cluster can be provisioned. More clusters can be added later. A minimum of 2 hosts are required for NFS-only storage clusters. A minimum of 6 hosts is required for vSAN plus optional NFS storage clusters. Hosts can be added and removed to increase and decrease capacity of the cluster. All hosts in a cluster must be homogeneous in their configuration and must be chosen from the support configurations.
 
@@ -68,10 +68,12 @@ VMware Solutions, including the VMWaaS and other offerings, are accessible throu
 
 14. Click the **Veeam Backup and Replication** toggle button to disable the installation of Veeam.
 
-    At the time this document was written, the only add-on service available at provisioning time is Veeam. To learn more about Veeam, go <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-tenant-veeam" target="_blank">here</a>. Since this is a demonstration environment, Veeam is not deployed.
+    At the time this document was written, the only add-on service available at provisioning time was Veeam. To learn more about Veeam, go <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-tenant-veeam" target="_blank">here</a>. Veeam is not deployed for the demonstration.
 
-15. Click the **I have read and agreed to the following license agreements** check box.
+15. Click the **I have read and agreed to the following license agreements** checkbox.
 16. Click the **Create** button.
+
+The provisioning process is automated and includes provisioning the bare metal servers and deploying the VMware software stack. Provisioning time varies based on the number and configuration of the bare metal servers. When the ITZ environment used for this learning plan was originally created, the provisioning of the site took approximately XXX hours.
 
 
 #
@@ -84,7 +86,7 @@ The **Fast provisioning of VMs using linked clones** option saves time by using 
 
 VDCs connect to the public and IBM private networks through edges. Edges can also be used to connect multiple VDC networks together. Currently, four choices of **edge** types are supported: 
 - **Efficiency** 	These edges allocate networking resources that can be used by up to 100 VDCs before another efficiency edge needs to be created. The first time an efficiency edge is selected new CPU, RAM, and storage resources are required. CPU and RAM are used from the single tenant site. New edge storage is allocated at a cost. Subsequent VDCs up to 100 can use this edge at no extra cost. This option is suitable for saving resources and costs with independent networking control per VDC.
-- **Performance - M** 	This option is suitable when only L2 through L4 features such as NAT, routing, L4 firewall, L4 load balancer are required and the total throughput requirement is less than 2 Gbps.
+- **Performance - M** 	This option is suitable when only Layer 2 (L2) through L4 features such as Network Address Translation (NAT), routing, L4 firewall, and/or L4 load balancers are required and the total throughput requirement is less than 2 gigabits per second (Gbps).
 - **Performance - L** 	This option is suitable when only L2 through L4 features such as NAT, routing, L4 firewall, L4 load balancer are required and the total throughput is in the range 2 - 10 Gbps.
 - **Performance - XL** 	This option is suitable when the total throughput required is multiple Gbps for L7 and VPN. 
 
