@@ -544,7 +544,7 @@
 <h1 id="step-by-step-instructions">Step-by-step Instructions</h1>
 <hr />
 <div class="admonition important">
-<p class="admonition-title">Read before continuing</p>
+<p class="admonition-title">Read before continuing!</p>
 <p>VMware Solutions, including the VMaaS and other offerings, are accessible through the <a href="https://cloud.ibm.com/vmware" target="_blank">VMware portal on IBM Cloud</a>. For this Level 3 course, these steps are intended to be followed in the <strong>click-thru demonstration</strong>; however, they can also be used to create a new instance. If you provision a live VMaaS instance in your <em>personal</em> IBM Cloud account, then your account (and credit card that is associated with that account) is billed for the deployment. <strong>You'r user ID does not have permissions to complete all these steps in the IBM Technology Zone (ITZ) environment associated with this course. These resources are already created in the ITZ environment.</strong></p>
 </div>
 <h1 id="_3"></h1>
@@ -559,47 +559,44 @@
 </li>
 <li>
 <p>Click the <strong>VMware as a Service</strong> tile.</p>
-<p>A VMaaS single-tenant <strong>site</strong> is a deployment of VMware vCloud Director on dedicated infrastructure. A <strong>virtual data center (VDC)</strong> is a logical data center that uses some or all of the resources of a <strong>site</strong>. A <strong>site</strong> must be created prior to creating VDCs. </p>
+<p>A VMaaS single-tenant <strong>site</strong> is a deployment of VMware vCloud Director on dedicated infrastructure. A <strong>virtual data center (VDC)</strong> is a logical data center that uses some or all of the resources of a <strong>site</strong>. A <strong>site</strong> must be created before a VDC can be provisioned. </p>
 </li>
 <li>
 <p>Click the <strong>Cloud Director Site</strong> tile.</p>
 </li>
 <li>
-<p>Click in the <strong>Name</strong> field.
-   Specify a descriptive name for the Cloud Director site as it cannot be changed after the site is provisioned. </p>
+<p>Click in the <strong>Name</strong> field.</p>
+<p>Specify a descriptive name for the Cloud Director site as it cannot be changed after the site is provisioned. </p>
 </li>
 <li>
 <p>Click the <strong>Resource Group</strong> drop-down menu.</p>
-</li>
-</ol>
 <p>Resource groups are used to help manage resources and billing in an IBM Cloud account.</p>
-<ol start="7">
-<li>Click the <strong>Enablement-L3</strong> resource group.</li>
+</li>
+<li>
+<p>Click the <strong>Enablement-L3</strong> resource group.</p>
+</li>
 <li>Click in the <strong>Provider Virtual Data Center (VDC) name</strong> field.</li>
-<li>Click the <strong>Dallas 12</strong> in the <strong>Provider VDC location</strong> table.</li>
-</ol>
-<p>VMaaS is not available in all IBM Cloud data centers. Always verify the current support locations in the IBM Cloud portal or the documentation <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-tenant-plan-deploy#tenant-plan-deploy-locations" target="_blank">here</a>.</p>
-<ol start="10">
+<li>
+<p>Click the <strong>Dallas 12</strong> in the <strong>Provider VDC location</strong> table.</p>
+<p>VMaaS is not available in all IBM Cloud data centers. Always verify the current locations in the IBM Cloud portal or the documentation <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-tenant-plan-deploy#tenant-plan-deploy-locations" target="_blank">here</a>.</p>
+</li>
 <li>
 <p>Click in the <strong>Cluster name</strong> field.</p>
-<p>A single-tenant <strong>site</strong> consists of one or more VMware vCenter <strong>clusters</strong>. Clusters are the building blocks of PVDCs. When initially provisioning a VMaaS site, just one cluster can be provisioned. More clusters can be added later. A minimum of 2 hosts are required for NFS-only storage clusters. A minimum of 6 hosts is required for vSAN plus optional NFS storage clusters. Hosts can be added and removed to increase and decrease capacity of the cluster. All hosts in a cluster must be homogeneous in their configuration and must be chosen from the support configurations.</p>
-<p>Clients specify the hosts from a set of bare metal configurations. Supported configurations will change over time, consult the IBM Cloud portal or the documentation <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-tenant-plan-deploy#tenant-plan-deploy-bms-req" target="_blank">here</a> for the current supported configurations.</p>
-<p>VMaaS supports both network file storage (NFS) and VMware vSAN (virtual Storage Area Network) storage. You can select NFS only storage or vSAN storage with optional NFS storage. </p>
+<p>A single-tenant <strong>site</strong> consists of one or more VMware vCenter <strong>clusters</strong>. Clusters are the building blocks of PVDCs. When initially provisioning a VMaaS site, just one cluster can be provisioned. More clusters can be added later. A minimum of 2 hosts are required for NFS-only storage clusters. A minimum of 6 hosts are required for vSAN plus optional NFS storage clusters. All hosts in a cluster must be homogeneous in their configuration and must be chosen from the supported configurations. Supported configurations will change over time, consult the IBM Cloud portal or the documentation <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-tenant-plan-deploy#tenant-plan-deploy-bms-req" target="_blank">here</a> for the current supported configurations. Hosts can be added and removed to increase and decrease capacity of the cluster. This capability will be explored in the next section of this demonstration guide. </p>
 </li>
 <li>
 <p>Click the <strong>vSAN + optional NFS storage</strong> radio button.</p>
-<p>vSAN with optional NFS storage is only available in IBM Cloud data centers with networks of 25 gigabits (GbE). vSAN clusters use bare metal host profiles with local flash storage and a RAID 6, FTT=2 policy. vSAN clusters can also use NFS storage.</p>
-<p>If you want to save storage space, you can enable vSAN deduplication and compression to reduce redundant data within each disk group. This option can increase overall storage space based on the data type.</p>
+<p>VMaaS supports both network file storage (NFS) and VMware vSAN (virtual Storage Area Network) storage. You can select NFS only storage or vSAN storage with optional NFS storage. </p>
+<p>vSAN with optional NFS storage is only available in IBM Cloud data centers with networks of 25 gigabits (GbE) bandwidth. vSAN clusters use bare metal host profiles with local flash storage. vSAN clusters can also use NFS storage.</p>
+<p>VWMare vSAN deduplication and compression are available to reduce redundant data within each disk group. This option can increase overall storage space based on the data type.</p>
 </li>
 <li>
 <p>Click the <strong>NFS-only storage</strong> radio button.</p>
-</li>
-</ol>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p>In this click-thru demo and in the associated ITZ environment, the VMaaS <strong>site</strong> that is created is a <strong>NFS-only</strong> site (learn more about these terms in a few minutes). This option was chosen to reduce long-term costs of the environment. The <strong>vSAN</strong> provisioning options are explored in the click-thru demo, but a <strong>vSAN</strong> cluster is not provisioned or available in the ITZ environment.</p>
+<p>In this click-thru demo and in the associated ITZ environment, the VMaaS <strong>site</strong> that is created is a <strong>NFS-only</strong> site. This option was chosen to reduce long-term costs of the environment. The <strong>vSAN</strong> provisioning options are explored in the click-thru demo, but a <strong>vSAN</strong> cluster is not provisioned or available in the ITZ environment.</p>
 </div>
-<ol start="13">
+</li>
 <li>
 <p>Click the <strong>+</strong> icon to add a <strong>0.25 IOPS/GB</strong> NFS storage device.</p>
 <p>With NFS, clients can choose from 0.25, 2, 4, and 10 input/output operations per second per gigabyte (IOPS/GB) performance options. A minimum of one unit of 2 IOPS/GB or higher must be selected in NFS-only clusters.</p>
@@ -618,11 +615,21 @@
 <h1 id="provision-a-virtual-data-center-single-tenant">Provision a virtual data center (single-tenant)</h1>
 <p>The <strong>Fast provisioning of VMs using linked clones</strong> option saves time by using linked clones for virtual machine provisioning. This option is enabled at the provider virtual data center (PVDC) level. You can also enable fast provisioning for any VDCs created within the PVDC. If not enabled, all provisioning operations use full clones. To learn more about fast provisioning, check out VMware's documentation <a href="https://docs.vmware.com/en/VMware-Cloud-Director/10.4/VMware-Cloud-Director-Tenant-Portal-Guide/GUID-4C232B62-4C95-44FF-AD8F-DA2588A5BACC.html" target="_blank">here</a>. </p>
 <p><strong>Network edge</strong></p>
-<p>VDCs connect to the public and IBM private networks through edges. Edges can also be used to connect multiple VDC networks together. Currently, four choices of <strong>edge</strong> types are supported: 
-- <strong>Efficiency</strong>    These edges allocate networking resources that can be used by up to 100 VDCs before another efficiency edge needs to be created. The first time an efficiency edge is selected new CPU, RAM, and storage resources are required. CPU and RAM are used from the single tenant site. New edge storage is allocated at a cost. Subsequent VDCs up to 100 can use this edge at no extra cost. This option is suitable for saving resources and costs with independent networking control per VDC.
-- <strong>Performance - M</strong>   This option is suitable when only Layer 2 (L2) through L4 features such as Network Address Translation (NAT), routing, L4 firewall, and/or L4 load balancers are required and the total throughput requirement is less than 2 gigabits per second (Gbps).
-- <strong>Performance - L</strong>   This option is suitable when only L2 through L4 features such as NAT, routing, L4 firewall, L4 load balancer are required and the total throughput is in the range 2 - 10 Gbps.
-- <strong>Performance - XL</strong>  This option is suitable when the total throughput required is multiple Gbps for L7 and VPN. </p>
+<p>VDCs connect to the public and IBM private networks through edges. Edges can also be used to connect multiple VDC networks together. Currently, four choices of <strong>edge</strong> types are supported: </p>
+<ul>
+<li>
+<p><strong>Efficiency</strong>    These edges allocate networking resources that can be used by up to 100 VDCs before another efficiency edge needs to be created. Processors and memory are used from the single tenant site. New edge storage is allocated at an extra cost. Subsequent VDCs, up to 100, can use this edge at no extra cost. This option is suitable for saving resources and costs with independent networking control per VDC.</p>
+</li>
+<li>
+<p><strong>Performance - M</strong>   This option is suitable when only Layer 2 (L2) through L4 features such as Network Address Translation (NAT), routing, L4 firewall, and L4 load balancers are required. This option is suitable when the total throughput requirement is less than two gigabits per second (Gbps).</p>
+</li>
+<li>
+<p><strong>Performance - L</strong>   This option is suitable when only L2 through L4 features such as NAT, routing, L4 firewall, and L4 load balancers are required. This option is suitable when the total throughput requirement is in the range of two to 10 Gbps.</p>
+</li>
+<li>
+<p><strong>Performance - XL</strong>  This option is suitable when the total throughput required is multiple Gbps for L7 and one or more virtual private networks (VPNs) are required. </p>
+</li>
+</ul>
 <p>The <strong>Create without network edge</strong> option is suitable for centralized networking administration and control over multiple VDCs. Learn more about this option <a href="https://cloud.ibm.com/docs/vmware-service?topic=vmware-service-vdc-adding#vdc-adding-procedure" target="_blank">here</a>.</p>
 
 
