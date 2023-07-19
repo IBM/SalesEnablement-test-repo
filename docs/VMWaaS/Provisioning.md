@@ -26,7 +26,7 @@ The following module guides Business Partners and IBM sellers through the proces
 
      **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMaaS-provision-site/index.html" target ="_blank">Provision an instance of VMaaS</a>
 
-     Here is a video of the actual provisioning process used to create this click-thru demo and the environment in ITZ. Note: this video has no audio.
+     View a video of the provisioning process that was used in creating the click-thru demo and the environment in ITZ. Note: this video has no audio.
      
      ![type:video](./_videos/VMaaS-provision-site-no-audio-final.mp4)
 
@@ -78,19 +78,19 @@ The following module guides Business Partners and IBM sellers through the proces
 15. Click the **I have read and agreed to the following license agreements** checkbox.
 16. Click the **Create** button.
 
-The provisioning process is automated and includes provisioning the bare metal servers and deploying the VMware software stack. Provisioning time varies based on the number and configuration of the bare metal servers. When the ITZ environment used for this learning plan was originally created, the provisioning of the site took approximately 48 hours. This is definitely longer than expected as the unofficial target is ~24 hours.
+The provisioning process is automated and includes provisioning the bare metal servers and deploying the VMware software stack. Provisioning time varies based on the number and configuration of the bare metal servers. When the ITZ environment used for this learning plan was originally created, the provisioning of the site took approximately 48 hours. Unfortunately longer than expected as the unofficial target is ~24 hours.
 
 
 ##
 ## Provision a virtual data center (single-tenant)
 
-Once the provisioning process of the **site** is complete, its status will turn from **Creating** to **Available**. Once it is available, a VDC can be created within the PVDC. Use the click-thru demo and the steps below to learn about this process.
+When the provisioning process of the **site** is complete, the status turns from **Creating** to **Available**. When the site is available, a VDC can be created within the PVDC. Use the click-thru demo and these steps to learn about this process.
 
 1. Open the click-thru demo and then click play ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
      **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMaaS-provision-VDC/index.html" target ="_blank">Provision a Virtual data center</a>
 
-     Here is a video of the actual provisioning process used to create this click-thru demo and the environment in ITZ. Note: this video has no audio.
+     View a video of the provisioning process that was used in creating the click-thru demo and the environment in ITZ. Note: this video has no audio.
      
      ![type:video](./_videos/VMaaS-provision-vdc-no-audio-final.mp4)
 
@@ -107,29 +107,29 @@ Once the provisioning process of the **site** is complete, its status will turn 
 
 7. Click the **Enablement-L3** resource group.
 
-Recall that a VDC must be associated with a **site**. Since only 1 site currently exists in this account, the **Location**, **Cloud Director Site**, and **Provider Virtual Data Center** fields are already populated and cannot be changed. If additional sites or PVDCs were configured the user would need to specify which ones to use.
+    Recall that a VDC must be associated with a **site**. Since only 1 site currently exists in this account, the **Location**, **Cloud Director Site**, and **Provider Virtual Data Center** fields are already populated and cannot be changed. If other sites or PVDCs were configured, the user would need to specify which ones to use.
 
 8. Click the **Fast provisioning of VMs using linked clones** toggle button.
 
-The **Fast provisioning of VMs using linked clones** option saves time by using linked clones for virtual machine provisioning. This option is enabled at the provider virtual data center (PVDC) level. Fast provisioning can be enabled for any VDCs created within the PVDC. If not enabled, all provisioning operations use full clones. To learn more about fast provisioning, check out VMware's documentation <a href="https://docs.vmware.com/en/VMware-Cloud-Director/10.4/VMware-Cloud-Director-Tenant-Portal-Guide/GUID-4C232B62-4C95-44FF-AD8F-DA2588A5BACC.html" target="_blank">here</a>. 
+    The **Fast provisioning of VMs using linked clones** option saves time by using linked clones for virtual machine provisioning. This option is enabled at the provider virtual data center (PVDC) level. Fast provisioning can be enabled for any VDCs created within the PVDC. If not enabled, all provisioning operations use full clones. To learn more about fast provisioning, check out VMware's documentation <a href="https://docs.vmware.com/en/VMware-Cloud-Director/10.4/VMware-Cloud-Director-Tenant-Portal-Guide/GUID-4C232B62-4C95-44FF-AD8F-DA2588A5BACC.html" target="_blank">here</a>. 
 
-9. Click the **Performance - L** radio button in the **Edge types** table.
+9. Click the **Performance - M** radio button in the **Edge types** table.
 
-VDCs connect to the public and IBM private networks through edges. Edges can also be used to connect multiple VDC networks together. Currently, four choices of **edge** types are supported: 
+    VDCs connect to the public and IBM private networks through edges. Edges can also be used to connect multiple VDC networks together. Currently, four choices of **edge** types are supported, note the networking elements that can be enabled with each: 
 
-- **Efficiency** 	These edges allocate networking resources that can be used by up to 100 VDCs before another efficiency edge needs to be created. Processors and memory are used from the single tenant site. New edge storage is allocated at an extra cost. Subsequent VDCs, up to 100, can use this edge at no extra cost. This option is suitable for saving resources and costs with independent networking control per VDC.
+    - **Efficiency** These edges allocate networking resources that can be used by up to 100 VDCs before another efficiency edge needs to be created. Processors and memory are used from the single tenant site. New edge storage is allocated at an extra cost. Subsequent VDCs, up to 100, can use this edge at no extra cost. This option is suitable for saving resources and costs with independent networking control per VDC.
 
-- **Performance - M** 	This option is suitable when only Layer 2 (L2) through L4 features such as Network Address Translation (NAT), routing, L4 firewall, and L4 load balancers are required. This option is suitable when the total throughput requirement is less than two gigabits per second (Gbps).
+    - **Performance - M** This option is suitable when only Layer 2 (L2) through L4 features such as Network Address Translation (NAT), routing, L4 firewall, and L4 load balancers are required. This option is suitable when the total throughput requirement is less than two gigabits per second (Gbps).
 
-- **Performance - L** 	This option is suitable when only L2 through L4 features such as NAT, routing, L4 firewall, and L4 load balancers are required. This option is suitable when the total throughput requirement is in the range of two to 10 Gbps.
+    - **Performance - L** This option is suitable when only L2 through L4 features such as NAT, routing, L4 firewall, and L4 load balancers are required. This option is suitable when the total throughput requirement is in the range of two to 10 Gbps.
 
-- **Performance - XL** 	This option is suitable when the total throughput required is multiple Gbps for L7 and one or more virtual private networks (VPNs) are required. 
+    - **Performance - XL** This option is suitable when the total throughput required is multiple Gbps for L7 and one or more virtual private networks (VPNs) are required. 
 
-The **Create without network edge** option is suitable for centralized networking administration and control over multiple VDCs. Learn more about this option <a href="https://cloud.ibm.com/docs/vmware-service?topic=vmware-service-vdc-adding#vdc-adding-procedure" target="_blank">here</a>.
+    The **Create without network edge** option is suitable for centralized networking administration and control over multiple VDCs. Learn more about this option <a href="https://cloud.ibm.com/docs/vmware-service?topic=vmware-service-vdc-adding#vdc-adding-procedure" target="_blank">here</a>.
 
 10. Click the **I have read and agreed to the following license agreements** checkbox.
 16. Click the **Create** button.
 
 The provisioning process is automated. Provisioning time varies based on the site configuration and network edge option selected. When the ITZ environment used for this learning plan was originally created, the provisioning of the site took approximately 2 hours.
 
-Now that a **site** and a **VDC** have been provisioned it is time to look at the management capabilities through the IBM Cloud portal.
+Now that a **site** and a **VDC** are provisioned it is time to look at the management capabilities through the IBM Cloud portal.
