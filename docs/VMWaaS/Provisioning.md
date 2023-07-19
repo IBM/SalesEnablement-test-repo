@@ -1,12 +1,13 @@
-The following module guides Business Partners and IBM sellers through the process of provisioning a **VMware as a Service (VMaaS)** with the IBM Cloud portal. Extra context on parameters and options is provided illustrating the value of features to users along with links to extra reference material.
+The following module guides Business Partners and IBM sellers through the process of provisioning **VMware as a Service (VMaaS)** with the IBM Cloud portal. Extra context on parameters and options is provided illustrating the value of features to users along with links to extra reference material.
 
 #
 # Click-Thru demonstration
 -----------------------------
 
-Begin by simulating how to provision a VMware Shared instance. Use the click-thru demonstration to practice the provisioning process. The fields that require a text entry (for example Provider Virtual Data Center name) are pre-populated in the click-thru demonstration. 
+ Use the click-thru demonstration to practice the provisioning process. The fields that require a text entry (for example Provider Virtual Data Center name) are pre-populated in the click-thru demonstration. 
 
-!!! Note "Navigation"
+!!! Note "Navigation in the click-thru demonstration."
+    
     Not sure where to click or what to do next? Click anywhere on the screen within the click-thru demo page and the spot to interact with next is highlighted. Step-by-step instructions on how to run the demo follow.
 
 #
@@ -15,10 +16,10 @@ Begin by simulating how to provision a VMware Shared instance. Use the click-thr
 
 !!! Important "Read before continuing!"
 
-    VMware Solutions, including the VMaaS and other offerings, are accessible through the <a href="https://cloud.ibm.com/vmware" target="_blank">VMware portal on IBM Cloud</a>. For this Level 3 course, these steps are intended to be followed in the **click-thru demonstration**; however, they can also be used to create a new instance. If you provision a live VMaaS instance in your *personal* IBM Cloud account, then your account (and credit card that is associated with that account) is billed for the deployment. **You'r user ID does not have permissions to complete all these steps in the IBM Technology Zone (ITZ) environment associated with this course. These resources are already created in the ITZ environment.**
+    VMware Solutions, including the VMaaS and other offerings, are accessible through the <a href="https://cloud.ibm.com/vmware" target="_blank">VMware portal on IBM Cloud</a>. For this Level 3 course, these steps are intended to be followed in the **click-thru demonstration**; however, they can also be used to create a new instance. If you provision a live VMaaS instance in your *personal* IBM Cloud account, then your account (and credit card that is associated with that account) is billed for the deployment. **Your user ID does not have permissions to complete all these steps in the IBM Technology Zone (ITZ) environment associated with this course. These resources are already created in the ITZ environment.**
 
-#
-# Provision a site (single-tenant)
+##
+## Provision a site (single-tenant)
 
 
 1. Open the click-thru demo and then click play ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
@@ -27,7 +28,7 @@ Begin by simulating how to provision a VMware Shared instance. Use the click-thr
 
      Here is a video of the actual provisioning process used to create this click-thru demo and the environment in ITZ. Note: this video has no audio.
      
-     ![type:video](./_videos/VMaaS-provision-site-no-audio.mp4).
+     ![type:video](./_videos/VMaaS-provision-site-no-audio.mp4)
 
 2. Click the VMware (![](_attachments/VMicon.png)) icon in navigation menu.
 3. Click the **VMware as a Service** tile.
@@ -77,16 +78,42 @@ Begin by simulating how to provision a VMware Shared instance. Use the click-thr
 15. Click the **I have read and agreed to the following license agreements** checkbox.
 16. Click the **Create** button.
 
-The provisioning process is automated and includes provisioning the bare metal servers and deploying the VMware software stack. Provisioning time varies based on the number and configuration of the bare metal servers. When the ITZ environment used for this learning plan was originally created, the provisioning of the site took approximately XXX hours.
+The provisioning process is automated and includes provisioning the bare metal servers and deploying the VMware software stack. Provisioning time varies based on the number and configuration of the bare metal servers. When the ITZ environment used for this learning plan was originally created, the provisioning of the site took approximately 48 hours. This is definitely longer than expected as the unofficial target is ~24 hours.
 
 
-#
-# Provision a virtual data center (single-tenant)
+##
+## Provision a virtual data center (single-tenant)
 
-The **Fast provisioning of VMs using linked clones** option saves time by using linked clones for virtual machine provisioning. This option is enabled at the provider virtual data center (PVDC) level. You can also enable fast provisioning for any VDCs created within the PVDC. If not enabled, all provisioning operations use full clones. To learn more about fast provisioning, check out VMware's documentation <a href="https://docs.vmware.com/en/VMware-Cloud-Director/10.4/VMware-Cloud-Director-Tenant-Portal-Guide/GUID-4C232B62-4C95-44FF-AD8F-DA2588A5BACC.html" target="_blank">here</a>. 
+Once the provisioning process of the **site** is complete, its status will turn from **Creating** to **Available**. Once it is available, a VDC can be created within the PVDC. Use the click-thru demo and the steps below to learn about this process.
 
+1. Open the click-thru demo and then click play ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
-**Network edge**
+     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMaaS-provision-VDC/index.html" target ="_blank">Provision a Virtual data center</a>
+
+     Here is a video of the actual provisioning process used to create this click-thru demo and the environment in ITZ. Note: this video has no audio.
+     
+     ![type:video](./_videos/VMaaS-provision-vdc-no-audio.mp4)
+
+2. Click the **Virtual data centers** tab.
+3. Click **Create new +**
+4. Click the **Virtual data center** tile.
+5. Click in the **Name** field.
+
+    Specify a descriptive name for the VCD as it cannot be changed after the site is provisioned.
+
+6. Click the **Resource Group** drop-down menu.
+
+    Resource groups are used to help manage resources and billing in an IBM Cloud account.
+
+7. Click the **Enablement-L3** resource group.
+
+Recall that a VDC must be associated with a **site**. Since only 1 site currently exists in this account, the **Location**, **Cloud Director Site**, and **Provider Virtual Data Center** fields are already populated and cannot be changed. If additional sites or PVDCs were configured the user would need to specify which ones to use.
+
+8. Click the **Fast provisioning of VMs using linked clones** toggle button.
+
+The **Fast provisioning of VMs using linked clones** option saves time by using linked clones for virtual machine provisioning. This option is enabled at the provider virtual data center (PVDC) level. Fast provisioning can be enabled for any VDCs created within the PVDC. If not enabled, all provisioning operations use full clones. To learn more about fast provisioning, check out VMware's documentation <a href="https://docs.vmware.com/en/VMware-Cloud-Director/10.4/VMware-Cloud-Director-Tenant-Portal-Guide/GUID-4C232B62-4C95-44FF-AD8F-DA2588A5BACC.html" target="_blank">here</a>. 
+
+9. Click the **Performance - L** radio button in the **Edge types** table.
 
 VDCs connect to the public and IBM private networks through edges. Edges can also be used to connect multiple VDC networks together. Currently, four choices of **edge** types are supported: 
 
@@ -99,3 +126,10 @@ VDCs connect to the public and IBM private networks through edges. Edges can als
 - **Performance - XL** 	This option is suitable when the total throughput required is multiple Gbps for L7 and one or more virtual private networks (VPNs) are required. 
 
 The **Create without network edge** option is suitable for centralized networking administration and control over multiple VDCs. Learn more about this option <a href="https://cloud.ibm.com/docs/vmware-service?topic=vmware-service-vdc-adding#vdc-adding-procedure" target="_blank">here</a>.
+
+10. Click the **I have read and agreed to the following license agreements** checkbox.
+16. Click the **Create** button.
+
+The provisioning process is automated. Provisioning time varies based on the site configuration and network edge option selected. When the ITZ environment used for this learning plan was originally created, the provisioning of the site took approximately 2 hours.
+
+Now that a **site** and a **VDC** have been provisioned it is time to look at the management capabilities through the IBM Cloud portal.
