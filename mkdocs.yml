@@ -22,7 +22,10 @@ nav:
   - 'VMware as a Service':
     - 'Introduction': 'VMWaaS/Introduction.md'
     - 'Provisioning': 'VMWaaS/Provisioning.md'
-    - 'Managing': 'VMWaaS/Managing.md'
+    - 'Managing': 
+      - 'Overview': 'VMWaaS/Managing/ManagingIntro.md'
+      - 'Virtual Data Center': 'VMWaaS/Managing/ManagingVDC.md'
+      - 'Site': 'VMWaaS/Managing/ManagingSite.md'
     - 'Hands On Access': 'VMWaaS/HandsOn.md'
   - 'VMware Solutions Dedicated':
     - 'Introduction': 'Dedicated/Introduction.md'
