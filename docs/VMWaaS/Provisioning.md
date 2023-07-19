@@ -28,7 +28,7 @@ The following module guides Business Partners and IBM sellers through the proces
 
      Here is a video of the actual provisioning process used to create this click-thru demo and the environment in ITZ. Note: this video has no audio.
      
-     ![type:video](./_videos/VMaaS-provision-site-no-audio.mp4)
+     ![type:video](./_videos/VMaaS-provision-site-no-audio-final.mp4)
 
 2. Click the VMware (![](_attachments/VMicon.png)) icon in navigation menu.
 3. Click the **VMware as a Service** tile.
@@ -92,7 +92,7 @@ Once the provisioning process of the **site** is complete, its status will turn 
 
      Here is a video of the actual provisioning process used to create this click-thru demo and the environment in ITZ. Note: this video has no audio.
      
-     ![type:video](./_videos/VMaaS-provision-vdc-no-audio.mp4)
+     ![type:video](./_videos/VMaaS-provision-vdc-no-audio-final.mp4)
 
 2. Click the **Virtual data centers** tab.
 3. Click **Create new +**
