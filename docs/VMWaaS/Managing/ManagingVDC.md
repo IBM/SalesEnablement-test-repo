@@ -1,4 +1,4 @@
-In this click-thru demonstration, explore the management activities that can be performed on a virtual data center (VDC) instance running on IBM Cloud. Keep in mind, as described earlier, all the steps shown here can be used in the IBM Technology Zone (ITZ) environment you provisioned up to the point of actually clicking **Create** or **Delete**. Attempts to create new resources in the ITZ environment will result in an error similar to the one shown.
+In this click-thru demonstration, explore the management activities for a virtual data center (VDC) instance on IBM Cloud. Keep in mind all the steps shown here can be used in the IBM Technology Zone (ITZ) environment you provisioned up to the point of clicking **Create** or **Delete**. Attempts to create new resources in the ITZ environment result in an error similar to the one shown.
 
 ![](_attachments/CreateFailure.png)
 
@@ -26,7 +26,7 @@ In this click-thru demonstration, explore the management activities that can be 
 2. Click the **{{itz.vmaas.vdc1}}** entry in the table of VDCs.
 3. Click the **Actions** drop-down menu.
 
-The ability to delete a VDC is exposed both in this drop-down menu as well as in the VDC table from previous screen. Recall the information regarding deleting clusters from the previous chapter. Deleting VDCs can only be done if all workloads have been stopped in that VDC.
+The ability to delete a VDC is available both in this drop-down menu and in the VDC table from the previous screen. Recall the information about deleting clusters from the previous chapter. Deleting VDCs can only be done if all workloads are stopped in that VDC.
 
 4. Click **Refresh**.
 5. Click the **VMWare as a Service** link in the bread crumb list.
@@ -36,7 +36,7 @@ The ability to delete a VDC is exposed both in this drop-down menu as well as in
 9. Click **Enablement-L3**.
 10. Click the **Fast provisioning of VMs using linked clones** toggle button.
 
-Read the information message regarding the network edge. Because the original VDC created in this PVDC only had 2 hosts and a **Performance - M** network edge was created, additional compute and memory resources are not available to add an efficiency edge, and thus the **Create without network edge** is automatically enabled for this VDC. In a later chapter learn how to create a VDC group using the VMware vCloud Director web console that will allow this VDC to utilize the existing **Performance -M** network edge.
+Read the information message about the network edge. The original VDC created in this PVDC only had 2 hosts and a **Performance - M** network edge was created. Sufficient compute and memory resources are not available to add an efficiency edge. Thus the **Create without network edge** is automatically enabled for this VDC. In a later chapter, learn how to create a VDC group using the VMware vCloud Director web console, which allows this VDC to use the existing **Performance - M** network edge.
 
 11. Click the **I have red and agreed to the following license agreements** checkbox.
 12. Click **Create**.
