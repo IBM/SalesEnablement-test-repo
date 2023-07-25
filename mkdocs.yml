@@ -26,7 +26,7 @@ nav:
       - 'Overview': 'VMWaaS/Managing/ManagingIntro.md'
       - 'Managing a VMaaS instance using the IBM Cloud Portal': 'VMWaaS/Managing/ManagingSite.md'
       - 'Managing a VDC using vCloud Director': 'VMWaaS/Managing/ManagingVDC.md'
-    - 'The client demonstration' 'VMWaaS/PuttingItAllTogether.md'
+      - 'The client demonstration' 'VMWaaS/PuttingItAllTogether.md'
   - 'VMware Solutions Dedicated':
     - 'Introduction': 'Dedicated/Introduction.md'
     - 'Provisioning': 'Dedicated/Provisioning.md'
