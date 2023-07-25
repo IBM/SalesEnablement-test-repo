@@ -415,8 +415,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../ManagingVDC/" class="md-nav__link">
-        Virtual Data Center
+      <a href="../ManagingSite/" class="md-nav__link">
+        Managing a VMaaS instance using the IBM Cloud Portal
       </a>
     </li>
   
@@ -429,8 +429,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../ManagingSite/" class="md-nav__link">
-        Site
+      <a href="../ManagingVDC/" class="md-nav__link">
+        Managing a VDC using vCloud Director
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PuttingItAllTogether.md" class="md-nav__link">
+        The client demonstration
       </a>
     </li>
   
@@ -439,20 +453,6 @@
           
         </ul>
       </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../HandsOn/" class="md-nav__link">
-        Hands On Access
-      </a>
     </li>
   
 
@@ -587,7 +587,28 @@
 
   <h1>Overview</h1>
 
-
+<p>There are several aspects of managing a VMware as a Service instance running on IBM Cloud. At a very high level, there are the management of the "on IBM Cloud" aspects of a VMaaS instance and managing the a virtual data center (VDC) using VMware vCloud Director (vCloud Director). </p>
+<p>Using the IBM Cloud portal to manage aspects of the <strong>site</strong> and <strong>VDC</strong> is straight forward and includes tasks like:</p>
+<ul>
+<li>adding and removing Provider Virtual Data Centers (PVDCs)</li>
+<li>adding and removing clusters to an existing data center</li>
+<li>adding and removing hosts to a cluster</li>
+<li>adding and removing storage to a cluster</li>
+<li>adding and removing additional services</li>
+<li>adding and removing VDCs</li>
+</ul>
+<p>Managing the VDC is done with the VMware vCloud Director web console which is accessible through the IBM Cloud portal. This aspect of management includes common VMware administrative tasks like:</p>
+<ul>
+<li>adding and deleting networks, firewalls, VPNs, and network address translation (NAT) rules</li>
+<li>adding and deleting virtual machines (VMs), virtual applications (vApps), and affinity rules</li>
+<li>managing storage policies and named disks</li>
+<li>and other virtual data center capabilities exposed through the vCloud Director web console</li>
+</ul>
+<p>Both of these domains will be explored in this demonstration guide. When demonstrating to clients sellers are encouraged to focus on the "on the IBM Cloud" aspects of the solution.</p>
+<div class="admonition important">
+<p class="admonition-title">Read before continuing!</p>
+<p>As mentioned earlier, your user ID in the IBM Technology Zone (ITZ) environment will not have sufficient permission to perform many of the activities described. Click-thru demonstrations are provided to walk through tasks that provision additional resources. When performing client demonstrations, sellers can utilize these click-thru demonstrations or a <em>baking show</em> approach of demonstrating these tasks can be used. This is done by following the same steps described in the click-thru demo using the ITZ environment to walk through the provisioning steps in the IBM Cloud Portal up to the point of clicking <strong>Create</strong>. Instead of clicking <strong>Create</strong>, explain what would happen and then switch to the already created instance of the resource. The video found in <strong>The client demonstration</strong> chapter illustrates this approach.</p>
+</div>
 
 
 
@@ -622,13 +643,13 @@
       
       
         
-        <a href="../ManagingVDC/" class="md-footer__link md-footer__link--next" aria-label="Next: Virtual Data Center" rel="next">
+        <a href="../ManagingSite/" class="md-footer__link md-footer__link--next" aria-label="Next: Managing a VMaaS instance using the IBM Cloud Portal" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Virtual Data Center
+              Managing a VMaaS instance using the IBM Cloud Portal
             </div>
           </div>
           <div class="md-footer__button md-icon">

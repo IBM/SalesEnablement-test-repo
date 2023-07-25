@@ -27,5 +27,6 @@ cp.imagesJSONCacheForLocal=true;cp.imageToJSONPathMap={
 "dr/Failure_Shape_6.png": "img3.json",
 "dr/Failure_Shape_7.png": "img3.json",
 "dr/Failure_Shape_8.png": "img3.json",
-"dr/loading.gif": "img3.json",
+"dr/StartGraphicForCaptivateProvisionVCD.png": "img3.json",
+"dr/Text_Caption_1.png": "img3.json",
 "___":"___"};

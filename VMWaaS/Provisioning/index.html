@@ -420,8 +420,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../Managing/ManagingVDC/" class="md-nav__link">
-        Virtual Data Center
+      <a href="../Managing/ManagingSite/" class="md-nav__link">
+        Managing a VMaaS instance using the IBM Cloud Portal
       </a>
     </li>
   
@@ -434,8 +434,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../Managing/ManagingSite/" class="md-nav__link">
-        Site
+      <a href="../Managing/ManagingVDC/" class="md-nav__link">
+        Managing a VDC using vCloud Director
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PuttingItAllTogether.md" class="md-nav__link">
+        The client demonstration
       </a>
     </li>
   
@@ -444,20 +458,6 @@
           
         </ul>
       </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../HandsOn/" class="md-nav__link">
-        Hands On Access
-      </a>
     </li>
   
 
@@ -622,7 +622,8 @@
 </li>
 <li>
 <p>Click the <strong>VMware as a Service</strong> tile.</p>
-<p>A VMaaS single-tenant <strong>site</strong> is a deployment of VMware vCloud Director on dedicated infrastructure. A <strong>virtual data center (VDC)</strong> is a logical data center that uses some or all of the resources of a <strong>site</strong>. A <strong>site</strong> must be created before a VDC can be provisioned. </p>
+<p>A VMaaS single-tenant <strong>site</strong> is a deployment of VMware vCloud Director on dedicated infrastructure. A <strong>virtual data center (VDC)</strong> is a logical data center that uses some or all of the resources of a <strong>site</strong>. A <strong>site</strong> must be created before a VDC can be provisioned. A <strong>Provider Virtual Data Center (PVDC)</strong> is a grouping of compute and storage resources from a single VMware vCenter Server. A provider virtual data center
+consists of one or more resource pools (clusters) and one or more datastores. <em>Provider virtual data center resources can be shared with multiple organizations</em>.</p>
 </li>
 <li>
 <p>Click the <strong>Cloud Director Site</strong> tile.</p>
@@ -652,6 +653,7 @@
 <p>VMaaS supports both network file storage (NFS) and VMware vSAN (virtual Storage Area Network) storage. You can select NFS only storage or vSAN storage with optional NFS storage. </p>
 <p>vSAN with optional NFS storage is only available in IBM Cloud data centers with networks of 25 gigabits (GbE) bandwidth. vSAN clusters use bare metal host profiles with local flash storage. vSAN clusters can also use NFS storage.</p>
 <p>VWMare vSAN deduplication and compression are available to reduce redundant data within each disk group. This option can increase overall storage space based on the data type.</p>
+<p>Storage encryption is provided with unique IBM-managed encryption keys per instance with encrypted VMware storage profiles</p>
 </li>
 <li>
 <p>Click the <strong>NFS-only storage</strong> radio button.</p>
