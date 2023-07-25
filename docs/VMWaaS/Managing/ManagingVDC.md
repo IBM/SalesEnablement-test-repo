@@ -23,7 +23,7 @@ In this click-thru demonstration, explore the management activities that can be 
 
      **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMaaS-add-VDC/index.html" target ="_blank">Add a virtual data center (VDC)</a>
 
-2. Click the **{{vmaas.vdc1}}** entry in the table of VDCs.
+2. Click the **{{itz.vmaas.vdc1}}** entry in the table of VDCs.
 3. Click the **Actions** drop-down menu.
 
 The ability to delete a VDC is exposed both in this drop-down menu as well as in the VDC table from previous screen. Recall the information regarding deleting clusters from the previous chapter. Deleting VDCs can only be done if all workloads have been stopped in that VDC.

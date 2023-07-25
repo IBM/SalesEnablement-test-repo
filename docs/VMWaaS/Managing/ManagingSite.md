@@ -24,8 +24,8 @@ In this click-thru demonstration, explore the management activities that can be 
      **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMaaS-explore-pvdc/index.html" target ="_blank">Manage a site and Provider Virtual Data Center (PVDC)</a>
 
 2. Click the **Cloud director sites (1)** tab.
-3. Click the down arrow (![](_attachments/downArrow.png)) to expand the {{vmaas.siteName}} site.
-4. Click the {{vmaas.siteName}} link in the table.
+3. Click the down arrow (![](_attachments/downArrow.png)) to expand the {{itz.vmaas.siteName}} site.
+4. Click the {{itz.vmaas.siteName}} link in the table.
 5. Click the **Actions** drop-down menu.
    
 Notice the **Delete instance** option is disabled. A site cannot be deleted all associated virtual data centers (VDCs) have been removed first.
