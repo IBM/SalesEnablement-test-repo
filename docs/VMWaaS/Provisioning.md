@@ -33,7 +33,8 @@ The following module guides Business Partners and IBM sellers through the proces
 2. Click the VMware (![](_attachments/VMicon.png)) icon in navigation menu.
 3. Click the **VMware as a Service** tile.
 
-    A VMaaS single-tenant **site** is a deployment of VMware vCloud Director on dedicated infrastructure. A **virtual data center (VDC)** is a logical data center that uses some or all of the resources of a **site**. A **site** must be created before a VDC can be provisioned. 
+    A VMaaS single-tenant **site** is a deployment of VMware vCloud Director on dedicated infrastructure. A **virtual data center (VDC)** is a logical data center that uses some or all of the resources of a **site**. A **site** must be created before a VDC can be provisioned. A **Provider Virtual Data Center (PVDC)** is a grouping of compute and storage resources from a single VMware vCenter Server. A provider virtual data center
+    consists of one or more resource pools (clusters) and one or more datastores. *Provider virtual data center resources can be shared with multiple organizations*.
 
 4. Click the **Cloud Director Site** tile.
 5. Click in the **Name** field.
@@ -61,6 +62,8 @@ The following module guides Business Partners and IBM sellers through the proces
     vSAN with optional NFS storage is only available in IBM Cloud data centers with networks of 25 gigabits (GbE) bandwidth. vSAN clusters use bare metal host profiles with local flash storage. vSAN clusters can also use NFS storage.
 
     VWMare vSAN deduplication and compression are available to reduce redundant data within each disk group. This option can increase overall storage space based on the data type.
+
+    Storage encryption is provided with unique IBM-managed encryption keys per instance with encrypted VMware storage profiles
 
 12. Click the **NFS-only storage** radio button.
 

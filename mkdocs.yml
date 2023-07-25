@@ -24,9 +24,9 @@ nav:
     - 'Provisioning': 'VMWaaS/Provisioning.md'
     - 'Managing': 
       - 'Overview': 'VMWaaS/Managing/ManagingIntro.md'
-      - 'Virtual Data Center': 'VMWaaS/Managing/ManagingVDC.md'
-      - 'Site': 'VMWaaS/Managing/ManagingSite.md'
-    - 'Hands On Access': 'VMWaaS/HandsOn.md'
+      - 'Managing a VMaaS instance using the IBM Cloud Portal': 'VMWaaS/Managing/ManagingSite.md'
+      - 'Managing a VDC using vCloud Director': 'VMWaaS/Managing/ManagingVDC.md'
+    - 'The client demonstration' 'VMWaaS/PuttingItAllTogether.md'
   - 'VMware Solutions Dedicated':
     - 'Introduction': 'Dedicated/Introduction.md'
     - 'Provisioning': 'Dedicated/Provisioning.md'
@@ -90,3 +90,9 @@ extra:
     dedicated:
       instanceName: "vcs-l3"
       clusterName: "vcs-dv-consolidated"
+    vmaas:
+      siteName: "se-le-site"
+      pvdc: "se-l3-provider"
+      cluster1: "se-l3-cluster1"
+      vdc1: "se-l3-development"
+      vdc2: "se-l3-production"
