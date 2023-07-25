@@ -594,7 +594,7 @@
                 
 
 
-<p>In this click-thru demonstration, explore the management activities that can be performed on a VMware as a Service instance running on IBM Cloud. Keep in mind, as described earlier, all the steps shown here can be used in the IBM Technology Zone (ITZ) environment you provisioned up to the point of actually clicking <strong>Create</strong> or <strong>Delete</strong>. Attempts to create new resources in the ITZ environment will result in an error similar to the one shown.</p>
+<p>In this click-thru demonstration, explore the management activities for a VMware as a Service instance on IBM Cloud. All steps that are shown here can be used in the IBM Technology Zone (ITZ) environment you provisioned up to the point of clicking <strong>Create</strong> or <strong>Delete</strong>. Attempts to create new resources in the ITZ environment results in an error similar to the one shown.</p>
 <p><img alt="" src="../_attachments/CreateFailure.png" /></p>
 <h1 id="_1"></h1>
 <h1 id="click-thru-demonstration">Click-Thru demonstration</h1>
@@ -621,8 +621,8 @@
 <li>Click the se-le-site link in the table.</li>
 <li>Click the <strong>Actions</strong> drop-down menu.</li>
 </ol>
-<p>Notice the <strong>Delete instance</strong> option is disabled. A site cannot be deleted all associated virtual data centers (VDCs) have been removed first.</p>
-<ol start="6">
+<p>Notice that the Delete instance option is not enabled. A site cannot be deleted unless all associated virtual data centers (VDCs) are removed.</p>
+<ol>
 <li>Click the <strong>Refresh</strong> option.</li>
 <li>Click the <strong>Infrastructure</strong> tab.</li>
 </ol>
@@ -636,12 +636,12 @@
 <li>Click <strong>Cancel</strong>.</li>
 <li>Click <strong>Edit NFS storage</strong>.</li>
 </ol>
-<p>Additional NFS storage can be added to the cluster in 24 terabyte (TB) increments. Additional storage tiers can also be added. Take note of the message regarding completion time to add storage.</p>
+<p>More NFS storage can be added to the cluster in 24 terabyte (TB) increments. More storage tiers can also be added. Take note of the message about completion times.</p>
 <ol start="11">
 <li>Click <strong>Cancel</strong>.</li>
 <li>Click the <strong>Add cluster +</strong>.</li>
 </ol>
-<p>Additional clusters can be added to a PVDC. Additional clusters can only have hosts with homogeneous profiles. While it is possible to create clusters with using different host profiles than that of the original cluster in the PVDC, it is not recommended. VDCs deployed to a PVDC can use all compute, memory, and storage within the PVDC, <em>including when multiple clusters exist</em>. To get consistent workload performance, it is best if all clusters within the same PVDC use the same host profile type. VMware Cloud Director automatically selects and adjusts the placement of workload VMs across the clusters in the PVDC. Placement is not controlled by users with VMware Cloud Director.</p>
+<p>More clusters can be added to a PVDC. Clusters can only have hosts with homogeneous profiles. While it is possible to create clusters that use different host profiles, it is not recommended. VDCs deployed to a PVDC can use all compute, memory, and storage within the PVDC, <em>including when multiple clusters exist</em>. To get consistent workload performance, it is best if all clusters within the same PVDC use the same host profile type. VMware Cloud Director automatically selects and adjusts the placement of workload VMs across the clusters in the PVDC. Placement is not controlled by users with VMware Cloud Director.</p>
 <p>A new PVDC is typically created for the following scenarios:</p>
 <ul>
 <li>
@@ -656,7 +656,7 @@
 </ol>
 <p>From this menu, it is possible to delete a cluster. Workload virtual machines (VMs) are deployed in virtual data centers (VDCs) that logically exist in the scope of a PVDC. PVDCs physically consist of one or more VMware vCenter clusters. When the PVDC contains multiple clusters and one cluster is deleted, all VMs running in that cluster are migrated to other clusters in the same PVDC.</p>
 <p>VMs deployed to a specific storage performance tier are only migrated to the same performance tier of storage in the remaining clusters. Clients must ensure that the remaining clusters have compatible storage performance layers of the deleted cluster. The remaining clusters must also have enough CPU and memory to contain the VMs of the deleted cluster.</p>
-<p>If not enough CPU, RAM, or equivalent storage performance for the cluster exists, the delete operation does not succeed. When the delete cluster operations are not successful, workloads are not impacted, and the operation is retried. Resource constraints are resolved by either stopping or deleting VMs or ensuing other clusters in the PVDC have the resource to support migrated workload VMs.</p>
+<p>If not enough CPU, RAM, or equivalent storage for the cluster exists, the delete operation does not succeed. When the delete cluster operations are not successful, workloads are not impacted, and the operation is retried. Resource constraints are resolved by either stopping or deleting VMs or ensuing other clusters in the PVDC have the resource to support migrated workload VMs.</p>
 <ol start="14">
 <li>Click the <strong>Virtual Data Center</strong> tab.</li>
 </ol>
@@ -672,7 +672,7 @@
 <ol start="17">
 <li>Click <strong>Add service +</strong>.</li>
 </ol>
-<p>From this screen it is possible to deploy Veeam or any other additional services that are available. Expect to see additional services in the near future.</p>
+<p>From this screen, it is possible to deploy Veeam or any other services that are available. Expect to see more services soon.</p>
 <ol start="18">
 <li>Click <strong>Return to resource</strong>.</li>
 <li>Click the <strong>Summary</strong> tab.</li>
