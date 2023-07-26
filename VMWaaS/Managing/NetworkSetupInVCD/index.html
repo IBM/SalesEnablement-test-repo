@@ -609,12 +609,11 @@
 
 
 <p>The network for a VMware as a Service environment is a critical element that clients must plan carefully. Some information on network planning is provided in the IBM Cloud documentation <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-vdc-adding" target="_blank">here</a>. VMware also has good documentation that is accessible through the vCloud Director web console or <a href="https://docs.vmware.com/en/VMware-Cloud-Director/10.4/VMware-Cloud-Director-Tenant-Portal-Guide/GUID-0544FE2A-B036-43E0-B549-40BACDF261B6.html" target="_blank">here</a>. The network implementation in this demonstration environment is minimal and should not be considered as a best of practice.</p>
-<p>In this click-thru demonstration, use VMware vCloud Director to create data center groups, expand the scope of an edge gateway, and how to create a network for virtual machines (VMs). <strong>Data Center Groups</strong> allow administrators to group VDCs together to share network resources. Recall the second VDC created (se-l3-test) was created with no edge gateway. To allow network connectivity to virtual machines provisioned in the se-l3-test VDC, there needs to be a network and an edge gateway that is associated with the VDC. Next, learn how to create a data center group, expand the scope of the existing edge gateway, and how to create a network for the two VDCs.</p>
+<p>In this click-thru demonstration, use VMware Cloud Director (vCloud Director or vCD) to create data center groups, expand the scope of an edge gateway, and how to create a network for virtual machines (VMs). <strong>Data Center Groups</strong> allow administrators to group VDCs together to share network resources. Recall the second VDC created (se-l3-test) was created with no edge gateway. To allow network connectivity to virtual machines provisioned in the se-l3-test VDC, there needs to be a network and an edge gateway that is associated with the VDC. Next, learn how to create a data center group, expand the scope of the existing edge gateway, and how to create a network for the two VDCs.</p>
 <div class="admonition important">
 <p class="admonition-title">You cannot perform these steps in the IBM Technology Zone (ITZ) environment.</p>
-<p>In ITZ, your IBM Cloud ID will have limited access controls to the IBM Cloud account that is used. Specifically related to the steps in this click-thru demo, you will NOT be able to do these actions.  However, you will be able to view the resources created and modified in this section.  In the next chapter, you will have the ability to create, modify, and destroy virtual machines running in VMWaaS. </p>
+<p>In ITZ, your IBM Cloud ID will have limited access controls to the IBM Cloud account that is used. Specifically related to the steps in this click-thru demo, you will NOT be able to do these actions. However, you will be able to view the resources created and modified in this section.  In the next chapter, you will have the ability to create, modify, and destroy virtual machines running in VMWaaS. </p>
 </div>
-<p><img alt="" src="../_attachments/CreateFailure.png" /></p>
 <h1 id="_1"></h1>
 <h1 id="click-thru-demonstration">Click-Thru demonstration</h1>
 <hr />
@@ -637,12 +636,12 @@
 <p>Click <strong>Go to VMware console</strong>.</p>
 </li>
 </ol>
-<p>Note, each of the virtual data centers that are displayed are part of the same <strong>site</strong>/<strong>provider virtual data center (PVDC)</strong>, and use the same management infrastructure and VMware vCloud Director (VMware console) instance.</p>
+<p>Note, each of the virtual data centers that are displayed are part of the same <strong>site</strong>/<strong>provider virtual data center (PVDC)</strong>, and use the same management infrastructure and vCD (VMware console) instance.</p>
 <ol start="3">
 <li>Click the <strong>Networking</strong> tab.</li>
 <li>Click the <strong>Data Center Groups</strong> tab.</li>
 <li>Click <strong>New</strong>.</li>
-<li>Click the se-l3-development checkbox.</li>
+<li>Click the <strong>se-l3-development</strong> radio button.</li>
 <li>Click the <strong>Name</strong> entry field.</li>
 <li>Click <strong>Next</strong>.</li>
 <li>Click the first checkbox (<img alt="" src="../_attachments/checkBox.png" />) to select all VDCs.</li>
@@ -652,12 +651,12 @@
 <p>Now that the <strong>Data Center Group</strong> is created, the scope of the existing edge gateway needs to be expanded from just the original VDC se-l3-development to include both VDCs.</p>
 <ol start="12">
 <li>Click the <strong>Edge Gateways</strong> tab.</li>
-<li>Click the se-l3-development edge gateway in the table.</li>
+<li>Click the <strong>se-l3-development</strong> edge gateway in the table.</li>
 </ol>
-<p>Notice in the <strong>Scope</strong> table, the <strong>Organization Virtual Data Center</strong> value is set to just the se-l3-development VDC.</p>
+<p>Notice in the <strong>Scope</strong> table, the <strong>Organization Virtual Data Center</strong> value is set to just the <strong>se-l3-development</strong> VDC.</p>
 <ol start="14">
 <li>Click <strong>INCREASE SCOPE</strong>.</li>
-<li>Click the radio button for the se-l3-dc-group entry.</li>
+<li>Click the radio button for the <strong>se-l3-dc-group</strong> entry.</li>
 <li>Click <strong>OK</strong>.</li>
 </ol>
 <p>Now, notice that the <strong>Scope</strong> changed from the single VDC to the new <strong>se-l3-dc-group</strong> Data Center Group.</p>
@@ -666,7 +665,7 @@
 <li>Click the <strong>Networks</strong> tab.</li>
 <li>Click <strong>New</strong>.</li>
 <li>Click the <strong>Data Center Group</strong> radio button.</li>
-<li>Click the se-l3-dc-group radio button.</li>
+<li>Click the <strong>se-l3-dc-group</strong> radio button.</li>
 <li>Click <strong>NEXT</strong>.</li>
 <li>Click <strong>NEXT</strong>.</li>
 </ol>
@@ -689,7 +688,7 @@
 </ol>
 <p>Now that the network is configured, the next step is to activate DHCP so VMs are automatically assigned network addresses when they are provisioned.</p>
 <ol start="31">
-<li>Click the se-l3-network entry.</li>
+<li>Click the <strong>se-l3-network</strong> entry.</li>
 <li>Click <strong>DHCP</strong>.</li>
 <li>Click <strong>ACTIVATE</strong>.</li>
 <li>Click <strong>NEXT</strong></li>
@@ -706,7 +705,7 @@
 <li>Click <strong>NEXT</strong>.</li>
 <li>Click <strong>FINISH</strong>.</li>
 </ol>
-<p>Basic network setup is now complete. No more click-thru demonstrations! In the next chapter, using your ITZ reservation, you will access the VMWaaS environment that was created. You will use VMware vCloud Director to provision and access virtual machines.</p>
+<p>Basic network setup is now complete. No more click-thru demonstrations! In the next chapter, using your ITZ reservation, you will access the VMWaaS environment that was created and use vCD to provision and access virtual machines.</p>
 
 
 
