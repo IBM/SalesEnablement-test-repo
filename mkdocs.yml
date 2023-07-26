@@ -14,17 +14,12 @@ docs_dir: docs
 
 nav:
   - 'Welcome': 'index.md'
-  - 'VMware Solutions Shared (OPTIONAL)':
-    - 'Introduction': 'Shared/Introduction.md'
-    - 'Provisioning': 'Shared/Provisioning.md'
-    - 'Managing': 'Shared/Managing.md'
-    - 'Hands On Access': 'Shared/HandsOn.md'
   - 'VMware as a Service':
     - 'Introduction': 'VMwaaS/Introduction.md'
     - 'Provisioning VMwaaS resources using the IBM Cloud Portal': 'VMwaaS/Provisioning.md'
     - 'Managing VMwaaS resources': 
       - 'Overview': 'VMwaaS/Managing/ManagingIntro.md'
-      - 'Managing a VMaaS instance using the IBM Cloud Portal': 'VMwaaS/Managing/ManagingSite.md'
+      - 'Managing a VMwaaS instance using the IBM Cloud Portal': 'VMwaaS/Managing/ManagingSite.md'
       - 'Managing VDCs using the IBM Cloud Portal': 'VMwaaS/Managing/ManagingVDC.md'
     - 'Using VMwaaS'  
       - 'Overview': 'VMwaaS/Using/UsingIntro.md'
@@ -36,6 +31,11 @@ nav:
     - 'Provisioning': 'Dedicated/Provisioning.md'
     - 'Managing': 'Dedicated/Managing.md'
   - 'Next Steps': 'NextSteps.md'
+  - 'VMware Solutions Shared (OPTIONAL)':
+    - 'Introduction': 'Shared/Introduction.md'
+    - 'Provisioning': 'Shared/Provisioning.md'
+    - 'Managing': 'Shared/Managing.md'
+    - 'Hands On Access': 'Shared/HandsOn.md'
 
 theme:
   name: material
