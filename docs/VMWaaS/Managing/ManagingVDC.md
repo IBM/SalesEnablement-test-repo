@@ -1,4 +1,4 @@
-In this click-thru demonstration, explore the management activities for a virtual data center (VDC) instance on IBM Cloud. Keep in mind all the steps shown here can be used in the IBM Technology Zone (ITZ) environment you provisioned up to the point of clicking **Create** or **Delete**. Attempts to create new resources in the ITZ environment result in an error similar to the one shown.
+In this click-thru demonstration, explore the management activities for a virtual data center (VDC) instance on IBM Cloud. Note, there are limited administrative tasks via the IBM Cloud portal for VDCs. Keep in mind all the steps shown here can be used in the IBM Technology Zone (ITZ) environment you provisioned up to the point of clicking **Create** or **Delete**. Attempts to create new resources in the ITZ environment result in an error similar to the one shown.
 
 ![](_attachments/CreateFailure.png)
 
@@ -17,13 +17,16 @@ In this click-thru demonstration, explore the management activities for a virtua
 ----------------------
 
 ##
-## Manage a site
+## Manage a VDC and add a second VDC
 
 1. Open the click-thru demo and then click play ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
      **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMaaS-add-VDC/index.html" target ="_blank">Add a virtual data center (VDC)</a>
 
 2. Click the **{{itz.vmaas.vdc1}}** entry in the table of VDCs.
+
+Notice the list of **Public IPs** associated with the VDC. These addresses can be used to assign to individual virtual machines (VMs) provisioned in the VDC or assigned to networks using network address translation (NAT).
+
 3. Click the **Actions** drop-down menu.
 
 The ability to delete a VDC is available both in this drop-down menu and in the VDC table from the previous screen. Recall the information about deleting clusters from the previous chapter. Deleting VDCs can only be done if all workloads are stopped in that VDC.

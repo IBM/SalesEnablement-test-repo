@@ -30,12 +30,12 @@ In this click-thru demonstration, explore the management activities for a VMware
    
 Notice that the Delete instance option is not enabled. A site cannot be deleted unless all associated virtual data centers (VDCs) are removed.
 
-1. Click the **Refresh** option.
-2. Click the **Infrastructure** tab.
+6. Click the **Refresh** option.
+7. Click the **Infrastructure** tab.
    
 The details of the cluster created when the the site was provisioned is shown here. 
 
-1. Click **Edit host quantity**.
+8. Click **Edit host quantity**.
 
 VMWaaS on IBM Cloud allows administrators to scale clusters both up (25 hosts maximum) and down (minimum of 2 for NFS-only clusters, or minimum of 6 for vSAN clusters).
 
@@ -49,7 +49,7 @@ More NFS storage can be added to the cluster in 24 terabyte (TB) increments. Mor
 11. Click **Cancel**.
 12. Click the **Add cluster +**.
 
-More clusters can be added to a PVDC. Clusters can only have hosts with homogeneous profiles. While it is possible to create clusters that use different host profiles, it is not recommended. VDCs deployed to a PVDC can use all compute, memory, and storage within the PVDC, *including when multiple clusters exist*. To get consistent workload performance, it is best if all clusters within the same PVDC use the same host profile type. VMware Cloud Director automatically selects and adjusts the placement of workload VMs across the clusters in the PVDC. Placement is not controlled by users with VMware Cloud Director.
+More clusters can be added to a PVDC. Clusters can only have hosts with homogeneous profiles. While it is possible to create clusters that use different host profiles, it is not recommended. VDCs deployed to a PVDC can use all compute, memory, and storage within the PVDC, *including when multiple clusters exist*. To get consistent workload performance, it is best if all clusters within the same PVDC use the same host profile type. VMware Cloud Director automatically selects and adjusts the placement of workload VMs across the clusters in the PVDC. **Placement is not controlled by users or administrators with VMware Cloud Director. All clusters are combined within a PVDC with no fine grain control for workload placement.** 
 
 A new PVDC is typically created for the following scenarios:
 
