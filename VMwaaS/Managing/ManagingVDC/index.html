@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#macro-rendering-error" class="md-skip">
+        <a href="#_1" class="md-skip">
           Skip to content
         </a>
       
@@ -669,20 +669,50 @@
                 
 
 
-<h1 id="macro-rendering-error"><em>Macro Rendering Error</em></h1>
-<p><strong>UndefinedError</strong>: 'dict object' has no attribute 'VMwaaS'</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Traceback (most recent call last):
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  File &quot;/usr/local/lib/python3.9/site-packages/mkdocs_macros/plugin.py&quot;, line 480, in render
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    return md_template.render(**page_variables)
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>  File &quot;/usr/local/lib/python3.9/site-packages/jinja2/environment.py&quot;, line 1301, in render
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    self.environment.handle_exception()
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>  File &quot;/usr/local/lib/python3.9/site-packages/jinja2/environment.py&quot;, line 936, in handle_exception
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    raise rewrite_traceback_stack(source=source)
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>  File &quot;&lt;template&gt;&quot;, line 26, in top-level template code
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>  File &quot;/usr/local/lib/python3.9/site-packages/jinja2/environment.py&quot;, line 485, in getattr
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    return getattr(obj, attribute)
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>jinja2.exceptions.UndefinedError: &#39;dict object&#39; has no attribute &#39;VMwaaS&#39;
-</code></pre></div>
+<p>In this click-thru demonstration, explore the management activities for a virtual data center (VDC) instance on IBM Cloud. Note, there are limited administrative tasks via the IBM Cloud portal for VDCs. Keep in mind all the steps shown here can be used in the IBM Technology Zone (ITZ) environment you provisioned up to the point of clicking <strong>Create</strong> or <strong>Delete</strong>. Attempts to create new resources in the ITZ environment result in an error similar to the one shown.</p>
+<p><img alt="" src="../_attachments/CreateFailure.png" /></p>
+<h1 id="_1"></h1>
+<h1 id="click-thru-demonstration">Click-Thru demonstration</h1>
+<hr />
+<p>Use the click-thru demonstration to practice. The fields that require a text entry (for example Provider Virtual Data Center name) are pre-populated in the click-thru demonstration. </p>
+<div class="admonition note">
+<p class="admonition-title">Navigation in the click-thru demonstration.</p>
+<p>Not sure where to click or what to do next? Click anywhere on the screen within the click-thru demo page and the spot to interact with next is highlighted. Step-by-step instructions on how to run the demo follow.</p>
+</div>
+<h1 id="_2"></h1>
+<h1 id="step-by-step-instructions">Step-by-step Instructions</h1>
+<hr />
+<h2 id="_3"></h2>
+<h2 id="manage-a-vdc-and-add-a-second-vdc">Manage a VDC and add a second VDC</h2>
+<ol>
+<li>
+<p>Open the click-thru demo and then click play <img alt="" src="../_attachments/ClickThruPlayButton.png" /> to begin the demonstration.</p>
+<p><strong>Click-thru demo:</strong> <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMwaaS-add-VDC/index.html" target ="_blank">Add a virtual data center (VDC)</a></p>
+</li>
+<li>
+<p>Click the <strong>se-l3-development</strong> entry in the table of VDCs.</p>
+</li>
+</ol>
+<p>Notice the list of <strong>Public IPs</strong> associated with the VDC. These addresses can be used to assign to individual virtual machines (VMs) provisioned in the VDC or assigned to networks using network address translation (NAT).</p>
+<ol start="3">
+<li>Click the <strong>Actions</strong> drop-down menu.</li>
+</ol>
+<p>The ability to delete a VDC is available both in this drop-down menu and in the VDC table from the previous screen. Recall the information about deleting clusters from the previous chapter. Deleting VDCs can only be done if all workloads are stopped in that VDC.</p>
+<ol start="4">
+<li>Click <strong>Refresh</strong>.</li>
+<li>Click the <strong>VMWare as a Service</strong> link in the bread crumb list.</li>
+<li>Click <strong>Create new +</strong>.</li>
+<li>Click in the <strong>Name</strong> field.</li>
+<li>Click the <strong>Resource Group</strong> drop-down menu.</li>
+<li>Click <strong>Enablement-L3</strong>.</li>
+<li>Click the <strong>Fast provisioning of VMs using linked clones</strong> toggle button.</li>
+</ol>
+<p>Read the information message about the network edge. The original VDC created in this PVDC only had 2 hosts and a <strong>Performance - M</strong> network edge was created. Sufficient compute and memory resources are not available to add an efficiency edge. Thus the <strong>Create without network edge</strong> is automatically enabled for this VDC. In a later chapter, learn how to create a VDC group using the VMware vCloud Director web console, which allows this VDC to use the existing <strong>Performance - M</strong> network edge.</p>
+<ol start="11">
+<li>Click the <strong>I have red and agreed to the following license agreements</strong> checkbox.</li>
+<li>Click <strong>Create</strong>.</li>
+</ol>
+<p>The new VDC is now provisioning. Remember, VDCs use the existing infrastructure clusters of the PVDC so provisioning times are relatively quick, in this case about 30 minutes.</p>
 
 
 

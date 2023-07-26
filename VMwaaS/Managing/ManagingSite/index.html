@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#macro-rendering-error" class="md-skip">
+        <a href="#_1" class="md-skip">
           Skip to content
         </a>
       
@@ -669,20 +669,90 @@
                 
 
 
-<h1 id="macro-rendering-error"><em>Macro Rendering Error</em></h1>
-<p><strong>UndefinedError</strong>: 'dict object' has no attribute 'VMwaaS'</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Traceback (most recent call last):
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  File &quot;/usr/local/lib/python3.9/site-packages/mkdocs_macros/plugin.py&quot;, line 480, in render
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    return md_template.render(**page_variables)
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>  File &quot;/usr/local/lib/python3.9/site-packages/jinja2/environment.py&quot;, line 1301, in render
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    self.environment.handle_exception()
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>  File &quot;/usr/local/lib/python3.9/site-packages/jinja2/environment.py&quot;, line 936, in handle_exception
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    raise rewrite_traceback_stack(source=source)
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>  File &quot;&lt;template&gt;&quot;, line 27, in top-level template code
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>  File &quot;/usr/local/lib/python3.9/site-packages/jinja2/environment.py&quot;, line 485, in getattr
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    return getattr(obj, attribute)
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>jinja2.exceptions.UndefinedError: &#39;dict object&#39; has no attribute &#39;VMwaaS&#39;
-</code></pre></div>
+<p>In this click-thru demonstration, explore the management activities for a VMware as a Service instance on IBM Cloud. All steps that are shown here can be used in the IBM Technology Zone (ITZ) environment you provisioned up to the point of clicking <strong>Create</strong> or <strong>Delete</strong>. Attempts to create new resources in the ITZ environment results in an error similar to the one shown.</p>
+<p><img alt="" src="../_attachments/CreateFailure.png" /></p>
+<h1 id="_1"></h1>
+<h1 id="click-thru-demonstration">Click-Thru demonstration</h1>
+<hr />
+<p>Use the click-thru demonstration to practice. The fields that require a text entry (for example Provider Virtual Data Center name) are pre-populated in the click-thru demonstration. </p>
+<div class="admonition note">
+<p class="admonition-title">Navigation in the click-thru demonstration.</p>
+<p>Not sure where to click or what to do next? Click anywhere on the screen within the click-thru demo page and the spot to interact with next is highlighted. Step-by-step instructions on how to run the demo follow.</p>
+</div>
+<h1 id="_2"></h1>
+<h1 id="step-by-step-instructions">Step-by-step Instructions</h1>
+<hr />
+<h2 id="_3"></h2>
+<h2 id="manage-a-site">Manage a site</h2>
+<ol>
+<li>
+<p>Open the click-thru demo and then click play <img alt="" src="../_attachments/ClickThruPlayButton.png" /> to begin the demonstration.</p>
+<p><strong>Click-thru demo:</strong> <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMwaaS-explore-pvdc/index.html" target ="_blank">Manage a site and Provider Virtual Data Center (PVDC)</a></p>
+</li>
+<li>
+<p>Click the <strong>Cloud director sites (1)</strong> tab.</p>
+</li>
+<li>Click the down arrow (<img alt="" src="../_attachments/downArrow.png" />) to expand the se-le-site site.</li>
+<li>Click the se-le-site link in the table.</li>
+<li>Click the <strong>Actions</strong> drop-down menu.</li>
+</ol>
+<p>Notice that the Delete instance option is not enabled. A site cannot be deleted unless all associated virtual data centers (VDCs) are removed.</p>
+<ol start="6">
+<li>Click the <strong>Refresh</strong> option.</li>
+<li>Click the <strong>Infrastructure</strong> tab.</li>
+</ol>
+<p>The details of the cluster created when the the site was provisioned is shown here. </p>
+<ol start="8">
+<li>Click <strong>Edit host quantity</strong>.</li>
+</ol>
+<p>VMwaaS on IBM Cloud allows administrators to scale clusters both up (25 hosts maximum) and down (minimum of 2 for NFS-only clusters, or minimum of 6 for vSAN clusters).</p>
+<p>VMwaaS clusters only supports hosts of the same profile.</p>
+<ol start="9">
+<li>Click <strong>Cancel</strong>.</li>
+<li>Click <strong>Edit NFS storage</strong>.</li>
+</ol>
+<p>More NFS storage can be added to the cluster in 24 terabyte (TB) increments. More storage tiers can also be added. Take note of the message about completion times.</p>
+<ol start="11">
+<li>Click <strong>Cancel</strong>.</li>
+<li>Click the <strong>Add cluster +</strong>.</li>
+</ol>
+<p>More clusters can be added to a PVDC. Clusters can only have hosts with homogeneous profiles. While it is possible to create clusters that use different host profiles, it is not recommended. VDCs deployed to a PVDC can use all compute, memory, and storage within the PVDC, <em>including when multiple clusters exist</em>. To get consistent workload performance, it is best if all clusters within the same PVDC use the same host profile type. VMware Cloud Director automatically selects and adjusts the placement of workload VMs across the clusters in the PVDC. <strong>Placement is not controlled by users or administrators with VMware Cloud Director. All clusters are combined within a PVDC with no fine grain control for workload placement.</strong> </p>
+<p>A new PVDC is typically created for the following scenarios:</p>
+<ul>
+<li>
+<p>Separate and isolate different types of workloads. If different workloads are better suited for different host types, then separate PVDCs are required to ensure each workload runs on the correct host type.</p>
+</li>
+<li>
+<p>Run workloads in different data centers within the region. All clusters in the same PVDC must be in the same data center. Regional high availability across data centers is achieved by creating PVDCs in separate data centers, and then deploying the virtual data center (VDC) and applications into each region. A load balancer is used to route requests to active instances of the target workload.</p>
+</li>
+</ul>
+<ol start="13">
+<li>Click the <strong>ellipses</strong> (<img alt="" src="../_attachments/elipsesIcon.png" />) icon.</li>
+</ol>
+<p>From this menu, it is possible to delete a cluster. Workload virtual machines (VMs) are deployed in virtual data centers (VDCs) that logically exist in the scope of a PVDC. PVDCs physically consist of one or more VMware vCenter clusters. When the PVDC contains multiple clusters and one cluster is deleted, all VMs running in that cluster are migrated to other clusters in the same PVDC.</p>
+<p>VMs deployed to a specific storage performance tier are only migrated to the same performance tier of storage in the remaining clusters. Clients must ensure that the remaining clusters have compatible storage performance layers of the deleted cluster. The remaining clusters must also have enough CPU and memory to contain the VMs of the deleted cluster.</p>
+<p>If not enough CPU, RAM, or equivalent storage for the cluster exists, the delete operation does not succeed. When the delete cluster operations are not successful, workloads are not impacted, and the operation is retried. Resource constraints are resolved by either stopping or deleting VMs or ensuing other clusters in the PVDC have the resource to support migrated workload VMs.</p>
+<ol start="14">
+<li>Click the <strong>Virtual Data Center</strong> tab.</li>
+</ol>
+<p>It is possible to add VDCs here or from the main VDC page. A second VDC will be added in the next chapter.</p>
+<ol start="15">
+<li>Click the <strong>Network edges</strong> tab.</li>
+</ol>
+<p>Recall when the first VDC was created a <strong>Performance - M</strong> edge cluster was requested. </p>
+<ol start="16">
+<li>Click the <strong>Add-on services</strong> tab.</li>
+</ol>
+<p>If any <strong>Add-on services</strong> were provisioned in the site, they would appear here. </p>
+<ol start="17">
+<li>Click <strong>Add service +</strong>.</li>
+</ol>
+<p>From this screen, it is possible to deploy Veeam or any other services that are available. Expect to see more services soon.</p>
+<ol start="18">
+<li>Click <strong>Return to resource</strong>.</li>
+<li>Click the <strong>Summary</strong> tab.</li>
+</ol>
+<p>In the next chapter, learn how to add and managed VDCs.</p>
 
 
 
