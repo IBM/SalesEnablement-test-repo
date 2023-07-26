@@ -1,4 +1,4 @@
-The following module guides Business Partners and IBM sellers through the process of provisioning **VMware as a Service (VMaaS)** with the IBM Cloud portal. Extra context on parameters and options is provided illustrating the value of features to users along with links to extra reference material.
+The following module guides Business Partners and IBM sellers through the process of provisioning **VMware as a Service (VMwaaS)** with the IBM Cloud portal. Extra context on parameters and options is provided illustrating the value of features to users along with links to extra reference material.
 
 #
 # Click-Thru demonstration
@@ -16,7 +16,7 @@ The following module guides Business Partners and IBM sellers through the proces
 
 !!! Important "Read before continuing!"
 
-    VMware Solutions, including the VMaaS and other offerings, are accessible through the <a href="https://cloud.ibm.com/vmware" target="_blank">VMware portal on IBM Cloud</a>. For this Level 3 course, these steps are intended to be followed in the **click-thru demonstration**; however, they can also be used to create a new instance. If you provision a live VMaaS instance in your *personal* IBM Cloud account, then your account (and credit card that is associated with that account) is billed for the deployment. **Your user ID does not have permissions to complete all these steps in the IBM Technology Zone (ITZ) environment associated with this course. These resources are already created in the ITZ environment.**
+    VMware Solutions, including the VMwaaS and other offerings, are accessible through the <a href="https://cloud.ibm.com/vmware" target="_blank">VMware portal on IBM Cloud</a>. For this Level 3 course, these steps are intended to be followed in the **click-thru demonstration**; however, they can also be used to create a new instance. If you provision a live VMwaaS instance in your *personal* IBM Cloud account, then your account (and credit card that is associated with that account) is billed for the deployment. **Your user ID does not have permissions to complete all these steps in the IBM Technology Zone (ITZ) environment associated with this course. These resources are already created in the ITZ environment.**
 
 ##
 ## Provision a site (single-tenant)
@@ -24,16 +24,16 @@ The following module guides Business Partners and IBM sellers through the proces
 
 1. Open the click-thru demo and then click play ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
-     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMaaS-provision-site/index.html" target ="_blank">Provision an instance of VMaaS</a>
+     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMwaaS-provision-site/index.html" target ="_blank">Provision an instance of VMwaaS</a>
 
      View a video of the provisioning process that was used in creating the click-thru demo and the environment in ITZ. Note: this video has no audio.
      
-     ![type:video](./_videos/VMaaS-provision-site-no-audio-final.mp4)
+     ![type:video](./_videos/VMwaaS-provision-site-no-audio-final.mp4)
 
 2. Click the VMware (![](_attachments/VMicon.png)) icon in navigation menu.
 3. Click the **VMware as a Service** tile.
 
-    A VMaaS single-tenant **site** is a deployment of VMware vCloud Director on dedicated infrastructure. A **virtual data center (VDC)** is a logical data center that uses some or all of the resources of a **site**. A **site** must be created before a VDC can be provisioned. A **Provider Virtual Data Center (PVDC)** is a grouping of compute and storage resources from a single VMware vCenter Server. A provider virtual data center
+    A VMwaaS single-tenant **site** is a deployment of VMware vCloud Director on dedicated infrastructure. A **virtual data center (VDC)** is a logical data center that uses some or all of the resources of a **site**. A **site** must be created before a VDC can be provisioned. A **Provider Virtual Data Center (PVDC)** is a grouping of compute and storage resources from a single VMware vCenter Server. A provider virtual data center
     consists of one or more resource pools (clusters) and one or more datastores. *Provider virtual data center resources can be shared with multiple organizations*.
 
 4. Click the **Cloud Director Site** tile.
@@ -49,15 +49,15 @@ The following module guides Business Partners and IBM sellers through the proces
 8. Click in the **Provider Virtual Data Center (VDC) name** field.
 9. Click the **Dallas 12** in the **Provider VDC location** table.
 
-    VMaaS is not available in all IBM Cloud data centers. Always verify the current locations in the IBM Cloud portal or the documentation <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-tenant-plan-deploy#tenant-plan-deploy-locations" target="_blank">here</a>.
+    VMwaaS is not available in all IBM Cloud data centers. Always verify the current locations in the IBM Cloud portal or the documentation <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-tenant-plan-deploy#tenant-plan-deploy-locations" target="_blank">here</a>.
 
 10. Click in the **Cluster name** field.
 
-    A single-tenant **site** consists of one or more VMware vCenter **clusters**. Clusters are the building blocks of PVDCs. When initially provisioning a VMaaS site, just one cluster can be provisioned. More clusters can be added later. A minimum of 2 hosts are required for NFS-only storage clusters. A minimum of 6 hosts are required for vSAN plus optional NFS storage clusters. All hosts in a cluster must be homogeneous in their configuration and must be chosen from the supported configurations. Supported configurations will change over time, consult the IBM Cloud portal or the documentation <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-tenant-plan-deploy#tenant-plan-deploy-bms-req" target="_blank">here</a> for the current supported configurations. Hosts can be added and removed to increase and decrease capacity of the cluster. This capability will be explored in the next section of this demonstration guide. 
+    A single-tenant **site** consists of one or more VMware vCenter **clusters**. Clusters are the building blocks of PVDCs. When initially provisioning a VMwaaS site, just one cluster can be provisioned. More clusters can be added later. A minimum of 2 hosts are required for NFS-only storage clusters. A minimum of 6 hosts are required for vSAN plus optional NFS storage clusters. All hosts in a cluster must be homogeneous in their configuration and must be chosen from the supported configurations. Supported configurations will change over time, consult the IBM Cloud portal or the documentation <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-tenant-plan-deploy#tenant-plan-deploy-bms-req" target="_blank">here</a> for the current supported configurations. Hosts can be added and removed to increase and decrease capacity of the cluster. This capability will be explored in the next section of this demonstration guide. 
 
 11. Click the **vSAN + optional NFS storage** radio button.
 
-    VMaaS supports both network file storage (NFS) and VMware vSAN (virtual Storage Area Network) storage. You can select NFS only storage or vSAN storage with optional NFS storage. 
+    VMwaaS supports both network file storage (NFS) and VMware vSAN (virtual Storage Area Network) storage. You can select NFS only storage or vSAN storage with optional NFS storage. 
         
     vSAN with optional NFS storage is only available in IBM Cloud data centers with networks of 25 gigabits (GbE) bandwidth. vSAN clusters use bare metal host profiles with local flash storage. vSAN clusters can also use NFS storage.
 
@@ -68,7 +68,7 @@ The following module guides Business Partners and IBM sellers through the proces
 12. Click the **NFS-only storage** radio button.
 
     !!! Important
-        In this click-thru demo and in the associated ITZ environment, the VMaaS **site** that is created is a **NFS-only** site. This option was chosen to reduce long-term costs of the environment. The **vSAN** provisioning options are explored in the click-thru demo, but a **vSAN** cluster is not provisioned or available in the ITZ environment.
+        In this click-thru demo and in the associated ITZ environment, the VMwaaS **site** that is created is a **NFS-only** site. This option was chosen to reduce long-term costs of the environment. The **vSAN** provisioning options are explored in the click-thru demo, but a **vSAN** cluster is not provisioned or available in the ITZ environment.
 
 13. Click the **+** icon to add a **0.25 IOPS/GB** NFS storage device.
 
@@ -91,11 +91,11 @@ When the provisioning process of the **site** is complete, the status turns from
 
 1. Open the click-thru demo and then click play ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
-     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMaaS-provision-VDC/index.html" target ="_blank">Provision a Virtual data center</a>
+     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMwaaS-provision-VDC/index.html" target ="_blank">Provision a Virtual data center</a>
 
      View a video of the provisioning process that was used in creating the click-thru demo and the environment in ITZ. Note: this video has no audio.
      
-     ![type:video](./_videos/VMaaS-provision-vdc-no-audio-final.mp4)
+     ![type:video](./_videos/VMwaaS-provision-vdc-no-audio-final.mp4)
 
 2. Click the **Virtual data centers** tab.
 3. Click **Create new +**

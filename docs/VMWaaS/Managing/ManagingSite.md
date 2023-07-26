@@ -21,11 +21,11 @@ In this click-thru demonstration, explore the management activities for a VMware
 
 1. Open the click-thru demo and then click play ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
-     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMaaS-explore-pvdc/index.html" target ="_blank">Manage a site and Provider Virtual Data Center (PVDC)</a>
+     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMwaaS-explore-pvdc/index.html" target ="_blank">Manage a site and Provider Virtual Data Center (PVDC)</a>
 
 2. Click the **Cloud director sites (1)** tab.
-3. Click the down arrow (![](_attachments/downArrow.png)) to expand the {{itz.vmaas.siteName}} site.
-4. Click the {{itz.vmaas.siteName}} link in the table.
+3. Click the down arrow (![](_attachments/downArrow.png)) to expand the {{itz.VMwaaS.siteName}} site.
+4. Click the {{itz.VMwaaS.siteName}} link in the table.
 5. Click the **Actions** drop-down menu.
    
 Notice that the Delete instance option is not enabled. A site cannot be deleted unless all associated virtual data centers (VDCs) are removed.
@@ -37,9 +37,9 @@ The details of the cluster created when the the site was provisioned is shown he
 
 8. Click **Edit host quantity**.
 
-VMWaaS on IBM Cloud allows administrators to scale clusters both up (25 hosts maximum) and down (minimum of 2 for NFS-only clusters, or minimum of 6 for vSAN clusters).
+VMwaaS on IBM Cloud allows administrators to scale clusters both up (25 hosts maximum) and down (minimum of 2 for NFS-only clusters, or minimum of 6 for vSAN clusters).
 
-VMWaaS clusters only supports hosts of the same profile.
+VMwaaS clusters only supports hosts of the same profile.
 
 9. Click **Cancel**.
 10. Click **Edit NFS storage**.

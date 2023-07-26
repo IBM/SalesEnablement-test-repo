@@ -21,13 +21,16 @@ nav:
     - 'Hands On Access': 'Shared/HandsOn.md'
   - 'VMware as a Service':
     - 'Introduction': 'VMWaaS/Introduction.md'
-    - 'Provisioning': 'VMWaaS/Provisioning.md'
-    - 'Managing': 
+    - 'Provisioning VMWaaS resources using the IBM Cloud Portal': 'VMWaaS/Provisioning.md'
+    - 'Managing VMWaaS resources': 
       - 'Overview': 'VMWaaS/Managing/ManagingIntro.md'
       - 'Managing a VMaaS instance using the IBM Cloud Portal': 'VMWaaS/Managing/ManagingSite.md'
       - 'Managing VDCs using the IBM Cloud Portal': 'VMWaaS/Managing/ManagingVDC.md'
-      - 'Setting up a VDC network using vCloud Director': 'VMWaaS/Managing/NetworkSetupInVCD.md'
-      - 'The client demonstration': 'VMWaaS/PuttingItAllTogether.md'
+    - 'Using VMWaaS'  
+      - 'Overview': 'VMWaaS/Using/UsingIntro.md'
+      - 'Setting up a VDC network using VMware Cloud Director': 'VMWaaS/Using/NetworkSetupInVCD.md'
+      - 'Using VMWaaS': 'VMWaaS/Using/UsingVMWaaS.md'
+    - 'The client demonstration': 'VMWaaS/PuttingItAllTogether.md'
   - 'VMware Solutions Dedicated':
     - 'Introduction': 'Dedicated/Introduction.md'
     - 'Provisioning': 'Dedicated/Provisioning.md'

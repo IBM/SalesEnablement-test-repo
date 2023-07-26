@@ -1,4 +1,4 @@
-There are several aspects of managing a VMware as a Service instance running on IBM Cloud. At a very high level, there are the management of the "on IBM Cloud" aspects of a VMaaS instance and managing the a virtual data center (VDC) using VMware vCloud Director (vCloud Director). 
+There are several aspects of managing a VMware as a Service instance running on IBM Cloud. At a very high level, there are the management of the "on IBM Cloud" aspects of a VMwaaS instance and managing the a virtual data center (VDC) using VMware vCloud Director (vCloud Director). 
 
 Using the IBM Cloud portal to manage aspects of the **site** and **VDC** is straight forward and includes tasks like:
 
