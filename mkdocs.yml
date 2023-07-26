@@ -21,7 +21,7 @@ nav:
       - 'Overview': 'VMwaaS/Managing/ManagingIntro.md'
       - 'Managing a VMwaaS instance using the IBM Cloud Portal': 'VMwaaS/Managing/ManagingSite.md'
       - 'Managing VDCs using the IBM Cloud Portal': 'VMwaaS/Managing/ManagingVDC.md'
-    - 'Using VMwaaS'  
+    - 'Using VMwaaS': 
       - 'Overview': 'VMwaaS/Using/UsingIntro.md'
       - 'Setting up a VDC network using VMware Cloud Director': 'VMwaaS/Using/NetworkSetupInVCD.md'
       - 'Using VMwaaS': 'VMwaaS/Using/UsingVMwaaS.md'
