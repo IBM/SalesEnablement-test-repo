@@ -96,5 +96,5 @@ extra:
       cluster1: "se-l3-cluster1"
       vdc1: "se-l3-development"
       vdc2: "se-l3-test"
-      dc-group: "se-l3-dc-group"
+      dcgroup: "se-l3-dc-group"
       network: "se-l3-network"

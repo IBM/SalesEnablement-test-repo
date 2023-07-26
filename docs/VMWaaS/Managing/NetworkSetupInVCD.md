@@ -51,17 +51,17 @@ Now that the **Data Center Group** is created, the scope of the existing edge ga
 Notice in the **Scope** table, the **Organization Virtual Data Center** value is set to just the {{itz.vmaas.vdc1}} VDC.
 
 14. Click **INCREASE SCOPE**.
-15. Click the radio button for the {{itz.vmaas.dc-group}} entry.
+15. Click the radio button for the {{itz.vmaas.dcgroup}} entry.
 16. Click **OK**.
 
-Now, notice that the **Scope** changed from the single VDC to the new **{{itz.vmaas.dc-group}}** Data Center Group.
+Now, notice that the **Scope** changed from the single VDC to the new **{{itz.vmaas.dcgroup}}** Data Center Group.
 
 Next, a network needs to be created so virtual machines can have network connectivity.
 
 17. Click the **Networks** tab.
 18. Click **New**.
 19. Click the **Data Center Group** radio button.
-20. Click the {{itz.vmaas.dc-group}} radio button.
+20. Click the {{itz.vmaas.dcgroup}} radio button.
 21. Click **NEXT**.
 22. Click **NEXT**.
 
