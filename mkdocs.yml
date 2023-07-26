@@ -94,7 +94,7 @@ extra:
     dedicated:
       instanceName: "vcs-l3"
       clusterName: "vcs-dv-consolidated"
-    vmaas:
+    VMwaaS:
       siteName: "se-le-site"
       pvdc: "se-l3-provider"
       cluster1: "se-l3-cluster1"
