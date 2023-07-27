@@ -669,11 +669,11 @@
                 
 
 
-<p>One of the many reasons clients consider VMware as a Service (VMwaaS) on IBM Cloud is for the ease of rapidly deploying virtual machines (VMs) to run their business workloads. In this chapter, step-by-step instructions are provided on how to use VMware Cloud Director (vCD) to create and access VMs running in the VMwaaS virtual data centers (VDCs). </p>
-<p>Thus far, the experience provided in this learning plan has been through videos and click-thru demonstrations. A hands-on environment of the <strong>VMwaaS</strong> instance built during the earlier modules is available through an IBM Technology Zone (ITZ) environment that you can reserve <a href="https://techzone.ibm.com/collection/ibm-cloud-for-vmware-level-3/journey-complete-learning-activity-for-ibm-cloud-for-vmware-level-3-sales-enablement" target="_blank">here</a>.</p>
+<p>One of the many reasons clients consider VMware as a Service (VMwaaS) on IBM Cloud is for the ease of rapidly deploying virtual machines (VMs) to run their business workloads. Step-by-step instructions are provided on how to use VMware Cloud Director (vCD) to create and access VMs running in the VMwaaS virtual data centers (VDCs). </p>
+<p>Thus far, the experience that was provided in this learning plan was through videos and click-thru demonstrations. A hands-on environment of the <strong>VMwaaS</strong> instance that was built during the earlier modules is available through an IBM Technology Zone (ITZ) environment that you can reserve <a href="https://techzone.ibm.com/collection/ibm-cloud-for-vmware-level-3/journey-complete-learning-activity-for-ibm-cloud-for-vmware-level-3-sales-enablement" target="_blank">here</a>.</p>
 <div class="admonition warning">
 <p class="admonition-title">LIMITED ACCESS</p>
-<p>The user access provided to the instance in ITZ is restricted utilizing IBM Cloud's Identity and Access Management controls. Users will have the ability to view the VMware Shared instances already provisioned in the account via the IBM Cloud Portal and the ability to deploy a VM and/or vApp using VMware vCloud Director. Users will NOT have the ability to provision or modify VMwaaS instances, sites, or virtual data centers. However, even with these restrictions, the environment can be used in performing demonstrations using a "baking-show" demonstration approach as an alternative to using the click-thru demos. To learn more about the "baking-show" method, check out this <a href="https://cruxcollaborative.com/insights/your-software-demo-should-be-more-like-a-cooking-show" target="_blank">article</a>.</p>
+<p>The user access provided to the instance in ITZ is restricted by IBM Cloud's Identity and Access Management (IAM) controls. Users can view the VMwaaS instances that are already provisioned in the account and deploy a VM and vApp with VMware Cloud Director (vCD). Users cannot provision or modify VMwaaS instances, sites, or virtual data centers. However, even with these restrictions, the environment can be used in performing demonstrations with a "baking-show" demonstration approach as an alternative to using the click-thru demos. To learn more about the "baking-show" method, check out this <a href="https://cruxcollaborative.com/insights/your-software-demo-should-be-more-like-a-cooking-show" target="_blank">article</a>.</p>
 <p>Note: other ITZ environments are available for IBM Cloud for VMware Solutions that may provide additional access.  Use "VMware on IBM Cloud" in the ITZ search tool.</p>
 </div>
 <details class="info">
@@ -695,7 +695,7 @@
 <li>Enter <strong>Level 3 training</strong> in the <strong>Purpose description</strong> field.</li>
 <li>Click the <strong>Preferred Geography</strong> pull-down and select <strong>AMERICAS - us-south region -dal10 datacenter</strong>.</li>
 </ol>
-<p>The <strong>End date and time</strong> should be set for 3 days. You can shorten that direction here. After the reservation is ready, you can also extend the reservation up to a maximum of 6 days.</p>
+<p>The <strong>End date and time</strong> is set for 3 days. You can shorten that direction here. After the reservation is ready, you can also extend the reservation up to a maximum of 6 days.</p>
 <ol start="6">
 <li>Click the <strong>I agree to IBM Technology Zone's T&amp;Cs</strong> checkbox.</li>
 <li>Click <strong>Submit</strong>.</li>
@@ -706,12 +706,148 @@
 <li>Open a web browser to the <strong>IBM Cloud Portal</strong>.</li>
 </ol>
 <p><a href="cloud.ibm.com" target="_blank">Create a reservation</a>.</p>
-<p>When the page loads, authenticate using your IBM Cloud ID and password.  The authentication process will vary depending on the primary account your ID is associated with and any multi-factor authentication or other security controls in place for the account.</p>
+<p>When the page loads, authenticate with your IBM Cloud ID and password. The authentication process varies depending on the primary account that your ID is associated with and any multi-factor authentication or other security controls in place for the account.</p>
+<ol start="2">
+<li>Click the <strong>Notifications</strong> (<img alt="" src="../_attachments/notificationIcon.png" />) icon.</li>
+</ol>
+<p><img alt="" src="../_attachments/portalHomePage.png" /></p>
+<ol start="3">
+<li>Click the <strong>Join now</strong> link on the <strong>Action required: You are invited to join an account in IBM Cloud</strong> notification.</li>
+</ol>
+<p><img alt="" src="../_attachments/joinNowNotification.png" /></p>
+<p>Note: if you do not see a notification like this, then it most cases your ITZ reservation is not in the <strong>Ready</strong> state. Wait for the reservation to become <strong>Ready</strong>. You will also receive an email with the <strong>Join now</strong> link.</p>
+<ol start="4">
+<li>Click the <strong>I accept the product...</strong> checkbox.</li>
+<li>Click <strong>Join Account</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/joinAccount.png" /></p>
+<ol start="6">
+<li>Click the <strong>account selection</strong> drop-down menu and select the <strong>2326338 - ITZ-VMWARE</strong> account.</li>
+</ol>
+<p><img alt="" src="../_attachments/switchAccount.png" /></p>
+<p>Note, if the browser window is narrow, you might see an <strong>account selection</strong> icon like this: <img alt="" src="../_attachments/switchAccountIcon.png" /> instead of the full account name.</p>
 <h2 id="_3"></h2>
 <h2 id="create-modify-access-and-delete-a-vm">Create, modify, access, and delete a VM</h2>
-<p>XXxXXXXXXXXXX</p>
-<p>You should now feel comfortable creating, modifying, and deleting VMs using vCD. At this time, feel free to explore the other capabilities exposed through vCD. Keep in mind, the access permissions your IBM Cloud ID has is limited. For example, recall in the network setup demonstration a new Data Center Group and Network was created. If you go to those screen in vCD you will notice the <strong>NEW</strong> option is not available to you.  This is because your IAM access controls in this account do not include the <strong>VMwaaS Director Network Admin</strong> access. This limitation was put in place to allow many users to share the environment and limit exposure of resources to attacks from the Internet.</p>
-<p>In the final chapter of this section of the IBM Cloud for VMware Services Level 3 course see how everything you learned here can be used to deliver an effective client demonstration using the ITZ environment for VMwaaS.</p>
+<ol start="7">
+<li>Click the VMware (<img alt="" src="../_attachments/VMicon.png" />) icon in navigation menu.</li>
+</ol>
+<p><img alt="" src="../_attachments/portalMainPageVM.png" /></p>
+<ol start="8">
+<li>Click <strong>VMware as a Service</strong> in the navigation menu.</li>
+</ol>
+<p><img alt="" src="../_attachments/portalVMwaaS.png" /></p>
+<p>On the VMwaaS page, observe the resources that are pre-provisioned in the shared ITZ account. These are the resources that were provisioned when the click-thru demos were created and should look familiar. Feel free to explore the resources that use the IBM Cloud portal. Remember, you will not have permission to add, modify, or remove these resources.</p>
+<ol start="9">
+<li>Click either of the <strong>Go to VMware console</strong> links.</li>
+</ol>
+<p><img alt="" src="../_attachments/portalVMwaaSVDCs.png" /></p>
+<ol start="10">
+<li>Click <strong>SIGN IN WITH SINGLE SIGN-ON</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/vCDSSO.png" /></p>
+<p>Once signed in to the VMware Cloud Director (vCD) web console, feel free to explore all the capabilities provided. Again, your user ID has the ability to create, modify, and delete virtual machines (VMs), but you will not be able to add, modify, or remove networks or other network components.</p>
+<ol start="11">
+<li>Click either of the virtual data center (VDC) tiles.</li>
+</ol>
+<p><img alt="" src="../_attachments/vCD-vdcs.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">The images below might differ from what you see in vCD</p>
+<p>Remember, this is a shared account and other IBMers and Business Partners may be accessing the same environment at the same time. You may see VMs created by other users. Please be respectful and do not remove other user's VMs.</p>
+</div>
+<ol start="12">
+<li>Click <strong>NEW VM</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/vCD-VMs.png" /></p>
+<ol start="13">
+<li>Enter a unique <strong>Name</strong>.</li>
+</ol>
+<p>When naming your VMs, preface the name with your initials for easy identification. You are asked to remove any resources you create before your ITZ reservation expires.</p>
+<p><img alt="" src="../_attachments/vCD-newVMname.png" /></p>
+<ol start="14">
+<li>Uncheck <strong>Power on</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/vCD-newVMpowerOn.png" /></p>
+<ol start="15">
+<li>Select one of the operating system images from the table.</li>
+</ol>
+<p><img alt="" src="../_attachments/vCD-newVMselectOS.png" /></p>
+<p>It is recommended to select one of the Linux based images (for example CentOS, Red Hat, and so on) as these can be easily accessed using the web-based console tools that are provided in vCD. If you opt to create a Microsoft Windows based VM, you need to download the <strong>Remote Desktop</strong> tool from vCD. Instructions for doing this are not detailed here, but they are straight forward.</p>
+<ol start="16">
+<li>Select a <strong>Storage Policy</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/vCD-newVMselectStorage.png" /></p>
+<p>Recall from the click-thru demos, two storage pools were created: 0.25 input/output operations per second per gigabyte (IOPS/GB) and 2 IOPS/GB.</p>
+<ol start="17">
+<li>Select the <strong>se-l3-network</strong> in the network interface card (NICs) table.</li>
+</ol>
+<p><img alt="" src="../_attachments/vCD-newVMselectNetwork.png" /></p>
+<p>Only one network is defined.</p>
+<ol start="18">
+<li>Click <strong>OK</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/vCD-newVMOK.png" /></p>
+<p>After a few seconds, a tile for your VM appears. Take notice of the <strong>Recent Tasks</strong> table that shows the progress and status of the VM.</p>
+<p><img alt="" src="../_attachments/vCD-newVMcreating.png" /></p>
+<p>Continue when the <strong>Status</strong> changes to <strong>Succeeded</strong>.</p>
+<ol start="19">
+<li>Click the <strong>DETAILS</strong> link on the tile for the VM you created.</li>
+</ol>
+<p><img alt="" src="../_attachments/vCD-VMtile.png" /></p>
+<ol start="20">
+<li>Click <strong>Guest OS Customization</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/vCD-VMgeneral.png" /></p>
+<ol start="21">
+<li>Click <strong>EDIT</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/vCD-VMguestOS.png" /></p>
+<ol start="22">
+<li>Check <strong>Require Administrator to change password on first login</strong>, uncheck <strong>Auto generate password</strong>, and enter a strong <strong>password</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/vCD-VMguestOSedit.png" /></p>
+<p>Be sure to remember the password!</p>
+<ol start="23">
+<li>Click <strong>SAVE</strong>.</li>
+<li>Click <strong>POWER ON</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/vCD-VMReadyToPowerOn.png" /></p>
+<p>Watch the <strong>Recent Tasks</strong> table as the VM is powered on. When the VM shows <strong>Powered on</strong> continue.</p>
+<ol start="25">
+<li>Click <strong>LAUNCH WEB CONSOLE</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/vCD-VMPoweredOn.png" /></p>
+<p>The web console opens in a new browser window.</p>
+<p><img alt="" src="../_attachments/vCD-VMwebConsole.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Web console might not work with all browsers</p>
+<p>Issues were encountered opening the web console using the Safari browser on Mac OS. No issues were encountered when using Firefox on Mac OS. If you encounters, please try another browser.</p>
+</div>
+<p>When the <strong>login</strong> prompt appears, use the root ID, and the password you specified earlier. Note, you are required to change the password the first time you log in. You now have full access to the VM. If you are new to Linux, try a few commands like:</p>
+<p><code>ls -l</code></p>
+<p><code>ps -ef</code></p>
+<p>The next steps walk you through deleting the VM that was created. Note, you do not have to do this right now, but remove all VMs you create before your ITZ reservation expires.</p>
+<ol start="26">
+<li>In the vCD web console, click <strong>POWER OFF</strong> for the VM you created earlier.</li>
+</ol>
+<p><img alt="" src="../_attachments/vCD-VMremove.png" /></p>
+<ol start="27">
+<li>Click <strong>POWER OFF</strong> in the <strong>Power Off VM</strong> dialog.</li>
+</ol>
+<p><img alt="" src="../_attachments/vCD-VMpowerOffDialog.png" /></p>
+<p>Observe the progress of the request to power off the VM. Continue when the VM is in the <strong>Powered off</strong> state.</p>
+<ol start="28">
+<li>Click the <strong>All Actions</strong> drop-down menu and click <strong>Delete</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/vCD-VMpoweredOff.png" /></p>
+<p>You should now feel comfortable creating, modifying, and deleting VMs using vCD. Now, feel free to explore the other capabilities in vCD. Keep in mind, the permissions your IBM Cloud ID has are limited. For example, recall in the network setup demonstration a new Data Center Group and Network was created. In those screens in vCD, notice the <strong>NEW</strong> option is not available to you. This is because your IAM access controls in this account do not include the <strong>VMwaaS Director Network Admin</strong> access. This limitation was put in place to allow many users to share the environment and limit exposure of resources to attacks from the Internet.</p>
+<p>A few things that you might want to try:</p>
+<ul>
+<li>Create and use a <strong>Named Disk</strong></li>
+<li>Explore <strong>Virtual Applications</strong></li>
+<li>Explore the various <strong>Networking</strong> options</li>
+</ul>
+<p>Remember, the focus of this demonstration guide is the <strong>on the IBM Cloud</strong> aspect of the VMwaaS offering and not the capabilities of VMware Cloud Director or the other underlying VMware technologies. </p>
+<p>Next, see how everything learned here can be used to deliver an effective client demonstration using the ITZ environment for VMwaaS.</p>
 
 
 
