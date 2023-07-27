@@ -3,6 +3,7 @@ cp.imagesJSONCacheForLocal=true;cp.imageToJSONPathMap={
 "dr/19304.png": "img1.json",
 "dr/19323.png": "img1.json",
 "dr/19342.png": "img1.json",
+"dr/27709_263_261.png": "img1.json",
 "dr/7966.png": "img1.json",
 "dr/8006.png": "img1.json",
 "dr/8025.png": "img1.json",
@@ -38,6 +39,7 @@ cp.imagesJSONCacheForLocal=true;cp.imageToJSONPathMap={
 "dr/Failure_Shape_19.png": "img3.json",
 "dr/Failure_Shape_2.png": "img3.json",
 "dr/Failure_Shape_20.png": "img3.json",
+"dr/Failure_Shape_22.png": "img3.json",
 "dr/Failure_Shape_3.png": "img3.json",
 "dr/Failure_Shape_4.png": "img3.json",
 "dr/Failure_Shape_5.png": "img3.json",
@@ -46,5 +48,5 @@ cp.imagesJSONCacheForLocal=true;cp.imageToJSONPathMap={
 "dr/Failure_Shape_8.png": "img3.json",
 "dr/StartGraphicForCaptivateExplorePVDC.png": "img3.json",
 "dr/StartGraphicForCaptivateExplorePVDC.png(2)": "img3.json",
-"dr/Text_Caption_1.png": "img3.json",
+"dr/Text_Caption_1.png": "img4.json",
 "___":"___"};
