@@ -1,15 +1,15 @@
-There are several aspects of managing a VMware as a Service instance running on IBM Cloud. At a very high level, there are the management of the "on IBM Cloud" aspects of a VMwaaS instance and managing the a virtual data center (VDC) using VMware vCloud Director (vCloud Director). 
+There are several aspects of managing a VMware as a Service (VMwaaS) instance running on IBM Cloud. At a very high level, there are the management of the "on IBM Cloud" aspects of a VMwaaS instance and managing the virtual data center (VDC) using VMware vCloud Director (vCloud Director). 
 
 Using the IBM Cloud portal to manage aspects of the **site** and **VDC** is straight forward and includes tasks like:
 
 - adding and removing Provider Virtual Data Centers (PVDCs)
-- adding and removing clusters to an existing data center
+- adding and removing clusters to an existing PVDC
 - adding and removing hosts to a cluster
 - adding and removing storage to a cluster
 - adding and removing additional services
 - adding and removing VDCs
 
-Managing the VDC is done with the VMware vCloud Director web console which is accessible through the IBM Cloud portal. This aspect of management includes common VMware administrative tasks like:
+Managing the VDC is done with the VMware vCloud Director web console which is accessible through the IBM Cloud portal. These tasks will be covered in the **Using VMwaaS** chapter. This aspect of management includes common VMware administrative tasks like:
 
 - adding and deleting networks, firewalls, VPNs, and network address translation (NAT) rules
 - adding and deleting virtual machines (VMs), virtual applications (vApps), and affinity rules

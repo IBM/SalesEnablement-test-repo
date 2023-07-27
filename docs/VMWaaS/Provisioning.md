@@ -4,7 +4,7 @@ The following module guides Business Partners and IBM sellers through the proces
 # Click-Thru demonstration
 -----------------------------
 
- Use the click-thru demonstration to practice the provisioning process. The fields that require a text entry (for example Provider Virtual Data Center name) are pre-populated in the click-thru demonstration. 
+ Use the click-thru demonstration to practice the provisioning process. The fields that require a text entry (for example Provider Virtual Data Center name) are automatically populated in the click-thru demonstration. 
 
 !!! Note "Navigation in the click-thru demonstration."
     
@@ -16,7 +16,7 @@ The following module guides Business Partners and IBM sellers through the proces
 
 !!! Important "Read before continuing!"
 
-    VMware Solutions, including the VMwaaS and other offerings, are accessible through the <a href="https://cloud.ibm.com/vmware" target="_blank">VMware portal on IBM Cloud</a>. For this Level 3 course, these steps are intended to be followed in the **click-thru demonstration**; however, they can also be used to create a new instance. If you provision a live VMwaaS instance in your *personal* IBM Cloud account, then your account (and credit card that is associated with that account) is billed for the deployment. **Your user ID does not have permissions to complete all these steps in the IBM Technology Zone (ITZ) environment associated with this course. These resources are already created in the ITZ environment.**
+    VMware Solutions, including the VMwaaS and other offerings, are accessible through the <a href="https://cloud.ibm.com/vmware" target="_blank">VMware portal on IBM Cloud</a>. For this Level 3 course, these steps are intended to be followed in the **click-thru demonstration**; however, they can also be used to create a new instance. If you provision a live VMwaaS instance in your *personal* IBM Cloud account, then your account (and credit card that is associated with that account) is billed for the deployment. **Your user ID does not have permissions to complete these steps in the IBM Technology Zone (ITZ) environment associated with this course. These resources are already created in the ITZ environment.**
 
 ##
 ## Provision a site (single-tenant)
@@ -33,8 +33,7 @@ The following module guides Business Partners and IBM sellers through the proces
 2. Click the VMware (![](_attachments/VMicon.png)) icon in navigation menu.
 3. Click the **VMware as a Service** tile.
 
-    A VMwaaS single-tenant **site** is a deployment of VMware vCloud Director on dedicated infrastructure. A **virtual data center (VDC)** is a logical data center that uses some or all of the resources of a **site**. A **site** must be created before a VDC can be provisioned. A **Provider Virtual Data Center (PVDC)** is a grouping of compute and storage resources from a single VMware vCenter Server. A provider virtual data center
-    consists of one or more resource pools (clusters) and one or more datastores. *Provider virtual data center resources can be shared with multiple organizations*.
+    A VMwaaS single-tenant **site** is a deployment of VMware vCloud Director on dedicated infrastructure. A **virtual data center (VDC)** is a logical data center that uses the infrastructure resources of a **site**. A **site** must be created before a VDC can be provisioned. A **Provider Virtual Data Center (PVDC)** is a grouping of compute and storage resources from a single VMware vCenter Server. A provider virtual data center consists of one or more resource pools (clusters) and one or more datastores.
 
 4. Click the **Cloud Director Site** tile.
 5. Click in the **Name** field.
@@ -83,7 +82,6 @@ The following module guides Business Partners and IBM sellers through the proces
 
 The provisioning process is automated and includes provisioning the bare metal servers and deploying the VMware software stack. Provisioning time varies based on the number and configuration of the bare metal servers. When the ITZ environment used for this learning plan was originally created, the provisioning of the site took approximately 48 hours. Unfortunately longer than expected as the unofficial target is ~24 hours.
 
-
 ##
 ## Provision a virtual data center (single-tenant)
 
@@ -91,7 +89,7 @@ When the provisioning process of the **site** is complete, the status turns from
 
 1. Open the click-thru demo and then click play ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
-     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMwaaS-provision-VDC/index.html" target ="_blank">Provision a Virtual data center</a>
+     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMwaaS-provision-VDC/index.html" target ="_blank">Provision a virtual data center</a>
 
      View a video of the provisioning process that was used in creating the click-thru demo and the environment in ITZ. Note: this video has no audio.
      

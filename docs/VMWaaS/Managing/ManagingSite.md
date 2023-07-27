@@ -24,8 +24,8 @@ In this click-thru demonstration, explore the management activities for a VMware
      **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMwaaS-explore-pvdc/index.html" target ="_blank">Manage a site and Provider Virtual Data Center (PVDC)</a>
 
 2. Click the **Cloud director sites (1)** tab.
-3. Click the down arrow (![](_attachments/downArrow.png)) to expand the {{itz.VMwaaS.siteName}} site.
-4. Click the {{itz.VMwaaS.siteName}} link in the table.
+3. Click the down arrow (![](_attachments/downArrow.png)) to expand the **{{itz.VMwaaS.siteName}}** site.
+4. Click the **{{itz.VMwaaS.siteName}}** link in the table.
 5. Click the **Actions** drop-down menu.
    
 Notice that the Delete instance option is not enabled. A site cannot be deleted unless all associated virtual data centers (VDCs) are removed.
@@ -57,7 +57,8 @@ A new PVDC is typically created for the following scenarios:
 
 - Run workloads in different data centers within the region. All clusters in the same PVDC must be in the same data center. Regional high availability across data centers is achieved by creating PVDCs in separate data centers, and then deploying the virtual data center (VDC) and applications into each region. A load balancer is used to route requests to active instances of the target workload.
 
-13.  Click the **ellipses** (![](_attachments/elipsesIcon.png)) icon.
+13. Click **Cancel**.
+14.  Click the **ellipses** (![](_attachments/elipsesIcon.png)) icon.
 
 From this menu, it is possible to delete a cluster. Workload virtual machines (VMs) are deployed in virtual data centers (VDCs) that logically exist in the scope of a PVDC. PVDCs physically consist of one or more VMware vCenter clusters. When the PVDC contains multiple clusters and one cluster is deleted, all VMs running in that cluster are migrated to other clusters in the same PVDC.
 
@@ -65,23 +66,23 @@ VMs deployed to a specific storage performance tier are only migrated to the sam
 
 If not enough CPU, RAM, or equivalent storage for the cluster exists, the delete operation does not succeed. When the delete cluster operations are not successful, workloads are not impacted, and the operation is retried. Resource constraints are resolved by either stopping or deleting VMs or ensuing other clusters in the PVDC have the resource to support migrated workload VMs.
 
-14.  Click the **Virtual Data Center** tab.
+15.  Click the **Virtual Data Center** tab.
 
 It is possible to add VDCs here or from the main VDC page. A second VDC will be added in the next chapter.
 
-15. Click the **Network edges** tab.
+16. Click the **Network edges** tab.
     
 Recall when the first VDC was created a **Performance - M** edge cluster was requested. 
 
-16. Click the **Add-on services** tab.
+17. Click the **Add-on services** tab.
 
 If any **Add-on services** were provisioned in the site, they would appear here. 
 
-17. Click **Add service +**.
+18. Click **Add service +**.
     
 From this screen, it is possible to deploy Veeam or any other services that are available. Expect to see more services soon.
 
-18. Click **Return to resource**.
-19. Click the **Summary** tab.
+19. Click **Return to resource**.
+20. Click the **Summary** tab.
 
 In the next chapter, learn how to add and managed VDCs.
