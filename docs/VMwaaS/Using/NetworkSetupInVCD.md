@@ -31,15 +31,19 @@ In this click-thru demonstration, use VMware Cloud Director (vCloud Director or 
 
 Note, each of the virtual data centers that are displayed are part of the same **site**/**provider virtual data center (PVDC)**, and use the same management infrastructure and vCD (VMware console) instance.
 
-3. Click the **Networking** tab.
-4. Click the **Data Center Groups** tab.
-5. Click **New**.
-6. Click the **{{itz.VMwaaS.vdc1}}** radio button.
-7. Click the **Name** entry field.
-8. Click **Next**.
-9. Click the first checkbox (![](_attachments/checkBox.png)) to select all VDCs.
-10. Click **Next**.
-11. Click **Finish**.
+3. Click **SIGN IN WITH SINGLE SIGN-ON**.
+
+Single-sign on (SSO) is enabled between IBM Cloud Identity and Access Management (IAM) and vCD when the site is created. It is possible to disable this feature.  You can learn more about this capability <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-iam-integration" target="_blank">here</a>.
+
+4. Click the **Networking** tab.
+5. Click the **Data Center Groups** tab.
+6. Click **New**.
+7. Click the **{{itz.VMwaaS.vdc1}}** radio button.
+8. Click the **Name** entry field.
+9.  Click **Next**.
+10. Click the first checkbox (![](_attachments/checkBox.png)) to select all VDCs.
+11. Click **Next**.
+12. Click **Finish**.
 
 Now that the **Data Center Group** is created, the scope of the existing edge gateway needs to be expanded from just the original VDC {{itz.VMwaaS.vdc1}} to include both VDCs.
 

@@ -1,3 +1,6 @@
+**To be written and recorded**
+
+
 Anticipate questions:
 what versions of VMware components
 billing:
