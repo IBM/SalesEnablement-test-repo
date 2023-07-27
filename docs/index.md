@@ -1,4 +1,4 @@
-!!! info **Update** 
+!!! Note **Update!** 
 
     This Level 3 was originally written in late 2022. Since, the IBM Cloud for VMware Solutions portfolio has added several new offerings including **VMware as a Service (VMwaaS)** and **Cyber Recovery**. In the near future **VMwaaS** will support both single-tenant (available today) and multi-tenant capabilities. When the multi-tenant capability is available, the plan is to phase out the **VMware Shared** offering. Given that direction, this Level 3 has been updated to include a **VMwaaS** module and the **VMware Shared** module is now optional. The Stand and Deliver requirements for IBM employees and the business partner quiz have been updated to reflect these changes. 
     
