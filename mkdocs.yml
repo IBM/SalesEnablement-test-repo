@@ -16,15 +16,15 @@ nav:
   - 'Welcome': 'index.md'
   - 'VMware as a Service':
     - 'Introduction': 'VMwaaS/Introduction.md'
-    - 'Provisioning VMwaaS resources using the IBM Cloud Portal': 'VMwaaS/Provisioning.md'
-    - 'Managing VMwaaS resources': 
+    - 'Provisioning': 'VMwaaS/Provisioning.md'
+    - 'Managing': 
       - 'Overview': 'VMwaaS/Managing/ManagingIntro.md'
-      - 'Managing a VMwaaS instance using the IBM Cloud Portal': 'VMwaaS/Managing/ManagingSite.md'
+      - 'Managing a site using the IBM Cloud Portal': 'VMwaaS/Managing/ManagingSite.md'
       - 'Managing VDCs using the IBM Cloud Portal': 'VMwaaS/Managing/ManagingVDC.md'
     - 'Using VMwaaS': 
       - 'Overview': 'VMwaaS/Using/UsingIntro.md'
-      - 'Setting up a VDC network using VMware Cloud Director': 'VMwaaS/Using/NetworkSetupInVCD.md'
-      - 'Using VMwaaS': 'VMwaaS/Using/UsingVMwaaS.md'
+      - 'Setting up a VDC network': 'VMwaaS/Using/NetworkSetupInVCD.md'
+      - 'Using VMware Cloud Director': 'VMwaaS/Using/UsingVMwaaS.md'
     - 'The client demonstration': 'VMwaaS/PuttingItAllTogether.md'
   - 'VMware Solutions Dedicated':
     - 'Introduction': 'Dedicated/Introduction.md'
