@@ -8,7 +8,7 @@
 
 Welcome to the **IBM Cloud for VMware Solutions - Level 3** course and demonstration guide! The goal is to provide Sellers and Technical Sellers, including both IBMers and Business Partners, with the knowledge and tools to perform click-thru demonstrations of the **VMware as a Service**, **VMware Dedicated**, and optionally, **VMware Shared** offerings.
 
-Currently, there are four offerings in the IBM Cloud for VMware Solutions portfolio: ```VMware Shared```, ```VMware as a Service```, ```VMware vSphere```, and ```VMware vCenter Server```. This Level 3 learning plan focuses only on ```VMware as a Service``` , ```VMware Dedicated```, and ```VMware Shared``` offerings. This course is not intended to serve as a deep dive into VMware-specific topics; rather the focus is on the ```IBM Cloud``` aspects of the offerings. Numerous links and pointers to additional content around VMware-specific features are included in each of the modules of this course.
+ This course is not intended to serve as a deep dive into VMware-specific topics; rather the focus is on the ```IBM Cloud``` aspects of the offerings. Numerous links and pointers to additional content around VMware-specific features are included in each of the modules of this course.
 
 Most modules are accompanied by recordings and narrated instructions, delivered by your team of authors. Be sure to watch these for a visual demonstration of how to perform the hands-on lab components. In particular, it is strongly recommended that IBM Sellers and Technical Sellers watch these recordings — they will be useful for you as you go about creating and recording your own Stand & Deliver presentations for Level 3 accreditation.
 
