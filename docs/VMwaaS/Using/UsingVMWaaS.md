@@ -50,7 +50,7 @@ When the page loads, authenticate with your IBM Cloud ID and password. The authe
 
 ![](_attachments/joinNowNotification.png)
 
-Note: if you do not see a notification like this, then it most cases your ITZ reservation is not in the **Ready** state. Wait for the reservation to become **Ready**. You will also receive an email with the **Join now** link.
+Note: if you do not see a notification like this, then, in most cases, your ITZ reservation is not in the **Ready** state. Wait for the reservation to become **Ready**. You will also receive an email with the **Join now** link.
 
 4. Click the **I accept the product...** checkbox.
 5. Click **Join Account**.
