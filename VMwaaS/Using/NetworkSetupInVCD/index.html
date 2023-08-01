@@ -669,6 +669,9 @@
                 
 
 
+<div class="admonition important">
+<p class="admonition-title"><strong>This chapter is optional for Sales but required for Technical Sales.</strong></p>
+</div>
 <p>The network for a VMware as a Service environment is a critical element that clients must plan carefully. Some information on network planning is provided in the IBM Cloud documentation <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-vdc-adding" target="_blank">here</a>. VMware also has good documentation that is accessible through the vCloud Director web console or <a href="https://docs.vmware.com/en/VMware-Cloud-Director/10.4/VMware-Cloud-Director-Tenant-Portal-Guide/GUID-0544FE2A-B036-43E0-B549-40BACDF261B6.html" target="_blank">here</a>. The network implementation in this demonstration environment is minimal and should not be considered as a best of practice.</p>
 <p>In this click-thru demonstration, use VMware Cloud Director (vCloud Director or vCD) to create data center groups, expand the scope of an edge gateway, and how to create a network for virtual machines (VMs). <strong>Data Center Groups</strong> allow administrators to group VDCs together to share network resources. Recall the second VDC created (se-l3-test) was created with no edge gateway. To allow network connectivity to virtual machines provisioned in the se-l3-test VDC, there needs to be a network and an edge gateway that is associated with the VDC. Next, learn how to create a data center group, expand the scope of the existing edge gateway, and how to create a network for the two VDCs.</p>
 <div class="admonition important">
