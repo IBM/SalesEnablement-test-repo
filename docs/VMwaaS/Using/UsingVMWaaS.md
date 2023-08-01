@@ -22,6 +22,8 @@ Thus far, the experience that was provided in this learning plan was through vid
 
 <a href="https://techzone.ibm.com/my/reservations/create/638a1f6a308f5500188808a7" target="_blank">Create a reservation</a>.
 
+Note: you may need to accept the latest ITZ terms and conditions before proceeding.
+
 2. Click the **Reserve now** radio button.
 3. Click the **Practice / Self Education** tile.
 4. Enter **Level 3 training** in the **Purpose description** field.
