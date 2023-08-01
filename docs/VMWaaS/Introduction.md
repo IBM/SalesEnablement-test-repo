@@ -13,4 +13,4 @@ In the following modules, you will:
 
 - Explore the process of provisioning a **VMwaaS** instance with the IBM Cloud portal.
 
-- Delve deeper into various elements of the offering's management console, including: data centers, applications, virtual machines, networking, libraries, administration, and system monitoring.
+- Learn how to manage a **VMwaaS** instance using both the IBM Cloud portal and VMware Cloud Director (vCloud Director).
