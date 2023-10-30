@@ -6,14 +6,21 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="IBM Cloud for VMware Solutions Level 3 Demonstration Guide">
+        <meta name="description" content="IBM Cloud for VMware Solutions Level 3 Demonstration Guide now with VMware as a Service">
       
       
         <meta name="author" content="Andrew R. Jones (andrewj@us.ibm.com) & Chris Bienko (cdbienko@us.ibm.com)">
       
       
+      
+        <link rel="prev" href="../Provisioning/">
+      
+      
+        <link rel="next" href="../HandsOn/">
+      
+      
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.4.0">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.6">
     
     
       
@@ -21,14 +28,17 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.69437709.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.35e1ed30.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
-        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.356b1318.min.css">
       
       
+
+
     
+    
+      
     
     
       
@@ -46,6 +56,7 @@
 
     
     
+    
   </head>
   
   
@@ -56,7 +67,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     
@@ -80,7 +91,9 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="IBM Cloud for VMware Solutions" class="md-header__button md-logo" aria-label="IBM Cloud for VMware Solutions" data-md-component="logo">
       
@@ -89,6 +102,7 @@
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
+      
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
@@ -108,31 +122,36 @@
       </div>
     </div>
     
-      <form class="md-header__option" data-md-component="palette">
-        
-          
-          
-          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
-          
-            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
-            </label>
-          
-        
-          
-          
-          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
-          
-            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
-            </label>
-          
-        
-      </form>
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
     
     
     
       <label class="md-header__button md-icon" for="__search">
+        
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
       </label>
       <div class="md-search" data-md-component="search" role="dialog">
@@ -141,12 +160,15 @@
     <form class="md-search__form" name="search">
       <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
+        
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
       </label>
       <nav class="md-search__options" aria-label="Search">
         
-        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
         </button>
       </nav>
@@ -158,7 +180,7 @@
           <div class="md-search-result__meta">
             Initializing search
           </div>
-          <ol class="md-search-result__list"></ol>
+          <ol class="md-search-result__list" role="presentation"></ol>
         </div>
       </div>
     </div>
@@ -188,6 +210,7 @@
                     
 
 
+
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="IBM Cloud for VMware Solutions" class="md-nav__button md-logo" aria-label="IBM Cloud for VMware Solutions" data-md-component="logo">
@@ -203,14 +226,18 @@
     
       
       
-      
-
   
   
   
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
-        Welcome
+        
+  
+  <span class="md-ellipsis">
+    Welcome
+  </span>
+  
+
       </a>
     </li>
   
@@ -218,316 +245,432 @@
     
       
       
-      
-
   
   
   
     
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_2">
-          VMware as a Service
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="VMware as a Service" data-md-level="1">
-        <label class="md-nav__title" for="__nav_2">
-          <span class="md-nav__icon md-icon"></span>
-          VMware as a Service
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
           
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    VMware as a Service
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            VMware as a Service
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../../VMwaaS/Introduction/" class="md-nav__link">
-        Introduction
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../../VMwaaS/Provisioning/" class="md-nav__link">
-        Provisioning
+        
+  
+  <span class="md-ellipsis">
+    Provisioning
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_2_3">
-          Managing
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Managing" data-md-level="2">
-        <label class="md-nav__title" for="__nav_2_3">
-          <span class="md-nav__icon md-icon"></span>
-          Managing
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
           
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Managing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Managing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../../VMwaaS/Managing/ManagingIntro/" class="md-nav__link">
-        Overview
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../../VMwaaS/Managing/ManagingSite/" class="md-nav__link">
-        Managing a site using the IBM Cloud Portal
+        
+  
+  <span class="md-ellipsis">
+    Managing a site using the IBM Cloud Portal
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../../VMwaaS/Managing/ManagingVDC/" class="md-nav__link">
-        Managing VDCs using the IBM Cloud Portal
+        
+  
+  <span class="md-ellipsis">
+    Managing VDCs using the IBM Cloud Portal
+  </span>
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_2_4">
-          Using VMwaaS
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Using VMwaaS" data-md-level="2">
-        <label class="md-nav__title" for="__nav_2_4">
-          <span class="md-nav__icon md-icon"></span>
-          Using VMwaaS
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
           
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Using VMwaaS
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Using VMwaaS
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../../VMwaaS/Using/UsingIntro/" class="md-nav__link">
-        Overview
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../../VMwaaS/Using/NetworkSetupInVCD/" class="md-nav__link">
-        Setting up a VDC network
+        
+  
+  <span class="md-ellipsis">
+    Setting up a VDC network
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../../VMwaaS/Using/UsingVMwaaS/" class="md-nav__link">
-        Using VMware Cloud Director
+        
+  
+  <span class="md-ellipsis">
+    Using VMware Cloud Director
+  </span>
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../../VMwaaS/PuttingItAllTogether/" class="md-nav__link">
-        The client demonstration
+        
+  
+  <span class="md-ellipsis">
+    The client demonstration
+  </span>
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
   
   
   
     
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3">
-          VMware Solutions Dedicated
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="VMware Solutions Dedicated" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
-          <span class="md-nav__icon md-icon"></span>
-          VMware Solutions Dedicated
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
           
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    VMware Solutions Dedicated
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            VMware Solutions Dedicated
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../../Dedicated/Introduction/" class="md-nav__link">
-        Introduction
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../../Dedicated/Provisioning/" class="md-nav__link">
-        Provisioning
+        
+  
+  <span class="md-ellipsis">
+    Provisioning
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../../Dedicated/Managing/" class="md-nav__link">
-        Managing
+        
+  
+  <span class="md-ellipsis">
+    Managing
+  </span>
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
   
   
   
     <li class="md-nav__item">
       <a href="../../NextSteps/" class="md-nav__link">
-        Next Steps
+        
+  
+  <span class="md-ellipsis">
+    Next Steps
+  </span>
+  
+
       </a>
     </li>
   
@@ -535,64 +678,84 @@
     
       
       
-      
-
   
   
     
   
   
+    
+    
+    
+    
     
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5">
-          VMware Solutions Shared (OPTIONAL)
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="VMware Solutions Shared (OPTIONAL)" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
-          <span class="md-nav__icon md-icon"></span>
-          VMware Solutions Shared (OPTIONAL)
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
           
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    VMware Solutions Shared (OPTIONAL)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            VMware Solutions Shared (OPTIONAL)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../Introduction/" class="md-nav__link">
-        Introduction
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../Provisioning/" class="md-nav__link">
-        Provisioning
+        
+  
+  <span class="md-ellipsis">
+    Provisioning
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
     
@@ -600,37 +763,50 @@
   
     <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
         
       
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Managing
+        
+  
+  <span class="md-ellipsis">
+    Managing
+  </span>
+  
+
       </a>
       
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../HandsOn/" class="md-nav__link">
-        Hands On Access
+        
+  
+  <span class="md-ellipsis">
+    Hands On Access
+  </span>
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -661,26 +837,27 @@
               </div>
             
           
-          <div class="md-content" data-md-component="content">
-            <article class="md-content__inner md-typeset">
-              
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
                 
+                  
 
 
-<p><div class="video-container"><iframe src="../_videos/VMware%20L3%20Shared%20Managing.mp4" style="position: relative; width: 100%; height: 22.172vw" frameborder="0" allowfullscreen></iframe></div></p>
+<div><p><div class="video-container"><iframe src="../_videos/VMware%20L3%20Shared%20Managing.mp4" style="position:relative;width:100%;height:22.172vw" frameborder="0" allowfullscreen alt="type:video"></iframe></div></p>
 <p>The following module guides business partners and IBM sellers through the myriad of features and management tools available from within the VMware Shared instance dashboard on IBM Cloud. You will explore various elements of the management panels and tooling, including: data centers, applications, virtual machines, networking, libraries, administration, and monitoring.</p>
 <h1 id="_1"></h1>
 <h1 id="click-thru-demonstration">Click-Thru Demonstration</h1>
-<hr />
-<p><strong>Click-thru demo:</strong> <a href="https://ibm.github.io/SalesEnablement-VMware-L3/includes/Shared-Managing-VCD/index.html" target ="_blank">Managing an instance of IBM Cloud VMware Solutions Shared</a>.</p>
-<p>Use the click-thru demonstration linked above to practice managing an instance of VMware Shared. The fields that require a text entry (e.g. service name) are pre-populated in the click-thru demonstration. Open the link and then click the play button <img alt="" src="../_attachments/ClickThruPlayButton.png" /> to begin the demonstration.</p>
+<hr>
+<p><strong>Click-thru demo:</strong> <a href="https://ibm.github.io/SalesEnablement-VMware-L3/includes/Shared-Managing-VCD/index.html" target="_blank">Managing an instance of IBM Cloud VMware Solutions Shared</a>.</p>
+<p>Use the click-thru demonstration linked above to practice managing an instance of VMware Shared. The fields that require a text entry (e.g. service name) are pre-populated in the click-thru demonstration. Open the link and then click the play button <img alt="" src="../_attachments/ClickThruPlayButton.png"> to begin the demonstration.</p>
 <div class="admonition note">
 <p class="admonition-title">NAVIGATION</p>
 <p>Not sure where to click or what to do next? Simply click anywhere on the screen within the click-thru demo page and the spot to interact with next will be highlighted. Step-by-step instructions on how to navigate the demo, and repeat the demonstration again in front of clients, are provided in the write-up below.</p>
 </div>
 <h1 id="_2"></h1>
 <h1 id="step-by-step-instructions">Step-By-Step Instructions</h1>
-<hr />
+<hr>
 <p>VMware Solutions, including the <strong>Shared</strong> plan and other tiers, are accessible through the <a href="https://cloud.ibm.com/vmware" target="_blank">VMware portal on IBM Cloud</a>. Be aware that if you provision a live VMware Shared instance using your <em>personal</em> IBM Cloud account, then your account (and credit card associated with that personal account) will be billed for the deployment.</p>
 <ol>
 <li>
@@ -690,30 +867,30 @@
 <p>Drill down into the <strong>Resources</strong> tab within the left hand navigation menu.</p>
 </li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-1.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-1.png"></p>
 <ol start="3">
 <li>From the variety of VMware Solutions plans available, click on the <strong>VMware Shared</strong> option.</li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-2.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-2.png"></p>
 <p>An instance of VMware Shared should already be set up, having completed the <a href="https://ibm.github.io/SalesEnablement-VMware-L3/Shared/Provisioning/" target="_blank">Provisioning</a> section earlier.</p>
 <ol start="4">
 <li>Locate the instance— <code>Dallas Director 01</code> in the example screenshot below, although the naming of your instance may differ —and click the <strong>name</strong> of the instance to pull open a Summary page.</li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-3.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-3.png"></p>
 <p>The browser will load a Summary panel for the VMware Shared instance, supplying details on access controls for your instance, virtual data centers associated with the deployment, and additional services that can be used in conjunction with the instance.</p>
 <ol start="5">
 <li>Before you can connect to the VMware Shared instance, you need to set an administrative password for the <strong>vCloud Director console</strong>. Do so by clicking the <strong>Reset site admin password</strong> button as shown.</li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-4.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-4.png"></p>
 <p>A dialogue window will open, asking you to confirm an administrative password reset for the instance. Confirm the selection and wait for the reset to complete. The <strong>User name</strong> will always be set to <code>admin</code> by default. The <strong>Password</strong> will be uniquely generated each time a reset is conducted.</p>
 <ol start="6">
 <li>Click the "eyeball" icon to view the password and the "box" icon to copy the password to your machine's clipboard. <strong>Record</strong> both of these values to a notepad — you will need to reference these later for connecting to the vCloud Director console. Click the <strong>Close</strong> button to continue. <em>Note:</em> the inspection and copy to clipboard steps are shown as a single interaction in the Click-thru demonstration.</li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-5.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-5.png"></p>
 <ol start="7">
 <li>Locate the <strong>VMware Shared</strong> navigation link at the top left of the page. Click the URL to return to the overview page for all VMware Shared instances.</li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-6.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-6.png"></p>
 <ol start="8">
 <li>
 <p>Just to the left of the <code>Dallas Director 01</code> instance is a drop-down arrow — click this arrow to expand the list of all Virtual Data Centers (VDC) belonging to that instance.</p>
@@ -722,7 +899,7 @@
 <p>There may multiple VDCs belonging to the <code>Dallas Director 01</code> VMware Shared instance. In our example, click on the <strong>Name</strong> of the <code>se-l3-shared</code> VDC to pull open additional details.</p>
 </li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-7.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-7.png"></p>
 <details class="question">
 <summary>BP quiz question</summary>
 <p>Take note of both VDC names that have been provisioned in <strong>Dallas Director 01</strong>.</p>
@@ -730,7 +907,7 @@
 <ol start="10">
 <li>Let's experiment with resizing the amount of vCPU and RAM resources assigned to the VDC. Recall earlier that it was mentioned how IBM Cloud enables scalable deployments of VMware Shared, which can be adjusted (up or down) as the resource requirements of the instance change over its lifecycle. Edit the <strong>Resource Reservation</strong> field by clicking the pencil icon, as shown below.</li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-8.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-8.png"></p>
 <ol start="11">
 <li>Adjust the <strong>vCPU Limit</strong> field down to <code>50</code> vCPU and reduce the <strong>RAM Limit</strong> field to <code>5120</code> GB.</li>
 </ol>
@@ -741,20 +918,20 @@
 <ol start="12">
 <li>Take note that the metered billing for the instance will be adjusted based on the reduced resource requirements. When satisfied, click <strong>Modify</strong> to confirm and implement the changes.</li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-9.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-9.png"></p>
 <ol start="13">
 <li>Back on the Summary page, locate the <strong>vCloud Director console</strong> button near the top right of the screen. Before resetting the admin password, this button would have been greyed out and inaccessible. With the password reset complete, the button is now active (blue) — click it to continue to the console login page.</li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-10.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-10.png"></p>
 <ol start="14">
 <li>A new tab or window will open, prompting you to log in to the vCloud Director console. If one does not appear, check to make sure a pop-up blocker is not active. Use the <code>admin</code> and <code>password</code> fields recorded in <strong>Step 6</strong> to log in to the console. Click <strong>Sign In</strong> to continue.</li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-11.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-11.png"></p>
 <p>After successfully authenticating, your browser will redirect to the <strong>vCloud Director console</strong>. From this page, you will be able to access many of the administrative functions for the VMware Shared environment (with some restrictions in place to ensure the safety and stability of the deployment). By default, the console will load to the <strong>Data Centers</strong> tab. Here you can inspect details on the virtual data center supporting your environment. A summary of the VDC's vCPU, memory, and storage utilization is provided at the bottom of the page.</p>
 <ol start="15">
 <li>Let's drill down into the <code>se-l3-shared</code> VDC that was re-sized earlier by clicking the tile, as shown, in the dashboard.</li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-12.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-12.png"></p>
 <p>From this management screen, you can access information on the VMware Shared plan's available <code>Networks</code>, <code>Edge Gateways</code>, <code>Data Center Groups</code>, and <code>Security Tags</code>.</p>
 <ol start="16">
 <li>
@@ -764,7 +941,7 @@
 <p>Click the <strong>New</strong> button, as shown in the screenshot below, to create a new network configuration for the VDC.</p>
 </li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-13.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-13.png"></p>
 <p>A new page will load to guide you through the process of defining an organization-wide virtual data center (VDC) network. The first element to be defined is the overall <strong>Scope</strong> of the network.</p>
 <ol start="18">
 <li>
@@ -774,7 +951,7 @@
 <p>When satisfied, click <strong>Next</strong> to continue.</p>
 </li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-14.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-14.png"></p>
 <p>You must now decide the <strong>Network Type</strong> appropriate for this deployment. There are two options:</p>
 <ul>
 <li>
@@ -792,7 +969,7 @@
 <p>When satisfied, click <strong>Next</strong> to continue.</p>
 </li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-15.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-15.png"></p>
 <ol start="22">
 <li>Having selected the <strong>Routed</strong> network type earlier, which makes use of an edge gateway for regulated access to the network, we must now define an <strong>Edge Connection</strong> for the organization VDC. The configuration tool will automatically designate an edge connection (<code>edge-dal12-d625b1f2</code> for the <code>Dallas Director 01</code> data center) with <code>2</code> External Networks and <code>0</code> Org VDC Networks.</li>
 </ol>
@@ -811,7 +988,7 @@
 <ol start="23">
 <li>Select the <strong>Internal</strong> Edge Connection type. When satisfied, click <strong>Next</strong> to continue.</li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-16.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-16.png"></p>
 <ol start="24">
 <li>Provide a unique <strong>Name</strong> for the organization VDC network (<code>se-l3-network</code>) and optionally a basic <strong>Description</strong> to its purpose.</li>
 </ol>
@@ -824,33 +1001,33 @@
 <p>When satisfied, click <strong>Next</strong> to continue.</p>
 </li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-17.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-17.png"></p>
 <p><strong>Static IP Pools</strong> must now be assigned to the Gateway CIDR assigned earlier in <strong>Step 25</strong>. Verify that the CIDR displayed on this panel matches the one that you designated previously. No additional modifications are required at this time.</p>
 <ol start="27">
 <li>When satisfied, click <strong>Next</strong> to continue.</li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-18.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-18.png"></p>
 <p><strong>DNS</strong>, or the Domain Name System, provides the mapping between IP addresses (such as the ones specified earlier) and the "name" address that you typically enter into a web browser (<code>www.google.com</code>, for example). A DNS relay can be enabled for the edge gateway previously configured; however, the DNS relay must be set before deployment and cannot be modified after the fact.</p>
 <ol start="28">
 <li><strong>Enable</strong> the <strong>Use Edge DNS</strong> slider. <em>Note:</em> this step is not shown as part of the Click-thru demonstration.</li>
 </ol>
 <p>The remaining fields below can remain blank. When satisfied, click <strong>Next</strong> to continue.</p>
-<p><img alt="" src="../_attachments/shared-managing-19.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-19.png"></p>
 <p>The <strong>Ready to Complete</strong> panel provides a full summary of your organization VDC network configurations. Here you can review the details of the network before choosing to commit to a deployment, or discard the network configuration completely.</p>
 <ol start="29">
 <li>Click the <strong>Finish</strong> button to create the network.</li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-20.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-20.png"></p>
 <p>Your browser will automatically redirect to the <strong>Networking</strong> tab of the vCloud Director console. From the list of Networks, you will see the <code>se-l3-network</code> deploy and eventually update its status to <code>Ready</code> once fully initialized.</p>
 <ol start="30">
 <li>Click the <strong>Virtual Machines</strong> subdirectory from the list of tabs along the left side of the interface.</li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-21.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-21.png"></p>
 <p>The console's <strong>Applications</strong> dashboard allows for the centralized management and deployment of all applications— which are categorized as either <em>virtual machines</em> or <em>virtual applications</em> —within the VMware Shared environment. A virtualized application, or <em>vApp</em>, consists of one or more virtual machines (VMs) that communicate over the Shared plan's network, making use of the Shared plan's resources, or invoking services that the Shared plan supports. A single vApp can consist of one, or multiple, VMs as part of its backbone.</p>
 <ol start="31">
 <li>Let's try drafting a new virtual machine from scratch. Do so by clicking the <strong>New VM</strong> button from the menu at the bottom of the page.</li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-22.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-22.png"></p>
 <ol start="32">
 <li>
 <p>A new configuration window will open. Provide a <strong>Name</strong> (<code>se-l3-TestVM</code>) and <strong>Computer Name</strong> (<code>se-l3-testvm</code>), as well as an optional <strong>Description</strong>, for the new VM.</p>
@@ -865,7 +1042,7 @@
 <p>We recommend selecting the <code>vm-centos8</code> template, which corresponds to the CentOS 8 (64-Bit) official release, for the purposes of this demonstration — although you are free to choose any of your liking. Continue scrolling down the page to reveal more configuration options.</p>
 </li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-23.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-23.png"></p>
 <p><strong>Storage</strong> for the VM is our next consideration. As described earlier in the Provisioning module, there are a variety of storage options available for virtual machines and virtual applications deployed within the VMware Shared environment. Each storage tier provides different levels of throughput (IOPs) and levels of isolation (multi-tenant versus single-tenant), with differing levels of billable rates and charges associated with each tier. For our purposes, we recommend the <code>Standard (VDC Default)</code> tier of <strong>Storage Policy</strong>.</p>
 <p><strong>Compute</strong> is dictated by the VDC sizing configuration that was set during the Provisioning module. The resources available to the VM we are defining here are restricted by the hardware configurations assigned to the VDC when it was deployed earlier.</p>
 <p><strong>NICs</strong>, or Network Interface Cards, provide the network interface needed by the virtual machine for communication with the public internet, IBM Cloud, and on-premises resources.</p>
@@ -883,11 +1060,11 @@
 <p>When satisfied, click the <strong>OK</strong> button at the bottom of the panel to deploy the VM (which will remain powered off for now) and return to the <strong>Virtual Machines</strong> overview dashboard.</p>
 </li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-24.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-24.png"></p>
 <ol start="40">
 <li>Locate the newly-minted VM tile on the page and click the <strong>Details</strong> button to inspect it further.</li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-25.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-25.png"></p>
 <ol start="41">
 <li>
 <p>Let's reconfigure the guest operating system (OS) associated with the VM. Once inside the Details panel, click the <strong>Guest OS Customization</strong> subdirectory from the interface on the left side of the panel.</p>
@@ -896,7 +1073,7 @@
 <p>Locate the <strong>Edit</strong> button, as shown in the screenshot below, and click the URL to open a new pop-up configuration window.</p>
 </li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-26.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-26.png"></p>
 <ol start="43">
 <li>
 <p>You will want to set your own password for the guest OS. Therefore, <strong>DISABLE</strong> the <strong>Auto Generate Password</strong> toggle.</p>
@@ -908,7 +1085,7 @@
 <p>When satisfied, click <strong>Save</strong> to confirm the selections and return to the VM summary panel.</p>
 </li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-27.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-27.png"></p>
 <ol start="46">
 <li>
 <p>From the interface along the top of the panel, select the <strong>All Actions</strong> drop-down.</p>
@@ -917,11 +1094,11 @@
 <p>Drill down into <strong>Power</strong> and select the <strong>Power On, Force Customization</strong> option to initialize the newly-configured VM.</p>
 </li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-28.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-28.png"></p>
 <ol start="48">
 <li>The VM will take a moment to initialize and power on. Once ready, click the <strong>Launch Web Console</strong> button from the top of the panel.</li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-29.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-29.png"></p>
 <ol start="49">
 <li>
 <p>An SSH console will appear in a pop-up window. Enter <code>root</code> as your login ID and then enter any password. You will initially receive a warning that the password provided is <em>incorrect</em>, and then subsequently will be asked to create a new password for the login. This is a result of the configuration options set in <strong>Step 44</strong>. Enter a new password of your choosing (confirming the password a second time when asked to do so) and continue logging in to the VM console.</p>
@@ -930,7 +1107,7 @@
 <p>After successfully connecting to the console, safely <strong>close</strong> the pop-up window and return to the vCloud Director web interface.</p>
 </li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-30.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-30.png"></p>
 <ol start="51">
 <li>
 <p>Once again, select the <strong>All Actions</strong> drop-down from the top of the panel's interface.</p>
@@ -939,7 +1116,7 @@
 <p>Drill down into <strong>Power</strong> and click the the <strong>Power Off</strong> button to disable the VM.</p>
 </li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-31.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-31.png"></p>
 <ol start="53">
 <li>
 <p>Take note that the <strong>Power On</strong> and <strong>Power Off</strong> buttons have updated to reflect the VM status. For a third time, select the <strong>All Actions</strong> drop-down from the panel's interface.</p>
@@ -948,7 +1125,7 @@
 <p>Click the <strong>Delete</strong> button to tear down the VM instance. Confirm the selection when prompted to do so.</p>
 </li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-32.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-32.png"></p>
 <ol start="55">
 <li>
 <p>Close the vCloud Director web dashboard and return to the IBM Cloud dashboard. From the drop-down in the top right corner of the interface (as shown in the screenshot below), click the <strong>Actions</strong> button. <em>Note:</em> this step, and <strong>Step 56</strong> and <strong>Step 57</strong>, is not shown as part of the Click-thru demonstration.</p>
@@ -957,69 +1134,35 @@
 <p>Select the <strong>Monitoring</strong> button to open the IBM Cloud monitoring dashboard for the VMware Shared instance.</p>
 </li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-33.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-33.png"></p>
 <ol start="57">
 <li>From the <strong>Monitoring</strong> tab it is possible for administrative users to inspect running <em>Tasks</em> and <em>Events</em> across the instance. Explore the interface and use the filters along the bottom of the page to look across activity for the environment across different ranges of time.</li>
 </ol>
-<p><img alt="" src="../_attachments/shared-managing-34.png" /></p>
+<p><img alt="" src="../_attachments/shared-managing-34.png"></p>
 <p>At this point in time, you have successfully explored the myriad of features and management tools available from within the <strong>VMware Shared</strong> dashboard on IBM Cloud. You should now have greater familiarity and fluency with the various elements of the management panels and tooling, including: how to manage data centers, building applications and virtual machines through the guided web interface, establishing networking rules, and the wealth of tooling available for managing the environment once in production.</p>
-<p>In the following chapter, you will investigate <strong>IBM Cloud for VMware Solutions Dedicated</strong>.</p>
+<p>In the following chapter, you will investigate <strong>IBM Cloud for VMware Solutions Dedicated</strong>.</p></div>
 
 
 
 
-              
-            </article>
-            
-          </div>
+
+                
+              </article>
+            </div>
+          
+          
         </div>
         
       </main>
       
         <footer class="md-footer">
   
-    
-    <nav class="md-footer__inner md-grid" aria-label="Footer" >
-      
-        
-        <a href="../Provisioning/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Provisioning" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Provisioning
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../HandsOn/" class="md-footer__link md-footer__link--next" aria-label="Next: Hands On Access" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Hands On Access
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
-  
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2022 IBM
+      Copyright &copy; 2022, 2023 IBM
     </div>
   
   
@@ -1034,10 +1177,11 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.9c69f0bc.min.js"></script>
+      <script src="../../assets/javascripts/bundle.aecac24b.min.js"></script>
       
     
   </body>
