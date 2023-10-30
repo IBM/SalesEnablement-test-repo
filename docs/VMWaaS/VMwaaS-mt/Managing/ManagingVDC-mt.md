@@ -23,7 +23,7 @@ In this click-thru demonstration, explore the management activities for a multi-
 
      **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMwaaS-mt-manage/index.html" target ="_blank">Manage a multi-tenant virtual data center (VDC)</a>
 
-2. Click the **{{itz.VMwaaS-MT.vdc}}** entry in the table of VDCs.
+2. Click the **{{itz.VMwaaSmt.vdc}}** entry in the table of VDCs.
 
 Notice the list of **Public IPs** associated with the VDC. These addresses can be used to assign to individual virtual machines (VMs) provisioned in the VDC or assigned to networks using network address translation (NAT).
 
