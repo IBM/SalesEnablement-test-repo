@@ -82,7 +82,7 @@ Clients can select a specific datacenter with in the selected location geography
     The **Create without network edge** option is suitable for centralized networking administration and control over multiple VDCs. Learn more about this option <a href="https://cloud.ibm.com/docs/vmware-service?topic=vmware-service-vdc-adding#vdc-adding-procedure" target="_blank">here</a>.
 
 17. Click the table of listing the different edge types.
-18. Click the **information** icon ![](_attachments/infoIcon.png) above the **Enable consumption limits* toggle button.
+18. Click the **information** icon ![](_attachments/infoIcon.png) above the **Enable consumption limits** toggle button.
 
 vCPU and RAM charges for on-demand VDCs are based on the amount that is used for running workloads. To control costs, clients can use limits to restrict the maximum amount of vCPU and RAM usage in the VDC.
 
@@ -97,6 +97,6 @@ At the time this click-thru demonstration was created, the default value for RAM
 21. Click the **I have read and agreed to the following license agreements** checkbox.
 22. Click the **Create** button.
 
-The provisioning process is automated. Provisioning time varies based on the site configuration and network edge option selected. When the ITZ environment used for this learning plan was originally created, the provisioning of the site took approximately 15 minutes.
+The provisioning process is automated. Provisioning time varies based on the configuration and network edge option selected. When the ITZ environment used for this learning plan was originally created, the provisioning of the site took approximately 15 minutes.
 
 Now that a multitenant **VDC** is provisioned, it is time to look at the management capabilities through the IBM Cloud portal.
