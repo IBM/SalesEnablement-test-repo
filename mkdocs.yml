@@ -16,7 +16,7 @@ nav:
   - 'Welcome': 'index.md'
   - 'VMware as a Service':
     - 'Introduction': 'VMwaaS/Introduction.md'
-    - 'VMwaaS - single tenant':
+    - 'VMwaaS - single-tenant':
       - 'Provisioning': 'VMwaaS/VMwaaS-st/Provisioning.md'
       - 'Managing': 
         - 'Overview': 'VMwaaS/VMwaaS-st/Managing/ManagingIntro.md'
@@ -27,6 +27,16 @@ nav:
         - 'Setting up a VDC network': 'VMwaaS/VMwaaS-st/Using/NetworkSetupInVCD.md'
         - 'Using VMware Cloud Director': 'VMwaaS/VMwaaS-st/Using/UsingVMwaaS.md'
       - 'The client demonstration': 'VMwaaS/VMwaaS-st/PuttingItAllTogether.md'
+    - 'VMwaaS - multitenant':
+      - 'Provisioning': 'VMwaaS/VMwaaS-mt/Provisioning-mt.md'
+      - 'Managing': 
+        - 'Overview': 'VMwaaS/VMwaaS-mt/Managing/ManagingIntro-mt.md'
+        - 'Managing VDCs using the IBM Cloud Portal': 'VMwaaS/VMwaaS-mt/Managing/ManagingVDC-mt.md'
+      - 'Using VMwaaS': 
+        - 'Overview': 'VMwaaS/VMwaaS-mt/Using/UsingIntro-mt.md'
+        - 'Setting up a VDC network': 'VMwaaS/VMwaaS-mt/Using/NetworkSetupInVCD-mt.md'
+        - 'Using VMware Cloud Director': 'VMwaaS/VMwaaS-mt/Using/UsingVMwaaS-mt.md'
+      - 'The client demonstration': 'VMwaaS/VMwaaS-mt/PuttingItAllTogether-mt.md'
   - 'VMware Solutions Dedicated':
     - 'Introduction': 'Dedicated/Introduction.md'
     - 'Provisioning': 'Dedicated/Provisioning.md'
