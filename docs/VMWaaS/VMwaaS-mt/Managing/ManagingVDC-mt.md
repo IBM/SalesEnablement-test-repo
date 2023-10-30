@@ -17,11 +17,11 @@ In this click-thru demonstration, explore the management activities for a multi-
 ----------------------
 
 ##
-## Manage a VDC
+## Manage a multitenant VDC instance
 
 1. Open the click-thru demo and then click play ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
-     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMwaaS-mt-manage/index.html" target ="_blank">Manage a multi-tenant virtual data center (VDC)</a>
+     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMwaaS-mt-managing/index.html" target ="_blank">Manage a multi-tenant virtual data center (VDC)</a>
 
 2. Click the **{{itz.VMwaaSmt.vdc}}** entry in the table of VDCs.
 
