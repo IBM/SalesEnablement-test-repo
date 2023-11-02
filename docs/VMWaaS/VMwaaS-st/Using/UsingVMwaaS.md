@@ -181,6 +181,10 @@ When the **login** prompt appears, use the root ID, and the password you specifi
 
 ```ps -ef```
 
+```
+copy and paste this
+```
+
 The next steps walk you through deleting the VM that was created. Note, you do not have to do this right now, but remove all VMs you create before your ITZ reservation expires.
 
 26. In the vCD web console, click **POWER OFF** for the VM you created earlier.
