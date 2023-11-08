@@ -5,7 +5,7 @@ Now it is time to provision a VMware Cloud Foundation (VCF) instance. Use the cl
 
 1. Open the link below and then click the play button ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
-**Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-VMware-L3/includes/VCF-provisioning/index.html" target ="_blank">Provision an instance of IBM Cloud for VMware Cloud Foundation</a>
+**Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-VMware-L3/includes/vcf-provisioning/index.html" target ="_blank">Provision an instance of IBM Cloud for VMware Cloud Foundation</a>
 
 2. Click the **VMware** ![](_attachments/VMicon.png) icon in the left hand menu bar.
 
