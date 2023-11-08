@@ -37,10 +37,14 @@ nav:
         - 'Setting up a VDC network': 'VMwaaS/VMwaaS-mt/Using/NetworkSetupInVCD-mt.md'
         - 'Using VMware Cloud Director': 'VMwaaS/VMwaaS-mt/Using/UsingVMwaaS-mt.md'
       - 'The client demonstration': 'VMwaaS/VMwaaS-mt/PuttingItAllTogether-mt.md'
-  - 'VMware Solutions Dedicated':
-    - 'Introduction': 'Dedicated/Introduction.md'
-    - 'Provisioning': 'Dedicated/Provisioning.md'
-    - 'Managing': 'Dedicated/Managing.md'
+  - 'VMware vCenter Server':
+    - 'Introduction': 'VCS/Introduction.md'
+    - 'Provisioning': 'VCS/Provisioning.md'
+    - 'Managing': 'VCS/Managing.md'
+  - 'VMware Cloud Foundation':
+    - 'Introduction': 'VCF/Introduction.md'
+    - 'Provisioning': 'VCF/Provisioning.md'
+    - 'Managing': 'VCF/Managing.md'  
   - 'Next steps': 'NextSteps.md'
   - 'VMware Solutions Shared (OPTIONAL)':
     - 'Introduction': 'Shared/Introduction.md'

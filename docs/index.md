@@ -1,12 +1,18 @@
 !!! Note Update
 
-    This Level 3 was originally written in late 2022. Since, the IBM Cloud for VMware Solutions portfolio has added several new offerings including **VMware as a Service (VMwaaS)** and **Cyber Recovery**. The plan is to phase out the **VMware Shared** offering in 2024/2025. Given that direction, this Level 3 has been updated to include a **VMwaaS** module and the **VMware Shared** module is now optional. The Stand and Deliver requirements for IBM employees and the business partner quiz have been updated to reflect these changes. 
+    This Level 3 was originally written in late 2022. Since, the IBM Cloud for VMware Solutions portfolio has added several new offerings including:
+    - **VMware as a Service (VMwaaS) - Single-tenant**
+    - **VMware as a Service (VMwaaS) - Multitenant**
+    - **Cyber Recovery**
+    - **VMware Cloud Foundation (VCF)**
+  
+    The plan is to phase out the **VMware Shared** offering in 2024/2025. Given that direction, this Level 3 has been updated to include a **VMwaaS** and a **VCF** module. The **VMware Shared** module is now optional. The Stand and Deliver requirements for IBM employees and the business partner quiz have been updated to reflect these changes. 
     
     Note, images and videos in this demonstration guide may not reflect the latest changes in the portal.
 
 ![type:video](./_videos/VMware L3 Welcome.mp4)
 
-Welcome to the **IBM Cloud for VMware Solutions - Level 3** course and demonstration guide! The goal is to provide Sellers and Technical Sellers, including both IBMers and Business Partners, with the knowledge and tools to perform click-thru demonstrations of the **VMware as a Service**, **VMware Dedicated**, and optionally, **VMware Shared** offerings.
+Welcome to the **IBM Cloud for VMware Solutions - Level 3** course and demonstration guide! The goal is to provide Sellers and Technical Sellers, including both IBMers and Business Partners, with the knowledge and tools to perform click-thru demonstrations of the **VMware as a Service (VMwaaS)**, **VMware vCenter Server**, **VMware Cloud Foundation (VCF)**, and optionally, **VMware Shared** offerings.
 
  This course is not intended to serve as a deep dive into VMware-specific topics; rather the focus is on the ```IBM Cloud``` aspects of the offerings. Numerous links and pointers to additional content around VMware-specific features are included in each of the modules of this course.
 
@@ -22,13 +28,13 @@ Most modules are accompanied by recordings and narrated instructions, delivered 
 Specific criteria that must be demonstrated as part of the Stand & Deliver recordings is provided within the documentation that accompanies the Level 3 course. Before jumping into the next module, please read the guidance below. Your comprehension of the information outlined below will save you time while completing the lab work.
 
 !!! tip "FIND HELP"
-    If at any point during the hands-on material you need help from the team of authors and other IBM experts, please connect with us via the #cloud-platform-demo-feedback Slack channel. Any comments or suggestions are also welcome in this channel.
+    If at any point during the hands-on material you need help from the team of authors and other IBM experts, please connect with us via the <a href="https://ibm.enterprise.slack.com/archives/C03PQ47KRQE" target="_blank">#cloud-platform-demo-feedback</a> Slack channel. Any comments or suggestions are also welcome in this channel.
 
 #
 # Navigating the Lab Guide
 -----------------------------
 
-The Level 3 demonstration guide is organized into three chapters, covering the ```VMware as a Service```, ```VMware Dedicated```, and ```VMware Shared``` offerings of the **IBM Cloud for VMware Solutions** portfolio. These chapters contain modules that provide an *Introduction* to offering, steps to *Provision* a deployment, and explore how clients *Manage* their instance through the IBM Cloud portal and the respective VMware tools.
+The Level 3 demonstration guide is organized into three chapters, covering the ```VMware as a Service```, ```VMware vCenter Server```, ```VMware Cloud Foundation```, and ```VMware Shared``` offerings of the **IBM Cloud for VMware Solutions** portfolio. These chapters contain modules that provide an *Introduction* to offering, steps to *Provision* a deployment, and explore how clients *Manage* their instance through the IBM Cloud portal and the respective VMware tools.
 
 !!! warning "WARNING"
     The agile nature of cloud means that the interface and layout of the IBM Cloud Portal, as well as the IBM Cloud for VMware Solutions offering, will change on a regular basis. Screenshots and videos captured within this documentation may not always reflect the latest versions available from IBM Cloud — although the IBM Technology Sales Enablement team strives to update these assets on a regular basis.
@@ -77,7 +83,10 @@ Secure Shell (SSH)
 User identification (ID)
 Virtual Application (vApp)
 Virtual Central Processor Unit (vCPU)
+VMware as a Service (VMwaaS)
 VMware Cloud Director (VCD)
+VMware Cloud Foundation (VCF)
+VMware vCenter Server (VCS)
 VMware vRealize Log Insight (vRLI)
 VMware vRealize Operations (vROps)
 Virtual Data Center (VDC)
