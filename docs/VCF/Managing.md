@@ -4,9 +4,7 @@ The VCF instance in this click-thru demonstration was created using the **consol
 
 !!! tip
     
-    Due to the number of inputs required for provisioning a VCF cluster, a few additional features have been added to this click thru-demonstration. In the IBM Cloud portal, notice there are quite a few information icons ![](_attachments/infoIcon.png) for various fields. If they appear above the next click position ![](_attachments/greenBox.png), they can be clicked to learn more about that particular field. 
-    
-    Scrolling in the user interface (UI) is required. A **Click to Scroll** icon will appear when the UI needs to scroll. This was added so ample time is available to read all the various fields in the UI. 
+    In this click-thru demonstration, several different user interfaces are used: the IBM Cloud Portal for VCF, IBM Cloud Portal for VPC, and Microsoft Remote Desktop. When switching between these interfaces a **Click to Continue** button will appear. Simply click it and the context will switch to the next interface.
     
     If you are ever not sure where to click or what to do next? Simply click anywhere on the screen and the spot to click next will be highlighted.
 
