@@ -45,7 +45,7 @@ Before proceeding, recall the earlier tip regarding the information icons ![](_a
 
 There are also some important tiles and fields prior to the next click spot.
 
-First notice the, the user has the ability to specify which VMware Edition to deploy by selecting either the **Advaned Edition** or the **Enterprise Edition** tile.
+First notice the, the user has the ability to specify which VMware Edition to deploy by selecting either the **Advanced Edition** or the **Enterprise Edition** tile.
 
 The user must also select from the available subscription pricing plans: **on-demand**, **1-year**, or **3-year**. Note, for the 1-year and 3-year offerings, the client must contact an IBM seller for pricing and discounts.
 
