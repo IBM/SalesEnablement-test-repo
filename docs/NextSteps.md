@@ -1,4 +1,4 @@
-This {{learningplan.name}} demonstrated several of the {{offering.name}} offerings available. Users learned the basics for provisioning and managing both VMware as a Service, VMware Dedicated, and optionally VMware Shared resources. However, there is still more to learn about {{offering.name}}. Be sure to check out this <a href="https://cloud.ibm.com/vmware/compare_offerings" target="_blank">offering comparison page</a> as well.
+This {{learningplan.name}} demonstrated several of the {{offering.name}} offerings available. Users learned the basics for provisioning and managing both VMware as a Service, VMware vCenter Server, VMware Cloud Foundation, and optionally VMware Shared resources. However, there is still more to learn about {{offering.name}}. Be sure to check out this <a href="https://cloud.ibm.com/vmware/compare_offerings" target="_blank">offering comparison page</a> as well.
 
 Finally, remember to complete the {{learningplan.name}} learning plan.
 
