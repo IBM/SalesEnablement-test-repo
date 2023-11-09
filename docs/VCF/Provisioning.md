@@ -1,7 +1,12 @@
 Now it is time to provision a VMware Cloud Foundation (VCF) instance. Use the click-thru demonstration below to practice provisioning a VCF instance.
 
 !!! tip
-    Not sure where to click or what to do next? Simply click anywhere on the screen and the spot to click next will be highlighted.
+    
+    Due to the number of inputs required for provisioning a VCF cluster, a few additional features have been added to this click thru-demonstration. In the IBM Cloud portal, notice there are quite a few information icons ![](_attachments/infoIcon.png) for various fields. If they appear above the next click position ![](_attachments/greenBox.png), they can be clicked to learn more about that particular field. 
+    
+    Scrolling in the user interface (UI) is required. A **Click to Scroll** icon will appear when the user interface needs to scroll. This was added so ample time is available to read all the various fields in the UI. 
+    
+    If you ever not sure where to click or what to do next? Simply click anywhere on the screen and the spot to click next will be highlighted.
 
 1. Open the link below and then click the play button ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
@@ -9,141 +14,204 @@ Now it is time to provision a VMware Cloud Foundation (VCF) instance. Use the cl
 
 2. Click the **VMware** ![](_attachments/VMicon.png) icon in the left hand menu bar.
 
+3. Click **Click to Scroll**. 
 
-/----------------------
+4. Click the **VMware Cloud Foundation** tile in the **Featured services** section.
 
-3. Click the **VMware vCenter Server** tile.
+5. Click the **About** tab.
 
-??? question "BP quiz question"
-    Take note of the VMware vSphere version.
+The **About** tab provides a short description of the VCF offering, including benefits, high-level pricing information, and a description of the two support VMware Cloud Editions: Advanced Edition and Enterprise Edition.
 
-4. Click in the **Instance name** text entry field.
+6. Click **Click to Scroll**.
+7. Click **Click to Scroll**.
+8. Click the **Create** tab.
+9. Click the **Compare plans** help link.
 
-The Instance name field will automatically change to {{itz.dedicated.instanceName}}. The IBM Cloud portal provides the ability to provision a new instance based on a previously saved template.
+IBM Cloud for VCF supports deployment of either the **Advanced Edition** or **Enterprise Edition** of VMware Editions. Review the components of each and how the two editions differ. 
 
-5. Click the **Resource Group** pull-down menu.
-6. Select the **{{itz.resourceGroup}}** option.
+!!! important "Important"
 
-VCS supports multisite vCenter Server instances. In this demonstration, only a primary instance is provisioned. Learn more about multisite vCenter instances <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-vc_multisite" target="_blank">here</a>.
+    It is important to understand the footnote on this screen. The components denoted with the asterisk are **not** installed by the IBM Cloud automation. The client is responsible for manually installing these after the initial VCF provisioning process completes and the instance is in a ready state.
 
-7. Click **Licensing** in the left hand menu.
+10. Click the **x** at top right to close the **VMware Cloud Foundations plans** window.
 
-Learn more about the licensing options <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-vc_orderinginstance-licensing-settings" target="_blank">here</a>.
+Before proceeding, recall the earlier tip regarding the information icons ![](_attachments/infoIcon.png). At this point, the next click action is to click the pull-down menu for the **VMware Cloud Foundation version**. The image below shows illustrates that the information icon for the **Choose plan** section is active as it appears before the next click spot.
 
-??? question "BP quiz question"
-    Take note of the 4 NSX license options.
+![](_attachments/infoPromptExample.png)
 
-8. Under the **NSX** section, click the pull-down menu that currently shows **Data Center SP Professional**.
-9. Select the **Data Center SP Advanced** option.
+There are also some important files prior to the next click spot.
 
-In this deployment, a single **Consolidated** cluster will be used. **Consolidated** clusters are used for both the management components of the VCS deployment as well as client workloads. This is typically fine for small deployments, and will potentially save the client some money. However, for larger deployments with varying performance requirements for workloads, separating the management cluster from other workload clusters is the preferred architecture. Refer to the documentation for more details on management and workload clusters <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-scb-orderinginstance-consoli" target="_blank">here</a>.
+First notice the, the user has the ability to specify which VMware Edition to deploy by selecting either the **Advaned Edition** or the **Enterprise Edition** tile.
 
-Later the other options for to provision dedicated **Workload** and **Edge services** clusters will be explored, but for this environment a single **Consolidated** cluster is used.
+The user must also select from the available subscription pricing plans: **on-demand**, **1-year**, or **3-year**. Note, for the 1-year and 3-year offerings, the client must contact an IBM seller for pricing and discounts.
 
-10. Under **Data center location**, click the **Geography** pull-down menu that currently shows **NA South**.
+11. Click the **VMware Cloud Foundation version** pull-down menu.
 
-Notice, VCS instances can be deployed in many of the IBM Cloud data centers located around the world. Typically, data centers are selected based upon geographic location either for data sovereignty and/or proximity reasons. However, it is also important to note that not all the IBM Cloud data centers have the same capabilities. Consult the **IBM Cloud data center availability** section of the documentation <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-vc_planning" target="_blank">here</a>.
+At the time this demonstration was created, only version 4.5.1 of the VCF offering was available. Expect future versions in the future. We expect to see IBM Cloud support the current and at least one prior version going forward.
 
-11. Select the **NA West** option.
-12. Select the **SJC04** data center option.
+12. Click the **4.5.1** option.
+13. Click the **Architecture** pull-down menu.
 
-Next, a hardware configuration for the bare-metal servers needs to be specified. VCS can be provisioned on many different hardware configurations, including SAP certified hardware.
+IBM Cloud for VCF supports two deployment architectures: **Consolidated** and **Standard**. 
 
-13. Click the **Dual Intel Xeon Silver 4210** radio button in the **CPU model** table.
-14. Click the **RAM** pull-down menu that currently shows **768 GB**.
-15. Select the **128 GB** option.
-16. Click the **Include a separate, additional workload cluster** checkbox.
+In the **Consolidated** architecture, the management and client workloads are running on a shared management domain. The environment is managed from a single VMware vCenter Server. VMware vSphere resource pools provide isolation between management and client workloads. Resource pools must be properly configured as the compute capacity is shared between the management and compute workloads.
 
-Notice the form expands to allow a new hardware configuration to be specified for a separate **Workload** cluster just like for the **Consolidated** cluster. If a client desires to separate their workload cluster from the management cluster, this option should be selected. Often clients will opt for multiple workload cluster based upon the CPU, memory, and storage requirements of the workloads.
+![](_attachments/vcf-vpc-v2-arch-cons.svg)
 
-17. Click the **Include a separate, additional workload cluster.** checkbox again to **disable** the separate **Workload cluster**.
-18. Click the **Edge services cluster** checkbox.
+With the standard architecture model, the management workloads are running on a dedicated management domain and the client workloads are deployed in separate virtual infrastructure (VI) workload domains. Each VI workload domain is managed by a separate vCenter Server instance, which provides for scalability and allows for autonomous licensing and lifecycle management. In IBM Cloud, the VI workload domains can run only on the same IBM Cloud VPC availability zone in the same IBM Cloud multizone region.
 
-A dedicated **Edge services** cluster is often desirable for large deployments that require additional separation of the edge services and custom firewall components. Notice the hardware options for the **Edge services** cluster are fewer than for the **Consolidate** and **Workload** clusters.
+![](_attachments/vcf-vpc-v2-arch-std.svg)
 
-19. Click the **Edge services cluster** checkbox again to **disable** the separate **Edge services cluster**.
-20. Click the **Domain name** text entry field under the **Network interface** section.
+Learn more about the VCF architectures <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-vpc-vcf-architectures" target="_blank">here</a>.
 
-Network planning for any VCS deployment is critical. Clients are expected to make informed decisions when provisioning their VCS environment and when specifying network configuration options. More planning information is available in the VCS documentation starting <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-vc_networkingonvcenterserver" target="_blank">here</a>.
+14. Click the **Standard** architecture option.
+15. Click **Click to Scroll**.
 
-A valid **Domain name** needs to be specified for the VCS deployment. The Domain name field will automatically change to **myroot.mydomain.com** for this environment. Notice how both the **Hostname prefix** and **Domain name** fields are used to specify the complete hostnames for the bare-metal servers. The **Configure host names individually** checkbox can be used for clients that desire to specify hostnames individually.
+Before specifying the location for the deployment, be sure and explore each of the Deployment input fields.
 
-21. Click the **Add-on services** option in left hand menu.
+![](_attachments/deploymentInfo.png)
 
-When ordering a VCS instances, clients can also include add-on services.
+16. Click the **Geography** pull down.
 
-22. Click the **Edit** link in the **Veeam 11** tile under **Recommended services**.
+When this demonstration was created, VCF was available in the following locations:
 
-Veeam on IBM Cloud seamlessly integrates directly with your VMware hypervisors to help your enterprise achieve high availability. This service provides recovery points and time objectives for your applications and data. The recovery points and time objectives can be provided in less than 15 minutes after configuration is completed. By using this service, you control both the backup and restore of all virtual machines (VMs) for your infrastructure directly from the Veeam console. Veeam on IBM Cloud is a non-IBM product that is offered under terms and conditions from Veeam, not IBM
+- North America
+  - Dallas
+    - Dallas 1 
+    - Dallas 2
+    - Dallas 3
+  - Washington, DC
+    - WDC 1
+    - WDC 2
+  - Toronto
+    - Toronto 2
+    - Toronto 3
+- Europe
+  - Frankfurt
+    - Frankfurt 1
+    - Frankfurt 2
+  - Madrid
+    - Madrid 1
+    - Madrid 3
 
-23. Click the **Name** text entry field in the **Configure Veeam** dialog.
+Find most current list of support locations <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-vpc-vcf-ordering" target="_blank">here</a>.
 
-The **Name** field will automatically change to **veeam-l3**.
+17. Click **Europe**.
+18. Click **Frankfurt**.
+19. Click **Frankfurt 1**.
+20. Click **Click to Scroll**.
 
-In the next steps, specify the size and performance of the storage to be used by Veeam. More information on Veeam capacity planning can be found <a href="https://helpcenter.veeam.com/archive/one/100/reporter/capacity_planning_for_repositories.html" target="_blank">here</a>.
+Before proceeding, click the information icon ![](_attachments/infoIcon.png) for each field in the **Management domain** input section.  
 
-24. Click the **Storage size** pull-down menu that currently shows **4000 GB**.
-25. Select the **2000 GB** option.
-26. Click the **Storage performance** pull-down menu that currently shows **0.25 IOPS/GB**.
-27. Select the **0.25 IOPS/GB** option.
-28. Click **Save**.
-29. Click the **Edit** link in the **Caveonix RiskForesight 4.0.0** add-on services tile.
+![](_attachments/managementDomainInfo.png)
 
-The Caveonix RiskForesight™ service can help to manage cyber risk and compliance risk with proactive monitoring and automated defense controls to protect against threats and to meet industry or government regulations. Learn more about Caveonix <a href="" target="_blank">here</a>.
+21. Click **Click to Scroll**.
+    
+Application Virtual Networks (AVNs) and Management overlay networks define the prefixes to use on the NSX overlay on the management cluster on consolidated and standard architecture using management Tier 0 gateway. Workload overlay networks define the prefixes used on the NSX overlay on the workload cluster on the standard architecture using workload Tier 0 gateways. The automation will create the necessary Virtual Private Cloud (VPC) prefixes and VPC routes to enable routed connectivity from the VCF VPC and other connected networks through IBM Cloud interconnectivity services (Direct Link and Transit Gateway). 
 
-30. Click **Cancel**.
-31. Click the toggle switch in the **Caveonix RiskForesight 4.0.0** add-on services tile to disable Caveonix.
-32. Click the **Business continuity and migration** pull-down menu.
+![](_attachments/AVNarchitecture.png)
 
-The VMware HCX service extends the networks of on-premises data centers into IBM Cloud, and it helps migrate virtual machines (VMs) to and from IBM Cloud without any conversion or change. HCX creates an abstraction layer that enables application mobility and infrastructure hybridity through securely stretched networks. Clients can modernize their VMware environment without the need to refactor or modify existing applications, as HCX enables a seamless transformation. With HCX, clients can bring their IP subnet ranges into IBM Cloud while ensuring the IP consistency through a hybrid deployment and by providing high-level security with end-to-end Suite B encryptions. Learn more about HCX <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-hcx_considerations" target="_blank">here</a>.
+Before proceeding, click the information icon ![](_attachments/infoIcon.png) for each field in the **Application Virtual Network (AVN)** input section.
 
-The Zerto service integrates replication and disaster recovery capabilities into the deployment offerings to protect and recover data in VMware virtual environments on IBM Cloud. Learn more about Zerto <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-addingzertodr" target="_blank">here</a>.
+![](_attachments/AVNInfo.png)
 
-33. Click the **Business continuity and migration** pull-down menu again.
-34. Click the **Security and compliance** pull-down menu.
+The **Management overlay networks** are subnets that are allocated in the NSX overlay on the management domain. VPC custom routes will be created for these subnets pointing to the Tier 0 gateway of the management domain. Clients must verify they do not conflict with other overlay networks.
 
-The Entrust CloudControl service (formerly known as HyTrust CloudControl) enforces and controls compliance against security standards, which includes role-based access control (RBAC), approval, and auditing. Learn more about Entrust CloudControl <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-entrust-cc_considerations" target="_blank">here</a>.
+![](_attachments/managmentOverlayArchitecture.png)
 
-The F5 BIG-IP service (F5 BIG-IP Virtual Edition) provides intelligent layer 4 thru layer 7 load balancing and traffic management services at a local and global scale, provides robust network and web application firewall protection, and secure and federated application access. Learn more about F5 BIG-IP <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-f5_considerations" target="_blank">here</a>.
+Clients can order Public Floating IPs to be used in the overlay for network address translation (NAT) or for VPN endpoints.
 
-The FortiGate Virtual Appliance service deploys a pair of FortiGate Virtual Appliances to a VCS environment, which can help reduce risk by implementing critical security controls within virtual infrastructure. Learn more about FortiGate Virtual Appliance <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-fortinetvm_considerations" target="_blank">here</a>.
+22. Click the **Optional management domain settings** section.
+23. Click the **Management vCenter VM size** pull-down menu.
 
-Juniper vSRX is a virtual security appliance that provides security and networking services at the perimeter or edge in virtualized private or public cloud environments. Within a VMware infrastructure, vSRX runs as a pair of virtual machines (VMs) within the VMware vSphere environment. Learn more about Juniper vSRX <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-juniper-overview" target="_blank">here</a>.
+The following capacities are available for the vCenter management VM:
 
-35. Click the **Security and compliance** pull-down menu again.
-36. Click the **Transformation and modernization of VMware applications** pull-down menu.
+![](_attachments/vCenterApplicanceSizes.png)
 
-The Red Hat OpenShift for VMware service deploys a Red Hat OpenShift cluster by using an automated deployment of the VMware SDDC (Software Defined Data Center) architecture. The Red Hat OpenShift components are deployed as virtual machines (VMs) or appliances by using VMware NSX software-defined networking. Learn more about Red Hat OpenShift for VMware <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-ocp_overview" target="_blank">here</a>.
+24. Click the **Medium** option.
+25. Click the **Management vCenter storage size** pull-down menu.
 
-37. Click the **Transformation and modernization of VMware applications** pull-down menu again.
-38. Click the **Management tools** pull-down menu.
+The following storage sizes are available for the vCenter management VM:
 
-The vRealize Operations and vRealize Log Insight services deploy the VMware vRealize Operations (vROps) and VMware vRealize Log Insight (vRLI) tools. These tools help clients operate and monitor the performance, health, and capacity of their IBM-hosted, dedicated VMware environment. The service also includes vRLI to help troubleshoot issues by using log files more quickly. Learn more about VMware vRealize Operations and Log Insight <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-vrops_overview" target="_blank">here</a>.
+![](_attachments/vCenterStorageSizes.png)
 
-39. Click the **Management tools** pull-down menu again.
-40. Click the **I understand that the account listed below will be charged for infrastructure** checkbox.
-41. Click the **I have read and agreed to the third-party service agreements listed below** checkbox.
-42. Click **Create**.
+Note: if the VMware Aria Suite is going to be used, clients should select either the **Large** or **Extra Large** appliance size.
 
-Notice the messages being displayed. The status of the provisioning process can be observed.
+26. Click **Default**.
+27. Click the **Management NSX-T size** pull-down menu.
 
-43. Click **Resources** in left hand menu.
-44. Click **vCenter Server** under **Resources** in the left hand menu.
-45. Click the **{{itz.dedicated.instanceName}}** in the table.
 
-Notice the **Creating** status at the top of the screen by the instance name.
+A highly available NSX Global Manager instance is deployed in the VMware Cloud Foundation location instance. Select an NSX Global Manager appliance size according to the number of anticipated objects that are required to run the management components of the private cloud. 
 
-46. Click the **Infrastructure** option in the left hand menu.
+Additional information on the topic is available in the VMware documentation <a href="https://docs.vmware.com/en/VMware-Cloud-Foundation/4.5/vcf-management-domain-design/GUID-3345887C-649D-4269-8DDA-9BD6F12505EE.html" target="_blank">here</a>.
 
-Notice the single, consolidated cluster requested earlier listed in the table and the status is **Initializing**.
+28. Click **Medium**.
+29. Click **Click to Scroll**.
 
-47. Click the **Deployment history** option in the left hand menu.
+Recall earlier, for this instance the **Standard** architecture was selected. Just like for the **management cluster**, specifications for the **workload cluster** need to be defined.
 
-Notice the steps and timestamps as the VCS instances is being provisioned.
-Now, fast forward 11 hours.
+Two bare metal server profiles are supported for VCF at this time.
 
-48. Click anywhere on the screen.
+- bx2d-metal-96x384 
+  - This server uses a "balanced" profile and has 96 vCPUs, 384 GiB RAM, 960 GB and 25.6 TB secondary storage (8x3200GB) with 100 Gbps bandwidth.
 
-Notice 11 hours have elapsed and the VCS instance is now ready to use.
+- mx2d-metal-96x768
+  - This server uses a "Memory" profile and has 96 vCPUs, 768 GiB RAM, 960 GB and 25.6 TB secondary storage (8x3200GB) with 100 Gbps bandwidth.
 
-Proceed to the next module of this demonstration script to learn how to manage a VCS instance.
+30. Click the **mx2d-metal-96x768** profile radio button.
+
+Before continuing, note the option to increase and decrease the number of hosts in the workload cluster. A minimum of 3 hosts is required.
+
+The maximum number of hosts will be controlled by VMware as well as IBM VPC limitations. While the number of hosts per cluster supported by VMware is 32, there is a limit of 25 bare metal servers per VPC per IBM Cloud account. Both need to be taken into consideration when designing the VCF deployment. Note, it is possible to increase the VPC quotas by submitting a support ticker. For more information on VPC limits go <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-quotas" target="_blank">here</a>.
+
+31. Click **Click to Scroll**.
+    
+Note the ability to edit and add **workload overlay networks**. Workload overlay networks are subnets that are allocated in the NSX overlay on the workload domain. IBM Cloud VPC custom routes are created for these subnets pointing to the Tier 0 gateway of the workload domain. 
+
+32. Click the **Number of public floating IPs** field to increase the number to 1.
+
+The number of public floating IP addresses that you want to reserve for the workload domain. After the floating IP addresses are ordered, they are associated with the first Bare Metal Server.
+
+33. Click **Optional workload domain settings** to expand the section.
+
+Similar to the settings for the management cluster, resources need to be specified for the workload cluster's vCenter instance and NSX-T instance. The appliance sizes are the same for both the management and workload clusters.
+
+34. Click **Click to Scroll**.
+    
+Additional DNS records to be created in your IBM Cloud VPC for VMware components or the virtual machine (VM) that you want to deploy on VMware Cloud Foundation instance. For more information, see <a href="https://cloud.ibm.com/docs/dns-svcs?topic=dns-svcs-managing-dns-records&interface=ui" target="_blank">Managing DNS records</a>.
+
+An address prefix that is assigned to the VMware components that are deployed in your selected IBM Cloud VPC zone. This prefix helps organize and manage the IP address space for the VMware components within the IBM Cloud VPC zone. It is recommended to use a /22 prefix for approximately 120 hosts or a /23 prefix for approximately 60 hosts. The value is preset to 10.100.0.0/22.
+
+The NSX-T uplink address prefix for your selected IBM Cloud VPC zone. The value is preset to 192.168.10.0/24.
+
+The identifier used to define the name of the newly created IBM Cloud VPC. The IBM Cloud VPC name has the format <resource name prefix>-<3-character random string>-<vpc name>. The default value is vpc. 
+
+Private routes includes those located on-premises, in other VPCs, and advertised through IBM Cloud Transit Gateway. Automation will create static routes on NSX Tier 0 gateway to these prefixes using private uplink. Public routes define the prefixes routed to the Internet and typically default route (0.0.0.0/0) is used here, but this can be customized if needed. In the consolidated architecture, the routes are created on management Tier 0 gateway. In the standard architecture, the routes are created on management and workload Tier 0 gateways.
+
+![](_attachments/customerPrivateRoutes.png)
+
+34. Click **Click to Scroll**.
+35. Click **Network interface optional settings** to expand the section.
+
+Private routes includes those located on-premises, in other VPCs, and advertised through IBM Cloud Transit Gateway. Automation will create static routes on NSX Tier 0 gateway to these prefixes using private uplink. Public routes define the prefixes routed to the Internet and typically default route (0.0.0.0/0) is used here, but this can be customized if needed. In the consolidated architecture, the routes are created on the management Tier 0 gateway. In the standard architecture, the routes are created on the management and workload Tier 0 gateways.
+
+![](_attachments/customerPublicRoutes.png)
+
+36. Click **Click to Scroll**.
+37. Click the **Jump server** toggle button.
+
+A Windows VM can be created in the IBM Cloud VPC. This Windows Server is configured with a public floating IP address to access the IBM Cloud VPC internal network. For security considerations, the Windows VM is not created by default.
+
+An IBM Cloud Access Group in IBM Cloud Identity and Access Management (IAM) can be created with an access policy for granting access to the resources deployed in the resource group specified earlier. For more information about IBM Cloud Access Group, see <a href="https://cloud.ibm.com/docs/account?topic=account-access-getstarted" target="_blank">Assigning access to resources by using access groups</a>.
+
+38. Click the **Observability** toggle button.
+
+For VMware Cloud Foundation deployment, a new IBM Log Analysis instance with a 7-day pricing plan for viewing the logs of VMware Cloud Foundation deployment can be deployed. Alternatively, an existing instance could also be used by add the instance ingestion key. By default, the IBM Log Analysis service is not ordered. For more information about IBM Log Analysis and its pricing plans, see <a href="https://cloud.ibm.com/docs/log-analysis?topic=log-analysis-getting-started" target="_blank">Getting started with IBM Log Analysis</a> and <a href="https://cloud.ibm.com/docs/log-analysis?topic=log-analysis-service_plans" target="_blank">Service plans</a>.
+
+39. Click the **license agreement** checkbox.
+40. Click **Create**.
+
+That concludes the process for provisioning a new VCF instance on IBM Cloud VPC. At this point the automation will run and all the IBM Cloud VPC resources will be deployed and the VCF software installed. 
+
+Proceed to the next module of this demonstration script to learn how to manage a VCF instance using the IBM Cloud Portal. 
+
