@@ -1,3 +1,8 @@
+REWRITE TO HANDLE ST AND MT PATHS
+
+
+
+
 IBM Cloud for VMware as a Service (VMwaaS) provides the VMware Cloud Director platform as a managed service. IBM does the configuration, hosting, operations, and lifecycle management of the VMware software so clients can quickly deploy their VMware-based cloud computing environments with simplified management and reduced costs.
 
 The architecture diagram illustrates both the separation of IBM Cloud clients (referred to as *Customer* in the diagram) and of the management responsibilities between IBM and clients.

@@ -1,4 +1,4 @@
-The following module guides Business Partners and IBM sellers through the process of provisioning **VMware as a Service (VMwaaS)** with the IBM Cloud portal. Extra context on parameters and options is provided illustrating the value of features to users along with links to extra reference material.
+The following module guides Business Partners and IBM sellers through the process of provisioning **VMware as a Service (VMwaaS) ** *single-tenant* with the IBM Cloud portal. Extra context on parameters and options is provided illustrating the value of features to users along with links to extra reference material.
 
 #
 # Click-Thru demonstration

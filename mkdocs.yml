@@ -22,11 +22,6 @@ nav:
         - 'Overview': 'VMwaaS/VMwaaS-st/Managing/ManagingIntro.md'
         - 'Managing a site using the IBM Cloud Portal': 'VMwaaS/VMwaaS-st/Managing/ManagingSite.md'
         - 'Managing VDCs using the IBM Cloud Portal': 'VMwaaS/VMwaaS-st/Managing/ManagingVDC.md'
-      - 'Using VMwaaS': 
-        - 'Overview': 'VMwaaS/VMwaaS-st/Using/UsingIntro.md'
-        - 'Setting up a VDC network': 'VMwaaS/VMwaaS-st/Using/NetworkSetupInVCD.md'
-        - 'Using VMware Cloud Director': 'VMwaaS/VMwaaS-st/Using/UsingVMwaaS.md'
-      - 'The client demonstration': 'VMwaaS/VMwaaS-st/PuttingItAllTogether.md'
     - 'VMwaaS - multitenant':
       - 'Provisioning': 'VMwaaS/VMwaaS-mt/Provisioning-mt.md'
       - 'Managing': 
@@ -36,7 +31,11 @@ nav:
         - 'Overview': 'VMwaaS/VMwaaS-mt/Using/UsingIntro-mt.md'
         - 'Setting up a VDC network': 'VMwaaS/VMwaaS-mt/Using/NetworkSetupInVCD-mt.md'
         - 'Using VMware Cloud Director': 'VMwaaS/VMwaaS-mt/Using/UsingVMwaaS-mt.md'
-      - 'The client demonstration': 'VMwaaS/VMwaaS-mt/PuttingItAllTogether-mt.md'
+    - 'Using VMwaaS': 
+      - 'Overview': 'VMwaaS/Using/UsingIntro.md'
+      - 'Setting up a VDC network': 'VMwaaS/Using/NetworkSetupInVCD.md'
+      - 'Using VMware Cloud Director': 'VMwaaS/Using/UsingVMwaaS.md'
+    - 'The client demonstration': 'VMwaaS/PuttingItAllTogether.md'
   - 'VMware vCenter Server':
     - 'Introduction': 'VCS/Introduction.md'
     - 'Provisioning': 'VCS/Provisioning.md'
