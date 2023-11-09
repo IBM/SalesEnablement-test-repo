@@ -1300,7 +1300,7 @@
 </ol>
 <p>Before proceeding, recall the earlier tip regarding the information icons <img alt="" src="../_attachments/infoIcon.png">. At this point, the next click action is to click the pull-down menu for the <strong>VMware Cloud Foundation version</strong>. The image below shows illustrates that the information icon for the <strong>Choose plan</strong> section is active as it appears before the next click spot.</p>
 <p><img alt="" src="../_attachments/infoPromptExample.png"></p>
-<p>There are also some important files prior to the next click spot.</p>
+<p>There are also some important tiles and fields prior to the next click spot.</p>
 <p>First notice the, the user has the ability to specify which VMware Edition to deploy by selecting either the <strong>Advaned Edition</strong> or the <strong>Enterprise Edition</strong> tile.</p>
 <p>The user must also select from the available subscription pricing plans: <strong>on-demand</strong>, <strong>1-year</strong>, or <strong>3-year</strong>. Note, for the 1-year and 3-year offerings, the client must contact an IBM seller for pricing and discounts.</p>
 <ol start="11">
@@ -1374,7 +1374,6 @@
 <p>Before proceeding, click the information icon <img alt="" src="../_attachments/infoIcon.png"> for each field in the <strong>Application Virtual Network (AVN)</strong> input section.</p>
 <p><img alt="" src="../_attachments/AVNInfo.png"></p>
 <p>The <strong>Management overlay networks</strong> are subnets that are allocated in the NSX overlay on the management domain. VPC custom routes will be created for these subnets pointing to the Tier 0 gateway of the management domain. Clients must verify they do not conflict with other overlay networks.</p>
-<p><img alt="" src="../_attachments/managmentOverlayArchitecture.png"></p>
 <p>Clients can order Public Floating IPs to be used in the overlay for network address translation (NAT) or for VPN endpoints.</p>
 <ol start="22">
 <li>Click the <strong>Optional management domain settings</strong> section.</li>
@@ -1402,14 +1401,14 @@
 <p>Recall earlier, for this instance the <strong>Standard</strong> architecture was selected. Just like for the <strong>management cluster</strong>, specifications for the <strong>workload cluster</strong> need to be defined.</p>
 <p>Two bare metal server profiles are supported for VCF at this time.</p>
 <ul>
-<li>bx2d-metal-96x384 </li>
 <li>
-<p>This server uses a "balanced" profile and has 96 vCPUs, 384 GiB RAM, 960 GB and 25.6 TB secondary storage (8x3200GB) with 100 Gbps bandwidth.</p>
+<p>**bx2d-metal-96x384 **
+  This server uses a "balanced" profile and has 96 vCPUs, 384 GiB RAM, 960 GB and 25.6 TB secondary storage (8x3200GB) with 100 Gbps bandwidth.</p>
 </li>
 <li>
-<p>mx2d-metal-96x768</p>
+<p><strong>mx2d-metal-96x768</strong>
+  This server uses a "Memory" profile and has 96 vCPUs, 768 GiB RAM, 960 GB and 25.6 TB secondary storage (8x3200GB) with 100 Gbps bandwidth.</p>
 </li>
-<li>This server uses a "Memory" profile and has 96 vCPUs, 768 GiB RAM, 960 GB and 25.6 TB secondary storage (8x3200GB) with 100 Gbps bandwidth.</li>
 </ul>
 <ol start="30">
 <li>Click the <strong>mx2d-metal-96x768</strong> profile radio button.</li>
@@ -1435,14 +1434,13 @@
 <p>An address prefix that is assigned to the VMware components that are deployed in your selected IBM Cloud VPC zone. This prefix helps organize and manage the IP address space for the VMware components within the IBM Cloud VPC zone. It is recommended to use a /22 prefix for approximately 120 hosts or a /23 prefix for approximately 60 hosts. The value is preset to 10.100.0.0/22.</p>
 <p>The NSX-T uplink address prefix for your selected IBM Cloud VPC zone. The value is preset to 192.168.10.0/24.</p>
 <p>The identifier used to define the name of the newly created IBM Cloud VPC. The IBM Cloud VPC name has the format <resource name prefix>-&lt;3-character random string&gt;-<vpc name>. The default value is vpc. </vpc></resource></p>
-<p>Private routes includes those located on-premises, in other VPCs, and advertised through IBM Cloud Transit Gateway. Automation will create static routes on NSX Tier 0 gateway to these prefixes using private uplink. Public routes define the prefixes routed to the Internet and typically default route (0.0.0.0/0) is used here, but this can be customized if needed. In the consolidated architecture, the routes are created on management Tier 0 gateway. In the standard architecture, the routes are created on management and workload Tier 0 gateways.</p>
+<p>Private routes includes those located on-premises, in other VPCs, and advertised through IBM Cloud Transit Gateway. Automation will create static routes on NSX Tier 0 gateway to these prefixes using private uplink. In the consolidated architecture, the routes are created on management Tier 0 gateway. In the standard architecture, the routes are created on management and workload Tier 0 gateways.</p>
 <p><img alt="" src="../_attachments/customerPrivateRoutes.png"></p>
 <ol start="34">
 <li>Click <strong>Click to Scroll</strong>.</li>
 <li>Click <strong>Network interface optional settings</strong> to expand the section.</li>
 </ol>
-<p>Private routes includes those located on-premises, in other VPCs, and advertised through IBM Cloud Transit Gateway. Automation will create static routes on NSX Tier 0 gateway to these prefixes using private uplink. Public routes define the prefixes routed to the Internet and typically default route (0.0.0.0/0) is used here, but this can be customized if needed. In the consolidated architecture, the routes are created on the management Tier 0 gateway. In the standard architecture, the routes are created on the management and workload Tier 0 gateways.</p>
-<p><img alt="" src="../_attachments/customerPublicRoutes.png"></p>
+<p>Public routes define the prefixes routed to the Internet and typically default route (0.0.0.0/0) is used here, but this can be customized if needed. In the consolidated architecture, the routes are created on the management Tier 0 gateway. In the standard architecture, the routes are created on the management and workload Tier 0 gateways.</p>
 <ol start="36">
 <li>Click <strong>Click to Scroll</strong>.</li>
 <li>Click the <strong>Jump server</strong> toggle button.</li>
