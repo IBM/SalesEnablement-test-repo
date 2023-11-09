@@ -43,7 +43,7 @@ Before proceeding, recall the earlier tip regarding the information icons ![](_a
 
 ![](_attachments/infoPromptExample.png)
 
-There are also some important files prior to the next click spot.
+There are also some important tiles and fields prior to the next click spot.
 
 First notice the, the user has the ability to specify which VMware Edition to deploy by selecting either the **Advaned Edition** or the **Enterprise Edition** tile.
 
@@ -121,8 +121,6 @@ Before proceeding, click the information icon ![](_attachments/infoIcon.png) for
 
 The **Management overlay networks** are subnets that are allocated in the NSX overlay on the management domain. VPC custom routes will be created for these subnets pointing to the Tier 0 gateway of the management domain. Clients must verify they do not conflict with other overlay networks.
 
-![](_attachments/managmentOverlayArchitecture.png)
-
 Clients can order Public Floating IPs to be used in the overlay for network address translation (NAT) or for VPN endpoints.
 
 22. Click the **Optional management domain settings** section.
@@ -156,13 +154,13 @@ Recall earlier, for this instance the **Standard** architecture was selected. Ju
 
 Two bare metal server profiles are supported for VCF at this time.
 
-- bx2d-metal-96x384 
-  - This server uses a "balanced" profile and has 96 vCPUs, 384 GiB RAM, 960 GB and 25.6 TB secondary storage (8x3200GB) with 100 Gbps bandwidth.
+- **bx2d-metal-96x384 **
+  This server uses a "balanced" profile and has 96 vCPUs, 384 GiB RAM, 960 GB and 25.6 TB secondary storage (8x3200GB) with 100 Gbps bandwidth.
 
-- mx2d-metal-96x768
-  - This server uses a "Memory" profile and has 96 vCPUs, 768 GiB RAM, 960 GB and 25.6 TB secondary storage (8x3200GB) with 100 Gbps bandwidth.
+- **mx2d-metal-96x768**
+  This server uses a "Memory" profile and has 96 vCPUs, 768 GiB RAM, 960 GB and 25.6 TB secondary storage (8x3200GB) with 100 Gbps bandwidth.
 
-30. Click the **mx2d-metal-96x768** profile radio button.
+30.  Click the **mx2d-metal-96x768** profile radio button.
 
 Before continuing, note the option to increase and decrease the number of hosts in the workload cluster. A minimum of 3 hosts is required.
 
@@ -190,16 +188,14 @@ The NSX-T uplink address prefix for your selected IBM Cloud VPC zone. The value 
 
 The identifier used to define the name of the newly created IBM Cloud VPC. The IBM Cloud VPC name has the format <resource name prefix>-<3-character random string>-<vpc name>. The default value is vpc. 
 
-Private routes includes those located on-premises, in other VPCs, and advertised through IBM Cloud Transit Gateway. Automation will create static routes on NSX Tier 0 gateway to these prefixes using private uplink. Public routes define the prefixes routed to the Internet and typically default route (0.0.0.0/0) is used here, but this can be customized if needed. In the consolidated architecture, the routes are created on management Tier 0 gateway. In the standard architecture, the routes are created on management and workload Tier 0 gateways.
+Private routes includes those located on-premises, in other VPCs, and advertised through IBM Cloud Transit Gateway. Automation will create static routes on NSX Tier 0 gateway to these prefixes using private uplink. In the consolidated architecture, the routes are created on management Tier 0 gateway. In the standard architecture, the routes are created on management and workload Tier 0 gateways.
 
 ![](_attachments/customerPrivateRoutes.png)
 
 34. Click **Click to Scroll**.
 35. Click **Network interface optional settings** to expand the section.
 
-Private routes includes those located on-premises, in other VPCs, and advertised through IBM Cloud Transit Gateway. Automation will create static routes on NSX Tier 0 gateway to these prefixes using private uplink. Public routes define the prefixes routed to the Internet and typically default route (0.0.0.0/0) is used here, but this can be customized if needed. In the consolidated architecture, the routes are created on the management Tier 0 gateway. In the standard architecture, the routes are created on the management and workload Tier 0 gateways.
-
-![](_attachments/customerPublicRoutes.png)
+Public routes define the prefixes routed to the Internet and typically default route (0.0.0.0/0) is used here, but this can be customized if needed. In the consolidated architecture, the routes are created on the management Tier 0 gateway. In the standard architecture, the routes are created on the management and workload Tier 0 gateways.
 
 36. Click **Click to Scroll**.
 37. Click the **Jump server** toggle button.
