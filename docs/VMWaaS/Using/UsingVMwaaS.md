@@ -78,7 +78,7 @@ Note, if the browser window is narrow, you might see an **account selection** ic
 
 On the VMwaaS page, observe the resources that are pre-provisioned in the shared ITZ account. These are the resources that were provisioned when the click-thru demos were created and should look familiar. Feel free to explore the resources that use the IBM Cloud portal. Remember, you will not have permission to add, modify, or remove these resources.
 
-9. Click either of the **Go to VMware console** links.
+9. Click one of the **VMware console** links.
 
 ![](_attachments/portalVMwaaSVDCs.png)
 
@@ -128,13 +128,11 @@ It is recommended to select one of the Linux based images (for example CentOS, R
 
 Recall from the click-thru demos, two storage pools were created: 0.25 input/output operations per second per gigabyte (IOPS/GB) and 2 IOPS/GB.
 
-17. Select the **{{itz.VMwaaS.network}}** if using a **single-tenant** instance or **{{itz.VMwaaS.networkMT}}** in the network interface card (NICs) table.
+17. In the network interface card (NICs) table, verify **{{itz.VMwaaS.network}}** (**single-tenant**) or **{{itz.VMwaaS.networkMT}}** (**multitenant**) is selected..
 
 ![](_attachments/vCD-newVMselectNetwork.png)
 
-Only one network is defined.
-
-18. Click **OK**.
+18.  Click **OK**.
 
 ![](_attachments/vCD-newVMOK.png)
 
