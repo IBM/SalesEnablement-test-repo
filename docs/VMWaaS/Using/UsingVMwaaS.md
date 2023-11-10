@@ -128,7 +128,7 @@ It is recommended to select one of the Linux based images (for example CentOS, R
 
 Recall from the click-thru demos, two storage pools were created: 0.25 input/output operations per second per gigabyte (IOPS/GB) and 2 IOPS/GB.
 
-17. Select the **{{itz.VMwaaS.network}}** if using a **single-tenant** instance or **{{itz.VMwaaS.network-mt}}** in the network interface card (NICs) table.
+17. Select the **{{itz.VMwaaS.network}}** if using a **single-tenant** instance or **{{itz.VMwaaS.networkMT}}** in the network interface card (NICs) table.
 
 ![](_attachments/vCD-newVMselectNetwork.png)
 
