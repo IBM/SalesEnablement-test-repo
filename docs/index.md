@@ -1,12 +1,16 @@
 !!! Note Update
 
     This Level 3 was originally written in late 2022. Since, the IBM Cloud for VMware Solutions portfolio has added several new offerings including:
+
     - **VMware as a Service (VMwaaS) - Single-tenant**
+    
     - **VMware as a Service (VMwaaS) - Multitenant**
+   
     - **Cyber Recovery**
+    
     - **VMware Cloud Foundation (VCF)**
   
-    The plan is to phase out the **VMware Shared** offering in 2024/2025. Given that direction, this Level 3 has been updated to include a **VMwaaS** and a **VCF** module. The **VMware Shared** module is now optional. The Stand and Deliver requirements for IBM employees and the business partner quiz have been updated to reflect these changes. 
+    The plan is to phase out the **VMware Shared** offering in 2024/2025. Given that direction, this Level 3 has been updated to include  **VMwaaS** and **VCF** modules. The **VMware Shared** module is now optional.Not all of the videos have been updated and some will reference **VMware Shared** and **VMware Dedicated**. The Stand and Deliver requirements for IBM employees and the business partner quiz have been updated to reflect these changes. 
     
     Note, images and videos in this demonstration guide may not reflect the latest changes in the portal.
 
@@ -14,7 +18,7 @@
 
 Welcome to the **IBM Cloud for VMware Solutions - Level 3** course and demonstration guide! The goal is to provide Sellers and Technical Sellers, including both IBMers and Business Partners, with the knowledge and tools to perform click-thru demonstrations of the **VMware as a Service (VMwaaS)**, **VMware vCenter Server**, **VMware Cloud Foundation (VCF)**, and optionally, **VMware Shared** offerings.
 
- This course is not intended to serve as a deep dive into VMware-specific topics; rather the focus is on the ```IBM Cloud``` aspects of the offerings. Numerous links and pointers to additional content around VMware-specific features are included in each of the modules of this course.
+ This course is not intended to serve as a deep dive into VMware-specific topics; rather the focus is on the *IBM Cloud* aspects of the offerings. Numerous links and pointers to additional content around VMware-specific features are included in each of the modules of this course.
 
 Most modules are accompanied by recordings and narrated instructions, delivered by your team of authors. Be sure to watch these for a visual demonstration of how to perform the hands-on lab components. In particular, it is strongly recommended that IBM Sellers and Technical Sellers watch these recordings — they will be useful for you as you go about creating and recording your own Stand & Deliver presentations for Level 3 accreditation.
 
@@ -25,7 +29,7 @@ Most modules are accompanied by recordings and narrated instructions, delivered 
 
 **IBM Sales and Tech Sales** must develop and record a Stand & Deliver presentation. This video is intended to simulate your delivery of a “live” demo in front of a client — on camera. IBMers will have flexibility in defining a hypothetical client, the pain points that customer has, and the goals they aspire to achieve. The recording will then cover the seller’s hands-on demonstration and pitch to the client of the value of the IBM solution using the environments and techniques of this lab.
 
-Specific criteria that must be demonstrated as part of the Stand & Deliver recordings is provided within the documentation that accompanies the Level 3 course. Before jumping into the next module, please read the guidance below. Your comprehension of the information outlined below will save you time while completing the lab work.
+Specific criteria that must be demonstrated as part of the Stand & Deliver recordings is provided within the documentation that accompanies the Level 3 course in Your Learning. Before jumping into the next module, please read the guidance below. Your comprehension of the information outlined below will save you time while completing the lab work.
 
 !!! tip "FIND HELP"
     If at any point during the hands-on material you need help from the team of authors and other IBM experts, please connect with us via the <a href="https://ibm.enterprise.slack.com/archives/C03PQ47KRQE" target="_blank">#cloud-platform-demo-feedback</a> Slack channel. Any comments or suggestions are also welcome in this channel.
@@ -34,7 +38,7 @@ Specific criteria that must be demonstrated as part of the Stand & Deliver recor
 # Navigating the Lab Guide
 -----------------------------
 
-The Level 3 demonstration guide is organized into three chapters, covering the ```VMware as a Service```, ```VMware vCenter Server```, ```VMware Cloud Foundation```, and ```VMware Shared``` offerings of the **IBM Cloud for VMware Solutions** portfolio. These chapters contain modules that provide an *Introduction* to offering, steps to *Provision* a deployment, and explore how clients *Manage* their instance through the IBM Cloud portal and the respective VMware tools.
+The Level 3 demonstration guide is organized into three chapters, covering the ```VMware as a Service```, ```VMware vCenter Server```, ```VMware Cloud Foundation```, and ```VMware Shared``` offerings of the **IBM Cloud for VMware Solutions** portfolio. These chapters contain modules that provide an *Introduction* to the offering, steps to *Provision* a deployment, and explore how clients *Manage* their instance through the IBM Cloud portal and the respective VMware tools.
 
 !!! warning "WARNING"
     The agile nature of cloud means that the interface and layout of the IBM Cloud Portal, as well as the IBM Cloud for VMware Solutions offering, will change on a regular basis. Screenshots and videos captured within this documentation may not always reflect the latest versions available from IBM Cloud — although the IBM Technology Sales Enablement team strives to update these assets on a regular basis.

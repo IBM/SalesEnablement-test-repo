@@ -16,7 +16,7 @@ Managing the VDC is done with the VMware vCloud Director web console which is ac
 - managing storage policies and named disks
 - and other virtual data center capabilities exposed through the vCloud Director web console
 
-Both of these domains will be explored in this demonstration guide. When demonstrating to clients sellers are encouraged to focus on the "on the IBM Cloud" aspects of the solution.
+Both of these domains will be explored in this demonstration guide. When demonstrating to clients, sellers are encouraged to focus on the "on the IBM Cloud" aspects of the solution.
 
 !!! Important "Read before continuing!"
 
