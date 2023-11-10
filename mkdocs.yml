@@ -113,6 +113,7 @@ extra:
       vdc2: "se-l3-test"
       dcgroup: "se-l3-dc-group"
       network: "se-l3-network"
+      network-mt: "se-l3-mt-network"
     VMwaaSmt:
       sitename: "IBM VMwaaS Multitenant - WDC"
       vdc: "mt-vdc"

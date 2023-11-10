@@ -88,9 +88,15 @@ On the VMwaaS page, observe the resources that are pre-provisioned in the shared
 
 Once signed in to the VMware Cloud Director (vCD) web console, feel free to explore all the capabilities provided. Again, your user ID has the ability to create, modify, and delete virtual machines (VMs), but you will not be able to add, modify, or remove networks or other network components.
 
-11. Click either of the virtual data center (VDC) tiles.
+11. Click one of the virtual data center (VDC) tiles.
+
+If using one of the **single-tenant** instance, you will need to choose from one of the two available data centers.
 
 ![](_attachments/vCD-vdcs.png)
+
+If using the **multitenant** instance, you will only see one data center.
+
+![](_attachments/vCD-vdcs-MT.png)
 
 !!! Warning "The images below might differ from what you see in vCD"
 
@@ -122,7 +128,7 @@ It is recommended to select one of the Linux based images (for example CentOS, R
 
 Recall from the click-thru demos, two storage pools were created: 0.25 input/output operations per second per gigabyte (IOPS/GB) and 2 IOPS/GB.
 
-17. Select the **{{itz.VMwaaS.network}}** in the network interface card (NICs) table.
+17. Select the **{{itz.VMwaaS.network}}** if using a **single-tenant** instance or **{{itz.VMwaas.network-mt}}** in the network interface card (NICs) table.
 
 ![](_attachments/vCD-newVMselectNetwork.png)
 
@@ -177,12 +183,12 @@ The web console opens in a new browser window.
 
 When the **login** prompt appears, use the root ID, and the password you specified earlier. Note, you are required to change the password the first time you log in. You now have full access to the VM. If you are new to Linux, try a few commands like:
 
-```ls -l```
-
-```ps -ef```
+```
+ls -l
+```
 
 ```
-copy and paste this
+ps -ef
 ```
 
 The next steps walk you through deleting the VM that was created. Note, you do not have to do this right now, but remove all VMs you create before your ITZ reservation expires.
