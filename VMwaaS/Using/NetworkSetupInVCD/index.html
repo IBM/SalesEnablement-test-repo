@@ -1189,19 +1189,19 @@
 <li>Click <strong>Finish</strong>.</li>
 </ol>
 <p>Now that the <strong>Data Center Group</strong> is created, the scope of the existing edge gateway needs to be expanded from just the original VDC se-l3-development to include both VDCs.</p>
-<ol start="12">
+<ol start="13">
 <li>Click the <strong>Edge Gateways</strong> tab.</li>
 <li>Click the <strong>se-l3-development</strong> edge gateway in the table.</li>
 </ol>
 <p>Notice in the <strong>Scope</strong> table, the <strong>Organization Virtual Data Center</strong> value is set to just the <strong>se-l3-development</strong> VDC.</p>
-<ol start="14">
+<ol start="15">
 <li>Click <strong>INCREASE SCOPE</strong>.</li>
 <li>Click the radio button for the <strong>se-l3-dc-group</strong> entry.</li>
 <li>Click <strong>OK</strong>.</li>
 </ol>
 <p>Now, notice that the <strong>Scope</strong> changed from the single VDC to the new <strong>se-l3-dc-group</strong> Data Center Group.</p>
 <p>Next, a network needs to be created so virtual machines can have network connectivity.</p>
-<ol start="17">
+<ol start="18">
 <li>Click the <strong>Networks</strong> tab.</li>
 <li>Click <strong>New</strong>.</li>
 <li>Click the <strong>Data Center Group</strong> radio button.</li>
@@ -1210,24 +1210,24 @@
 <li>Click <strong>NEXT</strong>.</li>
 </ol>
 <p>A <strong>Routed</strong> network is chosen to allow the virtual machines to communicate with each other within the VDCs, and potentially outside to other resources like the Internet or other IBM Cloud services.</p>
-<ol start="23">
+<ol start="24">
 <li>Click in the <strong>Name</strong> field.</li>
 <li>Click in the <strong>Gateway CIDR</strong> field.</li>
 </ol>
 <p>For this demonstration environment, the nonroutable 192.168.1.1/24 private network is specified. Later, explore how network address translation (NAT) can be configured to allow Internet access that uses the public IP addresses associated with the VDCs.</p>
-<ol start="25">
+<ol start="26">
 <li>Click <strong>NEXT</strong>.</li>
 <li>Click <strong>NEXT</strong>.</li>
 <li>Click in the <strong>Primary DNS</strong> field.</li>
 </ol>
 <p>Google's Public DNS (8.8.8.8) was initially specified when this click-thru demonstration was created. In the current ITZ environment, IBM Cloud public DNS addresses (161.26.0.10 and 161.26.0.11) are specified.</p>
-<ol start="28">
+<ol start="29">
 <li>Click <strong>NEXT</strong>.</li>
 <li>Click <strong>NEXT</strong>.</li>
 <li>Click <strong>FINISH</strong>.</li>
 </ol>
 <p>Now that the network is configured, the next step is to activate DHCP so VMs are automatically assigned network addresses when they are provisioned.</p>
-<ol start="31">
+<ol start="32">
 <li>Click the <strong>se-l3-network</strong> entry.</li>
 <li>Click <strong>DHCP</strong>.</li>
 <li>Click <strong>ACTIVATE</strong>.</li>
@@ -1236,12 +1236,12 @@
 <li>Click in the <strong>Pools</strong> field.</li>
 </ol>
 <p>For this demonstration environment, the entire range of addresses are added to the DHCP pool.</p>
-<ol start="37">
+<ol start="38">
 <li>Click <strong>NEXT</strong>.</li>
 <li>Click in the <strong>DNS Server 1</strong> field.</li>
 </ol>
 <p>Google's Public DNS (8.8.8.8) was initially specified when this click-thru demonstration was created. In the current ITZ environment, IBM Cloud public DNS addresses (161.26.0.10 and 161.26.0.11) are specified.</p>
-<ol start="39">
+<ol start="40">
 <li>Click <strong>NEXT</strong>.</li>
 <li>Click <strong>FINISH</strong>.</li>
 </ol>
