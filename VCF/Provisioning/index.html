@@ -1312,22 +1312,22 @@
 <p>The identifier used to define the name of the newly created IBM Cloud VPC. The IBM Cloud VPC name has the format <resource name prefix>-&lt;3-character random string&gt;-<vpc name>. The default value is vpc. </vpc></resource></p>
 <p>Private routes includes those located on-premises, in other VPCs, and advertised through IBM Cloud Transit Gateway. Automation will create static routes on NSX Tier 0 gateway to these prefixes using private uplink. In the consolidated architecture, the routes are created on management Tier 0 gateway. In the standard architecture, the routes are created on management and workload Tier 0 gateways.</p>
 <p><img alt="" src="../_attachments/customerPrivateRoutes.png"></p>
-<ol start="34">
+<ol start="35">
 <li>Click <strong>Click to Scroll</strong>.</li>
 <li>Click <strong>Network interface optional settings</strong> to expand the section.</li>
 </ol>
 <p>Public routes define the prefixes routed to the Internet and typically default route (0.0.0.0/0) is used here, but this can be customized if needed. In the consolidated architecture, the routes are created on the management Tier 0 gateway. In the standard architecture, the routes are created on the management and workload Tier 0 gateways.</p>
-<ol start="36">
+<ol start="37">
 <li>Click <strong>Click to Scroll</strong>.</li>
 <li>Click the <strong>Jump server</strong> toggle button.</li>
 </ol>
 <p>A Windows VM can be created in the IBM Cloud VPC. This Windows Server is configured with a public floating IP address to access the IBM Cloud VPC internal network. For security considerations, the Windows VM is not created by default.</p>
 <p>An IBM Cloud Access Group in IBM Cloud Identity and Access Management (IAM) can be created with an access policy for granting access to the resources deployed in the resource group specified earlier. For more information about IBM Cloud Access Group, see <a href="https://cloud.ibm.com/docs/account?topic=account-access-getstarted" target="_blank">Assigning access to resources by using access groups</a>.</p>
-<ol start="38">
+<ol start="39">
 <li>Click the <strong>Observability</strong> toggle button.</li>
 </ol>
 <p>For VMware Cloud Foundation deployment, a new IBM Log Analysis instance with a 7-day pricing plan for viewing the logs of VMware Cloud Foundation deployment can be deployed. Alternatively, an existing instance could also be used by add the instance ingestion key. By default, the IBM Log Analysis service is not ordered. For more information about IBM Log Analysis and its pricing plans, see <a href="https://cloud.ibm.com/docs/log-analysis?topic=log-analysis-getting-started" target="_blank">Getting started with IBM Log Analysis</a> and <a href="https://cloud.ibm.com/docs/log-analysis?topic=log-analysis-service_plans" target="_blank">Service plans</a>.</p>
-<ol start="39">
+<ol start="40">
 <li>Click the <strong>license agreement</strong> checkbox.</li>
 <li>Click <strong>Create</strong>.</li>
 </ol>
