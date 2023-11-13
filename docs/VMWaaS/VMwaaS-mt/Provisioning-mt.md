@@ -84,6 +84,9 @@ Clients can select a specific datacenter with in the selected location geography
 17. Click the table of listing the different edge types.
 18. Click the **information** icon ![](_attachments/infoIcon.png) above the **Enable consumption limits** toggle button.
 
+??? question "BP quiz question"
+    Take note of resources that can be used to limit consumption.
+
 vCPU and RAM charges for on-demand VDCs are based on the amount that is used for running workloads. To control costs, clients can use limits to restrict the maximum amount of vCPU and RAM usage in the VDC.
 
 19. Click the **vCPU limit (cores)** entry box.

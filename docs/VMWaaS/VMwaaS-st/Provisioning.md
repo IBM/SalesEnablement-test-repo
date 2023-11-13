@@ -52,6 +52,9 @@ The following module guides Business Partners and IBM sellers through the proces
 
 11. Click the **vSAN + optional NFS storage** radio button.
 
+    ??? question "BP quiz question"
+    Take note of the available storage capacity options.
+
     VMwaaS supports both network file storage (NFS) and VMware vSAN (virtual Storage Area Network) storage. You can select NFS only storage or vSAN storage with optional NFS storage. 
         
     vSAN with optional NFS storage is only available in IBM Cloud data centers with networks of 25 gigabits (GbE) bandwidth. vSAN clusters use bare metal host profiles with local flash storage. vSAN clusters can also use NFS storage.
