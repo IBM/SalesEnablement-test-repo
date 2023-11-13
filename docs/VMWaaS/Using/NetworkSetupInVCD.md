@@ -49,60 +49,60 @@ Single-sign on (SSO) is enabled between IBM Cloud Identity and Access Management
 
 Now that the **Data Center Group** is created, the scope of the existing edge gateway needs to be expanded from just the original VDC {{itz.VMwaaS.vdc1}} to include both VDCs.
 
-12. Click the **Edge Gateways** tab.
-13. Click the **{{itz.VMwaaS.vdc1}}** edge gateway in the table.
+13. Click the **Edge Gateways** tab.
+14. Click the **{{itz.VMwaaS.vdc1}}** edge gateway in the table.
 
 Notice in the **Scope** table, the **Organization Virtual Data Center** value is set to just the **{{itz.VMwaaS.vdc1}}** VDC.
 
-14. Click **INCREASE SCOPE**.
-15. Click the radio button for the **{{itz.VMwaaS.dcgroup}}** entry.
-16. Click **OK**.
+15. Click **INCREASE SCOPE**.
+16. Click the radio button for the **{{itz.VMwaaS.dcgroup}}** entry.
+17. Click **OK**.
 
 Now, notice that the **Scope** changed from the single VDC to the new **{{itz.VMwaaS.dcgroup}}** Data Center Group.
 
 Next, a network needs to be created so virtual machines can have network connectivity.
 
-17. Click the **Networks** tab.
-18. Click **New**.
-19. Click the **Data Center Group** radio button.
-20. Click the **{{itz.VMwaaS.dcgroup}}** radio button.
-21. Click **NEXT**.
+18. Click the **Networks** tab.
+19. Click **New**.
+20. Click the **Data Center Group** radio button.
+21. Click the **{{itz.VMwaaS.dcgroup}}** radio button.
 22. Click **NEXT**.
+23. Click **NEXT**.
 
 A **Routed** network is chosen to allow the virtual machines to communicate with each other within the VDCs, and potentially outside to other resources like the Internet or other IBM Cloud services.
 
-23. Click in the **Name** field.
-24. Click in the **Gateway CIDR** field.
+24. Click in the **Name** field.
+25. Click in the **Gateway CIDR** field.
 
 For this demonstration environment, the nonroutable 192.168.1.1/24 private network is specified. Later, explore how network address translation (NAT) can be configured to allow Internet access that uses the public IP addresses associated with the VDCs.
 
-25. Click **NEXT**.
 26. Click **NEXT**.
-27. Click in the **Primary DNS** field.
+27. Click **NEXT**.
+28. Click in the **Primary DNS** field.
 
 Google's Public DNS (8.8.8.8) was initially specified when this click-thru demonstration was created. In the current ITZ environment, IBM Cloud public DNS addresses (161.26.0.10 and 161.26.0.11) are specified.
 
-28. Click **NEXT**.
 29. Click **NEXT**.
-30. Click **FINISH**.
+30. Click **NEXT**.
+31. Click **FINISH**.
 
 Now that the network is configured, the next step is to activate DHCP so VMs are automatically assigned network addresses when they are provisioned.
 
-31. Click the **{{itz.VMwaaS.network}}** entry.
-32. Click **DHCP**.
-33. Click **ACTIVATE**.
-34. Click **NEXT**
-35. Click **ADD**
-36. Click in the **Pools** field.
+32. Click the **{{itz.VMwaaS.network}}** entry.
+33. Click **DHCP**.
+34. Click **ACTIVATE**.
+35. Click **NEXT**
+36. Click **ADD**
+37. Click in the **Pools** field.
 
 For this demonstration environment, the entire range of addresses are added to the DHCP pool.
 
-37. Click **NEXT**.
-38. Click in the **DNS Server 1** field.
+38. Click **NEXT**.
+39. Click in the **DNS Server 1** field.
 
 Google's Public DNS (8.8.8.8) was initially specified when this click-thru demonstration was created. In the current ITZ environment, IBM Cloud public DNS addresses (161.26.0.10 and 161.26.0.11) are specified.
 
-39. Click **NEXT**.
-40. Click **FINISH**.
+40. Click **NEXT**.
+41. Click **FINISH**.
 
 Basic network setup is now complete. No more click-thru demonstrations! In the next chapter, using your ITZ reservation, you will access the VMwaaS environment that was created and use vCD to provision and access virtual machines.
