@@ -9,7 +9,7 @@ Using the IBM Cloud portal to manage aspects of the **site** and **VDC** is stra
 - adding and removing additional services
 - adding and removing VDCs
 
-Managing the VDC is done with the VMware vCloud Director web console which is accessible through the IBM Cloud portal. These tasks will be covered in the [**Using VMwaaS** chapter](../Using/UsingIntro.md). This aspect of management includes common VMware administrative tasks like:
+Managing the VDC is done with the VMware vCloud Director web console which is accessible through the IBM Cloud portal. These tasks will be covered in the [**Using VMwaaS** chapter](../../Using/UsingIntro.md). This aspect of management includes common VMware administrative tasks like:
 
 - adding and deleting networks, firewalls, VPNs, and network address translation (NAT) rules
 - adding and deleting virtual machines (VMs), virtual applications (vApps), and affinity rules
