@@ -67,8 +67,7 @@ theme:
         name: Switch to light mode
 
 plugins:
-    - mkdocs-video:
-      video_autoplay: False
+    - mkdocs-video
     - macros
     - search
 
