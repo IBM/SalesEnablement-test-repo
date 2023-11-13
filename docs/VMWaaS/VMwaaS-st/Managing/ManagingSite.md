@@ -31,6 +31,9 @@ In this click-thru demonstration, explore the management activities for a VMware
 Notice that the Delete instance option is not enabled. A site cannot be deleted unless all associated virtual data centers (VDCs) are removed.
 
 6. Click the **Refresh** option.
+
+Refreshing the page will query the backend services and refresh all the data on the page. In this case, no changes have occurred, so you will not see any changes.
+
 7. Click the **Infrastructure** tab.
    
 The details of the cluster created when the the site was provisioned is shown here. 

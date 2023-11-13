@@ -26,8 +26,8 @@ The following module guides Business Partners and IBM sellers through the proces
 
      **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMwaaS-provision-site/index.html" target ="_blank">Provision an instance of VMwaaS</a>
 
-2. Click the VMware (![](_attachments/VMicon.png)) icon in navigation menu.
-3. Click the **VMware as a Service** tile.
+2. Click the VMware (![](_attachments/VMicon.png)) icon in left-hand side navigation menu.
+3. Click the **VMware as a Service** tile (middle of the sceen).
 
     A VMwaaS single-tenant **site** is a deployment of VMware vCloud Director on dedicated infrastructure. A **virtual data center (VDC)** is a logical data center that uses the infrastructure resources of a **site**. A **site** must be created before a VDC can be provisioned. A **Provider Virtual Data Center (PVDC)** is a grouping of compute and storage resources from a single VMware vCenter Server. A provider virtual data center consists of one or more resource pools (clusters) and one or more datastores.
 
@@ -111,7 +111,7 @@ When the provisioning process of the **site** is complete, the status turns from
 
 9. Click the **Performance - M** radio button in the **Edge types** table.
 
-    VDCs connect to the public and IBM private networks through edges. Edges can also be used to connect multiple VDC networks together. Currently, four choices of **edge** types are supported, note the networking elements that can be enabled with each: 
+    VDCs connect to the public and IBM private networks through edges. Edges can also be used to connect multiple VDC networks together. Currently, four choices of **edge** types are supported. Be sure to note the networking elements that can be enabled with each: 
 
     - **Efficiency** These edges allocate networking resources that can be used by up to 100 VDCs before another efficiency edge needs to be created. Processors and memory are used from the single tenant site. New edge storage is allocated at an extra cost. Subsequent VDCs, up to 100, can use this edge at no extra cost. This option is suitable for saving resources and costs with independent networking control per VDC.
 

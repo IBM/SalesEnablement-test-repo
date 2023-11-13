@@ -177,7 +177,7 @@ The web console opens in a new browser window.
 
 !!! Warning "Web console might not work with all browsers"
 
-    Issues were encountered opening the web console using the Safari browser on Mac OS. No issues were encountered when using Firefox on Mac OS. If you encounters, please try another browser.
+    Issues were encountered opening the web console using the Safari browser on Mac OS. No issues were encountered when using Firefox on Mac OS. If you encounter issues, please try another browser.
 
 When the **login** prompt appears, use the root ID, and the password you specified earlier. Note, you are required to change the password the first time you log in. You now have full access to the VM. If you are new to Linux, try a few commands like:
 

@@ -9,7 +9,7 @@ Using the IBM Cloud portal to manage aspects of the **site** and **VDC** is stra
 - adding and removing additional services
 - adding and removing VDCs
 
-Managing the VDC is done with the VMware vCloud Director web console which is accessible through the IBM Cloud portal. These tasks will be covered in the **Using VMwaaS** chapter. This aspect of management includes common VMware administrative tasks like:
+Managing the VDC is done with the VMware vCloud Director web console which is accessible through the IBM Cloud portal. These tasks will be covered in the [**Using VMwaaS** chapter](../Using/UsingIntro.md). This aspect of management includes common VMware administrative tasks like:
 
 - adding and deleting networks, firewalls, VPNs, and network address translation (NAT) rules
 - adding and deleting virtual machines (VMs), virtual applications (vApps), and affinity rules
@@ -20,5 +20,5 @@ Both of these domains will be explored in this demonstration guide. When demonst
 
 !!! Important "Read before continuing!"
 
-    As mentioned earlier, your user ID in the IBM Technology Zone (ITZ) environment will not have sufficient permission to perform many of the activities described. Click-thru demonstrations are provided to walk through tasks that provision additional resources. When performing client demonstrations, sellers can utilize these click-thru demonstrations or a _baking show_ approach of demonstrating these tasks can be used. This is done by following the same steps described in the click-thru demo using the ITZ environment to walk through the provisioning steps in the IBM Cloud Portal up to the point of clicking **Create**. Instead of clicking **Create**, explain what would happen and then switch to the already created instance of the resource. The video found in **The client demonstration** chapter illustrates this approach.
+    As mentioned earlier, your user ID in the IBM Technology Zone (ITZ) environment will not have sufficient permission to perform many of the activities described. Click-thru demonstrations are provided to walk through tasks that provision additional resources. When performing client demonstrations, sellers can utilize these click-thru demonstrations or a _baking show_ approach of demonstrating these tasks can be used. This is done by following the same steps described in the click-thru demo using the ITZ environment to walk through the provisioning steps in the IBM Cloud Portal up to the point of clicking **Create**. Instead of clicking **Create**, explain what would happen and then switch to the already created instance of the resource. The video found in **The Client Demonstration** chapter illustrates this approach.
 

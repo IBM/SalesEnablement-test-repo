@@ -32,16 +32,19 @@ Notice the list of **Public IPs** associated with the VDC. These addresses can b
 The ability to delete a VDC is available both in this drop-down menu and in the VDC table from the previous screen. Recall the information about deleting clusters from the previous chapter. Deleting VDCs can only be done if all workloads are stopped in that VDC.
 
 4. Click **Refresh**.
-5. Click the **VMWare as a Service** link in the bread crumb list.
+5. Click the **VMWare as a Service** link in the breadcrumb trail.
+
+![](_attachments/breadCrumb.png)
+
 6. Click **Create new +**.
 7. Click in the **Name** field.
 8. Click the **Resource Group** drop-down menu.
-9. Click **Enablement-L3**.
+9.  Click **Enablement-L3**.
 10. Click the **Fast provisioning of VMs using linked clones** toggle button.
 
 Read the information message about the network edge. The original VDC created in this PVDC only had 2 hosts and a **Performance - M** network edge was created. Sufficient compute and memory resources are not available to add an efficiency edge. Thus the **Create without network edge** is automatically enabled for this VDC. In a later chapter, learn how to create a VDC group using the VMware vCloud Director web console, which allows this VDC to use the existing **Performance - M** network edge.
 
-11. Click the **I have red and agreed to the following license agreements** checkbox.
+11. Click the **I have read and agreed to the following license agreements** checkbox.
 12. Click **Create**.
 
 The new VDC is now provisioning. Remember, VDCs use the existing infrastructure clusters of the PVDC so provisioning times are relatively quick, in this case about 30 minutes.

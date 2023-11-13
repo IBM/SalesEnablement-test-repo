@@ -69,7 +69,7 @@ Clients can select a specific datacenter with in the selected location geography
 15. Click the **Fast provisioning of VMs using linked clones** toggle button.
 16. Click the **information** icon ![](_attachments/infoIcon.png) above the **Network edge** toggle button.
 
-    VDCs connect to the public and IBM private networks through edges. Edges can also be used to connect multiple VDC networks together. Currently, four choices of **edge** types are supported, note the networking elements that can be enabled with each: 
+    VDCs connect to the public and IBM private networks through edges. Edges can also be used to connect multiple VDC networks together. Currently, four choices of **edge** types are supported. Note the networking elements that can be enabled with each: 
 
     - **Efficiency** These edges allocate networking resources that can be used by up to 100 VDCs before another efficiency edge needs to be created. Processors and memory are used from the single tenant site. New edge storage is allocated at an extra cost. Subsequent VDCs, up to 100, can use this edge at no extra cost. This option is suitable for saving resources and costs with independent networking control per VDC.
 
