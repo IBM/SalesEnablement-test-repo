@@ -10,9 +10,9 @@
     
     - **VMware Cloud Foundation (VCF)**
   
-    The plan is to phase out the **VMware Shared** offering in 2024/2025. Given that direction, this Level 3 has been updated to include  **VMwaaS** and **VCF** modules. The **VMware Shared** module is now optional.Not all of the videos have been updated and some will reference **VMware Shared** and **VMware Dedicated**. The Stand and Deliver requirements for IBM employees and the business partner quiz have been updated to reflect these changes. 
+    The plan is to phase out the **VMware Shared** offering in 2024/2025. Given that direction, this Level 3 has been updated to include  **VMwaaS** and **VCF** modules. The **VMware Shared** module is now optional. Not all of the videos have been updated and some will reference **VMware Shared** and **VMware Dedicated**. The Stand and Deliver requirements for IBM employees and the business partner quiz have been updated to reflect these changes. 
     
-    Note, images and videos in this demonstration guide may not reflect the latest changes in the portal.
+    Note, images and videos in this demonstration guide may not reflect the latest changes in the IBM Cloud portal.
 
 ![type:video](./_videos/VMware L3 Welcome.mp4)
 
@@ -20,7 +20,7 @@ Welcome to the **IBM Cloud for VMware Solutions - Level 3** course and demonstra
 
  This course is not intended to serve as a deep dive into VMware-specific topics; rather the focus is on the *IBM Cloud* aspects of the offerings. Numerous links and pointers to additional content around VMware-specific features are included in each of the modules of this course.
 
-Most modules are accompanied by recordings and narrated instructions, delivered by your team of authors. Be sure to watch these for a visual demonstration of how to perform the hands-on lab components. In particular, it is strongly recommended that IBM Sellers and Technical Sellers watch these recordings — they will be useful for you as you go about creating and recording your own Stand & Deliver presentations for Level 3 accreditation.
+Most modules are accompanied by recordings and narrated instructions. Be sure to watch these for a visual demonstration of how to perform the hands-on lab components. In particular, it is strongly recommended that IBM Sellers and Technical Sellers watch these recordings — they will be useful for you as you go about creating and recording your own Stand & Deliver presentations for Level 3 accreditation.
 
 !!! tip "ACCREDITATION"
     To receive Level 3 accreditation, IBMers and Business Partners must demonstrate mastery of the skills learned throughout the various modules of these hands-on labs and coursework. Level 3 accreditation requirements— and the way participants will be evaluated before receiving accreditation —differs depending on job role.
@@ -38,7 +38,7 @@ Specific criteria that must be demonstrated as part of the Stand & Deliver recor
 # Navigating the Lab Guide
 -----------------------------
 
-The Level 3 demonstration guide is organized into three chapters, covering the ```VMware as a Service```, ```VMware vCenter Server```, ```VMware Cloud Foundation```, and ```VMware Shared``` offerings of the **IBM Cloud for VMware Solutions** portfolio. These chapters contain modules that provide an *Introduction* to the offering, steps to *Provision* a deployment, and explore how clients *Manage* their instance through the IBM Cloud portal and the respective VMware tools.
+The Level 3 demonstration guide is organized into four chapters, covering the ```VMware as a Service```, ```VMware vCenter Server```, ```VMware Cloud Foundation```, and ```VMware Shared``` offerings of the **IBM Cloud for VMware Solutions** portfolio. These chapters contain modules that provide an *Introduction* to the offering, steps to *Provision* a deployment, and explore how clients *Manage* their instance through the IBM Cloud portal and the respective VMware tools.
 
 !!! warning "WARNING"
     The agile nature of cloud means that the interface and layout of the IBM Cloud Portal, as well as the IBM Cloud for VMware Solutions offering, will change on a regular basis. Screenshots and videos captured within this documentation may not always reflect the latest versions available from IBM Cloud — although the IBM Technology Sales Enablement team strives to update these assets on a regular basis.
