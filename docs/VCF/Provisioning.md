@@ -192,24 +192,24 @@ Private routes includes those located on-premises, in other VPCs, and advertised
 
 ![](_attachments/customerPrivateRoutes.png)
 
-34. Click **Click to Scroll**.
-35. Click **Network interface optional settings** to expand the section.
+35. Click **Click to Scroll**.
+36. Click **Network interface optional settings** to expand the section.
 
 Public routes define the prefixes routed to the Internet and typically default route (0.0.0.0/0) is used here, but this can be customized if needed. In the consolidated architecture, the routes are created on the management Tier 0 gateway. In the standard architecture, the routes are created on the management and workload Tier 0 gateways.
 
-36. Click **Click to Scroll**.
-37. Click the **Jump server** toggle button.
+37. Click **Click to Scroll**.
+38. Click the **Jump server** toggle button.
 
 A Windows VM can be created in the IBM Cloud VPC. This Windows Server is configured with a public floating IP address to access the IBM Cloud VPC internal network. For security considerations, the Windows VM is not created by default.
 
 An IBM Cloud Access Group in IBM Cloud Identity and Access Management (IAM) can be created with an access policy for granting access to the resources deployed in the resource group specified earlier. For more information about IBM Cloud Access Group, see <a href="https://cloud.ibm.com/docs/account?topic=account-access-getstarted" target="_blank">Assigning access to resources by using access groups</a>.
 
-38. Click the **Observability** toggle button.
+39. Click the **Observability** toggle button.
 
 For VMware Cloud Foundation deployment, a new IBM Log Analysis instance with a 7-day pricing plan for viewing the logs of VMware Cloud Foundation deployment can be deployed. Alternatively, an existing instance could also be used by add the instance ingestion key. By default, the IBM Log Analysis service is not ordered. For more information about IBM Log Analysis and its pricing plans, see <a href="https://cloud.ibm.com/docs/log-analysis?topic=log-analysis-getting-started" target="_blank">Getting started with IBM Log Analysis</a> and <a href="https://cloud.ibm.com/docs/log-analysis?topic=log-analysis-service_plans" target="_blank">Service plans</a>.
 
-39. Click the **license agreement** checkbox.
-40. Click **Create**.
+40. Click the **license agreement** checkbox.
+41. Click **Create**.
 
 That concludes the process for provisioning a new VCF instance on IBM Cloud VPC. At this point the automation will run and all the IBM Cloud VPC resources will be deployed and the VCF software installed. 
 
