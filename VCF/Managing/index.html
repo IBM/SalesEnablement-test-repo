@@ -1132,80 +1132,80 @@
 
   <h1>Managing</h1>
 
-<div><p>Now it is time to provision a VMware Cloud Foundation (VCF) instance. Use the click-thru demonstration below to practice provisioning a VCF instance.</p>
-<p>The VCF instance in this click-thru demonstration was created using the <strong>consolidated</strong> architecture and not the <strong>standard</strong> architecture with separate management and workload clusters.</p>
+<div><p>Now, it is time to provision a VMware Cloud Foundation (VCF) instance. Use the click-thru demonstration to practice provisioning a VCF instance.</p>
+<p>The VCF instance in this click-thru demonstration was created with a <strong>consolidated</strong> architecture and not a <strong>standard</strong> architecture with separate management and workload clusters.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>In this click-thru demonstration, several different user interfaces are used: the IBM Cloud Portal for VCF, IBM Cloud Portal for VPC, and Microsoft Remote Desktop. When switching between these interfaces a <strong>Click to Continue</strong> button will appear. Simply click it and the context will switch to the next interface.</p>
 <p>If you are ever not sure where to click or what to do next? Simply click anywhere on the screen and the spot to click next will be highlighted.</p>
 </div>
 <ol>
-<li>Open the link below and then click the play button <img alt="" src="../_attachments/ClickThruPlayButton.png"> to begin the demonstration.</li>
+<li>Open the link and then click play <img alt="" src="../_attachments/ClickThruPlayButton.png"> to begin the demonstration.</li>
 </ol>
 <p><strong>Click-thru demo:</strong> <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/vcf-managing/index.html" target="_blank">Provision an instance of IBM Cloud for VMware Cloud Foundation</a></p>
 <ol start="2">
-<li>Click the <strong>VMware</strong> <img alt="" src="../_attachments/VMicon.png"> icon in the left hand menu bar.</li>
-<li>Click <strong>Cloud Foundation</strong> under <strong>Resources</strong> in left menu.</li>
+<li>Click the <strong>VMware</strong> <img alt="" src="../_attachments/VMicon.png"> icon in the left menu bar.</li>
+<li>Click <strong>Cloud Foundation</strong> under <strong>Resources</strong> in the left menu.</li>
 <li>Click <strong>vmware-explore</strong> in the table of VCF instances.</li>
 </ol>
-<p>In the summary view, general information about the instance is displayed including the type of subscription, region, and resource group. There is also a link to the virtual private cloud (VPC) instance where the VCF instance is deployed.</p>
+<p>In the summary view, general information about the instance is displayed including the type of subscription, region, and resource group. Also, find a link to the virtual private cloud (VPC) instance where the VCF instance is deployed.</p>
 <ol start="5">
 <li>Click <strong>vcf-ibm-1cc-vpc</strong> under <strong>VPC name</strong>.</li>
 </ol>
-<p>A new browser tab is opened to the overview page of the VPC. For this demonstration we will focus on the VCF instance and not the VPC, but know a lot of information is available here that may be required during steady state management of the instance.</p>
+<p>A new browser tab is opened to the overview page of the VPC. For this demonstration, the focus is on the VCF instance and not the VPC. Information available under the VPC section might be required during steady state management of the instance.</p>
 <ol start="6">
 <li>Click <strong>Click to Continue</strong>.</li>
 <li>Click the <strong>VMware Solutions</strong> browser tab.</li>
 <li>Click <strong>Advanced Edition</strong> under <strong>Plan</strong>.</li>
 </ol>
-<p>This panel shows all the VMware software components licensed for each plan. Note, it is not possible to change subscription plans once the instance has been provisioned.</p>
+<p>This page shows all the VMware software components that are licensed for each plan. Note, it is not possible to change subscription plans after the instance is provisioned.</p>
 <ol start="9">
-<li>Click the <strong>x</strong> at top left to close the panel.</li>
+<li>Click the <strong>x</strong> at the upper left to close the page.</li>
 <li>Click the <strong>Infrastructure</strong> tab.</li>
 </ol>
-<p>This VCF instance was deployed using the <strong>consolidated</strong> architecture and thus only one domain/cluster is listed. </p>
+<p>This VCF instance was deployed with the <strong>consolidated</strong> architecture and thus only one domain/cluster is listed. </p>
 <ol start="11">
 <li>Click <strong>6 uplinks</strong> in the table.</li>
 </ol>
-<p>This panel displays both the private and public uplinks associated with the consolidated cluster.</p>
+<p>This page displays both the private and public uplinks that are associated with the consolidated cluster.</p>
 <ol start="12">
-<li>Click the <strong>x</strong> at top right to close the panel.</li>
+<li>Click the <strong>x</strong> at the upper right to close the page.</li>
 <li>Click <strong>us-east-2-m01</strong> in the table.</li>
 </ol>
-<p>Here we see the details about the cluster. Notice this cluster has 5 hosts.</p>
+<p>Observe the details about the cluster. Notice that this cluster has 5 hosts.</p>
 <ol start="14">
 <li>Click <strong>bx2d-metal-96x384</strong> under <strong>Host profile</strong>.</li>
 </ol>
 <p>Hosts in a cluster must be homogeneous in their configurations. </p>
 <ol start="15">
-<li>Click the host profile pop-up window to dismiss it.</li>
+<li>Click the host profile pop-up to close it.</li>
 <li>Click <strong>vSAN</strong> under <strong>Storage type</strong>.</li>
 </ol>
 <p>A summary of the provisioned storage is displayed.</p>
 <ol start="17">
-<li>Click the storage summary pip-up window to dismiss it.</li>
+<li>Click the storage summary pip-up window to close it.</li>
 <li>Click <strong>8</strong> under <strong>Subnets</strong>.</li>
 </ol>
-<p>Here we see the list of subnets associated with the cluster. Clicking on the individual subnets would open the subnets page in the VPC infrastructure portal pages.</p>
+<p>Observe the list of subnets that are associated with the cluster. Click the individual subnets to open the subnets page in the VPC infrastructure portal pages.</p>
 <ol start="19">
-<li>Click the <strong>x</strong> at top right to close the panel.</li>
+<li>Click the <strong>x</strong> at the upper right to close the page.</li>
 <li>Click <strong>Add host</strong>.</li>
 </ol>
-<p>Notice in the <strong>Add host</strong> dialog, there is no ability to change the host profile as all hosts in a cluster must be of the same configuration. </p>
+<p>Notice in the <strong>Add host</strong> dialog, that no ability to change the host profile is available as all hosts in a cluster must be of the same configuration. </p>
 <ol start="21">
 <li>Click the <strong>Host quantity</strong> field.</li>
 </ol>
-<p>As mentioned in the provisioning demonstration, the number of hosts allowed per cluster will be limited by both VMware limitations and IBM Cloud VPC limitations.</p>
-<p>Prior to adding the hosts, the host name suffix can be modified. In this demonstration new hosts will not be added.</p>
+<p>As mentioned in the provisioning demonstration, the number of hosts that are allowed per cluster is limited by both VMware limitations and IBM Cloud VPC limitations.</p>
+<p>Before adding the hosts, the hostname suffix can be modified. In this demonstration, new hosts are not added.</p>
 <ol start="22">
 <li>Click <strong>Cancel</strong>.</li>
 <li>Click <strong>Access information</strong>.</li>
 </ol>
-<p>This page displays all the information related to the VMware management components associated with the VCF instance like vCenter Server, NSX-T Data Center, and the Software Defined Data Center (SDDC) manager. The virtual fully qualified domain name (FQDN), application ID, and passwords are found here and can be used to access those management tools. In a few minutes you will access the SDDC manager using this information.</p>
+<p>This page displays all the information that is related to the VMware management components associated with the VCF instance. The virtual fully qualified domain name (FQDN), application ID, and passwords are found here and can be used to access those management tools. Later, you will access the SDDC manager by using this information.</p>
 <ol start="24">
-<li>Click <strong>Actions</strong> at top right.</li>
+<li>Click <strong>Actions</strong> at the upper right.</li>
 </ol>
-<p>The <strong>Actions</strong> menu is available on all of the tabs associated with the VCF instance. These quick links are useful when managing the instance.</p>
+<p>The <strong>Actions</strong> menu is available on all tabs that are associated with the VCF instance. These quick links are useful when managing the instance.</p>
 <ul>
 <li><strong>Refresh</strong></li>
 </ul>
@@ -1217,7 +1217,7 @@
 <ul>
 <li><strong>Go to Schematics</strong></li>
 </ul>
-<p>Opens a new browser tab to the IBM Schematics workspace for the instance. This page contains the logs associated with the provisioning process for the instance and any other activity associated with the instance like adding and removing hosts.</p>
+<p>Opens a new browser tab to the IBM Schematics workspace for the instance. This page contains the logs that are associated with the provisioning process and other activity that is associated with the instance.</p>
 <ul>
 <li><strong>Go to Logging Service</strong></li>
 </ul>
@@ -1230,38 +1230,38 @@
 <li>Click <strong>Refresh</strong>.</li>
 <li>Click <strong>Go to SDDC console</strong>.</li>
 </ol>
-<p>Take a moment to read the information in the <strong>Accessing he SDDC Manager console</strong> dialog.  In short, there are two ways to access the console that is running on the private VPC network. One is through a virtual private network (VPN), and the other is by using a jump server. Recall during the provisioning process a jump server could be provisioned in the VPC to access the VMware components. As the jump server is a Microsoft Windows server, a Microsoft Windows Remote Desktop client must be used to access it. </p>
+<p>Take a moment to read the information in the <strong>Accessing the SDDC Manager console</strong> dialog. In short, there are two ways to access the console that is running on the private VPC network. One is through a virtual private network (VPN), and the other is by using a jump server. Recall during the provisioning process a jump server can be provisioned in the VPC to access the VMware components. As the jump server is a Microsoft Windows server, a Microsoft Windows Remote Desktop client must be used to access it. </p>
 <ol start="27">
 <li>Click <strong>Cancel</strong>.</li>
 <li>Click <strong>Click to Scroll</strong>.</li>
 <li>Click the <strong>Copy</strong> icon <img alt="" src="../_attachments/copyIcon.png"> next to the FQDN for the SDDC Manager.</li>
 <li>Click <strong>Click to Continue</strong>.</li>
 </ol>
-<p>This view shows a tile that has been created with the IP address and administrator authentication credentials for the host SDDC Manager instance.</p>
+<p>This view shows a tile with the IP address and administrator authentication credentials for the host SDDC Manager instance.</p>
 <ol start="31">
 <li>Click the <strong>VCF-JumpServer-BB</strong> tile.</li>
 </ol>
-<p>The Microsoft Windows Remote Desktop opens a connection to the Windows Server. A browser window is already opened. This will be used to open the web-based interface to the SDDC Manager.</p>
+<p>The Microsoft Windows Remote Desktop opens a connection to the Windows Server. A browser window is already opened, which is used to open the web-based interface to the SDDC Manager.</p>
 <ol start="32">
 <li>Click the browser's URL field.</li>
 <li>Click <strong>Paste</strong> to paste the SDDC Manager FQDN copied earlier.</li>
 </ol>
-<p>To authenticate to the SDDC Manager the local account credentials need to be used.</p>
+<p>To authenticate to the SDDC Manager, the local account credentials need to be used.</p>
 <ol start="34">
 <li>Click <strong>Click to Continue</strong>.</li>
 <li>Click the <strong>Copy</strong> icon <img alt="" src="../_attachments/copyIcon.png"> next to the local account information for the SDDC Manager.</li>
 <li>Click <strong>Click to Continue</strong>.</li>
-<li>Click <strong>example@domain.local</strong> in the User ID field.</li>
+<li>Click <strong>example@domain.local</strong> in the user ID field.</li>
 <li>Click <strong>administrator@vsphere.local</strong></li>
 <li>Click the <strong>Password</strong> field.</li>
 <li>Click <strong>Paste</strong> to paste the SDDC local account password copied earlier.</li>
 <li>Click <strong>LOGIN</strong></li>
 </ol>
-<p>This is the SDDC Manager Dashboard. SDDC Manager is used to perform administration tasks on the VMware Cloud Foundation instance. The SDDC Manager UI provides an integrated view of the physical and virtual infrastructure and centralized access to manage the physical and logical resources</p>
+<p>SDDC Manager is used to run administration tasks on the VMware Cloud Foundation instance. The SDDC Manager UI provides an integrated view of the physical and virtual infrastructure and centralized access to manage the physical and logical resources</p>
 <ol start="42">
-<li>CLick <strong>Hosts</strong> under <strong>Inventory</strong>.</li>
+<li>Click <strong>Hosts</strong> under <strong>Inventory</strong>.</li>
 </ol>
-<p>Here we see the same 5 hosts that were provisioned in the consolidated cluster of the VCF instance.</p>
+<p>Observe the same 5 hosts that were provisioned in the consolidated cluster of the VCF instance.</p>
 <p>Again, the purpose of this demonstration was to highlight the management capabilities of VCF from the IBM Cloud portal. You can learn more about VMware SDDC Manager <a href="https://docs.vmware.com/en/VMware-Cloud-Foundation/5.0/vcf-admin/GUID-D143F07A-B3FA-4A14-8D03-BFD2C1810D2E.html" target="_blank">here</a>.</p>
 <p>That concludes the <strong>managing</strong> portion of the demonstration.</p></div>
 

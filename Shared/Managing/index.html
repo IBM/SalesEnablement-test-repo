@@ -1140,50 +1140,60 @@
 
 
 <div><p><div class="video-container"><iframe src="../_videos/VMware%20L3%20Shared%20Managing.mp4" style="position:relative;width:100%;height:22.172vw" frameborder="0" allowfullscreen alt="type:video"></iframe></div></p>
-<p>The following module guides business partners and IBM sellers through the myriad of features and management tools available from within the VMware Shared instance dashboard on IBM Cloud. You will explore various elements of the management panels and tooling, including: data centers, applications, virtual machines, networking, libraries, administration, and monitoring.</p>
+<p>The following module guides Business Partners and IBM sellers through the features and management tools available in the VMware Shared instance dashboard on IBM Cloud. Explore various elements of the management pages including: data centers, applications, virtual machines, networking, libraries, administration, and monitoring.</p>
 <h1 id="_1"></h1>
-<h1 id="click-thru-demonstration">Click-Thru Demonstration</h1>
+<h1 id="click-thru-demonstration">Click-Thru demonstration</h1>
 <hr>
 <p><strong>Click-thru demo:</strong> <a href="https://ibm.github.io/SalesEnablement-VMware-L3/includes/Shared-Managing-VCD/index.html" target="_blank">Managing an instance of IBM Cloud VMware Solutions Shared</a>.</p>
-<p>Use the click-thru demonstration linked above to practice managing an instance of VMware Shared. The fields that require a text entry (e.g. service name) are pre-populated in the click-thru demonstration. Open the link and then click the play button <img alt="" src="../_attachments/ClickThruPlayButton.png"> to begin the demonstration.</p>
+<p>Use the click-thru demonstration to practice managing an instance of VMware Shared. The fields that require a text entry (for example service name) are pre-populated in the click-thru demonstration. Open the link and then click play <img alt="" src="../_attachments/ClickThruPlayButton.png"> to begin the demonstration.</p>
 <div class="admonition note">
 <p class="admonition-title">NAVIGATION</p>
-<p>Not sure where to click or what to do next? Simply click anywhere on the screen within the click-thru demo page and the spot to interact with next will be highlighted. Step-by-step instructions on how to navigate the demo, and repeat the demonstration again in front of clients, are provided in the write-up below.</p>
+<p>Not sure where to click or what to do next? Click anywhere on the screen within the click-thru demo page and the spot to interact with next is highlighted. Step-by-step instructions on how to navigate the demonstration are provided.</p>
 </div>
 <h1 id="_2"></h1>
 <h1 id="step-by-step-instructions">Step-By-Step Instructions</h1>
 <hr>
-<p>VMware Solutions, including the <strong>Shared</strong> plan and other tiers, are accessible through the <a href="https://cloud.ibm.com/vmware" target="_blank">VMware portal on IBM Cloud</a>. Be aware that if you provision a live VMware Shared instance using your <em>personal</em> IBM Cloud account, then your account (and credit card associated with that personal account) will be billed for the deployment.</p>
+<p>VMware Solutions, including the <strong>Shared</strong> plan and other tiers, are accessible through the <a href="https://cloud.ibm.com/vmware" target="_blank">VMware portal on IBM Cloud</a>. If you provision a live VMware Shared instance that uses your <em>personal</em> IBM Cloud account, then your account (and credit card that is associated with that personal account) are for the deployment.</p>
 <ol>
 <li>
-<p>From the IBM Cloud dashboard, click the <strong>VMware</strong> tab from the left hand navigation menu, or alternatively search for <code>VMware Solutions</code> in the search bar.</p>
+<p>From the IBM Cloud dashboard, click the <strong>VMware</strong> tab from the left navigation menu, or alternatively search for <code>VMware Solutions</code> in the search bar.</p>
 </li>
 <li>
-<p>Drill down into the <strong>Resources</strong> tab within the left hand navigation menu.</p>
+<p>Drill down into the <strong>Resources</strong> tab within the left navigation menu.</p>
 </li>
 </ol>
 <p><img alt="" src="../_attachments/shared-managing-1.png"></p>
 <ol start="3">
-<li>From the variety of VMware Solutions plans available, click on the <strong>VMware Shared</strong> option.</li>
+<li>From the list of VMware Solutions plans available, click the <strong>VMware Shared</strong> option.</li>
 </ol>
 <p><img alt="" src="../_attachments/shared-managing-2.png"></p>
-<p>An instance of VMware Shared should already be set up, having completed the <a href="https://ibm.github.io/SalesEnablement-VMware-L3/Shared/Provisioning/" target="_blank">Provisioning</a> section earlier.</p>
 <ol start="4">
-<li>Locate the instance— <code>Dallas Director 01</code> in the example screenshot below, although the naming of your instance may differ —and click the <strong>name</strong> of the instance to pull open a Summary page.</li>
+<li>Locate the instance <code>Dallas Director 01</code> and click the <strong>name</strong> of the instance to open the summary page.</li>
 </ol>
 <p><img alt="" src="../_attachments/shared-managing-3.png"></p>
-<p>The browser will load a Summary panel for the VMware Shared instance, supplying details on access controls for your instance, virtual data centers associated with the deployment, and additional services that can be used in conjunction with the instance.</p>
+<p>The browser will load a summary page for the VMware Shared instance. This page provides:</p>
+<ul>
+<li>
+<p>details on access controls for the instance</p>
+</li>
+<li>
+<p>virtual data centers that are associated with the deployment</p>
+</li>
+<li>
+<p>and other services that can be used with the instance</p>
+</li>
+</ul>
 <ol start="5">
 <li>Before you can connect to the VMware Shared instance, you need to set an administrative password for the <strong>vCloud Director console</strong>. Do so by clicking the <strong>Reset site admin password</strong> button as shown.</li>
 </ol>
 <p><img alt="" src="../_attachments/shared-managing-4.png"></p>
-<p>A dialogue window will open, asking you to confirm an administrative password reset for the instance. Confirm the selection and wait for the reset to complete. The <strong>User name</strong> will always be set to <code>admin</code> by default. The <strong>Password</strong> will be uniquely generated each time a reset is conducted.</p>
+<p>A dialog window opens, asking to confirm an administrative password reset for the instance. Confirm the selection and wait for the reset to complete. The <strong>username</strong> will always be set to <code>admin</code> by default. The <strong>Password</strong> is uniquely generated each time that a reset is conducted.</p>
 <ol start="6">
-<li>Click the "eyeball" icon to view the password and the "box" icon to copy the password to your machine's clipboard. <strong>Record</strong> both of these values to a notepad — you will need to reference these later for connecting to the vCloud Director console. Click the <strong>Close</strong> button to continue. <em>Note:</em> the inspection and copy to clipboard steps are shown as a single interaction in the Click-thru demonstration.</li>
+<li>Click the "eyeball" icon to view the password and the "box" icon to copy the password to your workstation's clipboard. <strong>Record</strong> both of these values to a notepad. You need to reference these values later for connecting to the vCloud Director console. Click <strong>Close</strong> to continue. <em>Note:</em> the inspection and copy to clipboard steps are shown as a single interaction in the Click-thru demonstration.</li>
 </ol>
 <p><img alt="" src="../_attachments/shared-managing-5.png"></p>
 <ol start="7">
-<li>Locate the <strong>VMware Shared</strong> navigation link at the top left of the page. Click the URL to return to the overview page for all VMware Shared instances.</li>
+<li>Locate the <strong>VMware Shared</strong> navigation link at the upper left of the page. Click the URL to return to the overview page for all VMware Shared instances.</li>
 </ol>
 <p><img alt="" src="../_attachments/shared-managing-6.png"></p>
 <ol start="8">
@@ -1191,16 +1201,16 @@
 <p>Just to the left of the <code>Dallas Director 01</code> instance is a drop-down arrow — click this arrow to expand the list of all Virtual Data Centers (VDC) belonging to that instance.</p>
 </li>
 <li>
-<p>There may multiple VDCs belonging to the <code>Dallas Director 01</code> VMware Shared instance. In our example, click on the <strong>Name</strong> of the <code>se-l3-shared</code> VDC to pull open additional details.</p>
+<p>There might be multiple VDCs belonging to the <code>Dallas Director 01</code> VMware Shared instance. In this example, click the <code>se-l3-shared</code> VDC to open more details.</p>
 </li>
 </ol>
 <p><img alt="" src="../_attachments/shared-managing-7.png"></p>
 <details class="question">
 <summary>BP quiz question</summary>
-<p>Take note of both VDC names that have been provisioned in <strong>Dallas Director 01</strong>.</p>
+<p>Take note of both VDC names that are provisioned in <strong>Dallas Director 01</strong>.</p>
 </details>
 <ol start="10">
-<li>Let's experiment with resizing the amount of vCPU and RAM resources assigned to the VDC. Recall earlier that it was mentioned how IBM Cloud enables scalable deployments of VMware Shared, which can be adjusted (up or down) as the resource requirements of the instance change over its lifecycle. Edit the <strong>Resource Reservation</strong> field by clicking the pencil icon, as shown below.</li>
+<li>Experiment with resizing the amount of vCPU and RAM resources that are assigned to the VDC. Recall how IBM Cloud enables scalable deployments of VMware Shared, which can be adjusted (up or down) as the resource requirements of the instance change over its lifecycle. Edit the <strong>Resource Reservation</strong> field by clicking the pencil icon, as shown below.</li>
 </ol>
 <p><img alt="" src="../_attachments/shared-managing-8.png"></p>
 <ol start="11">
@@ -1211,33 +1221,33 @@
 <p>Take note of the vCPU and RAM limits before they are changed.</p>
 </details>
 <ol start="12">
-<li>Take note that the metered billing for the instance will be adjusted based on the reduced resource requirements. When satisfied, click <strong>Modify</strong> to confirm and implement the changes.</li>
+<li>Note the metered billing for the instance will be adjusted based on the reduced resource requirements. When satisfied, click <strong>Modify</strong> to confirm and implement the changes.</li>
 </ol>
 <p><img alt="" src="../_attachments/shared-managing-9.png"></p>
 <ol start="13">
-<li>Back on the Summary page, locate the <strong>vCloud Director console</strong> button near the top right of the screen. Before resetting the admin password, this button would have been greyed out and inaccessible. With the password reset complete, the button is now active (blue) — click it to continue to the console login page.</li>
+<li>Back on the Summary page, locate the <strong>vCloud Director console</strong> button near the upper right of the screen. Before resetting the admin password, this button was greyed out and inaccessible. With the password reset complete, the button is now active (blue) — click it to continue to the console login page.</li>
 </ol>
 <p><img alt="" src="../_attachments/shared-managing-10.png"></p>
 <ol start="14">
-<li>A new tab or window will open, prompting you to log in to the vCloud Director console. If one does not appear, check to make sure a pop-up blocker is not active. Use the <code>admin</code> and <code>password</code> fields recorded in <strong>Step 6</strong> to log in to the console. Click <strong>Sign In</strong> to continue.</li>
+<li>A new tab or window will open, prompting you to log in to the vCloud Director console. If one does not appear, check that software to block pop-up ad windows is not active. Use the <code>admin</code> and <code>password</code> fields that are recorded in <strong>Step 6</strong> to log in to the console. Click <strong>Sign In</strong> to continue.</li>
 </ol>
 <p><img alt="" src="../_attachments/shared-managing-11.png"></p>
-<p>After successfully authenticating, your browser will redirect to the <strong>vCloud Director console</strong>. From this page, you will be able to access many of the administrative functions for the VMware Shared environment (with some restrictions in place to ensure the safety and stability of the deployment). By default, the console will load to the <strong>Data Centers</strong> tab. Here you can inspect details on the virtual data center supporting your environment. A summary of the VDC's vCPU, memory, and storage utilization is provided at the bottom of the page.</p>
+<p>After successfully authenticating, your browser will redirect to the <strong>vCloud Director console</strong>. From this page, you are able to access many of the administrative functions for the VMware Shared environment. Some restrictions in place to ensure the safety and stability of the deployment. By default, the console loads to the <strong>Data Centers</strong> tab. Here you can inspect details on the virtual data center supporting your environment. A summary of the VDC's vCPU, memory, and storage utilization is provided at the bottom of the page.</p>
 <ol start="15">
-<li>Let's drill down into the <code>se-l3-shared</code> VDC that was re-sized earlier by clicking the tile, as shown, in the dashboard.</li>
+<li>Drill down into the <code>se-l3-shared</code> VDC that was resized earlier by clicking the tile in the dashboard.</li>
 </ol>
 <p><img alt="" src="../_attachments/shared-managing-12.png"></p>
 <p>From this management screen, you can access information on the VMware Shared plan's available <code>Networks</code>, <code>Edge Gateways</code>, <code>Data Center Groups</code>, and <code>Security Tags</code>.</p>
 <ol start="16">
 <li>
-<p>Our first task will be to define <strong>Networking</strong> parameters for the VDC. Click the <strong>Networks</strong> subdirectory from the list of tabs along the left side of the interface.</p>
+<p>The first task is to define <strong>Networking</strong> parameters for the VDC. Click the <strong>Networks</strong> subdirectory from the list of tabs along the left side of the interface.</p>
 </li>
 <li>
-<p>Click the <strong>New</strong> button, as shown in the screenshot below, to create a new network configuration for the VDC.</p>
+<p>Click <strong>New</strong> to create a new network configuration for the VDC.</p>
 </li>
 </ol>
 <p><img alt="" src="../_attachments/shared-managing-13.png"></p>
-<p>A new page will load to guide you through the process of defining an organization-wide virtual data center (VDC) network. The first element to be defined is the overall <strong>Scope</strong> of the network.</p>
+<p>A new page loads to guide you through the process of defining an organization-wide virtual data center (VDC) network. The first element to be defined is the overall <strong>Scope</strong> of the network.</p>
 <ol start="18">
 <li>
 <p>The <strong>Scope</strong> of the network can be constrained to either an <em>organization-wide VDC</em> (providing connectivity only across the virtual machines belonging to that particular VDC), or across a <em>data center group</em> (connectivity across all VDCs belonging to that group, inclusive of all VMs belonging to those VDCs). Select the <strong>Current Organization Virtual Data Center</strong> option to keep networking connectivity restricted to only this singular VDC (<code>se-l3-shared</code>).</p>
@@ -1247,10 +1257,10 @@
 </li>
 </ol>
 <p><img alt="" src="../_attachments/shared-managing-14.png"></p>
-<p>You must now decide the <strong>Network Type</strong> appropriate for this deployment. There are two options:</p>
+<p>Now decide the <strong>Network Type</strong> appropriate for this deployment. Two options are available:</p>
 <ul>
 <li>
-<p><em>Routed</em>: A network type that utilizes an edge gateway to enable controlled access to networks and machines external to (outside of) the VDC.</p>
+<p><em>Routed</em>: A network type that uses an edge gateway to enable controlled access to networks and systems external to (outside of) the VDC.</p>
 </li>
 <li>
 <p><em>Isolated</em>: A network type that is only accessible by a specific VDC (or associated VDC Groups), thereby providing a fully isolated environment.</p>
@@ -1266,7 +1276,7 @@
 </ol>
 <p><img alt="" src="../_attachments/shared-managing-15.png"></p>
 <ol start="22">
-<li>Having selected the <strong>Routed</strong> network type earlier, which makes use of an edge gateway for regulated access to the network, we must now define an <strong>Edge Connection</strong> for the organization VDC. The configuration tool will automatically designate an edge connection (<code>edge-dal12-d625b1f2</code> for the <code>Dallas Director 01</code> data center) with <code>2</code> External Networks and <code>0</code> Org VDC Networks.</li>
+<li>Having selected the <strong>Routed</strong> network type earlier, now define an <strong>Edge Connection</strong> for the organization VDC. The configuration tool automatically designates an edge connection (<code>edge-dal12-d625b1f2</code> for the <code>Dallas Director 01</code> data center) with <code>2</code> External Networks and <code>0</code> Org VDC Networks.</li>
 </ol>
 <p>Next, you must choose the type of Edge Connection to be applied. There are three options:</p>
 <ul>
@@ -1274,7 +1284,7 @@
 <p><em>Internal</em>: For connecting to one of the edge gateway's internal interfaces. The maximum number of supported network connections is <code>9</code>.</p>
 </li>
 <li>
-<p><em>Distributed</em>: For connecting via fast and efficient <em>East-West</em> routing. The network will be connected to an internal interface of a distributed router that is exclusively associated with this gateway. The maximum number of supported network connections is <code>400</code>.</p>
+<p><em>Distributed</em>: For connecting with fast and efficient <em>East-West</em> routing. The network is connected to an internal interface of a distributed router that is exclusively associated with this gateway. The maximum number of supported network connections is <code>400</code>.</p>
 </li>
 <li>
 <p><em>Subinterface</em>: For connecting to the edge gateway's internal trunk interface. The maximum number of supported network connections is <code>200</code>.</p>
@@ -1290,48 +1300,48 @@
 <p>A <strong>Gateway CIDR</strong> must be assigned, which includes the IP address of the gateway. This value cannot be changed once assigned.</p>
 <ol start="25">
 <li>
-<p>Assign a CIDR of <code>192.168.1.1/24</code> and leave the <strong>Dual-Stack Mode</strong> option disabled. For our purposes, the network is not to be <strong>Shared</strong>: therefore, leave this option disabled.</p>
+<p>Assign a CIDR of <code>192.168.1.1/24</code> and leave the <strong>Dual-Stack Mode</strong> option disabled. In this deployment, the network is not to be <strong>Shared</strong>: therefore, leave this option disabled.</p>
 </li>
 <li>
 <p>When satisfied, click <strong>Next</strong> to continue.</p>
 </li>
 </ol>
 <p><img alt="" src="../_attachments/shared-managing-17.png"></p>
-<p><strong>Static IP Pools</strong> must now be assigned to the Gateway CIDR assigned earlier in <strong>Step 25</strong>. Verify that the CIDR displayed on this panel matches the one that you designated previously. No additional modifications are required at this time.</p>
+<p><strong>Static IP Pools</strong> must now be assigned to the Gateway CIDR assigned earlier in <strong>Step 25</strong>. Verify that the CIDR displayed on this panel matches the one that you designated previously. No additional modifications are required.</p>
 <ol start="27">
 <li>When satisfied, click <strong>Next</strong> to continue.</li>
 </ol>
 <p><img alt="" src="../_attachments/shared-managing-18.png"></p>
-<p><strong>DNS</strong>, or the Domain Name System, provides the mapping between IP addresses (such as the ones specified earlier) and the "name" address that you typically enter into a web browser (<code>www.google.com</code>, for example). A DNS relay can be enabled for the edge gateway previously configured; however, the DNS relay must be set before deployment and cannot be modified after the fact.</p>
+<p><strong>DNS</strong>, or the Domain Name System, provides the mapping between IP addresses (such as the ones specified earlier) and the "name" address that you typically enter in a web browser (<code>www.google.com</code>, for example). A DNS relay can be enabled for the edge gateway previously configured; however, the DNS relay must be set before deployment and cannot be modified after the fact.</p>
 <ol start="28">
 <li><strong>Enable</strong> the <strong>Use Edge DNS</strong> slider. <em>Note:</em> this step is not shown as part of the Click-thru demonstration.</li>
 </ol>
 <p>The remaining fields below can remain blank. When satisfied, click <strong>Next</strong> to continue.</p>
 <p><img alt="" src="../_attachments/shared-managing-19.png"></p>
-<p>The <strong>Ready to Complete</strong> panel provides a full summary of your organization VDC network configurations. Here you can review the details of the network before choosing to commit to a deployment, or discard the network configuration completely.</p>
+<p>The <strong>Ready to Complete</strong> panel provides a full summary of your organization VDC network configurations. Review the details of the network before choosing to commit to a deployment, or discard the network configuration completely.</p>
 <ol start="29">
 <li>Click the <strong>Finish</strong> button to create the network.</li>
 </ol>
 <p><img alt="" src="../_attachments/shared-managing-20.png"></p>
-<p>Your browser will automatically redirect to the <strong>Networking</strong> tab of the vCloud Director console. From the list of Networks, you will see the <code>se-l3-network</code> deploy and eventually update its status to <code>Ready</code> once fully initialized.</p>
+<p>Your browser will automatically redirect to the <strong>Networking</strong> tab of the vCloud Director console. From the list of Networks, see the <code>se-l3-network</code> deploy and eventually update its status to <code>Ready</code> when fully initialized.</p>
 <ol start="30">
 <li>Click the <strong>Virtual Machines</strong> subdirectory from the list of tabs along the left side of the interface.</li>
 </ol>
 <p><img alt="" src="../_attachments/shared-managing-21.png"></p>
-<p>The console's <strong>Applications</strong> dashboard allows for the centralized management and deployment of all applications— which are categorized as either <em>virtual machines</em> or <em>virtual applications</em> —within the VMware Shared environment. A virtualized application, or <em>vApp</em>, consists of one or more virtual machines (VMs) that communicate over the Shared plan's network, making use of the Shared plan's resources, or invoking services that the Shared plan supports. A single vApp can consist of one, or multiple, VMs as part of its backbone.</p>
+<p>The console's <strong>Applications</strong> dashboard allows for the centralized management and deployment of all applications— which are categorized as either <em>virtual machines</em> or <em>virtual applications</em> —within the VMware Shared environment. A virtualized application, or <em>vApp</em>, consists of one or more virtual machines (VMs). The vApp communicates over the Shared plan's network, making use of the Shared plan's resources, or starting services that the Shared plan supports. A single vApp can consist of one, or multiple VMs.</p>
 <ol start="31">
-<li>Let's try drafting a new virtual machine from scratch. Do so by clicking the <strong>New VM</strong> button from the menu at the bottom of the page.</li>
+<li>Try creating a new virtual machine from scratch. Click <strong>New VM</strong> in the menu at the bottom of the page.</li>
 </ol>
 <p><img alt="" src="../_attachments/shared-managing-22.png"></p>
 <ol start="32">
 <li>
-<p>A new configuration window will open. Provide a <strong>Name</strong> (<code>se-l3-TestVM</code>) and <strong>Computer Name</strong> (<code>se-l3-testvm</code>), as well as an optional <strong>Description</strong>, for the new VM.</p>
+<p>A new configuration window opens. Provide a <strong>Name</strong> (<code>se-l3-TestVM</code>) and <strong>Computer Name</strong> (<code>se-l3-testvm</code>), and an optional <strong>Description</strong>, for the new VM.</p>
 </li>
 <li>
 <p>The VM can either be crafted from scratch (<strong>New</strong>) or from a pre-designed template (<strong>From Template</strong>). One of the advantages of the VMware Shared plan on IBM Cloud is the wealth of templates available out of the box with the offering. Select the <strong>From Template</strong> option.</p>
 </li>
 <li>
-<p><strong>Disable</strong> the <strong>Power Off</strong> toggle, as we do not want to initialize the VM until making additional configuration changes in a later step.</p>
+<p><strong>Disable</strong> the <strong>Power Off</strong> toggle, as we do not want to initialize the VM until making other configuration changes in a later step.</p>
 </li>
 <li>
 <p>We recommend selecting the <code>vm-centos8</code> template, which corresponds to the CentOS 8 (64-Bit) official release, for the purposes of this demonstration — although you are free to choose any of your liking. Continue scrolling down the page to reveal more configuration options.</p>
@@ -1423,7 +1433,7 @@
 <p><img alt="" src="../_attachments/shared-managing-32.png"></p>
 <ol start="55">
 <li>
-<p>Close the vCloud Director web dashboard and return to the IBM Cloud dashboard. From the drop-down in the top right corner of the interface (as shown in the screenshot below), click the <strong>Actions</strong> button. <em>Note:</em> this step, and <strong>Step 56</strong> and <strong>Step 57</strong>, is not shown as part of the Click-thru demonstration.</p>
+<p>Close the vCloud Director web dashboard and return to the IBM Cloud dashboard. From the drop-down in the upper right corner of the interface (as shown in the screenshot below), click the <strong>Actions</strong> button. <em>Note:</em> this step, and <strong>Step 56</strong> and <strong>Step 57</strong>, is not shown as part of the Click-thru demonstration.</p>
 </li>
 <li>
 <p>Select the <strong>Monitoring</strong> button to open the IBM Cloud monitoring dashboard for the VMware Shared instance.</p>

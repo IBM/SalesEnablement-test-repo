@@ -1143,7 +1143,7 @@
                   
 
 
-<div><p>In this click-thru demonstration, explore the management activities for a multi-tenant virtual data center (VDC) instance on IBM Cloud. Note, there are limited administrative tasks via the IBM Cloud portal for VDCs. Keep in mind all the steps shown here can be used in the IBM Technology Zone (ITZ) environment you provisioned up to the point of clicking <strong>Create</strong> or <strong>Delete</strong>. Attempts to create new resources in the ITZ environment result in an error similar to the one shown.</p>
+<div><p>In this click-thru demonstration, explore the management activities for a multi-tenant virtual data center (VDC) instance on IBM Cloud. Note, there are limited administrative tasks through the IBM Cloud portal for VDCs. All the steps that are shown here can be used in the IBM Technology Zone (ITZ) environment you provisioned up to the point of clicking <strong>Create</strong> or <strong>Delete</strong>. Attempts to create new resources in the ITZ environment result in an error similar to the one shown.</p>
 <p><img alt="" src="../_attachments/CreateFailure.png"></p>
 <h1 id="_1"></h1>
 <h1 id="click-thru-demonstration">Click-Thru demonstration</h1>
@@ -1160,16 +1160,16 @@
 <h2 id="manage-a-multitenant-vdc-instance">Manage a multitenant VDC instance</h2>
 <ol>
 <li>
-<p>Open the click-thru demo and then click play <img alt="" src="../_attachments/ClickThruPlayButton.png"> to begin the demonstration.</p>
+<p>Open the click-thru demo and click play <img alt="" src="../_attachments/ClickThruPlayButton.png"> to begin the demonstration.</p>
 <p><strong>Click-thru demo:</strong> <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMwaaS-mt-managing/index.html" target="_blank">Manage a multi-tenant virtual data center (VDC)</a></p>
 </li>
 <li>
-<p>Click the <strong>VMware</strong> (<img alt="" src="../_attachments/VMicon.png">) icon in navigation menu.</p>
+<p>Click the <strong>VMware</strong> (<img alt="" src="../_attachments/VMicon.png">) icon in the navigation menu.</p>
 </li>
-<li>Click the <strong>VMware as a Service</strong> option under <strong>Resources</strong> in left-hand menu.</li>
+<li>Click the <strong>VMware as a Service</strong> option under <strong>Resources</strong> in the left menu.</li>
 <li>Click the <strong>mt-vdc</strong> entry in the table of VDCs.</li>
 </ol>
-<p>Notice the list of <strong>Public IPs</strong> associated with the VDC. These addresses can be used to assign to individual virtual machines (VMs) provisioned in the VDC or assigned to networks using network address translation (NAT).</p>
+<p>Notice the list of <strong>Public IPs</strong> associated with the VDC. These addresses can be used to assign to individual virtual machines (VMs) provisioned in the VDC or assigned to networks that use network address translation (NAT).</p>
 <ol start="5">
 <li>Click the <strong>Modify limit</strong> button.</li>
 <li>Click the <strong>Enable consumption limits</strong> toggle button.</li>
@@ -1177,15 +1177,15 @@
 <p>When consumption limits are turned off, the set limits for vCPU and memory are removed for the VDC. This allows users with appropriate permissions to add virtual machines that use any amount of vCPU and memory up to the limits of an entire VDC.</p>
 <ol start="7">
 <li>Click the <strong>Enable consumption limits</strong> toggle button again.</li>
-<li>Click the <strong>vCPU</strong> text entry field.</li>
-<li>Click the <strong>RAM</strong> text entry field.</li>
+<li>Click the <strong>vCPU</strong> field.</li>
+<li>Click the <strong>RAM</strong> field.</li>
 <li>Click the <strong>Modify</strong> button.</li>
 </ol>
-<p>Modifying a VDC will only take a few minute and does not affect workloads running in the VDC. Notice the status of the VDC changes to <strong>Modifying</strong> and once complete it returns to <strong>Available</strong>.</p>
+<p>Modifying a VDC takes a few minutes and does not affect workloads running in the VDC. Notice the status of the VDC changes to <strong>Modifying</strong> and when complete it returns to <strong>Available</strong>.</p>
 <ol start="11">
 <li>Click the <strong>Add-on services</strong> tab.</li>
 </ol>
-<p>At the time this click-thru demonstration was created, no additional services were available. Over time, additional services will be added to the catalog and made available with automated installations. You can expect to see Veeam and other third party solutions added in the near future.</p>
+<p>At the time this click-thru demonstration was created, no additional services were available. Over time, other services will be added to the catalog and made available with automated installations. You can expect to see Veeam and other third-party solutions added soon.</p>
 <ol start="12">
 <li>Click the <strong>Summary</strong> tab.</li>
 <li>Click the <strong>Actions</strong> pull-down menu.</li>
@@ -1195,7 +1195,7 @@
 <li>Click <strong>Refresh</strong></li>
 <li>Click the <strong>VMware console</strong> button.</li>
 </ol>
-<p>A new browser window or tab will open with the VMware vCloud Director (vCD) web console for the VDC. By default, vCD is integrated with IBM Cloud's Identity and Access Management (IAM) system. You can learn more about VDC single sign-on with IBM Cloud IAM <a href="https://cloud.ibm.com/docs/vmware-service?topic=vmware-service-iam-integration&amp;interface=ui" target="_blank">here</a>.</p>
+<p>A new browser window or tab opens with the VMware vCloud Director (vCD) web console for the VDC. By default, vCD is integrated with IBM Cloud Identity and Access Management (IAM) system. You can learn more about VDC single sign-on with IBM Cloud IAM <a href="https://cloud.ibm.com/docs/vmware-service?topic=vmware-service-iam-integration&amp;interface=ui" target="_blank">here</a>.</p>
 <ol start="16">
 <li>Click <strong>SIGN IN WITH SINGLE SIGN-ON</strong>.</li>
 </ol>
