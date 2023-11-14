@@ -26,14 +26,14 @@ The following module guides Business Partners and IBM sellers through the proces
 
      **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMwaaS-mt-provisioning/index.html" target ="_blank">Provision a multitenant instance of VMwaaS</a>
 
-2. Click the VMware (![](_attachments/VMicon.png)) icon in navigation menu.
+2. Click the VMware (![](_attachments/VMicon.png)) icon in the navigation menu.
 3. Click the **VMware as a Service** tile.
 4. Click the **Help me choose** link.
 
-These help windows provide clients additional information and differentiation between the VMwaaS single- and multitenant offerings. If you are not already familiar with the offerings, read the descriptions provided.
+These windows provide clients additional information and differentiation between the VMwaaS single- and multitenant offerings. If you are not already familiar with the offerings, read the descriptions that are provided.
 
 5. Click the **Compare** tab.
-6. Click the **x** at top right to close the help information window.
+6. Click the **x** at the upper right to close the help information window.
 7. Click in the **Name** field.
 
     Specify a descriptive name for the VCD as it cannot be changed after the site is provisioned.
@@ -45,10 +45,10 @@ These help windows provide clients additional information and differentiation be
 9. Click the **Enablement-L3** resource group.
 
 
-Before continuing, notice the 2 **Pricing plan** tiles. Clients can choose either an on-demand or reserved pricing model. Learn more about the available pricing plans <a href="https://cloud.ibm.com/docs/vmware-service?topic=vmware-service-mt_pricing" target="_blank">here</a>. It is important to understand that with the on-demand model resources are not preallocated. Delays may occur when requesting additional resources. With the reserved model, resources are preallocated and availability is guaranteed, but clients are charged for the resources even if they aren't used.
+Notice the 2 **Pricing plan** tiles. Clients can choose either an on-demand or reserved pricing model. Learn more about the available pricing plans <a href="https://cloud.ibm.com/docs/vmware-service?topic=vmware-service-mt_pricing" target="_blank">here</a>. It is important to understand that with the on-demand model resources are not preallocated. Delays might occur when requesting extra resources. With the reserved model, resources are preallocated and availability is guaranteed. However, clients are charged for the resources even if they aren't used.
 
 
-10. Click the **Location** button.
+1.  Click the **Location** button.
 
 At the time this click-thru demonstration was created, VMwaaS multitenant was only available in Dallas, Frankfurt, and Washington, DC. Refer to the product <a href="https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-tenant-plan-deploy" target="_blank">documentation</a> or the IBM Cloud Portal for the list of currently supported locations.
 
@@ -58,7 +58,7 @@ At the time this click-thru demonstration was created, only a single **Cloud Dir
 
 12. Click the **Provider Virtual Data Center** button.
 
-Clients can select a specific datacenter with in the selected location geography. Clients will want to have this flexibility as they deploy workloads that require higher availability across datacenters. 
+Clients can select a specific datacenter with in the selected location geography. Clients want to have this flexibility as they deploy workloads that require higher availability across datacenters. 
 
 13. Click the **WDC07** datacenter.
 14. Click the **information** icon ![](_attachments/infoIcon.png) above the **Fast provisioning of VMs using linked clones** toggle button.
@@ -91,7 +91,7 @@ vCPU and RAM charges for on-demand VDCs are based on the amount that is used for
 
 19. Click the **vCPU limit (cores)** entry box.
 
-At the time this click-thru demonstration was created, the default value for vCPU cores was set to the maximum of a VDC. In the future, expect the default setting to be the minimum of 1, instead of the maximum of 2000.
+At the time this click-thru demonstration was created, the default value for vCPU cores was set to the maximum of a VDC. In the future, expect the default to be the minimum of 1, instead of the maximum of 2000.
 
 20. Click the **RAM limit (GB)** entry box.
 

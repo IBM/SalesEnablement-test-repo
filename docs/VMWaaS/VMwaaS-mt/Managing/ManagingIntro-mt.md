@@ -1,19 +1,24 @@
-There are several aspects of managing a VMware as a Service (VMwaaS) multitenant instance running on IBM Cloud. At a very high level, there are the management of the "on IBM Cloud" aspects of a VMwaaS instance and managing the virtual data center (VDC) using VMware vCloud Director (vCloud Director). 
+There are several aspects of managing a VMware as a Service (VMwaaS) multitenant instance on IBM Cloud. At a high level, these are the management of the "on IBM Cloud" aspects of a VMwaaS instance and managing the virtual data center (VDC) with VMware vCloud Director (vCloud Director). 
 
 Using the IBM Cloud portal to manage aspects of the **Virtual Data Center (VDC)** is straight forward and includes tasks like:
 
 - adding, removing, and setting limits for compute resources
-- adding and removing additional services
+  
+- adding and removing other services
+
 - adding and removing VDCs
 
-Managing the VDC is done with the VMware vCloud Director web console which is accessible through the IBM Cloud portal. These tasks will be covered in the [**Using VMwaaS** chapter](../../Using/UsingIntro.md). This aspect of management includes common VMware administrative tasks like:
+Managing the VDC is done with the VMware vCloud Director web console, which is accessible through the IBM Cloud portal. These tasks are covered in the [**Using VMwaaS** chapter](../../Using/UsingIntro.md). This aspect of management includes common VMware administrative tasks like:
 
 - adding and deleting networks, firewalls, VPNs, and network address translation (NAT) rules
+  
 - adding and deleting virtual machines (VMs), virtual applications (vApps), and affinity rules
-- managing storage policies and named disks
-- and other virtual data center capabilities exposed through the vCloud Director web console
 
-Both of these domains will be explored in this demonstration guide. When demonstrating to clients sellers are encouraged to focus on the "on the IBM Cloud" aspects of the solution.
+- managing storage policies and named disks
+
+- and other virtual data center capabilities that are exposed through the vCloud Director web console
+
+Both of these domains are explored in this demonstration guide. When demonstrating to clients, sellers are encouraged to focus on the "on the IBM Cloud" aspects of the solution.
 
 !!! Important "Read before continuing!"
 
