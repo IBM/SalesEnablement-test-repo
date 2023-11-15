@@ -10,7 +10,7 @@ The VCF instance in this click-thru demonstration was created with a **consolida
 
 1. Open the link and then click play ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
-**Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/vcf-managing/index.html" target ="_blank">Provision an instance of IBM Cloud for VMware Cloud Foundation</a>
+**Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-VMware-L3/includes/vcf-managing/index.html" target ="_blank">Provision an instance of IBM Cloud for VMware Cloud Foundation</a>
 
 2. Click the **VMware** ![](_attachments/VMicon.png) icon in the left menu bar.
 3. Click **Cloud Foundation** under **Resources** in the left menu.

@@ -21,7 +21,7 @@ In this click-thru demonstration, explore the management activities for a virtua
 
 1. Open the click-thru demo and then click play ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
-     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMwaaS-add-VDC/index.html" target ="_blank">Add a virtual data center (VDC)</a>
+     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-VMware-L3/includes/VMwaaS-add-VDC/index.html" target ="_blank">Add a virtual data center (VDC)</a>
 
 2. Click the **{{itz.VMwaaS.vdc1}}** entry in the table of VDCs.
 

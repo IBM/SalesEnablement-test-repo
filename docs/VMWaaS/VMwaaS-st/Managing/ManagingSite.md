@@ -21,7 +21,7 @@ In this click-thru demonstration, explore the management activities for a VMware
 
 1. Open the click-thru demo and then click play ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
-     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMwaaS-explore-pvdc/index.html" target ="_blank">Manage a site and Provider Virtual Data Center (PVDC)</a>
+     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-VMware-L3/includes/VMwaaS-explore-pvdc/index.html" target ="_blank">Manage a site and Provider Virtual Data Center (PVDC)</a>
 
 2. Click the **Cloud director sites (1)** tab.
 3. Click the down arrow (![](_attachments/downArrow.png)) to expand the **{{itz.VMwaaS.siteName}}** site.

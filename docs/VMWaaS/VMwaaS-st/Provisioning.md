@@ -24,7 +24,7 @@ The following module guides Business Partners and IBM sellers through the proces
 
 1. Open the click-thru demo and then click play ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
-     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMwaaS-provision-site/index.html" target ="_blank">Provision an instance of VMwaaS</a>
+     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-VMware-L3/includes/VMwaaS-provision-site/index.html" target ="_blank">Provision an instance of VMwaaS</a>
 
 2. Click the VMware (![](_attachments/VMicon.png)) icon in left-hand side navigation menu.
 3. Click the **VMware as a Service** tile (middle of the sceen).
@@ -88,7 +88,7 @@ When the provisioning process of the **site** is complete, the status turns from
 
 1. Open the click-thru demo and then click play ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
-     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMwaaS-provision-VDC/index.html" target ="_blank">Provision a virtual data center</a>
+     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-VMware-L3/includes/VMwaaS-provision-VDC/index.html" target ="_blank">Provision a virtual data center</a>
 
 2. Click the **Virtual data centers** tab.
 3. Click **Create new +**

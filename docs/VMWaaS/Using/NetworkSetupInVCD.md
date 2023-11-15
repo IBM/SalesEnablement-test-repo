@@ -27,7 +27,7 @@ In this click-thru demonstration, use VMware Cloud Director (vCloud Director or 
 
 1. Open the click-thru demo and then click play ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
-     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/VMwaaS-setupNetwork/index.html" target ="_blank">Set up the network in vCloud Director</a>
+     **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-VMware-L3/includes/includes/VMwaaS-setupNetwork/index.html" target ="_blank">Set up the network in vCloud Director</a>
 
 2. Click **Go to VMware console**.
 
