@@ -1,0 +1,126 @@
+# Project info
+site_name: IBM Power Systems Virtual Server Level 3 Demonstration Guide
+site_description: IBM Power Systems Virtual Server Sales Enablement Level 3 Demonstration Guide
+site_author: Andrew R. Jones (andrewj@us.ibm.com)
+copyright: Copyright &copy; 2022 IBM
+
+# Repository
+repo_name: IBM/SalesEnablement-PowerVS-L3
+#repo_url: https://github.com/IBM/SalesEnablement-PowerVS-L3
+#edit_uri: edit/master/docs
+docs_dir: docs
+
+
+nav:
+  - Introduction: 'index.md'
+  - Part 1 - Overview:
+    - 'Introduction': 'Part 1/01 Introduction.md'
+  - Part 2 - Provisioning a PowerVS workspace:
+    - 'Introduction': 'Part 2/01 Introduction.md'
+    - 'Watch a service being provisioned': 'Part 2/02 Watch-service.md'
+    - 'Click through demonstration of a workspace being provisioned': 'Part 2/03 Clickthru-service.md'
+  - Part 3 - Provisioning a PowerVS instance:
+    - 'Introduction': 'Part 3/01 Introduction.md'
+    - 'Watch a instance being provisioned': 'Part 3/02 Watch-instance.md'
+    - 'Click through demonstration of a service instance being provisioned': 'Part 3/03 Clickthru-instance.md'
+  - Part 4 - Managing PowerVS instances:
+    - 'Introduction': 'Part 4/01 Introduction.md'
+    - 'Managing instances': 'Part 4/02 Explore-managing-instances.md'
+  - Part 5 - Accessing PowerVS instances:
+    - 'Introduction': 'Part 5/01 Introduction.md'
+    - 'Access an instance': 'Part 5/02 Access-instance.md'
+  - Part 6 - Explore other PowerVS topics:
+    - 'Introduction': 'Part 6/01 Introduction.md'
+    - 'Server placement groups': 'Part 6/02 ServerPlacementGroups.md'
+    - 'Storage volumes, boot volumes, and images': 'Part 6/03 Volumes.md'
+    - 'Subnets, Cloud connections, and VPN connections': 'Part 6/04 Subnets.md'
+    - 'Additional services catalog': 'Part 6/05 AdditionalServices.md'
+  - Part 7 - Use the PowerVS command line interfaces (CLI):
+    - 'Introduction': 'Part 7/01 Introduction.md'
+    - 'Command line exercises': 'Part 7/02 CLIs.md'
+  - Part 8 - Next steps:
+    - 'Next steps': 'Part 8/01 Next steps.md'
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - content.code.annotate
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+plugins:
+    - mkdocs-video
+    - macros
+    - search
+
+markdown_extensions:
+  - sane_lists
+  - pymdownx.details
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+  - attr_list
+
+extra:
+  generator: false
+  supportEmail: "andrewj@us.ibm.com"
+  supportSlack: 
+    name: "#cloud-platform-demo-feedback"
+    url: "https://ibm-technology-sales.slack.com/archives/C03PQ47KRQE"
+  learningplan:
+    name: "IBM Power Systems Virtual Server - Level 3"
+    url: "https://yourlearning.ibm.com/activity/PLAN-7D757C8B58E7"
+  offering:
+    name: "IBM Power Systems Virtual Server"
+  guide:
+    name: "IBM Power Systems Virtual Server - Level 3 Demonstration Guide"
+    url: "https://ibm.github.io/SalesEnablement-PowerVS-L3/"
+  tz_environment:
+    name: "IBM Power Systems Virtual Server - Sales Enablment L3"
+    url: "https://techzone.ibm.com/my/reservations"
+#  account: "2435442 - ITZ - Satellite"
+  account: "2305900 - ITZ - ADHOC03"
+  powerVS:
+    serviceInstanceName: "PowerVS-L3-workspace"
+    serviceInstanceRG: "PowerVS-L3"
+    serviceInstanceLocation: "Dallas"
+    placementGroup1: "AffinityGroup"
+    placementGroup2: "AntiAffinityGroup"
+    sshKey: "PowerVS-key"
+  aixServer1:
+    name: "AIX-vm-1"
+    privateIP: "192.168.130.110"
+    publicIP: "169.59.159.92"
+    additonalVolumeName: "aix-volume-1"
+  aixServer2:
+    name: "AIX-vm-2"
+    privateIP: "192.168.130.106"
+    publicIP: "169.59.174.14"
+    additonalVolumeName: "aix-volume-2"
+  rhServer1:
+    name: "RH-vm-1"
+    privateIP: "192.168.130.107"
+    publicIP: "169.59.174.12"
+    additonalVolumeName: "rh-volume-1-39907-1"
+    additonalVolumeName2: "rh-volume-1-39907-2"
+  rhServer2:
+    name: "RH-vm-2"
+    privateIP: "192.168.130.108"
+    publicIP: "169.59.174.13"
+    additonalVolumeName: "rh-volume-2"
