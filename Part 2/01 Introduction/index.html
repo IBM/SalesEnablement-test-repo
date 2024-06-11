@@ -6,14 +6,14 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="IBM Power Systems Virtual Server Sales Enablement Level 3 Demonstration Guide">
+        <meta name="description" content="IBM Power Virtual Server Sales Enablement Level 3 Demonstration Guide">
       
       
         <meta name="author" content="Andrew R. Jones (andrewj@us.ibm.com)">
       
       
       
-        <link rel="prev" href="../../Part%201/01%20Introduction/">
+        <link rel="prev" href="../../Part%201/02%20Reserve/">
       
       
         <link rel="next" href="../02%20Watch-service/">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Introduction - IBM Power Systems Virtual Server Level 3 Demonstration Guide</title>
+        <title>Introduction - IBM Power Virtual Server Level 3 Demonstration Guide</title>
       
     
     
@@ -90,7 +90,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="IBM Power Systems Virtual Server Level 3 Demonstration Guide" class="md-header__button md-logo" aria-label="IBM Power Systems Virtual Server Level 3 Demonstration Guide" data-md-component="logo">
+    <a href="../.." title="IBM Power Virtual Server Level 3 Demonstration Guide" class="md-header__button md-logo" aria-label="IBM Power Virtual Server Level 3 Demonstration Guide" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -104,7 +104,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            IBM Power Systems Virtual Server Level 3 Demonstration Guide
+            IBM Power Virtual Server Level 3 Demonstration Guide
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -208,13 +208,13 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="IBM Power Systems Virtual Server Level 3 Demonstration Guide" class="md-nav__button md-logo" aria-label="IBM Power Systems Virtual Server Level 3 Demonstration Guide" data-md-component="logo">
+    <a href="../.." title="IBM Power Virtual Server Level 3 Demonstration Guide" class="md-nav__button md-logo" aria-label="IBM Power Virtual Server Level 3 Demonstration Guide" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
     </a>
-    IBM Power Systems Virtual Server Level 3 Demonstration Guide
+    IBM Power Virtual Server Level 3 Demonstration Guide
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -285,6 +285,26 @@
   
   <span class="md-ellipsis">
     Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Part%201/02%20Reserve/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reserver the environment
   </span>
   
 
@@ -1005,25 +1025,22 @@
 
   <h1>Introduction</h1>
 
-<div><p>Note, in the video that follows, the term <strong>PowerVS service</strong> is used. <strong>PowerVS service</strong> has been replaced with the term <strong>PowerVS workspace</strong>.</p>
-<p><div class="video-container"><iframe src="../_videos/IBM%20Power%20Systems%20Virtual%20Server%20Level%203%20-%20Part%202.mp4" style="position:relative;width:100%;height:22.172vw" frameborder="0" allowfullscreen alt="type:video"></iframe></div></p>
-<div class="admonition tip">
-<p class="admonition-title">Ways to Watch</p>
-<p>In addition to the embedded video, IBMers and Business Partners can also <a href="https://ibm.seismic.com/Link/Content/DC7MhCMFHqdF384HP8b4dXgRMqhG" target="_blank">download the recording from Seismic</a>.</p>
-</div>
-<p>Power Systems Virtual Servers are located across IBM data centers, distinct from the IBM Cloud servers with separate networks and direct-attached storage. These environments operate in their own pod and the internal networks are fenced; however, they still offer connectivity options to meet customer requirements, including public internet. This carefully calibrated infrastructure enables Power Systems Virtual Server to maintain key enterprise software certification and support that customers would receive with on-premises infrastructure, but with the added flexibility and capabilities that come from an IBM Cloud deployment.</p>
-<p>The IBM Power Systems Virtual Server <strong>workspace</strong> (formerly known as a <strong>service</strong>), allows users to quickly create and deploy one or more virtual servers (that are running either the AIX, IBM i, or Linux operating systems). After provisioning the Power Systems Virtual Server, users get access to infrastructure and physical computing resources without the need to manage or operate them. However, users must manage the operating system and the software applications and data. Given that this course is primarily a demonstration of infrastructure as a service, the guide does not delve deeply into the application layer or the day to day administrative tasks. The guide will explore the fundamentals of working with AIX and Linux atop of IBM Power Systems Virtual Server.</p>
-<p>Before creating a PowerVS virtual server, understand the difference in terminology between a PowerVS <strong>workspace</strong> and a PowerVS <strong>instance</strong>. Think of the PowerVS <strong>workspace</strong> as a container for all PowerVS instances at a specific geographic region. PowerVS <strong>instances</strong> are virtual machines (VMs). The service is available from the Resource List in the IBM Cloud Portal. For example, a Cloud account can have multiple PowerVS workspace: one in Dallas, Texas, and another in Washington, D.C. Each service can contain multiple instances. A workspace must be associated with an IBM Cloud resource group which helps in grouping resources and assigning permissions. To learn more, refer to <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-getting-started" target="_blank">Getting Started with IBM Power Systems Virtual Server</a>.</p>
+<div><p>The IBM Power servers used by IBM Power Virtual Server are located in IBM data centers, distinct from the IBM Cloud servers with separate networks and direct-attached storage. These environments operate in their own environment and the internal networks are fenced; however, they still offer connectivity options to meet customer requirements, including public internet. This carefully calibrated infrastructure enables Power Virtual Server (PowerVS) to maintain key enterprise software certification and support that customers would receive with on-premises infrastructure, but with the added flexibility and capabilities that come from an IBM Cloud deployment.</p>
+<p>The IBM Power Systems Virtual Server <strong>workspace</strong> (formerly known as a <strong>service</strong>), allows users to quickly create and deploy one or more virtual server instances (that are running either the AIX, IBM i, or Linux operating systems). After provisioning a PowerVS virtual server instance (VSI or may also be referred to as a virtual machine (VM)), users get access to VSI without the need to manage or operate the physical servers. However, users must manage the operating system, software applications, and data. Given that this course is primarily a demonstration of infrastructure as a service, the guide does not delve deeply into the application layer or the day to day administrative tasks. The guide will explore the fundamentals of working with PowerVS VSIs.</p>
+<p>Before creating a PowerVS virtual server, understand the difference in terminology between a PowerVS <strong>workspace</strong> and a PowerVS <strong>instance</strong>. Think of the PowerVS <strong>workspace</strong> as a container for all PowerVS instances at a specific geographic region. PowerVS <strong>instances</strong> are virtual machines (VMs). The service is available from the Resource List in the IBM Cloud Portal. For example, a Cloud account can have multiple PowerVS workspaces: one in Dallas, Texas, and another in Washington, D.C. Each service can contain multiple VSIs (aka VMs). A workspace must be associated with an IBM Cloud resource group which helps in grouping resources and assigning permissions. To learn more, refer to <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-getting-started" target="_blank">Getting Started with IBM Power Virtual Server</a>.</p>
 <p>The key parameters for a PowerVS service are:</p>
 <ul>
 <li>
-<p><strong>Datacenter location</strong>: As of August 2022, PowerVS is co-located with 15 IBM Cloud datacenters located around the world. When selecting a datacenter, consider choosing the datacenter located nearest the majority of the end users that will be accessing the workloads running in PowerVS.</p>
+<p><strong>Datacenter location</strong>: As of June 2024, PowerVS is co-located with 21 IBM Cloud datacenters located around the world. When selecting a datacenter, consider choosing the datacenter located nearest the majority of the end users that will be accessing the workloads running in PowerVS.</p>
 </li>
 <li>
-<p><strong>workspace name</strong>: The PowerVS workspace name will appear in the IBM Cloud Portal under the provisioned workspace. Specify a name that is easily understood and recognized.</p>
+<p><strong>Workspace name</strong>: The PowerVS workspace name will appear in the IBM Cloud Portal under the provisioned workspace. Specify a name that is easily understood and recognized.</p>
 </li>
 <li>
 <p><strong>Resource group</strong>: Resource groups are used to organize resources in an IBM Cloud account. Administrative and access rights for all PowerVS resources are associated with the PowerVS workspace and not individual PowerVS instances (VMs). Once a PowerVS workspace is assigned to a resource group, the resource group cannot be changed.</p>
+</li>
+<li>
+<p><strong>Integrations</strong>: Optional integrations are also available from IBM Cloud. As of June 2024, the only integration available is with IBM Cloud Monitoring. IBM Cloud Monitoring allows users to gain visibility into the resources (VSIs) in the workspace.</p>
 </li>
 </ul>
 <p>In the chapter to follow, view a video of a PowerVS server being provisioned and replicate the steps taken using a click-through guided demonstration.</p></div>
