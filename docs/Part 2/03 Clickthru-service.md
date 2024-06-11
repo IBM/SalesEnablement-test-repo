@@ -7,7 +7,7 @@ Note, fields that require a text entry (e.g. workspace name) are pre-populated i
 
 1. Open the link below and then click the play button ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
-    **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-PowerVS-L3/includes/Provisioning-a-Workspace/index.html" target ="_blank">Create an IBM Power Virtual Server workspace</a>
+    **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/Provisioning-a-Workspace/index.html" target ="_blank">Create an IBM Power Virtual Server workspace</a>
 
 2. Click **Catalog** in the top menu bar.
 3. Click in the **Search the catalog...** text entry field.
