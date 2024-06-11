@@ -1,5 +1,5 @@
 # SalesEnablement-PowerVS-L3
-This repository is for IBM Sales Enablement Level 3 content for IBM Power Systems Virtual Server.
+This repository is for IBM Sales Enablement Level 3 content for IBM Power Virtual Server (PowerVS).
 
 **ITZ Collection:** https://techzone.ibm.com/collection/ibm-power-systems-virtual-server-level-3
 
@@ -44,7 +44,7 @@ Apparently the max MTU PowerVS VSIs is 1476, however this worked for the first y
 
 Verify the following resources are available in the account:
 
-**PowerVS Workspace:** PowerVS-L3-workspace
+**PowerVS Workspace:** PowerVS-L3-2024
 **PowerVS Virtual Machines (VMs):** AIX-vm-1, AIX-vm-2, RH-vm-1, RH-vm-2 (these are all provisioned in the above workspace)
 **Boot images:** RH-golden-boot-image, AIX-golden-boot-image (these are only used as examples for users to view)
 

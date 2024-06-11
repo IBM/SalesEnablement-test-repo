@@ -1,6 +1,6 @@
 # Project info
-site_name: IBM Power Systems Virtual Server Level 3 Demonstration Guide
-site_description: IBM Power Systems Virtual Server Sales Enablement Level 3 Demonstration Guide
+site_name: IBM Power Virtual Server Level 3 Demonstration Guide
+site_description: IBM Power Virtual Server Sales Enablement Level 3 Demonstration Guide
 site_author: Andrew R. Jones (andrewj@us.ibm.com)
 copyright: Copyright &copy; 2022 IBM
 
@@ -15,6 +15,7 @@ nav:
   - Introduction: 'index.md'
   - Part 1 - Overview:
     - 'Introduction': 'Part 1/01 Introduction.md'
+    - 'Reserver the environment': 'Part 1/02 Reserve.md'
   - Part 2 - Provisioning a PowerVS workspace:
     - 'Introduction': 'Part 2/01 Introduction.md'
     - 'Watch a service being provisioned': 'Part 2/02 Watch-service.md'
@@ -84,43 +85,42 @@ extra:
     name: "#cloud-platform-demo-feedback"
     url: "https://ibm-technology-sales.slack.com/archives/C03PQ47KRQE"
   learningplan:
-    name: "IBM Power Systems Virtual Server - Level 3"
+    name: "IBM Power Virtual Server for Technical Sales- Level 3"
     url: "https://yourlearning.ibm.com/activity/PLAN-7D757C8B58E7"
   offering:
-    name: "IBM Power Systems Virtual Server"
+    name: "IBM Power Virtual Server"
   guide:
-    name: "IBM Power Systems Virtual Server - Level 3 Demonstration Guide"
+    name: "IBM Power Virtual Server - Level 3 Demonstration Guide"
     url: "https://ibm.github.io/SalesEnablement-PowerVS-L3/"
   tz_environment:
-    name: "IBM Power Systems Virtual Server - Sales Enablment L3"
+    name: "IBM Power Virtual Server - Sales Enablment L3"
     url: "https://techzone.ibm.com/my/reservations"
-#  account: "2435442 - ITZ - Satellite"
   account: "2305900 - ITZ - ADHOC03"
   powerVS:
-    serviceInstanceName: "PowerVS-L3-workspace"
+    serviceInstanceName: "PowerVS-L3-2024"
     serviceInstanceRG: "PowerVS-L3"
     serviceInstanceLocation: "Dallas"
-    placementGroup1: "AffinityGroup"
-    placementGroup2: "AntiAffinityGroup"
+    placementGroup1: "GroupTogether"
+    placementGroup2: "GroupApart"
     sshKey: "PowerVS-key"
   aixServer1:
-    name: "AIX-vm-1"
+    name: "AIX-1"
     privateIP: "192.168.130.110"
     publicIP: "169.59.159.92"
-    additonalVolumeName: "aix-volume-1"
+    additonalVolumeName: "aix-v1"
   aixServer2:
-    name: "AIX-vm-2"
+    name: "AIX-2"
     privateIP: "192.168.130.106"
     publicIP: "169.59.174.14"
-    additonalVolumeName: "aix-volume-2"
+    additonalVolumeName: "aix-v2"
   rhServer1:
-    name: "RH-vm-1"
+    name: "RH-1"
     privateIP: "192.168.130.107"
     publicIP: "169.59.174.12"
-    additonalVolumeName: "rh-volume-1-39907-1"
-    additonalVolumeName2: "rh-volume-1-39907-2"
+    additonalVolumeName: "rh-v1"
+    additonalVolumeName2: "rh-v1-2"
   rhServer2:
     name: "RH-vm-2"
     privateIP: "192.168.130.108"
     publicIP: "169.59.174.13"
-    additonalVolumeName: "rh-volume-2"
+    additonalVolumeName: "rh-v2"
