@@ -1137,7 +1137,7 @@
 <ol>
 <li>
 <p>Open the link below and then click the play button <img alt="" src="../_attachments/ClickThruPlayButton.png"> to begin the demonstration.</p>
-<p><strong>Click-thru demo:</strong> <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/Provision-AIXVM/index.html" target="_blank">Create an IBM Power Virtual Server Instance</a></p>
+<p><strong>Click-thru demo:</strong> <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/Provision-LinuxVM/index.html" target="_blank">Create a Linux IBM Power Virtual Server Instance</a></p>
 </li>
 <li>
 <p>Click <strong>PowerVS-L3-2024</strong> in <strong>Workspaces</strong> table.</p>
@@ -1163,19 +1163,17 @@
 <p>The next steps refer to the entries in the <strong>Boot image</strong> section of the <strong>Create virtual server instance</strong> form.</p>
 <ol start="17">
 <li>Click the <strong>Select OS</strong> pull-down.</li>
-<li>Click <strong>AIX</strong>.</li>
-<li>Click the <strong>Configure for Epic workloads</strong> information icon (<img alt="" src="../_attachments/infoIcon.png">).</li>
-<li>Click the information pop-up to dismiss it.</li>
+<li>Click <strong>Linux</strong>.</li>
 <li>Click the <strong>Select image</strong> pull-down.</li>
-<li>Click <strong>7300-02-01</strong>.</li>
+<li>Click <strong>RHEL9-SP2</strong>.</li>
 <li>Click the <strong>Tier</strong> pull-down (it will already be set to <strong>Tier3 (3 IOPs/GB)</strong>).</li>
 <li>Click <strong>Tier 3 (3 IPOs/GB)</strong>.</li>
 <li>Click the <strong>Continue</strong> button under the <strong>Boot image</strong> section.</li>
 </ol>
 <p>The next steps refer to the entries in the <strong>Profile</strong> section of the <strong>Create virtual server instance</strong> form.</p>
-<ol start="26">
+<ol start="24">
 <li>Click the <strong>Select machine type</strong> pull-down.</li>
-<li>Click <strong>s922</strong>.</li>
+<li>Click <strong>s1022</strong>.</li>
 <li>Click the <strong>Core type</strong> information icon (<img alt="" src="../_attachments/infoIcon.png">).</li>
 <li>Click the information pop-up to dismiss it.</li>
 <li>Click the <strong>Cores</strong> information icon (<img alt="" src="../_attachments/infoIcon.png">).</li>
@@ -1183,19 +1181,19 @@
 <li>Click the <strong>Continue</strong> button under the <strong>Profile</strong> section.</li>
 </ol>
 <p>The next steps refer to the entries in the <strong>Storage volumes</strong> section of the <strong>Create virtual server instance</strong> form.</p>
-<ol start="33">
+<ol start="31">
 <li>Click the <strong>Create volume +</strong> button.</li>
 <li>Click in the <strong>Name in VSI</strong> text entry field.</li>
 <li>Click <strong>+</strong> to increase the size of the volume to 2GB.</li>
 <li>Click the <strong>Tier</strong> pull-down (it will already be set to <strong>Tier3 (3 IOPs/GB)</strong>).</li>
-<li>Click <strong>Tier 3 (3 IPOs/GB)</strong>.</li>
+<li>Click <strong>Tier 3 (3 IOPs/GB)</strong>.</li>
 <li>Toggle the <strong>Shareable</strong>  button to <strong>On</strong>.</li>
 <li>Click the <strong>Create and attach</strong> button.</li>
 <li>Click the <strong>Continue</strong> button under the <strong>Storage volumes</strong> section.</li>
 </ol>
 <p>The next steps refer to the entries in the <strong>Network interfaces</strong> section of the <strong>Create virtual server instance</strong> form.</p>
 <p>Note: for this demonstration, the instance will be provisioned using a public network (Internet facing). Using the public network makes demonstrating access to instances easy, but most production deployments of PowerVS will utilize private networks and control access using Direct Link, Virtual Private Network (VPN), or Megaport Software Defined Network (SDN). To learn more about PowerVS networking options, look <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a>.</p>
-<ol start="41">
+<ol start="39">
 <li>Toggle the <strong>Public networks</strong> button to <strong>On</strong>.</li>
 <li>Click the <strong>Attach +</strong> button.</li>
 <li>Click the <strong>Select Network</strong> pull-down.</li>
