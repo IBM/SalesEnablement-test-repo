@@ -951,7 +951,7 @@
             
   
   <span class="md-ellipsis">
-    Part 8 - Next steps
+    Part 8 - Monitoring PowerVS resources
   </span>
   
 
@@ -961,7 +961,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
-            Part 8 - Next steps
+            Part 8 - Monitoring PowerVS resources
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -971,7 +971,70 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Part%208/01%20Next%20steps/" class="md-nav__link">
+      <a href="../../Part 8/01 Introduction.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Part 9 - Next steps
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Part 9 - Next steps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Part%209/01%20Next%20steps/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1026,7 +1089,7 @@
   <h1>Introduction</h1>
 
 <div><p>The IBM Power servers used by IBM Power Virtual Server are located in IBM data centers, distinct from the IBM Cloud servers with separate networks and direct-attached storage. These environments operate in their own environment and the internal networks are fenced; however, they still offer connectivity options to meet customer requirements, including public internet. This carefully calibrated infrastructure enables Power Virtual Server (PowerVS) to maintain key enterprise software certification and support that customers would receive with on-premises infrastructure, but with the added flexibility and capabilities that come from an IBM Cloud deployment.</p>
-<p>The IBM Power Systems Virtual Server <strong>workspace</strong> (formerly known as a <strong>service</strong>), allows users to quickly create and deploy one or more virtual server instances (that are running either the AIX, IBM i, or Linux operating systems). After provisioning a PowerVS virtual server instance (VSI or may also be referred to as a virtual machine (VM)), users get access to VSI without the need to manage or operate the physical servers. However, users must manage the operating system, software applications, and data. Given that this course is primarily a demonstration of infrastructure as a service, the guide does not delve deeply into the application layer or the day to day administrative tasks. The guide will explore the fundamentals of working with PowerVS VSIs.</p>
+<p>The IBM Power Virtual Server <strong>workspace</strong> allows users to quickly create and deploy one or more virtual server instances (that are running either the AIX, IBM i, or Linux operating systems). After provisioning a PowerVS virtual server instance (VSI or may also be referred to as a virtual machine (VM)), users get access to VSI without the need to manage or operate the physical servers. However, users must manage the operating system, software applications, and data. Given that this course is primarily a demonstration of infrastructure as a service, the guide does not delve deeply into the application layer or the day to day administrative tasks. The guide will explore the fundamentals of working with PowerVS VSIs using the IBM Cloud Portal and command line interfaces (CLIs).</p>
 <p>Before creating a PowerVS virtual server, understand the difference in terminology between a PowerVS <strong>workspace</strong> and a PowerVS <strong>instance</strong>. Think of the PowerVS <strong>workspace</strong> as a container for all PowerVS instances at a specific geographic region. PowerVS <strong>instances</strong> are virtual machines (VMs). The service is available from the Resource List in the IBM Cloud Portal. For example, a Cloud account can have multiple PowerVS workspaces: one in Dallas, Texas, and another in Washington, D.C. Each service can contain multiple VSIs (aka VMs). A workspace must be associated with an IBM Cloud resource group which helps in grouping resources and assigning permissions. To learn more, refer to <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-getting-started" target="_blank">Getting Started with IBM Power Virtual Server</a>.</p>
 <p>The key parameters for a PowerVS service are:</p>
 <ul>
