@@ -39,8 +39,10 @@ nav:
   - Part 7 - Use the PowerVS command line interfaces (CLI):
     - 'Introduction': 'Part 7/01 Introduction.md'
     - 'Command line exercises': 'Part 7/02 CLIs.md'
-  - Part 8 - Next steps:
-    - 'Next steps': 'Part 8/01 Next steps.md'
+  - Part 8 - Monitoring PowerVS resources:
+    - 'Introduction': 'Part 8/01 Introduction.md'
+  - Part 9 - Next steps:
+    - 'Next steps': 'Part 9/01 Next steps.md'
 
 theme:
   name: material
@@ -99,28 +101,28 @@ extra:
   powerVS:
     serviceInstanceName: "PowerVS-L3-2024"
     serviceInstanceRG: "PowerVS-L3"
-    serviceInstanceLocation: "Dallas"
+    serviceInstanceLocation: "WDC07"
     placementGroup1: "GroupTogether"
     placementGroup2: "GroupApart"
     sshKey: "PowerVS-key"
+    privateSubnet: "private-powervs-2024"
+    privateSubnetCIDR: "192.168.100.0/24"
+    privateSubnetGW: "192.168.100.15"
+    privateSubnetDNS: "127.0.0.1"
   aixServer1:
-    name: "AIX-1"
+    name: "AIX-VM"
     privateIP: "192.168.130.110"
     publicIP: "169.59.159.92"
-    additonalVolumeName: "aix-v1"
-  aixServer2:
-    name: "AIX-2"
+    additionalVolumeName: "aix-av1"
+  linuxServer1:
+    name: "Linux-VM"
     privateIP: "192.168.130.106"
     publicIP: "169.59.174.14"
-    additonalVolumeName: "aix-v2"
-  rhServer1:
-    name: "RH-1"
+    additionalVolumeName: "linux-av1"
+  ibmiServer1:
+    name: "IBMi-VM"
     privateIP: "192.168.130.107"
     publicIP: "169.59.174.12"
-    additonalVolumeName: "rh-v1"
-    additonalVolumeName2: "rh-v1-2"
-  rhServer2:
-    name: "RH-vm-2"
-    privateIP: "192.168.130.108"
-    publicIP: "169.59.174.13"
-    additonalVolumeName: "rh-v2"
+    additionalVolumeName: "ibmi-av1"
+
+

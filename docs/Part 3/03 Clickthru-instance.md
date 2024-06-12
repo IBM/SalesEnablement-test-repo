@@ -7,7 +7,7 @@ Note, fields that require a text entry (e.g. instance name) are pre-populated in
 
 1. Open the link below and then click the play button ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
-    **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-PowerVS-L3/includes/Provisioning-an-Instance/index.html" target ="_blank">Create an IBM Power Virtual Server Instance</a>
+    **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/Provisioning-an-Instance/index.html" target ="_blank">Create an IBM Power Virtual Server Instance</a>
 
 2. Click **Virtual server instances** in left-hand menu.
 3. Click the **Create instance+** button.

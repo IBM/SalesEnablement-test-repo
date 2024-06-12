@@ -1,8 +1,4 @@
-![type:video](./_videos/IBM Power Systems Virtual Server Level 3 - Part 3.mp4)
-!!! tip "Ways to Watch"
-    In addition to the embedded video, IBMers and Business Partners can also <a href="https://ibm.seismic.com/Link/Content/DC4FdB8T2dBCGGTTfc9f97JRXDQ8" target="_blank">download the recording from Seismic</a>.
-
-IBM Systems Virtual Servers are located in the IBM data centers, distinct from the IBM Cloud servers with separate networks and direct-attached storage. The environment is in its own pod and the internal networks are fenced but offer connectivity options to meet customer requirements. This infrastructure design enables IBM Power Systems Virtual Server to maintain key enterprise software certification and support as the PowerVS architecture is identical to certified on-premises infrastructure. The virtual servers, also known as instances, logical partitions (LPAR), or virtual machines (VMs) run on IBM Power Systems hardware with the PowerVM hypervisor.
+The IBM Power Virtual Server (PowerVS) physical servers are located in IBM data centers, distinct from the IBM Cloud servers. They have separate networks and direct-attached storage. The environment is in its own pod and the internal networks are fenced but offer connectivity options to meet client requirements. This infrastructure design enables PowerVS to maintain key enterprise software certification and support as the PowerVS architecture is identical to certified on-premises infrastructure. The virtual servers, also known as instances, logical partitions (LPAR), or virtual machines (VMs) run on IBM Power hardware with the PowerVM hypervisor.
 
 The key parameters for a PowerVS instance are:
 
@@ -18,11 +14,11 @@ The key parameters for a PowerVS instance are:
 
 - **OS image**: Users have the ability to choose an operating system image from the PowerVS image catalog or users can bring their own image. Each supported OS has a specific set of images in the PowerVS catalog for supported OS versions. Each instance is provisioned with a boot volume using the storage tier selected.
 
-- **Storage tier**: PowerVS supports both Tier 1 and Tier 3 storage. Tier 1 provides a maximum of 10 input/output operations per second (IOPs) per GB, while Tier 3 provides a maximum of 3 IOPS/GB. Tier 3 storage should only be utilized for non-production workloads.
+- **Storage tier**: PowerVS supports 4 tiers of storage. Tier 3 provides a maximum of 3 input/output operations per second (IOPs) per gigabyte (GB). Tier 1 provides a maximum of 10 IOPs/GB. Tier 0 provides a maximum of 25 IOPs/GB. The Fixed IOPs tier provides 5,000 IOPs regardless of size; however, the Fixed IOPs tier is limited to volumes with a size of 200 GB or less.
 
 - **Storage pool affinity**: Three storage pool affinity options are available: auto-select, affinity, and anti-affinity. The affinity option requires the boot volume to be placed in the same pool as another existing instance or existing boot volume. The new storage volume(s) for the instance will be placed in the same storage pool where the affinity object resides. The anti-affinity specifies a different pool should be used from that of another existing instance or existing boot volume.
 
-- **Machine type**: Two IBM Power Systems machine types are supported: s922 and e980. Learn more about these s922 <a href="https://www.ibm.com/products/power-system-s922" target="_blank">here</a> and the e980 <a href="https://www.ibm.com/products/power-system-e980" target="blank">here</a>.
+- **Machine type**: Several IBM Power 9 and IBM Power 10 machine types are supported by the offering. Availability of machine types vary by datacenter. Learn more about the hardware specifications available <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-about-power-iaas#hardware-specifications-on-cloud" target="_blank">here</a>.
 
 - **Core type**: PowerVS supports shared uncapped, shared capped, and dedicated cores. Shared uncapped cores are shared among other clients. Shared capped cores are shared, but resources do not expand beyond those that are requested (used mostly for licensing). Dedicated cores are allocated for a specific client (used for specific third-party licensing considerations). Learn more about core types <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-power-iaas-faqs#processor" target="_blank">here</a>.
 
@@ -30,7 +26,7 @@ The key parameters for a PowerVS instance are:
 
 - **Amount of memory**: PowerVS instances must be provisioned with a minimum of 2GB of random access memory (RAM). The maximum amount of memory varies based upon machine type and availability in the selected location. If greater than 64GB RAM per core is specified, a higher price is charged.
 
-- **Additional storage volumes**: When provisioning a new instance, for additional storage, a new data volume can be created or an existing volume can be attached. Any storage volume added at this time will use the same storage tier as the boot volume specified earlier.
+- **Additional storage volumes**: When provisioning a new instance, for additional storage, a new data volume can be created. The size of a volume cannot be decreased once it has been created. The maximum size of a volume that can be created is 238,193 GB. When creating an additional volume, and available storage tier can be specified. The volume can also be marked as shareable or non-shareable (default). If an additional volume is created while creating a VM, the additional volume is created in the same storage pool as the boot volume for the VM.
 
 - **Networking**: PowerVS instances will always be attached to a private network and can optionally be attached to a public, Internet accessible network. Use private networks to connect to existing subnets or go a new subnet can be created. Learn more about PowerVS networking <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a>.
 
