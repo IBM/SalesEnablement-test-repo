@@ -88,19 +88,19 @@ Thus far, all of these commands have been **read** commands. The PowerVS CLIs al
 **Hint**: Business Partners should record the value of the **Storage Pool Affinity** field in the output from the above command.
 
 
-11. Recall that our Power environment consists of a total of 4 PowerVM instances: AIX-vm-1, AIX-vm-2, RH-vm-1, and RH-vm2. Up until now we've primarily been issuing instructions to perform work against AIX-vm-1. Given that the testing environment is primarily limited to read-only actions, let's inspect one of the other VMs and determine what (if any) differences exist between the various instances.
+11. Recall that our Power environment consists of a total of 3 PowerVM instances: {{aixServer1.name}}, {{linuxServer1.name}}, and {{ibmiServer1.name}}. Up until now we've primarily been issuing instructions to perform work against {{aixServer1.name}}. Given that the testing environment is primarily limited to read-only actions, let's inspect one of the other VMs and determine what (if any) differences exist between the various instances.
 
 Issue the following command to the IBM Cloud Shell:
 ```
-ibmcloud pi instance RH-vm-1
+ibmcloud pi instance {{linuxServer1.name}}
 ```
 
 And then issue a second command:
 ```
-ibmcloud pi instance AIX-vm-1
+ibmcloud pi instance {{aixServer1.name}}
 ```
 
-Notice that the two tables are nearly identical, save for a single field at the bottom of the AIX-vm-1 inspection output.
+Notice that the two tables are nearly identical, save for a single field at the bottom of the {{aixServer1.name}} inspection output.
 
 12. There are numerous reasons why one might want to generate an SSH private key for managing a PowerVS environment. In fact, that's exactly what the service's administrators did in order to authorize access to the PowerVS instance — recall first connecting to the PowerVS virtual machines remotely via the IBM Cloud Shell with the supplied key information.
 
@@ -128,10 +128,10 @@ ibmcloud pi keyc newKeyPOWER --key newKey
 As expected, the instruction fails to execute because of insufficient (locked down) permissions within this testing environment. Next, experiment with other IBM Power CLIs. Many instructions and commands will meet with similar results, but it nevertheless is good practice given that there is no risk to the system within this sandbox environment.
 
 
-13. Restart the **{{rhServer1.name}}** instance.
+13. Restart the **{{linuxServer1.name}}** instance.
 
 ```
-ibmcloud pi instance-soft-reboot {{rhServer1.name}}
+ibmcloud pi instance-soft-reboot {{linuxServer1.name}}
 ```
 
 !!! info "Sample output"
