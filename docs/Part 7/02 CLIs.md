@@ -140,4 +140,4 @@ ibmcloud pi instance-soft-reboot {{linuxServer1.name}}
 
 There are over 100 PowerVS CLIs. Feel free to explore these using the TechZone environment. Remember, use ```ibmcloud pi --help``` or ```ibmcloud pi <command> --help``` to get detailed information on a command's usage.
 
-This concludes the final part of the {{offering.name}} demonstration script. Proceed to [**Part 8 - Next steps**](../Part 8/01 Next steps.md) for more information on completing the {{learningplan.name}} badge.
+This concludes the final part of the {{offering.name}} demonstration script. Proceed to [**Part 8 - Next steps**](../Part 9/01 Next steps.md) for more information on completing the {{learningplan.name}} badge.

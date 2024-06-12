@@ -90,4 +90,4 @@ Use the ```ssh -i ssh_private_key.pem UserName@IPaddress``` command to connect t
 
 Technical sellers should proceed to Part 6 and explore PowerVS server placement groups, volumes, subnets, and additional services.
 
-That concludes the required parts of the demonstration script for IBM and Business Partners Sales. All are encouraged to complete Parts 6 and 7, but at this time IBM and Business Partners Sales may skip to [**Part 8 - Next steps**](../Part 8/01 Next steps.md).
+That concludes the required parts of the demonstration script for IBM and Business Partners Sales. All are encouraged to complete Parts 6 and 7, but at this time IBM and Business Partners Sales may skip to [**Part 8 - Next steps**](../Part 9/01 Next steps.md).
