@@ -24,8 +24,8 @@ nav:
     - 'Introduction': 'Part 3/01 Introduction.md'
     - 'Watch a instance being provisioned': 'Part 3/02 Watch-instance.md'
     - 'Click through provisioning demonstration - AIX': 'Part 3/03 Clickthru-AIXvsi.md'
-    - 'Click through provisioning demonstration - AIX': 'Part 3/04 Clickthru-Linuxvsi.md'
-    - 'Click through provisioning demonstration - AIX': 'Part 3/05 Clickthru-IBMivsi.md'
+    - 'Click through provisioning demonstration - Linux': 'Part 3/04 Clickthru-Linuxvsi.md'
+    - 'Click through provisioning demonstration - IBM i': 'Part 3/05 Clickthru-IBMivsi.md'
   - Part 4 - Managing PowerVS instances:
     - 'Introduction': 'Part 4/01 Introduction.md'
     - 'Managing instances': 'Part 4/02 Explore-managing-instances.md'
