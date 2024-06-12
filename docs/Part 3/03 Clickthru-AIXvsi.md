@@ -56,7 +56,7 @@ The next steps refer to the entries in the **Storage volumes** section of the **
 34. Click in the **Name in VSI** text entry field.
 35. Click **+** to increase the size of the volume to 2GB.
 36. Click the **Tier** pull-down (it will already be set to **Tier3 (3 IOPs/GB)**).
-37. Click **Tier 3 (3 IPOs/GB)**.
+37. Click **Tier 3 (3 IOPs/GB)**.
 38. Toggle the **Shareable**  button to **On**.
 39. Click the **Create and attach** button.
 40. Click the **Continue** button under the **Storage volumes** section.

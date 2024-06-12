@@ -52,13 +52,13 @@ The next steps refer to the entries in the **Profile** section of the **Create v
 
 The next steps refer to the entries in the **Storage volumes** section of the **Create virtual server instance** form.
 
-33. Click the **Create volume +** button.
-34. Click in the **Name in VSI** text entry field.
-35. Click **+** to increase the size of the volume to 2GB.
-36. Click the **Tier** pull-down (it will already be set to **Tier3 (3 IOPs/GB)**).
-37. Click **Tier 3 (3 IPOs/GB)**.
-38. Click the **Create and attach** button.
-39. Click the **Continue** button under the **Storage volumes** section.
+34. Click the **Create volume +** button.
+35. Click in the **Name in VSI** text entry field.
+36. Click **+** to increase the size of the volume to 2GB.
+37. Click the **Tier** pull-down (it will already be set to **Tier3 (3 IOPs/GB)**).
+38. Click **Tier 3 (3 IOPs/GB)**.
+39. Click the **Create and attach** button.
+40. Click the **Continue** button under the **Storage volumes** section.
 
 The next steps refer to the entries in the **Network interfaces** section of the **Create virtual server instance** form.
 
