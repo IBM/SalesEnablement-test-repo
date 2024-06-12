@@ -1,4 +1,4 @@
-Now it is time for to provision a PowerVS instance. Use the click-thru demonstration below to practice provisioning a PowerVS instance. Refer to the video for talking points if the click-thru demonstration is utilized with clients.
+Now it is time to provision an AIX PowerVS instance (VSI). Use the click-thru demonstration below to practice. Refer to the video for talking points if the click-thru demonstration is utilized with clients.
 
 Note, fields that require a text entry (e.g. instance name) are pre-populated in the click-thru demonstration.
 
@@ -7,7 +7,7 @@ Note, fields that require a text entry (e.g. instance name) are pre-populated in
 
 1. Open the link below and then click the play button ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
 
-    **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/Provision-AIXVM/index.html" target ="_blank">Create an IBM Power Virtual Server Instance</a>
+    **Click-thru demo:** <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/Provision-LinuxVM/index.html" target ="_blank">Create an IBM Power Virtual Server Instance</a>
 
 2. Click **{{powerVS.serviceInstanceName}}** in **Workspaces** table.
 3. Click **View virtual servers**.
@@ -70,10 +70,10 @@ Note: for this demonstration, the instance will be provisioned using a public ne
 43. Click the **Select Network** pull-down.
 44. Click **{{powerVS.privateSubnet}}**.
 45. Click **Attach**.
-46. Click the **Finish** button under the **Networking** section.
+46. Click the **Finish** button under the **Network interfaces** section.
 47. Click the **I agree to the Terms and conditions** checkbox.
 48. Click **Create**.
 
-The PowerVS instance is now being provisioned. This process took approximately 15 minutes when creating the TechZone environment. Notice the value under the **Status** column of the **Virtual server instances** table. Once the status changes to an **Active** state, the instance is ready to be accessed.
+The AIX PowerVS instance is now being provisioned. This process took approximately 15 minutes when creating the TechZone environment. Notice the value under the **Status** column of the **Virtual server instances** table. Once the status changes to an **Active** state, the instance is ready to be accessed.
 
 In the next Part of the demonstration script, learn how to use the IBM Cloud Portal to manage PowerVS instances.

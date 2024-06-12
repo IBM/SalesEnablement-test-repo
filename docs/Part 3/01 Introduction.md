@@ -1,6 +1,6 @@
-The IBM Power Virtual Server (PowerVS) physical servers are located in IBM data centers, distinct from the IBM Cloud servers. They have separate networks and direct-attached storage. The environment is in its own pod and the internal networks are fenced but offer connectivity options to meet client requirements. This infrastructure design enables PowerVS to maintain key enterprise software certification and support as the PowerVS architecture is identical to certified on-premises infrastructure. The virtual servers, also known as instances, logical partitions (LPAR), or virtual machines (VMs) run on IBM Power hardware with the PowerVM hypervisor.
+The IBM Power Virtual Server (PowerVS) physical servers are located in IBM data centers, distinct from the IBM Cloud servers. They have separate networks and direct-attached storage. The environment is in its own pod and the internal networks are fenced but offer connectivity options to meet client requirements. This infrastructure design enables PowerVS to maintain key enterprise software certification and support as the PowerVS architecture is identical to certified on-premises infrastructure. The virtual servers, also known as instances (VSI), logical partitions (LPAR), or virtual machines (VMs) run on IBM Power hardware with the PowerVM hypervisor.
 
-The key parameters for a PowerVS instance are:
+The key parameters for a PowerVS VSI are:
 
 - **Instance name**: The PowerVS instance name will appear in the IBM Cloud Portal under the list of instances within a service. Specify a name that is easily understood and recognized.
 
@@ -30,4 +30,4 @@ The key parameters for a PowerVS instance are:
 
 - **Networking**: PowerVS instances will always be attached to a private network and can optionally be attached to a public, Internet accessible network. Use private networks to connect to existing subnets or go a new subnet can be created. Learn more about PowerVS networking <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a>.
 
-In this chapter, view a video of a PowerVS instance being provisioned and replicate the steps taken using a click-through guided demonstration.
+In this chapter, find a video with narration of the provisioning process for an AIX VSI. In addition, there are three (3) click-thru demonstrations, one for each of the supported operating systems: AIX, Linux, and IBM i. While each of these are very similar, there are a few minor differences. You are encouraged to go through each of these demonstrations and read step-by-step guidance provided.
