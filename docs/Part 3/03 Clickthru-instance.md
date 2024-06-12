@@ -36,7 +36,7 @@ The next steps refer to the entries in the **Boot image** section of the **Creat
 20. Click the information pop-up to dismiss it.
 21. Click the **Select image** pull-down.
 22. Click **7300-02-01**.
-23. Click the **Tier** pull-down (it will already be set to **Tier3 (3 IOPs/GB)).
+23. Click the **Tier** pull-down (it will already be set to **Tier3 (3 IOPs/GB)**).
 24. Click **Tier 3 (3 IPOs/GB)**.
 25. Click the **Continue** button under the **Boot image** section.
 
