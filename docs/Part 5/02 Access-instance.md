@@ -82,8 +82,8 @@ To explore further, use the following public IP addresses to access the other Po
 | Instance name | Instance public IP address |
 | ------------- | -------------------------- |
 | {{aixServer1.name}} | {{aixServer1.publicIP}} |
-| {{linuxServer1.name}} | {{aixServer2.publicIP}} |
-| {{ibmiServer1.name}} | {{rhServer1.publicIP}} |
+| {{linuxServer1.name}} | {{linuxServer1.publicIP}} |
+| {{ibmiServer1.name}} | {{ibmiServer1.publicIP}} |
 
 
 Use the ```ssh -i ssh_private_key.pem UserName@IPaddress``` command to connect to the other servers. Be sure to replace **UserName** with the **UserName** field found in the TechZone reservation, and **IPaddress** with the instance's public IP address from the table above.
