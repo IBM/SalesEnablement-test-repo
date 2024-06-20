@@ -3,6 +3,10 @@ Welcome to the **{{learningplan.name}}** course and demonstration guide! The goa
 !!! important "Important information regarding the demonstration environment!"
     In this demonstration environment, full access to the IBM Cloud account is NOT provided. User identifications (IDs) will be restricted to specific capabilities. Permission to create or modify PowerVS service instances, virtual machines (instances), networks, images, etc. is **NOT** provided. The demonstration guide provides videos and click through demonstrations to cover these functions.
 
+!!! Note "PowerVS Dedicated hosts"
+
+    The **Dedicated hosts** feature of PowerVS allows clients to reserver an entire server for their sole use. This feature was rolled out in June 2024 at the same time this demonstration guide was being created. In this demonstration guide, the **Dedicated hosts** option in the IBM Cloud portal may be seen in some screen captures and videos but not in others. The topic of **Dedicated hosts** is not covered in detail at this time, but is mentioned in the sample video demonstration associated with this learning plan.
+
 The learning material is broken up across distinct parts with each part containing one or more chapters. To complete the {{learningplan.name}} badge requirements, IBM and Business Partner technical sellers must complete each part.
 
 **Business Partners** must pass an accreditation quiz after completing the hands-on portion of the course. The quiz consists of multiple choice questions, with four possible responses (and only one correct answer) for each question.
