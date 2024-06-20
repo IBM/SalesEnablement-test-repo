@@ -1,10 +1,11 @@
-![type:video](./_videos/IBM Power Systems Virtual Server Level 3 - Part 7.mp4)
-!!! tip "Ways to Watch"
-    In addition to the embedded video, IBMers and Business Partners can also <a href="https://ibm.seismic.com/Link/Content/DCTPMgcFR4p688fH2Pb6g4VjcT3G" target="_blank">download the recording from Seismic</a>.
 
-IBM Power Systems Virtual Server provides **command line interfaces (CLI)** as a plugin to the IBM Cloud CLI. The PowerVS CLIs provide system administrators the ability to programmatically manage their PowerVS environment without having to use the IBM Cloud Portal.
+IBM Power Systems Virtual Server (PowerVS) provides **command line interfaces (CLI)** as a plugin to the IBM Cloud CLI. The PowerVS CLIs provide system administrators the ability to manage their PowerVS environment through command line and scripting. In most cases a seller would not demonstrate this capability unless they were doing so to a very technical audience, like system administrators that will be responsible for provisioning PowerVS resources.
 
-In this chapter, explore a variety of CLI instructions that can be issued via the IBM Cloud Shell portal (or any SSH connection) for administration of a PowerVS instance. Topics include:
+PowerVS provides application programming interfaces (APIs) to perform these actions within an application. The PowerVS APIs are not covered in this demonstration guide. Learn more about the PowerVS APIs <a href="https://cloud.ibm.com/apidocs/power-cloud" target="_blank">here</a>.
+
+PowerVS also has a published a Terraform provider to allow administrators to use infrastructure as code (IaC) to automate the provisioning of PowerVS resources. The Terraform provider is outside of the scope of this demonstration guide. Learn more about the PowerVS provider <a href="https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/pi_capture" target="_blank">here</a>.
+
+In this chapter, explore a variety of CLI instructions that can be issued via the IBM Cloud Shell portal for administration of a PowerVS instance. Topics include:
 
 - Inspection of all PowerVS services provisioned
 - Setting the service target of the IBM Cloud Shell to the instance ID of the PowerVS environment

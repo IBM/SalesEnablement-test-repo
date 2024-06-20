@@ -1,9 +1,9 @@
 Welcome to the **{{learningplan.name}}** course and demonstration guide! The goal is to provide IBM and Business Partner Sales and Technical Sales with the knowledge and tools to perform hands-on demonstrations of **{{offering.name}}** (PowerVS).
 
-!!! important
+!!! important "Important information regarding the demonstration environment!"
     In this demonstration environment, full access to the IBM Cloud account is NOT provided. User identifications (IDs) will be restricted to specific capabilities. Permission to create or modify PowerVS service instances, virtual machines (instances), networks, images, etc. is **NOT** provided. The demonstration guide provides videos and click through demonstrations to cover these functions.
 
-The learning material is broken up across distinct chapters. To complete the {{learningplan.name}} badge requirements, IBM and Business Partner technical sellers must complete each chapter.
+The learning material is broken up across distinct parts with each part containing one or more chapters. To complete the {{learningplan.name}} badge requirements, IBM and Business Partner technical sellers must complete each part.
 
 **Business Partners** must pass an accreditation quiz after completing the hands-on portion of the course. The quiz consists of multiple choice questions, with four possible responses (and only one correct answer) for each question.
 
@@ -31,7 +31,7 @@ Business Partners can also utilize the IBM Training live Chat Support service or
 
 ## Using the demonstration guide
 
-The {{guide.name}} is organized in parts and sub-parts or chapters. Most chapters contain numbered steps, which are actions to be performed.
+The {{guide.name}} is organized in parts and chapters. Most chapters contain numbered steps, which are actions to be performed.
 
 Throughout the guide, images are used as examples of the IBM Cloud Portal, IBM Cloud Shell, and PowerVS instance consoles.
 
@@ -67,7 +67,7 @@ Just a reminder, **in this demonstration environment, full access to the IBM Clo
     Attempting to perform an action without the appropriate permissions will result in an error message like the one below. This is not an issue with the IBM Cloud or PowerVS, rather a restriction of the demo environment and the permissions assigned to users.
 
     ![](_attachments/ErrorMessage.png)
-
+    
 ## Acronyms
 
 The following acronyms are used throughout this demonstration guide:

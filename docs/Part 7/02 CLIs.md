@@ -1,4 +1,6 @@
-In this exercise, explore several of the PowerVS CLIs. It is important to remember this is a shared environment and only limited administrative permissions are provided. The CLIs being executed here are commands that only require "read" access to the environment. CLIs also exist to create and modify PowerVS resources, but in this shared environment users do not have sufficient permissions to execute those commands. Attempting to do so will result in an error.
+In this exercise, explore several of the IBM Power Virtual Server (PowerVS) command line interfaces (CLIs). 
+
+It is important to remember this is a shared environment and only limited administrative permissions are provided. 
 
 For this exercise, the IBM Cloud Shell will be used. IBM Cloud Shell gives users complete control of their cloud resources, applications and infrastructure, from any web browser. IBM Cloud Shell provides pre-authenticated access to the latest tools and programming languages for cloud-based development, deployment and management of services and applications — all in a secure shell. IBM Cloud Shell is instantly accessible from the IBM Cloud portal. The IBM command line interface (CLI) along with all the IBM Cloud CLI plugins are pre-installed in IBM Cloud Shell, including the PowerVS CLIs.
 
@@ -34,73 +36,74 @@ ibmcloud pi --help | more
 
 5. Press the **space bar** to continue the output. Continue to press space bar several times to scroll through the complete output.
 
-Notice the last part of the message says: **Enter 'ibmcloud pi help [command]' for more information about a command.** Use this to get more help on individual PowerVS plugin commands.
+Notice the last part of the message says: **Enter 'ibmcloud pi [command] --help' for more information about a command.** Use this to get more help on individual PowerVS plugin commands.
 
 6. List all the PowerVS workspaces provisioned in the account.
 
 ```
-ibmcloud pi workspaces
+ibmcloud pi workspace ls
 ```
 
 !!! info "Sample output"
-    ![](_attachments/service-list.png)
+    ![](_attachments/service-list-2024.png)
+
+Note, the **PowerVS-L3-workspace** may not appear in your output.
 
 To view the PowerVS instances in the workspace, the workspace target must first be set for the PowerVS plugin.
 
 7. Set the workspace target using the instance ID of the workspace.
 
 ```
-workspaceID=`ibmcloud pi workspaces 2>&1 | tail -1 | cut -f1 -d' '`
+workspaceID=`ibmcloud pi workspaces 2>&1 | grep {{powerVS.serviceInstanceName}} | tail -1 | cut -f1 -d' '`
 ```
 
 ??? tip "Tip for novice Linux users!"
-    The last command did 4 actions. First, it listed the workspace list like in step 6 and redirected both the error and standard output to the standard output stream (**2>&1**). This output was then sent to the **tail** command which ignores everything but the last line (**-1**). Then the output from the **tail** command is sent to the **cut** command where all the output except the first field up to to the first space character is ignored (**-f -d' '**). And finally, the output from the **cut** command was stored in an environment variable called **workspaceID**. Why did we do this? Because no one wants to type **crn:v1:bluemix:public:power-iaas:us-south:a/ba0e33c9056f470ca19de009747ec654:c8bee9ba-f208-442c-9e10-5633624d633f::** in order to run the next command.
+    The last command did 5 actions. First, it listed the workspace list like in step 6 and redirected both the error and standard output to the standard output stream (**2>&1**). Next, the output is filtered (grep) to just show the line for the {{powerVS.serviceInstanceName}}. Then the output from the **grep** command is sent to the **cut** command where all the output except the first field up to to the first space character is ignored (**-f -d' '**). And finally, the output from the **cut** command was stored in an environment variable called **workspaceID**. Why did we do this? Because no one wants to type **crn:v1:bluemix:public:power-iaas:wdc07:a/ba0e33c9056f470ca19de009747ec654:e7156c4d-eaf3-43e6-a972-a9782efa5e8d::** in order to run the next command.
 
 8. Use the **$workspaceID** environment variable to set the target of future PowerVS plugin commands to the workspace.
 
 ```
-ibmcloud pi service-target $workspaceID
+ibmcloud pi workspace target $workspaceID
 ```
 
 !!! info "Sample output"
-    ![](_attachments/service-target.png)
+    ![](_attachments/service-target-2024.png)
 
 9. List all the PowerVS instances provisioned in the targeted PowerVS workspace.
 
 ```
-ibmcloud pi instances
+ibmcloud pi instance list
 ```
 
 !!! info "Sample output"
-    ![](_attachments/instances.png)
+    ![](_attachments/instances-2024.png)
 
 10. View the details of the **{{aixServer1.name}}** instance.
 
 ```
-ibmcloud pi instance {{aixServer1.name}}
+ibmcloud pi instance get {{aixServer1.name}}
 ```
 
 !!! info "Sample output"
-    ![](_attachments/part7_step10.png)
-
-Thus far, all of these commands have been **read** commands. The PowerVS CLIs also support **create** and **update** commands, but remember that user IDs have limited access in this shared environment. Try the **instance modify** command and see what happens.
+    ![](_attachments/aixinstance-detail-2024.png)
 
 **Hint**: Business Partners should record the value of the **Storage Pool Affinity** field in the output from the above command.
 
+Thus far, all of these commands have been **read** commands. The PowerVS CLIs also support **create** and **update** commands, but remember that user IDs have limited access in this shared environment. Try the **instance update** command and see what happens.
 
 11. Recall that our Power environment consists of a total of 3 PowerVM instances: {{aixServer1.name}}, {{linuxServer1.name}}, and {{ibmiServer1.name}}. Up until now we've primarily been issuing instructions to perform work against {{aixServer1.name}}. Given that the testing environment is primarily limited to read-only actions, let's inspect one of the other VMs and determine what (if any) differences exist between the various instances.
 
 Issue the following command to the IBM Cloud Shell:
 ```
-ibmcloud pi instance {{linuxServer1.name}}
+ibmcloud pi instance get {{linuxServer1.name}}
 ```
 
 And then issue a second command:
 ```
-ibmcloud pi instance {{aixServer1.name}}
+ibmcloud pi instance get {{ibmiServer1.name}}
 ```
 
-Notice that the two tables are nearly identical, save for a single field at the bottom of the {{aixServer1.name}} inspection output.
+Notice that the two tables are nearly identical, but there are some differences due to the different operating systems specified.
 
 12. There are numerous reasons why one might want to generate an SSH private key for managing a PowerVS environment. In fact, that's exactly what the service's administrators did in order to authorize access to the PowerVS instance — recall first connecting to the PowerVS virtual machines remotely via the IBM Cloud Shell with the supplied key information.
 
@@ -119,11 +122,11 @@ Use the PowerVS CLIs to create a key for the instance using an imported RSA publ
     Be aware that the SSH key-pair generated and assigned by this step is specific to IBM Power Systems. These are distinct from ones generated previously using the IBM Cloud Shell.
 
 ```
-ibmcloud pi keyc newKeyPOWER --key newKey
+ibmcloud pi ssh-key create newKeyPOWER --key newKey
 ```
 
 !!! info "Sample output"
-    ![](_attachments/part7_step12b.png)
+    ![](_attachments/sshKeyCreate.png)
 
 As expected, the instruction fails to execute because of insufficient (locked down) permissions within this testing environment. Next, experiment with other IBM Power CLIs. Many instructions and commands will meet with similar results, but it nevertheless is good practice given that there is no risk to the system within this sandbox environment.
 
@@ -131,13 +134,12 @@ As expected, the instruction fails to execute because of insufficient (locked do
 13. Restart the **{{linuxServer1.name}}** instance.
 
 ```
-ibmcloud pi instance-soft-reboot {{linuxServer1.name}}
+ibmcloud pi instance {{linuxServer1.name}} -o soft-reboot
 ```
 
 !!! info "Sample output"
-    ![](_attachments/instance-soft-reboot.png)
+    ![](_attachments/instance-soft-reboot-2024.png)
     Note, an enhancement request has been submitted to improve the CLI error messages.
 
 There are over 100 PowerVS CLIs. Feel free to explore these using the TechZone environment. Remember, use ```ibmcloud pi --help``` or ```ibmcloud pi <command> --help``` to get detailed information on a command's usage.
 
-This concludes the final part of the {{offering.name}} demonstration script. Proceed to [**Part 8 - Next steps**](../Part 9/01 Next steps.md) for more information on completing the {{learningplan.name}} badge.

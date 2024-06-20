@@ -77,7 +77,7 @@ All of these commands are basic OS commands. If familiar with AIX or Linux, feel
 exit
 ```
 
-To explore further, use the following public IP addresses to access the other PowerVM instances:
+To explore further, use the following public IP addresses to access the other VSIs:
 
 | Instance name | Instance public IP address |
 | ------------- | -------------------------- |
@@ -85,6 +85,7 @@ To explore further, use the following public IP addresses to access the other Po
 | {{linuxServer1.name}} | {{linuxServer1.publicIP}} |
 | {{ibmiServer1.name}} | {{ibmiServer1.publicIP}} |
 
+To access the IBM i VSI NEED TO FINISH THIS!!!!!!!!!!!!!!!!
 
 Use the ```ssh -i ssh_private_key.pem UserName@IPaddress``` command to connect to the other servers. Be sure to replace **UserName** with the **UserName** field found in the TechZone reservation, and **IPaddress** with the instance's public IP address from the table above.
 
