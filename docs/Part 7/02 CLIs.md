@@ -126,7 +126,7 @@ ibmcloud pi ssh-key create newKeyPOWER --key newKey
 ```
 
 !!! info "Sample output"
-    ![](_attachments/sshKeyCreate.png)
+    ![](_attachments/sshkeyCreate.png)
 
 As expected, the instruction fails to execute because of insufficient (locked down) permissions within this testing environment. Next, experiment with other IBM Power CLIs. Many instructions and commands will meet with similar results, but it nevertheless is good practice given that there is no risk to the system within this sandbox environment.
 
