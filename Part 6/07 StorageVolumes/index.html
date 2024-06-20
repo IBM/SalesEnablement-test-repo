@@ -13,10 +13,10 @@
       
       
       
-        <link rel="prev" href="../03%20Volumes/">
+        <link rel="prev" href="../06%20Networking/">
       
       
-        <link rel="next" href="../05%20AdditionalServices/">
+        <link rel="next" href="../08%20EventLogs/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Subnets, Cloud connections, and VPN connections - IBM Power Virtual Server Level 3 Demonstration Guide</title>
+        <title>Storage volumes - IBM Power Virtual Server Level 3 Demonstration Guide</title>
       
     
     
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Subnets, Cloud connections, and VPN connections
+              Storage volumes
             
           </span>
         </div>
@@ -797,11 +797,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../02%20ServerPlacementGroups/" class="md-nav__link">
+      <a href="../02%20VirtualAppliances/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Server placement groups
+    Virtual appliances
   </span>
   
 
@@ -817,11 +817,71 @@
   
   
     <li class="md-nav__item">
-      <a href="../03%20Volumes/" class="md-nav__link">
+      <a href="../03%20SPPsAndServerPlacementGroups/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Storage volumes, boot volumes, and images
+    Shared processor pools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04%20SSHKeys/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SSH keys
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05%20BootImages/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Boot images
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06%20Networking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Networking
   </span>
   
 
@@ -848,7 +908,7 @@
         
   
   <span class="md-ellipsis">
-    Subnets, Cloud connections, and VPN connections
+    Storage volumes
   </span>
   
 
@@ -865,11 +925,31 @@
   
   
     <li class="md-nav__item">
-      <a href="../05%20AdditionalServices/" class="md-nav__link">
+      <a href="../08%20EventLogs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Additional services catalog
+    Event logs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09%20AdditionalServices/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Additional products and services
   </span>
   
 
@@ -1126,38 +1206,50 @@
                   
 
 
-  <h1>Subnets, Cloud connections, and VPN connections</h1>
+  <h1>Storage volumes</h1>
 
-<div><p>A few facts about subnets:</p>
-<ul>
-<li>A Classless inter-domain routing (CIDR) must be specified when creating a subnet.</li>
-<li>The first IP address in the CIDR is always reserved for the gateway in all data centers.</li>
-<li>The second and third IP addresses are reserved for gateway high availability (HA) in only the PowerVS colocation in the Washington, DC 04 datacenter (WDC04).</li>
-</ul>
-<p>A few facts about Cloud connections:</p>
-<!-- - Cloud Connect (Managed Networking Services using Megaport) is available only in USA. -->
-<ul>
-<li>A maximum of 2 connections can be created per region.</li>
-<li>A subnet must be created prior to creating a Cloud connection.</li>
-</ul>
-<p>A few facts about VPN connections:</p>
-<ul>
-<li>A maximum of 4 connections can be created per account.</li>
-<li>A subnet must be created prior to creating a VPN connection.</li>
-</ul>
-<p>Additionally, VPN and Cloud Connections cannot use the same subnet concurrently. Separate subnets must be used for the Cloud Connection and VPN if leveraged for the same workspace.</p>
-<p>In the TechZone environment:</p>
-<ul>
-<li>Explore the <strong>Subnets</strong> page in the IBM Cloud Portal.
-  <img alt="" src="../_attachments/Subnets-new.png"></li>
-<li>Explore the <strong>Cloud connections</strong> page in the IBM Cloud Portal.
-  <img alt="" src="../_attachments/CloudConnections-new.png"></li>
-<li>Explore the <strong>VPN connections</strong> page in the IBM Cloud Portal.
-  <img alt="" src="../_attachments/VPNConnections-new.png"></li>
-</ul>
-<p>Learn more about subnets <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-configuring-subnet" target="_blank">here</a>.</p>
-<p>Learn more about Cloud connections <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-cloud-connections" target="_blank">here</a>.</p>
-<p>Learn how to configure a VPN connection <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-VPN-connections" target="_blank">here</a>.</p></div>
+<div><p>As mentioned earlier IBM Power Virtual Server (PowerVS) supports multiple tiers of storage. Learn more about the available storage tiers <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-about-power-iaas#storage-tiers-spec-private-cloud" target="_blank">here</a>. Every PowerVS virtual server instance consists of a boot volume and optionally additional storage volumes. While IBM manages the underlying physical storage, it is the client's responsibility to manage and protect the data on instances.</p>
+<ol>
+<li>Click the <strong>Storage volumes</strong> option in the side menu under the PowerVS-L3-2024 workspace.</li>
+</ol>
+<p><img alt="" src="../_attachments/StorageVolumesMenu.png"></p>
+<ol start="2">
+<li>Click <strong>Create volume +</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/StorageVolumeTable.png"></p>
+<p>To create a new storage volume, a few parameters must be specified. The first 4 parameters are the name of the volume, the storage tier, the number of volumes to create, and the size.</p>
+<p><img alt="" src="../_attachments/StorageVolumeCreate-1.png"></p>
+<p>a. Each storage volume in a workspace must have a unique name.</p>
+<p>b. A tier of storage must be specified. This can change later. The storage tier represents the performance characteristics of the volume and directly relates to the cost of the volume. See the earlier link for more information on the 4 storage tiers supported by PowerVS.</p>
+<p>c. It is possible to create up to 10 storage volumes at a time. Each of these volumes will have the same attributes as far as tier, size, shareability, storage pool, and affinity rules.</p>
+<p>d. The size of a volume can range from 1 Gigabyte (GB) upt to 238,705 GB. Storage volumes can be increased after they are provisioned but NOT decreased.</p>
+<p>The second set of parameters that need to be specified when creating a storage volume relate to the volumes shareability, storage pool, and affinity rules.</p>
+<p><img alt="" src="../_attachments/StorageVolumeCreate-2.png"></p>
+<p>e. Storage volumes can be marked as <strong>shareable</strong>. This attribute allows a single volume to be shared between multiple PowerVS virtual server instances. This is typically used when developing highly available (HA) deployments, for instance when using PowerHA's system mirroring capabilities. Learn more about HA and Diaster Recovery (DR) in PowerVS <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-ha-dr" tareget="_blank">here</a>.</p>
+<p>f. A storage volume must be assigned to a storage pool. By default, the volume is assigned to any pool that has sufficient capacity. However, if the volume needs to be controlled by affinity rules, it can either be assigned to an affinity pool or an anti-affinity pool. Affinity can be based upon either other storage volumes or upon virtual server instances (VSIs), also known as virtual machines (VMs). If a storage volume is marked with an affinity policy, it will be created in the same pool as other other volumes with which it needs to have affinity. This is typically used for cloning and snapshots.If a storage volume is marked with an anti-affinity policy, it will be created in a different pool from other volumes with which it needs anti-affinity. This is typically used for HA and logical mirroring of volumes.</p>
+<p>g. As mentioned above, the affinity/anti-affinity object can be either another storage volume or a VM/VSI.</p>
+<p>f. Depending on the affinity/anti-affinity object selection (g), the pull down menu will be populated with the existing volumes or VMs/VSIs that the policy should be applied with or against.</p>
+<ol start="3">
+<li>Click <strong>Cancel</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/StorageVolumeCreate-3.png"></p>
+<p>Learn more about affinity and anti-affinity policies <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-powervs-faqs#affinity">here</a>.</p>
+<ol start="4">
+<li>Click <strong>Edit</strong> under the <img alt="" src="../_attachments/ellipses.png"> for one of the existing storage volumes.</li>
+</ol>
+<p><img alt="" src="../_attachments/StorageVolumeEditMenu.png"></p>
+<p>As mentioned earlier, it is possible to modify some of the attributes of a storage volume.</p>
+<p><img alt="" src="../_attachments/StorageVolumeEdit-1.png"></p>
+<p>a. The name of the volume can be modified after it has been provisioned. Just remember, the name must be unique within the PowerVS workspace.</p>
+<p>b. The tier can be modified. One caveat is that if volume is currently set to Fixed IOPs or is being changed to the Fixe IOPs tier, the size of the volume can not be changed at the same time.</p>
+<p>c. The size of the volume can be increased from its current size up to the maximum of 238,705 GB. The size of the volume cannot be decreased.</p>
+<p>d. Non-bootable volumes can be toggled between shared and unshared.</p>
+<p>e. A volume can be marked as bootable. Bootable volumes can not be shared. It is possible for a single VSI to have multiple bootable volumes. PowerVS will randomly select a bootable volume as the instance's boot volume if the original is no longer bootable. Virtual server instances must have at least one bootable volume.</p>
+<ol start="5">
+<li>Click <strong>Cancel</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/StorageVolumeEdit-3.png"></p>
+<p>Storage volumes that are not actively in use by VSI can also be deleted from the edit menu.</p></div>
 
 
 

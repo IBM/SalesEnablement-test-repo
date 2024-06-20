@@ -13,10 +13,10 @@
       
       
       
-        <link rel="prev" href="../02%20ServerPlacementGroups/">
+        <link rel="prev" href="../02%20VirtualAppliances/">
       
       
-        <link rel="next" href="../04%20Subnets/">
+        <link rel="next" href="../04%20SSHKeys/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Storage volumes, boot volumes, and images - IBM Power Virtual Server Level 3 Demonstration Guide</title>
+        <title>Shared processor pools - IBM Power Virtual Server Level 3 Demonstration Guide</title>
       
     
     
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Storage volumes, boot volumes, and images
+              Shared processor pools
             
           </span>
         </div>
@@ -797,11 +797,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../02%20ServerPlacementGroups/" class="md-nav__link">
+      <a href="../02%20VirtualAppliances/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Server placement groups
+    Virtual appliances
   </span>
   
 
@@ -828,7 +828,7 @@
         
   
   <span class="md-ellipsis">
-    Storage volumes, boot volumes, and images
+    Shared processor pools
   </span>
   
 
@@ -845,11 +845,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../04%20Subnets/" class="md-nav__link">
+      <a href="../04%20SSHKeys/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Subnets, Cloud connections, and VPN connections
+    SSH keys
   </span>
   
 
@@ -865,11 +865,91 @@
   
   
     <li class="md-nav__item">
-      <a href="../05%20AdditionalServices/" class="md-nav__link">
+      <a href="../05%20BootImages/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Additional services catalog
+    Boot images
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06%20Networking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Networking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07%20StorageVolumes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Storage volumes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08%20EventLogs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Event logs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09%20AdditionalServices/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Additional products and services
   </span>
   
 
@@ -1126,34 +1206,52 @@
                   
 
 
-  <h1>Storage volumes, boot volumes, and images</h1>
+  <h1>Shared processor pools</h1>
 
-<div><p>As mentioned earlier PowerVS supports both Tier 1 and Tier 3 storage volumes. Every instance consists of a boot volume and optionally additional storage volumes. While IBM manages the underlying physical storage, it is the client's responsibility to manage and protect the data on instances.</p>
-<p>A few facts about storage volumes:</p>
-<ul>
-<li>Storage volumes can be increased in size in 1GB increments, but not decreased.</li>
-<li>Storage volume sizes maximums will depend on availability within the selected IBM datacenter.</li>
-<li>Storage volumes can be marked as <strong>shareable</strong>.</li>
-<li>Storage volumes can be marked as <strong>bootable</strong>.</li>
-<li>Affinity and anti-affinity rules can be applied to storage volumes.</li>
-</ul>
-<p>A few facts about boot volumes/images:</p>
-<ul>
-<li>Boot volumes can be imported from IBM Cloud Object Storage (COS).</li>
-<li>Boot volumes can be exported to IBM COS.</li>
-<li>Affinity and anti-affinity rules can be applied to boot volumes.</li>
-<li>Boot volumes (and storage volumes) of running instances can be captured (also know as a snapshot) to either the local image catalog associated with the PowerVS service or to IBM COS.</li>
-<li>Captured boot images can be used to provision new instances.</li>
-</ul>
-<p>In the TechZone environment:</p>
-<ul>
-<li>Explore the <strong>Storage volumes</strong> page in the IBM Cloud Portal.
-  <img alt="" src="../_attachments/StorageVolumes-new.png"></li>
-<li>Explore the <strong>Boot images</strong> page in the IBM Cloud Portal.
-  <img alt="" src="../_attachments/BootImages-new.png"></li>
-</ul>
-<p>Learn more about storage volumes <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-modifying-server#modifying-volume-network" target="_blank">here</a>.</p>
-<p>Learn how to import a boot image <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-importing-boot-image" target="_blank">here</a>.</p></div>
+<div><p>A shared processor Pool (SPP) is a pool of processor capacity that is shared between a group of virtual server instances. Unlike a virtual server instance that has a dedicated and defined maximum amount of processing capacity, you can set the reserved cores in SPP that is available at the pool level. SPPs are mainly used to control software licensing costs by limiting the number of processors an uncapped VSI can use.</p>
+<p>Learn more about SPPs <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-manage-SPP" target="_blank">here</a>.</p>
+<ol>
+<li>Click the <strong>Shared processor pools</strong> option in the side menu under the PowerVS-L3-2024 workspace.</li>
+</ol>
+<p><img alt="" src="../_attachments/SPPMenu.png"></p>
+<ol start="2">
+<li>Click <strong>Create pool +</strong></li>
+</ol>
+<p><img alt="" src="../_attachments/SPPtable.png"></p>
+<ol start="3">
+<li>Enter a name in the <strong>Name</strong> field and then click <strong>Continue</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/SPPProvision1.png"></p>
+<p>!!! Warning "Remember you will not be able to provision a new SPP*</p>
+<ol start="4">
+<li>Select a <strong>machine type</strong>.</li>
+<li>Specify the number of <strong>reserved cores</strong> and click <strong>Finish</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/SPPProvision2.png"></p>
+<p>Once all these properties are specified, you would accept the terms and conditions and provision the SPP. Once provisioned, clients could specify the SPP when provisioning new VSIs.</p>
+<ol start="6">
+<li>Click <strong>Cancel</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/SPPProvision3.png"></p>
+<ol start="7">
+<li>Click the <strong>Pool placement groups</strong> tab.</li>
+</ol>
+<p><img alt="" src="../_attachments/SPPtablePPGtab.png"></p>
+<p>Pool placement groups are a set of shared processor pools with a single colocation policy which determines the host in which a shared processor pool in the group is deployed in relation to others in the group.</p>
+<p>Learn more about pool placement groups <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-manage-SPP#configure-SPP-PG" target="_blank">here</a>.</p>
+<ol start="8">
+<li>Click <strong>Create group +</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/SPP-PPG.png"></p>
+<p>To create a pool placement group, simply specify a group name and the colocation policy of either <strong>same server</strong> or <strong>different server</strong>.</p>
+<p><img alt="" src="../_attachments/SPP-PPG-1.png"></p>
+<p>The <strong>same server</strong> option specifies that all VSIs in this placement group will be placed on the same server. This is known as an <strong>affinity</strong> policy.</p>
+<p>The <strong>different server</strong> option specifies that all VSIs in this placement group will be placed on different servers. This is also known as an <strong>anti-affinity</strong> policy.</p>
+<ol start="9">
+<li>Click <strong>Cancel</strong></li>
+</ol>
+<p>Affinity and anti-affinity policies are mainly used to assist in building high availability (HA) and disaster recovery (DR) deployments.</p>
+<p>Learn more about High Availability (HA) and Disaster Recovery (DR) options in PowerVS <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-ha-dr" target="_blank">here</a>.</p></div>
 
 
 

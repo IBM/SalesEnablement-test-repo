@@ -805,11 +805,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Part%206/02%20ServerPlacementGroups/" class="md-nav__link">
+      <a href="../../Part%206/02%20VirtualAppliances/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Server placement groups
+    Virtual appliances
   </span>
   
 
@@ -825,11 +825,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Part%206/03%20Volumes/" class="md-nav__link">
+      <a href="../../Part%206/03%20SPPsAndServerPlacementGroups/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Storage volumes, boot volumes, and images
+    Shared processor pools
   </span>
   
 
@@ -845,11 +845,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Part%206/04%20Subnets/" class="md-nav__link">
+      <a href="../../Part%206/04%20SSHKeys/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Subnets, Cloud connections, and VPN connections
+    SSH keys
   </span>
   
 
@@ -865,11 +865,91 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Part%206/05%20AdditionalServices/" class="md-nav__link">
+      <a href="../../Part%206/05%20BootImages/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Additional services catalog
+    Boot images
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Part%206/06%20Networking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Networking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Part%206/07%20StorageVolumes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Storage volumes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Part%206/08%20EventLogs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Event logs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Part%206/09%20AdditionalServices/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Additional products and services
   </span>
   
 
@@ -1168,7 +1248,7 @@
 <ol start="5">
 <li>We are now ready to remotely connect (SSH) to the PowerVS demonstration environment. Do so with the following command, substituting <strong><your_user_id></your_user_id></strong> for the value recorded in <a href="https://ibm.github.io/SalesEnablement-PowerVS-L3/Part%201/01%20Introduction/" target="_blank">Part 1 - Step 6</a>. A prompt asking whether to continue connecting may appear; if so, type <strong>Yes</strong> and then hit Return/Enter. Ignore the message regarding authenticity of the host not being established.</li>
 </ol>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ssh -i ssh_private_key.pem &lt;your_user_id&gt;@169.59.159.92
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ssh -i ssh_private_key.pem &lt;your_user_id&gt;@150.239.207.227
 </code></pre></div>
 <div class="admonition info">
 <p class="admonition-title">Sample output</p>
@@ -1190,7 +1270,7 @@
 </ol>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>exit
 </code></pre></div>
-<p>To explore further, use the following public IP addresses to access the other PowerVM instances:</p>
+<p>To explore further, use the following public IP addresses to access the other VSIs:</p>
 <table>
 <thead>
 <tr>
@@ -1201,18 +1281,19 @@
 <tbody>
 <tr>
 <td>AIX-VM</td>
-<td>169.59.159.92</td>
+<td>150.239.207.227</td>
 </tr>
 <tr>
 <td>Linux-VM</td>
-<td>169.59.174.14</td>
+<td>150.239.207.226</td>
 </tr>
 <tr>
 <td>IBMi-VM</td>
-<td>169.59.174.12</td>
+<td>150.239.207.228</td>
 </tr>
 </tbody>
 </table>
+<p>To access the IBM i VSI NEED TO FINISH THIS!!!!!!!!!!!!!!!!</p>
 <p>Use the <code>ssh -i ssh_private_key.pem UserName@IPaddress</code> command to connect to the other servers. Be sure to replace <strong>UserName</strong> with the <strong>UserName</strong> field found in the TechZone reservation, and <strong>IPaddress</strong> with the instance's public IP address from the table above.</p>
 <p>Technical sellers should proceed to Part 6 and explore PowerVS server placement groups, volumes, subnets, and additional services.</p>
 <p>That concludes the required parts of the demonstration script for IBM and Business Partners Sales. All are encouraged to complete Parts 6 and 7, but at this time IBM and Business Partners Sales may skip to <a href="../../Part%209/01%20Next%20steps/"><strong>Part 8 - Next steps</strong></a>.</p></div>

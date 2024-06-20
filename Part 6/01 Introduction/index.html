@@ -16,7 +16,7 @@
         <link rel="prev" href="../../Part%205/02%20Access-instance/">
       
       
-        <link rel="next" href="../02%20ServerPlacementGroups/">
+        <link rel="next" href="../02%20VirtualAppliances/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -805,11 +805,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../02%20ServerPlacementGroups/" class="md-nav__link">
+      <a href="../02%20VirtualAppliances/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Server placement groups
+    Virtual appliances
   </span>
   
 
@@ -825,11 +825,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../03%20Volumes/" class="md-nav__link">
+      <a href="../03%20SPPsAndServerPlacementGroups/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Storage volumes, boot volumes, and images
+    Shared processor pools
   </span>
   
 
@@ -845,11 +845,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../04%20Subnets/" class="md-nav__link">
+      <a href="../04%20SSHKeys/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Subnets, Cloud connections, and VPN connections
+    SSH keys
   </span>
   
 
@@ -865,11 +865,91 @@
   
   
     <li class="md-nav__item">
-      <a href="../05%20AdditionalServices/" class="md-nav__link">
+      <a href="../05%20BootImages/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Additional services catalog
+    Boot images
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06%20Networking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Networking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07%20StorageVolumes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Storage volumes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08%20EventLogs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Event logs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09%20AdditionalServices/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Additional products and services
   </span>
   
 
@@ -1128,25 +1208,18 @@
 
   <h1>Introduction</h1>
 
-<div><p><div class="video-container"><iframe src="../_videos/IBM%20Power%20Systems%20Virtual%20Server%20Level%203%20-%20Part%206.mp4" style="position:relative;width:100%;height:22.172vw" frameborder="0" allowfullscreen alt="type:video"></iframe></div></p>
-<div class="admonition tip">
-<p class="admonition-title">Ways to Watch</p>
-<p>In addition to the embedded video, IBMers and Business Partners can also <a href="https://ibm.seismic.com/Link/Content/DCg8HWGTc7mhVG2RDmPDf7WDRmBj" target="_blank">download the recording from Seismic</a>.</p>
-</div>
-<p>Mentioned earlier throughout this Level 3 course are the variety of features available for managing your PowerVS instance once the infrastructure and services have been deployed. The customizability and scalability of these environments post-launch are precisely the "cloud-centric" benefits that draw customers towards an investment in PowerVS. In this chapter, we'll dive deeper into each of these advanced topics to get you up to speed on the fundamentals and provide a launching point for you to craft bespoke demonstrations on these topics for your client engagements.</p>
-<p>Specifically, you will examine each of the four categories in turn: server placement groups; storage solutions including volumes, boot volumes, and images; networking topics including subnets, cloud connections, and VPN connections; and additional services available from the IBM Cloud catalog.</p>
-<p>Server placement groups deliver high availability (HA) for your PowerVS instance within a data center, either on the same (affinity configuration) or separate (anti-affinity configuration) physical servers.</p>
-<p>Every instance of IBM PowerVS consists of a mandatory boot volume (via IBM Cloud Object Storage buckets) and has the option for additional storage volumes, should a client require more. Boot images can also be supplied for provisioning new instances. You'll explore the variety of options available through the IBM Cloud web interface.</p>
-<p><strong>Subnets</strong> are an important part of how you use the internet, and that's also true when using IBM Cloud. We have specific terminology for the types and uses of subnets found in our platform. Each subnet provides IP addresses to resources in different ways. By knowing more about each type of subnet, you can understand how to best make use of them in your cloud infrastructure.</p>
+<div><p>Mentioned earlier throughout this Level 3 course are the variety of features available for managing your PowerVS instances once the infrastructure and services have been deployed. The ability to customize and scale of these environments post-provisioning are precisely the <em>cloud</em> benefits that draw clients toward an investment in PowerVS. In the next chapters, dive deeper into each of these advanced topics to get up to speed on the fundamentals and provide a launching point for you to craft a demonstration on these topics for your client engagements.</p>
+<p>Specifically, explore each of the following categories in turn: </p>
 <ul>
-<li>
-<p><strong>Primary subnets</strong> are subnets assigned to meet the IP addressing needs of other products, such as bare metal server and virtual server instances. These subnets are automatically assigned and removed.</p>
-</li>
-<li>
-<p><strong>Secondary subnets</strong> are subnets which are purchased and routed by you, cancelled when no longer needed. There are two types: portable and static. Portable IP addresses are available to all resources on a VLAN, whereas static IP addresses are available to the resource identified as their routing endpoint. Global IP addresses's unique routing behavior utilizes IBM's Cloud backbone to provide IP addresses to the resources identified as the routing endpoint.</p>
-</li>
-</ul>
-<p><strong>Cloud connections</strong> and <strong>VPN connections</strong> were introduced earlier in Part 5, but options around how they are provisioned and added to a PowerVS instance will be explored more deeply in this chapter.</p></div>
+<li>Virtual appliances</li>
+<li>Shared processor pools and server placement groups</li>
+<li>SSH keys</li>
+<li>Boot images</li>
+<li>Networking</li>
+<li>Storage volumes</li>
+<li>Event logs</li>
+<li>Additional products and services</li>
+</ul></div>
 
 
 
