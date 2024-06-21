@@ -49,8 +49,12 @@ nav:
     - 'Introduction': 'Part 8/01 Introduction.md'
     - 'IBM Cloud Monitoring': 'Part 8/02 IBM Cloud Monitoring.md'
     - 'IBM Activity Tracker': 'Part 8/03 IBM Cloud Activity Tracker.md'
-  - Part 9 - Next steps:
-    - 'Next steps': 'Part 9/01 Next steps.md'
+  - Part 9 - New features:
+    - 'Introduction': 'Part 9/01 Introduction.md'
+    - 'Dedicated hosts': 'Part 9/02 Dedicated hosts.md'
+    - 'Deployable architectures': 'Part 9/03 Deployable architectures.md'
+  - Part 10 - Next steps:
+    - 'Next steps': 'Part 10/01 Next steps.md'
 
 theme:
   name: material

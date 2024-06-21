@@ -39,7 +39,7 @@ The next steps refer to the entries in the **Boot image** section of the **Creat
 24. Click the **IBM i Licenses** information icon (![](_attachments/infoIcon.png)).
 25. Click the information pop-up to dismiss it.
 
-!!! Note "Change in IBM Cloud Portal"
+??? Note "Change in IBM Cloud Portal"
 
     During the creation of this course, a new feature was added to PowerVS that is not reflected in this click-thru demonstration. The **Advanced configurations** option allows users to specify **cloud-init user data**. 
     

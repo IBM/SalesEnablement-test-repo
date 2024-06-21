@@ -39,7 +39,7 @@ The next steps refer to the entries in the **Boot image** section of the **Creat
 23. Click the **Tier** pull-down (it will already be set to **Tier3 (3 IOPs/GB)**).
 24. Click **Tier 3 (3 IPOs/GB)**.
 
-!!! Note "Change in IBM Cloud Portal"
+??? Note "Change in IBM Cloud Portal"
 
     During the creation of this course, a new feature was added to PowerVS that is not reflected in this click-thru demonstration. The **Advanced configurations** option allows users to specify **cloud-init user data**. 
     
