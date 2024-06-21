@@ -16,7 +16,7 @@
         <link rel="prev" href="../01%20Introduction/">
       
       
-        <link rel="next" href="../../Part%205/01%20Introduction/">
+        <link rel="next" href="../03%20Deployable%20architectures/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Managing instances - IBM Power Virtual Server Level 3 Demonstration Guide</title>
+        <title>Dedicated hosts - IBM Power Virtual Server Level 3 Demonstration Guide</title>
       
     
     
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Managing instances
+              Dedicated hosts
             
           </span>
         </div>
@@ -571,20 +571,18 @@
       
   
   
-    
-  
   
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -598,7 +596,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Part 4 - Managing PowerVS instances
@@ -611,7 +609,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01%20Introduction/" class="md-nav__link">
+      <a href="../../Part%204/01%20Introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -629,16 +627,9 @@
                 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../Part%204/02%20Explore-managing-instances/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -647,7 +638,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -1156,18 +1146,20 @@
       
   
   
+    
+  
   
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" checked>
         
           
           <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
@@ -1181,7 +1173,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_10">
             <span class="md-nav__icon md-icon"></span>
             Part 9 - New features
@@ -1194,7 +1186,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Part%209/01%20Introduction/" class="md-nav__link">
+      <a href="../01%20Introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1212,9 +1204,16 @@
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../Part%209/02%20Dedicated%20hosts/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -1223,6 +1222,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -1234,7 +1234,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Part%209/03%20Deployable%20architectures/" class="md-nav__link">
+      <a href="../03%20Deployable%20architectures/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1349,89 +1349,9 @@
                   
 
 
-  <h1>Managing instances</h1>
+  <h1>Dedicated hosts</h1>
 
-<div><p>Using the IBM Cloud portal and command line interfaces (CLIs), users are able to perform the following actions on individual IBM Power Virtual Servers (PowerVS) instances (VSIs):</p>
-<ul>
-<li>Perform an operating system (OS) shutdown</li>
-<li>Perform an immediate shutdown (without killing processes)</li>
-<li>Restart</li>
-<li>Reset</li>
-<li>Open a console (terminal) to the instance</li>
-<li>Delete the instance</li>
-<li>Capture and export an image of the instance</li>
-<li>Modify an image </li>
-<li>Change pinning policy</li>
-<li>Add or remove cores</li>
-<li>Add or remove memory</li>
-<li>Modify placement group</li>
-<li>Add/remove volumes</li>
-<li>Modify network interfaces (may require OS changes)</li>
-</ul>
-<div class="admonition important">
-<p class="admonition-title">Options may vary</p>
-<p>The options may vary depending on the OS of the PowerVS instance and other options selected like shared vs. dedicated and if the instance is part of a shared processor pool.</p>
-</div>
-<p>Using the IBM Cloud portal, complete the following scenario for managing PowerVS instances using the "baking show" demonstration technique. Note, an error message like the one below will be encountered if an attempt is made to complete an action.</p>
-<p><img alt="" src="../_attachments/ErrorMessage2.png"></p>
-<p>This is normal, as full access to the shared environment is <strong>not</strong> provided. To avoid the error message, simply click the <strong>Cancel</strong> button on the action dialog. If performing a live client demonstration, or for IBM employees completing the Stand and Deliver for the IBM Power Virtual Server for Technical Sales- Level 3 badge, tell the audience why the action is being canceled but explain what would typically happen if the action was completed.</p>
-<ol>
-<li>Open the IBM Cloud Portal: <a href="https://cloud.ibm.com/" target="_blank">https://cloud.ibm.com/</a> and authenticate.</li>
-<li>Change to the <strong>2305900 - ITZ - ADHOC03</strong> account.</li>
-</ol>
-<p><img alt="" src="../_attachments/SwitchAccounts-final.gif"></p>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>If the browser window is narrow, this icon: <img alt="" src="../_attachments/SwitchAccountsIcon.png"> may be seen instead of the current account name as shown in the screen capture above.</p>
-</div>
-<!-- 3. Click **Services and software** under **Resource summary** on the IBM Cloud Dashboard. -->
-
-<ol start="3">
-<li>Click the <strong>Resource List</strong> <img alt="" src="../_attachments/ResourceListIcon.png"> icon in the left-hand menu bar.</li>
-</ol>
-<p><img alt="" src="../_attachments/NewDashboard.png"></p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>In some cases, after switching accounts a new user questionnaire and/or other pop-up window may appear. Simply cancel these windows. If a the IBM Cloud Dashboard is not displayed as seen in the above figure, click the <strong>IBM Cloud</strong> text at top left of the IBM Cloud Portal.</p>
-</div>
-<ol start="4">
-<li>Click <strong>PowerVS-L3-2024</strong> under <strong>Compute</strong>.</li>
-</ol>
-<p><img alt="" src="../_attachments/ResourceListofWorkspaces.png"></p>
-<ol start="5">
-<li>Click <strong>AIX-VM</strong> in the <strong>Virtual server workspaces</strong> table.</li>
-</ol>
-<p><img alt="" src="../_attachments/VSIInstancesTable.png"></p>
-<ol start="6">
-<li>Click the <strong>VM actions</strong> pull-down.</li>
-</ol>
-<p><img alt="" src="../_attachments/VSI-InstanceDetails-Actions.png"></p>
-<p>Notice the actions that can be initiated. The actions available will vary depending on the current state of the instance and the operating system of the instance.</p>
-<details class="error">
-<summary>Don't see a <strong>VM actions</strong> button?</summary>
-<p>If the browser window is too small, the reactive nature of the IBM Cloud Portal will change the <strong>VM actions</strong> button to an ellipses icon <img alt="" src="../_attachments/elipsesIcon.png">. Click the ellipses icon to see the <strong>VM actions</strong> or expand the browser window horizontally.</p>
-<p><img alt="" src="../_attachments/bigEllipses.png"></p>
-</details>
-<ol start="7">
-<li>Click anywhere on the main screen (away from the pop-up menu from step 6).</li>
-<li>Click the <strong>Edit details</strong> link.</li>
-</ol>
-<p><img alt="" src="../_attachments/VSI-InstanceDetails-EditDetails.png"></p>
-<p>Explore what instance configuration options can be modified. Depending on the running state of the instance, some options may not be possible. Note, making changes to the instance always requires the user to agree to the service terms.</p>
-<ol start="9">
-<li>Click <strong>Cancel</strong> in the <strong>Edit virtual server instance details</strong> dialog.</li>
-</ol>
-<div class="admonition example">
-<p class="admonition-title">On your own</p>
-</div>
-<p>The above steps walked through two aspects of managing a single PowerVS instance running the AIX operating system. Explore the <strong>Edit</strong> options available for the VSIs running Linux and IBM i. Notice any differences?</p>
-<p>Before proceeding, spend a few minutes exploring other aspects of managing PowerVS instances using the IBM Cloud Portal. Detailed steps are not provided, but typically just click the <strong>Cancel</strong> button to return to the instances detail page. Here are a few things to try:</p>
-<p>On any of the instances' detail pages, try the following:</p>
-<ul>
-<li>Click <strong>Attach volume</strong>. Notice how only existing volumes that are marked as <strong>shareable</strong> are displayed.</li>
-<li>Click <strong>Create volume</strong>. Notice it is now possible to add a <strong>Storage volume</strong> using a different tier of storage than that of the instance boot volume.</li>
-<li>Click the <strong>VM actions</strong> drop-down menu and select <strong>Capture and export</strong>. From this dialog, the storage volumes can be exported to either the PowerVS service Image catalog or to IBM Cloud Object Storage. <strong>Hint</strong>: Business Partners should take note of the <strong>Limited actions available during capture</strong> information dialog that appears on the <strong>Capture and export</strong> panel.</li>
-</ul></div>
+<p>to be written</p>
 
 
 
