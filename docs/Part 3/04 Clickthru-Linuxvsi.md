@@ -36,6 +36,15 @@ The next steps refer to the entries in the **Boot image** section of the **Creat
 20. Click **RHEL9-SP2**.
 21. Click the **Tier** pull-down (it will already be set to **Tier3 (3 IOPs/GB)**).
 22. Click **Tier 3 (3 IPOs/GB)**.
+
+!!! Note "Change in IBM Cloud Portal"
+
+    During the creation of this course, a new feature was added to PowerVS that is not reflected in this click-thru demonstration. The **Advanced configurations** option allows users to specify **cloud-init user data**. 
+    
+    ![](_attachments/cloud-init.png)
+    
+    This data is used when the VSI is first booted. This capability only applies to Full Linux Subscription boot images. Learn more about these user defined scripts <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-full-linux-sub#cloud-init-fls-private-cloud" target="_blank>here</a>. Learn more about Full Linux Subscription (FLS) <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-set-full-Linux" target="_blank">here</a>.
+
 23. Click the **Continue** button under the **Boot image** section.
 
 The next steps refer to the entries in the **Profile** section of the **Create virtual server instance** form.

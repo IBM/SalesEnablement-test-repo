@@ -61,3 +61,5 @@ e. A volume can be marked as bootable. Bootable volumes can not be shared. It is
 ![](_attachments/StorageVolumeEdit-3.png)
 
 Storage volumes that are not actively in use by VSI can also be deleted from the edit menu.
+
+Learn more about managing storage volumes <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-modifying-instance#modifying-volume-network" target="_blank">here</a>.
