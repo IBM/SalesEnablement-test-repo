@@ -18,11 +18,11 @@ nav:
     - 'Reserve the environment': 'Part 1/02 Reserve.md'
   - Part 2 - Provisioning a PowerVS workspace:
     - 'Introduction': 'Part 2/01 Introduction.md'
-    - 'Watch a service being provisioned': 'Part 2/02 Watch-service.md'
+    # - 'Watch a service being provisioned': 'Part 2/02 Watch-service.md'
     - 'Click through demonstration of a workspace being provisioned': 'Part 2/03 Clickthru-service.md'
   - Part 3 - Provisioning a PowerVS instance:
     - 'Introduction': 'Part 3/01 Introduction.md'
-    - 'Watch a instance being provisioned': 'Part 3/02 Watch-instance.md'
+    # - 'Watch a instance being provisioned': 'Part 3/02 Watch-instance.md'
     - 'Click through provisioning demonstration - AIX': 'Part 3/03 Clickthru-AIXvsi.md'
     - 'Click through provisioning demonstration - Linux': 'Part 3/04 Clickthru-Linuxvsi.md'
     - 'Click through provisioning demonstration - IBM i': 'Part 3/05 Clickthru-IBMivsi.md'

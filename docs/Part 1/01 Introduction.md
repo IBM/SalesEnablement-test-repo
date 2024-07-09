@@ -5,7 +5,7 @@ Everyone attempting this Level 3 plan should be familiar with PowerVS and should
 - **IBM:** <a href="https://yourlearning.ibm.com/activity/PLAN-4E64FE2FDBF0" target="_blank">https://yourlearning.ibm.com/activity/PLAN-4E64FE2FDBF0</a>
 - **Business Partners:** <a href="https://learn.ibm.com/course/view.php?id=11419" target="_blank">https://learn.ibm.com/course/view.php?id=11419</a>
 
-This demonstration environment has multiple purposes. First, it is meant to educate Sales and Technical Sales on (PowerVS) and to hone seller skills to perform PowerVS demonstrations. Additionally, the IBM Technology Zone (TechZone) environment, this demonstration guide, and associated click-thru demos and videos can be re-used to perform client demonstrations.
+This demonstration environment has multiple purposes. First, it is meant to educate Sales and Technical Sales on (PowerVS) and to hone seller skills to perform PowerVS demonstrations. Additionally, the IBM Technology Zone (TechZone) environment, this demonstration guide and associated click-thru demos can be re-used to perform client demonstrations.
 
 The primary goal of this Level 3 is to focus on the Infrastructure as a Service (IaaS) capability of PowerVS and not on the operating systems supported by the offering: AIX, IBM i, and Linux, nor the Power hardware. Below is an overview of this 10 Part demonstration guide:
 
@@ -14,7 +14,7 @@ The primary goal of this Level 3 is to focus on the Infrastructure as a Service 
 - In **Part 5**, learn how to access the pre-provisioned PowerVS instances using IBM Cloud Shell.
 - **Parts 1 through 5** provide a good foundation for performing a high-level, customer facing demonstration of IBM Power Systems Virtual Server.
 - **Parts 6, 7, and 8** introduce several more technical aspects of PowerVS including using the PowerVS IBM Cloud command line interface (CLI) plugin.
-- **Part 9** introduces new features added to the PowerVS offering that were while or after this course was developed. They are introduced here, but are not included in click-thru demonstrations or hands-on exercises.
+- **Part 9** introduces new features added to the PowerVS offering that were while or after this course was developed. 
 - Finally, in **Part 10**, learn where to find additional resources, and how to complete the {{learningplan.name}} badge.
 
 Proceed to the next section to reserver your access to the IBM Technology Zone environment.
