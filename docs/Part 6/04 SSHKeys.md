@@ -1,8 +1,8 @@
-Secure Shell also known as Secure Socket Shell (SSH) is a network protocol used to securely control access to computers over an unsecure network. 
+Secure Shell also known as Secure Socket Shell (SSH) is a network protocol that is used to securely control access to computers over an unsecure network. 
 
 Learn more about SSH <a href="https://en.wikipedia.org/wiki/Secure_Shell" target="_blank">here</a>.
 
-Recall from the click-thru demonstrations to provision a virtual server instance, the {{powerVS.sshKey}} was specified as the SSH key for the server. The {{powerVS.sshKey}} was added to the workspace prior to provisioning those instances. 
+Recall from the click through demonstrations to provision a virtual server instance, the {{powerVS.sshKey}} was specified as the SSH key for the server. The {{powerVS.sshKey}} was added to the workspace before those instances were created. 
 
 !!! Note 
 
@@ -16,12 +16,12 @@ Recall from the click-thru demonstrations to provision a virtual server instance
 
 ![](_attachments/SSHKeysList.png)
 
-The use of the term **Create** is a misnomer. In actuality, this step loads the public part of an existing SSH key into the PowerVS workspace so it can be used to pushed to VSIs provisioned in the environment and used to access those VSIs.
+The use of the term **Create** is a misnomer. This step loads the public part of an existing SSH key into the PowerVS workspace. The key can then be pushed to VSIs provisioned in the environment and used to access those VSIs.
 
 ![](_attachments/SSHKeysCreate.png)
 
-In the **New SSH key** dialog, the user would specify a name and then paste the public key part of the SSH key they have previously created. The <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-create-vm#ssh-setup" target="_blank">**How do I get a public key**</a> link provides information on how to generate a key on Linux-based system.
+In the **New SSH key** dialog, the user specifies a name and then pastes the public key part of the SSH key previously created. The <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-create-vm#ssh-setup" target="_blank">**How do I get a public key**</a> link provides information on how to generate a key on a Linux-based system.
 
 3. Click **Cancel**.
 
-Once the key is loaded into the workspace, it will appear in the list of available keys to use when provisioning a new PowerVS VSI. It is the client's responsibility to securely manage their keys. If a key compromised, a new key should be created and added to the existing VSIs, and the old key should be removed from the VSIs as well as the PowerVS workspace.
+After the key is loaded into the workspace, it appears in the list of available keys to use when a new PowerVS VSI is provisioned. It is the client's responsibility to securely manage their keys. If a key is compromised, a new key should be created and added to the existing VSIs. The old key should be removed from the VSIs and the PowerVS workspace.

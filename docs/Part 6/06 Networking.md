@@ -1,6 +1,6 @@
-Network design for any cloud deployment is critical, this include for IBM Power Virtual Server (PowerVS) deployments. There are many options available for clients when designing both the connectivity from their on-premises environment(s) to the cloud as well as within their PowerVS workspaces. This section only covers the creation and management of private subnets within a PowerVS workspace. Learn more about PowerVS networks <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a> and other related section of the PowerVS documentation.
+A good network design for any cloud deployment is critical. This includes IBM Power Virtual Server (PowerVS) deployments. Many options are available for clients for both the connectivity from their on-premises environments to the cloud and within their PowerVS workspaces. Only the creation and management of private subnets within a PowerVS workspace is covered. Learn more about PowerVS networks <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a> and other related section of the PowerVS documentation.
 
-1. Click the **Subnets** option in the side menu under the {{powerVS.serviceInstanceName}} workspace. Note, you may need to first expand the **Networking** section.
+1. Click the **Subnets** option in the side menu under the {{powerVS.serviceInstanceName}} workspace. Expand the **Networking** section if not already expanded.
 
 ![](_attachments/NetworkingMenu.png)
 
@@ -8,9 +8,9 @@ Two subnets are listed.
 
 ![](_attachments/Subnets-1.png)
 
-One is the public subnet for for the workspace: {{powerVS.publicSubnet}}. This subnet was created when the public network option was selected when provisioning the first virtual server instance (VSI) in the workspace.  
+One is the public subnet for the workspace: {{powerVS.publicSubnet}}. This subnet was created when the public network option was selected when the first virtual server instance (VSI) in the workspace was provisioned.  
 
-The private subnet, {{powerVS.privateSubnet}} was created prior to provisioning the first VSI. In the next steps, explore how to create a private subnet.
+The private subnet, {{powerVS.privateSubnet}} was created before the first VSI was provisioned. In the next steps, explore how to create a private subnet.
 
 2. Click **Create subnet +**.
 
@@ -20,7 +20,7 @@ To create a new subnet, the details about the subnet need to be specified.
 
 ![](_attachments/SubnetsCreate-1.png)
 
-These include a name and:
+These details include a name and:
 
 - Classless Inter-Domain Routing (CIDR)
 
@@ -28,11 +28,11 @@ These include a name and:
 
 - Gateway
 
-  The gateway address will typically be the first address in the range of available addresses defined by the CIDR; however, this can be changed.
+  The gateway address is typically the first address in the CIDR range of available addresses; however, the address can be changed.
 
 - IP ranges
 
-  The IP range field allows the user to specify either the full CIDR range as being available or a subset.
+  The IP range allows the user to specify either the full CIDR range as being available or a subset.
 
 - Domain Name Server (DNS)
 
@@ -40,10 +40,10 @@ These include a name and:
 
 - Maximum Transmission Unit (MTU)
 
-  MTU is used to specify the largest data packet size allowed over a network. A larger MTU produces less overhead, and a smaller value can reduce network delay. If Red Hat OpenShift will be deployed on VSIs in the subnet, the recommendation is to set the MTU size to 1450. To support jumbo frames (often required for applications with large data transfers), the MTU should be set to 9000.
+  MTU is used to specify the largest data packet size allowed over a network. A larger MTU produces less overhead, and a smaller value can reduce network delay. If Red Hat OpenShift is deployed on VSIs in the subnet, the recommendation is to set the MTU size to 1450. To support jumbo frames (often required for applications with large data transfers), the MTU should be set to 9000.
 
-3. Click **Cancel**.
+1. Click **Cancel**.
    
 ![](_attachments/SubnetsCreate-1.png)
 
-Existing subnets can be edited; however, this is limited to changing the gateway, the IP ranges, and adding or removing DNS servers.
+Existing subnets can be edited; however, modifications are limited to changing the gateway, the IP ranges, and adding or removing DNS servers.
