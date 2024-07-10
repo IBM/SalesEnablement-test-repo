@@ -1311,53 +1311,52 @@
 
   <h1>Introduction</h1>
 
-<div><p>The IBM Power Virtual Server (PowerVS) physical servers are located in IBM data centers, distinct from the IBM Cloud servers. They have separate networks and direct-attached storage. The environment is in its own pod and the internal networks are fenced but offer connectivity options to meet client requirements. This infrastructure design enables PowerVS to maintain key enterprise software certification and support as the PowerVS architecture is identical to certified on-premises infrastructure. The virtual servers, also known as instances (VSI), logical partitions (LPAR), or virtual machines (VMs) run on IBM Power hardware with the PowerVM hypervisor.</p>
-<p>The key parameters for a PowerVS VSI are:</p>
+<div><p>IBM Power Virtual Server (PowerVS) is all about deploying and managing virtual server instances (VSIs) running AIX, IBM i, or Linux. A VSI is also referred to as a virtual machines (VM) or a logical partition (LPAR). The key parameters for provisioning a PowerVS VSI are:</p>
 <ul>
 <li>
-<p><strong>Instance name</strong>: The PowerVS instance name will appear in the IBM Cloud Portal under the list of instances within a service. Specify a name that is easily understood and recognized.</p>
+<p><strong>Instance name</strong>: The PowerVS instance name appears in the IBM Cloud Portal under the list of instances within a service. Specify a name that is easily understood and recognized.</p>
 </li>
 <li>
-<p><strong>Server placement group</strong>: Server placement groups provide control over the host or server on which a new virtual machine (VM) is placed. By using server placement groups, high availability solutions can be created within a data center. Apply an affinity or anti-affinity policy to each VM instance within a server placement group. After creating a placement group, provision a new VM instance in the placement group. When setting a placement group with an affinity policy, all VMs in that placement group are launched on the same server. When setting a placement group with an anti-affinity policy, all VMs in that placement group are launched on different servers. Learn more about <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-placement-groups" target="_blank">placement groups</a><a></a>.</p>
+<p><strong>Server placement group</strong>: Server placement groups provide control over the host or server on which a new VM is placed. By using server placement groups, high availability solutions can be created within a data center. Apply an affinity or anti-affinity policy to each VM instance within a server placement group. All VMs in a placement group with an affinity policy are started on the same server. All VMs in a placement group with an anti-affinity policy are started on different servers. Learn more about <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-placement-groups" target="_blank">placement groups</a>.</p>
 </li>
 <li>
 <p><strong>VM pinning policy</strong>: VM pinning controls the movement of VMs during disasters and other restart events. Learn more about hard and soft pinning <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-power-iaas-faqs#pinning" target="_blank">here</a>.</p>
 </li>
 <li>
-<p><strong>SSH key</strong>: An SSH public/private key pair is required to access the instance. An SSH key must be created and loaded into the IBM Cloud Portal prior to creating an instance. Learn more about using and generating SSH keys <a href="https://cloud.ibm.com/docs/ssh-keys?topic=ssh-keys-adding-an-ssh-key" target="_blank">here</a>.</p>
+<p><strong>SSH key</strong>: An SSH public and private key pair is required to access the instance. An SSH key must be created and loaded into the IBM Cloud Portal before an instance can be provisioned. Learn more about using and generating SSH keys <a href="https://cloud.ibm.com/docs/ssh-keys?topic=ssh-keys-adding-an-ssh-key" target="_blank">here</a>.</p>
 </li>
 <li>
-<p><strong>Operating system</strong>: PowerVS instances can run either IBM AIX, IBM i, or Linux operating systems (OS). Several Linux images are available specifically for servers that will run SAP.</p>
+<p><strong>Operating system</strong>: PowerVS instances can run either IBM AIX, IBM i, or Linux operating systems (OS). Several Linux images are available specifically for servers that run SAP.</p>
 </li>
 <li>
-<p><strong>OS image</strong>: Users have the ability to choose an operating system image from the PowerVS image catalog or users can bring their own image. Each supported OS has a specific set of images in the PowerVS catalog for supported OS versions. Each instance is provisioned with a boot volume using the storage tier selected.</p>
+<p><strong>OS image</strong>: Users can choose an operating system image from the PowerVS image catalog or users can bring their own image. Each supported OS has a specific set of images in the PowerVS catalog for supported OS versions. Each instance is provisioned with a boot volume that uses the storage tier selected.</p>
 </li>
 <li>
 <p><strong>Storage tier</strong>: PowerVS supports 4 tiers of storage. Tier 3 provides a maximum of 3 input/output operations per second (IOPs) per gigabyte (GB). Tier 1 provides a maximum of 10 IOPs/GB. Tier 0 provides a maximum of 25 IOPs/GB. The Fixed IOPs tier provides 5,000 IOPs regardless of size; however, the Fixed IOPs tier is limited to volumes with a size of 200 GB or less.</p>
 </li>
 <li>
-<p><strong>Storage pool affinity</strong>: Three storage pool affinity options are available: auto-select, affinity, and anti-affinity. The affinity option requires the boot volume to be placed in the same pool as another existing instance or existing boot volume. The new storage volume(s) for the instance will be placed in the same storage pool where the affinity object resides. The anti-affinity specifies a different pool should be used from that of another existing instance or existing boot volume.</p>
+<p><strong>Storage pool affinity</strong>: Three storage pool affinity options are available: auto-select, affinity, and anti-affinity. The affinity option requires the boot volume to be placed in the same pool as another existing instance or existing boot volume. New storage volumes for the instance are placed in the same storage pool as the affinity object. The anti-affinity policy specifies a different pool must be used from another existing instance or existing boot volume.</p>
 </li>
 <li>
-<p><strong>Machine type</strong>: Several IBM Power 9 and IBM Power 10 machine types are supported by the offering. Availability of machine types vary by datacenter. Learn more about the hardware specifications available <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-about-power-iaas#hardware-specifications-on-cloud" target="_blank">here</a>.</p>
+<p><strong>Machine type</strong>: Several IBM Power9 and IBM Power10 machine types are supported. Availability of machine types vary by data center. Learn more about the hardware specifications available <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-about-power-iaas#hardware-specifications-on-cloud" target="_blank">here</a>.</p>
 </li>
 <li>
-<p><strong>Core type</strong>: PowerVS supports shared uncapped, shared capped, and dedicated cores. Shared uncapped cores are shared among other clients. Shared capped cores are shared, but resources do not expand beyond those that are requested (used mostly for licensing). Dedicated cores are allocated for a specific client (used for specific third-party licensing considerations). Learn more about core types <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-power-iaas-faqs#processor" target="_blank">here</a>.</p>
+<p><strong>Core type</strong>: PowerVS supports shared uncapped, shared capped, and dedicated cores. Shared uncapped cores are shared among other clients. Shared capped cores are shared, but resources do not expand beyond what is requested (used mostly for licensing). Dedicated cores are allocated for a specific client (used for specific third-party licensing considerations). Learn more about core types <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-power-iaas-faqs#processor" target="_blank">here</a>.</p>
 </li>
 <li>
-<p><strong>Number of cores</strong>: The option for the number of cores assigned to an instance depends on the core type. Shared capped and unshared capped cores support 0.25 core increments, while dedicated cores must be assigned a full core. Note, the maximum number of cores will depend on the machine type and availability in the selected location.</p>
+<p><strong>Number of cores</strong>: The option for the number of cores assigned to an instance depends on the core type. Shared capped and unshared capped cores support 0.25 core increments, while dedicated cores must be assigned a full core. The maximum number of cores depends on the machine type and availability in the selected location.</p>
 </li>
 <li>
-<p><strong>Amount of memory</strong>: PowerVS instances must be provisioned with a minimum of 2GB of random access memory (RAM). The maximum amount of memory varies based upon machine type and availability in the selected location. If greater than 64GB RAM per core is specified, a higher price is charged.</p>
+<p><strong>Amount of memory</strong>: PowerVS instances must be provisioned with a minimum of 2 GB of random access memory (RAM). The maximum amount of memory varies based on machine type and availability in the selected location. If greater than 64 GB RAM per core is specified, a higher price is charged.</p>
 </li>
 <li>
-<p><strong>Additional storage volumes</strong>: When provisioning a new instance, for additional storage, a new data volume can be created. The size of a volume cannot be decreased once it has been created. The maximum size of a volume that can be created is 238,193 GB. When creating an additional volume, and available storage tier can be specified. The volume can also be marked as shareable or non-shareable (default). If an additional volume is created while creating a VM, the additional volume is created in the same storage pool as the boot volume for the VM.</p>
+<p><strong>Additional storage volumes</strong>: A new data volume can be created when an instance is provisioned. The size of a volume cannot be decreased after it creation. The maximum size of a volume that can be created is 238,193 GB. A storage tier can be specified. The volume can also be marked as shareable or nonshareable (default). Additional volumes created when the VM is created, the same storage pool as the boot volume for the VM is used.</p>
 </li>
 <li>
-<p><strong>Networking</strong>: PowerVS instances will always be attached to a private network and can optionally be attached to a public, Internet accessible network. Use private networks to connect to existing subnets or go a new subnet can be created. Learn more about PowerVS networking <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a>.</p>
+<p><strong>Networking</strong>: PowerVS instances are attached to a private network and can optionally be attached to a public, internet accessible network. Use private networks to connect to existing subnets. A new subnet can be created also. Learn more about PowerVS networking <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a>.</p>
 </li>
 </ul>
-<p>In this chapter, find a video with narration of the provisioning process for an AIX VSI. In addition, there are three (3) click-thru demonstrations, one for each of the supported operating systems: AIX, Linux, and IBM i. While each of these are very similar, there are a few minor differences. You are encouraged to go through each of these demonstrations and read step-by-step guidance provided.</p></div>
+<p>Three click through demonstrations are provided in the next chapters. One for each of the supported operating systems: AIX, Linux, and IBM i. While each is similar, a few minor differences exist. You are encouraged to go through each of these demonstrations and read the step-by-step guidance provided.</p></div>
 
 
 

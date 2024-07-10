@@ -1311,22 +1311,22 @@
 
   <h1>Networking</h1>
 
-<div><p>Network design for any cloud deployment is critical, this include for IBM Power Virtual Server (PowerVS) deployments. There are many options available for clients when designing both the connectivity from their on-premises environment(s) to the cloud as well as within their PowerVS workspaces. This section only covers the creation and management of private subnets within a PowerVS workspace. Learn more about PowerVS networks <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a> and other related section of the PowerVS documentation.</p>
+<div><p>A good network design for any cloud deployment is critical. This includes IBM Power Virtual Server (PowerVS) deployments. Many options are available for clients for both the connectivity from their on-premises environments to the cloud and within their PowerVS workspaces. Only the creation and management of private subnets within a PowerVS workspace is covered. Learn more about PowerVS networks <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a> and other related section of the PowerVS documentation.</p>
 <ol>
-<li>Click the <strong>Subnets</strong> option in the side menu under the PowerVS-L3-2024 workspace. Note, you may need to first expand the <strong>Networking</strong> section.</li>
+<li>Click the <strong>Subnets</strong> option in the side menu under the PowerVS-L3-2024 workspace. Expand the <strong>Networking</strong> section if not already expanded.</li>
 </ol>
 <p><img alt="" src="../_attachments/NetworkingMenu.png"></p>
 <p>Two subnets are listed. </p>
 <p><img alt="" src="../_attachments/Subnets-1.png"></p>
-<p>One is the public subnet for for the workspace: public-192_168_222_192-29-VLAN_2056 . This subnet was created when the public network option was selected when provisioning the first virtual server instance (VSI) in the workspace.  </p>
-<p>The private subnet, private-powervs-2024 was created prior to provisioning the first VSI. In the next steps, explore how to create a private subnet.</p>
+<p>One is the public subnet for the workspace: public-192_168_222_192-29-VLAN_2056 . This subnet was created when the public network option was selected when the first virtual server instance (VSI) in the workspace was provisioned.  </p>
+<p>The private subnet, private-powervs-2024 was created before the first VSI was provisioned. In the next steps, explore how to create a private subnet.</p>
 <ol start="2">
 <li>Click <strong>Create subnet +</strong>.</li>
 </ol>
 <p><img alt="" src="../_attachments/SubnetsCreate.png"></p>
 <p>To create a new subnet, the details about the subnet need to be specified. </p>
 <p><img alt="" src="../_attachments/SubnetsCreate-1.png"></p>
-<p>These include a name and:</p>
+<p>These details include a name and:</p>
 <ul>
 <li>Classless Inter-Domain Routing (CIDR)</li>
 </ul>
@@ -1334,11 +1334,11 @@
 <ul>
 <li>Gateway</li>
 </ul>
-<p>The gateway address will typically be the first address in the range of available addresses defined by the CIDR; however, this can be changed.</p>
+<p>The gateway address is typically the first address in the CIDR range of available addresses; however, the address can be changed.</p>
 <ul>
 <li>IP ranges</li>
 </ul>
-<p>The IP range field allows the user to specify either the full CIDR range as being available or a subset.</p>
+<p>The IP range allows the user to specify either the full CIDR range as being available or a subset.</p>
 <ul>
 <li>Domain Name Server (DNS)</li>
 </ul>
@@ -1346,12 +1346,12 @@
 <ul>
 <li>Maximum Transmission Unit (MTU)</li>
 </ul>
-<p>MTU is used to specify the largest data packet size allowed over a network. A larger MTU produces less overhead, and a smaller value can reduce network delay. If Red Hat OpenShift will be deployed on VSIs in the subnet, the recommendation is to set the MTU size to 1450. To support jumbo frames (often required for applications with large data transfers), the MTU should be set to 9000.</p>
-<ol start="3">
+<p>MTU is used to specify the largest data packet size allowed over a network. A larger MTU produces less overhead, and a smaller value can reduce network delay. If Red Hat OpenShift is deployed on VSIs in the subnet, the recommendation is to set the MTU size to 1450. To support jumbo frames (often required for applications with large data transfers), the MTU should be set to 9000.</p>
+<ol>
 <li>Click <strong>Cancel</strong>.</li>
 </ol>
 <p><img alt="" src="../_attachments/SubnetsCreate-1.png"></p>
-<p>Existing subnets can be edited; however, this is limited to changing the gateway, the IP ranges, and adding or removing DNS servers.</p></div>
+<p>Existing subnets can be edited; however, modifications are limited to changing the gateway, the IP ranges, and adding or removing DNS servers.</p></div>
 
 
 

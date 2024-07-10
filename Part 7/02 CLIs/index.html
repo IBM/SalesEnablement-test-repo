@@ -1311,40 +1311,38 @@
 
   <h1>Command line exercises</h1>
 
-<div><p>In this exercise, explore several of the IBM Power Virtual Server (PowerVS) command line interfaces (CLIs). </p>
-<p>It is important to remember this is a shared environment and only limited administrative permissions are provided. </p>
-<p>For this exercise, the IBM Cloud Shell will be used. IBM Cloud Shell gives users complete control of their cloud resources, applications and infrastructure, from any web browser. IBM Cloud Shell provides pre-authenticated access to the latest tools and programming languages for cloud-based development, deployment and management of services and applications — all in a secure shell. IBM Cloud Shell is instantly accessible from the IBM Cloud portal. The IBM command line interface (CLI) along with all the IBM Cloud CLI plugins are pre-installed in IBM Cloud Shell, including the PowerVS CLIs.</p>
-<p>It is also possible to install the IBM Cloud CLIs and PowerVS CLI plugin on other systems, like personal desktops, development servers, etc. To learn more about installing the PowerVS CLI locally click <a href="https://cloud.ibm.com/docs/power-iaas-cli-plugin?topic=power-iaas-cli-plugin-power-iaas-cli-reference" target="_blank">here</a>.</p>
+<div><p>Now, explore several of the IBM Power Virtual Server (PowerVS) command-line interfaces (CLIs). </p>
+<p>For this exercise, the IBM Cloud Shell is used. IBM Cloud Shell gives users complete control of their cloud resources, applications, and infrastructure, from any web browser. IBM Cloud Shell provides pre-authenticated access to tools and programming languages for cloud-based development, deployment, and management of services and applications. IBM Cloud Shell is instantly accessible from the IBM Cloud portal. The IBM command-line interface (CLI) along with all the IBM Cloud CLI plug-ins are preinstalled in IBM Cloud Shell, including the PowerVS CLIs.</p>
+<p>It is also possible to install the IBM Cloud CLIs and PowerVS CLI plug-in on other systems, like personal desktop and development servers. Learn more about installing the PowerVS CLI locally <a href="https://cloud.ibm.com/docs/power-iaas-cli-plugin?topic=power-iaas-cli-plugin-power-iaas-cli-reference" target="_blank">here</a>.</p>
 <p>To get started, first open the IBM Cloud Shell from the IBM Cloud portal:</p>
 <ol>
-<li>If not already opened, open the IBM Cloud Portal: <a href="https://cloud.ibm.com/" target="_blank">https://cloud.ibm.com/</a> and authenticate with your IBM Cloud credentials.</li>
+<li>Open the IBM Cloud Portal: <a href="https://cloud.ibm.com/" target="_blank">https://cloud.ibm.com/</a> and authenticate with your IBM Cloud credentials.</li>
 <li>Change to the <strong>2305900 - ITZ - ADHOC03</strong> account.</li>
 </ol>
 <p><img alt="" src="../_attachments/SwitchAccounts-final.gif"></p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>If the browser window is narrow, this icon: <img alt="" src="../_attachments/SwitchAccountsIcon.png"> may be seen instead of the current account name as shown in the screen capture above.</p>
+<p>If the browser window is narrow, this icon: <img alt="" src="../_attachments/SwitchAccountsIcon.png"> is seen instead of the current account name as shown in the preceding screen capture.</p>
 </div>
 <ol start="3">
 <li>Click the IBM Cloud Shell icon <img alt="" src="../_attachments/CloudShellIcon.png">.</li>
 </ol>
 <p><img alt="" src="../_attachments/StartCloudShell-new.png"></p>
-<p>The next steps are performed in using the IBM Cloud Shell window that was opened.</p>
-<p>First, create a SSH private key file using the key provided in the IBM Technology Zone's reservation welcome e-mail.</p>
-<p>Remember, to avoid typographical errors <strong>copy</strong> the command line using the <img alt="" src="../_attachments/CopyToClipboard.png"> icon when it is available. Then paste the contents into the IBM Cloud Shell using <span class="keys"><kbd class="key-control">Ctrl</kbd></span><strong>+v</strong>, <span class="keys"><kbd class="key-command">Cmd</kbd></span><strong>+v</strong>, or right click and select paste at the prompt in the IBM Cloud Shell.</p>
+<p>The next steps are run in the IBM Cloud Shell window that was opened.</p>
+<p>To avoid typographical errors <strong>copy</strong> the command line by using the <img alt="" src="../_attachments/CopyToClipboard.png"> icon when it is available. Then paste the contents into the IBM Cloud Shell by using <span class="keys"><kbd class="key-control">Ctrl</kbd></span><strong>+v</strong>, <span class="keys"><kbd class="key-command">Cmd</kbd></span><strong>+v</strong>, or right click and select paste at the prompt in the IBM Cloud Shell.</p>
 <ol start="4">
-<li>Display all the PowerVS plugin command line options.</li>
+<li>Display all the PowerVS plug-in command-line options.</li>
 </ol>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>ibmcloud pi --help | more
 </code></pre></div>
 <details class="tip">
 <summary>Tip for novice Linux users!</summary>
-<p>Those not familiar with Linux commands, don't worry. The above command is actually 2 commands. The first is <code>ibmcloud pi --help</code>. This executes the <strong>help</strong> option of the PowerVS plugin. The second command is the <code>more</code> command which pauses the output being displayed. The <strong>"|"</strong> or <strong>pipe</strong> character takes the output from the first command and sends it as input to the second command. To learn more about Linux commands do an Internet search on <strong>Linux primer</strong>.</p>
+<p>If you are not familiar with Linux commands, don't worry. The preceding command is two commands. The first is <code>ibmcloud pi --help</code>. This command runs the <strong>help</strong> option of the PowerVS plug-in. The second command is <code>more</code>. This command pauses the output being displayed. The <strong>"|"</strong> or <strong>pipe</strong> character takes the output from the first command and sends it as input to the second command. Search the internet for <strong>Linux primer</strong> to learn more about Linux commands.</p>
 </details>
-<ol start="5">
+<ol>
 <li>Press the <strong>space bar</strong> to continue the output. Continue to press space bar several times to scroll through the complete output.</li>
 </ol>
-<p>Notice the last part of the message says: <strong>Enter 'ibmcloud pi [command] --help' for more information about a command.</strong> Use this to get more help on individual PowerVS plugin commands.</p>
+<p>Notice the last part of the message: <strong>Enter 'ibmcloud pi [command] --help' for more information about a command.</strong> Use this to get more help on individual PowerVS plug-in commands.</p>
 <ol start="6">
 <li>List all the PowerVS workspaces provisioned in the account.</li>
 </ol>
@@ -1355,18 +1353,18 @@
 <p><img alt="" src="../_attachments/service-list-2024.png"></p>
 </div>
 <p>Note, the <strong>PowerVS-L3-workspace</strong> may not appear in your output.</p>
-<p>To view the PowerVS instances in the workspace, the workspace target must first be set for the PowerVS plugin.</p>
+<p>To view the PowerVS instances in the workspace, the workspace target must first be set for the PowerVS plug-in.</p>
 <ol start="7">
-<li>Set the workspace target using the instance ID of the workspace.</li>
+<li>Set the workspace target by using the instance ID of the workspace.</li>
 </ol>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>workspaceID=`ibmcloud pi workspaces 2&gt;&amp;1 | grep PowerVS-L3-2024 | tail -1 | cut -f1 -d' '`
 </code></pre></div>
 <details class="tip">
 <summary>Tip for novice Linux users!</summary>
-<p>The last command did 5 actions. First, it listed the workspace list like in step 6 and redirected both the error and standard output to the standard output stream (<strong>2&gt;&amp;1</strong>). Next, the output is filtered (grep) to just show the line for the PowerVS-L3-2024. Then the output from the <strong>grep</strong> command is sent to the <strong>cut</strong> command where all the output except the first field up to to the first space character is ignored (<strong>-f -d' '</strong>). And finally, the output from the <strong>cut</strong> command was stored in an environment variable called <strong>workspaceID</strong>. Why did we do this? Because no one wants to type <strong>crn:v1:bluemix:public:power-iaas:wdc07:a/ba0e33c9056f470ca19de009747ec654:e7156c4d-eaf3-43e6-a972-a9782efa5e8d::</strong> in order to run the next command.</p>
+<p>The last command did 5 actions. First, it listed the workspace list like in step 6 and redirected both the error and standard output to the standard output stream (<strong>2&gt;&amp;1</strong>). Next, the output is filtered (grep) to show the line for the PowerVS-L3-2024. Then the output from the <strong>grep</strong> command is sent to the <strong>cut</strong> command where all the output except the first field up to the first space character is ignored (<strong>-f -d' '</strong>). Finally, the output from the <strong>cut</strong> command was stored in an environment variable called <strong>workspaceID</strong>. Why? Because no one wants to type <strong>crn:v1:bluemix:public:power-iaas:wdc07:a/ba0e33c9056f470ca19de009747ec654:e7156c4d-eaf3-43e6-a972-a9782efa5e8d::</strong> to run the next command.</p>
 </details>
 <ol start="8">
-<li>Use the <strong>$workspaceID</strong> environment variable to set the target of future PowerVS plugin commands to the workspace.</li>
+<li>Use the <strong>$workspaceID</strong> environment variable to set the target of future PowerVS plug-in commands to the workspace.</li>
 </ol>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>ibmcloud pi workspace target $workspaceID
 </code></pre></div>
@@ -1392,10 +1390,9 @@
 <p class="admonition-title">Sample output</p>
 <p><img alt="" src="../_attachments/aixinstance-detail-2024.png"></p>
 </div>
-<p><strong>Hint</strong>: Business Partners should record the value of the <strong>Storage Pool Affinity</strong> field in the output from the above command.</p>
-<p>Thus far, all of these commands have been <strong>read</strong> commands. The PowerVS CLIs also support <strong>create</strong> and <strong>update</strong> commands, but remember that user IDs have limited access in this shared environment. Try the <strong>instance update</strong> command and see what happens.</p>
+<p>Thus far, all of these commands are <strong>read</strong> commands. The PowerVS CLIs also support <strong>create</strong> and <strong>update</strong> commands, but remember user IDs have access restrictions in this shared environment. Try the <strong>instance update</strong> command and see what happens.</p>
 <ol start="11">
-<li>Recall that our Power environment consists of a total of 3 PowerVM instances: AIX-VM, Linux-VM, and IBMi-VM. Up until now we've primarily been issuing instructions to perform work against AIX-VM. Given that the testing environment is primarily limited to read-only actions, let's inspect one of the other VMs and determine what (if any) differences exist between the various instances.</li>
+<li>Recall that the Power environment consists of three PowerVM instances: AIX-VM, Linux-VM, and IBMi-VM. Up until now, commands were issued against AIX-VM. Given that the testing environment is primarily limited to read-only actions, try inspect one of the other VMs and determine what (if any) differences exist between the various instances.</li>
 </ol>
 <p>Issue the following command to the IBM Cloud Shell:
 </p><div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>ibmcloud pi instance get Linux-VM
@@ -1403,21 +1400,21 @@
 <p>And then issue a second command:
 </p><div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>ibmcloud pi instance get IBMi-VM
 </code></pre></div>
-<p>Notice that the two tables are nearly identical, but there are some differences due to the different operating systems specified.</p>
+<p>Notice that the two tables are nearly identical, but differences do exist due to the operating systems used on each VSI.</p>
 <ol start="12">
-<li>There are numerous reasons why one might want to generate an SSH private key for managing a PowerVS environment. In fact, that's exactly what the service's administrators did in order to authorize access to the PowerVS instance — recall first connecting to the PowerVS virtual machines remotely via the IBM Cloud Shell with the supplied key information.</li>
+<li>There are numerous reasons why one might want to generate an SSH private key for managing a PowerVS environment. In fact, that's exactly what the service's administrators did to authorize your access to the PowerVS instances. Recall when first connecting to the PowerVS virtual machines remotely through the IBM Cloud Shell with the supplied key information.</li>
 </ol>
-<p>The IBM Cloud Shell is capable of generating an SSH key that is configured for password-less authentication (in other words, allowing users to authenticate without needing to also supply a password). This can be done using IBM Cloud Shell, or any Linux environment, using the following ssh-keygen command:</p>
+<p>The IBM Cloud Shell can generate an SSH key that is configured for password-less authentication (in other words, allowing users to authenticate without needing to also supply a password). Using IBM Cloud Shell, or any Linux environment, run the following ssh-keygen command:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>ssh-keygen -t ed25519 -N '' -f newKey
 </code></pre></div>
 <div class="admonition info">
 <p class="admonition-title">Sample output</p>
 <p><img alt="" src="../_attachments/part7_step12.png"></p>
 </div>
-<p>Use the PowerVS CLIs to create a key for the instance using an imported RSA public key. Specify the key pair generated above as the source (newKey). Do so using the following command. (Note: newKeyPOWER is the name of the IBM Power CLI-generated key that is to be created; newKey is the SSH key generated earlier using the IBM Cloud Shell).</p>
+<p>Use the PowerVS CLIs to create a key for the instance by using an imported RSA public key. Specify the key pair that was generated as the source (newKey). Do so by using the following command. (Note: newKeyPOWER is the name of the CLI-generated key that is to be created; newKey is the SSH key generated earlier by using the IBM Cloud Shell).</p>
 <div class="admonition tip">
 <p class="admonition-title">SSH keys</p>
-<p>Be aware that the SSH key-pair generated and assigned by this step is specific to IBM Power Systems. These are distinct from ones generated previously using the IBM Cloud Shell.</p>
+<p>The SSH key-pair generated and assigned by this step is specific to IBM Power Systems. These are distinct from ones generated previously by using the IBM Cloud Shell.</p>
 </div>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>ibmcloud pi ssh-key create newKeyPOWER --key newKey
 </code></pre></div>
@@ -1425,7 +1422,7 @@
 <p class="admonition-title">Sample output</p>
 <p><img alt="" src="../_attachments/sshkeyCreate.png"></p>
 </div>
-<p>As expected, the instruction fails to execute because of insufficient (locked down) permissions within this testing environment. Next, experiment with other IBM Power CLIs. Many instructions and commands will meet with similar results, but it nevertheless is good practice given that there is no risk to the system within this sandbox environment.</p>
+<p>As expected, the instruction fails to run because of insufficient (locked down) permissions within this demonstration environment. Next, experiment with other IBM Power CLIs. </p>
 <ol start="13">
 <li>Restart the <strong>Linux-VM</strong> instance.</li>
 </ol>
@@ -1434,9 +1431,9 @@
 <div class="admonition info">
 <p class="admonition-title">Sample output</p>
 <p><img alt="" src="../_attachments/instance-soft-reboot-2024.png">
-Note, an enhancement request has been submitted to improve the CLI error messages.</p>
+Note, an enhancement request was submitted to improve the CLI error messages.</p>
 </div>
-<p>There are over 100 PowerVS CLIs. Feel free to explore these using the TechZone environment. Remember, use <code>ibmcloud pi --help</code> or <code>ibmcloud pi &lt;command&gt; --help</code> to get detailed information on a command's usage.</p></div>
+<p>There are over 100 PowerVS CLIs. Explore more CLIs by using the ITZ environment. Remember, use <code>ibmcloud pi --help</code> or <code>ibmcloud pi &lt;command&gt; --help</code> to get detailed information on a command's usage.</p></div>
 
 
 

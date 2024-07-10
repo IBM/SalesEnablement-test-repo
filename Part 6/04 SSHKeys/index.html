@@ -1311,9 +1311,9 @@
 
   <h1>SSH keys</h1>
 
-<div><p>Secure Shell also known as Secure Socket Shell (SSH) is a network protocol used to securely control access to computers over an unsecure network. </p>
+<div><p>Secure Shell also known as Secure Socket Shell (SSH) is a network protocol that is used to securely control access to computers over an unsecure network. </p>
 <p>Learn more about SSH <a href="https://en.wikipedia.org/wiki/Secure_Shell" target="_blank">here</a>.</p>
-<p>Recall from the click-thru demonstrations to provision a virtual server instance, the PowerVS-key was specified as the SSH key for the server. The PowerVS-key was added to the workspace prior to provisioning those instances. </p>
+<p>Recall from the click through demonstrations to provision a virtual server instance, the PowerVS-key was specified as the SSH key for the server. The PowerVS-key was added to the workspace before those instances were created. </p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>It is unlikely you would demonstrate this aspect of the PowerVS offering during a client demonstration unless you had a very targeted and technical audience. It is add here to provide you a complete understanding of the offering and what is required to provision and manage a PowerVS environment.</p>
@@ -1326,13 +1326,13 @@
 <li>Click <strong>Create SSH key</strong>.</li>
 </ol>
 <p><img alt="" src="../_attachments/SSHKeysList.png"></p>
-<p>The use of the term <strong>Create</strong> is a misnomer. In actuality, this step loads the public part of an existing SSH key into the PowerVS workspace so it can be used to pushed to VSIs provisioned in the environment and used to access those VSIs.</p>
+<p>The use of the term <strong>Create</strong> is a misnomer. This step loads the public part of an existing SSH key into the PowerVS workspace. The key can then be pushed to VSIs provisioned in the environment and used to access those VSIs.</p>
 <p><img alt="" src="../_attachments/SSHKeysCreate.png"></p>
-<p>In the <strong>New SSH key</strong> dialog, the user would specify a name and then paste the public key part of the SSH key they have previously created. The <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-create-vm#ssh-setup" target="_blank"><strong>How do I get a public key</strong></a> link provides information on how to generate a key on Linux-based system.</p>
+<p>In the <strong>New SSH key</strong> dialog, the user specifies a name and then pastes the public key part of the SSH key previously created. The <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-create-vm#ssh-setup" target="_blank"><strong>How do I get a public key</strong></a> link provides information on how to generate a key on a Linux-based system.</p>
 <ol start="3">
 <li>Click <strong>Cancel</strong>.</li>
 </ol>
-<p>Once the key is loaded into the workspace, it will appear in the list of available keys to use when provisioning a new PowerVS VSI. It is the client's responsibility to securely manage their keys. If a key compromised, a new key should be created and added to the existing VSIs, and the old key should be removed from the VSIs as well as the PowerVS workspace.</p></div>
+<p>After the key is loaded into the workspace, it appears in the list of available keys to use when a new PowerVS VSI is provisioned. It is the client's responsibility to securely manage their keys. If a key is compromised, a new key should be created and added to the existing VSIs. The old key should be removed from the VSIs and the PowerVS workspace.</p></div>
 
 
 
