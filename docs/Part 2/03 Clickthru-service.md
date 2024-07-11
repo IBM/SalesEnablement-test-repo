@@ -27,4 +27,4 @@ Note, fields that require a text entry (for example **workspace name**) are pre-
 14. Check **I agree to the Terms and conditions**.
 15. Click **Create**.
 
-After about a minute, the new PowerVS workspace is ready to be populated with virtual server **instances**. In the next part of the demonstration guide, learn how to provision an **instance**.
+After about a minute, the new PowerVS workspace is ready to be populated with virtual server **instances**. In the next part of the demonstration guide, learn how to provision a **virtual server instance**.

@@ -17,22 +17,22 @@ The steps that follow outline how to reserve access to the pre-provisioned, IBM 
 
 4. Complete the required fields for the reservation.
 
-  a. Provide the instance a unique name. For example, 'AndrewJ-PowerVS-L3'.
+   a. Provide the instance a unique name. For example, 'AndrewJ-PowerVS-L3'.
   
-  b. Set the value of **Purpose** to **Practice / Self-Education**.
+   b. Set the value of **Purpose** to **Practice / Self-Education**.
   
-  c. Write a brief note into the **Purpose Description** field.
+   c. Write a brief note into the **Purpose Description** field.
   
-  d. Under the **Preferred Geography** field, select **itzadhoc03 - AMERICAS - us-south region - dal13 datacenter** (or a closer location if available).
+   d. Under the **Preferred Geography** field, select **itzadhoc03 - AMERICAS - us-south region - dal13 datacenter** (or a closer location if available).
   
-  e. Specify the **End Date and Time** for the reservation. The default reservation is for two days. You can extend the reservation for up to an extra four days.
+   e. Specify the **End Date and Time** for the reservation. The default reservation is for two days. You can extend the reservation for up to an extra four days.
 
-![](_attachments/ReservationInputs.png)
+   ![](_attachments/ReservationInputs.png)
 
 
 5. When satisfied, scroll down and (a) accept the terms and conditions and then (b) click **Submit** to initiate the environment provisioning request.
 
-![](_attachments/ReservationSubmit.png)
+![](_attachments/ReservationSubmit2.png)
 
 6. Wait for IBM Technology Zone to finish provisioning the PowerVS environment. The automation takes approximately 5 to 10 minutes. When ready, an email is sent _and_ the <a href="https://techzone.ibm.com/my/reservations" target="_blank">Reservations</a> page shows a PowerVS tile with the status of **Ready**. If marked as ready, click anywhere on the tile to drill down into details of the reservation.
 

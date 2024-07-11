@@ -1,6 +1,10 @@
 Use the click through demonstration below to practice provisioning an IBM i virtual server instance (VSI).
 
-Note, fields that require a text entry (for example instance name) are pre-populated in the click through demonstration.
+!!! Important
+
+    If you skipped the Part 3 Introduction and are not familiar with the features of PowerVS like storage pools, storage tiers, etc. you should consider going back and reading it.  
+
+Fields that require a text entry (for example instance name) are pre-populated in the click through demonstration.
 
 !!! tip
     Not sure where to click or what to do next? Click anywhere on the screen and the spot to click next is highlighted.
@@ -41,7 +45,7 @@ The next steps refer to the entries in the **Boot image** section of the **Creat
 
 ??? Note "Change in IBM Cloud Portal"
 
-    During the creation of this course, a new feature was added to PowerVS that is not reflected in this click throughdemonstration. The **Advanced configurations** option allows users to specify **cloud-init user data**. 
+    During the creation of this course, a new feature was added to PowerVS that is not reflected in this click through demonstration. The **Advanced configurations** option allows users to specify **cloud-init user data**. 
     
     ![](_attachments/cloud-init.png)
     
