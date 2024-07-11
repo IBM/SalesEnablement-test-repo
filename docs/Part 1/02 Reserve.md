@@ -18,9 +18,13 @@ The steps that follow outline how to reserve access to the pre-provisioned, IBM 
 4. Complete the required fields for the reservation.
 
   a. Provide the instance a unique name. For example, 'AndrewJ-PowerVS-L3'.
+  
   b. Set the value of **Purpose** to **Practice / Self-Education**.
+  
   c. Write a brief note into the **Purpose Description** field.
+  
   d. Under the **Preferred Geography** field, select **itzadhoc03 - AMERICAS - us-south region - dal13 datacenter** (or a closer location if available).
+  
   e. Specify the **End Date and Time** for the reservation. The default reservation is for two days. You can extend the reservation for up to an extra four days.
 
 ![](_attachments/ReservationInputs.png)
