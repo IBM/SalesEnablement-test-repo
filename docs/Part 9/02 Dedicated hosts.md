@@ -24,7 +24,7 @@ Dedicated host groups can be shared with other workspaces to share the capacity 
 
 Dedicated hosts can only be reserved into host groups that are created by the current workspace. After a dedicated host is reserved, it cannot be moved between host groups. 
 
-1. Click in the **Dedicated host group name** field.
+5. Click in the **Dedicated host group name** field.
    
 Note the ability to share the **Dedicated host group** between workspaces. Selected workspaces have secondary access to all dedicated hosts within the group and are able to use and view their capacity. Secondary workspaces cannot reserve dedicated hosts into the group, or share with other workspaces.
 

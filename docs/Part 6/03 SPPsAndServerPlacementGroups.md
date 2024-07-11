@@ -24,7 +24,7 @@ Learn more about SPPs <a href="https://cloud.ibm.com/docs/power-iaas?topic=power
 
 After all these properties are specified, accept the terms and conditions and create the SPP. After the SPP is provisioned, clients specify the SPP when a new VSI is created.
 
-1. Click **Cancel**.
+6. Click **Cancel**.
 
 ![](_attachments/SPPProvision3.png)
 

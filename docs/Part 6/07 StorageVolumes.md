@@ -30,9 +30,9 @@ f. A storage volume must be assigned to a storage pool. By default, the volume i
 
 g. The affinity and anti-affinity object can be either another storage volume or a VSI.
 
-f. Depending on the affinity or anti-affinity object selection (g), the menu is populated with the existing volumes or VSIs that the policy is to be applied with or against.
+h. Depending on the affinity or anti-affinity object selection (g), the menu is populated with the existing volumes or VSIs that the policy is to be applied with or against.
 
-1. Click **Cancel**.
+3. Click **Cancel**.
 
 ![](_attachments/StorageVolumeCreate-3.png)
 

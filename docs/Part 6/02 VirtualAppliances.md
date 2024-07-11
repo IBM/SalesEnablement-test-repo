@@ -24,7 +24,7 @@ Review the provisioning page for FaclonStor StorSafe VTL for PowerVS Cloud. Noti
 
 After all required fields are defined, clients can provision the virtual appliance. The automation provisions the required virtual server instance by using a base image with the FaclonStor software already installed and configured. When complete, the FalconStor solution is ready to be used.
 
-1. Click **Catalog**.
+4. Click **Catalog**.
 
 ![](_attachments/VA-FS-BackLink.png)
 

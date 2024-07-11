@@ -42,7 +42,7 @@ These details include a name and:
 
   MTU is used to specify the largest data packet size allowed over a network. A larger MTU produces less overhead, and a smaller value can reduce network delay. If Red Hat OpenShift is deployed on VSIs in the subnet, the recommendation is to set the MTU size to 1450. To support jumbo frames (often required for applications with large data transfers), the MTU should be set to 9000.
 
-1. Click **Cancel**.
+3. Click **Cancel**.
    
 ![](_attachments/SubnetsCreate-1.png)
 

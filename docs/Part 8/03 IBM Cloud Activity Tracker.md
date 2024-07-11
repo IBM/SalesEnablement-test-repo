@@ -50,7 +50,7 @@ Explore a few of the different events that exist.
 
 Note, IBM Activity Tracker can filter on specific events, specific time frames, and other attributes.
 
-1. Click the **Sources** pull-down, select **power-iaas**, and click **Apply**.
+5. Click the **Sources** pull-down, select **power-iaas**, and click **Apply**.
 
 ![](_attachments/AT-ApplyFilter.png)
 

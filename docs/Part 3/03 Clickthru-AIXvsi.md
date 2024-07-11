@@ -79,13 +79,13 @@ The next steps refer to the entries in the **Network interfaces** section of the
 
 Note: for this demonstration, the instance is provisioned with a public network (internet facing). A public network simplifies demonstrating access to instances. However, most production deployments of PowerVS use private networks and control access with Direct Link, Virtual Private Network (VPN), or Megaport Software Defined Network (SDN). To learn more about PowerVS networking options, look <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a>.
 
-1.  Toggle **Public networks** to **On**.
-2.  Click **Attach +**.
-3.  Click the **Select Network** pull-down.
-4.  Click **{{powerVS.privateSubnet}}**.
-5.  Click **Attach**.
-6.  Click **Finish** under the **Network interfaces** section.
-7.  Click **I agree to the Terms and conditions**.
-8.  Click **Create**.
+41.  Toggle **Public networks** to **On**.
+42.  Click **Attach +**.
+43.  Click the **Select Network** pull-down.
+44.  Click **{{powerVS.privateSubnet}}**.
+45.  Click **Attach**.
+46.  Click **Finish** under the **Network interfaces** section.
+47.  Click **I agree to the Terms and conditions**.
+48.  Click **Create**.
 
 The AIX PowerVS instance is now being provisioned. This process took approximately 40 minutes. Notice the value under the **Status** column of the **Virtual server instances** table. After the status changes to an **Active** state, the instance is ready to be accessed.

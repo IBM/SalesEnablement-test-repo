@@ -26,6 +26,6 @@ To access the image in COS the file name, bucket name, hash-based message authen
 
 On the second **Import boot image** screen, the user is prompted to specify a name for the image, the storage tier for the image, storage pool. After those selections are made, the boot image is copied from COS to the PowerVS workspace's boot image catalog.
 
-1. Click **Cancel**.
+3. Click **Cancel**.
 
 Learn more about importing boot images <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-importing-boot-image" target="_blank">here</a>.
