@@ -20,11 +20,11 @@ Fields that require a text entry (for example instance name) are pre-populated i
 The next steps refer to the entries in the **General** section of the **Create virtual server instance** form.
 
 5. Click the **Instance name** field.
-6. Click the **Add to a server placement group** information icon (![](_attachments/infoIcon.png)).
+6. Click the **Add to a server placement group** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
 7. Click the information dialog to close it.
-8. Click the **Add to a shared processor pool** information icon (![](_attachments/infoIcon.png)).
+8. Click the **Add to a shared processor pool** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
 9. Click the information dialog to close it.
-10. Click the **Virtual server pinning** information icon (![](_attachments/infoIcon.png)).
+10. Click the **Virtual server pinning** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
 11. Click the information dialog to close it.
 12. Click the **Select virtual server pinning** pull-down.
 13. Click **None**.
@@ -40,7 +40,7 @@ The next steps refer to the entries in the **Boot image** section of the **Creat
 21. Click **IBMi-75-03-2924-2**.
 22. Click the **Tier** pull-down.
 23. Click **Tier 3 (3 IPOs/GB)**.
-24. Click the **IBM i Licenses** information icon (![](_attachments/infoIcon.png)).
+24. Click the **IBM i Licenses** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
 25. Click the information dialog to close it.
 
 ??? Note "Change in IBM Cloud Portal"
@@ -57,9 +57,9 @@ The next steps refer to the entries in the **Profile** section of the **Create v
 
 27. Click the **Select machine type** pull-down.
 28. Click **s1022**.
-29. Click the **Core type** information icon (![](_attachments/infoIcon.png)).
+29. Click the **Core type** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
 30. Click the information dialog to close it.
-31. Click the **Cores** information icon (![](_attachments/infoIcon.png)).
+31. Click the **Cores** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
 32. Click the information dialog to close it.
 33. Click **Continue** under the **Profile** section.
 
@@ -87,5 +87,3 @@ Note: for this demonstration, the instance is provisioned with a public network 
 48. Click **Create**.
 
 The IBM i PowerVS instance is now being provisioned. This process took approximately 15 minutes. Notice the value under the **Status** column of the **Virtual server instances** table. When the status changes to an **Active** state, the instance is ready to be accessed.
-
-In the next Part of the demonstration script, learn how to use the IBM Cloud Portal to manage PowerVS instances.

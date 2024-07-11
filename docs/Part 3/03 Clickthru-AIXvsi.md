@@ -20,11 +20,11 @@ Fields that require a text entry (for example instance name) are pre-populated i
 The next steps refer to the entries in the **General** section of the **Create virtual server instance** form.
 
 5. Click in the **Instance name** field.
-6. Click the **Add to a server placement group** information icon (![](_attachments/infoIcon.png)).
+6. Click the **Add to a server placement group** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
 7. Click the information dialog to close it.
-8. Click the **Add to a shared processor pool** information icon (![](_attachments/infoIcon.png)).
+8. Click the **Add to a shared processor pool** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
 9. Click the information dialog to close it.
-10. Click the **Virtual server pinning** information icon (![](_attachments/infoIcon.png)).
+10. Click the **Virtual server pinning** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
 11. Click the information dialog to close it.
 12. Click the **Select virtual server pinning** pull-down.
 13. Click **None**.
@@ -36,7 +36,7 @@ The next steps refer to the entries in the **Boot image** section of the **Creat
 
 17. Click the **Select OS** pull-down.
 18. Click **AIX**.
-19. Click the **Configure for Epic workloads** information icon (![](_attachments/infoIcon.png)).
+19. Click the **Configure for Epic workloads** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
 20. Click the information dialog to close it.
 21. Click the **Select image** pull-down.
 22. Click **7300-02-01**.
@@ -58,9 +58,9 @@ The next steps refer to the entries in the **Profile** section of the **Create v
 
 26. Click the **Select machine type** pull-down.
 27. Click **s922**.
-28. Click the **Core type** information icon (![](_attachments/infoIcon.png)).
+28. Click the **Core type** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
 29. Click the information dialog to close it.
-30. Click the **Cores** information icon (![](_attachments/infoIcon.png)).
+30. Click the **Cores** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
 31. Click the information dialog to close it.
 32. Click **Continue** under the **Profile** section.
 
@@ -89,5 +89,3 @@ Note: for this demonstration, the instance is provisioned with a public network 
 8.  Click **Create**.
 
 The AIX PowerVS instance is now being provisioned. This process took approximately 40 minutes. Notice the value under the **Status** column of the **Virtual server instances** table. After the status changes to an **Active** state, the instance is ready to be accessed.
-
-In the next Part of the demonstration script, learn how to use the IBM Cloud Portal to manage PowerVS instances.

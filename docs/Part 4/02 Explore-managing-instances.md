@@ -34,7 +34,7 @@ An error is expected, as full access to the shared environment is **not** provid
 
 <!-- 3. Click **Services and software** under **Resource summary** on the IBM Cloud Dashboard. -->
 
-1. Click the **Resource List** ![](_attachments/ResourceListIcon.png) icon in the left menu bar.
+3. Click the **Resource List** ![](_attachments/ResourceListIcon.png) icon in the left menu bar.
 
 ![](_attachments/NewDashboard.png)
 
@@ -71,8 +71,7 @@ Explore what instance configuration options can be modified. Depending on the ru
 9. Click **Cancel** in the **Edit virtual server instance details** dialog.
 
 !!! Example "On your own"
-
-   The preceding steps walked through two aspects of managing a single PowerVS instance with the AIX operating system. Explore the **Edit** options available for the VSIs running Linux and IBM i. Notice any differences?
+    The preceding steps walked through two aspects of managing a single PowerVS instance with the AIX operating system. Explore the **Edit** options available for the VSIs running Linux and IBM i. Notice any differences?
 
 Before proceeding, take a few minutes exploring other aspects of managing PowerVS instances by using the IBM Cloud Portal. Detailed steps are not provided, but typically you can click the **Cancel** button to return to the instances detail page. A few things to try from any of the instances' detail pages:
 
