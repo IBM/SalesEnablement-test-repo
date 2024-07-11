@@ -30,11 +30,11 @@ The steps that follow outline how to reserve access to the pre-provisioned, IBM 
 ![](_attachments/ReservationInputs.png)
 
 
-1. When satisfied, scroll down and (a) accept the terms and conditions and then (b) click **Submit** to initiate the environment provisioning request.
+5. When satisfied, scroll down and (a) accept the terms and conditions and then (b) click **Submit** to initiate the environment provisioning request.
 
 ![](_attachments/ReservationSubmit.png)
 
-1. Wait for IBM Technology Zone to finish provisioning the PowerVS environment. The automation takes approximately 5 to 10 minutes. When ready, an email is sent _and_ the <a href="https://techzone.ibm.com/my/reservations" target="_blank">Reservations</a> page shows a PowerVS tile with the status of **Ready**. If marked as ready, click anywhere on the tile to drill down into details of the reservation.
+6. Wait for IBM Technology Zone to finish provisioning the PowerVS environment. The automation takes approximately 5 to 10 minutes. When ready, an email is sent _and_ the <a href="https://techzone.ibm.com/my/reservations" target="_blank">Reservations</a> page shows a PowerVS tile with the status of **Ready**. If marked as ready, click anywhere on the tile to drill down into details of the reservation.
 
 ![](_attachments/ReservationReady.png)
 
@@ -57,7 +57,7 @@ This SSH key is used later to access the PowerVS virtual server instances.
 
 ![](_attachments/ReservationSSHkey.png)
 
-1.  Review the emails received. One is from **IBM Cloud** with the title **Account: You are invited to join an account in IBM Cloud**. In the body of the email is a **Join Now** link. Click the link and **Accept** the invitation on the IBM Cloud portal.
+10.  Review the emails received. One is from **IBM Cloud** with the title **Account: You are invited to join an account in IBM Cloud**. In the body of the email is a **Join Now** link. Click the link and **Accept** the invitation on the IBM Cloud portal.
 
 ![](_attachments/ReservationEmail.png)
 
