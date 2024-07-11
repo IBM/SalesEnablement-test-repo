@@ -11,7 +11,6 @@ Use the following steps to log in to a PowerVS instance by using the IBM Cloud S
    ![](_attachments/SwitchAccounts-final.gif)
 
    !!! Tip
-
        If the browser window is narrow, this icon: ![](_attachments/SwitchAccountsIcon.png) appears instead of the current account name as shown in the previous screen capture.
 
 2. Click the IBM Cloud Shell icon ![](_attachments/CloudShellIcon.png).
@@ -19,7 +18,6 @@ Use the following steps to log in to a PowerVS instance by using the IBM Cloud S
    ![](_attachments/StartCloudShell-new.png)
 
    ??? Error "Get an error openingIBM Cloud Shell?"
-
        If the following error occurs when attempting to open IBM Cloud Shell, fix it by either deleting the browser cookies for cloud.ibm.com and log back into cloud.ibm.com, or try using a private/incognito browser window.
 
        ![](_attachments/CloudShellError.png)
