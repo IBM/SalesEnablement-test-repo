@@ -129,7 +129,7 @@ As expected, the instruction fails to run because of insufficient (locked down) 
 13.  Restart the **{{linuxServer1.name}}** instance.
 
 ```
-ibmcloud pi instance {{linuxServer1.name}} -o soft-reboot
+ibmcloud pi instance action -o soft-reboot {{linuxServer1.name}}
 ```
 
 !!! info "Sample output"
