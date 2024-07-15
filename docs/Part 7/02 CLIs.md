@@ -51,7 +51,7 @@ To view the PowerVS instances in the workspace, the workspace target must first 
 7. Set the workspace target by using the instance ID of the workspace.
 
 ```
-workspaceID=`ibmcloud pi workspaces 2>&1 | grep {{powerVS.serviceInstanceName}} | tail -1 | cut -f1 -d' '`
+workspaceID=`ibmcloud pi workspace ls 2>&1 | grep {{powerVS.serviceInstanceName}} | tail -1 | cut -f1 -d' '`
 ```
 
 ??? tip "Tip for novice Linux users!"
