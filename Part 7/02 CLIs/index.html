@@ -1357,7 +1357,7 @@
 <ol start="7">
 <li>Set the workspace target by using the instance ID of the workspace.</li>
 </ol>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>workspaceID=`ibmcloud pi workspaces 2&gt;&amp;1 | grep PowerVS-L3-2024 | tail -1 | cut -f1 -d' '`
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>workspaceID=`ibmcloud pi workspace ls 2&gt;&amp;1 | grep PowerVS-L3-2024 | tail -1 | cut -f1 -d' '`
 </code></pre></div>
 <details class="tip">
 <summary>Tip for novice Linux users!</summary>
