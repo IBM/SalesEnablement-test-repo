@@ -133,8 +133,7 @@ ibmcloud pi instance action -o soft-reboot {{linuxServer1.name}}
 ```
 
 !!! info "Sample output"
-    ![](_attachments/instance-soft-reboot-2024.png)
-    Note, an enhancement request was submitted to improve the CLI error messages.
+    ![](_attachments/instance-soft-reboot.png)
 
 There are over 100 PowerVS CLIs. Explore more CLIs by using the ITZ environment. Remember, use ```ibmcloud pi --help``` or ```ibmcloud pi <command> --help``` to get detailed information on a command's usage.
 
