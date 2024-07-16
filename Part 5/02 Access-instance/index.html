@@ -1312,7 +1312,7 @@
   <h1>Access an instance</h1>
 
 <div><p>Accessing an IBM Power Virtual Server (PowerVS) virtual server instance (VSI) depends on several factors, including the operating system the instance is running and the network connectivity available. Remote login tools like Secure Socket Shell (SSH), telnet, and other console emulators can be used to access instances. PowerVS also provides access to running instances by using a web-based console tool. Usually, clients deploy PowerVS instances that use a secured network like Direct Link or Virtual Private Network (VPN). Learn more about the PowerVS network connectivity options <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-about-virtual-server#public-private-networks" target="_blank">here</a>.</p>
-<p>For this exercise, the IBM Cloud Shell is used so no additional software is needed. IBM Cloud Shell gives users complete control of their cloud resources, applications, and infrastructure, from any web browser. IBM Cloud Shell provides pre-authenticated access to the tools and programming languages for secure, cloud-based development, deployment, and management of services and applications. IBM Cloud Shell is instantly accessible from the IBM Cloud portal.</p>
+<p>For this exercise, the IBM Cloud Shell is used so no additional software is needed. IBM Cloud Shell gives users complete control of their cloud resources, applications, and infrastructure, from any web browser. IBM Cloud Shell provides pre-authenticated access to the tools and programming languages for secure, cloud-based development, deployment, and management of services and applications. IBM Cloud Shell is instantly accessible from the IBM Cloud portal. Learn more about IBM Cloud shell <a href="https://cloud.ibm.com/docs/cloud-shell?topic=cloud-shell-getting-started" target="_blank">here</a> and <a href="https://www.ibm.com/products/cloud-shell" target="_blank">here</a>.</p>
 <p>To quickly demonstrate the value of PowerVS, this demonstration environment and all running instances are provisioned with a public, internet facing network interface.</p>
 <p>Use the following steps to log in to a PowerVS instance by using the IBM Cloud Shell and SSH. Learn more about SSH and SSH keys <a href="https://en.wikipedia.org/wiki/Secure_Shell" target="_blank">here</a>.</p>
 <ol>
@@ -1328,7 +1328,7 @@
 </ol>
 <p><img alt="" src="../_attachments/StartCloudShell-new.png"></p>
 <details class="error">
-<summary>Get an error openingIBM Cloud Shell?</summary>
+<summary>Get an error opening IBM Cloud Shell?</summary>
 <p>If the following error occurs when attempting to open IBM Cloud Shell, fix it by either deleting the browser cookies for cloud.ibm.com and log back into cloud.ibm.com, or try using a private/incognito browser window.</p>
 <p><img alt="" src="../_attachments/CloudShellError.png"></p>
 </details>
@@ -1393,7 +1393,7 @@
 </tbody>
 </table>
 <p>Use the <code>ssh -i ssh_private_key.pem UserName@IPaddress</code> command to connect to the other servers. Be sure to replace <strong>UserName</strong> with the <strong>UserName</strong> field found in the TechZone reservation, and <strong>IPaddress</strong> with the instance's public IP address from the preceding table.</p>
-<p>At this time, this environment does not allow users to access the VSI running IBM i. IBM i access is typically done using a terminal emulator and would require additional software and setup. If you need to demonstrate accessing an IBM i system, you will need to provision an instance in and IBM Cloud account where you have full access. </p></div>
+<p>At this time, this environment does not allow users to access the VSI running IBM i. IBM i access is typically done using a terminal emulator and would require additional software and setup. If you need to demonstrate accessing an IBM i system, you will need to provision an instance in an IBM Cloud account where you have full access. </p></div>
 
 
 
