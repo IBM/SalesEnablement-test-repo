@@ -3,7 +3,7 @@ IBM Power Systems Virtual Server (PowerVS) provides **command-line interfaces (C
 
 PowerVS provides application programming interfaces (APIs) to automate these actions within an application. The PowerVS APIs are not covered in this demonstration guide. Learn more about the PowerVS APIs <a href="https://cloud.ibm.com/apidocs/power-cloud" target="_blank">here</a>.
 
-PowerVS also has a published a Terraform provider to allow administrators to use infrastructure as code (IaC) to automate the provisioning of PowerVS resources. The Terraform provider is outside of the scope of this demonstration guide. Learn more about the PowerVS provider <a href="https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/pi_capture" target="_blank">here</a>.
+PowerVS has published a Terraform provider to allow administrators to use infrastructure as code (IaC) to automate the provisioning of PowerVS resources. The Terraform provider is outside of the scope of this demonstration guide. Learn more about the PowerVS provider <a href="https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/pi_capture" target="_blank">here</a>.
 
 Next, explore various CLI instructions that can be issued by using the IBM Cloud Shell to administer a PowerVS instance. Topics include:
 

@@ -4,7 +4,7 @@ Use this click through demonstration to provision a Linux virtual server image (
 
     If you skipped the Part 3 Introduction and are not familiar with the features of PowerVS like storage pools, storage tiers, etc. you should consider going back and reading it.  
 
-Fields that require a text entry (for example instance name) are pre-populated in the click through demonstration.
+Note: Access to provision a new VSI is not provided in the IBM Technology Zone cloud account. Use this click through demonstration to simulate this activity. Fields that require a text entry are pre-populated in the click through demonstration.
 
 !!! tip
     Not sure where to click or what to do next? Click anywhere on the screen and the spot to click next is highlighted.

@@ -19,7 +19,7 @@ The steps that follow outline how to reserve access to the pre-provisioned, IBM 
 
    a. Provide the instance a unique name. For example, 'AndrewJ-PowerVS-L3'.
   
-   b. Set the value of **Purpose** to **Practice / Self-Education**.
+   b. Set the value of **Purpose** to **Education**.
   
    c. Write a brief note into the **Purpose Description** field.
   
@@ -62,3 +62,5 @@ This SSH key is used later to access the PowerVS virtual server instances.
 ![](_attachments/ReservationEmail.png)
 
     If you do not receive an e-mail, try deleting the existing reservation in ITZ and try creating a new one. If that doesn't work, open a support ticket in the #itz-techzone-support Slack channel.  Include the reservation ID and summarize the problem in your message.
+
+Now that you have an active ITZ reservation, you can proceed. Remember, the default duration of the reservation is 2 days. You can extend the reservation for up to an extra four days. IBMers will need an active reservation to record their stand and deliver, and business partners will want it to complete the short quiz as part of the Level 3 learning plan.

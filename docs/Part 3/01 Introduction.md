@@ -24,7 +24,7 @@
 
 - **Amount of memory**: PowerVS instances must be provisioned with a minimum of 2 GB of random access memory (RAM). The maximum amount of memory varies based on machine type and availability in the selected location. If greater than 64 GB RAM per core is specified, a higher price is charged.
 
-- **Additional storage volumes**: A new data volume can be created when an instance is provisioned. The size of a volume cannot be decreased after it creation. The maximum size of a volume that can be created is 238,193 GB. A storage tier can be specified. The volume can also be marked as shareable or nonshareable (default). Additional volumes created when the VM is created, the same storage pool as the boot volume for the VM is used.
+- **Additional storage volumes**: A new data volume can be created when an instance is provisioned. The size of a volume cannot be decreased after it is created. The maximum size of a volume that can be created is 238,193 GB. A storage tier can be specified. The volume can also be marked as shareable or nonshareable (default). Additional volumes created when the VM is created, the same storage pool as the boot volume for the VM is used.
 
 - **Networking**: PowerVS instances are attached to a private network and can optionally be attached to a public, internet accessible network. Use private networks to connect to existing subnets. A new subnet can be created also. Learn more about PowerVS networking <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a>.
 

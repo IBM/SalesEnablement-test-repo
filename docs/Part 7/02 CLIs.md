@@ -21,7 +21,7 @@ To get started, first open the IBM Cloud Shell from the IBM Cloud portal:
 
 The next steps are run in the IBM Cloud Shell window that was opened.
 
-To avoid typographical errors **copy** the command line by using the ![](_attachments/CopyToClipboard.png) icon when it is available. Then paste the contents into the IBM Cloud Shell by using ++ctrl++**+v**, ++cmd++**+v**, or right click and select paste at the prompt in the IBM Cloud Shell.
+To avoid typographical errors **copy** the command line by using the ![](_attachments/CopyToClipboard.png) icon when it is available. Then paste the contents into the IBM Cloud Shell by using ++ctrl++**+v**, ++cmd++**+v** (may be operating system dependent), or right click and select paste at the prompt in the IBM Cloud Shell.
 
 4. Display all the PowerVS plug-in command-line options.
 

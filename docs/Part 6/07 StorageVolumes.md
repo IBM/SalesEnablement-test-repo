@@ -20,7 +20,7 @@ c. It is possible to create up to 10 storage volumes at a time. Each of these vo
 
 d. The size of a volume can range from 1 Gigabyte (GB) up to 238,705 GB. Storage volumes can be increased after they are provisioned but NOT decreased.
 
-The second set of parameters that need to be specified for a storage volume relate to the volumes shareability, storage pool, and affinity rules.
+The second set of parameters that need to be specified for a storage volume relates to the volumes shareability, storage pool, and affinity rules.
 
 ![](_attachments/StorageVolumeCreate-2.png)
 

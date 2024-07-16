@@ -22,7 +22,7 @@ Using the IBM Cloud portal, complete the following scenario for managing PowerVS
 
 ![](_attachments/ErrorMessage2.png)
 
-An error is expected, as full access to the shared environment is **not** provided. To avoid the error message, click **Cancel** on the action dialog. During a live client demonstration, or for and IBMers Stand and Deliver, tell the audience why the action is being canceled but explain what happens if the action was completed.
+An error is expected, as full access to the shared environment is **not** provided. To avoid the error message, click **Cancel** on the action dialog. During a live client demonstration, or for an IBMers Stand and Deliver, tell the audience why the action is being canceled but explain what happens when the action is completed.
 
 1. Open the IBM Cloud Portal: <a href="https://cloud.ibm.com/" target="_blank">https://cloud.ibm.com/</a> and authenticate.
 2. Change to the **{{account}}** account.
