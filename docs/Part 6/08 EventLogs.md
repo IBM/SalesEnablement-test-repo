@@ -1,4 +1,4 @@
-The **Event logs** pages for PowerVS workspaces provides a few of the 400 most recent logs within the current and previous month. These logs show the recent activities, and provide details (like who performed the action) about the event. It is also possible to integrate PowerVS with IBM Cloud Monitoring and IBM Cloud Activity Tracker.
+The **Event logs** pages for PowerVS workspaces provides a view of the 400 most recent logs within the current and previous month. These logs show the recent activities, and provide details (like who performed the action) about the event. It is also possible to integrate PowerVS with IBM Cloud Monitoring and IBM Cloud Activity Tracker.
 
 !!! Note "Deprecation of IBM Log Analysis and IBM Cloud Activity Tracker"
 
