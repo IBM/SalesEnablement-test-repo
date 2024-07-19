@@ -116,7 +116,7 @@ The log entries that are shown are all the steps that are processed as part of t
 
 Notice the information and options presented. The deployment succeeded. It took 29 minutes to complete.
 
-1.  Click the **x** to close the dialog.
+46.  Click the **x** to close the dialog.
 
 !!! Important 
 
@@ -145,6 +145,6 @@ In the next steps, examine the resources that are associated with each subnet.
 57. Click **da-pvs-l3-edge-vpe-zone-1**.
 58. Click **Virtual server instances**.
 
-Notice the 2 VSIs provisioned in the VPC for the deployable architecture.
+Notice the two VSIs provisioned in the VPC for the deployable architecture.
 
 That concludes the click through demonstration. Remember, you can use your active ITZ reservation to explore the deployed architecture in the PowerVS workspace: **da-pvs-l3-us-south-power-workspace** and the provisioned VPC: **da-pvs-l3-edge-vpc**. 
