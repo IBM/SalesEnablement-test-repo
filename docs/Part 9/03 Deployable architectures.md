@@ -40,8 +40,8 @@ The Power Virtual Server with VPC landing zone as 'Quickstart' variation of 'Cre
 
 IBM Cloud projects are a named collection of configurations that are used to manage related resources and deployments across accounts, embracing an Infrastructure as Code (IaC) approach to deployments. They enable teams to configure, deploy, and monitor deployments by using DevOps best practices. Each project includes tools to scan for potentially harmful resource changes, compliance, security, and cost, tracking configuration versioning, and governance. They are designed with an IaC and a compliance-first approach that helps to ensure that a project is managed, secure, and always compliant. Learn more <a href="https://cloud.ibm.com/docs/secure-enterprise?topic=secure-enterprise-understanding-projects" target="_blank">here</a>.
 
-1. Click the **Description** field.
-2.  Click the **Region** drop-down.
+9. Click the **Description** field.
+10.  Click the **Region** drop-down.
 
 Note, the availability of deployable architectures vary by data center based on resource availability. 
 
