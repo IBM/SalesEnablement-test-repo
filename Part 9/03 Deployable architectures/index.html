@@ -1311,19 +1311,20 @@
 
   <h1>Deployable architectures</h1>
 
-<div><p>A deployable architecture is cloud automation for deploying a common architectural pattern that combines one or more cloud resources. It is designed to provide simplified deployment by users, scalability, and modularity. A deployable architecture incorporates one or more modules. Deployable architectures are coded in Terraform, which you configure with input variables to achieve a desired behavior. Learn more about deployable architectures <a href="https://cloud.ibm.com/docs/secure-enterprise?topic=secure-enterprise-understand-module-da" target="_blank">here</a>.</p>
+<div><p>A deployable architecture is cloud automation for deploying a common architectural pattern that combines one or more cloud resources. It is designed to provide simplified deployment by users, scalability, and modularity. A deployable architecture incorporates one or more modules. Deployable architectures are coded in Terraform, which you configure with input variables to achieve a wanted behavior. Learn more about deployable architectures <a href="https://cloud.ibm.com/docs/secure-enterprise?topic=secure-enterprise-understand-module-da" target="_blank">here</a>.</p>
 <p>As of July 2024, IBM Power Virtual Server (PowerVS) has 2 deployable architectures in the IBM Cloud Catalog.</p>
 <ul>
 <li>
 <p><strong>Power Virtual Server with VPC landing zone</strong></p>
-<p>Provisioning Power Virtual Server with Virtual Private Cloud (VPC) landing zone by using deployable architectures provides an automated deployment method to create an isolated PowerVS workspace and connect it with IBM Cloud services and public internet. Network management components like DNS, NTP, proxy servers and NFS as a Service might be installed. Comparing the provisioning through the projects UI, user interaction is minimized and ready-to-go deployment time of a PowerVS workspace is reduced from days to less than 1 hour. Learn more about this deployable architecture <a href="https://cloud.ibm.com/docs/powervs-vpc?topic=powervs-vpc-automation-solution-overview" target="_blank">here</a>.</p>
+<p>Provisioning Power Virtual Server with Virtual Private Cloud (VPC) landing zone by using deployable architectures provides an automated deployment method to create an isolated PowerVS workspace and connect it with IBM Cloud services and public internet. Network management components like DNS, NTP, proxy servers, and NFS as a Service might be installed. Comparing the provisioning through the projects UI, user interaction is minimized and ready-to-go deployment time of a PowerVS workspace is reduced from days to less than 1 hour. Learn more about this deployable architecture <a href="https://cloud.ibm.com/docs/powervs-vpc?topic=powervs-vpc-automation-solution-overview" target="_blank">here</a>.</p>
 </li>
 <li>
 <p><strong>Power Virtual Server for SAP HANA</strong></p>
-<p>SAP solution provisioning on PowerVS using deployable architectures provides an automated deployment method to create a PowerVS landscape with SAP HANA systems. User interaction is minimized and SAP system deployment time is reduced from weeks to days. This deployable architecture is a composition or <strong>stack</strong> of this deployiable architecture and the Power Virtual Server with VPC. Learn more about this deployable architecture <a href="https://cloud.ibm.com/docs/sap-powervs?topic=sap-powervs-automation-solution-overview" target="_blank">here</a>.</p>
+<p>SAP solution provisioning on PowerVS using deployable architectures provides an automated deployment method to create a PowerVS landscape with SAP HANA systems. User interaction is minimized and SAP system deployment time is reduced from weeks to days. This deployable architecture is a composition or <strong>stack</strong> of this deployable architecture and the Power Virtual Server with VPC. Learn more about this deployable architecture <a href="https://cloud.ibm.com/docs/sap-powervs?topic=sap-powervs-automation-solution-overview" target="_blank">here</a>.</p>
 </li>
 </ul>
-<p>The click through demonstration that follows steps through the provisioning of the <strong>Power Virtual Server with VPC landing zone</strong> deployable architecture. A brief tour of the environment is also provided in the click through demonstration. The deployed solution is available in the IBM Technology Zone environment associated with this demonstration guide. You will have view-only access to the PowerVS workspace and the associated virtual private cloud (VPC).</p>
+<p>The click through demonstration that follows steps through the provisioning of the <strong>Power Virtual Server with VPC landing zone</strong> deployable architecture. A brief tour of the environment is also provided in the click through demonstration. The deployed solution is available in the IBM Technology Zone environment that is associated with this demonstration guide. You have view-only access to the PowerVS workspace and the associated virtual private cloud (VPC). </p>
+<p>Several prerequisite steps were completed before provisioning the deployable architecture. These include creating an IBM Cloud application programming key (API) and an IBM Cloud Secrets Manager instance. The API key was also added to the secrets manager instance. In addition, an SSH public and private key pair was created to enable access to the VSI create by the deployable architecture.</p>
 <p>Use the click through demonstration to experience provisioning a deployable architecture for PowerVS.</p>
 <p>Note, fields that require a text entry (for example workspace name) are pre-populated in the click through demonstration.</p>
 <div class="admonition tip">
@@ -1333,9 +1334,131 @@
 <ol>
 <li>
 <p>Open the following link and then click play <img alt="" src="../_attachments/ClickThruPlayButton.png"> to begin the demonstration.</p>
-<p><strong>Click through demo:</strong> <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/Provisioning-a-DeployableArchitecture/index.html" target="_blank">Provision a Dedicated Host</a></p>
+<p><strong>Click through demo:</strong> <a href="https://ibm.github.io/SalesEnablement-test-repo/includes/Provisioning-a-DeployableArchitecture/index.html" target="_blank">Provision the <strong>Power Virtual Server with VPC landing zone</strong>  Deployable Architecture</a></p>
 </li>
-</ol></div>
+<li>
+<p>Click <strong>Catalog</strong>.</p>
+</li>
+<li>Select <strong>Deployable architectures</strong> under <strong>Type</strong>.</li>
+<li>Click the <strong>**Power Virtual Server with VPC landing zone</strong> tile.</li>
+<li>Click <strong>See more</strong>.</li>
+<li>Click <strong>See less</strong>.</li>
+</ol>
+<p>The Power Virtual Server with VPC landing zone as 'Quickstart' variation of 'Create a new architecture' option deploys VPC services and a Power Virtual Server workspace and interconnects them. It also creates one Power virtual server instance of chosen t-shirt size or custom configuration.</p>
+<p><img alt="" src="../_attachments/DAArchitecture.png"></p>
+<ol start="7">
+<li>Click <strong>Add to project</strong>.</li>
+<li>Click the <strong>Name</strong> field.</li>
+</ol>
+<p>IBM Cloud projects are a named collection of configurations that are used to manage related resources and deployments across accounts, embracing an Infrastructure as Code (IaC) approach to deployments. They enable teams to configure, deploy, and monitor deployments by using DevOps best practices. Each project includes tools to scan for potentially harmful resource changes, compliance, security, and cost, tracking configuration versioning, and governance. They are designed with an IaC and a compliance-first approach that helps to ensure that a project is managed, secure, and always compliant. Learn more <a href="https://cloud.ibm.com/docs/secure-enterprise?topic=secure-enterprise-understanding-projects" target="_blank">here</a>.</p>
+<ol>
+<li>Click the <strong>Description</strong> field.</li>
+<li>Click the <strong>Region</strong> drop-down.</li>
+</ol>
+<p>Note, the availability of deployable architectures vary by data center based on resource availability. </p>
+<ol start="11">
+<li>Click <strong>Dallas</strong>.</li>
+<li>Click the <strong>Resource group</strong> drop-down.</li>
+<li>Click <strong>Create</strong>.</li>
+</ol>
+<p>The next steps specify required configuration parameters for deploying the resources that are defined by the deployable architecture. In addition to the security and other required parameters, optional parameters can be specified. All these parameters are saved with the project and can be used to consistently deploy the same configuration and to manage drift of deployments.</p>
+<ol start="14">
+<li>Click the <strong>method</strong> drop-down in the Authentication section.</li>
+</ol>
+<p>Both <strong>Trusted profiles</strong> and <strong>Secrets Manager</strong> are supported for providing authentication credentials.</p>
+<ol start="15">
+<li>Click <strong>API key using Secrets Manager</strong>.</li>
+<li>Click the <img alt="" src="../_attachments/keyIcon.png"> key icon.</li>
+</ol>
+<p>Note, the recording did not capture properly here. In short, the previously uploaded API key was selected from the secrets manager instance.</p>
+<ol start="17">
+<li>Click the <strong>Required</strong> tab.</li>
+<li>Click the <strong>powervs_zone</strong> drop-down.</li>
+<li>Click <strong>Dallas (dallas)</strong>.</li>
+<li>Click the <strong>prefix</strong> field.</li>
+</ol>
+<p>The prefix is used in naming resources created during the automation for the deployable architecture.</p>
+<ol start="21">
+<li>Click the <strong>tshirt-size</strong> field.</li>
+</ol>
+<p>Recall with this deployable architecture, a PowerVS VSI is provisioned. The configuration of the VSI needs to be specified. In addition, although not shown in this click through, the operating system image for the VSI can be specified in the optional parameters.</p>
+<ol start="22">
+<li>Click <strong>AIX-XS</strong>.</li>
+<li>Click the <img alt="" src="../_attachments/pencilIcon.png"> pencil icon under <strong>ssh_public_key</strong>.</li>
+<li>Click the <strong>Edit secure value</strong> field.</li>
+</ol>
+<p>As mentioned earlier, an SSH public and private key pair must be created before starting the deployable architecture. This key pair might also be stored and retrieved from the secrets manager instance.</p>
+<ol start="25">
+<li>Click <strong>OK</strong>.</li>
+<li>Click the <img alt="" src="../_attachments/pencilIcon.png"> pencil icon under <strong>ssh_private_key</strong>.</li>
+<li>Click the <strong>Edit secure value</strong> field.</li>
+<li>Click <strong>OK</strong></li>
+<li>Click the <strong>powervs_resource_group_name</strong> drop-down.</li>
+<li>Click <strong>PowerVS-L3</strong></li>
+</ol>
+<p>Note the <strong>external_access-ip</strong> addressed specifies the IP address that can be used to access the PowerVS address. A specific route entry is created in the associated VPC network to allow this connection.</p>
+<ol start="31">
+<li>Click <strong>Save</strong></li>
+<li>Click <strong>Validate</strong>.</li>
+</ol>
+<p>This step validates the configuration and parameters that were set. The scan looks for code errors, compliance, issues, and calculates the cost of the deployment. The scan took about 15 minutes to complete.</p>
+<ol start="33">
+<li>Click the <strong>Add a comment</strong> field.</li>
+<li>Click <strong>Approve</strong>.</li>
+<li>Click <strong>Deploy</strong>.</li>
+</ol>
+<p>The actual deployment of the architecture takes about 30 minutes to complete. While this is processing, examine the underlying activities.</p>
+<ol start="36">
+<li>Click the <img alt="" src="../_attachments/plusIcon.png"> plus icon to open a new tab to the IBM Cloud portal.</li>
+<li>Click the <img alt="" src="../_attachments/hamburgerMenu.png"> hamburger menu.</li>
+<li>Click <strong>Projects</strong>.</li>
+<li>Click <strong>da-pvs-l3</strong>.</li>
+<li>Click the <strong>Configurations</strong> tab.</li>
+</ol>
+<p>Notice the deployment status of the configuration.</p>
+<ol start="41">
+<li>Click the <img alt="" src="../_attachments/hamburgerMenu.png"> hamburger menu.</li>
+<li>Click <strong>Workspaces</strong> in the <strong>Schematics</strong> menu.</li>
+<li>Click <strong>deploy-arch-ibm-pvs-inf-c0aa</strong>.</li>
+<li>Click <strong>Expand</strong>.</li>
+</ol>
+<p>The log entries that are shown are all the steps that are processed as part of the deployable architecture. You don't need to read them. Understand the automation is creating and validating all the resources that are defined by the deployable architecture. Including the VPC and associated networks, the VSIs in the VPC, and the PowerVS VSI.</p>
+<ol start="45">
+<li>Click the <strong>deploy-arch-ibm-pvs-inf-c0as</strong> browser tab.</li>
+</ol>
+<p>Notice the information and options presented. The deployment succeeded. It took 29 minutes to complete.</p>
+<ol>
+<li>Click the <strong>x</strong> to close the dialog.</li>
+</ol>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>The next steps are specific to the click through demonstration, but they can also be used with an active IBM Technology Zone (ITZ) reservation associated with this demonstration guide. You can proceed with the click through demonstration or switch to the IBM Cloud portal. Make sure you are using the <strong>2305900 - ITZ - ADHOCO3</strong> account.</p>
+</div>
+<ol start="47">
+<li>Click the <img alt="" src="../_attachments/hamburgerMenu.png"> hamburger menu.</li>
+<li>Click <strong>Resource list</strong>.</li>
+<li>Click the <strong>da-pvs-l3-us-south-power-workspace</strong> entry under <strong>Compute</strong>.</li>
+</ol>
+<p>Notice that the workspace name has the prefix that was specified during the configuration steps of the deployable architecture. Also, the extra small AIX VSI has been provisioned and is active.</p>
+<ol start="50">
+<li>Click <strong>Subnets</strong>.</li>
+</ol>
+<p>Notice, like shown in the architecture diagram of the deployable architecture, two subnets are created for the workspace. One for a management network and one for a backup network.</p>
+<ol start="51">
+<li>Click the <img alt="" src="../_attachments/hamburgerMenu.png"> hamburger menu.</li>
+<li>Click <strong>VPC Infrastructure</strong>.</li>
+<li>Click <strong>VPC layout</strong>.</li>
+</ol>
+<p>In the next steps, examine the resources that are associated with each subnet.</p>
+<ol start="54">
+<li>Click <strong>da-pvs-l3-edge-vsi-edge-zone-1</strong>.</li>
+<li>Click <strong>da-pvs-l3-edge-vpn-zone-1</strong>.</li>
+<li>Click <strong>da-pvs-l3-edge-vsi-management-zone-1</strong>.</li>
+<li>Click <strong>da-pvs-l3-edge-vpe-zone-1</strong>.</li>
+<li>Click <strong>Virtual server instances</strong>.</li>
+</ol>
+<p>Notice the 2 VSIs provisioned in the VPC for the deployable architecture.</p>
+<p>That concludes the click through demonstration. Remember, you can use your active ITZ reservation to explore the deployed architecture in the PowerVS workspace: <strong>da-pvs-l3-us-south-power-workspace</strong> and the provisioned VPC: <strong>da-pvs-l3-edge-vpc</strong>. </p></div>
 
 
 
