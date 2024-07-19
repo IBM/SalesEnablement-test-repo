@@ -86,4 +86,4 @@ Note: for this demonstration, the instance is provisioned with a public network 
 47. Click **I agree to the Terms and conditions**.
 48. Click **Create**.
 
-The IBM i PowerVS instance is now being provisioned. This process took approximately 15 minutes. Notice the value under the **Status** column of the **Virtual server instances** table. When the status changes to an **Active** state, the instance is ready to be accessed.
+The IBM i PowerVS instance is now being provisioned. This process took approximately 15 minutes. Notice the value under the **Status** column of the **Virtual server instances** table. When the status changes to an **Active** state, the instance is ready to be accessed. For IBM i instances, there are additional steps that must be completed to accept the IBM software licenses that are deployed as part of the base image. These steps are documented <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-configuring-ibmi" target="_blank">here</a>.
