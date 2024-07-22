@@ -15,8 +15,6 @@ As mentioned earlier IBM Power Virtual Server (PowerVS) supports multiple tiers 
 
     To create a new storage volume, a few parameters must be specified. The first 4 parameters are the name of the volume, the storage tier, the number of volumes to create, and the size.
 
-    ![](_attachments/StorageVolumeCreate-1.png)
-
     a. Each storage volume in a workspace must have a unique name.
 
     b. A tier of storage must be specified. The storage tier can change later. The storage tier represents the performance characteristics of the volume and directly relates to the cost of the volume. See the earlier link for more information on the 4 storage tiers supported by PowerVS.
@@ -25,9 +23,9 @@ As mentioned earlier IBM Power Virtual Server (PowerVS) supports multiple tiers 
 
     d. The size of a volume can range from 1 Gigabyte (GB) up to 238,705 GB. Storage volumes can be increased after they are provisioned but NOT decreased.
 
-    The second set of parameters that need to be specified for a storage volume relates to the volumes shareability, storage pool, and affinity rules.
+    ![](_attachments/StorageVolumeCreate-1.png)
 
-    ![](_attachments/StorageVolumeCreate-2.png)
+    The second set of parameters that need to be specified for a storage volume relates to the volumes shareability, storage pool, and affinity rules.
 
     e. Storage volumes can be marked as **shareable**. The **shareable** attribute allows a single volume to be shared between multiple PowerVS virtual server instances. The attribute is typically used in highly available (HA) deployments, for instance when PowerHA system mirroring capabilities are used. Learn more about HA and Diaster Recovery (DR) in PowerVS <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-ha-dr" target="_blank">here</a>.
 
@@ -36,6 +34,8 @@ As mentioned earlier IBM Power Virtual Server (PowerVS) supports multiple tiers 
     g. The affinity and anti-affinity object can be either another storage volume or a VSI.
 
     h. Depending on the affinity or anti-affinity object selection (g), the menu is populated with the existing volumes or VSIs that the policy is to be applied with or against.
+
+    ![](_attachments/StorageVolumeCreate-2.png)
 
 4. Click **Cancel**.
 
@@ -51,8 +51,6 @@ As mentioned earlier IBM Power Virtual Server (PowerVS) supports multiple tiers 
 
     As mentioned earlier, it is possible to modify some of the attributes of a storage volume.
 
-    ![](_attachments/StorageVolumeEdit-1.png)
-
     a. The name of the volume can be modified after it is provisioned. Remember, the name must be unique within the PowerVS workspace.
 
     b. The storage tier can be modified. However, if the volume is set to Fixed IOPs or is being changed to the Fixed IOPs tier, the size of the volume cannot be changed at the same time.
@@ -62,6 +60,8 @@ As mentioned earlier IBM Power Virtual Server (PowerVS) supports multiple tiers 
     d. Non-bootable volumes can be toggled between shared and unshared.
 
     e. A volume can be marked as bootable. Bootable volumes cannot be shared. It is possible for a single VSI to have multiple bootable volumes. PowerVS randomly selects a bootable volume as the instance's boot volume if the original is no longer bootable. VSIs must have at least one bootable volume.
+
+    ![](_attachments/StorageVolumeEdit-1.png)
 
 7. Click **Cancel**.
 
