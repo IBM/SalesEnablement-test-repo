@@ -24,7 +24,7 @@ The **Event logs** pages for PowerVS workspaces provides a view of the 400 most 
 
         Since event logs only displays events in the current and previous month, it is possible that you may not see any events. If that is the case, you won't be able to follow the steps below; however, the images below will help you understand the type of information that is logged and to what level of detail.
 
-4. Expand on of the **Virtual Server Instance** events.
+4. Expand one of the **Virtual Server Instance** events.
 
     ![](_attachments/EventLogsEventDetail.png)
 
@@ -34,6 +34,6 @@ The **Event logs** pages for PowerVS workspaces provides a view of the 400 most 
 
     ![](_attachments/EventLogs-AIXVSI.png)
 
-    The events that are logged are high-level events, but provide useful information as long-running tasks progress. For instance, provisioning the AIX VSI took about 40 minutes as seen by the timestamps.
+    The events that are logged are high-level events, but provide useful information as long-running tasks progress. For instance, provisioning the AIX VSI took about 40 minutes as documented by the timestamps.
 
 For more detailed information, IBM Cloud Activity Tracker or IBM Cloud Logs can be used. Learn more about the options in **Part 8 - Observing PowerVS resources**.
