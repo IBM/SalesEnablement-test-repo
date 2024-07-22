@@ -2,7 +2,7 @@ As mentioned earlier IBM Power Virtual Server (PowerVS) supports multiple tiers 
 
 1. Click the **Storage volumes** option in the side menu under the {{powerVS.serviceInstanceName}} workspace.
 
-![](_attachments/StorageVolumesMenu.png)
+   ![](_attachments/StorageVolumesMenu.png)
 
 2. Click **Create volume +**.
 
@@ -24,7 +24,7 @@ The second set of parameters that need to be specified for a storage volume rela
 
 ![](_attachments/StorageVolumeCreate-2.png)
 
-e. Storage volumes can be marked as **shareable**. The **shareable** attribute allows a single volume to be shared between multiple PowerVS virtual server instances. The attribute is typically used in highly available (HA) deployments, for instance when PowerHA system mirroring capabilities are used. Learn more about HA and Diaster Recovery (DR) in PowerVS <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-ha-dr" tareget="_blank">here</a>.
+e. Storage volumes can be marked as **shareable**. The **shareable** attribute allows a single volume to be shared between multiple PowerVS virtual server instances. The attribute is typically used in highly available (HA) deployments, for instance when PowerHA system mirroring capabilities are used. Learn more about HA and Diaster Recovery (DR) in PowerVS <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-ha-dr" target="_blank">here</a>.
 
 f. A storage volume must be assigned to a storage pool. By default, the volume is assigned to any pool that has sufficient capacity. The volume can be controlled by affinity rules. The volume can be assigned to an affinity pool or an anti-affinity pool. Affinity can be based on either other storage volumes or upon virtual server instances (VSIs), also known as virtual machines (VMs). If a storage volume is marked with an affinity policy, it is created in the same pool as other volumes with which it needs to have affinity. An affinity policy is typically used for cloning and snapshots. If a storage volume is marked with an anti-affinity policy, it is created in a different pool from other volumes with which it needs anti-affinity. The anti-affinity policy is typically used for HA and logical mirroring of volumes.
 
