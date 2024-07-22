@@ -10,30 +10,30 @@ The **Event logs** pages for PowerVS workspaces provides a view of the 400 most 
 
 1. Click the **Event logs** option in the side menu under the {{powerVS.serviceInstanceName}} workspace.
 
-![](_attachments/EventLogsMenu.png)
+    ![](_attachments/EventLogsMenu.png)
 
 2. Click **Log notification settings**.
 
-![](_attachments/EventLogsMain.png)
+    ![](_attachments/EventLogsMain.png)
 
 3. Review the **Log notification settings** and then click **Cancel**.
 
-![](_attachments/EventLogsSettings.png)
+    ![](_attachments/EventLogsSettings.png)
 
-!!! Important "Don't see any notifications?"
+    !!! Important "Don't see any notifications?"
 
-    Since event logs only displays events in the current and previous month, it is possible that you may not see any events. If that is the case, you won't be able to follow the steps below; however, the images below will help you understand the type of information that is logged and to what level of detail.
+        Since event logs only displays events in the current and previous month, it is possible that you may not see any events. If that is the case, you won't be able to follow the steps below; however, the images below will help you understand the type of information that is logged and to what level of detail.
 
 4. Expand on of the **Virtual Server Instance** events.
 
-![](_attachments/EventLogsEventDetail.png)
+    ![](_attachments/EventLogsEventDetail.png)
 
-This event is related to a **Virtual Server Instance** (VSI) resource type and was triggered when an image capture was run on one of the VSIs.
+    This event is related to a **Virtual Server Instance** (VSI) resource type and was triggered when an image capture was run on one of the VSIs.
 
-The next image lists the events that were triggered when the first VSI in the demonstration environment was provisioned.
+    The next image lists the events that were triggered when the first VSI in the demonstration environment was provisioned.
 
-![](_attachments/EventLogs-AIXVSI.png)
+    ![](_attachments/EventLogs-AIXVSI.png)
 
-The events that are logged are high-level events, but provide useful information as long-running tasks progress. For instance, provisioning the AIX VSI took about 40 minutes as seen by the timestamps.
+    The events that are logged are high-level events, but provide useful information as long-running tasks progress. For instance, provisioning the AIX VSI took about 40 minutes as seen by the timestamps.
 
 For more detailed information, IBM Cloud Activity Tracker or IBM Cloud Logs can be used.

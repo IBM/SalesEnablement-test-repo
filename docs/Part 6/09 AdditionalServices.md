@@ -5,11 +5,11 @@ Complimentary products and services are available for {{offering.name}} (PowerVS
 
 1. Click the **Additional products and services** option in the side menu under the {{powerVS.serviceInstanceName}} workspace.
 
-![](_attachments/AdditionalPSMenu.png)
+    ![](_attachments/AdditionalPSMenu.png)
 
-Each of the tiles that are listed represents extra products and services that can be integrated with PowerVS.
+    Each of the tiles that are listed represents extra products and services that can be integrated with PowerVS.
 
-![](_attachments/AdditionalPS.png)
+    ![](_attachments/AdditionalPS.png)
 
 You are encouraged to click each of the tiles to learn about these products and services. 
 

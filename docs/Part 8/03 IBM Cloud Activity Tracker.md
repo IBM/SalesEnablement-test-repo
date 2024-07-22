@@ -16,47 +16,47 @@ Note, this demonstrate guide does not provide detailed information on provisioni
 
 1. Click the IBM Cloud portal menu ![](_attachments/hamburgerIcon.png), expand the **Observability** menu and click **Activity Tracker**.
 
-![](_attachments/ActivityTrackerMenu.png)
+    ![](_attachments/ActivityTrackerMenu.png)
 
 2. Click {{powerVS.atInstance}}.
 
-![](_attachments/ATInstances.png)
+    ![](_attachments/ATInstances.png)
 
-Explore the settings for this monitoring instance.
+    Explore the settings for this monitoring instance.
 
 3. Click **Open dashboard**.
 
-![](_attachments/ATOpenDashboard.png)
+    [](_attachments/ATOpenDashboard.png)
 
-The IBM Activity Tracker dashboard opens in a new browser tab or window. You may be asked to reauthenticate to IBM Cloud when the new window is opened.
+    The IBM Activity Tracker dashboard opens in a new browser tab or window. You may be asked to reauthenticate to IBM Cloud when the new window is opened.
 
-!!! Note "Your view looks different?"
+    !!! Note "Your view looks different?"
 
-    The images below were captured at a point in time. Activity Tracker provides a live view of events and displays the most recent events at the bottom of the page.
+        The images below were captured at a point in time. Activity Tracker provides a live view of events and displays the most recent events at the bottom of the page.
 
-![](_attachments/ATDashboard-1.png)
+    ![](_attachments/ATDashboard-1.png)
 
-You can adjust the **Timeline** on the right to narrow or expand the events that are viewed.
+    Adjust the **Timeline** on the right to narrow or expand the events that are viewed.
 
 4. Expand an event.
 
-![](_attachments/ATDashboard-2.png)
+    ![](_attachments/ATDashboard-2.png)
 
-To expand an event, hover the mouse to the left of an event and click the down arrow when it appears for the event. 
+    To expand an event, hover the mouse to the left of an event and click the down arrow when it appears for the event. 
 
-This view provides details about the selected event. This includes information like what the event was (action), who initiated it, and the outcome of the event.
+    This view provides details about the selected event. This includes information like what the event was (action), who initiated it, and the outcome of the event.
 
-Explore a few of the different events that exist.
+    Explore a few of the different events that exist.
 
 Note, IBM Activity Tracker can filter on specific events, specific time frames, and other attributes.
 
 5. Click the **Sources** pull-down, select **power-iaas**, and click **Apply**.
 
-![](_attachments/AT-ApplyFilter.png)
+    ![](_attachments/AT-ApplyFilter.png)
 
-This filter narrows the events in the current view to those related to the PowerVS infrastructure resources.
+    This filter narrows the events in the current view to those related to the PowerVS infrastructure resources.
 
-Activity Tracker can also filter based on the **Level** of the event. For example, informational, debug, warning, errors, and critical events. 
+    Activity Tracker can also filter based on the **Level** of the event. For example, informational, debug, warning, errors, and critical events. 
 
 To see the most recent events, click **Live** at the lower right of the dashboard.
 

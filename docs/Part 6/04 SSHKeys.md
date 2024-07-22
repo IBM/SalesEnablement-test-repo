@@ -13,17 +13,17 @@ Recall from the click through demonstrations to provision a virtual server insta
 
 1. Click the **Boot images** option in the side menu under the {{powerVS.serviceInstanceName}} workspace.
 
-![](_attachments/SSHKeysMenu.png)
+    ![](_attachments/SSHKeysMenu.png)
 
 2. Click **Create SSH key**.
 
-![](_attachments/SSHKeysList.png)
+    ![](_attachments/SSHKeysList.png)
 
-The use of the term **Create** is a misnomer. This step loads the public part of an existing SSH key into the PowerVS workspace. The key can then be pushed to VSIs provisioned in the environment and used to access those VSIs.
+    The use of the term **Create** is a misnomer. This step loads the public part of an existing SSH key into the PowerVS workspace. The key can then be pushed to VSIs provisioned in the environment and used to access those VSIs.
 
-![](_attachments/SSHKeysCreate.png)
+    ![](_attachments/SSHKeysCreate.png)
 
-In the **New SSH key** dialog, the user specifies a name and then pastes the public key part of the SSH key previously created. The <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-create-vm#ssh-setup" target="_blank">**How do I get a public key**</a> link provides information on how to generate a key on a Linux-based system.
+    In the **New SSH key** dialog, the user specifies a name and then pastes the public key part of the SSH key previously created. The <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-create-vm#ssh-setup" target="_blank">**How do I get a public key**</a> link provides information on how to generate a key on a Linux-based system.
 
 3. Click **Cancel**.
 

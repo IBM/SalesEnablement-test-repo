@@ -38,13 +38,13 @@ h. Depending on the affinity or anti-affinity object selection (g), the menu is 
 
     ![](_attachments/StorageVolumeCreate-3.png)
 
-Learn more about affinity and anti-affinity policies <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-powervs-faqs#affinity">here</a>.
+    Learn more about affinity and anti-affinity policies <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-powervs-faqs#affinity">here</a>.
 
 4. Click **Edit** under the ![](_attachments/ellipses.png) for one of the existing storage volumes.
 
     ![](_attachments/StorageVolumeEditMenu.png)
 
-As mentioned earlier, it is possible to modify some of the attributes of a storage volume.
+    As mentioned earlier, it is possible to modify some of the attributes of a storage volume.
 
     ![](_attachments/StorageVolumeEdit-1.png)
 
@@ -62,6 +62,6 @@ e. A volume can be marked as bootable. Bootable volumes cannot be shared. It is 
 
     ![](_attachments/StorageVolumeEdit-3.png)
 
-Storage volumes that are not actively in use by VSI can also be deleted from the edit menu.
+    Storage volumes that are not actively in use by VSI can also be deleted from the edit menu.
 
 Learn more about managing storage volumes <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-modifying-instance#modifying-volume-network" target="_blank">here</a>.

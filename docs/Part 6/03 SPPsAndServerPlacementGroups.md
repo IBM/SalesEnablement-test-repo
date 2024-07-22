@@ -7,49 +7,47 @@ Learn more about SPPs <a href="https://cloud.ibm.com/docs/power-iaas?topic=power
 
 1. Click the **Shared processor pools** option in the side menu under the {{powerVS.serviceInstanceName}} workspace.
 
-![](_attachments/SPPMenu.png)
+    ![](_attachments/SPPMenu.png)
 
 
 2. Click **Create pool +**
 
-![](_attachments/SPPtable.png)
+    ![](_attachments/SPPtable.png)
 
 3. Enter a name in the **Name** field and then click **Continue**.
 
-![](_attachments/SPPProvision1.png)
-
-!!! Warning "Remember you are able to provision a new SPP*
+    ![](_attachments/SPPProvision1.png)
 
 4. Select a **machine type**.
 5. Specify the number of **reserved cores** and click **Finish**.
 
-![](_attachments/SPPProvision2.png)
+    ![](_attachments/SPPProvision2.png)
 
 After all these properties are specified, accept the terms and conditions and create the SPP. After the SPP is provisioned, clients specify the SPP when a new VSI is created.
 
 6. Click **Cancel**.
 
-![](_attachments/SPPProvision3.png)
+    ![](_attachments/SPPProvision3.png)
 
 7. Click the **Pool placement groups** tab.
 
-![](_attachments/SPPtablePPGtab.png)
+    ![](_attachments/SPPtablePPGtab.png)
 
-Pool placement groups are a set of shared processor pools with a single colocation policy. The policy determines the host in which an SPP in the group is deployed in relation to others in the group.
+    Pool placement groups are a set of shared processor pools with a single colocation policy. The policy determines the host in which an SPP in the group is deployed in relation to others in the group.
 
-Learn more about pool placement groups <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-manage-SPP#configure-SPP-PG" target="_blank">here</a>.
+    Learn more about pool placement groups <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-manage-SPP#configure-SPP-PG" target="_blank">here</a>.
 
 8. Click **Create group +**.
 
-![](_attachments/SPP-PPG.png)
+    ![](_attachments/SPP-PPG.png)
 
-To create a pool placement group, specify a group name and the colocation policy of either **same server** or **different server**.
+    To create a pool placement group, specify a group name and the colocation policy of either **same server** or **different server**.
 
-![](_attachments/SPP-PPG-1.png)
+    ![](_attachments/SPP-PPG-1.png)
 
-The **same server** option specifies that all VSIs in this placement group are placed on the same server. This is known as an **affinity** policy.
+    The **same server** option specifies that all VSIs in this placement group are placed on the same server. This is known as an **affinity** policy.
 
-The **different server** option specifies that all VSIs in this placement group are placed on different servers. This is also known as an **anti-affinity** policy.
+    The **different server** option specifies that all VSIs in this placement group are placed on different servers. This is also known as an **anti-affinity** policy.
 
 9. Click **Cancel**
 
