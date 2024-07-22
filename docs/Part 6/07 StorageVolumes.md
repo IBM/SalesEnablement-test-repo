@@ -5,10 +5,11 @@ As mentioned earlier IBM Power Virtual Server (PowerVS) supports multiple tiers 
     ![](_attachments/StorageVolumesMenu.png)
 
 2. Click **Create volume +**.
+    
     ![](_attachments/StorageVolumeTable.png)
 
    To create a new storage volume, a few parameters must be specified. The first 4 parameters are the name of the volume, the storage tier, the number of volumes to create, and the size.
-   ![](_attachments/StorageVolumeCreate-1.png)
+       ![](_attachments/StorageVolumeCreate-1.png)
 
 a. Each storage volume in a workspace must have a unique name.
 
@@ -20,7 +21,7 @@ d. The size of a volume can range from 1 Gigabyte (GB) up to 238,705 GB. Storage
 
 The second set of parameters that need to be specified for a storage volume relates to the volumes shareability, storage pool, and affinity rules.
 
-![](_attachments/StorageVolumeCreate-2.png)
+    ![](_attachments/StorageVolumeCreate-2.png)
 
 e. Storage volumes can be marked as **shareable**. The **shareable** attribute allows a single volume to be shared between multiple PowerVS virtual server instances. The attribute is typically used in highly available (HA) deployments, for instance when PowerHA system mirroring capabilities are used. Learn more about HA and Diaster Recovery (DR) in PowerVS <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-ha-dr" target="_blank">here</a>.
 
@@ -32,17 +33,17 @@ h. Depending on the affinity or anti-affinity object selection (g), the menu is 
 
 3. Click **Cancel**.
 
-![](_attachments/StorageVolumeCreate-3.png)
+    ![](_attachments/StorageVolumeCreate-3.png)
 
 Learn more about affinity and anti-affinity policies <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-powervs-faqs#affinity">here</a>.
 
 4. Click **Edit** under the ![](_attachments/ellipses.png) for one of the existing storage volumes.
 
-![](_attachments/StorageVolumeEditMenu.png)
+    ![](_attachments/StorageVolumeEditMenu.png)
 
 As mentioned earlier, it is possible to modify some of the attributes of a storage volume.
 
-![](_attachments/StorageVolumeEdit-1.png)
+    ![](_attachments/StorageVolumeEdit-1.png)
 
 a. The name of the volume can be modified after it is provisioned. Remember, the name must be unique within the PowerVS workspace.
 
@@ -56,7 +57,7 @@ e. A volume can be marked as bootable. Bootable volumes cannot be shared. It is 
 
 5. Click **Cancel**.
 
-![](_attachments/StorageVolumeEdit-3.png)
+    ![](_attachments/StorageVolumeEdit-3.png)
 
 Storage volumes that are not actively in use by VSI can also be deleted from the edit menu.
 
