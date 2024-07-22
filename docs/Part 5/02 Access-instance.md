@@ -34,9 +34,10 @@ Use the IBM Cloud Shell window that was opened in the next steps.
     
         Earlier, when the key was downloaded the filename may have been different than **ssh_private_key.pem**. In the next steps, be sure to use the name the file was saved as when downloaded. If the file was saved with any special characters (e.g. **ssh_private_key (1).pem**) it is recommended to change the filename to something without any special characters to avoid issues when uploading the file to the IBM Cloud Shell environment.
 
-   Locate the **.pem** file in the Downloads folder and wait for the transfer to finish. A dialog box appears in the lower-right of the IBM Cloud Shell window when the upload is complete.
+    Locate the **.pem** file in the Downloads folder and wait for the transfer to finish. A dialog box appears in the lower-right of the IBM Cloud Shell window when the upload is complete.
 
-       ![](_attachments/part5_step10b.png)
+    ![](_attachments/part5_step10b.png)
+
 
 4. Adjust the access permissions on the **ssh_private_key.pem** file by using the following command:
 
@@ -46,37 +47,37 @@ Use the IBM Cloud Shell window that was opened in the next steps.
 
 5. You are now ready to remotely connect (SSH) to the PowerVS demonstration environment. Do so with the following command, substituting **<your_user_id>** for the value recorded in <a href="https://ibm.github.io/SalesEnablement-PowerVS-L3/Part%201/01%20Introduction/" target="_blank">Part 1 - Step 6</a>. If a prompt asks whether to continue connecting type **Yes** and then press Return or Enter. Ignore the message about the authenticity of the host not being established.
 
-```
-ssh -i ssh_private_key.pem <your_user_id>@{{aixServer1.publicIP}}
-```
+    ```
+    ssh -i ssh_private_key.pem <your_user_id>@{{aixServer1.publicIP}}
+    ```
 
-!!! info "Sample output"
+    !!! info "Sample output"
 
-   Note, the image below shows a different filename for the ssh_private_key.pem file.
+       Note, the image below shows a different filename for the ssh_private_key.pem file.
 
-   ![](_attachments/part5_step13.png)
+       ![](_attachments/part5_step13.png)
 
 6. Try running a few OS-level commands by using the following commands.
 
-```
-ls -laR
-```
+    ```
+    ls -laR
+    ```
 
-```
-who
-```
+    ```
+    who
+    ```
 
-```
-ps -ef
-```
+    ```
+    ps -ef
+    ```
 
-   All of these commands are basic OS commands. If you are familiar with AIX or Linux, try out other commands. Remember, your permissions in the shared environment are limited. Administrative access is not provided.
+    All of these commands are basic OS commands. If you are familiar with AIX or Linux, try out other commands. Remember, your permissions in the shared environment are limited. Administrative access is not provided.
 
 7. Close the SSH connection by running the **exit** command.
 
-```
-exit
-```
+    ```
+    exit
+    ```
 
 To explore further, use the following public IP addresses to access the other VSIs:
 
