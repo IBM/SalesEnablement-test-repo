@@ -1343,12 +1343,9 @@
 <p class="admonition-title">Did you record the file name and location?</p>
 <p>Earlier, when the key was downloaded the filename may have been different than <strong>ssh_private_key.pem</strong>. In the next steps, be sure to use the name the file was saved as when downloaded. If the file was saved with any special characters (e.g. <strong>ssh_private_key (1).pem</strong>) it is recommended to change the filename to something without any special characters to avoid issues when uploading the file to the IBM Cloud Shell environment.</p>
 </div>
-</li>
-</ol>
 <p>Locate the <strong>.pem</strong> file in the Downloads folder and wait for the transfer to finish. A dialog box appears in the lower-right of the IBM Cloud Shell window when the upload is complete.</p>
-<div class="highlight"><pre><span></span><code>   ![](_attachments/part5_step10b.png)
-</code></pre></div>
-<ol start="4">
+<p><img alt="" src="../_attachments/part5_step10b.png"></p>
+</li>
 <li>
 <p>Adjust the access permissions on the <strong>ssh_private_key.pem</strong> file by using the following command:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>chmod 600 ssh_private_key.pem
@@ -1356,8 +1353,6 @@
 </li>
 <li>
 <p>You are now ready to remotely connect (SSH) to the PowerVS demonstration environment. Do so with the following command, substituting <strong><your_user_id></your_user_id></strong> for the value recorded in <a href="https://ibm.github.io/SalesEnablement-PowerVS-L3/Part%201/01%20Introduction/" target="_blank">Part 1 - Step 6</a>. If a prompt asks whether to continue connecting type <strong>Yes</strong> and then press Return or Enter. Ignore the message about the authenticity of the host not being established.</p>
-</li>
-</ol>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ssh -i ssh_private_key.pem &lt;your_user_id&gt;@150.239.207.227
 </code></pre></div>
 <div class="admonition info">
@@ -1365,9 +1360,9 @@
 </div>
 <p>Note, the image below shows a different filename for the ssh_private_key.pem file.</p>
 <p><img alt="" src="../_attachments/part5_step13.png"></p>
-<ol start="6">
-<li>Try running a few OS-level commands by using the following commands.</li>
-</ol>
+</li>
+<li>
+<p>Try running a few OS-level commands by using the following commands.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>ls -laR
 </code></pre></div>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>who
@@ -1375,11 +1370,13 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>ps -ef
 </code></pre></div>
 <p>All of these commands are basic OS commands. If you are familiar with AIX or Linux, try out other commands. Remember, your permissions in the shared environment are limited. Administrative access is not provided.</p>
-<ol start="7">
-<li>Close the SSH connection by running the <strong>exit</strong> command.</li>
-</ol>
+</li>
+<li>
+<p>Close the SSH connection by running the <strong>exit</strong> command.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>exit
 </code></pre></div>
+</li>
+</ol>
 <p>To explore further, use the following public IP addresses to access the other VSIs:</p>
 <table>
 <thead>
