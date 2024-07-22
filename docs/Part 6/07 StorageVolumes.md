@@ -41,7 +41,7 @@ As mentioned earlier IBM Power Virtual Server (PowerVS) supports multiple tiers 
 
     ![](_attachments/StorageVolumeCreate-3.png)
 
-Learn more about affinity and anti-affinity policies <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-powervs-faqs#affinity">here</a>.
+    Learn more about affinity and anti-affinity policies <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-powervs-faqs#affinity">here</a>.
 
 5. Click **Edit** under the ![](_attachments/ellipses.png) for one of the existing storage volumes.
 
