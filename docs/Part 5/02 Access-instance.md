@@ -50,7 +50,6 @@ Use the IBM Cloud Shell window that was opened in the next steps.
     ```
 
     !!! info "Sample output"
-
        Note, the image below shows a different filename for the ssh_private_key.pem file.
 
        ![](_attachments/part5_step13.png)
