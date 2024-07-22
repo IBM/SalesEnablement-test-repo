@@ -1321,29 +1321,31 @@
 <p>IBM Log Analysis and IBM Cloud Activity Tracker are being replaced by IBM Cloud Logs in 2024. This demonstration guide will be updated to once IBM Cloud Logs in fully operational and integrated with PowerVS.</p>
 </div>
 <ol>
-<li>Click the <strong>Event logs</strong> option in the side menu under the PowerVS-L3-2024 workspace.</li>
-</ol>
+<li>
+<p>Click the <strong>Event logs</strong> option in the side menu under the PowerVS-L3-2024 workspace.</p>
 <p><img alt="" src="../_attachments/EventLogsMenu.png"></p>
-<ol start="2">
-<li>Click <strong>Log notification settings</strong>.</li>
-</ol>
+</li>
+<li>
+<p>Click <strong>Log notification settings</strong>.</p>
 <p><img alt="" src="../_attachments/EventLogsMain.png"></p>
-<ol start="3">
-<li>Review the <strong>Log notification settings</strong> and then click <strong>Cancel</strong>.</li>
-</ol>
+</li>
+<li>
+<p>Review the <strong>Log notification settings</strong> and then click <strong>Cancel</strong>.</p>
 <p><img alt="" src="../_attachments/EventLogsSettings.png"></p>
 <div class="admonition important">
 <p class="admonition-title">Don't see any notifications?</p>
 <p>Since event logs only displays events in the current and previous month, it is possible that you may not see any events. If that is the case, you won't be able to follow the steps below; however, the images below will help you understand the type of information that is logged and to what level of detail.</p>
 </div>
-<ol start="4">
-<li>Expand on of the <strong>Virtual Server Instance</strong> events.</li>
-</ol>
+</li>
+<li>
+<p>Expand on of the <strong>Virtual Server Instance</strong> events.</p>
 <p><img alt="" src="../_attachments/EventLogsEventDetail.png"></p>
 <p>This event is related to a <strong>Virtual Server Instance</strong> (VSI) resource type and was triggered when an image capture was run on one of the VSIs.</p>
 <p>The next image lists the events that were triggered when the first VSI in the demonstration environment was provisioned.</p>
 <p><img alt="" src="../_attachments/EventLogs-AIXVSI.png"></p>
 <p>The events that are logged are high-level events, but provide useful information as long-running tasks progress. For instance, provisioning the AIX VSI took about 40 minutes as seen by the timestamps.</p>
+</li>
+</ol>
 <p>For more detailed information, IBM Cloud Activity Tracker or IBM Cloud Logs can be used.</p></div>
 
 

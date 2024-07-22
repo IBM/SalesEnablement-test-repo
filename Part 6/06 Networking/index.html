@@ -1317,44 +1317,50 @@
 </details>
 <p>A good network design for any cloud deployment is critical. This includes IBM Power Virtual Server (PowerVS) deployments. Many options are available for clients for both the connectivity from their on-premises environments to the cloud and within their PowerVS workspaces. Only the creation and management of private subnets within a PowerVS workspace is covered. Learn more about PowerVS networks <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a> and other related section of the PowerVS documentation.</p>
 <ol>
-<li>Click the <strong>Subnets</strong> option in the side menu under the PowerVS-L3-2024 workspace. Expand the <strong>Networking</strong> section if not already expanded.</li>
-</ol>
+<li>
+<p>Click the <strong>Subnets</strong> option in the side menu under the PowerVS-L3-2024 workspace. Expand the <strong>Networking</strong> section if not already expanded.</p>
 <p><img alt="" src="../_attachments/NetworkingMenu.png"></p>
 <p>Two subnets are listed. </p>
 <p><img alt="" src="../_attachments/Subnets-1.png"></p>
 <p>One is the public subnet for the workspace: public-192_168_222_192-29-VLAN_2056 . This subnet was created when the public network option was selected when the first virtual server instance (VSI) in the workspace was provisioned.  </p>
 <p>The private subnet, private-powervs-2024 was created before the first VSI was provisioned. In the next steps, explore how to create a private subnet.</p>
-<ol start="2">
-<li>Click <strong>Create subnet +</strong>.</li>
-</ol>
+</li>
+<li>
+<p>Click <strong>Create subnet +</strong>.</p>
 <p><img alt="" src="../_attachments/SubnetsCreate.png"></p>
-<p>To create a new subnet, the details about the subnet need to be specified. </p>
-<p><img alt="" src="../_attachments/SubnetsCreate-1.png"></p>
-<p>These details include a name and:</p>
-<ul>
-<li>Classless Inter-Domain Routing (CIDR)</li>
-</ul>
-<p>CIDR is a method for allocating Internet Protocol (IP) network addresses for routing. The CIDR notation is a compact representation of an IP address and its associated network mask.</p>
-<ul>
-<li>Gateway</li>
-</ul>
-<p>The gateway address is typically the first address in the CIDR range of available addresses; however, the address can be changed.</p>
-<ul>
-<li>IP ranges</li>
-</ul>
-<p>The IP range allows the user to specify either the full CIDR range as being available or a subset.</p>
-<ul>
-<li>Domain Name Server (DNS)</li>
-</ul>
-<p>The DNS server is used for name resolution for the VSIs in the subnet. If the VSIs have a public facing network, they can use a public DNS server, like IBM Clouds: 9.9.9.9. However, if a public network is not available, the DNS should be set to 127.0.0.1 to avoid issues with VSIs hanging during startup. Up to 20 DNS servers can be specified.</p>
-<ul>
-<li>Maximum Transmission Unit (MTU)</li>
-</ul>
-<p>MTU is used to specify the largest data packet size allowed over a network. A larger MTU produces less overhead, and a smaller value can reduce network delay. If Red Hat OpenShift is deployed on VSIs in the subnet, the recommendation is to set the MTU size to 1450. To support jumbo frames (often required for applications with large data transfers), the MTU should be set to 9000.</p>
-<ol start="3">
-<li>Click <strong>Cancel</strong>.</li>
+</li>
 </ol>
+<p>To create a new subnet, the details about the subnet need to be specified. </p>
+<div class="highlight"><pre><span></span><code>![](_attachments/SubnetsCreate-1.png)
+
+These details include a name and:
+
+- Classless Inter-Domain Routing (CIDR)
+
+  CIDR is a method for allocating Internet Protocol (IP) network addresses for routing. The CIDR notation is a compact representation of an IP address and its associated network mask.
+
+- Gateway
+
+  The gateway address is typically the first address in the CIDR range of available addresses; however, the address can be changed.
+
+- IP ranges
+
+  The IP range allows the user to specify either the full CIDR range as being available or a subset.
+
+- Domain Name Server (DNS)
+
+  The DNS server is used for name resolution for the VSIs in the subnet. If the VSIs have a public facing network, they can use a public DNS server, like IBM Clouds: 9.9.9.9. However, if a public network is not available, the DNS should be set to 127.0.0.1 to avoid issues with VSIs hanging during startup. Up to 20 DNS servers can be specified.
+
+- Maximum Transmission Unit (MTU)
+
+  MTU is used to specify the largest data packet size allowed over a network. A larger MTU produces less overhead, and a smaller value can reduce network delay. If Red Hat OpenShift is deployed on VSIs in the subnet, the recommendation is to set the MTU size to 1450. To support jumbo frames (often required for applications with large data transfers), the MTU should be set to 9000.
+</code></pre></div>
+<ol start="3">
+<li>
+<p>Click <strong>Cancel</strong>.</p>
 <p><img alt="" src="../_attachments/SubnetsCreate-1.png"></p>
+</li>
+</ol>
 <p>Existing subnets can be edited; however, modifications are limited to changing the gateway, the IP ranges, and adding or removing DNS servers.</p></div>
 
 

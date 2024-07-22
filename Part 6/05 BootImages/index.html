@@ -1317,15 +1317,15 @@
 </details>
 <p>Every instance of IBM Power Virtual Server (PowerVS) consists of a mandatory boot volume. Boot images come from the PowerVS image catalog or are imported by clients. After a virtual server instance (VSI) is provisioned, a copy of the boot image is added to the client's boot image catalog.</p>
 <ol>
-<li>Click the <strong>Boot images</strong> option in the side menu under the PowerVS-L3-2024 workspace.</li>
-</ol>
+<li>
+<p>Click the <strong>Boot images</strong> option in the side menu under the PowerVS-L3-2024 workspace.</p>
 <p><img alt="" src="../_attachments/BootImageMenu.png"></p>
 <p>Notice the existing 3 boot images in the list.</p>
 <p><img alt="" src="../_attachments/BootImagesList.png"></p>
 <p>These 3 boot images map are used by the 3 VSIs running in this demonstration environment. The <strong>Active</strong> status means that the image is actively used by a running VSI.</p>
-<ol start="2">
-<li>Click <strong>Import image +</strong>.</li>
-</ol>
+</li>
+<li>
+<p>Click <strong>Import image +</strong>.</p>
 <p><img alt="" src="../_attachments/BootImagesImport.png"></p>
 <p>PowerVS allows clients to add their own boot images to their PowerVS workspace. Only AIX, IBM i, and Linux on IBM Power images are supported. To add an image to the PowerVS workspace image catalog, the image must first be uploaded to a bucket in IBM Cloud Object Storage (COS). Supported image file types include: .ova, .ova.gz, .tar, .tar.gz, and .tgz.</p>
 <p><img alt="" src="../_attachments/BootImagesImport-1.png"></p>
@@ -1335,8 +1335,10 @@
 <p class="admonition-title">You are not able to navigate to this screen.</p>
 </div>
 <p>On the second <strong>Import boot image</strong> screen, the user is prompted to specify a name for the image, the storage tier for the image, storage pool. After those selections are made, the boot image is copied from COS to the PowerVS workspace's boot image catalog.</p>
-<ol start="3">
-<li>Click <strong>Cancel</strong>.</li>
+</li>
+<li>
+<p>Click <strong>Cancel</strong>.</p>
+</li>
 </ol>
 <p>Learn more about importing boot images <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-importing-boot-image" target="_blank">here</a>.</p></div>
 

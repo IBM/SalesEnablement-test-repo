@@ -1323,18 +1323,20 @@
 <p>It is unlikely you would demonstrate this aspect of the PowerVS offering during a client demonstration unless you had a very targeted and technical audience. It is add here to provide you a complete understanding of the offering and what is required to provision and manage a PowerVS environment.</p>
 </div>
 <ol>
-<li>Click the <strong>Boot images</strong> option in the side menu under the PowerVS-L3-2024 workspace.</li>
-</ol>
+<li>
+<p>Click the <strong>Boot images</strong> option in the side menu under the PowerVS-L3-2024 workspace.</p>
 <p><img alt="" src="../_attachments/SSHKeysMenu.png"></p>
-<ol start="2">
-<li>Click <strong>Create SSH key</strong>.</li>
-</ol>
+</li>
+<li>
+<p>Click <strong>Create SSH key</strong>.</p>
 <p><img alt="" src="../_attachments/SSHKeysList.png"></p>
 <p>The use of the term <strong>Create</strong> is a misnomer. This step loads the public part of an existing SSH key into the PowerVS workspace. The key can then be pushed to VSIs provisioned in the environment and used to access those VSIs.</p>
 <p><img alt="" src="../_attachments/SSHKeysCreate.png"></p>
 <p>In the <strong>New SSH key</strong> dialog, the user specifies a name and then pastes the public key part of the SSH key previously created. The <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-create-vm#ssh-setup" target="_blank"><strong>How do I get a public key</strong></a> link provides information on how to generate a key on a Linux-based system.</p>
-<ol start="3">
-<li>Click <strong>Cancel</strong>.</li>
+</li>
+<li>
+<p>Click <strong>Cancel</strong>.</p>
+</li>
 </ol>
 <p>After the key is loaded into the workspace, it appears in the list of available keys to use when a new PowerVS VSI is provisioned. It is the client's responsibility to securely manage their keys. If a key is compromised, a new key should be created and added to the existing VSIs. The old key should be removed from the VSIs and the PowerVS workspace.</p></div>
 

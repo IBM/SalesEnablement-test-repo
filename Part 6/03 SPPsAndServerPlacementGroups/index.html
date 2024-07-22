@@ -1318,44 +1318,49 @@
 <p>A shared processor pool (SPP) is a pool of processor capacity that is shared between a group of virtual server instances. Unlike a virtual server instance that has a dedicated and defined maximum amount of processing capacity, you can set the reserved cores in SPP that is available at the pool level. SPPs are used to control software licensing costs by limiting the number of processors an uncapped VSI can use.</p>
 <p>Learn more about SPPs <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-manage-SPP" target="_blank">here</a>.</p>
 <ol>
-<li>Click the <strong>Shared processor pools</strong> option in the side menu under the PowerVS-L3-2024 workspace.</li>
-</ol>
+<li>
+<p>Click the <strong>Shared processor pools</strong> option in the side menu under the PowerVS-L3-2024 workspace.</p>
 <p><img alt="" src="../_attachments/SPPMenu.png"></p>
-<ol start="2">
-<li>Click <strong>Create pool +</strong></li>
-</ol>
+</li>
+<li>
+<p>Click <strong>Create pool +</strong></p>
 <p><img alt="" src="../_attachments/SPPtable.png"></p>
-<ol start="3">
-<li>Enter a name in the <strong>Name</strong> field and then click <strong>Continue</strong>.</li>
-</ol>
+</li>
+<li>
+<p>Enter a name in the <strong>Name</strong> field and then click <strong>Continue</strong>.</p>
 <p><img alt="" src="../_attachments/SPPProvision1.png"></p>
-<p>!!! Warning "Remember you are able to provision a new SPP*</p>
-<ol start="4">
-<li>Select a <strong>machine type</strong>.</li>
-<li>Specify the number of <strong>reserved cores</strong> and click <strong>Finish</strong>.</li>
-</ol>
+</li>
+<li>
+<p>Select a <strong>machine type</strong>.</p>
+</li>
+<li>
+<p>Specify the number of <strong>reserved cores</strong> and click <strong>Finish</strong>.</p>
 <p><img alt="" src="../_attachments/SPPProvision2.png"></p>
+</li>
+</ol>
 <p>After all these properties are specified, accept the terms and conditions and create the SPP. After the SPP is provisioned, clients specify the SPP when a new VSI is created.</p>
 <ol start="6">
-<li>Click <strong>Cancel</strong>.</li>
-</ol>
+<li>
+<p>Click <strong>Cancel</strong>.</p>
 <p><img alt="" src="../_attachments/SPPProvision3.png"></p>
-<ol start="7">
-<li>Click the <strong>Pool placement groups</strong> tab.</li>
-</ol>
+</li>
+<li>
+<p>Click the <strong>Pool placement groups</strong> tab.</p>
 <p><img alt="" src="../_attachments/SPPtablePPGtab.png"></p>
 <p>Pool placement groups are a set of shared processor pools with a single colocation policy. The policy determines the host in which an SPP in the group is deployed in relation to others in the group.</p>
 <p>Learn more about pool placement groups <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-manage-SPP#configure-SPP-PG" target="_blank">here</a>.</p>
-<ol start="8">
-<li>Click <strong>Create group +</strong>.</li>
-</ol>
+</li>
+<li>
+<p>Click <strong>Create group +</strong>.</p>
 <p><img alt="" src="../_attachments/SPP-PPG.png"></p>
 <p>To create a pool placement group, specify a group name and the colocation policy of either <strong>same server</strong> or <strong>different server</strong>.</p>
 <p><img alt="" src="../_attachments/SPP-PPG-1.png"></p>
 <p>The <strong>same server</strong> option specifies that all VSIs in this placement group are placed on the same server. This is known as an <strong>affinity</strong> policy.</p>
 <p>The <strong>different server</strong> option specifies that all VSIs in this placement group are placed on different servers. This is also known as an <strong>anti-affinity</strong> policy.</p>
-<ol start="9">
-<li>Click <strong>Cancel</strong></li>
+</li>
+<li>
+<p>Click <strong>Cancel</strong></p>
+</li>
 </ol>
 <p>Affinity and anti-affinity policies are used to help build high availability (HA) and disaster recovery (DR) deployments.</p>
 <p>Learn more about High Availability (HA) and Disaster Recovery (DR) options in PowerVS <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-ha-dr" target="_blank">here</a>.</p></div>
