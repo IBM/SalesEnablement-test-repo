@@ -1316,40 +1316,47 @@
 <p>To quickly demonstrate the value of PowerVS, this demonstration environment and all running instances are provisioned with a public, internet facing network interface.</p>
 <p>Use the following steps to log in to a PowerVS instance by using the IBM Cloud Shell and SSH. Learn more about SSH and SSH keys <a href="https://en.wikipedia.org/wiki/Secure_Shell" target="_blank">here</a>.</p>
 <ol>
-<li>Change to the <strong>ITZ - ADHOC03</strong> account by using the drop-down switcher.</li>
-</ol>
+<li>
+<p>Change to the <strong>ITZ - ADHOC03</strong> account by using the drop-down switcher.</p>
 <p><img alt="" src="../_attachments/SwitchAccounts-final.gif"></p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>If the browser window is narrow, this icon: <img alt="" src="../_attachments/SwitchAccountsIcon.png"> appears instead of the current account name as shown in the previous screen capture.</p>
 </div>
-<ol start="2">
-<li>Click the IBM Cloud Shell icon <img alt="" src="../_attachments/CloudShellIcon.png">.</li>
-</ol>
+</li>
+<li>
+<p>Click the IBM Cloud Shell icon <img alt="" src="../_attachments/CloudShellIcon.png">.</p>
 <p><img alt="" src="../_attachments/StartCloudShell-new.png"></p>
 <details class="error">
 <summary>Get an error opening IBM Cloud Shell?</summary>
 <p>If the following error occurs when attempting to open IBM Cloud Shell, fix it by either deleting the browser cookies for cloud.ibm.com and log back into cloud.ibm.com, or try using a private/incognito browser window.</p>
-<p><img alt="" src="../_attachments/CloudShellError.png"></p>
 </details>
+<p><img alt="" src="../_attachments/CloudShellError.png"></p>
+</li>
+</ol>
 <p>Use the IBM Cloud Shell window that was opened in the next steps.</p>
 <ol start="3">
-<li>In the upper-right of the IBM Cloud Shell window is a square icon with an "up" arrow. Click this icon to upload a file. Upload the SSH key downloaded earlier.</li>
-</ol>
+<li>
+<p>In the upper-right of the IBM Cloud Shell window is a square icon with an "up" arrow. Click this icon to upload a file. Upload the SSH key downloaded earlier.</p>
 <p><img alt="" src="../_attachments/part5_step10a.png"></p>
 <div class="admonition tip">
 <p class="admonition-title">Did you record the file name and location?</p>
 <p>Earlier, when the key was downloaded the filename may have been different than <strong>ssh_private_key.pem</strong>. In the next steps, be sure to use the name the file was saved as when downloaded. If the file was saved with any special characters (e.g. <strong>ssh_private_key (1).pem</strong>) it is recommended to change the filename to something without any special characters to avoid issues when uploading the file to the IBM Cloud Shell environment.</p>
 </div>
-<p>Locate the <strong>.pem</strong> file in the Downloads folder and wait for the transfer to finish. A dialog box appears in the lower-right of the IBM Cloud Shell window when the upload is complete.</p>
-<p><img alt="" src="../_attachments/part5_step10b.png"></p>
-<ol start="4">
-<li>Adjust the access permissions on the <strong>ssh_private_key.pem</strong> file by using the following command:</li>
+</li>
 </ol>
+<p>Locate the <strong>.pem</strong> file in the Downloads folder and wait for the transfer to finish. A dialog box appears in the lower-right of the IBM Cloud Shell window when the upload is complete.</p>
+<div class="highlight"><pre><span></span><code>   ![](_attachments/part5_step10b.png)
+</code></pre></div>
+<ol start="4">
+<li>
+<p>Adjust the access permissions on the <strong>ssh_private_key.pem</strong> file by using the following command:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>chmod 600 ssh_private_key.pem
 </code></pre></div>
-<ol start="5">
-<li>You are now ready to remotely connect (SSH) to the PowerVS demonstration environment. Do so with the following command, substituting <strong><your_user_id></your_user_id></strong> for the value recorded in <a href="https://ibm.github.io/SalesEnablement-PowerVS-L3/Part%201/01%20Introduction/" target="_blank">Part 1 - Step 6</a>. If a prompt asks whether to continue connecting type <strong>Yes</strong> and then press Return or Enter. Ignore the message about the authenticity of the host not being established.</li>
+</li>
+<li>
+<p>You are now ready to remotely connect (SSH) to the PowerVS demonstration environment. Do so with the following command, substituting <strong><your_user_id></your_user_id></strong> for the value recorded in <a href="https://ibm.github.io/SalesEnablement-PowerVS-L3/Part%201/01%20Introduction/" target="_blank">Part 1 - Step 6</a>. If a prompt asks whether to continue connecting type <strong>Yes</strong> and then press Return or Enter. Ignore the message about the authenticity of the host not being established.</p>
+</li>
 </ol>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ssh -i ssh_private_key.pem &lt;your_user_id&gt;@150.239.207.227
 </code></pre></div>

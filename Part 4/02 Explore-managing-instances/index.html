@@ -1320,11 +1320,13 @@
 <li>Open a console to the instance</li>
 <li>Delete an instance</li>
 <li>Capture and export an image of an instance</li>
-<li>Modify an image </li>
+<li>Modify an image <ul>
 <li>Change pinning policy</li>
 <li>Add or remove cores</li>
 <li>Add or remove memory</li>
 <li>Modify placement group</li>
+</ul>
+</li>
 <li>Add or remove volumes</li>
 <li>Modify network interfaces (can require OS changes)</li>
 </ul>
@@ -1337,49 +1339,59 @@
 <p>An error is expected, as full access to the shared environment is <strong>not</strong> provided. To avoid the error message, click <strong>Cancel</strong> on the action dialog. During a live client demonstration, or for an IBMers Stand and Deliver, tell the audience why the action is being canceled but explain what happens when the action is completed.</p>
 <ol>
 <li>Open the IBM Cloud Portal: <a href="https://cloud.ibm.com/" target="_blank">https://cloud.ibm.com/</a> and authenticate.</li>
-<li>Change to the <strong>2305900 - ITZ - ADHOC03</strong> account.</li>
-</ol>
+<li>
+<p>Change to the <strong>2305900 - ITZ - ADHOC03</strong> account.</p>
 <p><img alt="" src="../_attachments/SwitchAccounts-final.gif"></p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>If the browser window is narrow, this icon: <img alt="" src="../_attachments/SwitchAccountsIcon.png"> is seen instead of the current account name as shown in the previous screen capture.</p>
 </div>
+</li>
+</ol>
 <!-- 3. Click **Services and software** under **Resource summary** on the IBM Cloud Dashboard. -->
 
 <ol start="3">
-<li>Click the <strong>Resource List</strong> <img alt="" src="../_attachments/ResourceListIcon.png"> icon in the left menu bar.</li>
-</ol>
+<li>
+<p>Click the <strong>Resource List</strong> <img alt="" src="../_attachments/ResourceListIcon.png"> icon in the left menu bar.</p>
 <p><img alt="" src="../_attachments/NewDashboard.png"></p>
+</li>
+</ol>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>After switching accounts a new user questionnaire or other dialogs can appear. Cancel these windows. If the IBM Cloud Dashboard is not displayed as seen in the previous image, click the <strong>IBM Cloud</strong> text at upper left of the IBM Cloud Portal.</p>
 </div>
 <ol start="4">
-<li>Click <strong>PowerVS-L3-2024</strong> under <strong>Compute</strong>.</li>
-</ol>
+<li>
+<p>Click <strong>PowerVS-L3-2024</strong> under <strong>Compute</strong>.</p>
 <p><img alt="" src="../_attachments/ResourceListofWorkspaces.png"></p>
-<ol start="5">
-<li>Click <strong>AIX-VM</strong> in the <strong>Virtual server workspaces</strong> table.</li>
-</ol>
+</li>
+<li>
+<p>Click <strong>AIX-VM</strong> in the <strong>Virtual server workspaces</strong> table.</p>
 <p><img alt="" src="../_attachments/VSIInstancesTable.png"></p>
-<ol start="6">
-<li>Click the <strong>VM actions</strong> pull-down.</li>
+</li>
+<li>
+<p>Click the <strong>VM actions</strong> pull-down.</p>
+</li>
 </ol>
 <p><img alt="" src="../_attachments/VSI-InstanceDetails-Actions.png"></p>
-<p>Notice the actions that can be initiated. The actions available vary depending on the current state of the instance and the operating system of the instance.</p>
-<details class="error">
-<summary>Don't see a <strong>VM actions</strong> button?</summary>
-<p>If the browser window is too small, the reactive nature of the IBM Cloud Portal will change the <strong>VM actions</strong> button to an ellipses icon <img alt="" src="../_attachments/elipsesIcon.png">. Click the ellipses icon to see the <strong>VM actions</strong> or expand the browser window horizontally.</p>
-<p><img alt="" src="../_attachments/bigEllipses.png"></p>
-</details>
+<div class="highlight"><pre><span></span><code>Notice the actions that can be initiated. The actions available vary depending on the current state of the instance and the operating system of the instance.
+
+??? Error "Don't see a **VM actions** button?"
+
+    If the browser window is too small, the reactive nature of the IBM Cloud Portal will change the **VM actions** button to an ellipses icon ![](_attachments/elipsesIcon.png). Click the ellipses icon to see the **VM actions** or expand the browser window horizontally.
+
+    ![](_attachments/bigEllipses.png)
+</code></pre></div>
 <ol start="7">
 <li>Click anywhere on the main screen (away from the menu from step 6).</li>
-<li>Click the <strong>Edit details</strong> link.</li>
-</ol>
+<li>
+<p>Click the <strong>Edit details</strong> link.</p>
 <p><img alt="" src="../_attachments/VSI-InstanceDetails-EditDetails.png"></p>
 <p>Explore what instance configuration options can be modified. Depending on the running state of the instance, some options are not accessible. Note, changing the instance always requires the user to agree to the service terms.</p>
-<ol start="9">
-<li>Click <strong>Cancel</strong> in the <strong>Edit virtual server instance details</strong> dialog.</li>
+</li>
+<li>
+<p>Click <strong>Cancel</strong> in the <strong>Edit virtual server instance details</strong> dialog.</p>
+</li>
 </ol>
 <div class="admonition example">
 <p class="admonition-title">On your own</p>
