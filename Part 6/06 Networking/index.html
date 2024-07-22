@@ -1329,35 +1329,30 @@
 <p>Click <strong>Create subnet +</strong>.</p>
 <p><img alt="" src="../_attachments/SubnetsCreate.png"></p>
 </li>
-</ol>
-<p>To create a new subnet, the details about the subnet need to be specified. </p>
-<div class="highlight"><pre><span></span><code>![](_attachments/SubnetsCreate-1.png)
-
-These details include a name and:
-
-- Classless Inter-Domain Routing (CIDR)
-
-  CIDR is a method for allocating Internet Protocol (IP) network addresses for routing. The CIDR notation is a compact representation of an IP address and its associated network mask.
-
-- Gateway
-
-  The gateway address is typically the first address in the CIDR range of available addresses; however, the address can be changed.
-
-- IP ranges
-
-  The IP range allows the user to specify either the full CIDR range as being available or a subset.
-
-- Domain Name Server (DNS)
-
-  The DNS server is used for name resolution for the VSIs in the subnet. If the VSIs have a public facing network, they can use a public DNS server, like IBM Clouds: 9.9.9.9. However, if a public network is not available, the DNS should be set to 127.0.0.1 to avoid issues with VSIs hanging during startup. Up to 20 DNS servers can be specified.
-
-- Maximum Transmission Unit (MTU)
-
-  MTU is used to specify the largest data packet size allowed over a network. A larger MTU produces less overhead, and a smaller value can reduce network delay. If Red Hat OpenShift is deployed on VSIs in the subnet, the recommendation is to set the MTU size to 1450. To support jumbo frames (often required for applications with large data transfers), the MTU should be set to 9000.
-</code></pre></div>
-<ol start="3">
 <li>
 <p>Click <strong>Cancel</strong>.</p>
+<p>To create a new subnet, the details about the subnet need to be specified. </p>
+<p>These details include a name and:</p>
+<ul>
+<li>Classless Inter-Domain Routing (CIDR)</li>
+</ul>
+<p>CIDR is a method for allocating Internet Protocol (IP) network addresses for routing. The CIDR notation is a compact representation of an IP address and its associated network mask.</p>
+<ul>
+<li>Gateway</li>
+</ul>
+<p>The gateway address is typically the first address in the CIDR range of available addresses; however, the address can be changed.</p>
+<ul>
+<li>IP ranges</li>
+</ul>
+<p>The IP range allows the user to specify either the full CIDR range as being available or a subset.</p>
+<ul>
+<li>Domain Name Server (DNS)</li>
+</ul>
+<p>The DNS server is used for name resolution for the VSIs in the subnet. If the VSIs have a public facing network, they can use a public DNS server, like IBM Clouds: 9.9.9.9. However, if a public network is not available, the DNS should be set to 127.0.0.1 to avoid issues with VSIs hanging during startup. Up to 20 DNS servers can be specified.</p>
+<ul>
+<li>Maximum Transmission Unit (MTU)</li>
+</ul>
+<p>MTU is used to specify the largest data packet size allowed over a network. A larger MTU produces less overhead, and a smaller value can reduce network delay. If Red Hat OpenShift is deployed on VSIs in the subnet, the recommendation is to set the MTU size to 1450. To support jumbo frames (often required for applications with large data transfers), the MTU should be set to 9000.</p>
 <p><img alt="" src="../_attachments/SubnetsCreate-1.png"></p>
 </li>
 </ol>
