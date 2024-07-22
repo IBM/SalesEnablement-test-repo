@@ -1313,15 +1313,17 @@
 
 <div><p>As mentioned earlier IBM Power Virtual Server (PowerVS) supports multiple tiers of storage. Learn more about the available storage tiers <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-about-power-iaas#storage-tiers-spec-private-cloud" target="_blank">here</a>. Every PowerVS virtual server instance consists of a boot volume and optionally other storage volumes. While IBM manages the underlying physical storage, it is the client's responsibility to manage and protect the data on instances.</p>
 <ol>
-<li>Click the <strong>Storage volumes</strong> option in the side menu under the PowerVS-L3-2024 workspace.</li>
-</ol>
-<p><img align="right" alt="" src="../_attachments/StorageVolumesMenu.png"></p>
-<ol start="2">
-<li>Click <strong>Create volume +</strong>.
-   <img alt="" src="../_attachments/StorageVolumeTable.png"></li>
+<li>
+<p>Click the <strong>Storage volumes</strong> option in the side menu under the PowerVS-L3-2024 workspace.</p>
+<p><img alt="" src="../_attachments/StorageVolumesMenu.png"></p>
+</li>
+<li>
+<p>Click <strong>Create volume +</strong>.
+    <img alt="" src="../_attachments/StorageVolumeTable.png"></p>
+</li>
 </ol>
 <p>To create a new storage volume, a few parameters must be specified. The first 4 parameters are the name of the volume, the storage tier, the number of volumes to create, and the size.
-   <img align="right" alt="" src="../_attachments/StorageVolumeCreate-1.png"></p>
+   <img alt="" src="../_attachments/StorageVolumeCreate-1.png"></p>
 <p>a. Each storage volume in a workspace must have a unique name.</p>
 <p>b. A tier of storage must be specified. The storage tier can change later. The storage tier represents the performance characteristics of the volume and directly relates to the cost of the volume. See the earlier link for more information on the 4 storage tiers supported by PowerVS.</p>
 <p>c. It is possible to create up to 10 storage volumes at a time. Each of these volumes has the same attributes as far as tier, size, shareability, storage pool, and affinity rules.</p>
