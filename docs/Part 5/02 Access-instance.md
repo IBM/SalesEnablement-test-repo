@@ -20,9 +20,7 @@ Use the following steps to log in to a PowerVS instance by using the IBM Cloud S
 
     ??? Error "Get an error opening IBM Cloud Shell?"
 
-        If the following error occurs when attempting to open IBM Cloud Shell, fix it by either deleting the browser cookies for cloud.ibm.com and log back into cloud.ibm.com, or try using a private/incognito browser window.
-
-    ![](_attachments/CloudShellError.png)
+        If the following error occurs when attempting to open IBM Cloud Shell, fix it by either deleting the browser cookies for cloud.ibm.com and log back into cloud.ibm.com, or try using a private/incognito browser window. ![](_attachments/CloudShellError.png)
 
 Use the IBM Cloud Shell window that was opened in the next steps.
 

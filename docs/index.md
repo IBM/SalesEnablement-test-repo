@@ -42,22 +42,22 @@ In some images, the following styles of highlighting are used:
 
 - Action highlight box: Illustrates where to click, enter, or select an item:
 
-![](_attachments/ClickActionRectangle.png)
+    ![](_attachments/ClickActionRectangle.png)
 
 - Path or "explore more" highlight box illustrates one of two things:
 
     - the path to follow to get to a specific location in the user interface
     - areas to explore
 
-![](_attachments/PathExploreHighlight.png)
+    ![](_attachments/PathExploreHighlight.png)
 
 - Copy to the clipboard box: The text is copied to the clipboard. Click the copy icon and then paste with the operating system's paste function. For example, entering ++ctrl++**+v**, ++cmd++**+v**, or right click and select paste.
 
-![](_attachments/Usage-Clipboard.png)
+    ![](_attachments/Usage-Clipboard.png)
 
 Also, several "click through" demonstrations are included. Links to click through demonstrations open in a new browser window or tab.
 
-![](_attachments/ClickThruStartPage.png)
+    ![](_attachments/ClickThruStartPage.png)
 
 Click **play** ![](_attachments/ClickThruPlayButton.png) in the middle of the screen to start the demo. Then, follow the steps in the demonstration guide. Not sure where to click or what to do next? Click anywhere on the screen and the spot to click next is highlighted.
 

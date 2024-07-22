@@ -17,15 +17,15 @@ The steps that follow outline how to reserve access to the pre-provisioned, IBM 
 
 4. Complete the required fields for the reservation.
 
-   a. Provide the instance a unique name. For example, 'AndrewJ-PowerVS-L3'.
+    a. Provide the instance a unique name. For example, 'AndrewJ-PowerVS-L3'.
   
-   b. Set the value of **Purpose** to **Education**.
+    b. Set the value of **Purpose** to **Education**.
   
-   c. Write a brief note into the **Purpose Description** field.
+    c. Write a brief note into the **Purpose Description** field.
   
-   d. Under the **Preferred Geography** field, select **itzadhoc03 - AMERICAS - us-south region - dal13 datacenter** (or a closer location if available).
+    d. Under the **Preferred Geography** field, select **itzadhoc03 - AMERICAS - us-south region - dal13 datacenter** (or a closer location if available).
   
-   e. Specify the **End Date and Time** for the reservation. The default reservation is for two days. You can extend the reservation for up to an extra four days.
+    e. Specify the **End Date and Time** for the reservation. The default reservation is for two days. You can extend the reservation for up to an extra four days.
 
     ![](_attachments/ReservationInputs.png)
 
@@ -38,8 +38,8 @@ The steps that follow outline how to reserve access to the pre-provisioned, IBM 
 
     ![](_attachments/ReservationReady.png)
 
-!!! Important
-    Clicking the PowerVS tile before it is marked as Ready (for example, if it shows as "scheduled" or "provisioning") displays incomplete data. Wait until the environment is **Ready** before you continue to the next step.
+    !!! Important
+        Clicking the PowerVS tile before it is marked as Ready (for example, if it shows as "scheduled" or "provisioning") displays incomplete data. Wait until the environment is **Ready** before you continue to the next step.
 
 7. Click the reservation tile.
 
@@ -51,9 +51,9 @@ The steps that follow outline how to reserve access to the pre-provisioned, IBM 
 
     This SSH key is used later to access the PowerVS virtual server instances.
 
-!!! tip "Record the file name and location!"
+    !!! tip "Record the file name and location!"
     
-    The private key file is used later when accessing virtual machines on PowerVS. 
+        The private key file is used later when accessing virtual machines on PowerVS.
 
     ![](_attachments/ReservationSSHkey.png)
 

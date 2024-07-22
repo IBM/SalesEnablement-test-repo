@@ -38,8 +38,9 @@ An error is expected, as full access to the shared environment is **not** provid
 
     ![](_attachments/NewDashboard.png)
 
-!!! Note
-    After switching accounts a new user questionnaire or other dialogs can appear. Cancel these windows. If the IBM Cloud Dashboard is not displayed as seen in the previous image, click the **IBM Cloud** text at upper left of the IBM Cloud Portal.
+    !!! Note
+        
+        After switching accounts a new user questionnaire or other dialogs can appear. Cancel these windows. If the IBM Cloud Dashboard is not displayed as seen in the previous image, click the **IBM Cloud** text at upper left of the IBM Cloud Portal.
 
 4. Click **{{powerVS.serviceInstanceName}}** under **Compute**.
 
@@ -51,7 +52,7 @@ An error is expected, as full access to the shared environment is **not** provid
 
 6. Click the **VM actions** pull-down.
 
-![](_attachments/VSI-InstanceDetails-Actions.png)
+    ![](_attachments/VSI-InstanceDetails-Actions.png)
 
     Notice the actions that can be initiated. The actions available vary depending on the current state of the instance and the operating system of the instance.
 
