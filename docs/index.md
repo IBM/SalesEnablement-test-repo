@@ -57,7 +57,7 @@ In some images, the following styles of highlighting are used:
 
 Also, several "click through" demonstrations are included. Links to click through demonstrations open in a new browser window or tab.
 
-    ![](_attachments/ClickThruStartPage.png)
+![](_attachments/ClickThruStartPage.png)
 
 Click **play** ![](_attachments/ClickThruPlayButton.png) in the middle of the screen to start the demo. Then, follow the steps in the demonstration guide. Not sure where to click or what to do next? Click anywhere on the screen and the spot to click next is highlighted.
 

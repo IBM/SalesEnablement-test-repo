@@ -19,9 +19,11 @@ A good network design for any cloud deployment is critical. This includes IBM Po
 
     ![](_attachments/SubnetsCreate.png)
 
-To create a new subnet, the details about the subnet need to be specified. 
+    
 
-    ![](_attachments/SubnetsCreate-1.png)
+3. Click **Cancel**.
+   
+    To create a new subnet, the details about the subnet need to be specified. 
 
     These details include a name and:
 
@@ -45,8 +47,6 @@ To create a new subnet, the details about the subnet need to be specified.
 
       MTU is used to specify the largest data packet size allowed over a network. A larger MTU produces less overhead, and a smaller value can reduce network delay. If Red Hat OpenShift is deployed on VSIs in the subnet, the recommendation is to set the MTU size to 1450. To support jumbo frames (often required for applications with large data transfers), the MTU should be set to 9000.
 
-3. Click **Cancel**.
-   
     ![](_attachments/SubnetsCreate-1.png)
 
 Existing subnets can be edited; however, modifications are limited to changing the gateway, the IP ranges, and adding or removing DNS servers.

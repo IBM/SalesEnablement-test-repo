@@ -11,7 +11,7 @@ Virtual appliances are pre-configured virtual machine images that can easily be 
 
     ![](_attachments/VAList.png)
 
-A new browser tab opens to the IBM Cloud catalog. The currently available virtual appliances are displayed. As of July 2024, 2 virtual appliances are available in the IBM Cloud catalog for PowerVS.
+    A new browser tab opens to the IBM Cloud catalog. The currently available virtual appliances are displayed. As of July 2024, 2 virtual appliances are available in the IBM Cloud catalog for PowerVS.
 
     ![](_attachments/VAtiles.png)
 
@@ -19,13 +19,13 @@ A new browser tab opens to the IBM Cloud catalog. The currently available virtua
 
     ![](_attachments/VAtiles-FS.png)
 
-FalconStor StorSafe Virtual Tape Library (VTL) is a software solution that optimizes backup and restore to improve performance and significantly reduce backup storage costs, all without requiring changes to the existing requirement. With its integrated deduplication, the solution removes redundant copies of data, reduces capacity requirements, decreases storage costs, and minimizes replication and restore times. StorSafe VTL can be used with all leading backup solutions, enables both hybrid and cloud native backup, and supports both workload and tape migration to the cloud. 
+    FalconStor StorSafe Virtual Tape Library (VTL) is a software solution that optimizes backup and restore to improve performance and significantly reduce backup storage costs, all without requiring changes to the existing requirement. With its integrated deduplication, the solution removes redundant copies of data, reduces capacity requirements, decreases storage costs, and minimizes replication and restore times. StorSafe VTL can be used with all leading backup solutions, enables both hybrid and cloud native backup, and supports both workload and tape migration to the cloud. 
 
-Review the provisioning page for FaclonStor StorSafe VTL for PowerVS Cloud. Notice the **Required input variables** and **Optional input variables** sections and the values that are used to configure the virtual appliance. These include parameters like the number of vCPUs, memory, and storage tier. Also note the **About** tab and links to additional information.
+    Review the provisioning page for FaclonStor StorSafe VTL for PowerVS Cloud. Notice the **Required input variables** and **Optional input variables** sections and the values that are used to configure the virtual appliance. These include parameters like the number of vCPUs, memory, and storage tier. Also note the **About** tab and links to additional information.
 
     ![](_attachments/VA-FS-ProvisionPage.png)
 
-After all required fields are defined, clients can provision the virtual appliance. The automation provisions the required virtual server instance by using a base image with the FaclonStor software already installed and configured. When complete, the FalconStor solution is ready to be used.
+    After all required fields are defined, clients can provision the virtual appliance. The automation provisions the required virtual server instance by using a base image with the FaclonStor software already installed and configured. When complete, the FalconStor solution is ready to be used.
 
 4. Click **Catalog**.
 
@@ -35,10 +35,10 @@ After all required fields are defined, clients can provision the virtual applian
 
     ![](_attachments/VAtiles-XLC.png)
 
-IBM® Open XL C/C++ for AIX is IBM’s next-generation C/C++ compiler that facilitates the creation and maintenance of applications that are written in C/C++ for IBM Power. Taking advantage of the Power10 architecture, IBM Open XL C/C++ for AIX can generate code that uses the capabilities of Power10 to maximize hardware utilization.
+    IBM® Open XL C/C++ for AIX is IBM’s next-generation C/C++ compiler that facilitates the creation and maintenance of applications that are written in C/C++ for IBM Power. Taking advantage of the Power10 architecture, IBM Open XL C/C++ for AIX can generate code that uses the capabilities of Power10 to maximize hardware utilization.
 
-Explore the provisioning page and additional information available for the virtual appliance.
+    Explore the provisioning page and additional information available for the virtual appliance.
 
-![](_attachments/VA-XLC-ProvisionPage.png)
+    ![](_attachments/VA-XLC-ProvisionPage.png)
 
 Recall, the virtual appliance catalog was opened in a new browser tab or window. When ready, close the current browser tab or window to return to the IBM Cloud Portal virtual appliances page.

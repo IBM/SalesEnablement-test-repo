@@ -23,7 +23,7 @@ Learn more about SPPs <a href="https://cloud.ibm.com/docs/power-iaas?topic=power
 
     ![](_attachments/SPPProvision2.png)
 
-After all these properties are specified, accept the terms and conditions and create the SPP. After the SPP is provisioned, clients specify the SPP when a new VSI is created.
+    After all these properties are specified, accept the terms and conditions and create the SPP. After the SPP is provisioned, clients specify the SPP when a new VSI is created.
 
 6. Click **Cancel**.
 
@@ -51,6 +51,4 @@ After all these properties are specified, accept the terms and conditions and cr
 
 9. Click **Cancel**
 
-Affinity and anti-affinity policies are used to help build high availability (HA) and disaster recovery (DR) deployments.
-
-Learn more about High Availability (HA) and Disaster Recovery (DR) options in PowerVS <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-ha-dr" target="_blank">here</a>.
+Affinity and anti-affinity policies are used to help build high availability (HA) and disaster recovery (DR) deployments. Learn more about High Availability (HA) and Disaster Recovery (DR) options in PowerVS <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-ha-dr" target="_blank">here</a>.

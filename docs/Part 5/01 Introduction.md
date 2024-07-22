@@ -14,7 +14,7 @@ Usually, clients deploy PowerVS instances that use a secured network like Direct
 
 **IBM Cloud Direct Link (2.0)** provides a level of trusted connectivity from enterprise sources to a client's IBM Cloud private network. IBM Cloud Direct Link (2.0) is tailored to every client's workload requirements or business use case.
 
-- **Direct Link Connect** is a bespoke solution for data center to data center connectivity (between clouds, or between on-premises and cloud), flexible bandwidth requirements, and multicloud environments. It also presents a less costly entry for IBM Cloud network clients compared to other Direct Link offerings.
+- **Direct Link Connect** is a solution for data center to data center connectivity (between clouds, or between on-premises and cloud), flexible bandwidth requirements, and multicloud environments. It also presents a less costly entry for IBM Cloud network clients compared to other Direct Link offerings.
 
 - **Direct Link Dedicated** is built for clients that have high-volume workloads that require low latency, or for those clients rapidly moving data across multicloud environments. It satisfies stringent compliance requirements that are held by certain countries or industries. Dedicated also supports universal connectivity for either colocation or carrier.
 

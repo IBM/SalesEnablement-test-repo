@@ -36,4 +36,4 @@ The **Event logs** pages for PowerVS workspaces provides a view of the 400 most 
 
     The events that are logged are high-level events, but provide useful information as long-running tasks progress. For instance, provisioning the AIX VSI took about 40 minutes as seen by the timestamps.
 
-For more detailed information, IBM Cloud Activity Tracker or IBM Cloud Logs can be used.
+For more detailed information, IBM Cloud Activity Tracker or IBM Cloud Logs can be used. Learn more about the options in **Part 8 - Observing PowerVS resources**.
