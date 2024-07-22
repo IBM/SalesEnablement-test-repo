@@ -1,3 +1,6 @@
+??? Important "Important information about the demonstration environment!"
+    In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will not have the ability to create, edit, or delete resources in the IBM Technology Zone environment.
+    
 Every instance of IBM Power Virtual Server (PowerVS) consists of a mandatory boot volume. Boot images come from the PowerVS image catalog or are imported by clients. After a virtual server instance (VSI) is provisioned, a copy of the boot image is added to the client's boot image catalog.
 
 1. Click the **Boot images** option in the side menu under the {{powerVS.serviceInstanceName}} workspace.

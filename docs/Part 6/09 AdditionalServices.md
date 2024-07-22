@@ -1,3 +1,6 @@
+??? Important "Important information about the demonstration environment!"
+    In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will not have the ability to create, edit, or delete resources in the IBM Technology Zone environment.
+    
 Complimentary products and services are available for {{offering.name}} (PowerVS).
 
 1. Click the **Additional products and services** option in the side menu under the {{powerVS.serviceInstanceName}} workspace.

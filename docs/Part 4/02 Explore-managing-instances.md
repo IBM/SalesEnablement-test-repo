@@ -8,10 +8,10 @@ Using the IBM Cloud portal and command-line interfaces (CLIs), users can do the 
 - Delete an instance
 - Capture and export an image of an instance
 - Modify an image 
-  - Change pinning policy
-  - Add or remove cores
-  - Add or remove memory
-  - Modify placement group
+    - Change pinning policy
+    - Add or remove cores
+    - Add or remove memory
+    - Modify placement group
 - Add or remove volumes
 - Modify network interfaces (can require OS changes)
 
@@ -27,46 +27,46 @@ An error is expected, as full access to the shared environment is **not** provid
 1. Open the IBM Cloud Portal: <a href="https://cloud.ibm.com/" target="_blank">https://cloud.ibm.com/</a> and authenticate.
 2. Change to the **{{account}}** account.
 
-![](_attachments/SwitchAccounts-final.gif)
+    ![](_attachments/SwitchAccounts-final.gif)
 
-!!! Tip
-    If the browser window is narrow, this icon: ![](_attachments/SwitchAccountsIcon.png) is seen instead of the current account name as shown in the previous screen capture.
+    !!! Tip
+        If the browser window is narrow, this icon: ![](_attachments/SwitchAccountsIcon.png) is seen instead of the current account name as shown in the previous screen capture.
 
 <!-- 3. Click **Services and software** under **Resource summary** on the IBM Cloud Dashboard. -->
 
 3. Click the **Resource List** ![](_attachments/ResourceListIcon.png) icon in the left menu bar.
 
-![](_attachments/NewDashboard.png)
+    ![](_attachments/NewDashboard.png)
 
 !!! Note
     After switching accounts a new user questionnaire or other dialogs can appear. Cancel these windows. If the IBM Cloud Dashboard is not displayed as seen in the previous image, click the **IBM Cloud** text at upper left of the IBM Cloud Portal.
 
 4. Click **{{powerVS.serviceInstanceName}}** under **Compute**.
 
-![](_attachments/ResourceListofWorkspaces.png)
+    ![](_attachments/ResourceListofWorkspaces.png)
 
 5. Click **{{aixServer1.name}}** in the **Virtual server workspaces** table.
 
-![](_attachments/VSIInstancesTable.png)
+    ![](_attachments/VSIInstancesTable.png)
 
 6. Click the **VM actions** pull-down.
 
 ![](_attachments/VSI-InstanceDetails-Actions.png)
 
-Notice the actions that can be initiated. The actions available vary depending on the current state of the instance and the operating system of the instance.
+    Notice the actions that can be initiated. The actions available vary depending on the current state of the instance and the operating system of the instance.
 
-??? Error "Don't see a **VM actions** button?"
+    ??? Error "Don't see a **VM actions** button?"
 
-    If the browser window is too small, the reactive nature of the IBM Cloud Portal will change the **VM actions** button to an ellipses icon ![](_attachments/elipsesIcon.png). Click the ellipses icon to see the **VM actions** or expand the browser window horizontally.
+        If the browser window is too small, the reactive nature of the IBM Cloud Portal will change the **VM actions** button to an ellipses icon ![](_attachments/elipsesIcon.png). Click the ellipses icon to see the **VM actions** or expand the browser window horizontally.
 
-    ![](_attachments/bigEllipses.png)
+        ![](_attachments/bigEllipses.png)
 
 7. Click anywhere on the main screen (away from the menu from step 6).
 8. Click the **Edit details** link.
 
-![](_attachments/VSI-InstanceDetails-EditDetails.png)
+    ![](_attachments/VSI-InstanceDetails-EditDetails.png)
 
-Explore what instance configuration options can be modified. Depending on the running state of the instance, some options are not accessible. Note, changing the instance always requires the user to agree to the service terms.
+    Explore what instance configuration options can be modified. Depending on the running state of the instance, some options are not accessible. Note, changing the instance always requires the user to agree to the service terms.
 
 9. Click **Cancel** in the **Edit virtual server instance details** dialog.
 

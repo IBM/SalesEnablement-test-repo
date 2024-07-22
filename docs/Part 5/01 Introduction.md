@@ -4,11 +4,11 @@ A fundamental challenge that clients face is how to connect their on-premises da
 
 Three main methods are:
 
-1. Public internet
+- Public internet
 
-2. Virtual private network (VPN) tunnel
+- Virtual private network (VPN) tunnel
 
-3. IBM Cloud Direct Link (2.0)
+- IBM Cloud Direct Link (2.0)
 
 Usually, clients deploy PowerVS instances that use a secured network like Direct Link or Virtual Private Network (VPN).
 

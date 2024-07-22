@@ -1,3 +1,6 @@
+??? Important "Important information about the demonstration environment!"
+    In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will not have the ability to create, edit, or delete resources in the IBM Technology Zone environment.
+    
 As mentioned earlier IBM Power Virtual Server (PowerVS) supports multiple tiers of storage. Learn more about the available storage tiers <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-about-power-iaas#storage-tiers-spec-private-cloud" target="_blank">here</a>. Every PowerVS virtual server instance consists of a boot volume and optionally other storage volumes. While IBM manages the underlying physical storage, it is the client's responsibility to manage and protect the data on instances.
 
 1. Click the **Storage volumes** option in the side menu under the {{powerVS.serviceInstanceName}} workspace.
