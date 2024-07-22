@@ -2,15 +2,13 @@ As mentioned earlier IBM Power Virtual Server (PowerVS) supports multiple tiers 
 
 1. Click the **Storage volumes** option in the side menu under the {{powerVS.serviceInstanceName}} workspace.
 
-   ![](_attachments/StorageVolumesMenu.png)
+   ![](_attachments/StorageVolumesMenu.png){ align=right }
 
 2. Click **Create volume +**.
+   ![](_attachments/StorageVolumeTable.png)
 
-![](_attachments/StorageVolumeTable.png)
-
-To create a new storage volume, a few parameters must be specified. The first 4 parameters are the name of the volume, the storage tier, the number of volumes to create, and the size.
-
-![](_attachments/StorageVolumeCreate-1.png)
+   To create a new storage volume, a few parameters must be specified. The first 4 parameters are the name of the volume, the storage tier, the number of volumes to create, and the size.
+   ![](_attachments/StorageVolumeCreate-1.png){ align=right }
 
 a. Each storage volume in a workspace must have a unique name.
 
