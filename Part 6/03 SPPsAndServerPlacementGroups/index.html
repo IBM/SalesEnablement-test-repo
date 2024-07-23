@@ -1332,15 +1332,22 @@
 </li>
 <li>
 <p>Select a <strong>machine type</strong>.</p>
+<p><img alt="" src="../_attachments/SPPProvision2.png"></p>
 </li>
 <li>
-<p>Specify the number of <strong>reserved cores</strong> and click <strong>Finish</strong>.</p>
-<p><img alt="" src="../_attachments/SPPProvision2.png"></p>
-<p>After all these properties are specified, accept the terms and conditions and create the SPP. After the SPP is provisioned, clients specify the SPP when a new VSI is created.</p>
+<p>Specify the number of <strong>reserved cores</strong>.</p>
+<p><img alt="" src="../_attachments/SPPProvision3.png"></p>
 </li>
+<li>
+<p>Click <strong>Finish</strong>.</p>
+<p><img alt="" src="../_attachments/SPPProvision4.png"></p>
+</li>
+</ol>
+<p>When actually provisioning an SPP, you would next accept the terms and conditions and create the SPP. After the SPP is provisioned, clients specify the SPP when a new VSI is created. </p>
+<ol start="7">
 <li>
 <p>Click <strong>Cancel</strong>.</p>
-<p><img alt="" src="../_attachments/SPPProvision3.png"></p>
+<p><img alt="" src="../_attachments/SPPProvision5.png"></p>
 </li>
 <li>
 <p>Click the <strong>Pool placement groups</strong> tab.</p>
@@ -1351,13 +1358,20 @@
 <li>
 <p>Click <strong>Create group +</strong>.</p>
 <p><img alt="" src="../_attachments/SPP-PPG.png"></p>
-<p>To create a pool placement group, specify a group name and the colocation policy of either <strong>same server</strong> or <strong>different server</strong>.</p>
+</li>
+<li>
+<p>Enter a <strong>Name</strong> for the pool placement group.</p>
 <p><img alt="" src="../_attachments/SPP-PPG-1.png"></p>
+</li>
+<li>
+<p>Select the colocation policy of either <strong>same server</strong> or <strong>different server</strong>.</p>
 <p>The <strong>same server</strong> option specifies that all VSIs in this placement group are placed on the same server. This is known as an <strong>affinity</strong> policy.</p>
 <p>The <strong>different server</strong> option specifies that all VSIs in this placement group are placed on different servers. This is also known as an <strong>anti-affinity</strong> policy.</p>
+<p><img alt="" src="../_attachments/SPP-PPG-2.png"></p>
 </li>
 <li>
 <p>Click <strong>Cancel</strong></p>
+<p><img alt="" src="../_attachments/SPP-PPG-3.png"></p>
 </li>
 </ol>
 <p>Affinity and anti-affinity policies are used to help build high availability (HA) and disaster recovery (DR) deployments. Learn more about High Availability (HA) and Disaster Recovery (DR) options in PowerVS <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-ha-dr" target="_blank">here</a>.</p></div>
