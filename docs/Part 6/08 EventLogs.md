@@ -7,7 +7,6 @@ The **Event logs** pages for PowerVS workspaces provides a view of the 400 most 
 
     IBM Log Analysis and IBM Cloud Activity Tracker are being replaced by IBM Cloud Logs in 2024. This demonstration guide will be updated to once IBM Cloud Logs in fully operational and integrated with PowerVS.
 
-
 1. Click the **Event logs** option in the side menu under the {{powerVS.serviceInstanceName}} workspace.
 
     ![](_attachments/EventLogsMenu.png)
@@ -18,17 +17,17 @@ The **Event logs** pages for PowerVS workspaces provides a view of the 400 most 
 
 3. Review the **Log notification settings** and then click **Cancel**.
 
-    ![](_attachments/EventLogsSettings.png)
+    ![](_attachments/EventLogsSettings-2.png)
 
     !!! Important "Don't see any notifications?"
 
         Since event logs only displays events in the current and previous month, it is possible that you may not see any events. If that is the case, you won't be able to follow the steps below; however, the images below will help you understand the type of information that is logged and to what level of detail.
 
-4. Expand one of the **Virtual Server Instance** events.
+4. Expand one of the events in the table.
+
+    Note, if no events have been generated in last 60 days, there may not be an event to examine. This event is related to a **Virtual Server Instance** (VSI) resource type and was triggered when an image capture was run on one of the VSIs.
 
     ![](_attachments/EventLogsEventDetail.png)
-
-    This event is related to a **Virtual Server Instance** (VSI) resource type and was triggered when an image capture was run on one of the VSIs.
 
     The next image lists the events that were triggered when the first VSI in the demonstration environment was provisioned.
 
