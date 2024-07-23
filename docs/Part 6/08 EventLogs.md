@@ -17,7 +17,7 @@ The **Event logs** pages for PowerVS workspaces provides a view of the 400 most 
 
 3. Review the **Log notification settings** and then click **Cancel**.
 
-    ![](_attachments/EventLogsSettings-2.png)
+    ![](_attachments/EventLogsSettings-3.png)
 
     !!! Important "Don't see any notifications?"
 
