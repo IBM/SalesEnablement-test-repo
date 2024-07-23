@@ -36,12 +36,14 @@ The steps that follow outline how to reserve access to the pre-provisioned, IBM 
 
 6. Wait for IBM Technology Zone to finish provisioning the PowerVS environment. The automation takes approximately 5 to 10 minutes. When ready, an email is sent _and_ the <a href="https://techzone.ibm.com/my/reservations" target="_blank">Reservations</a> page shows a PowerVS tile with the status of **Ready**. If marked as ready, click anywhere on the tile to drill down into details of the reservation.
 
-    ![](_attachments/ReservationReady.png)
+    ![](_attachments/ITZ-3a.png)
 
     !!! Important
         Clicking the PowerVS tile before it is marked as Ready (for example, if it shows as "scheduled" or "provisioning") displays incomplete data. Wait until the environment is **Ready** before you continue to the next step.
 
 7. Click the reservation tile.
+
+    ![](_attachments/ITZ-4.png)
 
 8. Locate the **User ID** field and record this value. It is needed later. It looks like your email address that was used to request the environment but with a period instead of an *at* sign (@).
 
