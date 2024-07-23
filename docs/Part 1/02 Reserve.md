@@ -59,10 +59,10 @@ The steps that follow outline how to reserve access to the pre-provisioned, IBM 
 
     ![](_attachments/ReservationSSHkey.png)
 
-10.  Review the emails received. One is from **IBM Cloud** with the title **Account: You are invited to join an account in IBM Cloud**. In the body of the email is a **Join Now** link. Click the link and **Accept** the invitation on the IBM Cloud portal.
-
-    ![](_attachments/ReservationEmail.png)
+10. Review the emails received. One is from **IBM Cloud** with the title **Account: You are invited to join an account in IBM Cloud**. In the body of the email is a **Join Now** link. Click the link and **Accept** the invitation on the IBM Cloud portal.
 
     If you do not receive an e-mail, try deleting the existing reservation in ITZ and try creating a new one. If that doesn't work, open a support ticket in the #itz-techzone-support Slack channel.  Include the reservation ID and summarize the problem in your message.
+
+    ![](_attachments/ReservationEmail.png)
 
 Now that you have an active ITZ reservation, you can proceed. Remember, the default duration of the reservation is 2 days. You can extend the reservation for up to an extra four days. IBMers will need an active reservation to record their stand and deliver, and business partners will want it to complete the short quiz as part of the Level 3 learning plan.
