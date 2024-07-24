@@ -1342,32 +1342,40 @@
 <li>Select <strong>Deployable architectures</strong> under <strong>Type</strong>.</li>
 <li>Click the <strong>**Power Virtual Server with VPC landing zone</strong> tile.</li>
 <li>Click <strong>See more</strong>.</li>
-<li>Click <strong>See less</strong>.</li>
-</ol>
+<li>
+<p>Click <strong>See less</strong>.</p>
 <p>The Power Virtual Server with VPC landing zone as 'Quickstart' variation of 'Create a new architecture' option deploys VPC services and a Power Virtual Server workspace and interconnects them. It also creates one Power virtual server instance of chosen t-shirt size or custom configuration.</p>
+</li>
+</ol>
 <p><img alt="" src="../_attachments/DAArchitecture.png"></p>
 <ol start="7">
 <li>Click <strong>Add to project</strong>.</li>
-<li>Click the <strong>Name</strong> field.</li>
-</ol>
+<li>
+<p>Click the <strong>Name</strong> field.</p>
 <p>IBM Cloud projects are a named collection of configurations that are used to manage related resources and deployments across accounts, embracing an Infrastructure as Code (IaC) approach to deployments. They enable teams to configure, deploy, and monitor deployments by using DevOps best practices. Each project includes tools to scan for potentially harmful resource changes, compliance, security, and cost, tracking configuration versioning, and governance. They are designed with an IaC and a compliance-first approach that helps to ensure that a project is managed, secure, and always compliant. Learn more <a href="https://cloud.ibm.com/docs/secure-enterprise?topic=secure-enterprise-understanding-projects" target="_blank">here</a>.</p>
-<ol start="9">
-<li>Click the <strong>Description</strong> field.</li>
-<li>Click the <strong>Region</strong> drop-down.</li>
-</ol>
+</li>
+<li>
+<p>Click the <strong>Description</strong> field.</p>
+</li>
+<li>
+<p>Click the <strong>Region</strong> drop-down.</p>
 <p>Note, the availability of deployable architectures vary by data center based on resource availability. </p>
-<ol start="11">
-<li>Click <strong>Dallas</strong>.</li>
+</li>
+<li>
+<p>Click <strong>Dallas</strong>.</p>
+</li>
 <li>Click the <strong>Resource group</strong> drop-down.</li>
 <li>Click <strong>Create</strong>.</li>
 </ol>
 <p>The next steps specify required configuration parameters for deploying the resources that are defined by the deployable architecture. In addition to the security and other required parameters, optional parameters can be specified. All these parameters are saved with the project and can be used to consistently deploy the same configuration and to manage drift of deployments.</p>
 <ol start="14">
-<li>Click the <strong>method</strong> drop-down in the Authentication section.</li>
-</ol>
+<li>
+<p>Click the <strong>method</strong> drop-down in the Authentication section.</p>
 <p>Both <strong>Trusted profiles</strong> and <strong>Secrets Manager</strong> are supported for providing authentication credentials.</p>
-<ol start="15">
-<li>Click <strong>API key using Secrets Manager</strong>.</li>
+</li>
+<li>
+<p>Click <strong>API key using Secrets Manager</strong>.</p>
+</li>
 <li>Click the <img alt="" src="../_attachments/keyIcon.png"> key icon.</li>
 </ol>
 <p>Note, the recording did not capture properly here. In short, the previously uploaded API key was selected from the secrets manager instance.</p>
@@ -1375,60 +1383,74 @@
 <li>Click the <strong>Required</strong> tab.</li>
 <li>Click the <strong>powervs_zone</strong> drop-down.</li>
 <li>Click <strong>Dallas (dallas)</strong>.</li>
-<li>Click the <strong>prefix</strong> field.</li>
-</ol>
+<li>
+<p>Click the <strong>prefix</strong> field.</p>
 <p>The prefix is used in naming resources created during the automation for the deployable architecture.</p>
-<ol start="21">
-<li>Click the <strong>tshirt-size</strong> field.</li>
-</ol>
+</li>
+<li>
+<p>Click the <strong>tshirt-size</strong> field.</p>
 <p>Recall with this deployable architecture, a PowerVS VSI is provisioned. The configuration of the VSI needs to be specified. In addition, although not shown in this click through, the operating system image for the VSI can be specified in the optional parameters.</p>
-<ol start="22">
-<li>Click <strong>AIX-XS</strong>.</li>
+</li>
+<li>
+<p>Click <strong>AIX-XS</strong>.</p>
+</li>
 <li>Click the <img alt="" src="../_attachments/pencilIcon.png"> pencil icon under <strong>ssh_public_key</strong>.</li>
-<li>Click the <strong>Edit secure value</strong> field.</li>
-</ol>
+<li>
+<p>Click the <strong>Edit secure value</strong> field.</p>
 <p>As mentioned earlier, an SSH public and private key pair must be created before starting the deployable architecture. This key pair might also be stored and retrieved from the secrets manager instance.</p>
-<ol start="25">
-<li>Click <strong>OK</strong>.</li>
+</li>
+<li>
+<p>Click <strong>OK</strong>.</p>
+</li>
 <li>Click the <img alt="" src="../_attachments/pencilIcon.png"> pencil icon under <strong>ssh_private_key</strong>.</li>
 <li>Click the <strong>Edit secure value</strong> field.</li>
 <li>Click <strong>OK</strong></li>
 <li>Click the <strong>powervs_resource_group_name</strong> drop-down.</li>
-<li>Click <strong>PowerVS-L3</strong></li>
-</ol>
+<li>
+<p>Click <strong>PowerVS-L3</strong></p>
 <p>Note the <strong>external_access-ip</strong> addressed specifies the IP address that can be used to access the PowerVS address. A specific route entry is created in the associated VPC network to allow this connection.</p>
-<ol start="31">
-<li>Click <strong>Save</strong></li>
-<li>Click <strong>Validate</strong>.</li>
-</ol>
+</li>
+<li>
+<p>Click <strong>Save</strong></p>
+</li>
+<li>
+<p>Click <strong>Validate</strong>.</p>
 <p>This step validates the configuration and parameters that were set. The scan looks for code errors, compliance, issues, and calculates the cost of the deployment. The scan took about 15 minutes to complete.</p>
-<ol start="33">
-<li>Click the <strong>Add a comment</strong> field.</li>
+</li>
+<li>
+<p>Click the <strong>Add a comment</strong> field.</p>
+</li>
 <li>Click <strong>Approve</strong>.</li>
-<li>Click <strong>Deploy</strong>.</li>
-</ol>
+<li>
+<p>Click <strong>Deploy</strong>.</p>
 <p>The actual deployment of the architecture takes about 30 minutes to complete. While this is processing, examine the underlying activities.</p>
-<ol start="36">
-<li>Click the <img alt="" src="../_attachments/plusIcon.png"> plus icon to open a new tab to the IBM Cloud portal.</li>
+</li>
+<li>
+<p>Click the <img alt="" src="../_attachments/plusIcon.png"> plus icon to open a new tab to the IBM Cloud portal.</p>
+</li>
 <li>Click the <img alt="" src="../_attachments/hamburgerMenu.png"> hamburger menu.</li>
 <li>Click <strong>Projects</strong>.</li>
 <li>Click <strong>da-pvs-l3</strong>.</li>
-<li>Click the <strong>Configurations</strong> tab.</li>
-</ol>
+<li>
+<p>Click the <strong>Configurations</strong> tab.</p>
 <p>Notice the deployment status of the configuration.</p>
-<ol start="41">
-<li>Click the <img alt="" src="../_attachments/hamburgerMenu.png"> hamburger menu.</li>
+</li>
+<li>
+<p>Click the <img alt="" src="../_attachments/hamburgerMenu.png"> hamburger menu.</p>
+</li>
 <li>Click <strong>Workspaces</strong> in the <strong>Schematics</strong> menu.</li>
 <li>Click <strong>deploy-arch-ibm-pvs-inf-c0aa</strong>.</li>
-<li>Click <strong>Expand</strong>.</li>
-</ol>
+<li>
+<p>Click <strong>Expand</strong>.</p>
 <p>The log entries that are shown are all the steps that are processed as part of the deployable architecture. You don't need to read them. Understand the automation is creating and validating all the resources that are defined by the deployable architecture. Including the VPC and associated networks, the VSIs in the VPC, and the PowerVS VSI.</p>
-<ol start="45">
-<li>Click the <strong>deploy-arch-ibm-pvs-inf-c0as</strong> browser tab.</li>
-</ol>
+</li>
+<li>
+<p>Click the <strong>deploy-arch-ibm-pvs-inf-c0as</strong> browser tab.</p>
 <p>Notice the information and options presented. The deployment succeeded. It took 29 minutes to complete.</p>
-<ol start="46">
-<li>Click the <strong>x</strong> to close the dialog.</li>
+</li>
+<li>
+<p>Click the <strong>x</strong> to close the dialog.</p>
+</li>
 </ol>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
@@ -1437,15 +1459,17 @@
 <ol start="47">
 <li>Click the <img alt="" src="../_attachments/hamburgerMenu.png"> hamburger menu.</li>
 <li>Click <strong>Resource list</strong>.</li>
-<li>Click the <strong>da-pvs-l3-us-south-power-workspace</strong> entry under <strong>Compute</strong>.</li>
-</ol>
+<li>
+<p>Click the <strong>da-pvs-l3-us-south-power-workspace</strong> entry under <strong>Compute</strong>.</p>
 <p>Notice that the workspace name has the prefix that was specified during the configuration steps of the deployable architecture. Also, the extra small AIX VSI has been provisioned and is active.</p>
-<ol start="50">
-<li>Click <strong>Subnets</strong>.</li>
-</ol>
+</li>
+<li>
+<p>Click <strong>Subnets</strong>.</p>
 <p>Notice, like shown in the architecture diagram of the deployable architecture, two subnets are created for the workspace. One for a management network and one for a backup network.</p>
-<ol start="51">
-<li>Click the <img alt="" src="../_attachments/hamburgerMenu.png"> hamburger menu.</li>
+</li>
+<li>
+<p>Click the <img alt="" src="../_attachments/hamburgerMenu.png"> hamburger menu.</p>
+</li>
 <li>Click <strong>VPC Infrastructure</strong>.</li>
 <li>Click <strong>VPC layout</strong>.</li>
 </ol>
@@ -1455,9 +1479,11 @@
 <li>Click <strong>da-pvs-l3-edge-vpn-zone-1</strong>.</li>
 <li>Click <strong>da-pvs-l3-edge-vsi-management-zone-1</strong>.</li>
 <li>Click <strong>da-pvs-l3-edge-vpe-zone-1</strong>.</li>
-<li>Click <strong>Virtual server instances</strong>.</li>
-</ol>
+<li>
+<p>Click <strong>Virtual server instances</strong>.</p>
 <p>Notice the two VSIs provisioned in the VPC for the deployable architecture.</p>
+</li>
+</ol>
 <p>That concludes the click through demonstration. Remember, you can use your active ITZ reservation to explore the deployed architecture in the PowerVS workspace: <strong>da-pvs-l3-us-south-power-workspace</strong> and the provisioned VPC: <strong>da-pvs-l3-edge-vpc</strong>. </p></div>
 
 
