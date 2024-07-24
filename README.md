@@ -11,7 +11,7 @@ ITZ account: ITZ - ADHOC03
 
 ## Summary of environment and automation
 
-For this lab, no new IBM Cloud resources are provisioned as part of the ITZ automation The lab consists of many click-thru demonstrations, a pre-provisioned PowerVS workspace and 4 PowerVS VMs. **There appears to be an issue with the ITZ automation when reservations expire or are deleted. Users are remaining in the account and in the security group. The instructions below are provided to clean up "leftover" users.**
+For this lab, no new IBM Cloud resources are provisioned as part of the ITZ automation The lab consists of many click-thru demonstrations, a pre-provisioned PowerVS workspace and 3 PowerVS VMs. **There appears to be an issue with the ITZ automation when reservations expire or are deleted. Users are remaining in the account and in the security group. The instructions below are provided to clean up "leftover" users.**
 
 In the ITZ automation:
 

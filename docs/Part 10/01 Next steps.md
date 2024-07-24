@@ -1,4 +1,4 @@
-This Level 3 demonstration guide showed how easy it is to provision resources with IBM Power Systems Virtual Server (PowerVS). Users learned the basics for managing PowerVS resources. But there is still more to learn about PowerVS. Links to specific PowerVS topics were provided throughout this demonstration guide. Take the time to read the official <a href="https://cloud.ibm.com/docs/power-iaas" target="_blank">PowerVS documentation</a> to learn the full capabilities of the offering.
+This Level 3 demonstration guide showed how easy it is to provision resources with IBM Power Virtual Server (PowerVS). Users learned the basics for managing PowerVS resources. But there is still more to learn about PowerVS. Links to specific PowerVS topics were provided throughout this demonstration guide. Take the time to read the official <a href="https://cloud.ibm.com/docs/power-iaas" target="_blank">PowerVS documentation</a> to learn the full capabilities of the offering.
 
 Finally, remember to complete the IBM Power Systems Virtual Server - Level 3 learning plan.
 
