@@ -33,7 +33,7 @@ Note, fields that require a text entry (for example workspace name) are pre-popu
 
     The Power Virtual Server with VPC landing zone as 'Quickstart' variation of 'Create a new architecture' option deploys VPC services and a Power Virtual Server workspace and interconnects them. It also creates one Power virtual server instance of chosen t-shirt size or custom configuration.
 
-![](_attachments/DAArchitecture.png)
+    ![](_attachments/DAArchitecture.png)
 
 7. Click **Add to project**.
 8. Click the **Name** field.
