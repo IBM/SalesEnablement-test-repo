@@ -31,19 +31,19 @@ Note, fields that require a text entry (for example workspace name) are pre-popu
 5. Click **See more**.
 6. Click **See less**.
 
-The Power Virtual Server with VPC landing zone as 'Quickstart' variation of 'Create a new architecture' option deploys VPC services and a Power Virtual Server workspace and interconnects them. It also creates one Power virtual server instance of chosen t-shirt size or custom configuration.
+    The Power Virtual Server with VPC landing zone as 'Quickstart' variation of 'Create a new architecture' option deploys VPC services and a Power Virtual Server workspace and interconnects them. It also creates one Power virtual server instance of chosen t-shirt size or custom configuration.
 
 ![](_attachments/DAArchitecture.png)
 
 7. Click **Add to project**.
 8. Click the **Name** field.
 
-IBM Cloud projects are a named collection of configurations that are used to manage related resources and deployments across accounts, embracing an Infrastructure as Code (IaC) approach to deployments. They enable teams to configure, deploy, and monitor deployments by using DevOps best practices. Each project includes tools to scan for potentially harmful resource changes, compliance, security, and cost, tracking configuration versioning, and governance. They are designed with an IaC and a compliance-first approach that helps to ensure that a project is managed, secure, and always compliant. Learn more <a href="https://cloud.ibm.com/docs/secure-enterprise?topic=secure-enterprise-understanding-projects" target="_blank">here</a>.
+    IBM Cloud projects are a named collection of configurations that are used to manage related resources and deployments across accounts, embracing an Infrastructure as Code (IaC) approach to deployments. They enable teams to configure, deploy, and monitor deployments by using DevOps best practices. Each project includes tools to scan for potentially harmful resource changes, compliance, security, and cost, tracking configuration versioning, and governance. They are designed with an IaC and a compliance-first approach that helps to ensure that a project is managed, secure, and always compliant. Learn more <a href="https://cloud.ibm.com/docs/secure-enterprise?topic=secure-enterprise-understanding-projects" target="_blank">here</a>.
 
 9. Click the **Description** field.
-10.  Click the **Region** drop-down.
+10. Click the **Region** drop-down.
 
-Note, the availability of deployable architectures vary by data center based on resource availability. 
+    Note, the availability of deployable architectures vary by data center based on resource availability. 
 
 11. Click **Dallas**.
 12. Click the **Resource group** drop-down.
@@ -53,7 +53,7 @@ The next steps specify required configuration parameters for deploying the resou
 
 14. Click the **method** drop-down in the Authentication section.
 
-Both **Trusted profiles** and **Secrets Manager** are supported for providing authentication credentials.
+    Both **Trusted profiles** and **Secrets Manager** are supported for providing authentication credentials.
 
 15. Click **API key using Secrets Manager**.
 16. Click the ![](_attachments/keyIcon.png) key icon.
@@ -65,17 +65,17 @@ Note, the recording did not capture properly here. In short, the previously uplo
 19. Click **Dallas (dallas)**.
 20. Click the **prefix** field.
 
-The prefix is used in naming resources created during the automation for the deployable architecture.
+    The prefix is used in naming resources created during the automation for the deployable architecture.
 
 21. Click the **tshirt-size** field.
 
-Recall with this deployable architecture, a PowerVS VSI is provisioned. The configuration of the VSI needs to be specified. In addition, although not shown in this click through, the operating system image for the VSI can be specified in the optional parameters.
+    Recall with this deployable architecture, a PowerVS VSI is provisioned. The configuration of the VSI needs to be specified. In addition, although not shown in this click through, the operating system image for the VSI can be specified in the optional parameters.
 
 22. Click **AIX-XS**.
 23. Click the ![](_attachments/pencilIcon.png) pencil icon under **ssh_public_key**.
 24. Click the **Edit secure value** field.
 
-As mentioned earlier, an SSH public and private key pair must be created before starting the deployable architecture. This key pair might also be stored and retrieved from the secrets manager instance.
+    As mentioned earlier, an SSH public and private key pair must be created before starting the deployable architecture. This key pair might also be stored and retrieved from the secrets manager instance.
 
 25. Click **OK**.
 26. Click the ![](_attachments/pencilIcon.png) pencil icon under **ssh_private_key**.
@@ -84,18 +84,18 @@ As mentioned earlier, an SSH public and private key pair must be created before 
 29. Click the **powervs_resource_group_name** drop-down.
 30. Click **PowerVS-L3**
     
-Note the **external_access-ip** addressed specifies the IP address that can be used to access the PowerVS address. A specific route entry is created in the associated VPC network to allow this connection.
+    Note the **external_access-ip** addressed specifies the IP address that can be used to access the PowerVS address. A specific route entry is created in the associated VPC network to allow this connection.
 
 31. Click **Save**
 32. Click **Validate**.
 
-This step validates the configuration and parameters that were set. The scan looks for code errors, compliance, issues, and calculates the cost of the deployment. The scan took about 15 minutes to complete.
+    This step validates the configuration and parameters that were set. The scan looks for code errors, compliance, issues, and calculates the cost of the deployment. The scan took about 15 minutes to complete.
 
 33. Click the **Add a comment** field.
 34. Click **Approve**.
 35. Click **Deploy**.
     
-The actual deployment of the architecture takes about 30 minutes to complete. While this is processing, examine the underlying activities.
+    The actual deployment of the architecture takes about 30 minutes to complete. While this is processing, examine the underlying activities.
 
 36. Click the ![](_attachments/plusIcon.png) plus icon to open a new tab to the IBM Cloud portal.
 37. Click the ![](_attachments/hamburgerMenu.png) hamburger menu.
@@ -103,18 +103,18 @@ The actual deployment of the architecture takes about 30 minutes to complete. Wh
 39. Click **da-pvs-l3**.
 40. Click the **Configurations** tab.
 
-Notice the deployment status of the configuration.
+    Notice the deployment status of the configuration.
 
 41. Click the ![](_attachments/hamburgerMenu.png) hamburger menu.
 42. Click **Workspaces** in the **Schematics** menu.
 43. Click **deploy-arch-ibm-pvs-inf-c0aa**.
 44. Click **Expand**.
 
-The log entries that are shown are all the steps that are processed as part of the deployable architecture. You don't need to read them. Understand the automation is creating and validating all the resources that are defined by the deployable architecture. Including the VPC and associated networks, the VSIs in the VPC, and the PowerVS VSI.
+    The log entries that are shown are all the steps that are processed as part of the deployable architecture. You don't need to read them. Understand the automation is creating and validating all the resources that are defined by the deployable architecture. Including the VPC and associated networks, the VSIs in the VPC, and the PowerVS VSI.
 
 45. Click the **deploy-arch-ibm-pvs-inf-c0as** browser tab.
 
-Notice the information and options presented. The deployment succeeded. It took 29 minutes to complete.
+    Notice the information and options presented. The deployment succeeded. It took 29 minutes to complete.
 
 46.  Click the **x** to close the dialog.
 
@@ -127,11 +127,11 @@ Notice the information and options presented. The deployment succeeded. It took 
 48. Click **Resource list**.
 49. Click the **da-pvs-l3-us-south-power-workspace** entry under **Compute**.
     
-Notice that the workspace name has the prefix that was specified during the configuration steps of the deployable architecture. Also, the extra small AIX VSI has been provisioned and is active.
+    Notice that the workspace name has the prefix that was specified during the configuration steps of the deployable architecture. Also, the extra small AIX VSI has been provisioned and is active.
 
 50. Click **Subnets**.
 
-Notice, like shown in the architecture diagram of the deployable architecture, two subnets are created for the workspace. One for a management network and one for a backup network.
+    Notice, like shown in the architecture diagram of the deployable architecture, two subnets are created for the workspace. One for a management network and one for a backup network.
 
 51. Click the ![](_attachments/hamburgerMenu.png) hamburger menu.
 52. Click **VPC Infrastructure**.
@@ -145,6 +145,6 @@ In the next steps, examine the resources that are associated with each subnet.
 57. Click **da-pvs-l3-edge-vpe-zone-1**.
 58. Click **Virtual server instances**.
 
-Notice the two VSIs provisioned in the VPC for the deployable architecture.
+    Notice the two VSIs provisioned in the VPC for the deployable architecture.
 
 That concludes the click through demonstration. Remember, you can use your active ITZ reservation to explore the deployed architecture in the PowerVS workspace: **da-pvs-l3-us-south-power-workspace** and the provisioned VPC: **da-pvs-l3-edge-vpc**. 
