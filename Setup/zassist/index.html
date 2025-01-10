@@ -799,7 +799,10 @@
 
 
 <div><h1 id="installing-and-using-zassist-to-ingest-client-documents">Installing and using zassist to ingest client documents<a class="headerlink" href="#installing-and-using-zassist-to-ingest-client-documents" title="Permanent link">#</a></h1>
-<p>With bring-your-own-search (<abbr title="Bring Your Own Search">BYOS</abbr>) installed and configured in your assistant, you can now prepare for document ingestion. Currently, only <abbr title="Portable Document Format">PDF</abbr>, <abbr title="Hyper Text Markup Language">HTML</abbr>, and <abbr title="Microsoft Word Document Format">DOCX</abbr> file formats are supported for ingestion.</p>
+<p>With bring-your-own-search (<abbr title="Bring Your Own Search">BYOS</abbr>) installed and configured in your assistant, you can now prepare for document ingestion. This will show how client's can augment their assistant’s conversational search by creating an internal knowledge base with their documentation. This will allow the assistant to provide valuable responses to a range of questions that may not be possible with the default documentation available. </p>
+<p>As an example, a client mentioned that their developers often need reference material on company-specific legacy code or company-specific syntax, and they end up having to search through a lot of documentation to find it or look at old code. There is also a need for their operational support group to quickly determine how to resolve technical issues using runbooks. </p>
+<p>You can show your client how watsonx Assistant for Z can assist developers and operational support focals in finding answers about internal processes for code development and deployment by ingesting internal documentation. And by doing so, the client can establish an internal knowledge base that enables their assistant to provide the answers they need to their company-specific questions and processes. </p>
+<p>Currently, only <abbr title="Portable Document Format">PDF</abbr>, <abbr title="Hyper Text Markup Language">HTML</abbr>, and <abbr title="Microsoft Word Document Format">DOCX</abbr> file formats are supported for ingestion.</p>
 <p>Below is a high-level, logical architecture of the environment you will deploy in this section.</p>
 <p><a class="glightbox" href="../_attachments/LabArchitecture-Lab%202%20-%20b.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/LabArchitecture-Lab%202%20-%20b.png"></a></p>
 <p>To prepare for document ingestion, you can also reference the setup instructions that are located <a href="https://ibmdocs-test.dcs.ibm.com/docs/en/watsonx/waz/2.0?topic=install-zassist-ingest-data" target="_blank">here</a>.</p>
@@ -851,6 +854,36 @@
 <p>If you are viewing the <a href="_pdf/IBM%20watsonx%20Assistant%20for%20Z%20Level%204%20Lab%20Guide.pdf" target="_blank"><abbr title="Portable Document Format">PDF</abbr></a> of the lab guide, you can access the video <a href="https://ibm.github.io/SalesEnablement-L4-watsonx-AssistantForZ/Setup/_videos/zassitIngest-final.mp4" target="_blank">here</a>.</p>
 </details>
 </li>
+</ol>
+<h2 id="ingest-additional-client-documents">Ingest additional client documents<a class="headerlink" href="#ingest-additional-client-documents" title="Permanent link">#</a></h2>
+<p>In the above steps, you add a single document. Using the same process, install additional documents. The steps outlined below are less detailed. Refer to <strong>zassist</strong> product documentation for additional help if needed.</p>
+<ol>
+<li>
+<p>Download the <code>BYOD.zip</code> file.</p>
+<p><a href="https://github.com/IBM/SalesEnablement-L4-watsonx-AssistantForZ/blob/main/docs/Setup/_sampleDocs/BYOD.zip" target="_blank"><abbr title="Bring Your Own Documentation">BYOD</abbr>.zip</a></p>
+<div class="admonition example">
+<p class="admonition-title">Whats in the sample client documentation?</p>
+<p>Three sample documents are included:</p>
+<ul>
+<li>
+<p>Mainframe_COBOL_Error_Codes.pdf</p>
+<p>This is a document containing company-specific mainframe COBOL error codes for their application. Developers within the organization typically review this document to quickly diagnose issues based on the application error codes returned.</p>
+</li>
+<li>
+<p>Mainframe_Operational_Incidents_Log.pdf</p>
+<p>This document is leveraged by the organization’s operational support team and contains historical records of production-level incidents that occurred. For each incident, there’s a record of what the incident was, the date, how it was resolved and who was involved in resolving the incident. </p>
+</li>
+<li>
+<p>COBOL-<abbr title="Custom Information Control System">CICS</abbr>-to-Java-Internal-Framework.pdf</p>
+<p>This document is leveraged by the development team and contains details about the organization’s internal framework for developing applications consisting of legacy COBOL <abbr title="Custom Information Control System">CICS</abbr> interoperating with new Java code. Within the document contains company-specific coding practices and code syntax that the developers frequently reference.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Unzip or extract the <code>BYOD.zip</code> file.</p>
+</li>
+<li>Use <strong>zassist</strong> to ingest and load both all the files in the <strong>dev</strong> and <strong>ops</strong> directories from the extracted <code>BYOD.zip</code> file.</li>
 </ol>
 <h2 id="adjusting-the-search-behavior">Adjusting the search behavior<a class="headerlink" href="#adjusting-the-search-behavior" title="Permanent link">#</a></h2>
 <p>Do you recall the <strong>Metadata</strong> field when you configured your assistant?</p>
