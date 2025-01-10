@@ -2119,10 +2119,10 @@ You are now ready to configure your assistant with the route to your <abbr title
 <li>
 <p>Unzip or extract the <code>BYOD.zip</code> file.</p>
 </li>
-<li>Use <strong>zassist</strong> to ingest and load both all the files in the <strong>dev</strong> and <strong>ops</strong> directories from the extracted <code>BYOD.zip</code> file.</li>
+<li>Change to the <code>BYOD</code> directory.</li>
 <li>
-<p>Follow the directions <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=data-ingesting" target="_blank">here</a> to ingest documents using <strong>zassist</strong>. </p>
-<p>The steps are not repeated in this lab guide so that you get a first hand experience using the product documentation.</p>
+<p>Using the <strong>zassist</strong> product documentation, ingest and load all the files in the <strong>dev</strong> and <strong>ops</strong> directories from the extracted <code>BYOD.zip</code> file.</p>
+<p>Follow all the directions <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=data-ingesting" target="_blank">here</a> (including the optional steps) to ingest documents using <strong>zassist</strong>. The steps are not repeated in this lab guide so that you get a first hand experience using the product documentation. You will need to adjust the commands to use the extracted <code>dev</code> and <code>ops</code> directories.</p>
 <p>The following video illustrates the steps to ingest a single document. </p>
 <p><strong>Note</strong>: The video has no audio.</p>
 <p><div class="video-container"><iframe src="../_videos/zassitIngest-final.mp4" style="position:relative;width:100%;height:22.172vw" frameborder="0" allowfullscreen alt="type:video" class="print-site-plugin-ignore"></iframe></div></p>
@@ -2132,149 +2132,95 @@ You are now ready to configure your assistant with the route to your <abbr title
 </details>
 </li>
 </ol>
+<h2 id="setup-zassist-verify-the-documents-were-ingested">Verify the documents were ingested<a class="headerlink" href="#setup-zassist-verify-the-documents-were-ingested" title="Permanent link">#</a></h2>
+<p>Use the watsonx Orchestrate <abbr title="Artificial intelligence">AI</abbr> assistant builder to verify your document ingestion.</p>
+<ol>
+<li>
+<p>Enter the following prompt in your assistant and <strong>record the response</strong> (cut and paste into a text file on your local machine).</p>
+<div class="highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#setup-zassist-__codelineno-1-1"></a>The customer application is failing with ERR-CBL-001, what does this internal error mean?
+</span></code></pre></div>
+<p><a class="glightbox" href="../Setup/_attachments/customerIngest1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/customerIngest1.png"></a></p>
+</li>
+<li>
+<p>Click the <strong>Down arrow</strong> to view the citations for the response.</p>
+<p><a class="glightbox" href="../Setup/_attachments/customerIngest2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/customerIngest2.png"></a></p>
+</li>
+<li>
+<p>Click <strong>View source</strong> for the <strong>Mainframe_COBOL_Error_Codes-...</strong> citation.</p>
+<p><a class="glightbox" href="../Setup/_attachments/customerIngest3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/customerIngest3.png"></a></p>
+<div class="admonition note">
+<p class="admonition-title">Take note of the order of the response citations!</p>
+</div>
+</li>
+<li>
+<p>Accept the security risk to view the source document for any ingested document cited.</p>
+<p>The steps to accept the security risk for the document are not shown as it will vary by the browser you are using. The risk occurs because the certificate for the connection to the <abbr title="Single-node Red Hat OpenShift">SNO</abbr> instance is not secure. Notice that the <abbr title="Uniform Resource Locator">URL</abbr> contains the path to your <abbr title="Single-node Red Hat OpenShift">SNO</abbr> instance route.</p>
+<p><a class="glightbox" href="../Setup/_attachments/customerIngest4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/customerIngest4.png"></a></p>
+</li>
+<li>
+<p>Repeat the steps above for the following prompts in your assistant and <strong>record the responses</strong> (cut and paste into a text file on your local machine).</p>
+<div class="highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#setup-zassist-__codelineno-2-1"></a>Are there any production incidents that were resolved in relation to Data corruption in the production database. If yes who can I collaborate with to resolve a similar issue today and what are their names?
+</span></code></pre></div>
+<div class="highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#setup-zassist-__codelineno-3-1"></a>What specific syntax changes do I need to make in COBOL to call Java using the internal framework? Please provide a detailed explanation. 
+</span></code></pre></div>
+<div class="highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#setup-zassist-__codelineno-4-1"></a>What is the internal git lab link to execute the Java on z/OS pipeline?
+</span></code></pre></div>
+</li>
+</ol>
 <h2 id="setup-zassist-adjusting-the-search-behavior">Adjusting the search behavior<a class="headerlink" href="#setup-zassist-adjusting-the-search-behavior" title="Permanent link">#</a></h2>
 <p>Do you recall the <strong>Metadata</strong> field when you configured your assistant?</p>
 <p><a class="glightbox" href="../Setup/_attachments/genAISettings2b.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/genAISettings2b.png"></a></p>
 <p>The Metadata field provides a way to adjust your assistant’s behavior during conversational search for your OpenSearch instance. Now that you have your own docs that are ingested for conversational search, you can set the metadata field for your assistant to use those documents in its content-grounded search. If you leave the metadata field empty, then it defaults to settings found to perform well but may not use the ingested documents as part of the search results.</p>
 <p>If you leave the Metadata field empty, OpenSearch will rely on the default settings, which means OpenSearch will search all of the default IBM-provided documentation and all of the ingested customer documentation using the following value:</p>
-<div class="highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#setup-zassist-__codelineno-1-1"></a>{"ibm_indices":"*_ibm_docs_slate,*_ibm_redbooks_slate",
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#setup-zassist-__codelineno-1-2"></a>“customer_indices”:“customer_*”}
+<div class="highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#setup-zassist-__codelineno-5-1"></a>{"ibm_indices":"*_ibm_docs_slate,*_ibm_redbooks_slate",
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#setup-zassist-__codelineno-5-2"></a>“customer_indices”:“customer_*”}
 </span></code></pre></div>
 <p>Replacing the wildcard string with an explicit list of indices allows for personalization. The metadata setting is where you can input specific indices (pointing to the underlying documentation) that you want your assistant to use for the content-grounded search. There are over 220 products and topics that the OpenSearch instance has IBM Documentation for. You can find those indices and products <a href="https://ibm.box.com/s/anioal2xuwbsck8v3l4r48juzh9tbcqn" target="_blank">here</a>.</p>
 <p>You can input a subset of indices into the “Metadata” field in cases where you only want your assistant to gather context for specific IBM products or topics. The specific indices can be listed out in this format:</p>
-<div class="highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#setup-zassist-__codelineno-2-1"></a>{“ibm_indices”:“&lt;comma separated index values&gt;”,“customer_indices”:“customer_*”}
+<div class="highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#setup-zassist-__codelineno-6-1"></a>{“ibm_indices”:“&lt;comma separated index values&gt;”,“customer_indices”:“customer_*”}
 </span></code></pre></div>
 <p>For example, if you only want your assistant to reference documentation for “Db2 Analytics Accelerator for z/<abbr title="Operating System">OS</abbr>” and no ingested client documentation, you can enter the following into the metadata field:</p>
-<div class="highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#setup-zassist-__codelineno-3-1"></a>{“ibm_indices”:“ss4lq8_ibm_docs_slate”}
+<div class="highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#setup-zassist-__codelineno-7-1"></a>{“ibm_indices”:“ss4lq8_ibm_docs_slate”}
 </span></code></pre></div>
 <p>If you have a mix of IBM Documentation and client documentation ingested, then there’s an optional search string that you can use to set the “weights” used for each. </p>
 <p>For example:</p>
-<p></p><div class="highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#setup-zassist-__codelineno-4-1"></a>{"doc_weight":
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#setup-zassist-__codelineno-4-2"></a>{"product_docs":0.5,
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#setup-zassist-__codelineno-4-3"></a>"customer_docs":0.5},
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#setup-zassist-__codelineno-4-4"></a>"ibm_indices":"*_ibm_docs_slate,*_ibm_redbooks_slate",
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#setup-zassist-__codelineno-4-5"></a>"standardize":true,
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#setup-zassist-__codelineno-4-6"></a>"customer_indices":"customer_*"
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#setup-zassist-__codelineno-4-7"></a>}
+<p></p><div class="highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#setup-zassist-__codelineno-8-1"></a>{"doc_weight":
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#setup-zassist-__codelineno-8-2"></a>{"product_docs":0.5,
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#setup-zassist-__codelineno-8-3"></a>"customer_docs":0.5},
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#setup-zassist-__codelineno-8-4"></a>"ibm_indices":"*_ibm_docs_slate,*_ibm_redbooks_slate",
+</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#setup-zassist-__codelineno-8-5"></a>"standardize":true,
+</span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6" href="#setup-zassist-__codelineno-8-6"></a>"customer_indices":"customer_*"
+</span><span id="__span-8-7"><a id="__codelineno-8-7" name="__codelineno-8-7" href="#setup-zassist-__codelineno-8-7"></a>}
 </span></code></pre></div>
 In this case, “product_docs” is the weight that is assigned to “ibm_indices” and “customer_docs” is the weight that is assigned to “customer_indices”. For more information on customizing the metadata field for conversational search, refer to this supplemental video found <a href="https://ibm.ent.box.com/s/2quy4drqp3bolgd6flqm0l1c549fz64x/file/1661645917984" target="_blank">here</a>.
-<h2 id="setup-zassist-verify-the-document-that-is-ingested-is-now-returned-as-a-source-file-for-a-query">Verify the document that is ingested is now returned as a source file for a query<a class="headerlink" href="#setup-zassist-verify-the-document-that-is-ingested-is-now-returned-as-a-source-file-for-a-query" title="Permanent link">#</a></h2>
-<p>Use the watsonx Orchestrate <abbr title="Artificial intelligence">AI</abbr> assistant builder to verify your document ingestion.</p>
 <ol>
 <li>
-<p>Enter the following prompt in your assistant and record the response (cut and paste into a text file on your local machine).</p>
-<div class="highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#setup-zassist-__codelineno-5-1"></a>What is z/OS continuous delivery?
+<p>Set the (<strong>a</strong>) <strong>Metadata</strong> field for your <abbr title="Bring Your Own Search">BYOS</abbr> custom search instance to the following value, click (<strong>b</strong>) <strong>Save</strong>, and then click (<strong>c</strong>) <strong>Close</strong>. Notice the weight for <strong>customer_docs</strong> is heavier than the weight for <strong>product_docs</strong>.</p>
+<div class="highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#setup-zassist-__codelineno-9-1"></a>{"doc_weight":
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#setup-zassist-__codelineno-9-2"></a>{"product_docs":0.2,
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#setup-zassist-__codelineno-9-3"></a>"customer_docs":0.8},
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#setup-zassist-__codelineno-9-4"></a>"ibm_indices":"*_ibm_docs_slate,*_ibm_redbooks_slate",
+</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#setup-zassist-__codelineno-9-5"></a>"standardize":true,
+</span><span id="__span-9-6"><a id="__codelineno-9-6" name="__codelineno-9-6" href="#setup-zassist-__codelineno-9-6"></a>"customer_indices":"customer_*"
+</span><span id="__span-9-7"><a id="__codelineno-9-7" name="__codelineno-9-7" href="#setup-zassist-__codelineno-9-7"></a>}
 </span></code></pre></div>
-<p><a class="glightbox" href="../Setup/_attachments/verifyIngest0.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/verifyIngest0.png"></a></p>
+<p><a class="glightbox" href="../Setup/_attachments/customerIngest5.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/customerIngest5.png"></a></p>
 </li>
 <li>
-<p>Clicking the <strong>Down arrow</strong> (<a class="glightbox" href="../Setup/_attachments/downArrowIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/downArrowIcon.png"></a>).</p>
-<p><a class="glightbox" href="../Setup/_attachments/verifyIngest1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/verifyIngest1.png"></a></p>
+<p>Hover over the <strong>Home</strong> (<a class="glightbox" href="../Setup/_attachments/homeIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/homeIcon.png"></a>) icon and click <strong>Preview</strong>.</p>
 </li>
-<li>
-<p>Click through the list of resources and find the reference to the Red Piece document you ingested.</p>
-<p><a class="glightbox" href="../Setup/_attachments/verifyIngest2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/verifyIngest2.png"></a></p>
-</li>
-<li>
-<p>Click the ingested document reference.</p>
-<p><a class="glightbox" href="../Setup/_attachments/verifyIngest3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/verifyIngest3.png"></a></p>
-</li>
-<li>
-<p>Accept the security risk to view the source document.</p>
-<p>The steps to accept the security risk for the document are not shown. The risk occurs because the certificate for the connection to the <abbr title="Single-node Red Hat OpenShift">SNO</abbr> instance is not secure. Notice that the <abbr title="Uniform Resource Locator">URL</abbr> contains the path to your <abbr title="Single-node Red Hat OpenShift">SNO</abbr> instance route.</p>
-<p><a class="glightbox" href="../Setup/_attachments/verifyIngest4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/verifyIngest4.png"></a></p>
-</li>
-<li>
-<p><strong>Record the results</strong> for these additional prompts for the <code>BYOD.zip</code> documents:</p>
-<div class="highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#setup-zassist-__codelineno-6-1"></a>The customer application is failing with ERR-CBL-001, what does this internal error mean?
-</span></code></pre></div>
-<div class="highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#setup-zassist-__codelineno-7-1"></a>Are there any production incidents that were resolved in relation to Data corruption in the production database. If yes who can I collaborate with to resolve a similar issue today and what are their names?
-</span></code></pre></div>
-<div class="highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#setup-zassist-__codelineno-8-1"></a>What specific syntax changes do I need to make in COBOL to call Java using the internal framework? Please provide a detailed explanation. 
-</span></code></pre></div>
-<div class="highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#setup-zassist-__codelineno-9-1"></a>What is the internal git lab link to execute the Java on z/OS pipeline?
-</span></code></pre></div>
-</li>
-</ol>
-<!-- 
-
-!!! Warning "You may not receive the same results as shown below."
-
-    In the 4Q 2024 release of IBM watsonx Assistant for Z, additional IBM documents were added to the RAG including many IBM RedBooks. The new data changes the results returned when using the sample IBM Red Piece ingested earlier. To reproduce the results shown, you can modify the Metadata field for your assistant to remove the IBM Redbooks from the IBM indicies:
-
-    ```
-    {"doc_weight":
-    {"product_docs":0.5,
-    "customer_docs":0.5},
-    "ibm_indices":"*_ibm_docs_slate",
-    "standardize":true,
-    "customer_indices":"customer_*"
-    }
-    ``` -->
-
-<ol>
-<li>Using the guidance above, set the <strong>Metadata</strong> field for your <abbr title="Bring Your Own Search">BYOS</abbr> custom search instance.</li>
-<li>Hover over the <strong>Home</strong> (<a class="glightbox" href="../Setup/_attachments/homeIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/homeIcon.png"></a>) icon and click <strong>Preview</strong>.</li>
 <li>
 <p>Click the <strong>Restart conversation</strong> (<a class="glightbox" href="../Setup/_attachments/reloadAssistantIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/reloadAssistantIcon.png"></a>) icon.</p>
 <p><a class="glightbox" href="../Setup/_attachments/reloadAssistant.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/reloadAssistant.png"></a></p>
 </li>
 <li>
-<p>Enter the following prompt in your assistant.</p>
-<div class="highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#setup-zassist-__codelineno-10-1"></a>What is z/OS continuous delivery?
-</span></code></pre></div>
-<p><a class="glightbox" href="../Setup/_attachments/verifyIngest0.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/verifyIngest0.png"></a></p>
-</li>
-<li>
-<p>Record the results for later comparison.</p>
-</li>
-<li>
-<p>Clicking the <strong>Down arrow</strong> (<a class="glightbox" href="../Setup/_attachments/downArrowIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/downArrowIcon.png"></a>).</p>
-<p><a class="glightbox" href="../Setup/_attachments/verifyIngest1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/verifyIngest1.png"></a></p>
-</li>
-<li>
-<p>Click through the list of resources and find the reference to the Red Piece document you ingested.</p>
-<p><a class="glightbox" href="../Setup/_attachments/verifyIngest2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/verifyIngest2.png"></a></p>
-</li>
-<li>
-<p>Click the ingested document reference.</p>
-<p><a class="glightbox" href="../Setup/_attachments/verifyIngest3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/verifyIngest3.png"></a></p>
-</li>
-<li>
-<p>Accept the security risk to view the source document.</p>
-<p>The steps to accept the security risk for the document are not shown. The risk occurs because the certificate for the connection to the <abbr title="Single-node Red Hat OpenShift">SNO</abbr> instance is not secure. Notice that the <abbr title="Uniform Resource Locator">URL</abbr> contains the path to your <abbr title="Single-node Red Hat OpenShift">SNO</abbr> instance route.</p>
-<p><a class="glightbox" href="../Setup/_attachments/verifyIngest4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/verifyIngest4.png"></a></p>
-</li>
-<li>
-<p>Record the results for these additional prompts for the <code>BYOD.zip</code> documents:</p>
-<div class="highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#setup-zassist-__codelineno-11-1"></a>The customer application is failing with ERR-CBL-001, what does this internal error mean?
-</span></code></pre></div>
-<div class="highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#setup-zassist-__codelineno-12-1"></a>Are there any production incidents that were resolved in relation to Data corruption in the production database. If yes who can I collaborate with to resolve a similar issue today and what are their names?
-</span></code></pre></div>
-<div class="highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#setup-zassist-__codelineno-13-1"></a>What specific syntax changes do I need to make in COBOL to call Java using the internal framework? Please provide a detailed explanation. 
-</span></code></pre></div>
-<div class="highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#setup-zassist-__codelineno-14-1"></a>What is the internal git lab link to execute the Java on z/OS pipeline?
-</span></code></pre></div>
-</li>
-<li>
-<p>Set the metadata field to the following, which weights ingested docs higher than the product docs. </p>
-<p></p><div class="highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#setup-zassist-__codelineno-15-1"></a>{"doc_weight":
-</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#setup-zassist-__codelineno-15-2"></a>{"product_docs":0.2,
-</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3" href="#setup-zassist-__codelineno-15-3"></a>"customer_docs":0.8},
-</span><span id="__span-15-4"><a id="__codelineno-15-4" name="__codelineno-15-4" href="#setup-zassist-__codelineno-15-4"></a>"ibm_indices":"*_ibm_docs_slate,*_ibm_redbooks_slate",
-</span><span id="__span-15-5"><a id="__codelineno-15-5" name="__codelineno-15-5" href="#setup-zassist-__codelineno-15-5"></a>"standardize":true,
-</span><span id="__span-15-6"><a id="__codelineno-15-6" name="__codelineno-15-6" href="#setup-zassist-__codelineno-15-6"></a>"customer_indices":"customer_*"
-</span><span id="__span-15-7"><a id="__codelineno-15-7" name="__codelineno-15-7" href="#setup-zassist-__codelineno-15-7"></a>}
-</span></code></pre></div>
-12. After you have configured all the settings for Conversational Search on the page, click <strong>Save</strong> in the upper-right of the page.
-</li>
-<li>
-<p>Using the updated assistant, run the same prompts </p>
+<p>Repeat the queries four queries run earlier and record the results and the order of the response citations.</p>
 </li>
 </ol>
+<p>Compare the two sets of results. Notice how the answers changed based upon the weighting of the ingested documents versus the IBM product documentation.</p>
 <div class="admonition tip">
 <p class="admonition-title">For client pilots</p>
-<p>If you or your client have other documents to ingest, you can do so by repeating the steps using zassist. The Velocity Pilot <abbr title="IBM Technology Zone">ITZ</abbr> environment is limited in compute and storage capacity. The following limits should be adhered to:</p>
+<p>If you or your client have other documents to ingest, you can do so by repeating the steps using <strong>zassist</strong>. The Velocity Pilot <abbr title="IBM Technology Zone">ITZ</abbr> environment is limited in compute and storage capacity. The following limits should be adhered to:</p>
 <ul>
 <li>
 <p>Loading documents can take a long time, especially with &gt; 100 MB of text.</p>
@@ -2287,12 +2233,11 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 </li>
 <li>
 <p>If you receive a <strong>batch time error</strong>, set the batch size to a lower number for that command. For example:</p>
-<div class="highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#setup-zassist-__codelineno-16-1"></a>zassist ingest . -s 50
+<div class="highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#setup-zassist-__codelineno-10-1"></a>zassist ingest . -s 50
 </span></code></pre></div>
 </li>
 </ul>
 </div>
-<p>After ingesting all your additional documents, proceed to the next section to learn about adding skills to your assistant.</p>
 <!-- Terminology -->
 <!-- Keep the list alphabetized for easy deduplication --></div></section><h1 class='nav-section-title-end'>Ended: Ingesting client documents</h1>
                         <h2 class='nav-section-title' id='section-adding-skills-to-the-assistant'>
