@@ -1,68 +1,52 @@
 # Project info
-site_name: IBM Power Virtual Server Level 3 Demonstration Guide
-site_description: IBM Power Virtual Server Sales Enablement Level 3 Demonstration Guide
-site_author: Andrew R. Jones (andrewj@us.ibm.com)
-copyright: Copyright &copy; 2022 IBM
+site_name: IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide
+site_description: IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide 
+site_author: Andrew R. Jones (andrewj@us.ibm.com) and Max Weiss (maxwell.g.weiss@ibm.com)
+copyright: Copyright &copy; 2024 IBM - V 2.0
 
 # Repository
-repo_name: IBM/SalesEnablement-test-repo
-#repo_url: https://github.com/IBM/SalesEnablement-PowerVS-L3
+repo_name:  IBM/SalesEnablement-L4-watsonx-AssistantForZ
+
+#repo_url: https://github.com/IBM/SalesEnablement-L4-watsonx-AssistantForZ
 #edit_uri: edit/master/docs
 docs_dir: docs
 
+# navigation menu moved to nav.md
+# nav:
+#   - 'Welcome': 'index.md'
+#   - 'Reserve the IBM Technology Zone environments': 'TechZoneEnvironment.md'
+#   - 'Next steps': 'NextSteps.md'
 
-nav:
-  - Introduction: 'index.md'
-  - Part 1 - Overview:
-    - 'Introduction': 'Part 1/01 Introduction.md'
-    - 'Reserve the environment': 'Part 1/02 Reserve.md'
-  - Part 2 - Provisioning a PowerVS workspace:
-    - 'Introduction': 'Part 2/01 Introduction.md'
-    # - 'Watch a service being provisioned': 'Part 2/02 Watch-service.md'
-    - 'Click through demonstration of a workspace being provisioned': 'Part 2/03 Clickthru-service.md'
-  - Part 3 - Provisioning a PowerVS instance:
-    - 'Introduction': 'Part 3/01 Introduction.md'
-    # - 'Watch a instance being provisioned': 'Part 3/02 Watch-instance.md'
-    - 'Click through provisioning demonstration - AIX': 'Part 3/03 Clickthru-AIXvsi.md'
-    - 'Click through provisioning demonstration - Linux': 'Part 3/04 Clickthru-Linuxvsi.md'
-    - 'Click through provisioning demonstration - IBM i': 'Part 3/05 Clickthru-IBMivsi.md'
-  - Part 4 - Managing PowerVS instances:
-    - 'Introduction': 'Part 4/01 Introduction.md'
-    - 'Managing instances': 'Part 4/02 Explore-managing-instances.md'
-  - Part 5 - Accessing PowerVS instances:
-    - 'Introduction': 'Part 5/01 Introduction.md'
-    - 'Access an instance': 'Part 5/02 Access-instance.md'
-  - Part 6 - Explore other PowerVS topics:
-    - 'Introduction': 'Part 6/01 Introduction.md'
-    - 'Virtual appliances': 'Part 6/02 VirtualAppliances.md'
-    - 'Shared processor pools': 'Part 6/03 SPPsAndServerPlacementGroups.md'
-    - 'SSH keys': 'Part 6/04 SSHKeys.md'
-    - 'Boot images': 'Part 6/05 BootImages.md'
-    - 'Networking': 'Part 6/06 Networking.md'
-    - 'Storage volumes': 'Part 6/07 StorageVolumes.md'
-    - 'Event logs': 'Part 6/08 EventLogs.md'
-    - 'Additional products and services': 'Part 6/09 AdditionalServices.md'
-  - Part 7 - Use the PowerVS command line interfaces (CLI):
-    - 'Introduction': 'Part 7/01 Introduction.md'
-    - 'Command line exercises': 'Part 7/02 CLIs.md'
-  - Part 8 - Observing PowerVS resources:
-    - 'Introduction': 'Part 8/01 Introduction.md'
-    - 'IBM Cloud Monitoring': 'Part 8/02 IBM Cloud Monitoring.md'
-    - 'IBM Activity Tracker': 'Part 8/03 IBM Cloud Activity Tracker.md'
-  - Part 9 - New features:
-    - 'Introduction': 'Part 9/01 Introduction.md'
-    - 'Dedicated hosts': 'Part 9/02 Dedicated hosts.md'
-    - 'Deployable architectures': 'Part 9/03 Deployable architectures.md'
-  - Part 10 - Next steps:
-    - 'Next steps': 'Part 10/01 Next steps.md'
+# don't add the terminology file to the navigation
+not_in_nav: |
+  /terminology
 
 theme:
   name: material
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
   features:
     - navigation.instant
     - navigation.tracking
     - content.code.annotate
     - content.code.copy
+    - content.code.select
+    - navigation.footer
+    # - content.tabs.link
+    - hide:                 # hide right hand side document toc
+        - toc
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -79,67 +63,109 @@ plugins:
     - mkdocs-video
     - macros
     - search
+    - glightbox
+    # - autorefs
+    - literate-nav:
+        nav_file: nav.md
+    - print-site:
+        add_to_navigation: false
+        print_page_title: 'IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide'
+        add_print_site_banner: false
+        # Table of contents
+        add_table_of_contents: true
+        toc_title: 'Table of Contents'
+        toc_depth: 6
+        # Content-related
+        add_full_urls: false
+        enumerate_headings: false
+        enumerate_figures: false
+        add_cover_page: true
+        cover_page_template: ""
+        path_to_pdf: ""
+        include_css: true
+        enabled: true
+        exclude:
+          - printInstructions.md
 
 markdown_extensions:
+  - toc:
+      permalink: "#"
+      toc_depth: "1-1"
   - sane_lists
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - abbr
   - pymdownx.details
   - admonition
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
   - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      auto_append: ["terminology"]
+      base_path: ["docs"]
   - pymdownx.superfences
   - pymdownx.keys
   - attr_list
-  - md_in_html
-
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.pathconverter:
+      base_path: '' # default: ''
+      relative_path: '' # default ''
+      absolute: false # default: false
+      tags: 'a script img link object embed'
+# add custom style sheet to make the prompt code blocks display nicer without a vertical scroll bar.
+extra_css:
+  - style.css
 extra:
   generator: false
-  supportEmail: "andrewj@us.ibm.com"
+  supportEmailMailTo: "andrewj@us.ibm.com;maxwell.g.weiss@ibm.com"
+  supportEmail: "andrewj@us.ibm.com and maxwell.g.weiss@ibm.com"
   supportSlack: 
-    name: "#cloud-platform-demo-feedback"
-    url: "https://ibm-technology-sales.slack.com/archives/C03PQ47KRQE"
+    name: "#watsonx-assistant-z-technical"
+    url: "https://ibm.enterprise.slack.com/archives/C07ARLXF2R1"
+  wxoSupportSlack:
+    name: "#wxo-practitioners"
+    url: "https://ibm.enterprise.slack.com/archives/C05B099DNG6"
+  gitRepo: "https://github.com/IBM/SalesEnablement-L4-watsonx-AssistantForZ"
   learningplan:
-    name: "IBM Power Virtual Server for Technical Sales - Level 3"
-    url: "https://yourlearning.ibm.com/activity/PLAN-7D757C8B58E7"
+    name: "IBM watsonx Assistant for Z for Technical Sales Level 4"
+    YLurl: ""
+    BPurl: ""
+  level3learningplan:
+    name: "IBM watsonx Assistant for Z for Technical Sales Level 3"
+    YLurl: "https://yourlearning.ibm.com/activity/PLAN-FEA26E32C03A"
+    BPurl: "https://learn.ibm.com/course/view.php?id=17043"
+  level2learningplan:
+    name: "IBM watsonx Assistant for Z Level 2"
+    YLurl: "https://yourlearning.ibm.com/activity/PLAN-8281F4855A45"
+    BPurl: "https://learn.ibm.com/course/view.php?id=16848"
+  badge:
+    name: "IBM watsonx Assistant for Z Technical Sales Advanced"
   offering:
-    name: "IBM Power Virtual Server"
+    name: "IBM watsonx Assistant for Z"
   guide:
-    name: "IBM Power Virtual Server - Level 3 Demonstration Guide"
-    url: "https://ibm.github.io/SalesEnablement-PowerVS-L3/"
-  tz_environment:
-    name: "IBM Power Virtual Server - Sales Enablment L3"
-    url: "https://techzone.ibm.com/my/reservations"
-  account: "2305900 - ITZ - ADHOC03"
-  powerVS:
-    serviceInstanceName: "PowerVS-L3-2024"
-    serviceInstanceRG: "PowerVS-L3"
-    serviceInstanceLocation: "WDC07"
-    placementGroup1: "GroupTogether"
-    placementGroup2: "GroupApart"
-    sshKey: "PowerVS-key"
-    privateSubnet: "private-powervs-2024"
-    privateSubnetCIDR: "192.168.100.0/24"
-    privateSubnetGW: "192.168.100.15"
-    privateSubnetDNS: "127.0.0.1"
-    publicSubnet: "public-192_168_222_192-29-VLAN_2056
-"
-    monitoringInstance: "PowerVS-L3-Monitoring"
-    atInstance: "AT-PowerVS-L3"
-  aixServer1:
-    name: "AIX-VM"
-    privateIP: "192.168.100.112"
-    publicIP: "150.239.207.227"
-    additionalVolumeName: "aix-av1"
-  linuxServer1:
-    name: "Linux-VM"
-    privateIP: "192.168.100.173"
-    publicIP: "150.239.207.226"
-    additionalVolumeName: "linux-av1"
-  ibmiServer1:
-    name: "IBMi-VM"
-    privateIP: "192.168.100.157"
-    publicIP: "150.239.207.228"
-    additionalVolumeName: "ibmi-av1"
-
-
+    name: "IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide"
+    lastUpdate: "26 December 2024"
+    url: "https://ibm.github.io/SalesEnablement-L4-watsonx-AssistantForZ/"
+    pdf: "_pdf/IBM%20watsonx%20Assistant%20for%20Z%20Level%204%20Lab%20Guide.pdf"
+  itz:
+    account1: "2701257 - itz-watsonx-3"
+    account2: "2628583 - itz-shared-z"
+    collectionName: "IBM watsonx Assistant for Z"
+    collectionURL: "https://techzone.ibm.com/collection/ibm-watsonx-assistant-z"
+    orchestrateEnv: "https://techzone.ibm.com/my/reservations/create/66f6f414c428e2fc24fa1088"
+    aapEnv: "https://techzone.ibm.com/my/reservations/create/66f806f842f6741b9e19f99c"
+    snoEnv: "https://techzone.ibm.com/my/reservations/create/66f6f42ec428e2fc24fa1089"
+    hostedOpenSearchInstance: "https://wxa4z-opensearch-wrapper-wxa4z-demo-v2-1-0.wxo4z-opc-opensearch-clus-47e063e6a3ad1f71bf2e58f91c3b4c2e-0000.us-south.containers.appdomain.cloud/v1/query"
+    hostedOpenSearchID: "admin"
+    hostedOpenSearchPW: "secureP@ssw0rd!"
+  watsonx4Z:
+    version: "V 2"
+  

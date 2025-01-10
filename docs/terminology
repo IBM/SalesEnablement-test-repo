@@ -1,0 +1,45 @@
+<!-- Terminology -->
+<!-- Keep the list alphabetized for easy deduplication -->
+*[AAP]: Ansible Automation Platform
+*[AI]: Artificial intelligence
+*[APAR]: Authorized Program Analysis Report
+*[APARs]: Authorized Program Analysis Report
+*[APF]: Authorized Program Facility
+*[APIs]: Application Programming Interfaces
+*[BYOS]: Bring Your Own Search
+*[CICS]: Custom Information Control System
+*[CLI]: Command Line Interface
+*[DOCX]: Microsoft Word Document Format
+*[FIPS]: Federal Information Processing Standards
+*[GMTRAN]: System initialization parameter specifying the ID of a transaction
+*[HIPER]: HIghly PERvasive
+*[HIPERs]: HIghly PERvasive
+*[HTML]: Hyper Text Markup Language
+*[IPL]: Initial Program Load
+*[ISPF]: Interactive System Productivity Facility
+*[ITZ]: IBM Technology Zone
+*[JCL]: Job Control Language
+*[LLM]: Large language model 
+*[LPAR]: Logical Partition
+*[OSMF]: IBM z/OS Management Facility
+*[PDF]: Portable Document Format
+*[PE]: Pause element
+*[PEs]: Pause elements
+*[PTF]: Program Temporary Fix
+*[PTFs]:Program Temporary Fixes
+*[PSI]: Problem Source Identification
+*[OCP]: OpenShift Container Platform
+*[OS]: Operating System
+*[RACF]: Resource Access Control Facility
+*[RAG]: Retrieval augmented generation
+*[REXX]: Restructured Extended Executor
+*[SDSF]: System Display and Search Facility
+*[SMF]: System Management Facility
+*[SNO]: Single-node Red Hat OpenShift
+*[SSL]: Secure Sockets Layer 
+*[sysprog]: Systems programmer
+*[TSO]: Time Sharing Option
+*[UI]: User Interface
+*[URL]: Uniform Resource Locator
+*[zparm]: Subsystem parameter
+*[zparms]: Subsystem parameters

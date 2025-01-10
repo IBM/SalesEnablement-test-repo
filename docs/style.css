@@ -1,0 +1,10 @@
+pre code,  /* stackoverflow - wordwrap in code blocks*/
+.md:not(.use-csslab) pre code
+ {
+  white-space: pre-wrap;
+}
+
+/* use full browser width */
+.md-grid {
+    max-width: initial; 
+  }
