@@ -285,15 +285,23 @@ After you save and close the **Conversational search** configuration page, a few
 
     ![](_attachments/genAIEnviroments3.png)
 
-27. Click **Suggestions**.
+27. Click the **Home screen** tab.
+
+    ![](_attachments/genAIEnviroments3a.png)
+
+28. Customize the **Home screen** by setting a custom **Greeting message** and deleting the default **Conversation starters**. Optionally, adjust the **Background style**.
+
+    ![](_attachments/genAIEnviroments3b.png)
+
+29. Click **Suggestions**.
 
     ![](_attachments/genAIEnviroments4.png)
 
-28. Click the **Suggestions** toggle to turn this feature **Off**.
+30. Click the **Suggestions** toggle to turn this feature **Off**.
     
     ![](_attachments/genAIEnviroments5.png)
 
-29. Click **Save and exit**.
+31. Click (**a**) **Save and exit** and then click (**b**) **Close**.
 
     ![](_attachments/genAIEnviroments6.png)
 
@@ -338,7 +346,7 @@ These options can be summarized <a href="https://www.ibm.com/docs/en/watsonx/waz
     ![](_attachments/genAIGenAI4.png)
 
 ## Testing conversational search
-Now you can begin issuing queries to test the assistant's responses.
+Now you can begin issuing queries to test the assistant's responses. For more detailed responses, try appending "Please provide a detailed response." to the end of your question.
 
 **Important**: Modify settings iteratively based on your assessment of response quality. Review and change them at any time. For example, add extra prompt instructions, change response verbosity, and modify OpenSearch indexes.
 

@@ -1,5 +1,11 @@
 # Installing and using zassist to ingest client documents
-With bring-your-own-search (BYOS) installed and configured in your assistant, you can now prepare for document ingestion. Currently, only PDF, HTML, and DOCX file formats are supported for ingestion.
+With bring-your-own-search (BYOS) installed and configured in your assistant, you can now prepare for document ingestion. This will show how client's can augment their assistant’s conversational search by creating an internal knowledge base with their documentation. This will allow the assistant to provide valuable responses to a range of questions that may not be possible with the default documentation available. 
+
+As an example, a client mentioned that their developers often need reference material on company-specific legacy code or company-specific syntax, and they end up having to search through a lot of documentation to find it or look at old code. There is also a need for their operational support group to quickly determine how to resolve technical issues using runbooks. 
+
+You can show your client how watsonx Assistant for Z can assist developers and operational support focals in finding answers about internal processes for code development and deployment by ingesting internal documentation. And by doing so, the client can establish an internal knowledge base that enables their assistant to provide the answers they need to their company-specific questions and processes. 
+
+Currently, only PDF, HTML, and DOCX file formats are supported for ingestion.
 
 Below is a high-level, logical architecture of the environment you will deploy in this section.
 
@@ -44,11 +50,35 @@ The **zassist** utility is an executable program that automates the ingestion of
 ## Ingest client documentation using zassist
 With the **zassist** command installed, you are now able to begin ingesting data. 
 
-Step-by-step guidance for ingesting documents using zassist is provided in the IBM watsonx Assistant for Z documentation.
+Step-by-step guidance for ingesting documents using **zassist** is provided in the IBM watsonx Assistant for Z documentation.
 
-1. Follow the directions <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=data-ingesting" target="_blank">here</a> to ingest documents using zassist. 
+1. Download the ```BYOD.zip``` file.
 
-    The steps are not repeated in this lab guide. The following video illustrates the steps to ingest a single document. The document that is ingested in the video is a compressed PDF of the **IBM z/OS Continuous Delivery** Red Piece. You can download a copy of this document <a href="https://github.com/IBM/SalesEnablement-L4-watsonx-AssistantForZ/blob/main/docs/Setup/_sampleDocs/redp5340-compressed.pdf" target="_blank">here</a>.
+    <a href="https://github.com/IBM/SalesEnablement-L4-watsonx-AssistantForZ/raw/refs/heads/main/docs/Setup/_sampleDocs/BYOD.zip" target="_blank">BYOD.zip</a>
+
+    !!! Example "Whats in the sample client documentation?"
+
+        Three sample documents are included:
+
+        - Mainframe_COBOL_Error_Codes.pdf
+        
+            This is a document containing company-specific mainframe COBOL error codes for their application. Developers within the organization typically review this document to quickly diagnose issues based on the application error codes returned.
+
+        - Mainframe_Operational_Incidents_Log.pdf
+        
+            This document is leveraged by the organization’s operational support team and contains historical records of production-level incidents that occurred. For each incident, there’s a record of what the incident was, the date, how it was resolved and who was involved in resolving the incident. 
+        
+        - COBOL-CICS-to-Java-Internal-Framework.pdf
+  
+            This document is leveraged by the development team and contains details about the organization’s internal framework for developing applications consisting of legacy COBOL CICS interoperating with new Java code. Within the document contains company-specific coding practices and code syntax that the developers frequently reference.
+
+2. Unzip or extract the ```BYOD.zip``` file.
+3. Change to the ```BYOD``` directory.
+4. Using the **zassist** product documentation, ingest and load all the files in the **dev** and **ops** directories from the extracted ```BYOD.zip``` file.
+
+    Follow all the directions <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=data-ingesting" target="_blank">here</a> (including the optional steps) to ingest documents using **zassist**. The steps are not repeated in this lab guide so that you get a first hand experience using the product documentation. You will need to adjust the commands to use the extracted ```dev``` and ```ops``` directories.
+    
+    The following video illustrates the steps to ingest a single document. 
 
     **Note**: The video has no audio.
 
@@ -57,6 +87,47 @@ Step-by-step guidance for ingesting documents using zassist is provided in the I
     ??? Info "Don't see the video in the PDF version of the lab guide?"
 
         If you are viewing the <a href="{{guide.pdf}}" target="_blank">PDF</a> of the lab guide, you can access the video <a href="https://ibm.github.io/SalesEnablement-L4-watsonx-AssistantForZ/Setup/_videos/zassitIngest-final.mp4" target="_blank">here</a>.
+
+## Verify the documents were ingested
+Use the watsonx Orchestrate AI assistant builder to verify your document ingestion.
+
+1. Enter the following prompt in your assistant and **record the response** (cut and paste into a text file on your local machine).
+
+    ```
+    The customer application is failing with ERR-CBL-001, what does this internal error mean?
+    ```
+
+    ![](_attachments/customerIngest1.png)
+
+2. Click the **Down arrow** to view the citations for the response.
+
+    ![](_attachments/customerIngest2.png)
+
+3. Click **View source** for the **Mainframe_COBOL_Error_Codes-...** citation.
+
+    ![](_attachments/customerIngest3.png)
+
+    !!! Note "Take note of the order of the response citations!"
+
+4.  Accept the security risk to view the source document for any ingested document cited.
+
+    The steps to accept the security risk for the document are not shown as it will vary by the browser you are using. The risk occurs because the certificate for the connection to the SNO instance is not secure. Notice that the URL contains the path to your SNO instance route.
+
+    ![](_attachments/customerIngest4.png)
+
+5. Repeat the steps above for the following prompts in your assistant and **record the responses** (cut and paste into a text file on your local machine).
+
+    ```
+    Are there any production incidents that were resolved in relation to Data corruption in the production database. If yes who can I collaborate with to resolve a similar issue today and what are their names?
+    ```
+
+    ```
+    What specific syntax changes do I need to make in COBOL to call Java using the internal framework? Please provide a detailed explanation. 
+    ```
+
+    ```
+    What is the internal git lab link to execute the Java on z/OS pipeline?
+    ```
 
 ## Adjusting the search behavior
 Do you recall the **Metadata** field when you configured your assistant?
@@ -101,71 +172,35 @@ For example:
 ```
 In this case, “product_docs” is the weight that is assigned to “ibm_indices” and “customer_docs” is the weight that is assigned to “customer_indices”. For more information on customizing the metadata field for conversational search, refer to this supplemental video found <a href="https://ibm.ent.box.com/s/2quy4drqp3bolgd6flqm0l1c549fz64x/file/1661645917984" target="_blank">here</a>.
 
-## Verify the document that is ingested is now returned as a source file for a query
-Use the watsonx Orchestrate AI assistant builder to verify your document ingestion.
 
-!!! Warning "You may not receive the same results as shown below."
-
-    In the 4Q 2024 release of {{offering.name}}, additional IBM documents were added to the RAG including many IBM RedBooks. The new data changes the results returned when using the sample IBM Red Piece ingested earlier. To reproduce the results shown, you can modify the Metadata field for your assistant to remove the IBM Redbooks from the IBM indicies:
+1. Set the (**a**) **Metadata** field for your BYOS custom search instance to the following value, click (**b**) **Save**, and then click (**c**) **Close**. Notice the weight for **customer_docs** is heavier than the weight for **product_docs**.
 
     ```
     {"doc_weight":
-    {"product_docs":0.5,
-    "customer_docs":0.5},
-    "ibm_indices":"*_ibm_docs_slate",
+    {"product_docs":0.2,
+    "customer_docs":0.8},
+    "ibm_indices":"*_ibm_docs_slate,*_ibm_redbooks_slate",
     "standardize":true,
     "customer_indices":"customer_*"
     }
     ```
 
-1. Hover over the **Home** (![](_attachments/homeIcon.png)) icon and click **Preview**.
-2. Click the **Restart conversation** (![](_attachments/reloadAssistantIcon.png)) icon.
+    ![](_attachments/customerIngest5.png)
+
+2. Hover over the **Home** (![](_attachments/homeIcon.png)) icon and click **Preview**.
+3. Click the **Restart conversation** (![](_attachments/reloadAssistantIcon.png)) icon.
 
     ![](_attachments/reloadAssistant.png)
 
-3. Enter the following prompt in your assistant.
+4. Repeat the queries four queries run earlier and record the results and the order of the response citations.
 
-    ```
-    What is z/OS continuous delivery?
-    ```
+Compare the two sets of results. Notice how the answers changed based upon the weighting of the ingested documents versus the IBM product documentation. Were the ingested documents always the first document cited? If not, why do you think that is? 
 
-    ![](_attachments/verifyIngest0.png)
-
-4.  Clicking the **Down arrow** (![](_attachments/downArrowIcon.png)).
-   
-    ![](_attachments/verifyIngest1.png)
-
-5.  Click through the list of resources and find the reference to the Red Piece document you ingested.
-
-    ![](_attachments/verifyIngest2.png)
-
-6.  Click the ingested document reference.
-
-    ![](_attachments/verifyIngest3.png)
-
-7.  Accept the security risk to view the source document.
-
-    The steps to accept the security risk for the document are not shown. The risk occurs because the certificate for the connection to the SNO instance is not secure. Notice that the URL contains the path to your SNO instance route.
-
-    ![](_attachments/verifyIngest4.png)
- 
-You are encouraged to experiment with the metadata field! Try setting the metadata field to the following, which weights ingested docs higher than the product docs. Note, if the sample metadata below includes the IBM Redbooks:
-
-```
-{"doc_weight":
-{"product_docs":0.2,
-"customer_docs":0.8},
-"ibm_indices":"*_ibm_docs_slate,*_ibm_redbooks_slate",
-"standardize":true,
-"customer_indices":"customer_*"
-}
-```
-
-After you have configured all the settings for Conversational Search on the page, be sure to click **Save** in the upper-right of the page.
+Before proceeding spend more time trying different settings for the metadata field and other configuration settings for your customer service instance.
 
 !!! Tip "For client pilots"
 
-    If you or your client have other documents to ingest, you can do so by repeating the steps using zassist. The Velocity Pilot ITZ environment is limited in compute and storage capacity. The following limits should be adhered to:
+    If you or your client have other documents to ingest, you can do so by repeating the steps using **zassist**. The Velocity Pilot ITZ environment is limited in compute and storage capacity. The following limits should be adhered to:
 
     - Loading documents can take a long time, especially with > 100 MB of text.
 
@@ -178,5 +213,3 @@ After you have configured all the settings for Conversational Search on the page
         ```
         zassist ingest . -s 50
         ```
-
-After ingesting all your additional documents, proceed to the next section to learn about adding skills to your assistant.

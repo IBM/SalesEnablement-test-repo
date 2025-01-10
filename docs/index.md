@@ -11,20 +11,20 @@ This lab guide covers the setup, configuration, and usage of watsonx Assistant f
 
 The lab guide also enables dedicated lab environments for customized client PoXs and demonstrations. If you are preparing for an actual pilot engagement, refer to the <a href="https://ibm.seismic.com/Link/Content/DCCRRWqjGBTVc87VBGCfC2F2VQVV" target="_blank">Pilot Scoping Guide for watsonx Assistant for Z</a> for additional information.
 
-The lab guide provides the following guidance to:
+Using the lab guide, you will:
 
-- Provisioning the lab environments
-- Creating an assistant and configuring conversational search
-- Configuring assistant settings
-- Testing conversational search
-- Deploying a dedicated instance of OpenSearch for client document ingestion (Optional)
-- Importing skills for z/OS automations
-- Connecting apps to assistants
-- Creating assistant actions
-- Creating skill flows 
-- Learn about custom-built actions
-- Learn about Importing pre-packaged z/OS skills
-- Publishing and deploying your assistant
+- Provision the lab environments
+- Create an assistant and configuring conversational search
+- Configure assistant settings
+- Test conversational search
+- Deploy a dedicated instance of OpenSearch for client document ingestion (Optional)
+- Import skills for z/OS automations
+- Connect apps to assistants
+- Creat assistant actions
+- Creat skill flows 
+- Create custom-built actions
+- Import pre-packaged z/OS skills
+- Publish and deploy an assistant
 
 !!! Note "Not all capabilities of the offering are covered in the lab guide."
 

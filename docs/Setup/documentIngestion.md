@@ -1,5 +1,9 @@
 # Creating a stand-alone OpenSearch instance for document ingestion
-In this section, learn to enable clients to ingest their own documentation into the Retrieval Augmented Generation (RAG) used by IBM Watson Assistant for Z by deploying a dedicated [OpenSearch](https://opensearch.org/) instance, referred to as bring-your-own-search (BYOS).
+Now that you’ve created and deployed your own assistant with conversational search capabilities, your client can understand how watsonx Assistant for Z provides its content-grounded responses to any Z related question they might have. In the previous section, you configured your assistant to use a pre-configured Z RAG which has over 220 knowledge sources, and uses this knowledge to provide AI generated responses. 
+
+In this section, learn to enable clients to personalize the assistant with an internal knowledge base that contains documentation they’d like to ingest into the Retrieval Augmented Generation (RAG). This will help provide a level of context-awareness for their own environment when asking environment-specific questions to the assistant.
+
+In this section, install and configure a “Z RAG” on Red Hat OpenShift enabling the bring-your-own-documentation (BYOD) capability to ingest additional documentation beyond the pre-loaded IBM documentation. In doing so, you will deploy a dedicated [OpenSearch](https://opensearch.org/) instance, referred to as bring-your-own-search (BYOS). Then, connect your assistant  to the new new RAG database to provide responses based on the ingested documentation. 
 
 Below is a high-level, logical architecture of the environment you will deploy in this section.
 
@@ -222,14 +226,26 @@ Before ingesting documents, complete the following setup steps.
 
     Substitute your production entitlement key copied in the last step for `<entitlement key>`.
 
+    Mac OS:
     ```
     export IBM_CS_ENT_KEY=<entitlement key>
     ```
 
+    Microsoft Windows:
+    ```
+    set IBM_CS_ENT_KEY=<entitlement key>
+    ```
+
 5.  Enter the following command to create a pull secret for the **Container Registry**.
 
+    Mac OS:
     ```
     oc -n wxa4z-byos create secret docker-registry icr-pull-secret --docker-server=cp.icr.io --docker-username=cp --docker-password=$IBM_CS_ENT_KEY
+    ```
+
+    Microsoft Windows:
+    ```
+    oc -n wxa4z-byos create secret docker-registry icr-pull-secret --docker-server=cp.icr.io --docker-username=cp --docker-password=%IBM_CS_ENT_KEY%
     ```
 
     ![](_attachments/createPullSecret.png)
@@ -301,18 +317,17 @@ Before ingesting documents, complete the following setup steps.
 
 12. In your command prompt or terminal window, run the following commands to add the Container Registry credential to the operator's service account.
 
+    Mac OS and Microsoft Windows:
     ```
     oc project wxa4z-byos
     ```
 
-    For MacOS users:
-
+    Mac OS:
     ```
     oc patch serviceaccount ibm-wxa4z-operator-controller-manager --type merge -p '{"imagePullSecrets": [{"name": "icr-pull-secret"}]}'
     ```
 
-    For Microsoft Windows users:
-
+    Microsoft Windows:
     ```
     oc patch serviceaccount ibm-wxa4z-operator-controller-manager --type merge -p "{\"imagePullSecrets\":[{\"name\":\"icr-pull-secret\"}]}"
     ```
@@ -531,13 +546,15 @@ You are now ready to configure your assistant with the route to your BYOS instan
 
 2. Update your assistant's custom search integration URL.
    
-    Next, you need to return to your assistant in the watsonx Orchestrate AI assistant builder and update the custom search integration URL. This time, instead of setting the authentication type to **None**, you need to set it to **Basic authentication**. Use **admin** for the **Username** and the **Password** will be the password you specified in the ```wrapper-creds.yaml``` file.
+    Next, you need to return to your assistant in the watsonx Orchestrate AI assistant builder and update the custom search integration URL. Use the URL form the network route (with **/v1/query**) appended. Use **admin** for the **Username** and the **Password** will be the password you specified in the ```wrapper-creds.yaml``` file. 
     
-    The steps to update the URL are illustrated in the animated gif that follows. You can review the steps to accomplish this [here](creatingAssistant-configuringConvoSearch.md#configureCustomSearchURL) (be sure to use your BYOS URL and not the shared URL specified in the lab guide).
+    !!! tip "Don't recall how to set the customer search URL?"
 
-    ??? Tip "How to set the custom search integration URL."
+        Refer back to [Creating an assistant and configuring conversational search](creatingAssistant-configuringConvoSearch.md#configure-conversational-search) if you don't remember how to specify the customer search URL.
 
-        ![](_attachments/changeCustomSearchURL.gif)
+3. Test your assistant and verify it is still answering question related to IBM Z.
+
+    Experiment with different prompts and validate that the answers provided are reasonable, and that you can view the documentation that was sourced. If responses are not received as expected, verify the URL is formatted correctly and you specified the ```wrapper-creds.yaml`` password as the **admin** password.
 
 ## Troubleshooting
 The following are issues that you may encounter. If the provided resolutions do not work, contact support by using the methods that are mentioned in the [Support](../index.md#support) section.
