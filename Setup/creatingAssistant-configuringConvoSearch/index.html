@@ -910,6 +910,10 @@
 <p><strong>c</strong>. Select <strong>Basic authentication</strong> in the <strong>Choose an authentication type</strong> drop-down list.</p>
 <p><strong>d</strong>. Enter <code>admin</code> in the <strong>Username</strong> field.</p>
 <p><strong>e</strong>. Enter <code>secureP@ssw0rd!</code> in the <strong>Password</strong> field.</p>
+<div class="highlight"><pre><span></span><code>```
+secureP@ssw0rd!
+```
+</code></pre></div>
 <p><a class="glightbox" href="../_attachments/genAISetupCS2-new.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/genAISetupCS2-new.png"></a></p>
 </li>
 <li>
@@ -1087,7 +1091,7 @@ These options can be summarized <a href="https://www.ibm.com/docs/en/watsonx/waz
 <p>Your assistant's <abbr title="Large language model">LLM</abbr> gives refined responses by following the prompt's instructions, which clarify how to achieve the end-goal of an action.</p>
 <p>Enter prompt instructions in the field. The maximum number of characters you can enter in the prompt instruction field is 1,000. </p>
 <p>The following is an example prompt instruction that works well. Experiment with different prompt instructions.</p>
-<div class="highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>You are a subject matter expert on mainframe systems. Please respond to all prompts with truth and accuracy. Keep all answers short and concise, unless requested to provide details.
+<div class="highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>You are a subject matter expert on mainframe systems. Please respond to all prompts with truth and accuracy. Keep all answers short and concise, unless requested to provide details.
 </span></code></pre></div>
 <p><strong>Note</strong>: When the instructions are typed in, they are automatically saved and the <abbr title="Large language model">LLM</abbr> is immediately trained on them.</p>
 <p><a class="glightbox" href="../_attachments/genAIGenAI3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/genAIGenAI3.png"></a></p>
@@ -1114,22 +1118,22 @@ These options can be summarized <a href="https://www.ibm.com/docs/en/watsonx/waz
 <p>Other prompts and responses follow. </p>
 <p><strong>Note</strong>: The responses that you receive can vary from the ones shown.</p>
 <p><strong>Prompt</strong>:</p>
-<div class="highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>What is z/OS continuous delivery?
+<div class="highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>What is z/OS continuous delivery?
 </span></code></pre></div>
 <p>Example output:</p>
 <p><a class="glightbox" href="../_attachments/preview0a.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/preview0a.png"></a></p>
 <p><strong>Prompt</strong>: </p>
-<div class="highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>What is the APF list in z/OS? Provide a detailed explanation?
+<div class="highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>What is the APF list in z/OS? Provide a detailed explanation?
 </span></code></pre></div>
 <p><strong>Example output</strong>:</p>
 <p><a class="glightbox" href="../_attachments/preview1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/preview1.png"></a></p>
 <p><strong>Prompt</strong>:</p>
-<div class="highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>Why is Db2 different than other database systems?
+<div class="highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>Why is Db2 different than other database systems?
 </span></code></pre></div>
 <p><strong>Example output</strong>:</p>
 <p><a class="glightbox" href="../_attachments/preview2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/preview2.png"></a></p>
 <p><strong>Prompt</strong>:</p>
-<div class="highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>What happens during an IPL on IBM Z?
+<div class="highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>What happens during an IPL on IBM Z?
 </span></code></pre></div>
 <p><strong>Example output</strong>:</p>
 <p><a class="glightbox" href="../_attachments/preview3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/preview3.png"></a></p>
@@ -1139,11 +1143,11 @@ These options can be summarized <a href="https://www.ibm.com/docs/en/watsonx/waz
 <p>Experiment with this setting by changing your custom service contextual awareness setting from <strong>Single turn</strong> to <strong>Entire conversation</strong>.</p>
 <p><a class="glightbox" href="../_attachments/multiturn-0.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/multiturn-0.png"></a></p>
 <p>Once enabled, try sequential prompts like:</p>
-<div class="highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>What are some features of z/OS?
+<div class="highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>What are some features of z/OS?
 </span></code></pre></div>
-<div class="highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>Give me an itemized list?
+<div class="highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>Give me an itemized list?
 </span></code></pre></div>
-<div class="highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>Tell me more about item 3.
+<div class="highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>Tell me more about item 3.
 </span></code></pre></div>
 </div>
 </li>
