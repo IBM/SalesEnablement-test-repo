@@ -1013,14 +1013,15 @@
 </span><span id="__span-0-30"><a id="__codelineno-0-30" name="__codelineno-0-30" href="#index-__codelineno-0-30"></a>    AAP User Name: admin
 </span><span id="__span-0-31"><a id="__codelineno-0-31" name="__codelineno-0-31" href="#index-__codelineno-0-31"></a>    AAP password:
 </span><span id="__span-0-32"><a id="__codelineno-0-32" name="__codelineno-0-32" href="#index-__codelineno-0-32"></a>
-</span><span id="__span-0-33"><a id="__codelineno-0-33" name="__codelineno-0-33" href="#index-__codelineno-0-33"></a>    Wazi Password:
-</span><span id="__span-0-34"><a id="__codelineno-0-34" name="__codelineno-0-34" href="#index-__codelineno-0-34"></a>    Wazi URL: 
-</span><span id="__span-0-35"><a id="__codelineno-0-35" name="__codelineno-0-35" href="#index-__codelineno-0-35"></a>
-</span><span id="__span-0-36"><a id="__codelineno-0-36" name="__codelineno-0-36" href="#index-__codelineno-0-36"></a>Live Embed
-</span><span id="__span-0-37"><a id="__codelineno-0-37" name="__codelineno-0-37" href="#index-__codelineno-0-37"></a>
-</span><span id="__span-0-38"><a id="__codelineno-0-38" name="__codelineno-0-38" href="#index-__codelineno-0-38"></a>    inetegrationID:
-</span><span id="__span-0-39"><a id="__codelineno-0-39" name="__codelineno-0-39" href="#index-__codelineno-0-39"></a>    region:
-</span><span id="__span-0-40"><a id="__codelineno-0-40" name="__codelineno-0-40" href="#index-__codelineno-0-40"></a>    serviceInstanceID:
+</span><span id="__span-0-33"><a id="__codelineno-0-33" name="__codelineno-0-33" href="#index-__codelineno-0-33"></a>    Wazi User: IBMUSER
+</span><span id="__span-0-34"><a id="__codelineno-0-34" name="__codelineno-0-34" href="#index-__codelineno-0-34"></a>    Wazi Password:
+</span><span id="__span-0-35"><a id="__codelineno-0-35" name="__codelineno-0-35" href="#index-__codelineno-0-35"></a>    Wazi URL: 
+</span><span id="__span-0-36"><a id="__codelineno-0-36" name="__codelineno-0-36" href="#index-__codelineno-0-36"></a>
+</span><span id="__span-0-37"><a id="__codelineno-0-37" name="__codelineno-0-37" href="#index-__codelineno-0-37"></a>Live Embed
+</span><span id="__span-0-38"><a id="__codelineno-0-38" name="__codelineno-0-38" href="#index-__codelineno-0-38"></a>
+</span><span id="__span-0-39"><a id="__codelineno-0-39" name="__codelineno-0-39" href="#index-__codelineno-0-39"></a>    inetegrationID:
+</span><span id="__span-0-40"><a id="__codelineno-0-40" name="__codelineno-0-40" href="#index-__codelineno-0-40"></a>    region:
+</span><span id="__span-0-41"><a id="__codelineno-0-41" name="__codelineno-0-41" href="#index-__codelineno-0-41"></a>    serviceInstanceID:
 </span></code></pre></div>
 </details>
 <details class="tip">
@@ -2170,23 +2171,69 @@ You are now ready to configure your assistant with the route to your <abbr title
 </li>
 <li>Change to the <code>BYOD</code> directory.</li>
 <li>
-<p>Using the <strong>zassist</strong> product documentation, ingest and load all the files in the <strong>dev</strong> and <strong>ops</strong> directories from the extracted <code>BYOD.zip</code> file.</p>
-<p>Follow all the directions <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=data-ingesting" target="_blank">here</a> (including the optional steps) to ingest documents using <strong>zassist</strong>. The steps are not repeated in this lab guide so that you get a first hand experience using the product documentation. You will need to adjust the commands to use the extracted <code>dev</code> and <code>ops</code> directories.</p>
-<p>The following video illustrates the steps to ingest a single document. </p>
-<p><strong>Note</strong>: The video has no audio.</p>
-<p><div class="video-container"><iframe src="../_videos/zassitIngest-final.mp4" style="position:relative;width:100%;height:22.172vw" frameborder="0" allowfullscreen alt="type:video" class="print-site-plugin-ignore"></iframe></div></p>
-<details class="info">
-<summary>Don't see the video in the <abbr title="Portable Document Format">PDF</abbr> version of the lab guide?</summary>
-<p>If you are viewing the <a href="../Setup/zassist/_pdf/IBM%20watsonx%20Assistant%20for%20Z%20Level%204%20Lab%20Guide.pdf" target="_blank"><abbr title="Portable Document Format">PDF</abbr></a> of the lab guide, you can access the video <a href="https://ibm.github.io/SalesEnablement-L4-watsonx-AssistantForZ/Setup/_videos/zassitIngest-final.mp4" target="_blank">here</a>.</p>
+<p>Set the <code>TLS_VERIFY</code> environment variable to <code>false</code>.</p>
+<p>Mac <abbr title="Operating System">OS</abbr>:
+</p><div class="highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#setup-zassist-__codelineno-1-1"></a>export TLS_VERIFY=false
+</span></code></pre></div>
+<p>Windows <abbr title="Operating System">OS</abbr>:
+</p><div class="highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#setup-zassist-__codelineno-2-1"></a>set TLS_VERIFY=false
+</span></code></pre></div>
+5. Initialize the <code>zassist</code> environment.
+<p></p><div class="highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#setup-zassist-__codelineno-3-1"></a>zassist init
+</span></code></pre></div>
+6. Retrieve the <abbr title="Uniform Resource Locator">URL</abbr> for he client ingestion server.
+<p></p><div class="highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#setup-zassist-__codelineno-4-1"></a>echo https://$(oc -n wxa4z-byos get route wxa4z-client-ingestion -o jsonpath="{.spec.host}")
+</span></code></pre></div>
+The output of this command is your unique <abbr title="Uniform Resource Locator">URL</abbr> for your client ingestion server. 
+<details class="failure">
+<summary>If the command doesn’t work for you...</summary>
+<p>You can retrieve the <abbr title="Uniform Resource Locator">URL</abbr> in your <abbr title="OpenShift Container Platform">OCP</abbr> Web console by navigating to Networking Routes and then copy the <abbr title="Uniform Resource Locator">URL</abbr> for the wxa4z-client-ingestion route.</p>
 </details>
 </li>
+<li>
+<p>Retrieve the <code>client-ingestion-authkey</code>.</p>
+<div class="highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#setup-zassist-__codelineno-5-1"></a>oc -n wxa4z-byos get secret client-ingestion-authkey -o jsonpath="{.data.authkey}" | base64 -d
+</span></code></pre></div>
+<p>The output of this command is your unique auth-key that you had previously set. You will need the output of both previous commands in the next step. </p>
+<div class="highlight"><pre><span></span><code>??? Failure "If the command doesn’t work for you..."
+
+    You can find your `authkey` value by viewing the `client-ingestion-secret.yaml` file you created and copying the value set for the `authkey` parameter.
+</code></pre></div>
+</li>
+<li>
+<p>Login to your server. Replace <code>&lt;server url&gt;</code> with the value from step 6.</p>
+<div class="highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#setup-zassist-__codelineno-6-1"></a>zassist login &lt;server url&gt;
+</span></code></pre></div>
+</li>
+<li>
+<p>When prompted, enter the password from step 7. A <strong>Success</strong> message should be received.</p>
+</li>
+<li>
+<p>Verify <code>zassist</code> is ready to ingest documents by checking the status.</p>
+<div class="highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#setup-zassist-__codelineno-7-1"></a>zassist status
+</span></code></pre></div>
+</li>
 </ol>
+<!-- 4. Using the **zassist** product documentation, ingest and load all the files in the **dev** and **ops** directories from the extracted ```BYOD.zip``` file.
+
+    Follow all the directions <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=data-ingesting" target="_blank">here</a> (including the optional steps) to ingest documents using **zassist**. The steps are not repeated in this lab guide so that you get a first hand experience using the product documentation. You will need to adjust the commands to use the extracted ```dev``` and ```ops``` directories.
+
+    The following video illustrates the steps to ingest a single document. 
+
+    **Note**: The video has no audio.
+
+    ![type:video](_videos/zassitIngest-final.mp4){: .print-site-plugin-ignore }
+
+    ??? Info "Don't see the video in the PDF version of the lab guide?"
+
+        If you are viewing the <a href="../Setup/zassist/_pdf/IBM%20watsonx%20Assistant%20for%20Z%20Level%204%20Lab%20Guide.pdf" target="_blank">PDF</a> of the lab guide, you can access the video <a href="https://ibm.github.io/SalesEnablement-L4-watsonx-AssistantForZ/Setup/_videos/zassitIngest-final.mp4" target="_blank">here</a>. -->
+
 <h2 id="setup-zassist-verify-the-documents-were-ingested">Verify the documents were ingested<a class="headerlink" href="#setup-zassist-verify-the-documents-were-ingested" title="Permanent link">#</a></h2>
 <p>Use the watsonx Orchestrate <abbr title="Artificial intelligence">AI</abbr> assistant builder to verify your document ingestion.</p>
 <ol>
 <li>
 <p>Enter the following prompt in your assistant and <strong>record the response</strong> (cut and paste into a text file on your local machine).</p>
-<div class="highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#setup-zassist-__codelineno-1-1"></a>The customer application is failing with ERR-CBL-001, what does this internal error mean?
+<div class="highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#setup-zassist-__codelineno-8-1"></a>The customer application is failing with ERR-CBL-001, what does this internal error mean?
 </span></code></pre></div>
 <p><a class="glightbox" href="../Setup/_attachments/customerIngest1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/customerIngest1.png"></a></p>
 </li>
@@ -2208,11 +2255,11 @@ You are now ready to configure your assistant with the route to your <abbr title
 </li>
 <li>
 <p>Repeat the steps above for the following prompts in your assistant and <strong>record the responses</strong> (cut and paste into a text file on your local machine).</p>
-<div class="highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#setup-zassist-__codelineno-2-1"></a>Are there any production incidents that were resolved in relation to Data corruption in the production database. If yes who can I collaborate with to resolve a similar issue today and what are their names?
+<div class="highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#setup-zassist-__codelineno-9-1"></a>Are there any production incidents that were resolved in relation to Data corruption in the production database. If yes who can I collaborate with to resolve a similar issue today and what are their names?
 </span></code></pre></div>
-<div class="highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#setup-zassist-__codelineno-3-1"></a>What specific syntax changes do I need to make in COBOL to call Java using the internal framework? Please provide a detailed explanation. 
+<div class="highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#setup-zassist-__codelineno-10-1"></a>What specific syntax changes do I need to make in COBOL to call Java using the internal framework? Please provide a detailed explanation. 
 </span></code></pre></div>
-<div class="highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#setup-zassist-__codelineno-4-1"></a>What is the internal git lab link to execute the Java on z/OS pipeline?
+<div class="highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#setup-zassist-__codelineno-11-1"></a>What is the internal git lab link to execute the Java on z/OS pipeline?
 </span></code></pre></div>
 </li>
 </ol>
@@ -2221,37 +2268,37 @@ You are now ready to configure your assistant with the route to your <abbr title
 <p><a class="glightbox" href="../Setup/_attachments/genAISettings2b.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/genAISettings2b.png"></a></p>
 <p>The Metadata field provides a way to adjust your assistant’s behavior during conversational search for your OpenSearch instance. Now that you have your own docs that are ingested for conversational search, you can set the metadata field for your assistant to use those documents in its content-grounded search. If you leave the metadata field empty, then it defaults to settings found to perform well but may not use the ingested documents as part of the search results.</p>
 <p>If you leave the Metadata field empty, OpenSearch will rely on the default settings, which means OpenSearch will search all of the default IBM-provided documentation and all of the ingested customer documentation using the following value:</p>
-<div class="highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#setup-zassist-__codelineno-5-1"></a>{"ibm_indices":"*_ibm_docs_slate,*_ibm_redbooks_slate",
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#setup-zassist-__codelineno-5-2"></a>“customer_indices”:“customer_*”}
+<div class="highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#setup-zassist-__codelineno-12-1"></a>{"ibm_indices":"*_ibm_docs_slate,*_ibm_redbooks_slate",
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#setup-zassist-__codelineno-12-2"></a>“customer_indices”:“customer_*”}
 </span></code></pre></div>
 <p>Replacing the wildcard string with an explicit list of indices allows for personalization. The metadata setting is where you can input specific indices (pointing to the underlying documentation) that you want your assistant to use for the content-grounded search. There are over 220 products and topics that the OpenSearch instance has IBM Documentation for. You can find those indices and products <a href="https://ibm.box.com/s/anioal2xuwbsck8v3l4r48juzh9tbcqn" target="_blank">here</a>.</p>
 <p>You can input a subset of indices into the “Metadata” field in cases where you only want your assistant to gather context for specific IBM products or topics. The specific indices can be listed out in this format:</p>
-<div class="highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#setup-zassist-__codelineno-6-1"></a>{“ibm_indices”:“&lt;comma separated index values&gt;”,“customer_indices”:“customer_*”}
+<div class="highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#setup-zassist-__codelineno-13-1"></a>{“ibm_indices”:“&lt;comma separated index values&gt;”,“customer_indices”:“customer_*”}
 </span></code></pre></div>
 <p>For example, if you only want your assistant to reference documentation for “Db2 Analytics Accelerator for z/<abbr title="Operating System">OS</abbr>” and no ingested client documentation, you can enter the following into the metadata field:</p>
-<div class="highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#setup-zassist-__codelineno-7-1"></a>{“ibm_indices”:“ss4lq8_ibm_docs_slate”}
+<div class="highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#setup-zassist-__codelineno-14-1"></a>{“ibm_indices”:“ss4lq8_ibm_docs_slate”}
 </span></code></pre></div>
 <p>If you have a mix of IBM Documentation and client documentation ingested, then there’s an optional search string that you can use to set the “weights” used for each. </p>
 <p>For example:</p>
-<p></p><div class="highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#setup-zassist-__codelineno-8-1"></a>{"doc_weight":
-</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#setup-zassist-__codelineno-8-2"></a>{"product_docs":0.5,
-</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#setup-zassist-__codelineno-8-3"></a>"customer_docs":0.5},
-</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#setup-zassist-__codelineno-8-4"></a>"ibm_indices":"*_ibm_docs_slate,*_ibm_redbooks_slate",
-</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#setup-zassist-__codelineno-8-5"></a>"standardize":true,
-</span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6" href="#setup-zassist-__codelineno-8-6"></a>"customer_indices":"customer_*"
-</span><span id="__span-8-7"><a id="__codelineno-8-7" name="__codelineno-8-7" href="#setup-zassist-__codelineno-8-7"></a>}
+<p></p><div class="highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#setup-zassist-__codelineno-15-1"></a>{"doc_weight":
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#setup-zassist-__codelineno-15-2"></a>{"product_docs":0.5,
+</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3" href="#setup-zassist-__codelineno-15-3"></a>"customer_docs":0.5},
+</span><span id="__span-15-4"><a id="__codelineno-15-4" name="__codelineno-15-4" href="#setup-zassist-__codelineno-15-4"></a>"ibm_indices":"*_ibm_docs_slate,*_ibm_redbooks_slate",
+</span><span id="__span-15-5"><a id="__codelineno-15-5" name="__codelineno-15-5" href="#setup-zassist-__codelineno-15-5"></a>"standardize":true,
+</span><span id="__span-15-6"><a id="__codelineno-15-6" name="__codelineno-15-6" href="#setup-zassist-__codelineno-15-6"></a>"customer_indices":"customer_*"
+</span><span id="__span-15-7"><a id="__codelineno-15-7" name="__codelineno-15-7" href="#setup-zassist-__codelineno-15-7"></a>}
 </span></code></pre></div>
 In this case, “product_docs” is the weight that is assigned to “ibm_indices” and “customer_docs” is the weight that is assigned to “customer_indices”. For more information on customizing the metadata field for conversational search, refer to this supplemental video found <a href="https://ibm.ent.box.com/s/2quy4drqp3bolgd6flqm0l1c549fz64x/file/1661645917984" target="_blank">here</a>.
 <ol>
 <li>
 <p>Set the (<strong>a</strong>) <strong>Metadata</strong> field for your <abbr title="Bring Your Own Search">BYOS</abbr> custom search instance to the following value, click (<strong>b</strong>) <strong>Save</strong>, and then click (<strong>c</strong>) <strong>Close</strong>. Notice the weight for <strong>customer_docs</strong> is heavier than the weight for <strong>product_docs</strong>.</p>
-<div class="highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#setup-zassist-__codelineno-9-1"></a>{"doc_weight":
-</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#setup-zassist-__codelineno-9-2"></a>{"product_docs":0.2,
-</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#setup-zassist-__codelineno-9-3"></a>"customer_docs":0.8},
-</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#setup-zassist-__codelineno-9-4"></a>"ibm_indices":"*_ibm_docs_slate,*_ibm_redbooks_slate",
-</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#setup-zassist-__codelineno-9-5"></a>"standardize":true,
-</span><span id="__span-9-6"><a id="__codelineno-9-6" name="__codelineno-9-6" href="#setup-zassist-__codelineno-9-6"></a>"customer_indices":"customer_*"
-</span><span id="__span-9-7"><a id="__codelineno-9-7" name="__codelineno-9-7" href="#setup-zassist-__codelineno-9-7"></a>}
+<div class="highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#setup-zassist-__codelineno-16-1"></a>{"doc_weight":
+</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#setup-zassist-__codelineno-16-2"></a>{"product_docs":0.2,
+</span><span id="__span-16-3"><a id="__codelineno-16-3" name="__codelineno-16-3" href="#setup-zassist-__codelineno-16-3"></a>"customer_docs":0.8},
+</span><span id="__span-16-4"><a id="__codelineno-16-4" name="__codelineno-16-4" href="#setup-zassist-__codelineno-16-4"></a>"ibm_indices":"*_ibm_docs_slate,*_ibm_redbooks_slate",
+</span><span id="__span-16-5"><a id="__codelineno-16-5" name="__codelineno-16-5" href="#setup-zassist-__codelineno-16-5"></a>"standardize":true,
+</span><span id="__span-16-6"><a id="__codelineno-16-6" name="__codelineno-16-6" href="#setup-zassist-__codelineno-16-6"></a>"customer_indices":"customer_*"
+</span><span id="__span-16-7"><a id="__codelineno-16-7" name="__codelineno-16-7" href="#setup-zassist-__codelineno-16-7"></a>}
 </span></code></pre></div>
 <p><a class="glightbox" href="../Setup/_attachments/customerIngest5.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/customerIngest5.png"></a></p>
 </li>
@@ -2283,7 +2330,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 </li>
 <li>
 <p>If you receive a <strong>batch time error</strong>, set the batch size to a lower number for that command. For example:</p>
-<div class="highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#setup-zassist-__codelineno-10-1"></a>zassist ingest . -s 50
+<div class="highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#setup-zassist-__codelineno-17-1"></a>zassist ingest . -s 50
 </span></code></pre></div>
 </li>
 </ul>
