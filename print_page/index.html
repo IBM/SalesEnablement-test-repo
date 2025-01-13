@@ -2178,10 +2178,14 @@ You are now ready to configure your assistant with the route to your <abbr title
 <p>Windows <abbr title="Operating System">OS</abbr>:
 </p><div class="highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#setup-zassist-__codelineno-2-1"></a>set TLS_VERIFY=false
 </span></code></pre></div>
-5. Initialize the <code>zassist</code> environment.
-<p></p><div class="highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#setup-zassist-__codelineno-3-1"></a>zassist init
+</li>
+<li>
+<p>Initialize the <code>zassist</code> environment.</p>
+<div class="highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#setup-zassist-__codelineno-3-1"></a>zassist init
 </span></code></pre></div>
-6. Retrieve the server <abbr title="Uniform Resource Locator">URL</abbr> for the client ingestion server.
+</li>
+<li>
+<p>Retrieve the server <abbr title="Uniform Resource Locator">URL</abbr> for the client ingestion server.</p>
 <p></p><div class="highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#setup-zassist-__codelineno-4-1"></a>echo https://$(oc -n wxa4z-byos get route wxa4z-client-ingestion -o jsonpath="{.spec.host}")
 </span></code></pre></div>
 The output of this command is your unique <abbr title="Uniform Resource Locator">URL</abbr> for your client ingestion server. 
