@@ -895,10 +895,10 @@ The output of this command is your unique <abbr title="Uniform Resource Locator"
 <div class="highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>oc -n wxa4z-byos get secret client-ingestion-authkey -o jsonpath="{.data.authkey}" | base64 -d
 </span></code></pre></div>
 <p>The output of this command is your unique auth-key that you had previously set. You will need the output of both previous commands in the next step. </p>
-<div class="highlight"><pre><span></span><code>??? Failure "If the command doesn’t work for you..."
-
-    You can find your `authkey` value by viewing the `client-ingestion-secret.yaml` file you created and copying the value set for the `authkey` parameter.
-</code></pre></div>
+<details class="failure">
+<summary>If the command doesn’t work for you...</summary>
+<p>You can find your <code>authkey</code> value by viewing the <code>client-ingestion-secret.yaml</code> file you created and copying the value set for the <code>authkey</code> parameter. </p>
+</details>
 </li>
 <li>
 <p>Login to your server. Replace <code>&lt;server url&gt;</code> with the value from step 6.</p>
