@@ -1,0 +1,1360 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide">
+      
+      
+        <meta name="author" content="Andrew R. Jones (andrewj@us.ibm.com) and Max Weiss (maxwell.g.weiss@ibm.com)">
+      
+      
+      
+        <link rel="prev" href="../../Setup/creatingAssistant-configuringConvoSearch/">
+      
+      
+        <link rel="next" href="../zassist/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
+    
+    
+      
+        <title>Creating a stand-alone OpenSearch instance for document ingestion - IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1 7.775V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 0 1 0 2.474l-5.026 5.026a1.75 1.75 0 0 1-2.474 0l-6.25-6.25A1.75 1.75 0 0 1 1 7.775m1.5 0c0 .066.026.13.073.177l6.25 6.25a.25.25 0 0 0 .354 0l5.025-5.025a.25.25 0 0 0 0-.354l-6.25-6.25a.25.25 0 0 0-.177-.073H2.75a.25.25 0 0 0-.25.25ZM6 5a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/></svg>');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M2.5 1.75v11.5c0 .138.112.25.25.25h3.17a.75.75 0 0 1 0 1.5H2.75A1.75 1.75 0 0 1 1 13.25V1.75C1 .784 1.784 0 2.75 0h8.5C12.216 0 13 .784 13 1.75v7.736a.75.75 0 0 1-1.5 0V1.75a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25m13.274 9.537zl-4.557 4.45a.75.75 0 0 1-1.055-.008l-1.943-1.95a.75.75 0 0 1 1.062-1.058l1.419 1.425 4.026-3.932a.75.75 0 1 1 1.048 1.074M4.75 4h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5M4 7.75A.75.75 0 0 1 4.75 7h2a.75.75 0 0 1 0 1.5h-2A.75.75 0 0 1 4 7.75"/></svg>');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13M6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75M8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/></svg>');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M3.499.75a.75.75 0 0 1 1.5 0v.996C5.9 2.903 6.793 3.65 7.662 4.376l.24.202c-.036-.694.055-1.422.426-2.163C9.1.873 10.794-.045 12.622.26 14.408.558 16 1.94 16 4.25c0 1.278-.954 2.575-2.44 2.734l.146.508.065.22c.203.701.412 1.455.476 2.226.142 1.707-.4 3.03-1.487 3.898C11.714 14.671 10.27 15 8.75 15h-6a.75.75 0 0 1 0-1.5h1.376a4.5 4.5 0 0 1-.563-1.191 3.84 3.84 0 0 1-.05-2.063 4.65 4.65 0 0 1-2.025-.293.75.75 0 0 1 .525-1.406c1.357.507 2.376-.006 2.698-.318l.009-.01a.747.747 0 0 1 1.06 0 .75.75 0 0 1-.012 1.074c-.912.92-.992 1.835-.768 2.586.221.74.745 1.337 1.196 1.621H8.75c1.343 0 2.398-.296 3.074-.836.635-.507 1.036-1.31.928-2.602-.05-.603-.216-1.224-.422-1.93l-.064-.221c-.12-.407-.246-.84-.353-1.29a2.4 2.4 0 0 1-.507-.441 3.1 3.1 0 0 1-.633-1.248.75.75 0 0 1 1.455-.364c.046.185.144.436.31.627.146.168.353.305.712.305.738 0 1.25-.615 1.25-1.25 0-1.47-.95-2.315-2.123-2.51-1.172-.196-2.227.387-2.706 1.345-.46.92-.27 1.774.019 3.062l.042.19.01.05c.348.443.666.949.94 1.553a.75.75 0 1 1-1.365.62c-.553-1.217-1.32-1.94-2.3-2.768L6.7 5.527c-.814-.68-1.75-1.462-2.692-2.619a3.7 3.7 0 0 0-1.023.88c-.406.495-.663 1.036-.722 1.508.116.122.306.21.591.239.388.038.797-.06 1.032-.19a.75.75 0 0 1 .728 1.31c-.515.287-1.23.439-1.906.373-.682-.067-1.473-.38-1.879-1.193L.75 5.677V5.5c0-.984.48-1.94 1.077-2.664.46-.559 1.05-1.055 1.673-1.353z"/></svg>');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 .018-1.042.75.75 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0"/></svg>');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13M6.92 6.085h.001a.749.749 0 1 1-1.342-.67c.169-.339.436-.701.849-.977C6.845 4.16 7.369 4 8 4a2.76 2.76 0 0 1 1.637.525c.503.377.863.965.863 1.725 0 .448-.115.83-.329 1.15-.205.307-.47.513-.692.662-.109.072-.22.138-.313.195l-.006.004a6 6 0 0 0-.26.16 1 1 0 0 0-.276.245.75.75 0 0 1-1.248-.832c.184-.264.42-.489.692-.661q.154-.1.313-.195l.007-.004c.1-.061.182-.11.258-.161a1 1 0 0 0 .277-.245C8.96 6.514 9 6.427 9 6.25a.61.61 0 0 0-.262-.525A1.27 1.27 0 0 0 8 5.5c-.369 0-.595.09-.74.187a1 1 0 0 0-.34.398M9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/></svg>');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0M9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/></svg>');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M2.344 2.343za8 8 0 0 1 11.314 11.314A8.002 8.002 0 0 1 .234 10.089a8 8 0 0 1 2.11-7.746m1.06 10.253a6.5 6.5 0 1 0 9.108-9.275 6.5 6.5 0 0 0-9.108 9.275M6.03 4.97 8 6.94l1.97-1.97a.749.749 0 0 1 1.275.326.75.75 0 0 1-.215.734L9.06 8l1.97 1.97a.749.749 0 0 1-.326 1.275.75.75 0 0 1-.734-.215L8 9.06l-1.97 1.97a.749.749 0 0 1-1.275-.326.75.75 0 0 1 .215-.734L6.94 8 4.97 6.03a.75.75 0 0 1 .018-1.042.75.75 0 0 1 1.042-.018"/></svg>');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M9.504.43a1.516 1.516 0 0 1 2.437 1.713L10.415 5.5h2.123c1.57 0 2.346 1.909 1.22 3.004l-7.34 7.142a1.25 1.25 0 0 1-.871.354h-.302a1.25 1.25 0 0 1-1.157-1.723L5.633 10.5H3.462c-1.57 0-2.346-1.909-1.22-3.004zm1.047 1.074L3.286 8.571A.25.25 0 0 0 3.462 9H6.75a.75.75 0 0 1 .694 1.034l-1.713 4.188 6.982-6.793A.25.25 0 0 0 12.538 7H9.25a.75.75 0 0 1-.683-1.06l2.008-4.418.003-.006-.004-.009-.006-.006-.008-.001q-.005 0-.009.004"/></svg>');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M4.72.22a.75.75 0 0 1 1.06 0l1 .999a3.5 3.5 0 0 1 2.441 0l.999-1a.748.748 0 0 1 1.265.332.75.75 0 0 1-.205.729l-.775.776c.616.63.995 1.493.995 2.444v.327q0 .15-.025.292c.408.14.764.392 1.029.722l1.968-.787a.75.75 0 0 1 .556 1.392L13 7.258V9h2.25a.75.75 0 0 1 0 1.5H13v.5q-.002.615-.141 1.186l2.17.868a.75.75 0 0 1-.557 1.392l-2.184-.873A5 5 0 0 1 8 16a5 5 0 0 1-4.288-2.427l-2.183.873a.75.75 0 0 1-.558-1.392l2.17-.868A5 5 0 0 1 3 11v-.5H.75a.75.75 0 0 1 0-1.5H3V7.258L.971 6.446a.75.75 0 0 1 .558-1.392l1.967.787c.265-.33.62-.583 1.03-.722a1.7 1.7 0 0 1-.026-.292V4.5c0-.951.38-1.814.995-2.444L4.72 1.28a.75.75 0 0 1 0-1.06m.53 6.28a.75.75 0 0 0-.75.75V11a3.5 3.5 0 1 0 7 0V7.25a.75.75 0 0 0-.75-.75ZM6.173 5h3.654A.17.17 0 0 0 10 4.827V4.5a2 2 0 1 0-4 0v.327c0 .096.077.173.173.173"/></svg>');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M5 5.782V2.5h-.25a.75.75 0 0 1 0-1.5h6.5a.75.75 0 0 1 0 1.5H11v3.282l3.666 5.76C15.619 13.04 14.543 15 12.767 15H3.233c-1.776 0-2.852-1.96-1.899-3.458Zm-2.4 6.565a.75.75 0 0 0 .633 1.153h9.534a.75.75 0 0 0 .633-1.153L12.225 10.5h-8.45ZM9.5 2.5h-3V6c0 .143-.04.283-.117.403L4.73 9h6.54L9.617 6.403A.75.75 0 0 1 9.5 6Z"/></svg>');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1.75 2.5h10.5a.75.75 0 0 1 0 1.5H1.75a.75.75 0 0 1 0-1.5m4 5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5m0 5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5M2.5 7.75v6a.75.75 0 0 1-1.5 0v-6a.75.75 0 0 1 1.5 0"/></svg>');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/print-site-enum-headings2.css">
+    
+      <link rel="stylesheet" href="../../css/print-site-enum-headings3.css">
+    
+      <link rel="stylesheet" href="../../css/print-site-enum-headings4.css">
+    
+      <link rel="stylesheet" href="../../css/print-site-enum-headings5.css">
+    
+      <link rel="stylesheet" href="../../css/print-site-enum-headings6.css">
+    
+      <link rel="stylesheet" href="../../css/print-site.css">
+    
+      <link rel="stylesheet" href="../../css/print-site-material.css">
+    
+      <link rel="stylesheet" href="../../style.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#creating-a-stand-alone-opensearch-instance-for-document-ingestion" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide" class="md-header__button md-logo" aria-label="IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Creating a stand-alone OpenSearch instance for document ingestion
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide" class="md-nav__button md-logo" aria-label="IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Welcome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TechZoneEnvironment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reserve the IBM Technology Zone environment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Setup/creatingAssistant-configuringConvoSearch/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating an assistant and configuring conversational search
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Bring your own search and documents
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Bring your own search and documents
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Creating a stand-alone OpenSearch instance for document ingestion
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../zassist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installing and using zassist to ingest client documents
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Adding skills to the assistant
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Adding skills to the assistant
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../skills/gettingStartedSkills/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting started with skills and actions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../skills/exploreAAP/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Explore Ansible Automation Platform
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../skills/importSkills/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Importing skills from Ansible Automation Platform
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../skills/connectingApp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Connecting the app to your assistant
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../skills/creatingActions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating actions for your assistant
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../skills/creatingFlows/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating skill flows for your assistant
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../skills/creatingCustomActions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating custom-built actions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../skills/importingzOSskills/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Importing pre-packaged z/OS skills
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../publishDeploy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Publishing and deploying your assistant
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../otherIntegrations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adding other integrations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NextSteps/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Next steps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<div><h1 id="creating-a-stand-alone-opensearch-instance-for-document-ingestion">Creating a stand-alone OpenSearch instance for document ingestion<a class="headerlink" href="#creating-a-stand-alone-opensearch-instance-for-document-ingestion" title="Permanent link">#</a></h1>
+<p>Now that you’ve created and deployed your own assistant with conversational search capabilities, your client can understand how watsonx Assistant for Z provides its content-grounded responses to any Z related question they might have. In the previous section, you configured your assistant to use a pre-configured Z <abbr title="Retrieval augmented generation">RAG</abbr> which has over 220 knowledge sources, and uses this knowledge to provide <abbr title="Artificial intelligence">AI</abbr> generated responses. </p>
+<p>In this section, learn to enable clients to personalize the assistant with an internal knowledge base that contains documentation they’d like to ingest into the Retrieval Augmented Generation (<abbr title="Retrieval augmented generation">RAG</abbr>). This will help provide a level of context-awareness for their own environment when asking environment-specific questions to the assistant.</p>
+<p>In this section, install and configure a “Z <abbr title="Retrieval augmented generation">RAG</abbr>” on Red Hat OpenShift enabling the bring-your-own-documentation (<abbr title="Bring Your Own Documentation">BYOD</abbr>) capability to ingest additional documentation beyond the pre-loaded IBM documentation. In doing so, you will deploy a dedicated <a href="https://opensearch.org/">OpenSearch</a> instance, referred to as bring-your-own-search (<abbr title="Bring Your Own Search">BYOS</abbr>). Then, connect your assistant  to the new new <abbr title="Retrieval augmented generation">RAG</abbr> database to provide responses based on the ingested documentation. </p>
+<p>Below is a high-level, logical architecture of the environment you will deploy in this section.</p>
+<p><a class="glightbox" href="../_attachments/LabArchitecture-Lab%202%20-%20a.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/LabArchitecture-Lab%202%20-%20a.png"></a></p>
+<p>Earlier, you provisioned three IBM Technology Zone (<abbr title="IBM Technology Zone">ITZ</abbr>) environments. One of which was a single-node Red Hat OpenShift (<abbr title="Single-node Red Hat OpenShift">SNO</abbr>) cluster. If you have not reserved this environment, or it is not in the <strong>Ready</strong> state, return to the 
+<a href="../../TechZoneEnvironment/">IBM Technology Zone environment</a> section to complete the reservation.</p>
+<h2 id="install-the-red-hat-openshift-command-line-interface-utility">Install the Red Hat OpenShift command-line interface utility<a class="headerlink" href="#install-the-red-hat-openshift-command-line-interface-utility" title="Permanent link">#</a></h2>
+<p>The Red Hat OpenShift command-line interface (<abbr title="Command Line Interface">CLI</abbr>) utility, which is known as <strong>oc</strong>, must be installed on your local workstation. If you already installed the <strong>oc</strong> utility, you can proceed to <a href="#Login2OpenShift">log in to the <abbr title="Single-node Red Hat OpenShift">SNO</abbr> cluster</a>.</p>
+<ol>
+<li>
+<p>Click the following link to open a browser window to your <abbr title="IBM Technology Zone">ITZ</abbr> reservations.</p>
+<p><a href="https://techzone.ibm.com/my/reservations" target="_blank"><abbr title="IBM Technology Zone">ITZ</abbr> My reservations</a></p>
+</li>
+<li>
+<p>Click the <strong>Single Node OpenShift</strong> tile.</p>
+<p><a class="glightbox" href="../_attachments/itzMyReservations.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/itzMyReservations.png"></a></p>
+</li>
+<li>
+<p>Scroll down and record the <strong>Cluster Admin Username</strong> and <strong>Cluster Admin Password</strong>.</p>
+<p><a class="glightbox" href="../_attachments/SNOIdPw.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOIdPw.png"></a></p>
+</li>
+<li>
+<p>Click the <strong><abbr title="OpenShift Container Platform">OCP</abbr> Console</strong> link.</p>
+<p><strong>Note</strong>: <abbr title="OpenShift Container Platform">OCP</abbr> stands for OpenShift Container Platform.</p>
+<p><a class="glightbox" href="../_attachments/SNOOCPLink.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOOCPLink.png"></a></p>
+</li>
+<li>
+<p>Enter the <strong>Cluster Admin Username</strong> and <strong>Cluster Admin Password</strong> values from step 3 and click <strong>Log in</strong>.</p>
+<p><a class="glightbox" href="../_attachments/SNOOCPLogin.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOOCPLogin.png"></a></p>
+</li>
+<li>
+<p>Click <strong>Help</strong> (<a class="glightbox" href="../_attachments/ocpHelpIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/ocpHelpIcon.png"></a>) and then click <strong>Command Line Tools</strong>.</p>
+<p><a class="glightbox" href="../_attachments/SNOOCPHelp.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOOCPHelp.png"></a></p>
+</li>
+<li>
+<p>Click the link under <strong>oc - OpenShift Command Line Interface (<abbr title="Command Line Interface">CLI</abbr>)</strong> for the operating system of your local machine.</p>
+<p><a class="glightbox" href="../_attachments/SNOoCPDownload.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOoCPDownload.png"></a></p>
+<p>Clicking the preceding link automatically downloads either a <strong>.zip</strong> or <strong>.tar</strong> file specific to your operating system. Unzip or untar the file. Place the <strong>oc</strong> binary for your operating system (<abbr title="Operating System">OS</abbr>) in a directory that is in your default PATH, or set the PATH environment variable to include the location of the <strong>oc</strong> binary.</p>
+</li>
+<li>
+<p>Verify the installation by running the <strong>oc</strong> command on your local workstation.</p>
+<p></p><div class="highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>oc --help
+</span></code></pre></div>
+Sample output:
+<a class="glightbox" href="../_attachments/ocHelp.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/ocHelp.png"></a>
+<details class="tip">
+<summary>Mac/<abbr title="Operating System">OS</abbr> users may need to adjust security settings.</summary>
+<p>The <strong>oc</strong> binary may cause a security exception. Adjust the security settings by opening the <strong>System Settings</strong> utility and clicking <strong>Privacy &amp; Security</strong>. Under <strong>Security</strong> locate the message about the <strong>oc</strong> binary and click <strong>Allow Anyway</strong>. Return to the terminal window and try the <code>oc --help</code> command again and click <strong>Allow Anyway</strong> when prompted.</p>
+</details>
+</li>
+</ol>
+<h2 id="prepare-to-ingest-documents">Prepare to ingest documents<a class="headerlink" href="#prepare-to-ingest-documents" title="Permanent link">#</a></h2>
+<p>Before ingesting documents, complete the following setup steps.</p>
+<p><a name="Login2OpenShift"></a></p>
+<h3 id="log-in-to-the-openshift-cluster-from-your-local-terminal">Log in to the OpenShift cluster from your local terminal<a class="headerlink" href="#log-in-to-the-openshift-cluster-from-your-local-terminal" title="Permanent link">#</a></h3>
+<p><strong>Note</strong>: If you just installed the <strong>oc</strong> utility, skip the next 5 steps.</p>
+<ol>
+<li>
+<p>Click the following link to open a browser window to your <abbr title="IBM Technology Zone">ITZ</abbr> reservations.</p>
+<p><a href="https://techzone.ibm.com/my/reservations" target="_blank"><abbr title="IBM Technology Zone">ITZ</abbr> My reservations</a></p>
+</li>
+<li>
+<p>Click the <strong>Single Node OpenShift</strong> tile.</p>
+<p><a class="glightbox" href="../_attachments/itzMyReservations.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/itzMyReservations.png"></a></p>
+</li>
+<li>
+<p>Scroll to the bottom of the reservation page and record the <strong>Cluster Admin Username</strong> and <strong>Cluster Admin Password</strong>.</p>
+<p><a class="glightbox" href="../_attachments/SNOIdPw.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOIdPw.png"></a></p>
+</li>
+<li>
+<p>Click the <strong><abbr title="OpenShift Container Platform">OCP</abbr> Console</strong> link.</p>
+<p><a class="glightbox" href="../_attachments/SNOOCPLink.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOOCPLink.png"></a></p>
+</li>
+<li>
+<p>Enter the <strong>Cluster Admin Username</strong> and <strong>Cluster Admin Password</strong> values from step 3 and click <strong>Log in</strong>.</p>
+<p><a class="glightbox" href="../_attachments/SNOOCPLogin.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOOCPLogin.png"></a></p>
+</li>
+<li>
+<p>Click the <strong>kube:admin</strong> profile drop-down and click <strong>Copy login command</strong>.</p>
+<p><a class="glightbox" href="../_attachments/SNOOCPProfile.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOOCPProfile.png"></a></p>
+</li>
+<li>
+<p>Click <strong>Display Token</strong>.</p>
+<p><a class="glightbox" href="../_attachments/SNOOCPLoginCommand1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOOCPLoginCommand1.png"></a></p>
+</li>
+<li>
+<p>Select and copy the <strong>Log in with this token</strong> string.</p>
+<p>For most operating systems, double-click the value, then right-click and select <strong>Copy</strong>.</p>
+<p><a class="glightbox" href="../_attachments/SNOOCPLoginCommand2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOOCPLoginCommand2.png"></a></p>
+</li>
+<li>
+<p>Open a command prompt or terminal window on your local workstation.</p>
+</li>
+<li>
+<p>Paste the login command and press <strong>enter</strong>.</p>
+<p><a class="glightbox" href="../_attachments/SNOOCPLoginCommand3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOOCPLoginCommand3.png"></a></p>
+</li>
+</ol>
+<h3 id="create-a-working-directory">Create a working directory<a class="headerlink" href="#create-a-working-directory" title="Permanent link">#</a></h3>
+<ol>
+<li>
+<p>Create a directory to store the configuration files that you will create in the next steps.</p>
+<div class="admonition warning">
+<p class="admonition-title">Instructions vary by your local workstation's operating system.</p>
+<p>The directions that follow may vary depending on your operating system. The examples provided are based upon MacOS.</p>
+</div>
+<div class="highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>mkdir watsonxAssistant
+</span></code></pre></div>
+</li>
+<li>
+<p>Change to the new directory.</p>
+<div class="highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>cd watsonxAssistant
+</span></code></pre></div>
+<p><a class="glightbox" href="../_attachments/SNOOCPLoginCommand4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOOCPLoginCommand4.png"></a></p>
+</li>
+</ol>
+<h3 id="install-ibm-certificate-manager-on-red-hat-openshift">Install IBM Certificate Manager on Red Hat OpenShift<a class="headerlink" href="#install-ibm-certificate-manager-on-red-hat-openshift" title="Permanent link">#</a></h3>
+<ol>
+<li>
+<p>In a text editor, create a file named <code>catalogCertManager.yaml</code> and paste the following text in the file.</p>
+<div class="admonition important">
+<p class="admonition-title">Formatting of the yaml file is critical!</p>
+<p>The content of the YAML file must be formatted exactly as shown. Use the <strong>Copy</strong> icon to prevent typographical errors.</p>
+</div>
+<p>File name: 
+</p><div class="highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>catalogCertManager.yaml
+</span></code></pre></div>
+<p>File contents:
+</p><div class="highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">operators.coreos.com/v1alpha1</span><span class="w"> </span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CatalogSource</span><span class="w"> </span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="nt">metadata</span><span class="p">:</span><span class="w"> </span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ibm-cert-manager-catalog</span><span class="w"> </span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w">  </span><span class="nt">namespace</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">openshift-marketplace</span><span class="w"> </span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="nt">spec</span><span class="p">:</span><span class="w"> </span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="w">  </span><span class="nt">displayName</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ibm-cert-manager-4.2.7</span><span class="w"> </span>
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="w">  </span><span class="nt">grpcPodConfig</span><span class="p">:</span><span class="w"> </span>
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="w">    </span><span class="nt">securityContextConfig</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">restricted</span><span class="w"> </span>
+</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="w">  </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">icr.io/cpopen/ibm-cert-manager-operator-catalog@sha256:4dcf4ace4b5f166f83b31063f7e6404dbf78d8e98a9d4fcf52fedf576a55ca6c</span><span class="w"> </span>
+</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a><span class="w">  </span><span class="nt">publisher</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">IBM</span><span class="w"> </span>
+</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a><span class="w">  </span><span class="nt">sourceType</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">grpc</span><span class="w"> </span>
+</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a><span class="w">  </span><span class="nt">updateStrategy</span><span class="p">:</span><span class="w"> </span>
+</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a><span class="w">    </span><span class="nt">registryPoll</span><span class="p">:</span><span class="w"> </span>
+</span><span id="__span-4-15"><a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a><span class="w">      </span><span class="nt">interval</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">30m0s</span>
+</span></code></pre></div>
+</li>
+<li>
+<p>Install the IBM Certificate Manager operator in the Red Hat OpenShift cluster.</p>
+<div class="highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>oc apply -f catalogCertManager.yaml
+</span></code></pre></div>
+<p>The preceding command returns a message that states the <strong>ibm-cert-manager-catalog</strong> was created.</p>
+</li>
+<li>
+<p>In the OpenShift web console, click <strong>Operators</strong> and then select <strong>OperatorHub</strong>.</p>
+<p><a class="glightbox" href="../_attachments/SNOOCPOperator0.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOOCPOperator0.png"></a></p>
+</li>
+<li>
+<p>Click the <strong>Project</strong> to pull-down menu and click the <strong>Show default projects</strong> toggle.</p>
+<p><a class="glightbox" href="../_attachments/SNOOCPOperator1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOOCPOperator1.png"></a></p>
+</li>
+<li>
+<p>Scroll down and select <strong>openshift-marketplace</strong>.</p>
+<p><a class="glightbox" href="../_attachments/SNOOCPOperator2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOOCPOperator2.png"></a></p>
+</li>
+<li>
+<p>Enter <strong>IBM Cert Manager</strong> in the search field and then click the <strong>IBM Cert Manager</strong> tile.</p>
+<div class="admonition tip">
+<p class="admonition-title">Be patient.</p>
+<p>It may take a minute or two for the <strong>IBM Cert Manager</strong> tile to appear. </p>
+</div>
+<p><strong>Note</strong>: The current version of the operator may differ than the one shown in the image below. Select the most current version.</p>
+<p><a class="glightbox" href="../_attachments/SNOOCPOperator3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOOCPOperator3.png"></a></p>
+</li>
+<li>
+<p>Click <strong>Install</strong>.</p>
+<p><a class="glightbox" href="../_attachments/SNOOCPOperator4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOOCPOperator4.png"></a></p>
+</li>
+<li>
+<p>Keep the default settings and click <strong>Install</strong>.</p>
+<p><a class="glightbox" href="../_attachments/SNOOCPOperator5.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOOCPOperator5.png"></a></p>
+<div class="admonition warning">
+<p class="admonition-title">Do not continue until...</p>
+<p>The installation process takes a few minutes. Do not continue until you see the following message: <strong>Installed operator: ready for use</strong>.</p>
+<p><a class="glightbox" href="../_attachments/SNOOCPOperator6.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOOCPOperator6.png"></a></p>
+</div>
+</li>
+</ol>
+<h3 id="install-the-watsonx-assistant-for-z-operator-for-opensearch">Install the watsonx Assistant for Z Operator (for OpenSearch)<a class="headerlink" href="#install-the-watsonx-assistant-for-z-operator-for-opensearch" title="Permanent link">#</a></h3>
+<ol>
+<li>
+<p>In your command prompt or terminal window, create a new namespace called <code>wxa4z-byos</code> in the Red Hat OpenShift cluster.</p>
+<div class="highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>oc create namespace wxa4z-byos 
+</span></code></pre></div>
+</li>
+<li>
+<p>Create or obtain your IBM Container Software production entitlement key.</p>
+<p>A production entitlement key is required to pull the container images that get deployed by the operator.</p>
+<p>To create or retrieve your existing entitlement key, follow the instructions <a href="https://myibm.ibm.com/products-services/containerlibrary" target="_blank">here</a>.</p>
+<p>If additional assistance is needed, refer to this <a href="https://github.ibm.com/alchemy-registry/image-iam/blob/master/obtaining_entitlement.md" target="_blank">site</a>. </p>
+<p>After locating your existing key or creating a new key, continue to the next step.</p>
+</li>
+<li>
+<p>Click <strong>copy</strong> and record your entitlement key for future use in a secure location.</p>
+<p><a class="glightbox" href="../_attachments/copyEntitlementKey.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/copyEntitlementKey.png"></a></p>
+</li>
+<li>
+<p>In your command prompt or terminal window, set an environment variable with your production entitlement key.</p>
+<p>Substitute your production entitlement key copied in the last step for <code>&lt;entitlement key&gt;</code>.</p>
+<p>Mac <abbr title="Operating System">OS</abbr>:
+</p><div class="highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>export IBM_CS_ENT_KEY=&lt;entitlement key&gt;
+</span></code></pre></div>
+<p>Microsoft Windows:
+</p><div class="highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>set IBM_CS_ENT_KEY=&lt;entitlement key&gt;
+</span></code></pre></div>
+</li>
+<li>
+<p>Enter the following command to create a pull secret for the <strong>Container Registry</strong>.</p>
+<p>Mac <abbr title="Operating System">OS</abbr>:
+</p><div class="highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>oc -n wxa4z-byos create secret docker-registry icr-pull-secret --docker-server=cp.icr.io --docker-username=cp --docker-password=$IBM_CS_ENT_KEY
+</span></code></pre></div>
+<p>Microsoft Windows:
+</p><div class="highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>oc -n wxa4z-byos create secret docker-registry icr-pull-secret --docker-server=cp.icr.io --docker-username=cp --docker-password=%IBM_CS_ENT_KEY%
+</span></code></pre></div>
+<p><a class="glightbox" href="../_attachments/createPullSecret.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/createPullSecret.png"></a></p>
+</li>
+<li>
+<p>In a text editor, create a file named <code>catalogSource.yaml</code> and paste the following text in the file.</p>
+<div class="admonition important">
+<p class="admonition-title">Formatting of the yaml file is critical!</p>
+<p>The content of YAML files must be formatted exactly as shown. Use the copy icon to prevent typographical errors.</p>
+</div>
+<p>File name: 
+</p><div class="highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>catalogSource.yaml
+</span></code></pre></div>
+<p>File contents:
+</p><div class="highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">operators.coreos.com/v1alpha1</span><span class="w"> </span>
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CatalogSource</span><span class="w"> </span>
+</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="nt">metadata</span><span class="p">:</span><span class="w"> </span>
+</span><span id="__span-12-4"><a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a><span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ibm-wxa4z-operator-catalog</span><span class="w"> </span>
+</span><span id="__span-12-5"><a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a><span class="w">  </span><span class="nt">namespace</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">wxa4z-byos</span><span class="w"> </span>
+</span><span id="__span-12-6"><a id="__codelineno-12-6" name="__codelineno-12-6" href="#__codelineno-12-6"></a><span class="nt">spec</span><span class="p">:</span><span class="w"> </span>
+</span><span id="__span-12-7"><a id="__codelineno-12-7" name="__codelineno-12-7" href="#__codelineno-12-7"></a><span class="w">  </span><span class="nt">displayName</span><span class="p">:</span><span class="w"> </span><span class="s">"IBM</span><span class="nv"> </span><span class="s">watsonx</span><span class="nv"> </span><span class="s">Assistant</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">Z</span><span class="nv"> </span><span class="s">Operator</span><span class="nv"> </span><span class="s">Catalog"</span><span class="w"> </span>
+</span><span id="__span-12-8"><a id="__codelineno-12-8" name="__codelineno-12-8" href="#__codelineno-12-8"></a><span class="w">  </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">icr.io/cpopen/ibm-wxa4z-catalog:v2.1.0@sha256:a085d360b6aa0e40cf86a632eb5cd190a0407d1c54ec1b2d1d2fb5507f39a524</span>
+</span><span id="__span-12-9"><a id="__codelineno-12-9" name="__codelineno-12-9" href="#__codelineno-12-9"></a><span class="w">  </span><span class="nt">publisher</span><span class="p">:</span><span class="w"> </span><span class="s">'IBM'</span><span class="w"> </span>
+</span><span id="__span-12-10"><a id="__codelineno-12-10" name="__codelineno-12-10" href="#__codelineno-12-10"></a><span class="w">  </span><span class="nt">sourceType</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">grpc</span><span class="w"> </span>
+</span><span id="__span-12-11"><a id="__codelineno-12-11" name="__codelineno-12-11" href="#__codelineno-12-11"></a><span class="w">  </span><span class="nt">secrets</span><span class="p">:</span><span class="w"> </span>
+</span><span id="__span-12-12"><a id="__codelineno-12-12" name="__codelineno-12-12" href="#__codelineno-12-12"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">icr-pull-secret</span>
+</span></code></pre></div>
+</li>
+<li>
+<p>Create your document catalog in the Red Hat OpenShift operator.</p>
+<div class="highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>oc apply -f catalogSource.yaml
+</span></code></pre></div>
+<p><a class="glightbox" href="../_attachments/createCatalog.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/createCatalog.png"></a></p>
+</li>
+<li>
+<p>In the Red Hat OpenShift web console, click <strong>OperatorHub</strong> and select the <strong>wxa4z-byos</strong> project.</p>
+<p><a class="glightbox" href="../_attachments/installAssistantOperator0.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/installAssistantOperator0.png"></a></p>
+</li>
+<li>
+<p>Enter <strong>ibm watsonx</strong> in the search field and the click the <strong>IBM watsonx Assistant for Z Operator Catalog</strong> tile.</p>
+<div class="admonition tip">
+<p class="admonition-title">Be patient.</p>
+<p>It may take a minute or two for the <strong>IBM watsonx Assistant for Z Operator Catalog</strong> tile to appear. </p>
+</div>
+<p><strong>Note</strong>: The current version of the operator may differ than the one shown in the image below.</p>
+<p><a class="glightbox" href="../_attachments/installAssistantOperator1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/installAssistantOperator1.png"></a></p>
+</li>
+<li>
+<p>Click <strong>Install</strong>.</p>
+<p><strong>Note</strong>: The current version of the operator may differ than the one shown in the image below. Select the most current version.</p>
+<p><a class="glightbox" href="../_attachments/installAssistantOperator2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/installAssistantOperator2.png"></a></p>
+</li>
+<li>
+<p>Select <strong>A specific namespace on the cluster</strong> (<strong>a</strong>) under <strong>Installation mode</strong> and <strong>wxa4z-byos</strong> (<strong>b</strong>) for the <strong>Installed Namespace</strong>, then click <strong>Install</strong> (<strong>c</strong>).</p>
+<p><a class="glightbox" href="../_attachments/installAssistantOperator3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/installAssistantOperator3.png"></a></p>
+<div class="admonition warning">
+<p class="admonition-title">Do not continue until...</p>
+<p>The installation process takes a few minutes. Do not continue until you see the following message: <strong>Installed operator: ready for use</strong>.</p>
+<p><a class="glightbox" href="../_attachments/installAssistantOperator4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/installAssistantOperator4.png"></a></p>
+</div>
+</li>
+<li>
+<p>In your command prompt or terminal window, run the following commands to add the Container Registry credential to the operator's service account.</p>
+<p>Mac <abbr title="Operating System">OS</abbr> and Microsoft Windows:
+</p><div class="highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>oc project wxa4z-byos
+</span></code></pre></div>
+<p>Mac <abbr title="Operating System">OS</abbr>:
+</p><div class="highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>oc patch serviceaccount ibm-wxa4z-operator-controller-manager --type merge -p '{"imagePullSecrets": [{"name": "icr-pull-secret"}]}'
+</span></code></pre></div>
+<p>Microsoft Windows:
+</p><div class="highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>oc patch serviceaccount ibm-wxa4z-operator-controller-manager --type merge -p "{\"imagePullSecrets\":[{\"name\":\"icr-pull-secret\"}]}"
+</span></code></pre></div>
+<p><a class="glightbox" href="../_attachments/installAssistantOperator5.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/installAssistantOperator5.png"></a></p>
+</li>
+<li>
+<p>In the Red Hat OpenShift web console, under <strong>Workloads</strong>, click <strong>Pods</strong>.</p>
+<p><a class="glightbox" href="../_attachments/installAssistantOperator6.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/installAssistantOperator6.png"></a></p>
+</li>
+<li>
+<p>Verify the two pods that start with <strong>ibm-wxa4z-operator</strong> have a status of <strong>Running</strong> and that all pods are <strong>Ready</strong>.</p>
+<p><a class="glightbox" href="../_attachments/installAssistantOperator7.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/installAssistantOperator7.png"></a></p>
+</li>
+<li>
+<p>Run the following command to set the administrative policy for the workspace.</p>
+<div class="highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>oc -n wxa4z-byos adm policy add-scc-to-user privileged -z byos
+</span></code></pre></div>
+<p><a class="glightbox" href="../_attachments/installAssistantOperator8.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/installAssistantOperator8.png"></a></p>
+</li>
+</ol>
+<h3 id="deploy-required-secrets-and-the-custom-bring-your-own-search-byosearch-resources">Deploy required secrets and the custom bring-your-own-search (BYOSearch) resources<a class="headerlink" href="#deploy-required-secrets-and-the-custom-bring-your-own-search-byosearch-resources" title="Permanent link">#</a></h3>
+<ol>
+<li>
+<p>In a text editor, create a file named <code>os-secret.yaml</code> and paste the following text in the file.</p>
+<p>File name: 
+</p><div class="highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>os-secret.yaml
+</span></code></pre></div>
+<p>Substitute a secure password of your choosing for the string <code>&lt;OPENSEARCH_PASSWORD&gt;</code>.</p>
+<p>File contents:
+</p><div class="highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">v1</span><span class="w"> </span>
+</span><span id="__span-19-2"><a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a><span class="nt">stringData</span><span class="p">:</span><span class="w"> </span>
+</span><span id="__span-19-3"><a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a><span class="w">  </span><span class="nt">password</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;OPENSEARCH_PASSWORD&gt;</span><span class="w"> </span>
+</span><span id="__span-19-4"><a id="__codelineno-19-4" name="__codelineno-19-4" href="#__codelineno-19-4"></a><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Secret</span><span class="w"> </span>
+</span><span id="__span-19-5"><a id="__codelineno-19-5" name="__codelineno-19-5" href="#__codelineno-19-5"></a><span class="nt">metadata</span><span class="p">:</span><span class="w"> </span>
+</span><span id="__span-19-6"><a id="__codelineno-19-6" name="__codelineno-19-6" href="#__codelineno-19-6"></a><span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">opensearch-creds</span><span class="w"> </span>
+</span><span id="__span-19-7"><a id="__codelineno-19-7" name="__codelineno-19-7" href="#__codelineno-19-7"></a><span class="w">  </span><span class="nt">namespace</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">wxa4z-byos</span><span class="w"> </span>
+</span><span id="__span-19-8"><a id="__codelineno-19-8" name="__codelineno-19-8" href="#__codelineno-19-8"></a><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Opaque</span>
+</span></code></pre></div>
+</li>
+<li>
+<p>Create the secret by running the following command.</p>
+<div class="highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>oc apply -f os-secret.yaml
+</span></code></pre></div>
+</li>
+</ol>
+<p><a name="AuthKey"></a></p>
+<ol start="3">
+<li>
+<p>In a text editor, create a file named <code>client-ingestion-secret.yaml</code> and paste the following text in the file.</p>
+<p>File name: 
+</p><div class="highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>client-ingestion-secret.yaml
+</span></code></pre></div>
+<p>Substitute a secure authentication key of your choosing for the string <code>&lt;CLIENT_INGESTION_AUTHKEY&gt;</code>. The authentication key can be a random password.</p>
+<p>File contents:
+</p><div class="highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">v1</span><span class="w"> </span>
+</span><span id="__span-22-2"><a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a><span class="nt">stringData</span><span class="p">:</span><span class="w"> </span>
+</span><span id="__span-22-3"><a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a><span class="w">  </span><span class="nt">authkey</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;CLIENT_INGESTION_AUTHKEY&gt;</span><span class="w"> </span>
+</span><span id="__span-22-4"><a id="__codelineno-22-4" name="__codelineno-22-4" href="#__codelineno-22-4"></a><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Secret</span><span class="w"> </span>
+</span><span id="__span-22-5"><a id="__codelineno-22-5" name="__codelineno-22-5" href="#__codelineno-22-5"></a><span class="nt">metadata</span><span class="p">:</span><span class="w"> </span>
+</span><span id="__span-22-6"><a id="__codelineno-22-6" name="__codelineno-22-6" href="#__codelineno-22-6"></a><span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">client-ingestion-authkey</span><span class="w"> </span>
+</span><span id="__span-22-7"><a id="__codelineno-22-7" name="__codelineno-22-7" href="#__codelineno-22-7"></a><span class="w">  </span><span class="nt">namespace</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">wxa4z-byos</span><span class="w"> </span>
+</span><span id="__span-22-8"><a id="__codelineno-22-8" name="__codelineno-22-8" href="#__codelineno-22-8"></a><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Opaque</span>
+</span></code></pre></div>
+</li>
+<li>
+<p>Create the secret by running the following command.</p>
+<div class="highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>oc apply -f client-ingestion-secret.yaml
+</span></code></pre></div>
+</li>
+<li>
+<p>In a text editor, create a file named <code>wrapper-creds.yaml</code> and paste the following text in the file.</p>
+<p>File name: 
+</p><div class="highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>wrapper-creds.yaml
+</span></code></pre></div>
+<p>Substitute a secure password credential of your choosing for the string <code>&lt;WRAPPER_PASSWORD&gt;</code>. The password can be a random password. Use this password in the following steps when you configure your <abbr title="Bring Your Own Search">BYOS</abbr> connection in your assistant to connect to the network route.</p>
+<p>File contents:
+</p><div class="highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">v1</span>
+</span><span id="__span-25-2"><a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a><span class="nt">stringData</span><span class="p">:</span>
+</span><span id="__span-25-3"><a id="__codelineno-25-3" name="__codelineno-25-3" href="#__codelineno-25-3"></a><span class="w">  </span><span class="nt">username</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">admin</span>
+</span><span id="__span-25-4"><a id="__codelineno-25-4" name="__codelineno-25-4" href="#__codelineno-25-4"></a><span class="w">  </span><span class="nt">password</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;WRAPPER_PASSWORD&gt;</span>
+</span><span id="__span-25-5"><a id="__codelineno-25-5" name="__codelineno-25-5" href="#__codelineno-25-5"></a><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Secret</span>
+</span><span id="__span-25-6"><a id="__codelineno-25-6" name="__codelineno-25-6" href="#__codelineno-25-6"></a><span class="nt">metadata</span><span class="p">:</span>
+</span><span id="__span-25-7"><a id="__codelineno-25-7" name="__codelineno-25-7" href="#__codelineno-25-7"></a><span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">wrapper-creds</span>
+</span><span id="__span-25-8"><a id="__codelineno-25-8" name="__codelineno-25-8" href="#__codelineno-25-8"></a><span class="w">  </span><span class="nt">namespace</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">wxa4z-byos</span>
+</span><span id="__span-25-9"><a id="__codelineno-25-9" name="__codelineno-25-9" href="#__codelineno-25-9"></a><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Opaque</span>
+</span></code></pre></div>
+</li>
+<li>
+<p>Create the secret by running the following command.</p>
+<div class="highlight"><pre><span></span><code><span id="__span-26-1"><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>oc apply -f wrapper-creds.yaml
+</span></code></pre></div>
+</li>
+<li>
+<p>Obtain and record your cluster domain that is used for routes by running the following command.</p>
+<div class="highlight"><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>oc -n openshift-ingress-operator get ingresscontroller default -o jsonpath="{.status.domain}"
+</span></code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">The output from the command does not include a newline.</p>
+<p>The value returned for the cluster domain does not include a newline. When copying the value do not include the character or characters used for your command line prompt. Do not include the your prompt in the next step!</p>
+</div>
+<p><strong>Note</strong>: The output of the command will be a string similar to: <strong>apps.672b79320c7a71b728e523b4.ocp.techzone.ibm.com</strong></p>
+</li>
+<li>
+<p>In a text editor, create a file named <code>byos.yaml</code> and paste the following text in the file.</p>
+<p>File name: 
+</p><div class="highlight"><pre><span></span><code><span id="__span-28-1"><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>byos.yaml
+</span></code></pre></div>
+<p>Substitute the domain name recorded in the previous step for the string <code>&lt;YOUR_CLUSTER_DOMAIN&gt;</code>.</p>
+<p>File contents:
+</p><div class="highlight"><pre><span></span><code><span id="__span-29-1"><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">wxa4z.watsonx.ibm.com/v1</span>
+</span><span id="__span-29-2"><a id="__codelineno-29-2" name="__codelineno-29-2" href="#__codelineno-29-2"></a><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">BYOSearch</span>
+</span><span id="__span-29-3"><a id="__codelineno-29-3" name="__codelineno-29-3" href="#__codelineno-29-3"></a><span class="nt">metadata</span><span class="p">:</span>
+</span><span id="__span-29-4"><a id="__codelineno-29-4" name="__codelineno-29-4" href="#__codelineno-29-4"></a><span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">byosearch</span>
+</span><span id="__span-29-5"><a id="__codelineno-29-5" name="__codelineno-29-5" href="#__codelineno-29-5"></a><span class="w">  </span><span class="nt">namespace</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">wxa4z-byos</span>
+</span><span id="__span-29-6"><a id="__codelineno-29-6" name="__codelineno-29-6" href="#__codelineno-29-6"></a><span class="nt">spec</span><span class="p">:</span>
+</span><span id="__span-29-7"><a id="__codelineno-29-7" name="__codelineno-29-7" href="#__codelineno-29-7"></a><span class="w">  </span><span class="nt">imagePullSecrets</span><span class="p">:</span>
+</span><span id="__span-29-8"><a id="__codelineno-29-8" name="__codelineno-29-8" href="#__codelineno-29-8"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name </span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">icr-pull-secret</span>
+</span><span id="__span-29-9"><a id="__codelineno-29-9" name="__codelineno-29-9" href="#__codelineno-29-9"></a><span class="w">  </span><span class="nt">namespace</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">wxa4z-byos</span>
+</span><span id="__span-29-10"><a id="__codelineno-29-10" name="__codelineno-29-10" href="#__codelineno-29-10"></a><span class="w">  </span><span class="nt">clusterName</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">wxa4z-byos-cluster</span>
+</span><span id="__span-29-11"><a id="__codelineno-29-11" name="__codelineno-29-11" href="#__codelineno-29-11"></a><span class="w">  </span><span class="nt">clusterDomain</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;YOUR_CLUSTER_DOMAIN&gt;</span>
+</span><span id="__span-29-12"><a id="__codelineno-29-12" name="__codelineno-29-12" href="#__codelineno-29-12"></a>
+</span><span id="__span-29-13"><a id="__codelineno-29-13" name="__codelineno-29-13" href="#__codelineno-29-13"></a><span class="w">  </span><span class="nt">opensearch</span><span class="p">:</span>
+</span><span id="__span-29-14"><a id="__codelineno-29-14" name="__codelineno-29-14" href="#__codelineno-29-14"></a><span class="w">    </span><span class="nt">secretName</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">opensearch-creds</span>
+</span><span id="__span-29-15"><a id="__codelineno-29-15" name="__codelineno-29-15" href="#__codelineno-29-15"></a>
+</span><span id="__span-29-16"><a id="__codelineno-29-16" name="__codelineno-29-16" href="#__codelineno-29-16"></a><span class="w">    </span><span class="nt">persistence</span><span class="p">:</span>
+</span><span id="__span-29-17"><a id="__codelineno-29-17" name="__codelineno-29-17" href="#__codelineno-29-17"></a><span class="w">      </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+</span><span id="__span-29-18"><a id="__codelineno-29-18" name="__codelineno-29-18" href="#__codelineno-29-18"></a><span class="w">      </span><span class="nt">storageClass</span><span class="p">:</span><span class="w"> </span><span class="s">"managed-nfs-storage"</span>
+</span><span id="__span-29-19"><a id="__codelineno-29-19" name="__codelineno-29-19" href="#__codelineno-29-19"></a><span class="w">      </span><span class="nt">accessModes</span><span class="p">:</span>
+</span><span id="__span-29-20"><a id="__codelineno-29-20" name="__codelineno-29-20" href="#__codelineno-29-20"></a><span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ReadWriteOnce</span>
+</span><span id="__span-29-21"><a id="__codelineno-29-21" name="__codelineno-29-21" href="#__codelineno-29-21"></a><span class="w">      </span><span class="nt">size</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">24Gi</span>
+</span><span id="__span-29-22"><a id="__codelineno-29-22" name="__codelineno-29-22" href="#__codelineno-29-22"></a>
+</span><span id="__span-29-23"><a id="__codelineno-29-23" name="__codelineno-29-23" href="#__codelineno-29-23"></a><span class="w">  </span><span class="nt">wrapper</span><span class="p">:</span>
+</span><span id="__span-29-24"><a id="__codelineno-29-24" name="__codelineno-29-24" href="#__codelineno-29-24"></a><span class="w">    </span><span class="nt">createRoute</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+</span><span id="__span-29-25"><a id="__codelineno-29-25" name="__codelineno-29-25" href="#__codelineno-29-25"></a><span class="w">    </span><span class="nt">resources</span><span class="p">:</span>
+</span><span id="__span-29-26"><a id="__codelineno-29-26" name="__codelineno-29-26" href="#__codelineno-29-26"></a><span class="w">      </span><span class="nt">requests</span><span class="p">:</span>
+</span><span id="__span-29-27"><a id="__codelineno-29-27" name="__codelineno-29-27" href="#__codelineno-29-27"></a><span class="w">        </span><span class="nt">cpu</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">2</span>
+</span><span id="__span-29-28"><a id="__codelineno-29-28" name="__codelineno-29-28" href="#__codelineno-29-28"></a><span class="w">        </span><span class="nt">memory</span><span class="p">:</span><span class="w"> </span><span class="s">"500Mi"</span>
+</span><span id="__span-29-29"><a id="__codelineno-29-29" name="__codelineno-29-29" href="#__codelineno-29-29"></a><span class="w">    </span><span class="nt">limits</span><span class="p">:</span>
+</span><span id="__span-29-30"><a id="__codelineno-29-30" name="__codelineno-29-30" href="#__codelineno-29-30"></a><span class="w">        </span><span class="nt">cpu</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">2</span>
+</span><span id="__span-29-31"><a id="__codelineno-29-31" name="__codelineno-29-31" href="#__codelineno-29-31"></a><span class="w">        </span><span class="nt">memory</span><span class="p">:</span><span class="w"> </span><span class="s">"1Gi"</span>
+</span><span id="__span-29-32"><a id="__codelineno-29-32" name="__codelineno-29-32" href="#__codelineno-29-32"></a>
+</span><span id="__span-29-33"><a id="__codelineno-29-33" name="__codelineno-29-33" href="#__codelineno-29-33"></a><span class="w">  </span><span class="nt">clientIngestion</span><span class="p">:</span>
+</span><span id="__span-29-34"><a id="__codelineno-29-34" name="__codelineno-29-34" href="#__codelineno-29-34"></a><span class="w">    </span><span class="nt">secretName</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">client-ingestion-authkey</span>
+</span><span id="__span-29-35"><a id="__codelineno-29-35" name="__codelineno-29-35" href="#__codelineno-29-35"></a>
+</span><span id="__span-29-36"><a id="__codelineno-29-36" name="__codelineno-29-36" href="#__codelineno-29-36"></a><span class="w">    </span><span class="nt">resources</span><span class="p">:</span>
+</span><span id="__span-29-37"><a id="__codelineno-29-37" name="__codelineno-29-37" href="#__codelineno-29-37"></a><span class="w">      </span><span class="nt">limits</span><span class="p">:</span>
+</span><span id="__span-29-38"><a id="__codelineno-29-38" name="__codelineno-29-38" href="#__codelineno-29-38"></a><span class="w">        </span><span class="nt">cpu</span><span class="p">:</span><span class="w"> </span><span class="s">"500m"</span>
+</span><span id="__span-29-39"><a id="__codelineno-29-39" name="__codelineno-29-39" href="#__codelineno-29-39"></a><span class="w">        </span><span class="nt">memory</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">2Gi</span>
+</span><span id="__span-29-40"><a id="__codelineno-29-40" name="__codelineno-29-40" href="#__codelineno-29-40"></a><span class="w">        </span><span class="nt">nvidia.com/gpu</span><span class="p">:</span><span class="w"> </span><span class="s">"0"</span>
+</span><span id="__span-29-41"><a id="__codelineno-29-41" name="__codelineno-29-41" href="#__codelineno-29-41"></a><span class="w">      </span><span class="nt">requests</span><span class="p">:</span>
+</span><span id="__span-29-42"><a id="__codelineno-29-42" name="__codelineno-29-42" href="#__codelineno-29-42"></a><span class="w">        </span><span class="nt">cpu</span><span class="p">:</span><span class="w"> </span><span class="s">"500m"</span>
+</span><span id="__span-29-43"><a id="__codelineno-29-43" name="__codelineno-29-43" href="#__codelineno-29-43"></a><span class="w">        </span><span class="nt">memory</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1Gi</span>
+</span><span id="__span-29-44"><a id="__codelineno-29-44" name="__codelineno-29-44" href="#__codelineno-29-44"></a><span class="w">        </span><span class="nt">nvidia.com/gpu</span><span class="p">:</span><span class="w"> </span><span class="s">"0"</span>
+</span><span id="__span-29-45"><a id="__codelineno-29-45" name="__codelineno-29-45" href="#__codelineno-29-45"></a><span class="w">    </span><span class="nt">pvc</span><span class="p">:</span>
+</span><span id="__span-29-46"><a id="__codelineno-29-46" name="__codelineno-29-46" href="#__codelineno-29-46"></a><span class="w">      </span><span class="nt">storageClass</span><span class="p">:</span><span class="w"> </span><span class="s">"managed-nfs-storage"</span>
+</span><span id="__span-29-47"><a id="__codelineno-29-47" name="__codelineno-29-47" href="#__codelineno-29-47"></a><span class="w">      </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+</span><span id="__span-29-48"><a id="__codelineno-29-48" name="__codelineno-29-48" href="#__codelineno-29-48"></a><span class="w">      </span><span class="nt">size</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">24Gi</span>
+</span></code></pre></div>
+</li>
+<li>
+<p>Run the following command to deploy <abbr title="Bring Your Own Search">BYOS</abbr> on your cluster.</p>
+<div class="highlight"><pre><span></span><code><span id="__span-30-1"><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>oc apply -f byos.yaml
+</span></code></pre></div>
+</li>
+</ol>
+<h3 id="verify-all-the-required-pods-are-running-and-get-the-network-route-to-your-byos-instance">Verify all the required pods are running and get the network route to your <abbr title="Bring Your Own Search">BYOS</abbr> instance<a class="headerlink" href="#verify-all-the-required-pods-are-running-and-get-the-network-route-to-your-byos-instance" title="Permanent link">#</a></h3>
+<ol>
+<li>
+<p>In the <abbr title="OpenShift Container Platform">OCP</abbr> console, verify that all pods have the status of <strong>Running</strong> or <strong>Completed</strong>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Do not continue until...</p>
+<p>The <abbr title="Bring Your Own Search">BYOS</abbr> deployment can take 20 minutes or more to complete. Do not continue until all the pods have a status of “Running” or "Completed". The next step is to retrieve your <abbr title="Bring Your Own Search">BYOS</abbr> endpoint <abbr title="Uniform Resource Locator">URL</abbr>.</p>
+<p><a class="glightbox" href="../_attachments/ocpWorkloadsPodsStatus.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/ocpWorkloadsPodsStatus.png"></a></p>
+</div>
+</li>
+<li>
+<p>Under <strong>Networking</strong>, click <strong>Routes</strong>.</p>
+<p><a class="glightbox" href="../_attachments/ocpNetworkingRoutesMenu.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/ocpNetworkingRoutesMenu.png"></a></p>
+</li>
+<li>
+<p>Copy and record the location for the <strong>wxa4z-opensearch-wrapper</strong> route.</p>
+<p><a class="glightbox" href="../_attachments/ocpRouteToWrapper.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/ocpRouteToWrapper.png"></a></p>
+</li>
+</ol>
+<h3 id="update-your-assistant-with-the-new-byos-instance-route">Update your assistant with the new <abbr title="Bring Your Own Search">BYOS</abbr> instance route<a class="headerlink" href="#update-your-assistant-with-the-new-byos-instance-route" title="Permanent link">#</a></h3>
+<p><a name="BYOS-url"></a>
+You are now ready to configure your assistant with the route to your <abbr title="Bring Your Own Search">BYOS</abbr> instance.</p>
+<ol>
+<li>
+<p>Using the network route for your <abbr title="Bring Your Own Search">BYOS</abbr> instance, append the string <strong>/v1/query</strong> to complete the <abbr title="Uniform Resource Locator">URL</abbr> endpoint. </p>
+<p>The <abbr title="Uniform Resource Locator">URL</abbr> should look similar to:</p>
+<p><code>https://wxa4z-opensearch-wrapper-wxa4z-byos.apps.672b79320c7a71b728e523b4.ocp.techzone.ibm.com/v1/query</code></p>
+<p><strong>Important</strong>: The above <abbr title="Uniform Resource Locator">URL</abbr> will not work for you. Use the value of your specific OpenSearch instance that is recorded in the previous step.</p>
+</li>
+<li>
+<p>Update your assistant's custom search integration <abbr title="Uniform Resource Locator">URL</abbr>.</p>
+<p>Next, you need to return to your assistant in the watsonx Orchestrate <abbr title="Artificial intelligence">AI</abbr> assistant builder and update the custom search integration <abbr title="Uniform Resource Locator">URL</abbr>. Use the <abbr title="Uniform Resource Locator">URL</abbr> form the network route (with <strong>/v1/query</strong>) appended. Use <strong>admin</strong> for the <strong>Username</strong> and the <strong>Password</strong> will be the password you specified in the <code>wrapper-creds.yaml</code> file. </p>
+<div class="admonition tip">
+<p class="admonition-title">Don't recall how to set the customer search <abbr title="Uniform Resource Locator">URL</abbr>?</p>
+<p>Refer back to <a href="../../Setup/creatingAssistant-configuringConvoSearch/#configure-conversational-search">Creating an assistant and configuring conversational search</a> if you don't remember how to specify the customer search <abbr title="Uniform Resource Locator">URL</abbr>.</p>
+</div>
+</li>
+<li>
+<p>Test your assistant and verify it is still answering question related to IBM Z.</p>
+<p>Experiment with different prompts and validate that the answers provided are reasonable, and that you can view the documentation that was sourced. If responses are not received as expected, verify the <abbr title="Uniform Resource Locator">URL</abbr> is formatted correctly and you specified the <code>`wrapper-creds.yaml</code> password as the <strong>admin</strong> password.</p>
+</li>
+</ol>
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">#</a></h2>
+<p>The following are issues that you may encounter. If the provided resolutions do not work, contact support by using the methods that are mentioned in the <a href="../../#support">Support</a> section.</p>
+<details class="failure">
+<summary>Pods have a status of <strong>ErrImagePull</strong> or <strong>ImagePullBackoff</strong></summary>
+<p>If the pods starting with <strong>ibm-wxa4z-operator</strong> have a status of “ErrImagePull” or “ImagePullBackoff”, you can delete the pod and it will automatically restart and pull the image successfully. Wait until the pod is re-created successfully.</p>
+</details>
+<details class="failure">
+<summary>The <strong>wxa4z-client-ingestion</strong> pod does not start</summary>
+<p>Did you include the <strong>%</strong> character in the <strong>clusterDomain</strong> name when creating the <strong>byos.yaml</strong>? To resolve, edit the <strong>byos.yaml</strong> file and run the following command again. The current pod will be terminated and a new one started. This will take about 20 minutes to start.</p>
+<div class="highlight"><pre><span></span><code><span id="__span-31-1"><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>oc apply -f byos.yaml
+</span></code></pre></div>
+</details>
+<!-- Terminology -->
+<!-- Keep the list alphabetized for easy deduplication --></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../../Setup/creatingAssistant-configuringConvoSearch/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Creating an assistant and configuring conversational search">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Creating an assistant and configuring conversational search
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../zassist/" class="md-footer__link md-footer__link--next" aria-label="Next: Installing and using zassist to ingest client documents">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Installing and using zassist to ingest client documents
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 IBM - V 2.0
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "content.code.annotate", "content.code.copy", "content.code.select", "navigation.footer", {"hide": ["toc"]}], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../js/print-site.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>

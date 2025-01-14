@@ -13,21 +13,25 @@
       
       
       
+        <link rel="prev" href="../connectingApp/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+        <link rel="next" href="../creatingFlows/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
     
     
       
-        <title>Nav - IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide</title>
+        <title>Creating actions for your assistant - IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.0253249f.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
   
@@ -87,30 +91,30 @@
       
     
     
-      <link rel="stylesheet" href="../css/print-site-enum-headings2.css">
+      <link rel="stylesheet" href="../../css/print-site-enum-headings2.css">
     
-      <link rel="stylesheet" href="../css/print-site-enum-headings3.css">
+      <link rel="stylesheet" href="../../css/print-site-enum-headings3.css">
     
-      <link rel="stylesheet" href="../css/print-site-enum-headings4.css">
+      <link rel="stylesheet" href="../../css/print-site-enum-headings4.css">
     
-      <link rel="stylesheet" href="../css/print-site-enum-headings5.css">
+      <link rel="stylesheet" href="../../css/print-site-enum-headings5.css">
     
-      <link rel="stylesheet" href="../css/print-site-enum-headings6.css">
+      <link rel="stylesheet" href="../../css/print-site-enum-headings6.css">
     
-      <link rel="stylesheet" href="../css/print-site.css">
+      <link rel="stylesheet" href="../../css/print-site.css">
     
-      <link rel="stylesheet" href="../css/print-site-material.css">
+      <link rel="stylesheet" href="../../css/print-site-material.css">
     
-      <link rel="stylesheet" href="../style.css">
+      <link rel="stylesheet" href="../../style.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
     
-   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
     .gslide-desc { color: #666; user-select: text; }
@@ -119,7 +123,7 @@
     .gdesc-inner { font-size: 0.75rem; }
     body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
     body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -137,6 +141,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#creating-actions-for-your-assistant" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -149,7 +158,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide" class="md-header__button md-logo" aria-label="IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide" data-md-component="logo">
+    <a href="../.." title="IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide" class="md-header__button md-logo" aria-label="IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -169,7 +178,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Nav
+              Creating actions for your assistant
             
           </span>
         </div>
@@ -270,7 +279,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide" class="md-nav__button md-logo" aria-label="IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide" data-md-component="logo">
+    <a href="../.." title="IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide" class="md-nav__button md-logo" aria-label="IBM watsonx Assistant for Z for Technical Sales Level 4 Lab Guide" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -288,7 +297,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -308,7 +317,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../TechZoneEnvironment/" class="md-nav__link">
+      <a href="../../TechZoneEnvironment/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -328,7 +337,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Setup/creatingAssistant-configuringConvoSearch/" class="md-nav__link">
+      <a href="../../Setup/creatingAssistant-configuringConvoSearch/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -383,7 +392,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../byosd/documentIngestion/" class="md-nav__link">
+      <a href="../../byosd/documentIngestion/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -404,7 +413,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../byosd/zassist/" class="md-nav__link">
+      <a href="../../byosd/zassist/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -429,17 +438,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -453,7 +464,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Adding skills to the assistant
@@ -467,7 +478,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../skills/gettingStartedSkills/" class="md-nav__link">
+      <a href="../gettingStartedSkills/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -488,7 +499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../skills/exploreAAP/" class="md-nav__link">
+      <a href="../exploreAAP/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -509,7 +520,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../skills/importSkills/" class="md-nav__link">
+      <a href="../importSkills/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -530,7 +541,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../skills/connectingApp/" class="md-nav__link">
+      <a href="../connectingApp/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -548,10 +559,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../skills/creatingActions/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -560,6 +580,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -572,7 +593,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../skills/creatingFlows/" class="md-nav__link">
+      <a href="../creatingFlows/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -593,7 +614,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../skills/creatingCustomActions/" class="md-nav__link">
+      <a href="../creatingCustomActions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -614,7 +635,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../skills/importingzOSskills/" class="md-nav__link">
+      <a href="../importingzOSskills/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -642,7 +663,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../publishDeploy/" class="md-nav__link">
+      <a href="../../publishDeploy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -662,7 +683,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../otherIntegrations/" class="md-nav__link">
+      <a href="../../otherIntegrations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -682,7 +703,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../NextSteps/" class="md-nav__link">
+      <a href="../../NextSteps/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -712,6 +733,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -726,32 +749,143 @@
                   
 
 
-  <h1>Nav</h1>
-
-<div><ul>
-<li><a href="../">Welcome</a></li>
-<li><a href="../TechZoneEnvironment/">Reserve the IBM Technology Zone environment</a></li>
-<li><a href="../Setup/creatingAssistant-configuringConvoSearch/">Creating an assistant and configuring conversational search</a></li>
-<li>Bring your own search and documents<ul>
-<li><a href="../byosd/documentIngestion/">Creating a stand-alone OpenSearch instance for document ingestion</a></li>
-<li><a href="../byosd/zassist/">Installing and using zassist to ingest client documents</a></li>
-</ul>
+<div><h1 id="creating-actions-for-your-assistant">Creating actions for your assistant<a class="headerlink" href="#creating-actions-for-your-assistant" title="Permanent link">#</a></h1>
+<p>Once the skills in your application are connected to your assistant, you’re ready to begin creating actions tied to those skills. Learn more about building actions <a href="https://www.ibm.com/docs/en/watsonx/watson-orchestrate/current?topic=assistants-building-your-ai-assistant-actions" target="_blank">here</a></p>
+<h1 id="configure-the-number-of-input-fields">Configure the number of input fields<a class="headerlink" href="#configure-the-number-of-input-fields" title="Permanent link">#</a></h1>
+<p>Before configuring actions, it’s important to modify a setting within watsonx Orchestrate that allows triggered skills to display as forms (versus conversational skills). </p>
+<ol>
+<li>
+<p>Click your (a) profile icon and then click (b) <strong>Settings</strong></p>
+<p>Learn more about configuring input fields <a href="https://www.ibm.com/docs/en/watsonx/watson-orchestrate/current?topic=actions-defining-how-interact-skill-in-conversation#configuring-multi-turn-conversations" target="_blank">here</a>.</p>
+<p><a class="glightbox" href="../_attachments/skillsConfig0.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillsConfig0.png"></a></p>
 </li>
-<li>Adding skills to the assistant<ul>
-<li><a href="../skills/gettingStartedSkills/">Getting started with skills and actions</a></li>
-<li><a href="../skills/exploreAAP/">Explore Ansible Automation Platform</a></li>
-<li><a href="../skills/importSkills/">Importing skills from Ansible Automation Platform</a></li>
-<li><a href="../skills/connectingApp/">Connecting the app to your assistant</a></li>
-<li><a href="../skills/creatingActions/">Creating actions for your assistant</a></li>
-<li><a href="../skills/creatingFlows/">Creating skill flows for your assistant</a></li>
-<li><a href="../skills/creatingCustomActions/">Creating custom-built actions</a></li>
-<li><a href="../skills/importingzOSskills/">Importing pre-packaged z/<abbr title="Operating System">OS</abbr> skills</a></li>
-</ul>
+<li>
+<p>Click the <strong>Skill configurations</strong> tab.</p>
+<p><a class="glightbox" href="../_attachments/skillsConfig1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillsConfig1.png"></a></p>
 </li>
-<li><a href="../publishDeploy/">Publishing and deploying your assistant</a></li>
-<li><a href="../otherIntegrations/">Adding other integrations</a></li>
-<li><a href="../NextSteps/">Next steps</a></li>
-</ul>
+<li>
+<p>Enter <strong>0</strong> for the <strong>Number of form fields</strong>.</p>
+<p><a class="glightbox" href="../_attachments/skillsConfig2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillsConfig2.png"></a></p>
+</li>
+</ol>
+<h2 id="create-actions">Create actions<a class="headerlink" href="#create-actions" title="Permanent link">#</a></h2>
+<ol>
+<li>
+<p>Click the main menu and select <strong><abbr title="Artificial intelligence">AI</abbr> assistant builder</strong>.</p>
+<p><a class="glightbox" href="../_attachments/createActions0.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/createActions0.png"></a></p>
+</li>
+<li>
+<p>Hover over the <strong>Home</strong> icon (<a class="glightbox" href="../_attachments/homeIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/homeIcon.png"></a>) and click <strong>Actions</strong>.</p>
+<p><a class="glightbox" href="../_attachments/createActions1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/createActions1.png"></a></p>
+</li>
+<li>
+<p>Click <strong>Create action</strong>.</p>
+<p><a class="glightbox" href="../_attachments/createActions2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/createActions2.png"></a></p>
+</li>
+<li>
+<p>Click the <strong>Skill-based action</strong> tile.</p>
+<p><a class="glightbox" href="../_attachments/createActions3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/createActions3.png"></a></p>
+</li>
+<li>
+<p>Select the <strong>z/<abbr title="Operating System">OS</abbr> Gather Facts</strong> tile and click <strong>Next</strong>.</p>
+<p>Note, it may take a minute for the page to display the action tiles. The date shown in the <strong>z/<abbr title="Operating System">OS</abbr> Gather Facts</strong> tile reflects when you added the skill to your application.</p>
+<p><a class="glightbox" href="../_attachments/createActions4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/createActions4.png"></a></p>
+</li>
+<li>
+<p>On the <strong>New action</strong> dialog, (a) enter a prompt a user of the assistant might use to initiate the action and then (b) click <strong>Save</strong>.</p>
+<div class="admonition bug">
+<p class="admonition-title">Be careful with the sample phrases you specify.</p>
+<p>During the development of the lab guide, it was discovered that some sample phrases with a <code>/</code> character can cause issues with the actions. Avoid using <strong>z/<abbr title="Operating System">OS</abbr></strong> in the your sample phrases. This issue has been reported to the offering team.</p>
+</div>
+<p>Sample prompts:</p>
+<div class="highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Get zOS facts
+</span></code></pre></div>
+<div class="highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Gather zOS facts
+</span></code></pre></div>
+<p><a class="glightbox" href="../_attachments/createActions5.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/createActions5.png"></a></p>
+</li>
+<li>
+<p>Add any (a) additional prompts and then (b) click the save (<a class="glightbox" href="../_attachments/diskIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/diskIcon.png"></a>).</p>
+<p><a class="glightbox" href="../_attachments/createActions6.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/createActions6.png"></a></p>
+</li>
+<li>
+<p>Click <strong>Preview</strong>.</p>
+<p><a class="glightbox" href="../_attachments/createActions7.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/createActions7.png"></a></p>
+</li>
+<li>
+<p>Enter one of the prompts you specified in step 9 or 10.</p>
+<p>Prompt:
+</p><div class="highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>Get zOS facts
+</span></code></pre></div>
+<p><a class="glightbox" href="../_attachments/createActions8.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/createActions8.png"></a></p>
+</li>
+<li>
+<p>Review the returned results and record the <strong>job</strong> number.</p>
+<p>In the execution of this skill-based action, the skill executed properly and the output is the job id. </p>
+<div class="admonition warning">
+<p class="admonition-title">If an error is generated or the action is not performed and only search results are returned, review the Troubleshooting section below.</p>
+</div>
+<p><a class="glightbox" href="../_attachments/createActions9.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/createActions9.png"></a></p>
+</li>
+</ol>
+<h1 id="verify-the-job-in-the-ansible-automation-platform-console">Verify the job in the Ansible Automation Platform console<a class="headerlink" href="#verify-the-job-in-the-ansible-automation-platform-console" title="Permanent link">#</a></h1>
+<p>Return to the Ansible Automation Platform (<abbr title="Ansible Automation Platform">AAP</abbr>) console and review the job information.</p>
+<ol>
+<li>
+<p>Click <strong>Jobs</strong> and then click the <strong>job</strong> number recorded in the previous step for the <strong>z/<abbr title="Operating System">OS</abbr> Gather Facts</strong> skill.</p>
+<p><a class="glightbox" href="../_attachments/createActions10.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/createActions10.png"></a></p>
+</li>
+<li>
+<p>Review both the <strong>Details</strong> and <strong>Output</strong> for the <strong>z/<abbr title="Operating System">OS</abbr> Gather Facts</strong> job.</p>
+<p>Recall, that in the assistant, the contents shown in the <strong>Output</strong> of the Ansible job were not displayed. </p>
+<p><a class="glightbox" href="../_attachments/createActions10-b.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/createActions10-b.png"></a></p>
+</li>
+</ol>
+<p>IBM watsonx Assistant for Z provides utility skills to retrieve the job output. It is also possible to create a skill flow that executes the <strong>z/<abbr title="Operating System">OS</abbr> Gather Facts</strong> skill followed by the <strong>Retrieve job output</strong> utility skill in sequence; passing the job id from the first skill to the second, in order to view the output within the assistant. Creating a skill flow is covered in the next section.</p>
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">#</a></h2>
+<details class="failure">
+<summary>Skill returns "<strong><em>Sorry, we're having issues generating a response</em></strong>" or the action is not performed and only search results are returned.</summary>
+<p><a class="glightbox" href="../_attachments/skill-error-1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skill-error-1.png"></a></p>
+<p>This error appears to be an intermittent issue when a skill is first added. To resolve, add the skill to your personal skills catalog using the steps that follow. If you encounter the issue, try the steps that follow:</p>
+<ol>
+<li>
+<p>Expand the main menu and select <strong>Chat</strong>.</p>
+<p><a class="glightbox" href="../_attachments/skill-error-2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skill-error-2.png"></a></p>
+</li>
+<li>
+<p>Click <strong>Add skills from the catalog</strong>.</p>
+<p><a class="glightbox" href="../_attachments/skill-error-7.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skill-error-7.png"></a></p>
+</li>
+<li>
+<p>Search for the skill app you created earlier and click the tile for your app.</p>
+<p><a class="glightbox" href="../_attachments/skill-error-8.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skill-error-8.png"></a></p>
+</li>
+<li>
+<p>Click <strong>Add skill</strong> for all the skills you want to add.</p>
+<p><a class="glightbox" href="../_attachments/skill-error-9.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skill-error-9.png"></a></p>
+</li>
+<li>
+<p>Click <strong>Connect app</strong>.</p>
+<p><a class="glightbox" href="../_attachments/skill-error-10.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skill-error-10.png"></a></p>
+</li>
+<li>
+<p>Enter the (a) <strong>username</strong> and (b) <strong>password</strong> using the username (admin) and password for your IBM Technology Zone (<abbr title="IBM Technology Zone">ITZ</abbr>) watsonx Assistant for Z Pilot - <abbr title="Ansible Automation Platform">AAP</abbr> &amp; z/<abbr title="Operating System">OS</abbr> reservation (<abbr title="Ansible Automation Platform">AAP</abbr> User Password (Use SSH key to login, only use password for <abbr title="User Interface">UI</abbr>)), and then click <strong>Connect app</strong>.</p>
+<p><a class="glightbox" href="../_attachments/skill-error-11.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skill-error-11.png"></a> </p>
+</li>
+<li>
+<p>Expand the main menu and select <strong>Chat</strong>.</p>
+<p><a class="glightbox" href="../_attachments/skill-error-12.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skill-error-12.png"></a> </p>
+</li>
+<li>
+<p>Try one of the prompts you created for your skill.</p>
+<p>Prompt:
+</p><div class="highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>Gather zOS facts
+</span></code></pre></div>
+<p><a class="glightbox" href="../_attachments/skill-error-13.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skill-error-13.png"></a> </p>
+</li>
+</ol>
+<p>You should now be able to run the skill through the assistant preview.</p>
+</details>
 <!-- Terminology -->
 <!-- Keep the list alphabetized for easy deduplication --></div>
 
@@ -779,6 +913,44 @@
         <footer class="md-footer">
   
     
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../connectingApp/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Connecting the app to your assistant">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Connecting the app to your assistant
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../creatingFlows/" class="md-footer__link md-footer__link--next" aria-label="Next: Creating skill flows for your assistant">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Creating skill flows for your assistant
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -801,12 +973,12 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "content.code.annotate", "content.code.copy", "content.code.select", "navigation.footer", {"hide": ["toc"]}], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "content.code.annotate", "content.code.copy", "content.code.select", "navigation.footer", {"hide": ["toc"]}], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
       
-        <script src="../js/print-site.js"></script>
+        <script src="../../js/print-site.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
