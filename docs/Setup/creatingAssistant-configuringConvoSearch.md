@@ -289,6 +289,8 @@ After you save and close the **Conversational search** configuration page, a few
 
 26. On the **Style** tab, click the **Streaming** toggle to enable streaming.
 
+    The streaming setting allows responses to be streamed to the assistant as they are generated and returned versus waiting until the full response is received and then displayed.
+
     ![](_attachments/genAIEnviroments3.png)
 
 27. Click the **Home screen** tab.
