@@ -11,7 +11,7 @@ This lab guide covers the setup, configuration, and usage of watsonx Assistant f
 
 The lab guide also enables dedicated lab environments for customized client PoXs and demonstrations. If you are preparing for an actual pilot engagement, refer to the <a href="https://ibm.seismic.com/Link/Content/DCCRRWqjGBTVc87VBGCfC2F2VQVV" target="_blank">Pilot Scoping Guide for watsonx Assistant for Z</a> for additional information.
 
-Using the lab guide, you will:
+Using the lab guide, you will how to:
 
 - Provision the lab environments
 - Create an assistant and configuring conversational search
