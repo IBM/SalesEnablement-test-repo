@@ -1,6 +1,6 @@
 # Adding other integrations
 
-{{offering.name}} can integrate with other delivery channels beyond a web page. Other channels include Slack, Microsoft teams, WhatsApp, and many others. Integrating with these and other channels are not covered in the lab guide. However, follow the steps after this to find the current channels that are supported and where to get more information.
+{{offering.name}} can integrate with other delivery channels beyond a web page. Other channels include Slack, Microsoft teams, WhatsApp, and many others. Integrating with these and other channels are not covered in the lab guide. However, follow the steps to find the current channels that are supported and where to get more information.
 
 1. Hover over the **Home** (![](_attachments/homeIcon.png)) and click **Integrations**.
 
@@ -20,7 +20,7 @@
 
 5. Review the step-by-step instructions and additional information available for adding a Slack integration.
 
-    **Note**: Most users will not have permissions to integrate with your enterprise slack deployment as doing so requires administrative rights.
+    **Note**: Most regular users do not have permissions to integrate with your enterprise slack deployment as doing so requires administrative rights.
 
     ![](_attachments/integrations-4.png)
 

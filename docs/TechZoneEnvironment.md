@@ -3,7 +3,7 @@ To enable sellers to learn how to deliver client pilots of {{offering.name}}, th
 
 - **Watsonx Assistant for Z lab – watsonx Orchestrate**: provides a dedicated environment on IBM Cloud where you can create and configure the assistant, set up conversational search, import skills, and configure actions.
 
-- **Ansible Automation Platform (AAP) & z/OS**: provides a pre-configured instance of AAP and Wazi z/OS. This environment includes Ansible playbooks, which you can import as skills within WatsonX Orchestrate and connect to your assistant. Preinstalled templates for various use cases are also available (covered in later sections). Learn more about AAP <a href="https://www.redhat.com/en/technologies/management/ansible" target="_blank">here</a>. Learn more about Wazi, <a href="https://www.ibm.com/cloud/wazi-as-a-service" target="_blank">here</a>.
+- **Ansible Automation Platform (AAP) & z/OS**: provides a pre-configured instance of AAP and Wazi z/OS. This environment includes Ansible playbooks, which you can import as skills within watsonx Orchestrate and connect to your assistant. Preinstalled templates for various use cases are also available (covered in later sections). Learn more about AAP <a href="https://www.redhat.com/en/technologies/management/ansible" target="_blank">here</a>. Learn more about Wazi, <a href="https://www.ibm.com/cloud/wazi-as-a-service" target="_blank">here</a>.
 
 - **Single Node OpenShift with NFS storage**: provisions a single-node Red Hat OpenShift cluster (SNO) on IBM Cloud. This cluster installs a dedicated instance of [OpenSearch](https://opensearch.org/) for Watson Assistant for Z, enabling ingestion of client-supplied documents.- 
 
@@ -81,7 +81,7 @@ Follow the instructions to create new reservation requests, extend the reservati
 
 During the provisioning process, multiple emails are sent to you from ITZ as the provisioning process runs. One email states the reservation is provisioning and the other email states that the environment is **Ready**.
 
-In rare cases, the provisioning process may fail. If you receive an email stating the reservation failed, try again by repeating Steps 1-3 for the environment that failed to provision. In addition, review the [Troubleshooting](#troubleshooting) section that follows. If issues continue, open an ITZ support ticket by using the methods that are mentioned in the [Support](index.md#support) section.
+In rare cases, the provisioning process can fail. If you receive an email stating the reservation failed, try again by repeating Steps 1-3 for the environment that failed to provision. In addition, review the [Troubleshooting](#troubleshooting) section that follows. If issues continue, open an ITZ support ticket by using the methods that are mentioned in the [Support](index.md#support) section.
 
 ## Extend the reservation
 When the reservations are in the **Ready** state, you can extend each reservation beyond its original end date. The duration of the extension will vary by reservation. 
@@ -127,9 +127,9 @@ After joining the account, verify that the account appears in your available acc
 
 5. Click the **account** menu and verify access to the IBM Cloud account listed in your ITZ reservation.
 
-    !!! Important "The account may change within ITZ."
+    !!! Important "The account may be different."
 
-        Over time, the account may change for the environments. The account names should align with the account named in the invitation email you received. 
+        The account name should align with the account named in the invitation email you received. 
 
     ![](_attachments/itzCloudAccountsVerify.png)
 

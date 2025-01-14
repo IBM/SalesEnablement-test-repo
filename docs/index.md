@@ -20,8 +20,8 @@ Using the lab guide, you will:
 - Deploy a dedicated instance of OpenSearch for client document ingestion (Optional)
 - Import skills for z/OS automations
 - Connect apps to assistants
-- Creat assistant actions
-- Creat skill flows 
+- Create assistant actions
+- Create skill flows 
 - Create custom-built actions
 - Import pre-packaged z/OS skills
 - Publish and deploy an assistant

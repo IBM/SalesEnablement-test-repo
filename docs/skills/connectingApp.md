@@ -1,6 +1,6 @@
 # Connecting skills to your assistant
 
-Once you have a subset of skills published, the application you created can be connected to your assistant. 
+Once you have a subset of skills that are published, the application you created can be connected to your assistant. 
 
 1. Expand the main menu and select **Skill sets**.
 

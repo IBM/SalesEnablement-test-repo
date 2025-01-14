@@ -1,8 +1,8 @@
 # Creating actions for your assistant
-Once the skills in your application are connected to your assistant, you’re ready to begin creating actions tied to those skills. Learn more about building actions <a href="https://www.ibm.com/docs/en/watsonx/watson-orchestrate/current?topic=assistants-building-your-ai-assistant-actions" target="_blank">here</a>
+Now that the skills in your application are connected to your assistant, you are ready to create actions that are tied to those skills. Learn more about building actions <a href="https://www.ibm.com/docs/en/watsonx/watson-orchestrate/current?topic=assistants-building-your-ai-assistant-actions" target="_blank">here</a>
 
 # Configure the number of input fields
-Before configuring actions, it’s important to modify a setting within watsonx Orchestrate that allows triggered skills to display as forms (versus conversational skills). 
+Before configuring actions, it is important to modify a setting within watsonx Orchestrate that allows triggered skills to display as forms (versus conversational skills). 
 
 1. Click your (a) profile icon and then click (b) **Settings**
 
@@ -37,13 +37,13 @@ Before configuring actions, it’s important to modify a setting within watsonx 
 
 5. Select the **z/OS Gather Facts** tile and click **Next**.
 
-    Note, it may take a minute for the page to display the action tiles. The date shown in the **z/OS Gather Facts** tile reflects when you added the skill to your application.
+    Note, it may take a minute for the page to display the action tiles. The date that is shown in the **z/OS Gather Facts** tile reflects when you added the skill to your application.
 
     ![](_attachments/createActions4.png)
 
 6. On the **New action** dialog, (a) enter a prompt a user of the assistant might use to initiate the action and then (b) click **Save**.
 
-    !!! Bug "Be careful with the sample phrases you specify."
+    !!! Bug "Be careful with the sample phrases that you specify."
 
         During the development of the lab guide, it was discovered that some sample phrases with a `/` character can cause issues with the actions. Avoid using **z/OS** in the your sample phrases. This issue has been reported to the offering team.
 
@@ -59,7 +59,7 @@ Before configuring actions, it’s important to modify a setting within watsonx 
 
     ![](_attachments/createActions5.png)
 
-7.  Add any (a) additional prompts and then (b) click the save (![](_attachments/diskIcon.png)).
+7.  Add any extra prompts (**a**) and then click the save (![](_attachments/diskIcon.png)) (**b**).
 
     ![](_attachments/createActions6.png)
 
@@ -77,17 +77,15 @@ Before configuring actions, it’s important to modify a setting within watsonx 
     ![](_attachments/createActions8.png)
 
 10. Review the returned results and record the **job** number.
-
-    In the execution of this skill-based action, the skill executed properly and the output is the job id. 
-    
-    !!! Warning "If an error is generated or the action is not performed and only search results are returned, review the Troubleshooting section below."       
+ 
+    !!! Warning "If an error is generated or the action is not performed and only search results are returned, review the following Troubleshooting section."       
 
     ![](_attachments/createActions9.png)
 
 # Verify the job in the Ansible Automation Platform console
 Return to the Ansible Automation Platform (AAP) console and review the job information.
 
-1. Click **Jobs** and then click the **job** number recorded in the previous step for the **z/OS Gather Facts** skill.
+1. Click **Jobs** and then click the **job** number that you recorded in the previous step for the **z/OS Gather Facts** skill.
 
     ![](_attachments/createActions10.png)
 
@@ -97,7 +95,7 @@ Return to the Ansible Automation Platform (AAP) console and review the job infor
 
     ![](_attachments/createActions10-b.png)
  
-IBM watsonx Assistant for Z provides utility skills to retrieve the job output. It is also possible to create a skill flow that executes the **z/OS Gather Facts** skill followed by the **Retrieve job output** utility skill in sequence; passing the job id from the first skill to the second, in order to view the output within the assistant. Creating a skill flow is covered in the next section.
+IBM watsonx Assistant for Z provides utility skills to retrieve the job output. It is also possible to create a skill flow that executes the **z/OS Gather Facts** skill followed by the **Retrieve job output** utility skill in sequence; passing the job ID from the first skill to the second to view the output within the assistant. Creating a skill flow is covered in the next section.
 
 ## Troubleshooting
 

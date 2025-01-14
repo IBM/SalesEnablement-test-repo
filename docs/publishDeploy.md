@@ -1,9 +1,8 @@
 # Publishing and deploying your assistant
 
-To this point, acting as an Assistant Builder, you have built out the assistant, configured conversational search, and added skills and automations. While doing so, you have been testing your assistant using the **preview** capability of AI Assistant Builder. The **preview** capability is a closed environment for experimenting with prompts.
+To this point, acting as an Assistant Builder, you built the assistant, configured conversational search, and added skills and automations. You tested your assistant by using the **preview** capability of AI Assistant Builder. The **preview** capability is a closed environment for experimenting with prompts.
 
-After your assistant is finalized, you can publish it to make it available to end-users. Each assistant you create comes with two **environments**:
-*draft* and *live*. You have been configuring your assistant in the draft environment. Each environment has its own set of IDs, URLs, and service credentials that can be referenced by external services.
+After your assistant is finalized, you can publish it to make it available to users. Each assistant that you create comes with two **environments**: *draft* and *live*. You configured your assistant in the draft environment. Each environment has its own set of IDs, URLs, and service credentials referenced by external services.
 
 The **Environments** page in the AI assistant builder has tabs for managing both the **Draft environment** and the **Live environment**:
 
@@ -11,7 +10,7 @@ The **Environments** page in the AI assistant builder has tabs for managing both
 
 ![](_attachments/liveView0.png)
 
-The **Draft environment** contains all your in-progress work in the Actions, Preview, and Publish pages. Use the **Draft environment** tab to build out your assistant and use for internal testing before deployment. Any integrations you use (i.e. channels) for the **Draft environment** are unique to that environment, and changes to draft integrations don’t affect the **Live environment**.
+The **Draft environment** contains all your in-progress work in the Actions, Preview, and Publish pages. Use the **Draft environment** tab to build out your assistant and use for internal testing before deployment. Any integrations (channels) that you use for the **Draft environment** are unique to that environment, and changes to draft integrations don’t affect the **Live environment**.
 
 ## Publish the assistant
 Each time that you publish, you’re creating a new version of the assistant, for example *V1*. When you publish your content, you’re creating a snapshot of the draft content, resulting in a version.
@@ -20,9 +19,9 @@ Each time that you publish, you’re creating a new version of the assistant, fo
 
     Published versions contain all of the content from actions, including settings and variables. **However, versions do not contain integration configurations or environment settings.** Integration configurations and environment settings must be configured manually in each environment.
 
-For managing quality-control and versioning, the Live environment is the version of the assistant you should be giving access to the end-user.
+For managing quality-control and versioning, the Live environment is the version of the assistant to give to users.
 
-Follow these steps to publish the first version of your assistant using Assistant Builder:
+Follow these steps to publish the first version of your assistant by using Assistant Builder:
 
 1. Hover over the **Home** icon (![](_attachments/homeIcon.png)) and click **Publish**.
 
@@ -38,7 +37,7 @@ Follow these steps to publish the first version of your assistant using Assistan
 
 ## Configure the live environment
 
-**Important**: When the live environment is created, the environment settings from the draft environment are not carried over (for example the configuration of the OpenSearch instance used for conversational search).
+**Important**: When the live environment is created, the settings from the draft environment are not carried over (for example, the configuration of the OpenSearch instance used for conversational search).
 
 1. Hover over the **Home** icon (![](_attachments/homeIcon.png)) and click **Environments**.
 
@@ -54,9 +53,9 @@ Follow these steps to publish the first version of your assistant using Assistan
 
 4. Customize the live assistant as you see fit.
 
-    On the **Style** tab, you’re able to set the Assistant name which will be displayed at the top of the chat window when end-users are interacting with the assistant. For pilots or demos, you may want to personalize this name for the client. Also in the **Style** tab, you have the ability set the themes and display settings of the chat windows, including the ability to enable the IBM Watermark and enable streaming (recommended).
+    On the **Style** tab, you’re able to set the Assistant name that is displayed on the chat window when users are interacting with the assistant. For pilots or demos, consider personalizing this name for the client. Also in the **Style** tab, you can set the themes and display settings of the chat windows, including the ability to enable the IBM Watermark and enable streaming.
 
-    On the **Home** tab, you enable and customize a default greeting message from the assistant when the user accesses the assistant chat. You’re also able to set Conversation starters that will be displayed in the chat window. When selected by the end-user, the text of these conversation starters are sent as prompts, so it is important that your assistant is trained and tested to answer appropriately. It is highly recommended to remove these default conversation starters and to consider creating your own as long as they’re able to be executed as actions and provide value to the end-user. At the bottom of the Home screen tab, you will also see the ability to add a Background style for the assistant chat window.
+    On the **Home** tab, you enable and customize the greeting message from the assistant when the user accesses the assistant chat. You are also able to set **Conversation starters** that are displayed in the chat window. When selected by the user, the text of the conversation starter is sent as a prompt, so it is important that your assistant is trained and tested to answer correctly. It is highly recommended to remove the default conversation starters and create your own. The ability to add a Background style for the assistant chat window is on the home screen tab.
     
     Explore all the other tabs.
 
@@ -78,7 +77,7 @@ Follow these steps to publish the first version of your assistant using Assistan
 
     ![](_attachments/publish10.png)
 
-8.  Enter the URL for your bring-your-own-search (BYOS) engine (**a**), select **Basic authentication** for the **authentication type** (**b**), enter **admin** for the **Username** (**c**), enter the password you specified in the `wrapper-creds.yaml` file for the **Password** (**d**), and then click **Next** (**e**).
+8.  Enter the URL for your bring-your-own-search (BYOS) engine (**a**), select **Basic authentication** for the **authentication type** (**b**), enter **admin** for the **Username** (**c**), enter the password that you specified in the `wrapper-creds.yaml` file for the **Password** (**d**), and then click **Next** (**e**).
 
     !!! Warning "Use the correct URL and authentication type!"
 
@@ -92,7 +91,7 @@ Follow these steps to publish the first version of your assistant using Assistan
 
 10. Update the **Custom service** settings (**a-f**), click **Save** (**g**), and then click **Close** (**h**).
 
-    !!! Tip "Feel free to customize the settings."
+    !!! Tip "Customize the settings."
 
         This is your assistant. Feel free to customize the settings. The settings shown below reflect the changes made earlier in the lab guide to the draft version of the assistant. This includes the **Metadata** field to weigh ingested client documents higher using: 
 
@@ -141,13 +140,13 @@ Follow these steps to publish the first version of your assistant using Assistan
     Learn more about publishing your assistant and creating live environments <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=assistants-previewing-publishing-your-ai-assistant" target="_blank">here</a>.
 
 ## Deploy the assistant
-After configuring your assistant’s settings and publishing, the final step is to deploy your assistant which can be done across various channels depending on the use case.
+After configuring your assistant’s settings and publishing, the final step is to deploy your assistant, which can be done across various channels depending on the use case.
 
-There are several options for deploying your assistant through channels and integrations to satisfy the use cases that you might address. Learn more about all the deployment options <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=assistants-deploying-your-ai-assistant" target="_blank">here</a>.
+Several options exist for deploying your assistant through channels and integrations to satisfy the use cases that you might encounter. Learn more about all the deployment options <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=assistants-deploying-your-ai-assistant" target="_blank">here</a>.
 
-For this lab, you will deploy the assistant using the web chat integration. The web chat integration provides an assistant interface that can integrate with your website. There is a lot of flexibility with how you may want to integrate it. Learn more about the web chat integration <a href="https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-overview" target="_blank">here</a>.
+For this lab, deploy the assistant by using the web chat integration. The web chat integration provides an assistant interface that can integrate with a website. Learn more about the web chat integration <a href="https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-overview" target="_blank">here</a>.
 
-1. Open the **Environments** page in **AI assistant builder**.
+1. Open the **Environments** page in the **AI assistant builder**.
 
 2. Click **Web chat** for the **Live** environment.
 
@@ -167,7 +166,7 @@ For this lab, you will deploy the assistant using the web chat integration. The 
 
     ![](_attachments/publish17.png) -->
 
-5. In a text editor, create a file named `Watson Assistant Chat.html` and paste the following text in the file.
+5. In a text editor, create a file that is named `Watson Assistant Chat.html` and paste the following text in the file.
 
     File name:
     ```
@@ -239,7 +238,7 @@ For this lab, you will deploy the assistant using the web chat integration. The 
 
     ![](_attachments/publish20.png)
 
-Your assistant is now live. Explore some of the earlier prompts to verify the assistant is accessing the ingested documents and your skills and skill flows are active.
+Your assistant is now live. Explore some of the earlier prompts to verify that the assistant is accessing the ingested documents and your skills and skill flows are active.
 
 !!! Warning "Wait 5-10 seconds before clicking apply on skill actions."
 

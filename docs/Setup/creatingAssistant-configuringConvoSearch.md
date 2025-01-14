@@ -1,7 +1,7 @@
 # Creating an assistant and configuring conversational search
-[Watsonx Orchestrate](https://www.ibm.com/products/watsonx-orchestrate?p1=Search&p4=43700077722754881&p5=e&p9=58700008198244496&gad_source=1&gclsrc=ds) enables you to create and configure an assistant with conversational search capabilities. Configure your assistant to use conversational search by leveraging a hosted [OpenSearch](https://opensearch.org/) instance. The pre-configured instance of watsonx Orchestrate in IBM Technology Zone (ITZ) boasts over 220 knowledge sources and supports Retrieval Augmented Generation (RAG). The large language model (LLM) providing conversational AI augments this knowledge based on IBM Z documentation, generating IBM Z context-aware responses to queries with content-grounded knowledge.
+[Watsonx Orchestrate](https://www.ibm.com/products/watsonx-orchestrate?p1=Search&p4=43700077722754881&p5=e&p9=58700008198244496&gad_source=1&gclsrc=ds) allows you to create and configure an assistant with conversational search capabilities. Configure your assistant to use conversational search by using a hosted [OpenSearch](https://opensearch.org/) instance. The pre-configured instance of watsonx Orchestrate in IBM Technology Zone (ITZ) boasts over 220 knowledge sources and supports Retrieval Augmented Generation (RAG). The large language model (LLM) providing conversational AI augments this knowledge based on IBM Z documentation, generating IBM Z context-aware responses to queries with content-grounded knowledge.
 
-Below is a high-level, logical architecture of the environment you will deploy in this section.
+A high-level, logical architecture of the environment is illustrated in the following diagram.
 
 ![](_attachments/LabArchitecture-Lab%201.png)
 
@@ -121,7 +121,7 @@ In the next steps you will be to configure **conversational search** for your as
 
     **a**. Select **By providing credentials**.
 
-    **b**. Enter the following value in the **URL** field (use the copy icon to avoid typographical errors). This is the URL for the a shared [OpenSearch](https://opensearch.org/) instance. In later sections you will created and customize a dedicated instance.
+    **b**. Enter the following value in the **URL** field (use the copy icon to avoid typographical errors). This is the URL for the shared [OpenSearch](https://opensearch.org/) instance. In later sections, you create and customize a dedicated instance.
     ```
     {{itz.hostedOpenSearchInstance}}
     ```
@@ -197,7 +197,7 @@ After you save and close the **Conversational search** configuration page, a few
 
     ![](_attachments/genAIActionsSetByAssistantMenu3.png)
 
-5.  Select **without conditions**  (**a**) in the **Is taken** drop-down menu and then click **Clear conditions** (**b**).
+5.  Select **without conditions** (**a**) in the **Is taken** drop-down menu and then click **Clear conditions** (**b**).
 
     **Note**: the **Is taken** value does not change from **with conditions** after selecting **without conditions**.
 
@@ -312,8 +312,8 @@ After you save and close the **Conversational search** configuration page, a few
     ![](_attachments/genAIEnviroments6.png)
 
 ## Configure the base large language model
-After the preceding steps are completed, there are enhancements you can make to configure how the large language model (LLM) responds to your queries including adding prompt instructions and configuring the LLM’s answer behavior.
-These options can be summarized <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=assistant-configuring-base-llm" target="_blank">here</a>.
+There are enhancements that you can make to configure how the large language model (LLM) responds to your queries, including adding prompt instructions and configuring the LLM’s answer behavior.
+The options are summarized <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=assistant-configuring-base-llm" target="_blank">here</a>.
 
 1.  Hover over the **Home** (![](_attachments/homeIcon.png)) and click **Generative AI**.
     
@@ -345,14 +345,14 @@ These options can be summarized <a href="https://www.ibm.com/docs/en/watsonx/waz
 
     On the **Generative AI** page (under **Prompt Instructions**), you see the **Answer behavior** section. After you configure **Conversational search**, you see that it is enabled (toggled on) with the search integration added.
 
-    If you enable both general-purpose answering as well as conversational search, the conversational search answering takes precedence over General-purpose answering. 
+    If you enable both general-purpose answering and conversational search, conversational search answering takes precedence over General-purpose answering. 
     
     **Recommendation**: For purposes of retrieving Z-specific answers and responses, it is recommended that you turn off general-purpose answering and leave only conversational search turned on.
 
     ![](_attachments/genAIGenAI4.png)
 
 ## Testing conversational search
-Now you can begin issuing queries to test the assistant's responses. For more detailed responses, try appending "Please provide a detailed response." to the end of your question.
+Now, you can begin issuing queries to test the assistant's responses. For more detailed responses, try appending "Please provide a detailed response." to the end of your question.
 
 **Important**: Modify settings iteratively based on your assessment of response quality. Review and change them at any time. For example, add extra prompt instructions, change response verbosity, and modify OpenSearch indexes.
 

@@ -24,7 +24,7 @@ The next steps assume that you have an active browser window to the watsonx Orch
 
     **a**: Connection Type: `ansible`
 
-    **b**: Application Name: <enter a meaningful name for the skills that you will import\> - *be sure to remember this name, you will need in the next section*
+    **b**: Application Name: <enter a meaningful name for the skills that you will import\> - *record this name, you will need in the next section*
 
     **c**: Connection URL: <enter the URL for your AAP UI\>
 
@@ -48,7 +48,7 @@ The next steps assume that you have an active browser window to the watsonx Orch
 
     ![](_attachments/addSkills1.png)
 
-7. Select the skills you want to import into your application and then click **Save as draft**.
+7. Select the skills that you want to import into your application and then click **Save as draft**.
 
     For this lab, select the **Z/os ping** and **Z/os gather facts** skills.
 

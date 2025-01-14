@@ -1,7 +1,8 @@
 # Creating skill flows
-As seen in the previous section, running the Ansible skill to **Gather z/OS facts**, the skill executed successfully and was verified within the Ansible Automation Platform (AAP) console by viewing the job output. However, the output wasn’t displayed by the assistant. To enable this scenario, a skill flow is needed. Skills are often more valuable when combined with other skills. You can create a skill flow to use two or more skills together to finish a task (like returning the output of a previous skill). When you create a skill flow, you map the output of one skill as the input for subsequent skills. Learn more about creating skill flows <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=combining-skills-into-skill-flows" target="_blank">here</a>.
+In the previous section, you ran the **Gather z/OS facts** skill, but the output was not displayed in the assistant.
+To both run the action and display the results, a skill flow is needed. Skills are often more valuable when combined with other skills. You can create a skill flow to use two or more skills together to finish a task (like returning the output of a previous skill). When you create a skill flow, you map the output of one skill as the input for subsequent skills. Learn more about creating skill flows <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=combining-skills-into-skill-flows" target="_blank">here</a>.
 
-As mentioned in a previous section, there are some default utility skills that are provided out of the box with the “Z Skills Accelerator” which are leveraged to return the output of a skill. To accomplish this, we will import the Ansible Utility skill called **Retrieve job output**.
+As mentioned in a previous section, default utility skills that are provided with the watsonx Assistant for Z skills collection. The **Retrieve job output** utility skill is used to return the output of a skill.
 
 ## Add the utility skill
 
@@ -23,7 +24,7 @@ As mentioned in a previous section, there are some default utility skills that a
 
     **a**: Connection Type: `ansible`
 
-    **b**: Application Name: <use the same application name as in previous section\>
+    **b**: Application Name: <use the same application name from the previous section\>
 
     **c**: Connection URL: <enter the URL for your AAP UI\>
 
@@ -71,7 +72,7 @@ As mentioned in a previous section, there are some default utility skills that a
 
     ![](_attachments/skillFlow9.png)
 
-14. Verify the application is **Connected** (**a**) and then click **Close** (**b**).
+14. Verify that the application is **Connected** (**a**) and then click **Close** (**b**).
 
     ![](_attachments/skillFlow10.png)
 
@@ -99,7 +100,7 @@ As mentioned in a previous section, there are some default utility skills that a
 
     ![](_attachments/skillFlow15.png)
 
-2.  Expand the **Create** drop-down menu and click on **Skill flow**.
+2.  Expand the **Create** drop-down menu and click **Skill flow**.
 
     ![](_attachments/skillFlow16.png)
 
@@ -109,7 +110,7 @@ As mentioned in a previous section, there are some default utility skills that a
 
     Next, you need to add the **z/OS Gather Facts** skill and the **Retrieve job output** skill to the skill flow. Use the **Search apps** function to locate the skills.
 
-4. Search for the application name you specified earlier and click it's tile.
+4. Search for the application name you specified earlier and click the tile.
 
     ![](_attachments/skillFlow18.png)
 
@@ -127,17 +128,17 @@ As mentioned in a previous section, there are some default utility skills that a
 
 8.  Repeat steps 5 and 6 for the **Retrieve job output** skill. 
 
-    After adding the **Retrieve job output** skill, your skill flow should like like:
+    After adding the **Retrieve job output** skill, your skill flow should look like:
 
     ![](_attachments/skillFlow22.png)
 
-    Next you must map the output values of the first skill to the input of the second skill. In this case, pass the “job id” output from **z/OS Gather Facts** as an input for **Retrieve job output**. 
+    Next you must map the output values of the first skill to the input of the second skill. In this case, pass the job ID output from **z/OS Gather Facts** as an input for **Retrieve job output**. 
 
 9. Click the **Retrieve job output** tile.
 
     ![](_attachments/skillFlow23.png)
 
-10. Select the **Input** tab and click in the **id** field.
+10. Select the **Input** tab and click the **id** field.
 
     ![](_attachments/skillFlow24.png)
 
@@ -149,11 +150,11 @@ As mentioned in a previous section, there are some default utility skills that a
 
     ![](_attachments/skillFlow25-a.png)
 
-13. Verify the **job** appears in the **id** field.
+13. Verify that the **job** appears in the **id** field.
 
     ![](_attachments/skillFlow25-b.png)
 
-14. Optionally, toggle the **Hide this from from the user** setting.
+14. Optionally, toggle the **Hide this from the user** setting.
 
     For this lab guide, this option is left disabled. Learn more about this option <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=combining-skills-into-skill-flows#hiding-input-and-output-forms" target="_blank">here</a>.
 
@@ -171,11 +172,11 @@ As mentioned in a previous section, there are some default utility skills that a
 
     ![](_attachments/skillFlow29.png)
 
-18. Expand the **Actions** pull-down list and click **Save as draft**.
+18. Expand the **Actions** pull-down and click **Save as draft**.
 
     ![](_attachments/skillFlow30.png)
 
-19. Expand the **Actions** pull-down list and click **Enhance**.
+19. Expand the **Actions** pull-down and click **Enhance**.
 
     ![](_attachments/skillFlow31.png)
 
@@ -191,9 +192,9 @@ As mentioned in a previous section, there are some default utility skills that a
 
 21. Replace the existing **phrases** (prompts) and then click **Publish**.
 
-    Notice the default prompts are either not very intuitive (the skill flow name) or a bit verbose. Replace the existing phrases with phrases that you anticipate users will enter.
+    Notice that the default prompts are either not intuitive (the skill flow name) or a bit verbose. Replace the existing phrases with phrases that you anticipate users will use.
 
-    !!! Bug "Be careful with the sample phrases you specify."
+    !!! Bug "Be careful with the sample phrases that you specify."
 
         During the development of the lab guide, it was discovered that some sample phrases with a `/` character can cause issues with the actions. Avoid using **z/OS** in the your sample phrases. This issue has been reported to the offering team.
 
@@ -225,7 +226,7 @@ As mentioned in a previous section, there are some default utility skills that a
 
     ![](_attachments/skillFlow37.png)
 
-5.  Click the skill flow you created earlier and then click **Next**.
+5.  Click the skill flow that you created earlier and then click **Next**.
 
     **Note**: it may take a minute for the tiles to appear on the screen.
 
@@ -249,13 +250,13 @@ As mentioned in a previous section, there are some default utility skills that a
 
     ![](_attachments/skillFlow41-0.png)
 
-9. Select the original skill you created (**a**) (not the skill flow you just created), click the ellipses (**b**), and then click **Delete** (**c**).
+9. Select the *original* skill that you created (**a**) (not the skill flow you just created), click the ellipses (**b**), and then click **Delete** (**c**).
 
     ![](_attachments/skillFlow41-a.png)
 
 10. Wait for system training to complete.
 
-    **Note**: The message will change to "System is trained" and then disappear.
+    **Note**: The message changes to "System is trained" and then disappears.
 
     ![](_attachments/skillFlow41-b.png)
 
@@ -279,7 +280,7 @@ As mentioned in a previous section, there are some default utility skills that a
 
 14. Review the results from the skill flow.
 
-    Use both scroll bars in the assistant preview to review all of the returned information. The output should be similar to what was seen in the AAP web console. The character strings like `[0;32m` are special characters that are not properly displayed in the assistant preview interface.
+    Use both scroll bars in the assistant preview to review all the returned information. The output is similar to what was seen in the AAP web console. The character strings like `[0;32m` are special characters that are not properly displayed in the assistant preview interface.
 
     ![](_attachments/skillFlow44.png)
 
@@ -364,6 +365,6 @@ As mentioned in a previous section, there are some default utility skills that a
         [0;32mzos_host[0m                   : [0;        32mok=4                            [0m changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ig      nored=0   
         
 
-The scenario shown above may or may not be relevant for your client's use case. It is intended to show you how to sequence skills together in a skill flow to create an action that your assistant triggers based on prompts using the pre-configured Ansible automation templates. You are encouraged to create your own skill flows and prompts using other skills available within the AAP instance. As an example, create a skill flow for the **z/OS Ping** skill. Be sure to add the **Retrieve job output** skill to view the results.
+The previous scenario might or might not be relevant for your client's use case. The scenario illustrates how to sequence skills together in a skill flow to create an action that your assistant triggers based on prompts that use the pre-configured Ansible automation templates. You are encouraged to create your own skill flows and prompts that use other skills available within the AAP instance. As an example, create a skill flow for the **z/OS Ping** skill. Be sure to add the **Retrieve job output** skill to view the results.
 
 Next, learn about custom-built actions.
