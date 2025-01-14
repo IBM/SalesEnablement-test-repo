@@ -750,8 +750,9 @@
 
 
 <div><h1 id="creating-skill-flows">Creating skill flows<a class="headerlink" href="#creating-skill-flows" title="Permanent link">#</a></h1>
-<p>As seen in the previous section, running the Ansible skill to <strong>Gather z/<abbr title="Operating System">OS</abbr> facts</strong>, the skill executed successfully and was verified within the Ansible Automation Platform (<abbr title="Ansible Automation Platform">AAP</abbr>) console by viewing the job output. However, the output wasn’t displayed by the assistant. To enable this scenario, a skill flow is needed. Skills are often more valuable when combined with other skills. You can create a skill flow to use two or more skills together to finish a task (like returning the output of a previous skill). When you create a skill flow, you map the output of one skill as the input for subsequent skills. Learn more about creating skill flows <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=combining-skills-into-skill-flows" target="_blank">here</a>.</p>
-<p>As mentioned in a previous section, there are some default utility skills that are provided out of the box with the “Z Skills Accelerator” which are leveraged to return the output of a skill. To accomplish this, we will import the Ansible Utility skill called <strong>Retrieve job output</strong>.</p>
+<p>In the previous section, you ran the <strong>Gather z/<abbr title="Operating System">OS</abbr> facts</strong> skill, but the output was not displayed in the assistant.
+To both run the action and display the results, a skill flow is needed. Skills are often more valuable when combined with other skills. You can create a skill flow to use two or more skills together to finish a task (like returning the output of a previous skill). When you create a skill flow, you map the output of one skill as the input for subsequent skills. Learn more about creating skill flows <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=combining-skills-into-skill-flows" target="_blank">here</a>.</p>
+<p>As mentioned in a previous section, default utility skills that are provided with the watsonx Assistant for Z skills collection. The <strong>Retrieve job output</strong> utility skill is used to return the output of a skill.</p>
 <h2 id="add-the-utility-skill">Add the utility skill<a class="headerlink" href="#add-the-utility-skill" title="Permanent link">#</a></h2>
 <ol>
 <li>
@@ -770,7 +771,7 @@
 <p>Enter the following values in the <strong>z/<abbr title="Operating System">OS</abbr> Skills accelerator</strong> form and then click <strong>Connect</strong>.</p>
 <p>Use the <strong><abbr title="Uniform Resource Locator">URL</abbr></strong>, <strong>User Name</strong>, and <strong>Password</strong> values recorded in the <a href="../exploreAAP/">Explore Ansible Automation Platform</a> section earlier.</p>
 <p><strong>a</strong>: Connection Type: <code>ansible</code></p>
-<p><strong>b</strong>: Application Name: &lt;use the same application name as in previous section&gt;</p>
+<p><strong>b</strong>: Application Name: &lt;use the same application name from the previous section&gt;</p>
 <p><strong>c</strong>: Connection <abbr title="Uniform Resource Locator">URL</abbr>: &lt;enter the <abbr title="Uniform Resource Locator">URL</abbr> for your <abbr title="Ansible Automation Platform">AAP</abbr> <abbr title="User Interface">UI</abbr>&gt;</p>
 <p><strong>d</strong>: User Name: &lt;enter the <abbr title="Ansible Automation Platform">AAP</abbr> User Name (for <abbr title="User Interface">UI</abbr> access)&gt;</p>
 <p><strong>e</strong>: Password: &lt;enter the <abbr title="Ansible Automation Platform">AAP</abbr> User Password&gt;</p>
@@ -814,7 +815,7 @@
 <p><a class="glightbox" href="../_attachments/skillFlow9.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillFlow9.png"></a></p>
 </li>
 <li>
-<p>Verify the application is <strong>Connected</strong> (<strong>a</strong>) and then click <strong>Close</strong> (<strong>b</strong>).</p>
+<p>Verify that the application is <strong>Connected</strong> (<strong>a</strong>) and then click <strong>Close</strong> (<strong>b</strong>).</p>
 <p><a class="glightbox" href="../_attachments/skillFlow10.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillFlow10.png"></a></p>
 </li>
 </ol>
@@ -845,7 +846,7 @@
 <p><a class="glightbox" href="../_attachments/skillFlow15.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillFlow15.png"></a></p>
 </li>
 <li>
-<p>Expand the <strong>Create</strong> drop-down menu and click on <strong>Skill flow</strong>.</p>
+<p>Expand the <strong>Create</strong> drop-down menu and click <strong>Skill flow</strong>.</p>
 <p><a class="glightbox" href="../_attachments/skillFlow16.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillFlow16.png"></a></p>
 </li>
 <li>
@@ -854,7 +855,7 @@
 <p>Next, you need to add the <strong>z/<abbr title="Operating System">OS</abbr> Gather Facts</strong> skill and the <strong>Retrieve job output</strong> skill to the skill flow. Use the <strong>Search apps</strong> function to locate the skills.</p>
 </li>
 <li>
-<p>Search for the application name you specified earlier and click it's tile.</p>
+<p>Search for the application name you specified earlier and click the tile.</p>
 <p><a class="glightbox" href="../_attachments/skillFlow18.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillFlow18.png"></a></p>
 </li>
 <li>
@@ -871,16 +872,16 @@
 </li>
 <li>
 <p>Repeat steps 5 and 6 for the <strong>Retrieve job output</strong> skill. </p>
-<p>After adding the <strong>Retrieve job output</strong> skill, your skill flow should like like:</p>
+<p>After adding the <strong>Retrieve job output</strong> skill, your skill flow should look like:</p>
 <p><a class="glightbox" href="../_attachments/skillFlow22.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillFlow22.png"></a></p>
-<p>Next you must map the output values of the first skill to the input of the second skill. In this case, pass the “job id” output from <strong>z/<abbr title="Operating System">OS</abbr> Gather Facts</strong> as an input for <strong>Retrieve job output</strong>. </p>
+<p>Next you must map the output values of the first skill to the input of the second skill. In this case, pass the job ID output from <strong>z/<abbr title="Operating System">OS</abbr> Gather Facts</strong> as an input for <strong>Retrieve job output</strong>. </p>
 </li>
 <li>
 <p>Click the <strong>Retrieve job output</strong> tile.</p>
 <p><a class="glightbox" href="../_attachments/skillFlow23.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillFlow23.png"></a></p>
 </li>
 <li>
-<p>Select the <strong>Input</strong> tab and click in the <strong>id</strong> field.</p>
+<p>Select the <strong>Input</strong> tab and click the <strong>id</strong> field.</p>
 <p><a class="glightbox" href="../_attachments/skillFlow24.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillFlow24.png"></a></p>
 </li>
 <li>
@@ -892,11 +893,11 @@
 <p><a class="glightbox" href="../_attachments/skillFlow25-a.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillFlow25-a.png"></a></p>
 </li>
 <li>
-<p>Verify the <strong>job</strong> appears in the <strong>id</strong> field.</p>
+<p>Verify that the <strong>job</strong> appears in the <strong>id</strong> field.</p>
 <p><a class="glightbox" href="../_attachments/skillFlow25-b.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillFlow25-b.png"></a></p>
 </li>
 <li>
-<p>Optionally, toggle the <strong>Hide this from from the user</strong> setting.</p>
+<p>Optionally, toggle the <strong>Hide this from the user</strong> setting.</p>
 <p>For this lab guide, this option is left disabled. Learn more about this option <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=combining-skills-into-skill-flows#hiding-input-and-output-forms" target="_blank">here</a>.</p>
 <p><a class="glightbox" href="../_attachments/skillFlow26.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillFlow26.png"></a></p>
 </li>
@@ -913,11 +914,11 @@
 <p><a class="glightbox" href="../_attachments/skillFlow29.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillFlow29.png"></a></p>
 </li>
 <li>
-<p>Expand the <strong>Actions</strong> pull-down list and click <strong>Save as draft</strong>.</p>
+<p>Expand the <strong>Actions</strong> pull-down and click <strong>Save as draft</strong>.</p>
 <p><a class="glightbox" href="../_attachments/skillFlow30.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillFlow30.png"></a></p>
 </li>
 <li>
-<p>Expand the <strong>Actions</strong> pull-down list and click <strong>Enhance</strong>.</p>
+<p>Expand the <strong>Actions</strong> pull-down and click <strong>Enhance</strong>.</p>
 <p><a class="glightbox" href="../_attachments/skillFlow31.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillFlow31.png"></a></p>
 <p>On the <strong>Enhancing the skill</strong> pages, you can:</p>
 <ul>
@@ -935,9 +936,9 @@
 </li>
 <li>
 <p>Replace the existing <strong>phrases</strong> (prompts) and then click <strong>Publish</strong>.</p>
-<p>Notice the default prompts are either not very intuitive (the skill flow name) or a bit verbose. Replace the existing phrases with phrases that you anticipate users will enter.</p>
+<p>Notice that the default prompts are either not intuitive (the skill flow name) or a bit verbose. Replace the existing phrases with phrases that you anticipate users will use.</p>
 <div class="admonition bug">
-<p class="admonition-title">Be careful with the sample phrases you specify.</p>
+<p class="admonition-title">Be careful with the sample phrases that you specify.</p>
 <p>During the development of the lab guide, it was discovered that some sample phrases with a <code>/</code> character can cause issues with the actions. Avoid using <strong>z/<abbr title="Operating System">OS</abbr></strong> in the your sample phrases. This issue has been reported to the offering team.</p>
 </div>
 <p>Example prompts:
@@ -967,7 +968,7 @@
 <p><a class="glightbox" href="../_attachments/skillFlow37.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillFlow37.png"></a></p>
 </li>
 <li>
-<p>Click the skill flow you created earlier and then click <strong>Next</strong>.</p>
+<p>Click the skill flow that you created earlier and then click <strong>Next</strong>.</p>
 <p><strong>Note</strong>: it may take a minute for the tiles to appear on the screen.</p>
 <p><a class="glightbox" href="../_attachments/skillFlow38.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillFlow38.png"></a></p>
 </li>
@@ -987,12 +988,12 @@
 <p><a class="glightbox" href="../_attachments/skillFlow41-0.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillFlow41-0.png"></a></p>
 </li>
 <li>
-<p>Select the original skill you created (<strong>a</strong>) (not the skill flow you just created), click the ellipses (<strong>b</strong>), and then click <strong>Delete</strong> (<strong>c</strong>).</p>
+<p>Select the <em>original</em> skill that you created (<strong>a</strong>) (not the skill flow you just created), click the ellipses (<strong>b</strong>), and then click <strong>Delete</strong> (<strong>c</strong>).</p>
 <p><a class="glightbox" href="../_attachments/skillFlow41-a.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillFlow41-a.png"></a></p>
 </li>
 <li>
 <p>Wait for system training to complete.</p>
-<p><strong>Note</strong>: The message will change to "System is trained" and then disappear.</p>
+<p><strong>Note</strong>: The message changes to "System is trained" and then disappears.</p>
 <p><a class="glightbox" href="../_attachments/skillFlow41-b.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillFlow41-b.png"></a></p>
 </li>
 <li>
@@ -1012,7 +1013,7 @@
 </li>
 <li>
 <p>Review the results from the skill flow.</p>
-<p>Use both scroll bars in the assistant preview to review all of the returned information. The output should be similar to what was seen in the <abbr title="Ansible Automation Platform">AAP</abbr> web console. The character strings like <code>[0;32m</code> are special characters that are not properly displayed in the assistant preview interface.</p>
+<p>Use both scroll bars in the assistant preview to review all the returned information. The output is similar to what was seen in the <abbr title="Ansible Automation Platform">AAP</abbr> web console. The character strings like <code>[0;32m</code> are special characters that are not properly displayed in the assistant preview interface.</p>
 <p><a class="glightbox" href="../_attachments/skillFlow44.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/skillFlow44.png"></a></p>
 <details class="example">
 <summary>Sample output form the Z/<abbr title="Operating System">OS</abbr> gather facts flow.</summary>
@@ -1089,7 +1090,7 @@
 </details>
 </li>
 </ol>
-<p>The scenario shown above may or may not be relevant for your client's use case. It is intended to show you how to sequence skills together in a skill flow to create an action that your assistant triggers based on prompts using the pre-configured Ansible automation templates. You are encouraged to create your own skill flows and prompts using other skills available within the <abbr title="Ansible Automation Platform">AAP</abbr> instance. As an example, create a skill flow for the <strong>z/<abbr title="Operating System">OS</abbr> Ping</strong> skill. Be sure to add the <strong>Retrieve job output</strong> skill to view the results.</p>
+<p>The previous scenario might or might not be relevant for your client's use case. The scenario illustrates how to sequence skills together in a skill flow to create an action that your assistant triggers based on prompts that use the pre-configured Ansible automation templates. You are encouraged to create your own skill flows and prompts that use other skills available within the <abbr title="Ansible Automation Platform">AAP</abbr> instance. As an example, create a skill flow for the <strong>z/<abbr title="Operating System">OS</abbr> Ping</strong> skill. Be sure to add the <strong>Retrieve job output</strong> skill to view the results.</p>
 <p>Next, learn about custom-built actions.</p>
 <!-- Terminology -->
 <!-- Keep the list alphabetized for easy deduplication --></div>

@@ -748,21 +748,20 @@
 
 
 <div><h1 id="publishing-and-deploying-your-assistant">Publishing and deploying your assistant<a class="headerlink" href="#publishing-and-deploying-your-assistant" title="Permanent link">#</a></h1>
-<p>To this point, acting as an Assistant Builder, you have built out the assistant, configured conversational search, and added skills and automations. While doing so, you have been testing your assistant using the <strong>preview</strong> capability of <abbr title="Artificial intelligence">AI</abbr> Assistant Builder. The <strong>preview</strong> capability is a closed environment for experimenting with prompts.</p>
-<p>After your assistant is finalized, you can publish it to make it available to end-users. Each assistant you create comes with two <strong>environments</strong>:
-<em>draft</em> and <em>live</em>. You have been configuring your assistant in the draft environment. Each environment has its own set of IDs, URLs, and service credentials that can be referenced by external services.</p>
+<p>To this point, acting as an Assistant Builder, you built the assistant, configured conversational search, and added skills and automations. You tested your assistant by using the <strong>preview</strong> capability of <abbr title="Artificial intelligence">AI</abbr> Assistant Builder. The <strong>preview</strong> capability is a closed environment for experimenting with prompts.</p>
+<p>After your assistant is finalized, you can publish it to make it available to users. Each assistant that you create comes with two <strong>environments</strong>: <em>draft</em> and <em>live</em>. You configured your assistant in the draft environment. Each environment has its own set of IDs, URLs, and service credentials referenced by external services.</p>
 <p>The <strong>Environments</strong> page in the <abbr title="Artificial intelligence">AI</abbr> assistant builder has tabs for managing both the <strong>Draft environment</strong> and the <strong>Live environment</strong>:</p>
 <p><a class="glightbox" href="../_attachments/draftView0.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/draftView0.png"></a></p>
 <p><a class="glightbox" href="../_attachments/liveView0.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/liveView0.png"></a></p>
-<p>The <strong>Draft environment</strong> contains all your in-progress work in the Actions, Preview, and Publish pages. Use the <strong>Draft environment</strong> tab to build out your assistant and use for internal testing before deployment. Any integrations you use (i.e. channels) for the <strong>Draft environment</strong> are unique to that environment, and changes to draft integrations don’t affect the <strong>Live environment</strong>.</p>
+<p>The <strong>Draft environment</strong> contains all your in-progress work in the Actions, Preview, and Publish pages. Use the <strong>Draft environment</strong> tab to build out your assistant and use for internal testing before deployment. Any integrations (channels) that you use for the <strong>Draft environment</strong> are unique to that environment, and changes to draft integrations don’t affect the <strong>Live environment</strong>.</p>
 <h2 id="publish-the-assistant">Publish the assistant<a class="headerlink" href="#publish-the-assistant" title="Permanent link">#</a></h2>
 <p>Each time that you publish, you’re creating a new version of the assistant, for example <em>V1</em>. When you publish your content, you’re creating a snapshot of the draft content, resulting in a version.</p>
 <div class="admonition warning">
 <p class="admonition-title">Versions do not contain integration configurations or environment settings</p>
 <p>Published versions contain all of the content from actions, including settings and variables. <strong>However, versions do not contain integration configurations or environment settings.</strong> Integration configurations and environment settings must be configured manually in each environment.</p>
 </div>
-<p>For managing quality-control and versioning, the Live environment is the version of the assistant you should be giving access to the end-user.</p>
-<p>Follow these steps to publish the first version of your assistant using Assistant Builder:</p>
+<p>For managing quality-control and versioning, the Live environment is the version of the assistant to give to users.</p>
+<p>Follow these steps to publish the first version of your assistant by using Assistant Builder:</p>
 <ol>
 <li>
 <p>Hover over the <strong>Home</strong> icon (<a class="glightbox" href="../_attachments/homeIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/homeIcon.png"></a>) and click <strong>Publish</strong>.</p>
@@ -778,7 +777,7 @@
 </li>
 </ol>
 <h2 id="configure-the-live-environment">Configure the live environment<a class="headerlink" href="#configure-the-live-environment" title="Permanent link">#</a></h2>
-<p><strong>Important</strong>: When the live environment is created, the environment settings from the draft environment are not carried over (for example the configuration of the OpenSearch instance used for conversational search).</p>
+<p><strong>Important</strong>: When the live environment is created, the settings from the draft environment are not carried over (for example, the configuration of the OpenSearch instance used for conversational search).</p>
 <ol>
 <li>
 <p>Hover over the <strong>Home</strong> icon (<a class="glightbox" href="../_attachments/homeIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/homeIcon.png"></a>) and click <strong>Environments</strong>.</p>
@@ -794,8 +793,8 @@
 </li>
 <li>
 <p>Customize the live assistant as you see fit.</p>
-<p>On the <strong>Style</strong> tab, you’re able to set the Assistant name which will be displayed at the top of the chat window when end-users are interacting with the assistant. For pilots or demos, you may want to personalize this name for the client. Also in the <strong>Style</strong> tab, you have the ability set the themes and display settings of the chat windows, including the ability to enable the IBM Watermark and enable streaming (recommended).</p>
-<p>On the <strong>Home</strong> tab, you enable and customize a default greeting message from the assistant when the user accesses the assistant chat. You’re also able to set Conversation starters that will be displayed in the chat window. When selected by the end-user, the text of these conversation starters are sent as prompts, so it is important that your assistant is trained and tested to answer appropriately. It is highly recommended to remove these default conversation starters and to consider creating your own as long as they’re able to be executed as actions and provide value to the end-user. At the bottom of the Home screen tab, you will also see the ability to add a Background style for the assistant chat window.</p>
+<p>On the <strong>Style</strong> tab, you’re able to set the Assistant name that is displayed on the chat window when users are interacting with the assistant. For pilots or demos, consider personalizing this name for the client. Also in the <strong>Style</strong> tab, you can set the themes and display settings of the chat windows, including the ability to enable the IBM Watermark and enable streaming.</p>
+<p>On the <strong>Home</strong> tab, you enable and customize the greeting message from the assistant when the user accesses the assistant chat. You are also able to set <strong>Conversation starters</strong> that are displayed in the chat window. When selected by the user, the text of the conversation starter is sent as a prompt, so it is important that your assistant is trained and tested to answer correctly. It is highly recommended to remove the default conversation starters and create your own. The ability to add a Background style for the assistant chat window is on the home screen tab.</p>
 <p>Explore all the other tabs.</p>
 <div class="admonition important">
 <p class="admonition-title">Customize your live environment.</p>
@@ -816,7 +815,7 @@
 <p><a class="glightbox" href="../_attachments/publish10.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/publish10.png"></a></p>
 </li>
 <li>
-<p>Enter the <abbr title="Uniform Resource Locator">URL</abbr> for your bring-your-own-search (<abbr title="Bring Your Own Search">BYOS</abbr>) engine (<strong>a</strong>), select <strong>Basic authentication</strong> for the <strong>authentication type</strong> (<strong>b</strong>), enter <strong>admin</strong> for the <strong>Username</strong> (<strong>c</strong>), enter the password you specified in the <code>wrapper-creds.yaml</code> file for the <strong>Password</strong> (<strong>d</strong>), and then click <strong>Next</strong> (<strong>e</strong>).</p>
+<p>Enter the <abbr title="Uniform Resource Locator">URL</abbr> for your bring-your-own-search (<abbr title="Bring Your Own Search">BYOS</abbr>) engine (<strong>a</strong>), select <strong>Basic authentication</strong> for the <strong>authentication type</strong> (<strong>b</strong>), enter <strong>admin</strong> for the <strong>Username</strong> (<strong>c</strong>), enter the password that you specified in the <code>wrapper-creds.yaml</code> file for the <strong>Password</strong> (<strong>d</strong>), and then click <strong>Next</strong> (<strong>e</strong>).</p>
 <div class="admonition warning">
 <p class="admonition-title">Use the correct <abbr title="Uniform Resource Locator">URL</abbr> and authentication type!</p>
 <p>Use the <abbr title="Uniform Resource Locator">URL</abbr> and credentials for your <abbr title="Bring Your Own Search">BYOS</abbr> OpenSearch engine created earlier <a href="documentIngestion.md/#BYOS-url">here</a>.</p>
@@ -830,7 +829,7 @@
 <li>
 <p>Update the <strong>Custom service</strong> settings (<strong>a-f</strong>), click <strong>Save</strong> (<strong>g</strong>), and then click <strong>Close</strong> (<strong>h</strong>).</p>
 <div class="admonition tip">
-<p class="admonition-title">Feel free to customize the settings.</p>
+<p class="admonition-title">Customize the settings.</p>
 <p>This is your assistant. Feel free to customize the settings. The settings shown below reflect the changes made earlier in the lab guide to the draft version of the assistant. This includes the <strong>Metadata</strong> field to weigh ingested client documents higher using: </p>
 <div class="highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>{"doc_weight":
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>{"product_docs":0.2,
@@ -877,12 +876,12 @@
 </li>
 </ol>
 <h2 id="deploy-the-assistant">Deploy the assistant<a class="headerlink" href="#deploy-the-assistant" title="Permanent link">#</a></h2>
-<p>After configuring your assistant’s settings and publishing, the final step is to deploy your assistant which can be done across various channels depending on the use case.</p>
-<p>There are several options for deploying your assistant through channels and integrations to satisfy the use cases that you might address. Learn more about all the deployment options <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=assistants-deploying-your-ai-assistant" target="_blank">here</a>.</p>
-<p>For this lab, you will deploy the assistant using the web chat integration. The web chat integration provides an assistant interface that can integrate with your website. There is a lot of flexibility with how you may want to integrate it. Learn more about the web chat integration <a href="https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-overview" target="_blank">here</a>.</p>
+<p>After configuring your assistant’s settings and publishing, the final step is to deploy your assistant, which can be done across various channels depending on the use case.</p>
+<p>Several options exist for deploying your assistant through channels and integrations to satisfy the use cases that you might encounter. Learn more about all the deployment options <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=assistants-deploying-your-ai-assistant" target="_blank">here</a>.</p>
+<p>For this lab, deploy the assistant by using the web chat integration. The web chat integration provides an assistant interface that can integrate with a website. Learn more about the web chat integration <a href="https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-overview" target="_blank">here</a>.</p>
 <ol>
 <li>
-<p>Open the <strong>Environments</strong> page in <strong><abbr title="Artificial intelligence">AI</abbr> assistant builder</strong>.</p>
+<p>Open the <strong>Environments</strong> page in the <strong><abbr title="Artificial intelligence">AI</abbr> assistant builder</strong>.</p>
 </li>
 <li>
 <p>Click <strong>Web chat</strong> for the <strong>Live</strong> environment.</p>
@@ -905,7 +904,7 @@
 
 <ol start="5">
 <li>
-<p>In a text editor, create a file named <code>Watson Assistant Chat.html</code> and paste the following text in the file.</p>
+<p>In a text editor, create a file that is named <code>Watson Assistant Chat.html</code> and paste the following text in the file.</p>
 <p>File name:
 </p><div class="highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Watson Assistant Chat.html
 </span></code></pre></div>
@@ -972,7 +971,7 @@
 <p><a class="glightbox" href="../_attachments/publish20.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/publish20.png"></a></p>
 </li>
 </ol>
-<p>Your assistant is now live. Explore some of the earlier prompts to verify the assistant is accessing the ingested documents and your skills and skill flows are active.</p>
+<p>Your assistant is now live. Explore some of the earlier prompts to verify that the assistant is accessing the ingested documents and your skills and skill flows are active.</p>
 <div class="admonition warning">
 <p class="admonition-title">Wait 5-10 seconds before clicking apply on skill actions.</p>
 </div>

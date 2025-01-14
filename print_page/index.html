@@ -980,8 +980,8 @@
 <li>Deploy a dedicated instance of OpenSearch for client document ingestion (Optional)</li>
 <li>Import skills for z/<abbr title="Operating System">OS</abbr> automations</li>
 <li>Connect apps to assistants</li>
-<li>Creat assistant actions</li>
-<li>Creat skill flows </li>
+<li>Create assistant actions</li>
+<li>Create skill flows </li>
 <li>Create custom-built actions</li>
 <li>Import pre-packaged z/<abbr title="Operating System">OS</abbr> skills</li>
 <li>Publish and deploy an assistant</li>
@@ -1132,7 +1132,7 @@
 <p><strong>Watsonx Assistant for Z lab – watsonx Orchestrate</strong>: provides a dedicated environment on IBM Cloud where you can create and configure the assistant, set up conversational search, import skills, and configure actions.</p>
 </li>
 <li>
-<p><strong>Ansible Automation Platform (<abbr title="Ansible Automation Platform">AAP</abbr>) &amp; z/<abbr title="Operating System">OS</abbr></strong>: provides a pre-configured instance of <abbr title="Ansible Automation Platform">AAP</abbr> and Wazi z/<abbr title="Operating System">OS</abbr>. This environment includes Ansible playbooks, which you can import as skills within WatsonX Orchestrate and connect to your assistant. Preinstalled templates for various use cases are also available (covered in later sections). Learn more about <abbr title="Ansible Automation Platform">AAP</abbr> <a href="https://www.redhat.com/en/technologies/management/ansible" target="_blank">here</a>. Learn more about Wazi, <a href="https://www.ibm.com/cloud/wazi-as-a-service" target="_blank">here</a>.</p>
+<p><strong>Ansible Automation Platform (<abbr title="Ansible Automation Platform">AAP</abbr>) &amp; z/<abbr title="Operating System">OS</abbr></strong>: provides a pre-configured instance of <abbr title="Ansible Automation Platform">AAP</abbr> and Wazi z/<abbr title="Operating System">OS</abbr>. This environment includes Ansible playbooks, which you can import as skills within watsonx Orchestrate and connect to your assistant. Preinstalled templates for various use cases are also available (covered in later sections). Learn more about <abbr title="Ansible Automation Platform">AAP</abbr> <a href="https://www.redhat.com/en/technologies/management/ansible" target="_blank">here</a>. Learn more about Wazi, <a href="https://www.ibm.com/cloud/wazi-as-a-service" target="_blank">here</a>.</p>
 </li>
 <li>
 <p><strong>Single Node OpenShift with NFS storage</strong>: provisions a single-node Red Hat OpenShift cluster (<abbr title="Single-node Red Hat OpenShift">SNO</abbr>) on IBM Cloud. This cluster installs a dedicated instance of <a href="https://opensearch.org/">OpenSearch</a> for Watson Assistant for Z, enabling ingestion of client-supplied documents.- </p>
@@ -1195,7 +1195,7 @@
 <div style="page-break-after: always;"></div>
 
 <p>During the provisioning process, multiple emails are sent to you from <abbr title="IBM Technology Zone">ITZ</abbr> as the provisioning process runs. One email states the reservation is provisioning and the other email states that the environment is <strong>Ready</strong>.</p>
-<p>In rare cases, the provisioning process may fail. If you receive an email stating the reservation failed, try again by repeating Steps 1-3 for the environment that failed to provision. In addition, review the <a href="#techzoneenvironment-troubleshooting">Troubleshooting</a> section that follows. If issues continue, open an <abbr title="IBM Technology Zone">ITZ</abbr> support ticket by using the methods that are mentioned in the <a href="#index-support">Support</a> section.</p>
+<p>In rare cases, the provisioning process can fail. If you receive an email stating the reservation failed, try again by repeating Steps 1-3 for the environment that failed to provision. In addition, review the <a href="#techzoneenvironment-troubleshooting">Troubleshooting</a> section that follows. If issues continue, open an <abbr title="IBM Technology Zone">ITZ</abbr> support ticket by using the methods that are mentioned in the <a href="#index-support">Support</a> section.</p>
 <h2 id="techzoneenvironment-extend-the-reservation">Extend the reservation<a class="headerlink" href="#techzoneenvironment-extend-the-reservation" title="Permanent link">#</a></h2>
 <p>When the reservations are in the <strong>Ready</strong> state, you can extend each reservation beyond its original end date. The duration of the extension will vary by reservation. </p>
 <ol>
@@ -1245,8 +1245,8 @@
 <li>
 <p>Click the <strong>account</strong> menu and verify access to the IBM Cloud account listed in your <abbr title="IBM Technology Zone">ITZ</abbr> reservation.</p>
 <div class="admonition important">
-<p class="admonition-title">The account may change within <abbr title="IBM Technology Zone">ITZ</abbr>.</p>
-<p>Over time, the account may change for the environments. The account names should align with the account named in the invitation email you received. </p>
+<p class="admonition-title">The account may be different.</p>
+<p>The account name should align with the account named in the invitation email you received. </p>
 </div>
 <p><a class="glightbox" href="../_attachments/itzCloudAccountsVerify.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/itzCloudAccountsVerify.png"></a></p>
 <details class="tip">
@@ -1266,8 +1266,8 @@
 </details>
 <!-- Terminology -->
 <!-- Keep the list alphabetized for easy deduplication --></div></section><section class="print-page" id="setup-creatingassistant-configuringconvosearch"><div><h1 id="creating-an-assistant-and-configuring-conversational-search">Creating an assistant and configuring conversational search<a class="headerlink" href="#setup-creatingassistant-configuringconvosearch-creating-an-assistant-and-configuring-conversational-search" title="Permanent link">#</a></h1>
-<p><a href="https://www.ibm.com/products/watsonx-orchestrate?p1=Search&amp;p4=43700077722754881&amp;p5=e&amp;p9=58700008198244496&amp;gad_source=1&amp;gclsrc=ds">Watsonx Orchestrate</a> enables you to create and configure an assistant with conversational search capabilities. Configure your assistant to use conversational search by leveraging a hosted <a href="https://opensearch.org/">OpenSearch</a> instance. The pre-configured instance of watsonx Orchestrate in IBM Technology Zone (<abbr title="IBM Technology Zone">ITZ</abbr>) boasts over 220 knowledge sources and supports Retrieval Augmented Generation (<abbr title="Retrieval augmented generation">RAG</abbr>). The large language model (<abbr title="Large language model">LLM</abbr>) providing conversational <abbr title="Artificial intelligence">AI</abbr> augments this knowledge based on IBM Z documentation, generating IBM Z context-aware responses to queries with content-grounded knowledge.</p>
-<p>Below is a high-level, logical architecture of the environment you will deploy in this section.</p>
+<p><a href="https://www.ibm.com/products/watsonx-orchestrate?p1=Search&amp;p4=43700077722754881&amp;p5=e&amp;p9=58700008198244496&amp;gad_source=1&amp;gclsrc=ds">Watsonx Orchestrate</a> allows you to create and configure an assistant with conversational search capabilities. Configure your assistant to use conversational search by using a hosted <a href="https://opensearch.org/">OpenSearch</a> instance. The pre-configured instance of watsonx Orchestrate in IBM Technology Zone (<abbr title="IBM Technology Zone">ITZ</abbr>) boasts over 220 knowledge sources and supports Retrieval Augmented Generation (<abbr title="Retrieval augmented generation">RAG</abbr>). The large language model (<abbr title="Large language model">LLM</abbr>) providing conversational <abbr title="Artificial intelligence">AI</abbr> augments this knowledge based on IBM Z documentation, generating IBM Z context-aware responses to queries with content-grounded knowledge.</p>
+<p>A high-level, logical architecture of the environment is illustrated in the following diagram.</p>
 <p><a class="glightbox" href="../Setup/_attachments/LabArchitecture-Lab%201.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/LabArchitecture-Lab%201.png"></a></p>
 <h2 id="setup-creatingassistant-configuringconvosearch-access-the-itz-ibm-cloud-account-for-the-watsonx-assistant-for-z-pilot-environment">Access the <abbr title="IBM Technology Zone">ITZ</abbr> IBM Cloud account for the watsonx Assistant for Z Pilot environment<a class="headerlink" href="#setup-creatingassistant-configuringconvosearch-access-the-itz-ibm-cloud-account-for-the-watsonx-assistant-for-z-pilot-environment" title="Permanent link">#</a></h2>
 <ol>
@@ -1373,7 +1373,7 @@
 <li>
 <p>Complete the <strong>Custom service</strong> (<strong>a-e</strong>) form and then click <strong>Next</strong> (<strong>f</strong>).</p>
 <p><strong>a</strong>. Select <strong>By providing credentials</strong>.</p>
-<p><strong>b</strong>. Enter the following value in the <strong><abbr title="Uniform Resource Locator">URL</abbr></strong> field (use the copy icon to avoid typographical errors). This is the <abbr title="Uniform Resource Locator">URL</abbr> for the a shared <a href="https://opensearch.org/">OpenSearch</a> instance. In later sections you will created and customize a dedicated instance.
+<p><strong>b</strong>. Enter the following value in the <strong><abbr title="Uniform Resource Locator">URL</abbr></strong> field (use the copy icon to avoid typographical errors). This is the <abbr title="Uniform Resource Locator">URL</abbr> for the shared <a href="https://opensearch.org/">OpenSearch</a> instance. In later sections, you create and customize a dedicated instance.
 </p><div class="highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#setup-creatingassistant-configuringconvosearch-__codelineno-0-1"></a>https://wxa4z-opensearch-wrapper-wxa4z-demo-v2-1-0.wxo4z-opc-opensearch-clus-47e063e6a3ad1f71bf2e58f91c3b4c2e-0000.us-south.containers.appdomain.cloud/v1/query
 </span></code></pre></div>
 <p><strong>c</strong>. Select <strong>Basic authentication</strong> in the <strong>Choose an authentication type</strong> drop-down list.</p>
@@ -1430,7 +1430,7 @@
 <p><a class="glightbox" href="../Setup/_attachments/genAIActionsSetByAssistantMenu3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/genAIActionsSetByAssistantMenu3.png"></a></p>
 </li>
 <li>
-<p>Select <strong>without conditions</strong>  (<strong>a</strong>) in the <strong>Is taken</strong> drop-down menu and then click <strong>Clear conditions</strong> (<strong>b</strong>).</p>
+<p>Select <strong>without conditions</strong> (<strong>a</strong>) in the <strong>Is taken</strong> drop-down menu and then click <strong>Clear conditions</strong> (<strong>b</strong>).</p>
 <p><strong>Note</strong>: the <strong>Is taken</strong> value does not change from <strong>with conditions</strong> after selecting <strong>without conditions</strong>.</p>
 <p><a class="glightbox" href="../Setup/_attachments/genAIActionsSetByAssistantMenu4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/genAIActionsSetByAssistantMenu4.png"></a></p>
 </li>
@@ -1542,8 +1542,8 @@
 </li>
 </ol>
 <h2 id="setup-creatingassistant-configuringconvosearch-configure-the-base-large-language-model">Configure the base large language model<a class="headerlink" href="#setup-creatingassistant-configuringconvosearch-configure-the-base-large-language-model" title="Permanent link">#</a></h2>
-<p>After the preceding steps are completed, there are enhancements you can make to configure how the large language model (<abbr title="Large language model">LLM</abbr>) responds to your queries including adding prompt instructions and configuring the <abbr title="Large language model">LLM</abbr>’s answer behavior.
-These options can be summarized <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=assistant-configuring-base-llm" target="_blank">here</a>.</p>
+<p>There are enhancements that you can make to configure how the large language model (<abbr title="Large language model">LLM</abbr>) responds to your queries, including adding prompt instructions and configuring the <abbr title="Large language model">LLM</abbr>’s answer behavior.
+The options are summarized <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=assistant-configuring-base-llm" target="_blank">here</a>.</p>
 <ol>
 <li>
 <p>Hover over the <strong>Home</strong> (<a class="glightbox" href="../Setup/_attachments/homeIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/homeIcon.png"></a>) and click <strong>Generative <abbr title="Artificial intelligence">AI</abbr></strong>.</p>
@@ -1567,13 +1567,13 @@ These options can be summarized <a href="https://www.ibm.com/docs/en/watsonx/waz
 <p>Toggle <strong>General-purpose answering</strong> to <strong>Off</strong> and then click <strong>Save</strong> (<a class="glightbox" href="../Setup/_attachments/diskIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/diskIcon.png"></a>).</p>
 <p>The ability exists to configure the answering behavior of your assistant to provide responses that are based on the preinstalled content or general content.</p>
 <p>On the <strong>Generative <abbr title="Artificial intelligence">AI</abbr></strong> page (under <strong>Prompt Instructions</strong>), you see the <strong>Answer behavior</strong> section. After you configure <strong>Conversational search</strong>, you see that it is enabled (toggled on) with the search integration added.</p>
-<p>If you enable both general-purpose answering as well as conversational search, the conversational search answering takes precedence over General-purpose answering. </p>
+<p>If you enable both general-purpose answering and conversational search, conversational search answering takes precedence over General-purpose answering. </p>
 <p><strong>Recommendation</strong>: For purposes of retrieving Z-specific answers and responses, it is recommended that you turn off general-purpose answering and leave only conversational search turned on.</p>
 <p><a class="glightbox" href="../Setup/_attachments/genAIGenAI4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Setup/_attachments/genAIGenAI4.png"></a></p>
 </li>
 </ol>
 <h2 id="setup-creatingassistant-configuringconvosearch-testing-conversational-search">Testing conversational search<a class="headerlink" href="#setup-creatingassistant-configuringconvosearch-testing-conversational-search" title="Permanent link">#</a></h2>
-<p>Now you can begin issuing queries to test the assistant's responses. For more detailed responses, try appending "Please provide a detailed response." to the end of your question.</p>
+<p>Now, you can begin issuing queries to test the assistant's responses. For more detailed responses, try appending "Please provide a detailed response." to the end of your question.</p>
 <p><strong>Important</strong>: Modify settings iteratively based on your assessment of response quality. Review and change them at any time. For example, add extra prompt instructions, change response verbosity, and modify OpenSearch indexes.</p>
 <ol>
 <li>
@@ -1642,15 +1642,15 @@ These options can be summarized <a href="https://www.ibm.com/docs/en/watsonx/waz
                             Bring your own search and documents <a class='headerlink' href='#section-bring-your-own-search-and-documents' title='Permanent link'>↵</a>
                         </h1>
                         <section class="print-page" id="byosd-documentingestion"><div><h1 id="creating-a-stand-alone-opensearch-instance-for-document-ingestion">Creating a stand-alone OpenSearch instance for document ingestion<a class="headerlink" href="#byosd-documentingestion-creating-a-stand-alone-opensearch-instance-for-document-ingestion" title="Permanent link">#</a></h1>
-<p>Now that you’ve created and deployed your own assistant with conversational search capabilities, your client can understand how watsonx Assistant for Z provides its content-grounded responses to any Z related question they might have. In the previous section, you configured your assistant to use a pre-configured Z <abbr title="Retrieval augmented generation">RAG</abbr> which has over 220 knowledge sources, and uses this knowledge to provide <abbr title="Artificial intelligence">AI</abbr> generated responses. </p>
-<p>In this section, learn to enable clients to personalize the assistant with an internal knowledge base that contains documentation they’d like to ingest into the Retrieval Augmented Generation (<abbr title="Retrieval augmented generation">RAG</abbr>). This will help provide a level of context-awareness for their own environment when asking environment-specific questions to the assistant.</p>
-<p>In this section, install and configure a “Z <abbr title="Retrieval augmented generation">RAG</abbr>” on Red Hat OpenShift enabling the bring-your-own-documentation (<abbr title="Bring Your Own Documentation">BYOD</abbr>) capability to ingest additional documentation beyond the pre-loaded IBM documentation. In doing so, you will deploy a dedicated <a href="https://opensearch.org/">OpenSearch</a> instance, referred to as bring-your-own-search (<abbr title="Bring Your Own Search">BYOS</abbr>). Then, connect your assistant  to the new new <abbr title="Retrieval augmented generation">RAG</abbr> database to provide responses based on the ingested documentation. </p>
-<p>Below is a high-level, logical architecture of the environment you will deploy in this section.</p>
+<p>Now that you created and deployed your own assistant with conversational search capabilities, your client can understand how watsonx Assistant for Z provides its content-grounded responses to any Z-related questions. In the previous section, you configured your assistant to use a pre-configured Z <abbr title="Retrieval augmented generation">RAG</abbr> that has over 220 knowledge sources, and uses this knowledge to provide <abbr title="Artificial intelligence">AI</abbr>-generated responses. </p>
+<p>Next, learn to enable clients to personalize the assistant with an internal knowledge base that contains documentation they add to the Retrieval Augmented Generation (<abbr title="Retrieval augmented generation">RAG</abbr>). This helps provide a level of context-awareness for their own environment when environment-specific questions are asked to the assistant.</p>
+<p>Now, install and configure a “Z <abbr title="Retrieval augmented generation">RAG</abbr>” on Red Hat OpenShift enabling the bring-your-own-search (<abbr title="Bring Your Own Search">BYOS</abbr>) and bring-your-own-documentation (<abbr title="Bring Your Own Documentation">BYOD</abbr>) capability to ingest other documentation. In doing so, you deploy a dedicated <a href="https://opensearch.org/">OpenSearch</a> instance (<abbr title="Bring Your Own Search">BYOS</abbr>). Then, connect your assistant to the new <abbr title="Retrieval augmented generation">RAG</abbr> database to provide responses based on the ingested documentation (<abbr title="Bring Your Own Documentation">BYOD</abbr>). </p>
+<p>Below is a high-level, logical architecture of the environment deployed in this section.</p>
 <p><a class="glightbox" href="../byosd/_attachments/LabArchitecture-Lab%202%20-%20a.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../byosd/_attachments/LabArchitecture-Lab%202%20-%20a.png"></a></p>
 <p>Earlier, you provisioned three IBM Technology Zone (<abbr title="IBM Technology Zone">ITZ</abbr>) environments. One of which was a single-node Red Hat OpenShift (<abbr title="Single-node Red Hat OpenShift">SNO</abbr>) cluster. If you have not reserved this environment, or it is not in the <strong>Ready</strong> state, return to the 
 <a href="#techzoneenvironment">IBM Technology Zone environment</a> section to complete the reservation.</p>
-<h2 id="byosd-documentingestion-install-the-red-hat-openshift-command-line-interface-utility">Install the Red Hat OpenShift command-line interface utility<a class="headerlink" href="#byosd-documentingestion-install-the-red-hat-openshift-command-line-interface-utility" title="Permanent link">#</a></h2>
-<p>The Red Hat OpenShift command-line interface (<abbr title="Command Line Interface">CLI</abbr>) utility, which is known as <strong>oc</strong>, must be installed on your local workstation. If you already installed the <strong>oc</strong> utility, you can proceed to <a href="#byosd-documentingestion-Login2OpenShift">log in to the <abbr title="Single-node Red Hat OpenShift">SNO</abbr> cluster</a>.</p>
+<h2 id="byosd-documentingestion-install-the-red-hat-openshift-command-line-interface-utility">Install the Red Hat OpenShift command line interface utility<a class="headerlink" href="#byosd-documentingestion-install-the-red-hat-openshift-command-line-interface-utility" title="Permanent link">#</a></h2>
+<p>The Red Hat OpenShift command line interface (<abbr title="Command Line Interface">CLI</abbr>) utility, which is known as <strong>oc</strong>, must be installed on your local workstation. If you already installed the <strong>oc</strong> utility, you can proceed to <a href="#byosd-documentingestion-Login2OpenShift">log in to the <abbr title="Single-node Red Hat OpenShift">SNO</abbr> cluster</a>.</p>
 <ol>
 <li>
 <p>Click the following link to open a browser window to your <abbr title="IBM Technology Zone">ITZ</abbr> reservations.</p>
@@ -1680,7 +1680,7 @@ These options can be summarized <a href="https://www.ibm.com/docs/en/watsonx/waz
 <li>
 <p>Click the link under <strong>oc - OpenShift Command Line Interface (<abbr title="Command Line Interface">CLI</abbr>)</strong> for the operating system of your local machine.</p>
 <p><a class="glightbox" href="../byosd/_attachments/SNOoCPDownload.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../byosd/_attachments/SNOoCPDownload.png"></a></p>
-<p>Clicking the preceding link automatically downloads either a <strong>.zip</strong> or <strong>.tar</strong> file specific to your operating system. Unzip or untar the file. Place the <strong>oc</strong> binary for your operating system (<abbr title="Operating System">OS</abbr>) in a directory that is in your default PATH, or set the PATH environment variable to include the location of the <strong>oc</strong> binary.</p>
+<p>Clicking the preceding link automatically downloads either a <strong>.zip</strong> or <strong>.tar</strong> file specific to your operating system. Extract the file's content. Place the <strong>oc</strong> binary for your operating system (<abbr title="Operating System">OS</abbr>) in a directory that is in your default PATH, or set the PATH environment variable to include the location of the <strong>oc</strong> binary.</p>
 </li>
 <li>
 <p>Verify the installation by running the <strong>oc</strong> command on your local workstation.</p>
@@ -1762,7 +1762,7 @@ Sample output:
 <h3 id="byosd-documentingestion-install-ibm-certificate-manager-on-red-hat-openshift">Install IBM Certificate Manager on Red Hat OpenShift<a class="headerlink" href="#byosd-documentingestion-install-ibm-certificate-manager-on-red-hat-openshift" title="Permanent link">#</a></h3>
 <ol>
 <li>
-<p>In a text editor, create a file named <code>catalogCertManager.yaml</code> and paste the following text in the file.</p>
+<p>In a text editor, create a file that is named <code>catalogCertManager.yaml</code> and paste the following text in the file.</p>
 <div class="admonition important">
 <p class="admonition-title">Formatting of the yaml file is critical!</p>
 <p>The content of the YAML file must be formatted exactly as shown. Use the <strong>Copy</strong> icon to prevent typographical errors.</p>
@@ -1812,7 +1812,7 @@ Sample output:
 <p class="admonition-title">Be patient.</p>
 <p>It may take a minute or two for the <strong>IBM Cert Manager</strong> tile to appear. </p>
 </div>
-<p><strong>Note</strong>: The current version of the operator may differ than the one shown in the image below. Select the most current version.</p>
+<p><strong>Note</strong>: The current version of the operator may differ than shown in the image below. Select the most current version.</p>
 <p><a class="glightbox" href="../byosd/_attachments/SNOOCPOperator3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../byosd/_attachments/SNOOCPOperator3.png"></a></p>
 </li>
 <li>
@@ -1840,8 +1840,8 @@ Sample output:
 <p>Create or obtain your IBM Container Software production entitlement key.</p>
 <p>A production entitlement key is required to pull the container images that get deployed by the operator.</p>
 <p>To create or retrieve your existing entitlement key, follow the instructions <a href="https://myibm.ibm.com/products-services/containerlibrary" target="_blank">here</a>.</p>
-<p>If additional assistance is needed, refer to this <a href="https://github.ibm.com/alchemy-registry/image-iam/blob/master/obtaining_entitlement.md" target="_blank">site</a>. </p>
-<p>After locating your existing key or creating a new key, continue to the next step.</p>
+<p>If extra assistance is needed, refer to this <a href="https://github.ibm.com/alchemy-registry/image-iam/blob/master/obtaining_entitlement.md" target="_blank">site</a>. </p>
+<p>Locate your existing key or create a new one and continue to the next step.</p>
 </li>
 <li>
 <p>Click <strong>copy</strong> and record your entitlement key for future use in a secure location.</p>
@@ -1868,7 +1868,7 @@ Sample output:
 <p><a class="glightbox" href="../byosd/_attachments/createPullSecret.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../byosd/_attachments/createPullSecret.png"></a></p>
 </li>
 <li>
-<p>In a text editor, create a file named <code>catalogSource.yaml</code> and paste the following text in the file.</p>
+<p>In a text editor, create a file that is named <code>catalogSource.yaml</code> and paste the following text in the file.</p>
 <div class="admonition important">
 <p class="admonition-title">Formatting of the yaml file is critical!</p>
 <p>The content of YAML files must be formatted exactly as shown. Use the copy icon to prevent typographical errors.</p>
@@ -1907,12 +1907,12 @@ Sample output:
 <p class="admonition-title">Be patient.</p>
 <p>It may take a minute or two for the <strong>IBM watsonx Assistant for Z Operator Catalog</strong> tile to appear. </p>
 </div>
-<p><strong>Note</strong>: The current version of the operator may differ than the one shown in the image below.</p>
+<p><strong>Note</strong>: The current version of the operator may differ than that shown in the image below.</p>
 <p><a class="glightbox" href="../byosd/_attachments/installAssistantOperator1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../byosd/_attachments/installAssistantOperator1.png"></a></p>
 </li>
 <li>
 <p>Click <strong>Install</strong>.</p>
-<p><strong>Note</strong>: The current version of the operator may differ than the one shown in the image below. Select the most current version.</p>
+<p><strong>Note</strong>: The current version of the operator may differ than the one shown in the image after this. Select the most current version.</p>
 <p><a class="glightbox" href="../byosd/_attachments/installAssistantOperator2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../byosd/_attachments/installAssistantOperator2.png"></a></p>
 </li>
 <li>
@@ -1955,7 +1955,7 @@ Sample output:
 <h3 id="byosd-documentingestion-deploy-required-secrets-and-the-custom-bring-your-own-search-byosearch-resources">Deploy required secrets and the custom bring-your-own-search (BYOSearch) resources<a class="headerlink" href="#byosd-documentingestion-deploy-required-secrets-and-the-custom-bring-your-own-search-byosearch-resources" title="Permanent link">#</a></h3>
 <ol>
 <li>
-<p>In a text editor, create a file named <code>os-secret.yaml</code> and paste the following text in the file.</p>
+<p>In a text editor, create a file that is named <code>os-secret.yaml</code> and paste the following text in the file.</p>
 <p>File name: 
 </p><div class="highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#byosd-documentingestion-__codelineno-18-1"></a>os-secret.yaml
 </span></code></pre></div>
@@ -1980,7 +1980,7 @@ Sample output:
 <p><a name="AuthKey"></a></p>
 <ol start="3">
 <li>
-<p>In a text editor, create a file named <code>client-ingestion-secret.yaml</code> and paste the following text in the file.</p>
+<p>In a text editor, create a file that is named <code>client-ingestion-secret.yaml</code> and paste the following text in the file.</p>
 <p>File name: 
 </p><div class="highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#byosd-documentingestion-__codelineno-21-1"></a>client-ingestion-secret.yaml
 </span></code></pre></div>
@@ -2002,7 +2002,7 @@ Sample output:
 </span></code></pre></div>
 </li>
 <li>
-<p>In a text editor, create a file named <code>wrapper-creds.yaml</code> and paste the following text in the file.</p>
+<p>In a text editor, create a file that is named <code>wrapper-creds.yaml</code> and paste the following text in the file.</p>
 <p>File name: 
 </p><div class="highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#byosd-documentingestion-__codelineno-24-1"></a>wrapper-creds.yaml
 </span></code></pre></div>
@@ -2035,7 +2035,7 @@ Sample output:
 <p><strong>Note</strong>: The output of the command will be a string similar to: <strong>apps.672b79320c7a71b728e523b4.ocp.techzone.ibm.com</strong></p>
 </li>
 <li>
-<p>In a text editor, create a file named <code>byos.yaml</code> and paste the following text in the file.</p>
+<p>In a text editor, create a file that is named <code>byos.yaml</code> and paste the following text in the file.</p>
 <p>File name: 
 </p><div class="highlight"><pre><span></span><code><span id="__span-28-1"><a id="__codelineno-28-1" name="__codelineno-28-1" href="#byosd-documentingestion-__codelineno-28-1"></a>byos.yaml
 </span></code></pre></div>
@@ -2128,15 +2128,15 @@ You are now ready to configure your assistant with the route to your <abbr title
 </li>
 <li>
 <p>Update your assistant's custom search integration <abbr title="Uniform Resource Locator">URL</abbr>.</p>
-<p>Next, you need to return to your assistant in the watsonx Orchestrate <abbr title="Artificial intelligence">AI</abbr> assistant builder and update the custom search integration <abbr title="Uniform Resource Locator">URL</abbr>. Use the <abbr title="Uniform Resource Locator">URL</abbr> form the network route (with <strong>/v1/query</strong>) appended. Use <strong>admin</strong> for the <strong>Username</strong> and the <strong>Password</strong> will be the password you specified in the <code>wrapper-creds.yaml</code> file. </p>
+<p>Next, you need to return to your assistant in the watsonx Orchestrate <abbr title="Artificial intelligence">AI</abbr> assistant builder and update the custom search integration <abbr title="Uniform Resource Locator">URL</abbr>. Use the <abbr title="Uniform Resource Locator">URL</abbr> form the network route (with <strong>/v1/query</strong>) appended. Use <strong>admin</strong> for the <strong>Username</strong> and the <strong>Password</strong> will be the password that you specified in the <code>wrapper-creds.yaml</code> file. </p>
 <div class="admonition tip">
 <p class="admonition-title">Don't recall how to set the customer search <abbr title="Uniform Resource Locator">URL</abbr>?</p>
 <p>Refer back to <a href="#setup-creatingassistant-configuringconvosearch-configure-conversational-search">Creating an assistant and configuring conversational search</a> if you don't remember how to specify the customer search <abbr title="Uniform Resource Locator">URL</abbr>.</p>
 </div>
 </li>
 <li>
-<p>Test your assistant and verify it is still answering question related to IBM Z.</p>
-<p>Experiment with different prompts and validate that the answers provided are reasonable, and that you can view the documentation that was sourced. If responses are not received as expected, verify the <abbr title="Uniform Resource Locator">URL</abbr> is formatted correctly and you specified the <code>`wrapper-creds.yaml</code> password as the <strong>admin</strong> password.</p>
+<p>Test your assistant and verify that it is still answering questions that are related to IBM Z.</p>
+<p>Experiment with different prompts and validate that the answers provided are reasonable, and that you can view the documentation that was sourced. If responses are not received as expected, verify that the <abbr title="Uniform Resource Locator">URL</abbr> is formatted correctly and you specified the <code>`wrapper-creds.yaml</code> password as the <strong>admin</strong> password.</p>
 </li>
 </ol>
 <h2 id="byosd-documentingestion-troubleshooting">Troubleshooting<a class="headerlink" href="#byosd-documentingestion-troubleshooting" title="Permanent link">#</a></h2>
@@ -2153,15 +2153,15 @@ You are now ready to configure your assistant with the route to your <abbr title
 </details>
 <!-- Terminology -->
 <!-- Keep the list alphabetized for easy deduplication --></div></section><section class="print-page" id="byosd-zassist"><div><h1 id="installing-and-using-zassist-to-ingest-client-documents">Installing and using zassist to ingest client documents<a class="headerlink" href="#byosd-zassist-installing-and-using-zassist-to-ingest-client-documents" title="Permanent link">#</a></h1>
-<p>With bring-your-own-search (<abbr title="Bring Your Own Search">BYOS</abbr>) installed and configured in your assistant, you can now prepare for document ingestion. This will show how client's can augment their assistant’s conversational search by creating an internal knowledge base with their documentation. This will allow the assistant to provide valuable responses to a range of questions that may not be possible with the default documentation available. </p>
-<p>As an example, a client mentioned that their developers often need reference material on company-specific legacy code or company-specific syntax, and they end up having to search through a lot of documentation to find it or look at old code. There is also a need for their operational support group to quickly determine how to resolve technical issues using runbooks. </p>
-<p>You can show your client how watsonx Assistant for Z can assist developers and operational support focals in finding answers about internal processes for code development and deployment by ingesting internal documentation. And by doing so, the client can establish an internal knowledge base that enables their assistant to provide the answers they need to their company-specific questions and processes. </p>
+<p>With bring-your-own-search (<abbr title="Bring Your Own Search">BYOS</abbr>) installed and configured in your assistant, you can now prepare for document ingestion (bring-your-own-documents (<abbr title="Bring Your Own Documentation">BYOD</abbr>)). <abbr title="Bring Your Own Documentation">BYOD</abbr> demonstrates how clients can augment their assistant’s conversational search by creating an internal knowledge base with their documentation. Using the client's documentation allows the assistant to provide valuable responses to a range of questions not possible with the default documentation available. </p>
+<p>As an example, a client mentioned that their developers often need reference material on company-specific legacy code or company-specific syntax. The users must search through volumes of documentation to find it or look at old code. Also, a need for their operational support group to quickly determine how to resolve technical issues using runbooks exists. </p>
+<p>You can show your client how watsonx Assistant for Z can assist developers and operational support personnel in finding answers about internal processes for code development and deployment. </p>
 <p>Currently, only <abbr title="Portable Document Format">PDF</abbr>, <abbr title="Hyper Text Markup Language">HTML</abbr>, and <abbr title="Microsoft Word Document Format">DOCX</abbr> file formats are supported for ingestion.</p>
-<p>Below is a high-level, logical architecture of the environment you will deploy in this section.</p>
+<p>A high-level, logical architecture of the environment is illustrated in the following diagram.</p>
 <p><a class="glightbox" href="../byosd/_attachments/LabArchitecture-Lab%202%20-%20b.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../byosd/_attachments/LabArchitecture-Lab%202%20-%20b.png"></a></p>
 <p>To prepare for document ingestion, you can also reference the setup instructions that are located <a href="https://ibmdocs-test.dcs.ibm.com/docs/en/watsonx/waz/2.0?topic=install-zassist-ingest-data" target="_blank">here</a>.</p>
 <h2 id="byosd-zassist-install-the-zassist-utility">Install the zassist utility<a class="headerlink" href="#byosd-zassist-install-the-zassist-utility" title="Permanent link">#</a></h2>
-<p>The <strong>zassist</strong> utility is an executable program that automates the ingestion of client documentation into the <abbr title="Retrieval augmented generation">RAG</abbr> for watsonx Assistant for Z. A version of zassist is available for download for IBMers and Business Partners for conducting pilots. Follow the steps below to download and install <strong>zassist</strong>.</p>
+<p>The <strong>zassist</strong> utility is an executable program that automates the ingestion of client documentation into the <abbr title="Retrieval augmented generation">RAG</abbr> for watsonx Assistant for Z. A version of zassist is available for download for IBMers and Business Partners for conducting pilots. Follow the steps to download and install <strong>zassist</strong>.</p>
 <div class="admonition info">
 <p class="admonition-title">How do clients get the zassist utility?</p>
 <p>The utility is available to clients through <a href="https://www.ibm.com/software/passportadvantage/pao_customer.html" target="_blank">IBM Passport Advantage</a>.</p>
@@ -2184,7 +2184,7 @@ You are now ready to configure your assistant with the route to your <abbr title
 <p>Additional information for running the preceding tasks can be found <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=data-installing-zassist#tasktask_w13_lhf_4bc__steps__1" target="_blank">here</a>.</p>
 </li>
 <li>
-<p>Run the <strong>zassist</strong> command to verify it is working.</p>
+<p>Run the <strong>zassist</strong> command to verify that it is working.</p>
 <div class="highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#byosd-zassist-__codelineno-0-1"></a>zassist
 </span></code></pre></div>
 <p><a class="glightbox" href="../byosd/_attachments/zassistRunning.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../byosd/_attachments/zassistRunning.png"></a></p>
@@ -2202,7 +2202,7 @@ You are now ready to configure your assistant with the route to your <abbr title
 <p>Download the <code>BYOD.zip</code> file.</p>
 <p><a href="https://github.com/IBM/SalesEnablement-L4-watsonx-AssistantForZ/raw/refs/heads/main/docs/Setup/_sampleDocs/BYOD.zip" target="_blank"><abbr title="Bring Your Own Documentation">BYOD</abbr>.zip</a></p>
 <div class="admonition example">
-<p class="admonition-title">Whats in the sample client documentation?</p>
+<p class="admonition-title">What is in the sample client documentation?</p>
 <p>Three sample documents are included:</p>
 <ul>
 <li>
@@ -2221,7 +2221,7 @@ You are now ready to configure your assistant with the route to your <abbr title
 </div>
 </li>
 <li>
-<p>Unzip or extract the <code>BYOD.zip</code> file.</p>
+<p>Extract the <code>BYOD.zip</code> file.</p>
 </li>
 <li>Change to the <code>BYOD</code> directory.</li>
 <li>
@@ -2264,7 +2264,7 @@ The output of this command is your unique <abbr title="Uniform Resource Locator"
 </span></code></pre></div>
 </li>
 <li>
-<p>When prompted, enter the password from step 7. A <strong>Success</strong> message should be received.</p>
+<p>When prompted, enter the password from step 7. Verify that a <strong>Success</strong> message is received.</p>
 </li>
 <li>
 <p>Verify <code>zassist</code> is ready to ingest documents by checking the status.</p>
@@ -2273,9 +2273,8 @@ The output of this command is your unique <abbr title="Uniform Resource Locator"
 <p><a class="glightbox" href="../byosd/_attachments/zinitsummary.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../byosd/_attachments/zinitsummary.png"></a></p>
 </li>
 <li>
-<p>Ingest the documentation using the commands below.</p>
-<p>You will now ingest and load the three documents provided by the client into the Z <abbr title="Retrieval augmented generation">RAG</abbr> so that it’s available to your assistant for conversational search context. </p>
-<p>For the next steps, you should be in the root directory called <abbr title="Bring Your Own Documentation">BYOD</abbr>.</p>
+<p>Ingest the documentation using the commands.</p>
+<p>For the next steps, you must be in the root directory called <abbr title="Bring Your Own Documentation">BYOD</abbr>.</p>
 <div class="highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#byosd-zassist-__codelineno-8-1"></a>zassist ingest dev
 </span></code></pre></div>
 <div class="highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#byosd-zassist-__codelineno-9-1"></a>zassist ingest ops
@@ -2289,13 +2288,13 @@ The output of this command is your unique <abbr title="Uniform Resource Locator"
 </span></code></pre></div>
 </li>
 <li>
-<p>Verify all documents were successfully ingested and loaded.</p>
+<p>Verify that all documents were successfully ingested and loaded.</p>
 <div class="highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#byosd-zassist-__codelineno-12-1"></a>zassist status
 </span></code></pre></div>
 <p><a class="glightbox" href="../byosd/_attachments/zassistLoadSuccessful.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../byosd/_attachments/zassistLoadSuccessful.png"></a></p>
 </li>
 </ol>
-<h2 id="byosd-zassist-verify-the-documents-were-ingested">Verify the documents were ingested<a class="headerlink" href="#byosd-zassist-verify-the-documents-were-ingested" title="Permanent link">#</a></h2>
+<h2 id="byosd-zassist-verify-that-the-assistant-is-using-the-ingested-documents">Verify that the assistant is using the ingested documents<a class="headerlink" href="#byosd-zassist-verify-that-the-assistant-is-using-the-ingested-documents" title="Permanent link">#</a></h2>
 <p>Use the watsonx Orchestrate <abbr title="Artificial intelligence">AI</abbr> assistant builder to verify your document ingestion.</p>
 <ol>
 <li>
@@ -2317,11 +2316,11 @@ The output of this command is your unique <abbr title="Uniform Resource Locator"
 </li>
 <li>
 <p>Accept the security risk to view the source document for any ingested document cited.</p>
-<p>The steps to accept the security risk for the document are not shown as it will vary by the browser you are using. The risk occurs because the certificate for the connection to the <abbr title="Single-node Red Hat OpenShift">SNO</abbr> instance is not secure. Notice that the <abbr title="Uniform Resource Locator">URL</abbr> contains the path to your <abbr title="Single-node Red Hat OpenShift">SNO</abbr> instance route.</p>
+<p>The steps to accept the security risk for the document are not shown as it varies by the browser you are using. The risk occurs because the certificate for the connection to the <abbr title="Single-node Red Hat OpenShift">SNO</abbr> instance is not secure. Notice that the <abbr title="Uniform Resource Locator">URL</abbr> contains the path to your <abbr title="Single-node Red Hat OpenShift">SNO</abbr> instance route.</p>
 <p><a class="glightbox" href="../byosd/_attachments/customerIngest4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../byosd/_attachments/customerIngest4.png"></a></p>
 </li>
 <li>
-<p>Repeat the steps above for the following prompts in your assistant and <strong>record the responses</strong> (cut and paste into a text file on your local machine).</p>
+<p>Repeat the preceding steps for the following prompts in your assistant and <strong>record the responses</strong> (cut and paste into a text file on your local machine).</p>
 <div class="highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#byosd-zassist-__codelineno-14-1"></a>Are there any production incidents that were resolved in relation to Data corruption in the production database. If yes who can I collaborate with to resolve a similar issue today and what are their names?
 </span></code></pre></div>
 <div class="highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#byosd-zassist-__codelineno-15-1"></a>What specific syntax changes do I need to make in COBOL to call Java using the internal framework? Please provide a detailed explanation. 
@@ -2334,15 +2333,15 @@ The output of this command is your unique <abbr title="Uniform Resource Locator"
 <p>Do you recall the <strong>Metadata</strong> field when you configured your assistant?</p>
 <p><a class="glightbox" href="../byosd/_attachments/genAISettings2b.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../byosd/_attachments/genAISettings2b.png"></a></p>
 <p>The Metadata field provides a way to adjust your assistant’s behavior during conversational search for your OpenSearch instance. Now that you have your own docs that are ingested for conversational search, you can set the metadata field for your assistant to use those documents in its content-grounded search. If you leave the metadata field empty, then it defaults to settings found to perform well but may not use the ingested documents as part of the search results.</p>
-<p>If you leave the Metadata field empty, OpenSearch will rely on the default settings, which means OpenSearch will search all of the default IBM-provided documentation and all of the ingested customer documentation using the following value:</p>
+<p>If you leave the Metadata field empty, OpenSearch relies on the default settings, which means OpenSearch searches all the default IBM-provided documentation and all of the ingested customer documentation using the following value:</p>
 <div class="highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#byosd-zassist-__codelineno-17-1"></a>{"ibm_indices":"*_ibm_docs_slate,*_ibm_redbooks_slate",
 </span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#byosd-zassist-__codelineno-17-2"></a>“customer_indices”:“customer_*”}
 </span></code></pre></div>
 <p>Replacing the wildcard string with an explicit list of indices allows for personalization. The metadata setting is where you can input specific indices (pointing to the underlying documentation) that you want your assistant to use for the content-grounded search. There are over 220 products and topics that the OpenSearch instance has IBM Documentation for. You can find those indices and products <a href="https://ibm.box.com/s/anioal2xuwbsck8v3l4r48juzh9tbcqn" target="_blank">here</a>.</p>
-<p>You can input a subset of indices into the “Metadata” field in cases where you only want your assistant to gather context for specific IBM products or topics. The specific indices can be listed out in this format:</p>
+<p>You can input a subset of indices into the “Metadata” field in cases where you want your assistant to only gather context for specific IBM products or topics. The specific indices can be listed out in this format:</p>
 <div class="highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#byosd-zassist-__codelineno-18-1"></a>{“ibm_indices”:“&lt;comma separated index values&gt;”,“customer_indices”:“customer_*”}
 </span></code></pre></div>
-<p>For example, if you only want your assistant to reference documentation for “Db2 Analytics Accelerator for z/<abbr title="Operating System">OS</abbr>” and no ingested client documentation, you can enter the following into the metadata field:</p>
+<p>For example, if you want your assistant to reference only documentation for “Db2 Analytics Accelerator for z/<abbr title="Operating System">OS</abbr>” and no ingested client documentation, you can enter the following into the metadata field:</p>
 <div class="highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#byosd-zassist-__codelineno-19-1"></a>{“ibm_indices”:“ss4lq8_ibm_docs_slate”}
 </span></code></pre></div>
 <p>If you have a mix of IBM Documentation and client documentation ingested, then there’s an optional search string that you can use to set the “weights” used for each. </p>
@@ -2380,8 +2379,8 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p>Repeat the queries four queries run earlier and record the results and the order of the response citations.</p>
 </li>
 </ol>
-<p>Compare the two sets of results. Notice how the answers changed based upon the weighting of the ingested documents versus the IBM product documentation. Were the ingested documents always the first document cited? If not, why do you think that is? </p>
-<p>Before proceeding spend more time trying different settings for the metadata field and other configuration settings for your customer service instance.</p>
+<p>Compare the two sets of results. Notice how the answers changed based on the weighting of the ingested documents versus the IBM product documentation. Were the ingested documents always the first document cited? If not, why do you think that is? </p>
+<p>Before proceeding, experiment with different metadata and other configuration settings for your custom service instance.</p>
 <div class="admonition tip">
 <p class="admonition-title">For client pilots</p>
 <p>If you or your client have other documents to ingest, you can do so by repeating the steps using <strong>zassist</strong>. The Velocity Pilot <abbr title="IBM Technology Zone">ITZ</abbr> environment is limited in compute and storage capacity. The following limits should be adhered to:</p>
@@ -2409,15 +2408,15 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
                         </h1>
                         <section class="print-page" id="skills-gettingstartedskills"><div><h1 id="getting-started-with-skills-and-actions">Getting started with skills and actions<a class="headerlink" href="#skills-gettingstartedskills-getting-started-with-skills-and-actions" title="Permanent link">#</a></h1>
 <p>Watsonx Assistant for Z automates a range of IBM Z related tasks through assistant interactions by importing skills. Each skill is a pre-defined automation that accomplishes some unit or units of work by running tasks. For example, skills can view z/<abbr title="Operating System">OS</abbr> <abbr title="Initial Program Load">IPL</abbr> information or work with z/<abbr title="Operating System">OS</abbr> datasets.</p>
-<p>Watsonx Assistant for Z extends watsonx Orchestrate, allowing users to build new skills from Ansible Automation platform or z/<abbr title="Operating System">OS</abbr> Management Facility (z/<abbr title="IBM z/OS Management Facility">OSMF</abbr>) through the Z Skills Accelerator extension. This extension connects Ansible and z/<abbr title="Operating System">OS</abbr> application programming interfaces (<abbr title="Application Programming Interfaces">APIs</abbr>) and imports automation as Ansible Playbooks, <abbr title="Job Control Language">JCL</abbr>, or <abbr title="Restructured Extended Executor">REXX</abbr> as skills.Learn more importing and building skills <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=building-skills-from-ansible-controller-zos" target="_blank">here</a>.</p>
-<p>Below is a high-level, logical architecture of the environment you will deploy in this section.</p>
+<p>Watsonx Assistant for Z extends watsonx Orchestrate, allowing users to build new skills from Ansible Automation platform or z/<abbr title="Operating System">OS</abbr> Management Facility (z/<abbr title="IBM z/OS Management Facility">OSMF</abbr>) through the Z Skills Accelerator extension. The Z Skills Accelerator extension connects Ansible and z/<abbr title="Operating System">OS</abbr> application programming interfaces (<abbr title="Application Programming Interfaces">APIs</abbr>) and imports automation as Ansible Playbooks, <abbr title="Job Control Language">JCL</abbr>, or <abbr title="Restructured Extended Executor">REXX</abbr> as skills. Learn more importing and building skills <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=building-skills-from-ansible-controller-zos" target="_blank">here</a>.</p>
+<p>Aa high-level, logical architecture of the environment is illustrated in the figure that follows.</p>
 <p><a class="glightbox" href="../skills/_attachments/LabArchitecture-Lab%203.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/LabArchitecture-Lab%203.png"></a></p>
 <h2 id="skills-gettingstartedskills-environments">Environments<a class="headerlink" href="#skills-gettingstartedskills-environments" title="Permanent link">#</a></h2>
 <h3 id="skills-gettingstartedskills-watsonx-orchestrate">Watsonx Orchestrate<a class="headerlink" href="#skills-gettingstartedskills-watsonx-orchestrate" title="Permanent link">#</a></h3>
 <p>The Z Skills Accelerator extension is already configured in your watsonx Orchestrate IBM Technology Zone (<abbr title="IBM Technology Zone">ITZ</abbr>) environment. You can use this component to import new skills.</p>
 <h3 id="skills-gettingstartedskills-ansible-automation-platform-and-wazi-as-a-service">Ansible Automation Platform and Wazi as a Service<a class="headerlink" href="#skills-gettingstartedskills-ansible-automation-platform-and-wazi-as-a-service" title="Permanent link">#</a></h3>
 <p>To import skills for automations, you use Ansible Automation Platform (<abbr title="Ansible Automation Platform">AAP</abbr>) and Wazi as a Service (Wazi aaS) to serve as the z/<abbr title="Operating System">OS</abbr> back-end. Learn more about <abbr title="Ansible Automation Platform">AAP</abbr> <a href="https://www.redhat.com/en/technologies/management/ansible" target="_blank">here</a>. Learn more about Wazi, <a href="https://www.ibm.com/cloud/wazi-as-a-service" target="_blank">here</a>.</p>
-<p>The two resources are provisioned together in the <abbr title="IBM Technology Zone">ITZ</abbr> environment that you reserved earlier. This environment enables the ability to manage and automate z/<abbr title="Operating System">OS</abbr> tasks and subsystems with various preinstalled ansible playbooks. It includes a z/<abbr title="Operating System">OS</abbr> back-end (Wazi as a Service) with all needed prerequisites.</p>
+<p>The two resources are provisioned together in the <abbr title="IBM Technology Zone">ITZ</abbr> environment that you reserved earlier. This environment enables the ability to manage and automate z/<abbr title="Operating System">OS</abbr> tasks and subsystems with various preinstalled Ansible playbooks. It includes a z/<abbr title="Operating System">OS</abbr> back-end (Wazi as a Service) with all needed prerequisites.</p>
 <p>The playbooks provided cover various use cases for automating z/<abbr title="Operating System">OS</abbr> management. Ansible’s capabilities for automating various Z-specific tasks are not limited to the use cases that are preinstalled in the <abbr title="Ansible Automation Platform">AAP</abbr> instance. The preinstalled playbooks are tasks from the ‘IBM z/<abbr title="Operating System">OS</abbr> core collection’. Using this environment accelerates the ability to showcase the value of watsonx assistant for Z, and to get started with simple automations that can be expanded.</p>
 <p>The <abbr title="IBM Technology Zone">ITZ</abbr> environment gives you access to <abbr title="Ansible Automation Platform">AAP</abbr>, which is preconfigured to target the accompanying z/<abbr title="Operating System">OS</abbr> Wazi system, along with web-based access to <abbr title="Ansible Automation Platform">AAP</abbr> to experiment with different playbook templates. These templates are imported into watsonx Orchestrate as skills and connected to your assistant.</p>
 <p>For more information on the <abbr title="Ansible Automation Platform">AAP</abbr> and Wazi z/<abbr title="Operating System">OS</abbr> environments, refer to this <a href="https://ibm.ent.box.com/v/ansible4zos-demo-guide" target="_blank">document</a>. </p>
@@ -2506,7 +2505,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p>Enter the following values in the <strong>z/<abbr title="Operating System">OS</abbr> Skills accelerator</strong> form and then click <strong>Connect</strong>.</p>
 <p>Use the <strong><abbr title="Uniform Resource Locator">URL</abbr></strong>, <strong>User Name</strong>, and <strong>Password</strong> values recorded in the <a href="#skills-exploreaap">Explore Ansible Automation Platform</a> section earlier.</p>
 <p><strong>a</strong>: Connection Type: <code>ansible</code></p>
-<p><strong>b</strong>: Application Name: &lt;enter a meaningful name for the skills that you will import&gt; - <em>be sure to remember this name, you will need in the next section</em></p>
+<p><strong>b</strong>: Application Name: &lt;enter a meaningful name for the skills that you will import&gt; - <em>record this name, you will need in the next section</em></p>
 <p><strong>c</strong>: Connection <abbr title="Uniform Resource Locator">URL</abbr>: &lt;enter the <abbr title="Uniform Resource Locator">URL</abbr> for your <abbr title="Ansible Automation Platform">AAP</abbr> <abbr title="User Interface">UI</abbr>&gt;</p>
 <p><strong>d</strong>: User Name: &lt;enter the <abbr title="Ansible Automation Platform">AAP</abbr> User Name (for <abbr title="User Interface">UI</abbr> access)&gt;</p>
 <p><strong>e</strong>: Password: &lt;enter the <abbr title="Ansible Automation Platform">AAP</abbr> User Password&gt;</p>
@@ -2526,7 +2525,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p><a class="glightbox" href="../skills/_attachments/addSkills1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/addSkills1.png"></a></p>
 </li>
 <li>
-<p>Select the skills you want to import into your application and then click <strong>Save as draft</strong>.</p>
+<p>Select the skills that you want to import into your application and then click <strong>Save as draft</strong>.</p>
 <p>For this lab, select the <strong>Z/os ping</strong> and <strong>Z/os gather facts</strong> skills.</p>
 <p><a class="glightbox" href="../skills/_attachments/addSkills2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/addSkills2.png"></a></p>
 </li>
@@ -2547,7 +2546,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p>The selected skills are now ready for use and available to your assistant. In the next section, learn how to connect them to your assistant.</p>
 <!-- Terminology -->
 <!-- Keep the list alphabetized for easy deduplication --></div></section><section class="print-page" id="skills-connectingapp"><div><h1 id="connecting-skills-to-your-assistant">Connecting skills to your assistant<a class="headerlink" href="#skills-connectingapp-connecting-skills-to-your-assistant" title="Permanent link">#</a></h1>
-<p>Once you have a subset of skills published, the application you created can be connected to your assistant. </p>
+<p>Once you have a subset of skills that are published, the application you created can be connected to your assistant. </p>
 <ol>
 <li>
 <p>Expand the main menu and select <strong>Skill sets</strong>.</p>
@@ -2587,9 +2586,9 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p>Continue to the next section to create actions for your assistant.</p>
 <!-- Terminology -->
 <!-- Keep the list alphabetized for easy deduplication --></div></section><section class="print-page" id="skills-creatingactions"><div><h1 id="creating-actions-for-your-assistant">Creating actions for your assistant<a class="headerlink" href="#skills-creatingactions-creating-actions-for-your-assistant" title="Permanent link">#</a></h1>
-<p>Once the skills in your application are connected to your assistant, you’re ready to begin creating actions tied to those skills. Learn more about building actions <a href="https://www.ibm.com/docs/en/watsonx/watson-orchestrate/current?topic=assistants-building-your-ai-assistant-actions" target="_blank">here</a></p>
+<p>Now that the skills in your application are connected to your assistant, you are ready to create actions that are tied to those skills. Learn more about building actions <a href="https://www.ibm.com/docs/en/watsonx/watson-orchestrate/current?topic=assistants-building-your-ai-assistant-actions" target="_blank">here</a></p>
 <h1 id="skills-creatingactions-configure-the-number-of-input-fields">Configure the number of input fields<a class="headerlink" href="#skills-creatingactions-configure-the-number-of-input-fields" title="Permanent link">#</a></h1>
-<p>Before configuring actions, it’s important to modify a setting within watsonx Orchestrate that allows triggered skills to display as forms (versus conversational skills). </p>
+<p>Before configuring actions, it is important to modify a setting within watsonx Orchestrate that allows triggered skills to display as forms (versus conversational skills). </p>
 <ol>
 <li>
 <p>Click your (a) profile icon and then click (b) <strong>Settings</strong></p>
@@ -2625,13 +2624,13 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 </li>
 <li>
 <p>Select the <strong>z/<abbr title="Operating System">OS</abbr> Gather Facts</strong> tile and click <strong>Next</strong>.</p>
-<p>Note, it may take a minute for the page to display the action tiles. The date shown in the <strong>z/<abbr title="Operating System">OS</abbr> Gather Facts</strong> tile reflects when you added the skill to your application.</p>
+<p>Note, it may take a minute for the page to display the action tiles. The date that is shown in the <strong>z/<abbr title="Operating System">OS</abbr> Gather Facts</strong> tile reflects when you added the skill to your application.</p>
 <p><a class="glightbox" href="../skills/_attachments/createActions4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/createActions4.png"></a></p>
 </li>
 <li>
 <p>On the <strong>New action</strong> dialog, (a) enter a prompt a user of the assistant might use to initiate the action and then (b) click <strong>Save</strong>.</p>
 <div class="admonition bug">
-<p class="admonition-title">Be careful with the sample phrases you specify.</p>
+<p class="admonition-title">Be careful with the sample phrases that you specify.</p>
 <p>During the development of the lab guide, it was discovered that some sample phrases with a <code>/</code> character can cause issues with the actions. Avoid using <strong>z/<abbr title="Operating System">OS</abbr></strong> in the your sample phrases. This issue has been reported to the offering team.</p>
 </div>
 <p>Sample prompts:</p>
@@ -2642,7 +2641,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p><a class="glightbox" href="../skills/_attachments/createActions5.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/createActions5.png"></a></p>
 </li>
 <li>
-<p>Add any (a) additional prompts and then (b) click the save (<a class="glightbox" href="../skills/_attachments/diskIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/diskIcon.png"></a>).</p>
+<p>Add any extra prompts (<strong>a</strong>) and then click the save (<a class="glightbox" href="../skills/_attachments/diskIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/diskIcon.png"></a>) (<strong>b</strong>).</p>
 <p><a class="glightbox" href="../skills/_attachments/createActions6.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/createActions6.png"></a></p>
 </li>
 <li>
@@ -2658,9 +2657,8 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 </li>
 <li>
 <p>Review the returned results and record the <strong>job</strong> number.</p>
-<p>In the execution of this skill-based action, the skill executed properly and the output is the job id. </p>
 <div class="admonition warning">
-<p class="admonition-title">If an error is generated or the action is not performed and only search results are returned, review the Troubleshooting section below.</p>
+<p class="admonition-title">If an error is generated or the action is not performed and only search results are returned, review the following Troubleshooting section.</p>
 </div>
 <p><a class="glightbox" href="../skills/_attachments/createActions9.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/createActions9.png"></a></p>
 </li>
@@ -2669,7 +2667,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p>Return to the Ansible Automation Platform (<abbr title="Ansible Automation Platform">AAP</abbr>) console and review the job information.</p>
 <ol>
 <li>
-<p>Click <strong>Jobs</strong> and then click the <strong>job</strong> number recorded in the previous step for the <strong>z/<abbr title="Operating System">OS</abbr> Gather Facts</strong> skill.</p>
+<p>Click <strong>Jobs</strong> and then click the <strong>job</strong> number that you recorded in the previous step for the <strong>z/<abbr title="Operating System">OS</abbr> Gather Facts</strong> skill.</p>
 <p><a class="glightbox" href="../skills/_attachments/createActions10.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/createActions10.png"></a></p>
 </li>
 <li>
@@ -2678,7 +2676,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p><a class="glightbox" href="../skills/_attachments/createActions10-b.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/createActions10-b.png"></a></p>
 </li>
 </ol>
-<p>IBM watsonx Assistant for Z provides utility skills to retrieve the job output. It is also possible to create a skill flow that executes the <strong>z/<abbr title="Operating System">OS</abbr> Gather Facts</strong> skill followed by the <strong>Retrieve job output</strong> utility skill in sequence; passing the job id from the first skill to the second, in order to view the output within the assistant. Creating a skill flow is covered in the next section.</p>
+<p>IBM watsonx Assistant for Z provides utility skills to retrieve the job output. It is also possible to create a skill flow that executes the <strong>z/<abbr title="Operating System">OS</abbr> Gather Facts</strong> skill followed by the <strong>Retrieve job output</strong> utility skill in sequence; passing the job ID from the first skill to the second to view the output within the assistant. Creating a skill flow is covered in the next section.</p>
 <h2 id="skills-creatingactions-troubleshooting">Troubleshooting<a class="headerlink" href="#skills-creatingactions-troubleshooting" title="Permanent link">#</a></h2>
 <details class="failure">
 <summary>Skill returns "<strong><em>Sorry, we're having issues generating a response</em></strong>" or the action is not performed and only search results are returned.</summary>
@@ -2725,8 +2723,9 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 </details>
 <!-- Terminology -->
 <!-- Keep the list alphabetized for easy deduplication --></div></section><section class="print-page" id="skills-creatingflows"><div><h1 id="creating-skill-flows">Creating skill flows<a class="headerlink" href="#skills-creatingflows-creating-skill-flows" title="Permanent link">#</a></h1>
-<p>As seen in the previous section, running the Ansible skill to <strong>Gather z/<abbr title="Operating System">OS</abbr> facts</strong>, the skill executed successfully and was verified within the Ansible Automation Platform (<abbr title="Ansible Automation Platform">AAP</abbr>) console by viewing the job output. However, the output wasn’t displayed by the assistant. To enable this scenario, a skill flow is needed. Skills are often more valuable when combined with other skills. You can create a skill flow to use two or more skills together to finish a task (like returning the output of a previous skill). When you create a skill flow, you map the output of one skill as the input for subsequent skills. Learn more about creating skill flows <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=combining-skills-into-skill-flows" target="_blank">here</a>.</p>
-<p>As mentioned in a previous section, there are some default utility skills that are provided out of the box with the “Z Skills Accelerator” which are leveraged to return the output of a skill. To accomplish this, we will import the Ansible Utility skill called <strong>Retrieve job output</strong>.</p>
+<p>In the previous section, you ran the <strong>Gather z/<abbr title="Operating System">OS</abbr> facts</strong> skill, but the output was not displayed in the assistant.
+To both run the action and display the results, a skill flow is needed. Skills are often more valuable when combined with other skills. You can create a skill flow to use two or more skills together to finish a task (like returning the output of a previous skill). When you create a skill flow, you map the output of one skill as the input for subsequent skills. Learn more about creating skill flows <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=combining-skills-into-skill-flows" target="_blank">here</a>.</p>
+<p>As mentioned in a previous section, default utility skills that are provided with the watsonx Assistant for Z skills collection. The <strong>Retrieve job output</strong> utility skill is used to return the output of a skill.</p>
 <h2 id="skills-creatingflows-add-the-utility-skill">Add the utility skill<a class="headerlink" href="#skills-creatingflows-add-the-utility-skill" title="Permanent link">#</a></h2>
 <ol>
 <li>
@@ -2745,7 +2744,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p>Enter the following values in the <strong>z/<abbr title="Operating System">OS</abbr> Skills accelerator</strong> form and then click <strong>Connect</strong>.</p>
 <p>Use the <strong><abbr title="Uniform Resource Locator">URL</abbr></strong>, <strong>User Name</strong>, and <strong>Password</strong> values recorded in the <a href="#skills-exploreaap">Explore Ansible Automation Platform</a> section earlier.</p>
 <p><strong>a</strong>: Connection Type: <code>ansible</code></p>
-<p><strong>b</strong>: Application Name: &lt;use the same application name as in previous section&gt;</p>
+<p><strong>b</strong>: Application Name: &lt;use the same application name from the previous section&gt;</p>
 <p><strong>c</strong>: Connection <abbr title="Uniform Resource Locator">URL</abbr>: &lt;enter the <abbr title="Uniform Resource Locator">URL</abbr> for your <abbr title="Ansible Automation Platform">AAP</abbr> <abbr title="User Interface">UI</abbr>&gt;</p>
 <p><strong>d</strong>: User Name: &lt;enter the <abbr title="Ansible Automation Platform">AAP</abbr> User Name (for <abbr title="User Interface">UI</abbr> access)&gt;</p>
 <p><strong>e</strong>: Password: &lt;enter the <abbr title="Ansible Automation Platform">AAP</abbr> User Password&gt;</p>
@@ -2789,7 +2788,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p><a class="glightbox" href="../skills/_attachments/skillFlow9.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/skillFlow9.png"></a></p>
 </li>
 <li>
-<p>Verify the application is <strong>Connected</strong> (<strong>a</strong>) and then click <strong>Close</strong> (<strong>b</strong>).</p>
+<p>Verify that the application is <strong>Connected</strong> (<strong>a</strong>) and then click <strong>Close</strong> (<strong>b</strong>).</p>
 <p><a class="glightbox" href="../skills/_attachments/skillFlow10.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/skillFlow10.png"></a></p>
 </li>
 </ol>
@@ -2820,7 +2819,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p><a class="glightbox" href="../skills/_attachments/skillFlow15.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/skillFlow15.png"></a></p>
 </li>
 <li>
-<p>Expand the <strong>Create</strong> drop-down menu and click on <strong>Skill flow</strong>.</p>
+<p>Expand the <strong>Create</strong> drop-down menu and click <strong>Skill flow</strong>.</p>
 <p><a class="glightbox" href="../skills/_attachments/skillFlow16.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/skillFlow16.png"></a></p>
 </li>
 <li>
@@ -2829,7 +2828,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p>Next, you need to add the <strong>z/<abbr title="Operating System">OS</abbr> Gather Facts</strong> skill and the <strong>Retrieve job output</strong> skill to the skill flow. Use the <strong>Search apps</strong> function to locate the skills.</p>
 </li>
 <li>
-<p>Search for the application name you specified earlier and click it's tile.</p>
+<p>Search for the application name you specified earlier and click the tile.</p>
 <p><a class="glightbox" href="../skills/_attachments/skillFlow18.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/skillFlow18.png"></a></p>
 </li>
 <li>
@@ -2846,16 +2845,16 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 </li>
 <li>
 <p>Repeat steps 5 and 6 for the <strong>Retrieve job output</strong> skill. </p>
-<p>After adding the <strong>Retrieve job output</strong> skill, your skill flow should like like:</p>
+<p>After adding the <strong>Retrieve job output</strong> skill, your skill flow should look like:</p>
 <p><a class="glightbox" href="../skills/_attachments/skillFlow22.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/skillFlow22.png"></a></p>
-<p>Next you must map the output values of the first skill to the input of the second skill. In this case, pass the “job id” output from <strong>z/<abbr title="Operating System">OS</abbr> Gather Facts</strong> as an input for <strong>Retrieve job output</strong>. </p>
+<p>Next you must map the output values of the first skill to the input of the second skill. In this case, pass the job ID output from <strong>z/<abbr title="Operating System">OS</abbr> Gather Facts</strong> as an input for <strong>Retrieve job output</strong>. </p>
 </li>
 <li>
 <p>Click the <strong>Retrieve job output</strong> tile.</p>
 <p><a class="glightbox" href="../skills/_attachments/skillFlow23.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/skillFlow23.png"></a></p>
 </li>
 <li>
-<p>Select the <strong>Input</strong> tab and click in the <strong>id</strong> field.</p>
+<p>Select the <strong>Input</strong> tab and click the <strong>id</strong> field.</p>
 <p><a class="glightbox" href="../skills/_attachments/skillFlow24.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/skillFlow24.png"></a></p>
 </li>
 <li>
@@ -2867,11 +2866,11 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p><a class="glightbox" href="../skills/_attachments/skillFlow25-a.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/skillFlow25-a.png"></a></p>
 </li>
 <li>
-<p>Verify the <strong>job</strong> appears in the <strong>id</strong> field.</p>
+<p>Verify that the <strong>job</strong> appears in the <strong>id</strong> field.</p>
 <p><a class="glightbox" href="../skills/_attachments/skillFlow25-b.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/skillFlow25-b.png"></a></p>
 </li>
 <li>
-<p>Optionally, toggle the <strong>Hide this from from the user</strong> setting.</p>
+<p>Optionally, toggle the <strong>Hide this from the user</strong> setting.</p>
 <p>For this lab guide, this option is left disabled. Learn more about this option <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=combining-skills-into-skill-flows#hiding-input-and-output-forms" target="_blank">here</a>.</p>
 <p><a class="glightbox" href="../skills/_attachments/skillFlow26.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/skillFlow26.png"></a></p>
 </li>
@@ -2888,11 +2887,11 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p><a class="glightbox" href="../skills/_attachments/skillFlow29.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/skillFlow29.png"></a></p>
 </li>
 <li>
-<p>Expand the <strong>Actions</strong> pull-down list and click <strong>Save as draft</strong>.</p>
+<p>Expand the <strong>Actions</strong> pull-down and click <strong>Save as draft</strong>.</p>
 <p><a class="glightbox" href="../skills/_attachments/skillFlow30.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/skillFlow30.png"></a></p>
 </li>
 <li>
-<p>Expand the <strong>Actions</strong> pull-down list and click <strong>Enhance</strong>.</p>
+<p>Expand the <strong>Actions</strong> pull-down and click <strong>Enhance</strong>.</p>
 <p><a class="glightbox" href="../skills/_attachments/skillFlow31.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/skillFlow31.png"></a></p>
 <p>On the <strong>Enhancing the skill</strong> pages, you can:</p>
 <ul>
@@ -2910,9 +2909,9 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 </li>
 <li>
 <p>Replace the existing <strong>phrases</strong> (prompts) and then click <strong>Publish</strong>.</p>
-<p>Notice the default prompts are either not very intuitive (the skill flow name) or a bit verbose. Replace the existing phrases with phrases that you anticipate users will enter.</p>
+<p>Notice that the default prompts are either not intuitive (the skill flow name) or a bit verbose. Replace the existing phrases with phrases that you anticipate users will use.</p>
 <div class="admonition bug">
-<p class="admonition-title">Be careful with the sample phrases you specify.</p>
+<p class="admonition-title">Be careful with the sample phrases that you specify.</p>
 <p>During the development of the lab guide, it was discovered that some sample phrases with a <code>/</code> character can cause issues with the actions. Avoid using <strong>z/<abbr title="Operating System">OS</abbr></strong> in the your sample phrases. This issue has been reported to the offering team.</p>
 </div>
 <p>Example prompts:
@@ -2942,7 +2941,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p><a class="glightbox" href="../skills/_attachments/skillFlow37.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/skillFlow37.png"></a></p>
 </li>
 <li>
-<p>Click the skill flow you created earlier and then click <strong>Next</strong>.</p>
+<p>Click the skill flow that you created earlier and then click <strong>Next</strong>.</p>
 <p><strong>Note</strong>: it may take a minute for the tiles to appear on the screen.</p>
 <p><a class="glightbox" href="../skills/_attachments/skillFlow38.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/skillFlow38.png"></a></p>
 </li>
@@ -2962,12 +2961,12 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p><a class="glightbox" href="../skills/_attachments/skillFlow41-0.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/skillFlow41-0.png"></a></p>
 </li>
 <li>
-<p>Select the original skill you created (<strong>a</strong>) (not the skill flow you just created), click the ellipses (<strong>b</strong>), and then click <strong>Delete</strong> (<strong>c</strong>).</p>
+<p>Select the <em>original</em> skill that you created (<strong>a</strong>) (not the skill flow you just created), click the ellipses (<strong>b</strong>), and then click <strong>Delete</strong> (<strong>c</strong>).</p>
 <p><a class="glightbox" href="../skills/_attachments/skillFlow41-a.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/skillFlow41-a.png"></a></p>
 </li>
 <li>
 <p>Wait for system training to complete.</p>
-<p><strong>Note</strong>: The message will change to "System is trained" and then disappear.</p>
+<p><strong>Note</strong>: The message changes to "System is trained" and then disappears.</p>
 <p><a class="glightbox" href="../skills/_attachments/skillFlow41-b.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/skillFlow41-b.png"></a></p>
 </li>
 <li>
@@ -2987,7 +2986,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 </li>
 <li>
 <p>Review the results from the skill flow.</p>
-<p>Use both scroll bars in the assistant preview to review all of the returned information. The output should be similar to what was seen in the <abbr title="Ansible Automation Platform">AAP</abbr> web console. The character strings like <code>[0;32m</code> are special characters that are not properly displayed in the assistant preview interface.</p>
+<p>Use both scroll bars in the assistant preview to review all the returned information. The output is similar to what was seen in the <abbr title="Ansible Automation Platform">AAP</abbr> web console. The character strings like <code>[0;32m</code> are special characters that are not properly displayed in the assistant preview interface.</p>
 <p><a class="glightbox" href="../skills/_attachments/skillFlow44.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../skills/_attachments/skillFlow44.png"></a></p>
 <details class="example">
 <summary>Sample output form the Z/<abbr title="Operating System">OS</abbr> gather facts flow.</summary>
@@ -3064,11 +3063,11 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 </details>
 </li>
 </ol>
-<p>The scenario shown above may or may not be relevant for your client's use case. It is intended to show you how to sequence skills together in a skill flow to create an action that your assistant triggers based on prompts using the pre-configured Ansible automation templates. You are encouraged to create your own skill flows and prompts using other skills available within the <abbr title="Ansible Automation Platform">AAP</abbr> instance. As an example, create a skill flow for the <strong>z/<abbr title="Operating System">OS</abbr> Ping</strong> skill. Be sure to add the <strong>Retrieve job output</strong> skill to view the results.</p>
+<p>The previous scenario might or might not be relevant for your client's use case. The scenario illustrates how to sequence skills together in a skill flow to create an action that your assistant triggers based on prompts that use the pre-configured Ansible automation templates. You are encouraged to create your own skill flows and prompts that use other skills available within the <abbr title="Ansible Automation Platform">AAP</abbr> instance. As an example, create a skill flow for the <strong>z/<abbr title="Operating System">OS</abbr> Ping</strong> skill. Be sure to add the <strong>Retrieve job output</strong> skill to view the results.</p>
 <p>Next, learn about custom-built actions.</p>
 <!-- Terminology -->
 <!-- Keep the list alphabetized for easy deduplication --></div></section><section class="print-page" id="skills-creatingcustomactions"><div><h1 id="creating-custom-built-actions">Creating custom-built actions<a class="headerlink" href="#skills-creatingcustomactions-creating-custom-built-actions" title="Permanent link">#</a></h1>
-<p>To this point, you have learned how to:</p>
+<p>To this point, you learned how to:</p>
 <ul>
 <li>
 <p>import skills into watsonx Orchestrate</p>
@@ -3083,11 +3082,11 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p>combine skills in a skill flow</p>
 </li>
 </ul>
-<p>There is also the ability to create <strong>custom-built</strong> actions. Custom-built actions allow you to create new actions with different steps to take in conversations and form sequences of prompts that define the conversation experience. The steps can be defined with or without conditions, which help control the custom responses. Steps within the custom action can end with routing to conversational search, triggering another existing sub-action, and other actions. This is a powerful way of customizing the end-user’s experience.</p>
+<p>You can also create <strong>custom-built</strong> actions. Custom-built actions have actions with different steps to take in conversations and form sequences of prompts that define the conversation experience. The steps can be defined with or without conditions, which help control the custom responses. Steps within the custom action can end with routing to conversational search, triggering another existing subaction, and other actions. Custom-built actions are a powerful way of customizing the user's experience.</p>
 <p>Learn more about creating custom-built actions <a href="https://www.ibm.com/docs/en/watsonx/watson-orchestrate/current?topic=builder-building-your-ai-assistant-actions#build-action-from-skill" target="_blank">here</a>.</p>
 <!-- Terminology -->
 <!-- Keep the list alphabetized for easy deduplication --></div></section><section class="print-page" id="skills-importingzosskills"><div><h1 id="importing-pre-packaged-zos-skills">Importing pre-packaged z/<abbr title="Operating System">OS</abbr> skills<a class="headerlink" href="#skills-importingzosskills-importing-pre-packaged-zos-skills" title="Permanent link">#</a></h1>
-<p>Provided with Version 2 of watsonx Assistant for Z is a set of pre-packaged skills which can be used to automate various tasks on z/<abbr title="Operating System">OS</abbr>, such as running different console commands and retrieving logs from batch jobs.</p>
+<p>Provided with Version 2 of watsonx Assistant for Z is a set of pre-packaged skills. These skills are used to automate various tasks on z/<abbr title="Operating System">OS</abbr>, such as running different console commands and retrieving logs from batch jobs.</p>
 <p>The list of pre-packaged skills available include:</p>
 <ul>
 <li>
@@ -3100,7 +3099,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p>Display zOS parmlib datasets</p>
 </li>
 <li>
-<p>Unix System services options</p>
+<p>UNIX System Services options</p>
 </li>
 <li>
 <p>Display zOS subsystems</p>
@@ -3118,32 +3117,31 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p>Retrieve z/<abbr title="Operating System">OS</abbr> Management Facility (<abbr title="IBM z/OS Management Facility">OSMF</abbr>) job status</p>
 </li>
 </ul>
-<p>IBM watsonx Orchestrate requires that any <abbr title="IBM z/OS Management Facility">OSMF</abbr> environment you connect to for skill execution has certificate authority (CA) signed certificates. In the case of the Ansible Automation Platform (<abbr title="Ansible Automation Platform">AAP</abbr>) &amp; Wazi z/<abbr title="Operating System">OS</abbr> environment provisioned in IBM Technology Zone (<abbr title="IBM Technology Zone">ITZ</abbr>), the z/<abbr title="Operating System">OS</abbr> system is not currently using CA signed certificates and therefore cannot execute the pre-packaged skills on your own z/<abbr title="Operating System">OS</abbr> system. For demo purposes, it is still recommended to import them so that the pre-packaged skills can be shown. </p>
-<p>Work is in progress to modify the <abbr title="IBM Technology Zone">ITZ</abbr> environments so that they are enabled for skill execution using these pre-packaged skills. In the meantime, the underlying automation for these pre-packaged skills can still be demonstrated using the Ansible skill ‘z/<abbr title="Operating System">OS</abbr> Operator Command’ which is available to import. This works because the pre-packaged skills are executing console commands directly using <abbr title="IBM z/OS Management Facility">OSMF</abbr> <abbr title="Application Programming Interfaces">APIs</abbr> which can also be run using the Ansible template skill ‘z/<abbr title="Operating System">OS</abbr> Operator command’. For example, here are the console commands being used in some of the pre-packaged skills:</p>
+<p>IBM watsonx Orchestrate requires that any <abbr title="IBM z/OS Management Facility">OSMF</abbr> environment you connect to for skill execution has certificate authority (CA) signed certificates. </p>
+<p>As an example, the following are console commands that are used in some of the pre-packaged skills:</p>
 <ul>
 <li>Authorized Program list – <code>operator command -&gt; d prog,lnklist</code></li>
 <li>z/<abbr title="Operating System">OS</abbr> <abbr title="Initial Program Load">IPL</abbr> Information - <code>operator command -&gt; d iplinfo</code></li>
 <li>Display zOS parmlib datasets - <code>operator command -&gt; d parmlib</code></li>
 </ul>
-<p>You can import the pre-packaged skills into your sandbox environment by downloading the .zip file from <a href="https://ibm.box.com/s/fs0keb7mhbovv0dhnls4h9akmbsjiubd" target="_blank"> here</a> and following <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=importing-prepackaged-zos-skills" target="_blank">these instructions</a>.</p>
-<p>You must extract the imbedded JSON file and modify the file for your environment by following <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=files-building-skills-from" target="_blank">these instructions</a>.</p>
+<p>You can import the pre-packaged skills to your sandbox environment by downloading the compressed file <a href="https://ibm.box.com/s/fs0keb7mhbovv0dhnls4h9akmbsjiubd" target="_blank">here</a> and following <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=importing-prepackaged-zos-skills" target="_blank">these instructions</a>.</p>
+<p>Extract the embedded JSON file and modify the file for your environment by following <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=files-building-skills-from" target="_blank">these instructions</a>.</p>
 <!-- Terminology -->
 <!-- Keep the list alphabetized for easy deduplication --></div></section><h1 class='nav-section-title-end'>Ended: Adding skills to the assistant</h1><section class="print-page" id="publishdeploy"><div><h1 id="publishing-and-deploying-your-assistant">Publishing and deploying your assistant<a class="headerlink" href="#publishdeploy-publishing-and-deploying-your-assistant" title="Permanent link">#</a></h1>
-<p>To this point, acting as an Assistant Builder, you have built out the assistant, configured conversational search, and added skills and automations. While doing so, you have been testing your assistant using the <strong>preview</strong> capability of <abbr title="Artificial intelligence">AI</abbr> Assistant Builder. The <strong>preview</strong> capability is a closed environment for experimenting with prompts.</p>
-<p>After your assistant is finalized, you can publish it to make it available to end-users. Each assistant you create comes with two <strong>environments</strong>:
-<em>draft</em> and <em>live</em>. You have been configuring your assistant in the draft environment. Each environment has its own set of IDs, URLs, and service credentials that can be referenced by external services.</p>
+<p>To this point, acting as an Assistant Builder, you built the assistant, configured conversational search, and added skills and automations. You tested your assistant by using the <strong>preview</strong> capability of <abbr title="Artificial intelligence">AI</abbr> Assistant Builder. The <strong>preview</strong> capability is a closed environment for experimenting with prompts.</p>
+<p>After your assistant is finalized, you can publish it to make it available to users. Each assistant that you create comes with two <strong>environments</strong>: <em>draft</em> and <em>live</em>. You configured your assistant in the draft environment. Each environment has its own set of IDs, URLs, and service credentials referenced by external services.</p>
 <p>The <strong>Environments</strong> page in the <abbr title="Artificial intelligence">AI</abbr> assistant builder has tabs for managing both the <strong>Draft environment</strong> and the <strong>Live environment</strong>:</p>
 <p><a class="glightbox" href="../_attachments/draftView0.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/draftView0.png"></a></p>
 <p><a class="glightbox" href="../_attachments/liveView0.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/liveView0.png"></a></p>
-<p>The <strong>Draft environment</strong> contains all your in-progress work in the Actions, Preview, and Publish pages. Use the <strong>Draft environment</strong> tab to build out your assistant and use for internal testing before deployment. Any integrations you use (i.e. channels) for the <strong>Draft environment</strong> are unique to that environment, and changes to draft integrations don’t affect the <strong>Live environment</strong>.</p>
+<p>The <strong>Draft environment</strong> contains all your in-progress work in the Actions, Preview, and Publish pages. Use the <strong>Draft environment</strong> tab to build out your assistant and use for internal testing before deployment. Any integrations (channels) that you use for the <strong>Draft environment</strong> are unique to that environment, and changes to draft integrations don’t affect the <strong>Live environment</strong>.</p>
 <h2 id="publishdeploy-publish-the-assistant">Publish the assistant<a class="headerlink" href="#publishdeploy-publish-the-assistant" title="Permanent link">#</a></h2>
 <p>Each time that you publish, you’re creating a new version of the assistant, for example <em>V1</em>. When you publish your content, you’re creating a snapshot of the draft content, resulting in a version.</p>
 <div class="admonition warning">
 <p class="admonition-title">Versions do not contain integration configurations or environment settings</p>
 <p>Published versions contain all of the content from actions, including settings and variables. <strong>However, versions do not contain integration configurations or environment settings.</strong> Integration configurations and environment settings must be configured manually in each environment.</p>
 </div>
-<p>For managing quality-control and versioning, the Live environment is the version of the assistant you should be giving access to the end-user.</p>
-<p>Follow these steps to publish the first version of your assistant using Assistant Builder:</p>
+<p>For managing quality-control and versioning, the Live environment is the version of the assistant to give to users.</p>
+<p>Follow these steps to publish the first version of your assistant by using Assistant Builder:</p>
 <ol>
 <li>
 <p>Hover over the <strong>Home</strong> icon (<a class="glightbox" href="../_attachments/homeIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/homeIcon.png"></a>) and click <strong>Publish</strong>.</p>
@@ -3159,7 +3157,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 </li>
 </ol>
 <h2 id="publishdeploy-configure-the-live-environment">Configure the live environment<a class="headerlink" href="#publishdeploy-configure-the-live-environment" title="Permanent link">#</a></h2>
-<p><strong>Important</strong>: When the live environment is created, the environment settings from the draft environment are not carried over (for example the configuration of the OpenSearch instance used for conversational search).</p>
+<p><strong>Important</strong>: When the live environment is created, the settings from the draft environment are not carried over (for example, the configuration of the OpenSearch instance used for conversational search).</p>
 <ol>
 <li>
 <p>Hover over the <strong>Home</strong> icon (<a class="glightbox" href="../_attachments/homeIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/homeIcon.png"></a>) and click <strong>Environments</strong>.</p>
@@ -3175,8 +3173,8 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 </li>
 <li>
 <p>Customize the live assistant as you see fit.</p>
-<p>On the <strong>Style</strong> tab, you’re able to set the Assistant name which will be displayed at the top of the chat window when end-users are interacting with the assistant. For pilots or demos, you may want to personalize this name for the client. Also in the <strong>Style</strong> tab, you have the ability set the themes and display settings of the chat windows, including the ability to enable the IBM Watermark and enable streaming (recommended).</p>
-<p>On the <strong>Home</strong> tab, you enable and customize a default greeting message from the assistant when the user accesses the assistant chat. You’re also able to set Conversation starters that will be displayed in the chat window. When selected by the end-user, the text of these conversation starters are sent as prompts, so it is important that your assistant is trained and tested to answer appropriately. It is highly recommended to remove these default conversation starters and to consider creating your own as long as they’re able to be executed as actions and provide value to the end-user. At the bottom of the Home screen tab, you will also see the ability to add a Background style for the assistant chat window.</p>
+<p>On the <strong>Style</strong> tab, you’re able to set the Assistant name that is displayed on the chat window when users are interacting with the assistant. For pilots or demos, consider personalizing this name for the client. Also in the <strong>Style</strong> tab, you can set the themes and display settings of the chat windows, including the ability to enable the IBM Watermark and enable streaming.</p>
+<p>On the <strong>Home</strong> tab, you enable and customize the greeting message from the assistant when the user accesses the assistant chat. You are also able to set <strong>Conversation starters</strong> that are displayed in the chat window. When selected by the user, the text of the conversation starter is sent as a prompt, so it is important that your assistant is trained and tested to answer correctly. It is highly recommended to remove the default conversation starters and create your own. The ability to add a Background style for the assistant chat window is on the home screen tab.</p>
 <p>Explore all the other tabs.</p>
 <div class="admonition important">
 <p class="admonition-title">Customize your live environment.</p>
@@ -3197,7 +3195,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p><a class="glightbox" href="../_attachments/publish10.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/publish10.png"></a></p>
 </li>
 <li>
-<p>Enter the <abbr title="Uniform Resource Locator">URL</abbr> for your bring-your-own-search (<abbr title="Bring Your Own Search">BYOS</abbr>) engine (<strong>a</strong>), select <strong>Basic authentication</strong> for the <strong>authentication type</strong> (<strong>b</strong>), enter <strong>admin</strong> for the <strong>Username</strong> (<strong>c</strong>), enter the password you specified in the <code>wrapper-creds.yaml</code> file for the <strong>Password</strong> (<strong>d</strong>), and then click <strong>Next</strong> (<strong>e</strong>).</p>
+<p>Enter the <abbr title="Uniform Resource Locator">URL</abbr> for your bring-your-own-search (<abbr title="Bring Your Own Search">BYOS</abbr>) engine (<strong>a</strong>), select <strong>Basic authentication</strong> for the <strong>authentication type</strong> (<strong>b</strong>), enter <strong>admin</strong> for the <strong>Username</strong> (<strong>c</strong>), enter the password that you specified in the <code>wrapper-creds.yaml</code> file for the <strong>Password</strong> (<strong>d</strong>), and then click <strong>Next</strong> (<strong>e</strong>).</p>
 <div class="admonition warning">
 <p class="admonition-title">Use the correct <abbr title="Uniform Resource Locator">URL</abbr> and authentication type!</p>
 <p>Use the <abbr title="Uniform Resource Locator">URL</abbr> and credentials for your <abbr title="Bring Your Own Search">BYOS</abbr> OpenSearch engine created earlier <a href="#publishdeploy-documentingestion.md-BYOS-url">here</a>.</p>
@@ -3211,7 +3209,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <li>
 <p>Update the <strong>Custom service</strong> settings (<strong>a-f</strong>), click <strong>Save</strong> (<strong>g</strong>), and then click <strong>Close</strong> (<strong>h</strong>).</p>
 <div class="admonition tip">
-<p class="admonition-title">Feel free to customize the settings.</p>
+<p class="admonition-title">Customize the settings.</p>
 <p>This is your assistant. Feel free to customize the settings. The settings shown below reflect the changes made earlier in the lab guide to the draft version of the assistant. This includes the <strong>Metadata</strong> field to weigh ingested client documents higher using: </p>
 <div class="highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#publishdeploy-__codelineno-0-1"></a>{"doc_weight":
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#publishdeploy-__codelineno-0-2"></a>{"product_docs":0.2,
@@ -3258,12 +3256,12 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 </li>
 </ol>
 <h2 id="publishdeploy-deploy-the-assistant">Deploy the assistant<a class="headerlink" href="#publishdeploy-deploy-the-assistant" title="Permanent link">#</a></h2>
-<p>After configuring your assistant’s settings and publishing, the final step is to deploy your assistant which can be done across various channels depending on the use case.</p>
-<p>There are several options for deploying your assistant through channels and integrations to satisfy the use cases that you might address. Learn more about all the deployment options <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=assistants-deploying-your-ai-assistant" target="_blank">here</a>.</p>
-<p>For this lab, you will deploy the assistant using the web chat integration. The web chat integration provides an assistant interface that can integrate with your website. There is a lot of flexibility with how you may want to integrate it. Learn more about the web chat integration <a href="https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-overview" target="_blank">here</a>.</p>
+<p>After configuring your assistant’s settings and publishing, the final step is to deploy your assistant, which can be done across various channels depending on the use case.</p>
+<p>Several options exist for deploying your assistant through channels and integrations to satisfy the use cases that you might encounter. Learn more about all the deployment options <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=assistants-deploying-your-ai-assistant" target="_blank">here</a>.</p>
+<p>For this lab, deploy the assistant by using the web chat integration. The web chat integration provides an assistant interface that can integrate with a website. Learn more about the web chat integration <a href="https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-overview" target="_blank">here</a>.</p>
 <ol>
 <li>
-<p>Open the <strong>Environments</strong> page in <strong><abbr title="Artificial intelligence">AI</abbr> assistant builder</strong>.</p>
+<p>Open the <strong>Environments</strong> page in the <strong><abbr title="Artificial intelligence">AI</abbr> assistant builder</strong>.</p>
 </li>
 <li>
 <p>Click <strong>Web chat</strong> for the <strong>Live</strong> environment.</p>
@@ -3286,7 +3284,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 
 <ol start="5">
 <li>
-<p>In a text editor, create a file named <code>Watson Assistant Chat.html</code> and paste the following text in the file.</p>
+<p>In a text editor, create a file that is named <code>Watson Assistant Chat.html</code> and paste the following text in the file.</p>
 <p>File name:
 </p><div class="highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#publishdeploy-__codelineno-1-1"></a>Watson Assistant Chat.html
 </span></code></pre></div>
@@ -3353,7 +3351,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p><a class="glightbox" href="../_attachments/publish20.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/publish20.png"></a></p>
 </li>
 </ol>
-<p>Your assistant is now live. Explore some of the earlier prompts to verify the assistant is accessing the ingested documents and your skills and skill flows are active.</p>
+<p>Your assistant is now live. Explore some of the earlier prompts to verify that the assistant is accessing the ingested documents and your skills and skill flows are active.</p>
 <div class="admonition warning">
 <p class="admonition-title">Wait 5-10 seconds before clicking apply on skill actions.</p>
 </div>
@@ -3368,7 +3366,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 </span></code></pre></div>
 <!-- Terminology -->
 <!-- Keep the list alphabetized for easy deduplication --></div></section><section class="print-page" id="otherintegrations"><div><h1 id="adding-other-integrations">Adding other integrations<a class="headerlink" href="#otherintegrations-adding-other-integrations" title="Permanent link">#</a></h1>
-<p>IBM watsonx Assistant for Z can integrate with other delivery channels beyond a web page. Other channels include Slack, Microsoft teams, WhatsApp, and many others. Integrating with these and other channels are not covered in the lab guide. However, follow the steps after this to find the current channels that are supported and where to get more information.</p>
+<p>IBM watsonx Assistant for Z can integrate with other delivery channels beyond a web page. Other channels include Slack, Microsoft teams, WhatsApp, and many others. Integrating with these and other channels are not covered in the lab guide. However, follow the steps to find the current channels that are supported and where to get more information.</p>
 <ol>
 <li>
 <p>Hover over the <strong>Home</strong> (<a class="glightbox" href="../_attachments/homeIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/homeIcon.png"></a>) and click <strong>Integrations</strong>.</p>
@@ -3388,7 +3386,7 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 </li>
 <li>
 <p>Review the step-by-step instructions and additional information available for adding a Slack integration.</p>
-<p><strong>Note</strong>: Most users will not have permissions to integrate with your enterprise slack deployment as doing so requires administrative rights.</p>
+<p><strong>Note</strong>: Most regular users do not have permissions to integrate with your enterprise slack deployment as doing so requires administrative rights.</p>
 <p><a class="glightbox" href="../_attachments/integrations-4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/integrations-4.png"></a></p>
 </li>
 </ol>
@@ -3396,9 +3394,9 @@ In this case, “product_docs” is the weight that is assigned to “ibm_indice
 <p>Learn more about adding integrations <a href="https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-deploy-integration-add" target="_blank">here</a>.</p>
 <!-- Terminology -->
 <!-- Keep the list alphabetized for easy deduplication --></div></section><section class="print-page" id="nextsteps"><div><h1 id="next-steps">Next steps<a class="headerlink" href="#nextsteps-next-steps" title="Permanent link">#</a></h1>
-<p>This lab guide covered many of the IBM watsonx Assistant for Z capabilities and provides a good base for conducting basic client pilots. However, there is still more to learn about IBM watsonx Assistant for Z. Updates and new releases of the offering and the underlying offerings like watsonx Orchestrate rollout on a regular basis. Be sure to stay informed by bookmarking and regularly reviewing the <a href="https://www.ibm.com/products/watsonx-assistant-for-z?mhsrc=ibmsearch_a&amp;mhq=Watsonx%20assistant%20for%20z" target="_blank">offering landing page</a> and the <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x" target="_blank">product documentation</a>. </p>
-<h2 id="nextsteps-additional-resources">Additional resources<a class="headerlink" href="#nextsteps-additional-resources" title="Permanent link">#</a></h2>
-<p>The following resources are also available; however, not all are available to business partners:</p>
+<p>This lab guide covered many of the IBM watsonx Assistant for Z capabilities and provides a good base for conducting basic client pilots. However, there is still more to learn about IBM watsonx Assistant for Z. Updates and new releases of the offering and the underlying offerings like watsonx Orchestrate rollout regularly. Be sure to stay informed by bookmarking and regularly reviewing the <a href="https://www.ibm.com/products/watsonx-assistant-for-z?mhsrc=ibmsearch_a&amp;mhq=Watsonx%20assistant%20for%20z" target="_blank">offering landing page</a> and the <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x" target="_blank">product documentation</a>. </p>
+<h2 id="nextsteps-other-resources">Other resources<a class="headerlink" href="#nextsteps-other-resources" title="Permanent link">#</a></h2>
+<p>The following resources are also available; however, not all are available to Business Partners:</p>
 <p>Slack channel: <a href="https://ibm.enterprise.slack.com/archives/C07ARLXF2R1" target="_blank">#watsonx-assistant-z-technical</a></p>
 <p>Wiki: <a href="https://pages.github.ibm.com/wxa4z/wiki/" target="_blank">Development team's wiki</a></p>
 <p>Box: <a href="https://ibm.box.com/s/f19a7r8h1omgqgtff8jfj8d4szd2kg4b" target="_blank">wxa4z Q&amp;A - questions with high-quality responses</a>.</p>

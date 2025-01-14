@@ -750,15 +750,15 @@
 
 
 <div><h1 id="creating-a-stand-alone-opensearch-instance-for-document-ingestion">Creating a stand-alone OpenSearch instance for document ingestion<a class="headerlink" href="#creating-a-stand-alone-opensearch-instance-for-document-ingestion" title="Permanent link">#</a></h1>
-<p>Now that you’ve created and deployed your own assistant with conversational search capabilities, your client can understand how watsonx Assistant for Z provides its content-grounded responses to any Z related question they might have. In the previous section, you configured your assistant to use a pre-configured Z <abbr title="Retrieval augmented generation">RAG</abbr> which has over 220 knowledge sources, and uses this knowledge to provide <abbr title="Artificial intelligence">AI</abbr> generated responses. </p>
-<p>In this section, learn to enable clients to personalize the assistant with an internal knowledge base that contains documentation they’d like to ingest into the Retrieval Augmented Generation (<abbr title="Retrieval augmented generation">RAG</abbr>). This will help provide a level of context-awareness for their own environment when asking environment-specific questions to the assistant.</p>
-<p>In this section, install and configure a “Z <abbr title="Retrieval augmented generation">RAG</abbr>” on Red Hat OpenShift enabling the bring-your-own-documentation (<abbr title="Bring Your Own Documentation">BYOD</abbr>) capability to ingest additional documentation beyond the pre-loaded IBM documentation. In doing so, you will deploy a dedicated <a href="https://opensearch.org/">OpenSearch</a> instance, referred to as bring-your-own-search (<abbr title="Bring Your Own Search">BYOS</abbr>). Then, connect your assistant  to the new new <abbr title="Retrieval augmented generation">RAG</abbr> database to provide responses based on the ingested documentation. </p>
-<p>Below is a high-level, logical architecture of the environment you will deploy in this section.</p>
+<p>Now that you created and deployed your own assistant with conversational search capabilities, your client can understand how watsonx Assistant for Z provides its content-grounded responses to any Z-related questions. In the previous section, you configured your assistant to use a pre-configured Z <abbr title="Retrieval augmented generation">RAG</abbr> that has over 220 knowledge sources, and uses this knowledge to provide <abbr title="Artificial intelligence">AI</abbr>-generated responses. </p>
+<p>Next, learn to enable clients to personalize the assistant with an internal knowledge base that contains documentation they add to the Retrieval Augmented Generation (<abbr title="Retrieval augmented generation">RAG</abbr>). This helps provide a level of context-awareness for their own environment when environment-specific questions are asked to the assistant.</p>
+<p>Now, install and configure a “Z <abbr title="Retrieval augmented generation">RAG</abbr>” on Red Hat OpenShift enabling the bring-your-own-search (<abbr title="Bring Your Own Search">BYOS</abbr>) and bring-your-own-documentation (<abbr title="Bring Your Own Documentation">BYOD</abbr>) capability to ingest other documentation. In doing so, you deploy a dedicated <a href="https://opensearch.org/">OpenSearch</a> instance (<abbr title="Bring Your Own Search">BYOS</abbr>). Then, connect your assistant to the new <abbr title="Retrieval augmented generation">RAG</abbr> database to provide responses based on the ingested documentation (<abbr title="Bring Your Own Documentation">BYOD</abbr>). </p>
+<p>Below is a high-level, logical architecture of the environment deployed in this section.</p>
 <p><a class="glightbox" href="../_attachments/LabArchitecture-Lab%202%20-%20a.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/LabArchitecture-Lab%202%20-%20a.png"></a></p>
 <p>Earlier, you provisioned three IBM Technology Zone (<abbr title="IBM Technology Zone">ITZ</abbr>) environments. One of which was a single-node Red Hat OpenShift (<abbr title="Single-node Red Hat OpenShift">SNO</abbr>) cluster. If you have not reserved this environment, or it is not in the <strong>Ready</strong> state, return to the 
 <a href="../../TechZoneEnvironment/">IBM Technology Zone environment</a> section to complete the reservation.</p>
-<h2 id="install-the-red-hat-openshift-command-line-interface-utility">Install the Red Hat OpenShift command-line interface utility<a class="headerlink" href="#install-the-red-hat-openshift-command-line-interface-utility" title="Permanent link">#</a></h2>
-<p>The Red Hat OpenShift command-line interface (<abbr title="Command Line Interface">CLI</abbr>) utility, which is known as <strong>oc</strong>, must be installed on your local workstation. If you already installed the <strong>oc</strong> utility, you can proceed to <a href="#Login2OpenShift">log in to the <abbr title="Single-node Red Hat OpenShift">SNO</abbr> cluster</a>.</p>
+<h2 id="install-the-red-hat-openshift-command-line-interface-utility">Install the Red Hat OpenShift command line interface utility<a class="headerlink" href="#install-the-red-hat-openshift-command-line-interface-utility" title="Permanent link">#</a></h2>
+<p>The Red Hat OpenShift command line interface (<abbr title="Command Line Interface">CLI</abbr>) utility, which is known as <strong>oc</strong>, must be installed on your local workstation. If you already installed the <strong>oc</strong> utility, you can proceed to <a href="#Login2OpenShift">log in to the <abbr title="Single-node Red Hat OpenShift">SNO</abbr> cluster</a>.</p>
 <ol>
 <li>
 <p>Click the following link to open a browser window to your <abbr title="IBM Technology Zone">ITZ</abbr> reservations.</p>
@@ -788,7 +788,7 @@
 <li>
 <p>Click the link under <strong>oc - OpenShift Command Line Interface (<abbr title="Command Line Interface">CLI</abbr>)</strong> for the operating system of your local machine.</p>
 <p><a class="glightbox" href="../_attachments/SNOoCPDownload.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOoCPDownload.png"></a></p>
-<p>Clicking the preceding link automatically downloads either a <strong>.zip</strong> or <strong>.tar</strong> file specific to your operating system. Unzip or untar the file. Place the <strong>oc</strong> binary for your operating system (<abbr title="Operating System">OS</abbr>) in a directory that is in your default PATH, or set the PATH environment variable to include the location of the <strong>oc</strong> binary.</p>
+<p>Clicking the preceding link automatically downloads either a <strong>.zip</strong> or <strong>.tar</strong> file specific to your operating system. Extract the file's content. Place the <strong>oc</strong> binary for your operating system (<abbr title="Operating System">OS</abbr>) in a directory that is in your default PATH, or set the PATH environment variable to include the location of the <strong>oc</strong> binary.</p>
 </li>
 <li>
 <p>Verify the installation by running the <strong>oc</strong> command on your local workstation.</p>
@@ -870,7 +870,7 @@ Sample output:
 <h3 id="install-ibm-certificate-manager-on-red-hat-openshift">Install IBM Certificate Manager on Red Hat OpenShift<a class="headerlink" href="#install-ibm-certificate-manager-on-red-hat-openshift" title="Permanent link">#</a></h3>
 <ol>
 <li>
-<p>In a text editor, create a file named <code>catalogCertManager.yaml</code> and paste the following text in the file.</p>
+<p>In a text editor, create a file that is named <code>catalogCertManager.yaml</code> and paste the following text in the file.</p>
 <div class="admonition important">
 <p class="admonition-title">Formatting of the yaml file is critical!</p>
 <p>The content of the YAML file must be formatted exactly as shown. Use the <strong>Copy</strong> icon to prevent typographical errors.</p>
@@ -920,7 +920,7 @@ Sample output:
 <p class="admonition-title">Be patient.</p>
 <p>It may take a minute or two for the <strong>IBM Cert Manager</strong> tile to appear. </p>
 </div>
-<p><strong>Note</strong>: The current version of the operator may differ than the one shown in the image below. Select the most current version.</p>
+<p><strong>Note</strong>: The current version of the operator may differ than shown in the image below. Select the most current version.</p>
 <p><a class="glightbox" href="../_attachments/SNOOCPOperator3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SNOOCPOperator3.png"></a></p>
 </li>
 <li>
@@ -948,8 +948,8 @@ Sample output:
 <p>Create or obtain your IBM Container Software production entitlement key.</p>
 <p>A production entitlement key is required to pull the container images that get deployed by the operator.</p>
 <p>To create or retrieve your existing entitlement key, follow the instructions <a href="https://myibm.ibm.com/products-services/containerlibrary" target="_blank">here</a>.</p>
-<p>If additional assistance is needed, refer to this <a href="https://github.ibm.com/alchemy-registry/image-iam/blob/master/obtaining_entitlement.md" target="_blank">site</a>. </p>
-<p>After locating your existing key or creating a new key, continue to the next step.</p>
+<p>If extra assistance is needed, refer to this <a href="https://github.ibm.com/alchemy-registry/image-iam/blob/master/obtaining_entitlement.md" target="_blank">site</a>. </p>
+<p>Locate your existing key or create a new one and continue to the next step.</p>
 </li>
 <li>
 <p>Click <strong>copy</strong> and record your entitlement key for future use in a secure location.</p>
@@ -976,7 +976,7 @@ Sample output:
 <p><a class="glightbox" href="../_attachments/createPullSecret.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/createPullSecret.png"></a></p>
 </li>
 <li>
-<p>In a text editor, create a file named <code>catalogSource.yaml</code> and paste the following text in the file.</p>
+<p>In a text editor, create a file that is named <code>catalogSource.yaml</code> and paste the following text in the file.</p>
 <div class="admonition important">
 <p class="admonition-title">Formatting of the yaml file is critical!</p>
 <p>The content of YAML files must be formatted exactly as shown. Use the copy icon to prevent typographical errors.</p>
@@ -1015,12 +1015,12 @@ Sample output:
 <p class="admonition-title">Be patient.</p>
 <p>It may take a minute or two for the <strong>IBM watsonx Assistant for Z Operator Catalog</strong> tile to appear. </p>
 </div>
-<p><strong>Note</strong>: The current version of the operator may differ than the one shown in the image below.</p>
+<p><strong>Note</strong>: The current version of the operator may differ than that shown in the image below.</p>
 <p><a class="glightbox" href="../_attachments/installAssistantOperator1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/installAssistantOperator1.png"></a></p>
 </li>
 <li>
 <p>Click <strong>Install</strong>.</p>
-<p><strong>Note</strong>: The current version of the operator may differ than the one shown in the image below. Select the most current version.</p>
+<p><strong>Note</strong>: The current version of the operator may differ than the one shown in the image after this. Select the most current version.</p>
 <p><a class="glightbox" href="../_attachments/installAssistantOperator2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/installAssistantOperator2.png"></a></p>
 </li>
 <li>
@@ -1063,7 +1063,7 @@ Sample output:
 <h3 id="deploy-required-secrets-and-the-custom-bring-your-own-search-byosearch-resources">Deploy required secrets and the custom bring-your-own-search (BYOSearch) resources<a class="headerlink" href="#deploy-required-secrets-and-the-custom-bring-your-own-search-byosearch-resources" title="Permanent link">#</a></h3>
 <ol>
 <li>
-<p>In a text editor, create a file named <code>os-secret.yaml</code> and paste the following text in the file.</p>
+<p>In a text editor, create a file that is named <code>os-secret.yaml</code> and paste the following text in the file.</p>
 <p>File name: 
 </p><div class="highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>os-secret.yaml
 </span></code></pre></div>
@@ -1088,7 +1088,7 @@ Sample output:
 <p><a name="AuthKey"></a></p>
 <ol start="3">
 <li>
-<p>In a text editor, create a file named <code>client-ingestion-secret.yaml</code> and paste the following text in the file.</p>
+<p>In a text editor, create a file that is named <code>client-ingestion-secret.yaml</code> and paste the following text in the file.</p>
 <p>File name: 
 </p><div class="highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>client-ingestion-secret.yaml
 </span></code></pre></div>
@@ -1110,7 +1110,7 @@ Sample output:
 </span></code></pre></div>
 </li>
 <li>
-<p>In a text editor, create a file named <code>wrapper-creds.yaml</code> and paste the following text in the file.</p>
+<p>In a text editor, create a file that is named <code>wrapper-creds.yaml</code> and paste the following text in the file.</p>
 <p>File name: 
 </p><div class="highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>wrapper-creds.yaml
 </span></code></pre></div>
@@ -1143,7 +1143,7 @@ Sample output:
 <p><strong>Note</strong>: The output of the command will be a string similar to: <strong>apps.672b79320c7a71b728e523b4.ocp.techzone.ibm.com</strong></p>
 </li>
 <li>
-<p>In a text editor, create a file named <code>byos.yaml</code> and paste the following text in the file.</p>
+<p>In a text editor, create a file that is named <code>byos.yaml</code> and paste the following text in the file.</p>
 <p>File name: 
 </p><div class="highlight"><pre><span></span><code><span id="__span-28-1"><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>byos.yaml
 </span></code></pre></div>
@@ -1236,15 +1236,15 @@ You are now ready to configure your assistant with the route to your <abbr title
 </li>
 <li>
 <p>Update your assistant's custom search integration <abbr title="Uniform Resource Locator">URL</abbr>.</p>
-<p>Next, you need to return to your assistant in the watsonx Orchestrate <abbr title="Artificial intelligence">AI</abbr> assistant builder and update the custom search integration <abbr title="Uniform Resource Locator">URL</abbr>. Use the <abbr title="Uniform Resource Locator">URL</abbr> form the network route (with <strong>/v1/query</strong>) appended. Use <strong>admin</strong> for the <strong>Username</strong> and the <strong>Password</strong> will be the password you specified in the <code>wrapper-creds.yaml</code> file. </p>
+<p>Next, you need to return to your assistant in the watsonx Orchestrate <abbr title="Artificial intelligence">AI</abbr> assistant builder and update the custom search integration <abbr title="Uniform Resource Locator">URL</abbr>. Use the <abbr title="Uniform Resource Locator">URL</abbr> form the network route (with <strong>/v1/query</strong>) appended. Use <strong>admin</strong> for the <strong>Username</strong> and the <strong>Password</strong> will be the password that you specified in the <code>wrapper-creds.yaml</code> file. </p>
 <div class="admonition tip">
 <p class="admonition-title">Don't recall how to set the customer search <abbr title="Uniform Resource Locator">URL</abbr>?</p>
 <p>Refer back to <a href="../../Setup/creatingAssistant-configuringConvoSearch/#configure-conversational-search">Creating an assistant and configuring conversational search</a> if you don't remember how to specify the customer search <abbr title="Uniform Resource Locator">URL</abbr>.</p>
 </div>
 </li>
 <li>
-<p>Test your assistant and verify it is still answering question related to IBM Z.</p>
-<p>Experiment with different prompts and validate that the answers provided are reasonable, and that you can view the documentation that was sourced. If responses are not received as expected, verify the <abbr title="Uniform Resource Locator">URL</abbr> is formatted correctly and you specified the <code>`wrapper-creds.yaml</code> password as the <strong>admin</strong> password.</p>
+<p>Test your assistant and verify that it is still answering questions that are related to IBM Z.</p>
+<p>Experiment with different prompts and validate that the answers provided are reasonable, and that you can view the documentation that was sourced. If responses are not received as expected, verify that the <abbr title="Uniform Resource Locator">URL</abbr> is formatted correctly and you specified the <code>`wrapper-creds.yaml</code> password as the <strong>admin</strong> password.</p>
 </li>
 </ol>
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">#</a></h2>

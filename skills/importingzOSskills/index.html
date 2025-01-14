@@ -750,7 +750,7 @@
 
 
 <div><h1 id="importing-pre-packaged-zos-skills">Importing pre-packaged z/<abbr title="Operating System">OS</abbr> skills<a class="headerlink" href="#importing-pre-packaged-zos-skills" title="Permanent link">#</a></h1>
-<p>Provided with Version 2 of watsonx Assistant for Z is a set of pre-packaged skills which can be used to automate various tasks on z/<abbr title="Operating System">OS</abbr>, such as running different console commands and retrieving logs from batch jobs.</p>
+<p>Provided with Version 2 of watsonx Assistant for Z is a set of pre-packaged skills. These skills are used to automate various tasks on z/<abbr title="Operating System">OS</abbr>, such as running different console commands and retrieving logs from batch jobs.</p>
 <p>The list of pre-packaged skills available include:</p>
 <ul>
 <li>
@@ -763,7 +763,7 @@
 <p>Display zOS parmlib datasets</p>
 </li>
 <li>
-<p>Unix System services options</p>
+<p>UNIX System Services options</p>
 </li>
 <li>
 <p>Display zOS subsystems</p>
@@ -781,15 +781,15 @@
 <p>Retrieve z/<abbr title="Operating System">OS</abbr> Management Facility (<abbr title="IBM z/OS Management Facility">OSMF</abbr>) job status</p>
 </li>
 </ul>
-<p>IBM watsonx Orchestrate requires that any <abbr title="IBM z/OS Management Facility">OSMF</abbr> environment you connect to for skill execution has certificate authority (CA) signed certificates. In the case of the Ansible Automation Platform (<abbr title="Ansible Automation Platform">AAP</abbr>) &amp; Wazi z/<abbr title="Operating System">OS</abbr> environment provisioned in IBM Technology Zone (<abbr title="IBM Technology Zone">ITZ</abbr>), the z/<abbr title="Operating System">OS</abbr> system is not currently using CA signed certificates and therefore cannot execute the pre-packaged skills on your own z/<abbr title="Operating System">OS</abbr> system. For demo purposes, it is still recommended to import them so that the pre-packaged skills can be shown. </p>
-<p>Work is in progress to modify the <abbr title="IBM Technology Zone">ITZ</abbr> environments so that they are enabled for skill execution using these pre-packaged skills. In the meantime, the underlying automation for these pre-packaged skills can still be demonstrated using the Ansible skill ‘z/<abbr title="Operating System">OS</abbr> Operator Command’ which is available to import. This works because the pre-packaged skills are executing console commands directly using <abbr title="IBM z/OS Management Facility">OSMF</abbr> <abbr title="Application Programming Interfaces">APIs</abbr> which can also be run using the Ansible template skill ‘z/<abbr title="Operating System">OS</abbr> Operator command’. For example, here are the console commands being used in some of the pre-packaged skills:</p>
+<p>IBM watsonx Orchestrate requires that any <abbr title="IBM z/OS Management Facility">OSMF</abbr> environment you connect to for skill execution has certificate authority (CA) signed certificates. </p>
+<p>As an example, the following are console commands that are used in some of the pre-packaged skills:</p>
 <ul>
 <li>Authorized Program list – <code>operator command -&gt; d prog,lnklist</code></li>
 <li>z/<abbr title="Operating System">OS</abbr> <abbr title="Initial Program Load">IPL</abbr> Information - <code>operator command -&gt; d iplinfo</code></li>
 <li>Display zOS parmlib datasets - <code>operator command -&gt; d parmlib</code></li>
 </ul>
-<p>You can import the pre-packaged skills into your sandbox environment by downloading the .zip file from <a href="https://ibm.box.com/s/fs0keb7mhbovv0dhnls4h9akmbsjiubd" target="_blank"> here</a> and following <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=importing-prepackaged-zos-skills" target="_blank">these instructions</a>.</p>
-<p>You must extract the imbedded JSON file and modify the file for your environment by following <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=files-building-skills-from" target="_blank">these instructions</a>.</p>
+<p>You can import the pre-packaged skills to your sandbox environment by downloading the compressed file <a href="https://ibm.box.com/s/fs0keb7mhbovv0dhnls4h9akmbsjiubd" target="_blank">here</a> and following <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=importing-prepackaged-zos-skills" target="_blank">these instructions</a>.</p>
+<p>Extract the embedded JSON file and modify the file for your environment by following <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=files-building-skills-from" target="_blank">these instructions</a>.</p>
 <!-- Terminology -->
 <!-- Keep the list alphabetized for easy deduplication --></div>
 

@@ -748,8 +748,8 @@
 
 
 <div><h1 id="creating-an-assistant-and-configuring-conversational-search">Creating an assistant and configuring conversational search<a class="headerlink" href="#creating-an-assistant-and-configuring-conversational-search" title="Permanent link">#</a></h1>
-<p><a href="https://www.ibm.com/products/watsonx-orchestrate?p1=Search&amp;p4=43700077722754881&amp;p5=e&amp;p9=58700008198244496&amp;gad_source=1&amp;gclsrc=ds">Watsonx Orchestrate</a> enables you to create and configure an assistant with conversational search capabilities. Configure your assistant to use conversational search by leveraging a hosted <a href="https://opensearch.org/">OpenSearch</a> instance. The pre-configured instance of watsonx Orchestrate in IBM Technology Zone (<abbr title="IBM Technology Zone">ITZ</abbr>) boasts over 220 knowledge sources and supports Retrieval Augmented Generation (<abbr title="Retrieval augmented generation">RAG</abbr>). The large language model (<abbr title="Large language model">LLM</abbr>) providing conversational <abbr title="Artificial intelligence">AI</abbr> augments this knowledge based on IBM Z documentation, generating IBM Z context-aware responses to queries with content-grounded knowledge.</p>
-<p>Below is a high-level, logical architecture of the environment you will deploy in this section.</p>
+<p><a href="https://www.ibm.com/products/watsonx-orchestrate?p1=Search&amp;p4=43700077722754881&amp;p5=e&amp;p9=58700008198244496&amp;gad_source=1&amp;gclsrc=ds">Watsonx Orchestrate</a> allows you to create and configure an assistant with conversational search capabilities. Configure your assistant to use conversational search by using a hosted <a href="https://opensearch.org/">OpenSearch</a> instance. The pre-configured instance of watsonx Orchestrate in IBM Technology Zone (<abbr title="IBM Technology Zone">ITZ</abbr>) boasts over 220 knowledge sources and supports Retrieval Augmented Generation (<abbr title="Retrieval augmented generation">RAG</abbr>). The large language model (<abbr title="Large language model">LLM</abbr>) providing conversational <abbr title="Artificial intelligence">AI</abbr> augments this knowledge based on IBM Z documentation, generating IBM Z context-aware responses to queries with content-grounded knowledge.</p>
+<p>A high-level, logical architecture of the environment is illustrated in the following diagram.</p>
 <p><a class="glightbox" href="../_attachments/LabArchitecture-Lab%201.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/LabArchitecture-Lab%201.png"></a></p>
 <h2 id="access-the-itz-ibm-cloud-account-for-the-watsonx-assistant-for-z-pilot-environment">Access the <abbr title="IBM Technology Zone">ITZ</abbr> IBM Cloud account for the watsonx Assistant for Z Pilot environment<a class="headerlink" href="#access-the-itz-ibm-cloud-account-for-the-watsonx-assistant-for-z-pilot-environment" title="Permanent link">#</a></h2>
 <ol>
@@ -855,7 +855,7 @@
 <li>
 <p>Complete the <strong>Custom service</strong> (<strong>a-e</strong>) form and then click <strong>Next</strong> (<strong>f</strong>).</p>
 <p><strong>a</strong>. Select <strong>By providing credentials</strong>.</p>
-<p><strong>b</strong>. Enter the following value in the <strong><abbr title="Uniform Resource Locator">URL</abbr></strong> field (use the copy icon to avoid typographical errors). This is the <abbr title="Uniform Resource Locator">URL</abbr> for the a shared <a href="https://opensearch.org/">OpenSearch</a> instance. In later sections you will created and customize a dedicated instance.
+<p><strong>b</strong>. Enter the following value in the <strong><abbr title="Uniform Resource Locator">URL</abbr></strong> field (use the copy icon to avoid typographical errors). This is the <abbr title="Uniform Resource Locator">URL</abbr> for the shared <a href="https://opensearch.org/">OpenSearch</a> instance. In later sections, you create and customize a dedicated instance.
 </p><div class="highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>https://wxa4z-opensearch-wrapper-wxa4z-demo-v2-1-0.wxo4z-opc-opensearch-clus-47e063e6a3ad1f71bf2e58f91c3b4c2e-0000.us-south.containers.appdomain.cloud/v1/query
 </span></code></pre></div>
 <p><strong>c</strong>. Select <strong>Basic authentication</strong> in the <strong>Choose an authentication type</strong> drop-down list.</p>
@@ -912,7 +912,7 @@
 <p><a class="glightbox" href="../_attachments/genAIActionsSetByAssistantMenu3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/genAIActionsSetByAssistantMenu3.png"></a></p>
 </li>
 <li>
-<p>Select <strong>without conditions</strong>  (<strong>a</strong>) in the <strong>Is taken</strong> drop-down menu and then click <strong>Clear conditions</strong> (<strong>b</strong>).</p>
+<p>Select <strong>without conditions</strong> (<strong>a</strong>) in the <strong>Is taken</strong> drop-down menu and then click <strong>Clear conditions</strong> (<strong>b</strong>).</p>
 <p><strong>Note</strong>: the <strong>Is taken</strong> value does not change from <strong>with conditions</strong> after selecting <strong>without conditions</strong>.</p>
 <p><a class="glightbox" href="../_attachments/genAIActionsSetByAssistantMenu4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/genAIActionsSetByAssistantMenu4.png"></a></p>
 </li>
@@ -1024,8 +1024,8 @@
 </li>
 </ol>
 <h2 id="configure-the-base-large-language-model">Configure the base large language model<a class="headerlink" href="#configure-the-base-large-language-model" title="Permanent link">#</a></h2>
-<p>After the preceding steps are completed, there are enhancements you can make to configure how the large language model (<abbr title="Large language model">LLM</abbr>) responds to your queries including adding prompt instructions and configuring the <abbr title="Large language model">LLM</abbr>’s answer behavior.
-These options can be summarized <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=assistant-configuring-base-llm" target="_blank">here</a>.</p>
+<p>There are enhancements that you can make to configure how the large language model (<abbr title="Large language model">LLM</abbr>) responds to your queries, including adding prompt instructions and configuring the <abbr title="Large language model">LLM</abbr>’s answer behavior.
+The options are summarized <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=assistant-configuring-base-llm" target="_blank">here</a>.</p>
 <ol>
 <li>
 <p>Hover over the <strong>Home</strong> (<a class="glightbox" href="../_attachments/homeIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/homeIcon.png"></a>) and click <strong>Generative <abbr title="Artificial intelligence">AI</abbr></strong>.</p>
@@ -1049,13 +1049,13 @@ These options can be summarized <a href="https://www.ibm.com/docs/en/watsonx/waz
 <p>Toggle <strong>General-purpose answering</strong> to <strong>Off</strong> and then click <strong>Save</strong> (<a class="glightbox" href="../_attachments/diskIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/diskIcon.png"></a>).</p>
 <p>The ability exists to configure the answering behavior of your assistant to provide responses that are based on the preinstalled content or general content.</p>
 <p>On the <strong>Generative <abbr title="Artificial intelligence">AI</abbr></strong> page (under <strong>Prompt Instructions</strong>), you see the <strong>Answer behavior</strong> section. After you configure <strong>Conversational search</strong>, you see that it is enabled (toggled on) with the search integration added.</p>
-<p>If you enable both general-purpose answering as well as conversational search, the conversational search answering takes precedence over General-purpose answering. </p>
+<p>If you enable both general-purpose answering and conversational search, conversational search answering takes precedence over General-purpose answering. </p>
 <p><strong>Recommendation</strong>: For purposes of retrieving Z-specific answers and responses, it is recommended that you turn off general-purpose answering and leave only conversational search turned on.</p>
 <p><a class="glightbox" href="../_attachments/genAIGenAI4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/genAIGenAI4.png"></a></p>
 </li>
 </ol>
 <h2 id="testing-conversational-search">Testing conversational search<a class="headerlink" href="#testing-conversational-search" title="Permanent link">#</a></h2>
-<p>Now you can begin issuing queries to test the assistant's responses. For more detailed responses, try appending "Please provide a detailed response." to the end of your question.</p>
+<p>Now, you can begin issuing queries to test the assistant's responses. For more detailed responses, try appending "Please provide a detailed response." to the end of your question.</p>
 <p><strong>Important</strong>: Modify settings iteratively based on your assessment of response quality. Review and change them at any time. For example, add extra prompt instructions, change response verbosity, and modify OpenSearch indexes.</p>
 <ol>
 <li>
