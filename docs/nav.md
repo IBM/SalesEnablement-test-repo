@@ -4,7 +4,7 @@
 * Bring your own search and documents
     * [Create a stand-alone OpenSearch instance for document ingestion](byosd/documentIngestion.md)
     * [Install and use zassist to ingest client documents](byosd/zassist.md)
-* Adding skills to the assistant
+* Skills and skill flows
     * [Get started with skills and actions](skills/gettingStartedSkills.md)
     * [Explore Ansible Automation Platform](skills/exploreAAP.md)
     * [Import skills from Ansible Automation Platform](skills/importSkills.md)
