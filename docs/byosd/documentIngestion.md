@@ -550,7 +550,7 @@ You are now ready to configure your assistant with the route to your BYOS instan
     
     !!! tip "Don't recall how to set the customer search URL?"
 
-        Refer back to [Creating an assistant and configuring conversational search](creatingAssistant-configuringConvoSearch.md#configure-conversational-search) if you don't remember how to specify the customer search URL.
+        Refer back to [Creating an assistant and configuring conversational search](../Setup/creatingAssistant-configuringConvoSearch.md#configure-conversational-search) if you don't remember how to specify the customer search URL.
 
 3. Test your assistant and verify it is still answering question related to IBM Z.
 

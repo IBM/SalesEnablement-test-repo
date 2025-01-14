@@ -74,19 +74,95 @@ Step-by-step guidance for ingesting documents using **zassist** is provided in t
 
 2. Unzip or extract the ```BYOD.zip``` file.
 3. Change to the ```BYOD``` directory.
-4. Using the **zassist** product documentation, ingest and load all the files in the **dev** and **ops** directories from the extracted ```BYOD.zip``` file.
+4. Set the `TLS_VERIFY` environment variable to `false`.
 
-    Follow all the directions <a href="https://www.ibm.com/docs/en/watsonx/waz/2.x?topic=data-ingesting" target="_blank">here</a> (including the optional steps) to ingest documents using **zassist**. The steps are not repeated in this lab guide so that you get a first hand experience using the product documentation. You will need to adjust the commands to use the extracted ```dev``` and ```ops``` directories.
+    Mac OS:
+    ```
+    export TLS_VERIFY=false
+    ```
+
+    Windows OS:
+    ```
+    set TLS_VERIFY=false
+    ```
+
+5. Initialize the `zassist` environment.
+
+    ```
+    zassist init
+    ```
+
+6. Retrieve the server URL for the client ingestion server.
+
+    ```
+    echo https://$(oc -n wxa4z-byos get route wxa4z-client-ingestion -o jsonpath="{.spec.host}")
+    ```
+    The output of this command is your unique URL for your client ingestion server. 
+
+    ??? Failure "If the command doesn’t work for you..."
     
-    The following video illustrates the steps to ingest a single document. 
+        You can retrieve the URL in your OCP Web console by navigating to Networking Routes and then copy the URL for the wxa4z-client-ingestion route.
 
-    **Note**: The video has no audio.
+7. Retrieve the `client-ingestion-authkey`.
 
-    ![type:video](_videos/zassitIngest-final.mp4){: .print-site-plugin-ignore }
+    ```
+    oc -n wxa4z-byos get secret client-ingestion-authkey -o jsonpath="{.data.authkey}" | base64 -d
+    ```
 
-    ??? Info "Don't see the video in the PDF version of the lab guide?"
+    The output of this command is your unique auth-key that you had previously set. You will need the output of both previous commands in the next step. 
+    
+    
+    ??? Failure "If the command doesn’t work for you..."
+        
+        You can find your `authkey` value by viewing the `client-ingestion-secret.yaml` file you created and copying the value set for the `authkey` parameter. 
 
-        If you are viewing the <a href="{{guide.pdf}}" target="_blank">PDF</a> of the lab guide, you can access the video <a href="https://ibm.github.io/SalesEnablement-L4-watsonx-AssistantForZ/Setup/_videos/zassitIngest-final.mp4" target="_blank">here</a>.
+8. Login to your server. Replace `<server url>` with the value from step 6.
+
+    ```
+    zassist login <server url>
+    ```
+
+9. When prompted, enter the password from step 7. A **Success** message should be received.
+
+10. Verify `zassist` is ready to ingest documents by checking the status.
+
+    ```
+    zassist status
+    ```
+
+    ![](_attachments/zinitsummary.png)
+
+11. Ingest the documentation using the commands below.
+
+    You will now ingest and load the three documents provided by the client into the Z RAG so that it’s available to your assistant for conversational search context. 
+    
+    For the next steps, you should be in the root directory called BYOD.
+
+    ```
+    zassist ingest dev
+    ```
+
+    ```
+    zassist ingest ops
+    ```
+
+12. Upload the ingested documents.
+
+    ```
+    zassist load dev
+    ```
+
+    ```
+    zassist load ops
+    ```
+
+13. Verify all documents were successfully ingested and loaded.
+
+    ```
+    zassist status
+    ```
+
+    ![](_attachments/zassistLoadSuccessful.png)
 
 ## Verify the documents were ingested
 Use the watsonx Orchestrate AI assistant builder to verify your document ingestion.

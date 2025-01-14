@@ -69,6 +69,55 @@ Use these helpful tips to take full advantage of the {{guide.name}}.
 
     A ready-to-print PDF version of the {{guide.name}} is <a href="{{guide.pdf}}" target="_blank">here</a>. 
 
+<a id="cheatsheet"></a>
+??? tip "Create a reference card for storing user IDs, passwords, and links for your ITZ environments."
+
+    You will be creating and using multiple user IDs, passwords, links, and other content throughout the lab. To save time, it is strongly suggested you create a simple text file to store this data so it is readily available and you can easily cut and paste the data when needed.  Here is a template to get you started.
+
+    ```
+    watsonx Assistant for Z - Level 4 shortcuts:
+
+    watsonx Orchestrate
+
+        IBM Cloud account: 
+        IBM Cloud resources: https://cloud.ibm.com/resources
+        watsonx Orchestrate URL: 
+
+        Assistant name: 
+        Assistant description: 
+        Assistant icon: https://ibm.github.io/SalesEnablement-L4-watsonx-AssistantForZ/Setup/_attachments/Zeeves75x75.png
+
+    OpenShift
+
+        Cluster Admin Username: kubeadmin
+        Cluster Admin Password: 
+        OCP Console: 
+
+        IBM Cloud container entitlement key: 
+
+        OS-secret password: 
+        Client ingestion AuthKey: 
+        Wrapper password: 
+        Cluster domain for routes: 
+        Ingestion route (append /v1/query): 
+
+    Ansible
+
+        Ansible Automation Platform URL: 
+        AAP User Name: admin
+        AAP password:
+
+        Wazi User: IBMUSER
+        Wazi Password:
+        Wazi URL: 
+
+    Live Embed
+
+        inetegrationID:
+        region:
+        serviceInstanceID:
+    ```
+
 ??? tip "Viewing images"
 
     Images in the demonstration guide can be enlarged by clicking on the image. Press the ++esc++ key or click the **X** to dismiss the enlarged image.

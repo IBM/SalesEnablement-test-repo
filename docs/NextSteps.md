@@ -5,7 +5,9 @@ This lab guide covered many of the {{offering.name}} capabilities and provides a
 The following resources are also available; however, not all are available to business partners:
 
 Slack channel: <a href="{{supportSlack.url}}" target="_blank">{{supportSlack.name}}</a>
+
 Wiki: <a href="https://pages.github.ibm.com/wxa4z/wiki/" target="_blank">Development team's wiki</a>
+
 Box: <a href="https://ibm.box.com/s/f19a7r8h1omgqgtff8jfj8d4szd2kg4b" target="_blank">wxa4z Q&A - questions with high-quality responses</a>.
 
 ## Earn the badge

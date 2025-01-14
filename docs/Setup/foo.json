@@ -1,6 +1,0 @@
-{"doc_weight":
-{"product_docs":0.5,
- "customer_docs":0.5},
-"ibm_indicies":"*_ibm_docs_slate",
-"customer_indicies":"customer_*"
-}

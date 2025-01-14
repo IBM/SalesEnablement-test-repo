@@ -18,6 +18,8 @@ Below is a high-level, logical architecture of the environment you will deploy i
 
 3. Record the ITZ IBM Cloud account name associated with the reservation.
 
+    **Did you read the tip on the welcome page about creating a reference card? Check it out [here](../index.md#cheatsheet).**
+       
     ![](_attachments/itzMyReservations2.png)
 
 4. Click the **IBM Cloud Login** link.
@@ -130,6 +132,10 @@ In the next steps you will be to configure **conversational search** for your as
 
     **e**. Enter `{{itz.hostedOpenSearchPW}}` in the **Password** field.
 
+    ```
+    {{itz.hostedOpenSearchPW}}
+    ```
+
     ![](_attachments/genAISetupCS2-new.png)
 
 6.  Enable **conversational search** and then click **Save**.
@@ -162,7 +168,7 @@ In the next steps you will be to configure **conversational search** for your as
 
     **h**. Keep the **Default filter** field empty.
 
-    **i**. The **Metadata** field provides a way to adjust your assistant’s behavior during conversational search for your OpenSearch instance. This option is explored in detail in the [Installing and using zassist to ingest client documents](./zassist.md). Leave the field empty for now.
+    **i**. The **Metadata** field provides a way to adjust your assistant’s behavior during conversational search for your OpenSearch instance. This option is explored in detail in the [Installing and using zassist to ingest client documents](../byosd/zassist.md). Leave the field empty for now.
 
     **j**. The **Search display text** options specify the default text displayed when no results are found or when connectivity issues to the backend search service occur. You can keep the defaults or customize the service.
 
@@ -424,7 +430,7 @@ Now you can begin issuing queries to test the assistant's responses. For more de
 
 You have a working assistant that uses IBM Watson Assistant for Z. Explore different prompt instructions and settings. If you encounter issues, refer to the Troubleshooting section that follows for resolution.
 
-Continue to the [Creating a stand-alone OpenSearch instance for document ingestion](documentIngestion.md) to learn how to configure a dedicated OpenSearch instance for ingesting client-specific documentation into the RAG model.
+Continue to the [Creating a stand-alone OpenSearch instance for document ingestion](../byosd/documentIngestion.md) to learn how to configure a dedicated OpenSearch instance for ingesting client-specific documentation into the RAG model.
 
 ## Troubleshooting
 The following are issues that you may encounter. If the provided resolutions do not work, contact support by using the methods that are mentioned in the [Support](../index.md#support) section.

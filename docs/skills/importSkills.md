@@ -2,7 +2,7 @@
 Now that you understand Ansible Automation Platform (AAP) and the preinstalled automations available, you can import them as skills into your watsonx Orchestrate instance, which is used for assistant guided actions.
 
 ## Import skills into your assistant
-The next steps assume that you have an active browser window to the watsonx Orchestrate ITZ cloud account. If you do not, refer to the initial steps in [Creating an assistant and configuring conversational search](creatingAssistant-configuringConvoSearch.md).
+The next steps assume that you have an active browser window to the watsonx Orchestrate ITZ cloud account. If you do not, refer to the initial steps in [Creating an assistant and configuring conversational search](../Setup/creatingAssistant-configuringConvoSearch.md).
 
 1. Return to your watsonx Orchestrate instance and expand the main menu and click **Skill studio**. 
 
