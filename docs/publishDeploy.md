@@ -81,7 +81,7 @@ Follow these steps to publish the first version of your assistant by using Assis
 
     !!! Warning "Use the correct URL and authentication type!"
 
-        Use the URL and credentials for your BYOS OpenSearch engine created earlier [here](documentIngestion.md/#BYOS-url).
+        Use the URL and credentials for your BYOS OpenSearch engine created earlier [here](byosd/documentIngestion.md/#BYOS-url).
 
     ![](_attachments/publish11-new.png)
 
